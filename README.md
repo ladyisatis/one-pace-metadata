@@ -16,7 +16,7 @@ The most pertinent values for this will be `last_update` which is compatible wit
 These are sourced from these files:
 
 - Posters: https://github.com/ladyisatis/one-pace-metadata/tree/main/posters
-- Series Information: https://github.com/ladyisatis/one-pace-metadata/blob/main/arcs.yml
+- Series Information: https://github.com/ladyisatis/one-pace-metadata/blob/main/tvshow.yml
 - Season/Arc Information: https://github.com/ladyisatis/one-pace-metadata/blob/main/arcs.yml
 - Episodes by CRC32: https://github.com/ladyisatis/one-pace-metadata/tree/main/episodes
 
