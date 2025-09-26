@@ -522,11 +522,12 @@ def update():
 
             logger.success(f"Wrote episode to {file_path}")
 
-        arc_path = Path(".", "arcs.yml")
-        with arc_path.open(mode='w') as f:
-            YamlDump(data=out_arcs, stream=f, allow_unicode=True, sort_keys=False)
-
-        logger.success(f"Wrote arcs to {arc_path}")
+        if now.hour % 6 == 0:
+            arc_path = Path(".", "arcs.yml")
+            with arc_path.open(mode='w') as f:
+                YamlDump(data=out_arcs, stream=f, allow_unicode=True, sort_keys=False)
+    
+            logger.success(f"Wrote arcs to {arc_path}")
 
     except:
         logger.critical(f"Uncaught Exception\n{traceback.format_exc()}")
