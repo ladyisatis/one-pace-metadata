@@ -1,5 +1,5 @@
-last_update: '2025-09-26T13:14:51.170780+00:00'
-last_update_ts: 1758892491.17078
+last_update: '2025-09-26T14:06:44.626953+00:00'
+last_update_ts: 1758895604.626953
 base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main
 tvshow:
   title: One Piece
@@ -36,7 +36,19 @@ arcs:
     description: Monkey D. Luffy sets out on an adventure to form a crew, find the
       legendary One Piece, and become the pirate king.
     poster: posters/1/poster.png
-    episodes: {}
+    episodes:
+      '01':
+        crc32: E5F09F49
+        crc32_extended: ''
+      '02':
+        crc32: A465972A
+        crc32_extended: ''
+      '03':
+        crc32: 2DEB2701
+        crc32_extended: ''
+      '04':
+        crc32: 6E46167D
+        crc32_extended: ''
   2:
     part: 2
     saga: East Blue
@@ -46,7 +58,16 @@ arcs:
       Buggy the Clown. They are joined by a young girl named Nami who helps them navigate
       this predicament.
     poster: posters/2/poster.png
-    episodes: {}
+    episodes:
+      '01':
+        crc32: C23AC8D3
+        crc32_extended: ''
+      '02':
+        crc32: D7327225
+        crc32_extended: ''
+      '03':
+        crc32: 1809DA8A
+        crc32_extended: ''
   3:
     part: 3
     saga: East Blue
@@ -55,7 +76,28 @@ arcs:
     description: Luffy's fledgling pirate crew arrives at the slopes of Syrup Village.
       There they find a liar and a conspiracy to steal a young lady's fortune.
     poster: posters/3/poster.png
-    episodes: {}
+    episodes:
+      '01':
+        crc32: A6DDEC2C
+        crc32_extended: ''
+      '02':
+        crc32: 0433686D
+        crc32_extended: ''
+      '03':
+        crc32: 35E9CFA6
+        crc32_extended: ''
+      '04':
+        crc32: 89B18321
+        crc32_extended: ''
+      '05':
+        crc32: 0D3E2158
+        crc32_extended: ''
+      '06':
+        crc32: D08B41AE
+        crc32_extended: ''
+      '07':
+        crc32: EFCC14E1
+        crc32_extended: ''
   4:
     part: 4
     saga: East Blue
