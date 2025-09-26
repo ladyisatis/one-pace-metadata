@@ -1,0 +1,21 @@
+[project]
+name = "onepacemetadata"
+version = "1.0.0"
+description = "One Pace metadata collection for One Pace Organizer and more"
+authors = [
+    {name = "Isatis",email = "git@isatis.blue"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "deepdiff>=8.6.0",
+    "httpx-retries>=0.4.0",
+    "httpx[http2]>=0.28.1",
+    "javaproperties>=0.8.2",
+    "loguru>=0.7.3",
+    "orjson>=3.11.2",
+    "pyyaml>=6.0.2",
+    "rss-parser>=2.1.1"
+]

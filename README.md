@@ -1,2 +1,69 @@
-# one-pace-metadata
-Generated metadata from One Pace via Episode Guide and Descriptions
+# Metadata Updater
+
+## URLs
+
+There are three separate files that are always kept up to date in case you want to develop something with it or keep it up to date:
+
+- **data.json**: Main file that gets updated and referenced.
+  - [https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/metadata/data.json](https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/metadata/data.json)
+- **data.min.json**: More compact version of `data.json` that strips out spacing. (321KB for the main file becomes 251KB here.)
+  - [https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/metadata/data.min.json](https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/metadata/data.min.json)
+- **data.yml**: Main file but in YAML form instead of JSON form.
+  - [https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/metadata/data.yml](https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/metadata/data.yml)
+
+The most pertinent values for this will be `last_update` which is compatible with Python's datetime parser, `last_update_ts` which is compatible with JavaScript's `new Date` parser, and `base_url` in case the metadata provider location changes and there needs to be a reference point for downloading posters.
+
+These are sourced from these files:
+
+- Posters: https://github.com/ladyisatis/one-pace-metadata/tree/main/metadata/posters
+- Series Information: https://github.com/ladyisatis/one-pace-metadata/blob/main/metadata/arcs.yml
+- Season/Arc Information: https://github.com/ladyisatis/one-pace-metadata/blob/main/metadata/arcs.yml
+- Episodes by CRC32: https://github.com/ladyisatis/one-pace-metadata/tree/main/metadata/episodes
+
+This repository will be rarely touched unless things break or to accept Pull Requests.
+
+## Information
+
+The metadata is updated [once per hour](https://github.com/ladyisatis/one-pace-metadata/blob/main/.github/workflows/metadata-job.yml#L4) based upon these two spreadsheets or data points:
+
+- [One Pace Episode Guide](https://docs.google.com/spreadsheets/d/1HQRMJgu_zArp-sLnvFMDzOyjdsht87eFLECxMK858lA/) for CRC32, Manga Chapters, Anime Episodes
+- [One Pace Episode Descriptions](https://docs.google.com/spreadsheets/d/1M0Aa2p5x7NioaH9-u8FyHq6rH3t5s6Sccs8GoC6pHAM/) for descriptions for arcs and episodes
+- [One Pace Subtitles' title.properties](https://raw.githubusercontent.com/one-pace/one-pace-public-subtitles/refs/heads/main/main/title.properties) for `originaltitle` properties, matching the title in the video files.
+
+## YAML (metadata/episodes/*.yml, metadata/arcs.yml, metadata/tvshow.yml)
+
+Metadata is provided in YAML format. Each YAML file is the CRC32 with the .yml extension, e.g. `E5F09F49.yml`.
+
+This CRC32 is based off the 8-character ID-looking thing at the end of the filename, for example: `[One Pace][1] Romance Dawn 01 [1080p][E5F09F49].mkv`
+
+The contents of the `.yml` file:
+
+```
+arc: 1
+episode: 1
+
+title: Romance Dawn, the Dawn of an Adventure
+# originaltitle:
+# sorttitle:
+description: Influenced by the straw-hat-wearing pirate Red-Haired Shanks, an enthusiastic young boy named Monkey D. Luffy dreams of one day becoming King of the Pirates.
+
+chapters: 1
+episodes: Episode of East Blue, 312 (Intro)
+rating: TV-14
+released: 2025-05-03 00:42
+
+hashes: 
+  crc32: E5F09F49
+# blake2: cd1da1484f997a73
+```
+
+If there's two clashing CRC32's:
+- The original `.yml` should be renamed to end with `_1.yml` instead, with the other one renamed to add `_2.yml`.
+  - This ends up as two files, `E5F09F49_1.yml` and `E5F09F49_2.yml`.
+- The `hashes` section becomes required, not optional.
+  - The value of `crc32` is the original CRC32. (`E5F09F49`)
+  - The value of `blake2` is the first 16 characters of the blake2s hash of the file.
+
+If there are new One Pace releases that the automatic updater misses, send a [Pull Request](https://github.com/ladyisatis/one-pace-metadata/pulls) with the added `.yml` in the `metadata/episodes` folder. Already-existing `.yml` files do not get overwritten by the automatic metadata updater.
+
+Note that future One Pace releases are allowed to be submitted as well, though if the CRC32 isn't known, it can be submitted in the format `Season_99_Episode_99.yml` where 99 in both the season and episode is replaced with the actual season number and episode number with no leading zeroes. Any future releases will be renamed once the actual video file is out and the CRC32 is known.
