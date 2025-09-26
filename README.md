@@ -30,7 +30,7 @@ The metadata is updated [once per hour](https://github.com/ladyisatis/one-pace-m
 - [One Pace Episode Descriptions](https://docs.google.com/spreadsheets/d/1M0Aa2p5x7NioaH9-u8FyHq6rH3t5s6Sccs8GoC6pHAM/) for descriptions for arcs and episodes
 - [One Pace Subtitles' title.properties](https://raw.githubusercontent.com/one-pace/one-pace-public-subtitles/refs/heads/main/main/title.properties) for `originaltitle` properties, matching the title in the video files.
 
-## YAML (metadata/episodes/*.yml, metadata/arcs.yml, metadata/tvshow.yml)
+## YAML (episodes/*.yml, arcs.yml, tvshow.yml)
 
 Metadata is provided in YAML format. Each YAML file is the CRC32 with the .yml extension, e.g. `E5F09F49.yml`.
 
@@ -64,6 +64,6 @@ If there's two clashing CRC32's:
   - The value of `crc32` is the original CRC32. (`E5F09F49`)
   - The value of `blake2` is the first 16 characters of the blake2s hash of the file.
 
-If there are new One Pace releases that the automatic updater misses, send a [Pull Request](https://github.com/ladyisatis/one-pace-metadata/pulls) with the added `.yml` in the `metadata/episodes` folder. Already-existing `.yml` files do not get overwritten by the automatic metadata updater.
+If there are new One Pace releases that the automatic updater misses, send a [Pull Request](https://github.com/ladyisatis/one-pace-metadata/pulls) with the added `.yml` in the `episodes` folder. Already-existing `.yml` files do not get overwritten by the automatic metadata updater.
 
 Note that future One Pace releases are allowed to be submitted as well, though if the CRC32 isn't known, it can be submitted in the format `Season_99_Episode_99.yml` where 99 in both the season and episode is replaced with the actual season number and episode number with no leading zeroes. Any future releases will be renamed once the actual video file is out and the CRC32 is known.
