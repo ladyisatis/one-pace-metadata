@@ -5,20 +5,20 @@
 There are three separate files that are always kept up to date in case you want to develop something with it or keep it up to date:
 
 - **data.json**: Main file that gets updated and referenced.
-  - [https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/metadata/data.json](https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/metadata/data.json)
+  - [https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/data.json](https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/data.json)
 - **data.min.json**: More compact version of `data.json` that strips out spacing. (321KB for the main file becomes 251KB here.)
-  - [https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/metadata/data.min.json](https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/metadata/data.min.json)
+  - [https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/data.min.json](https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/data.min.json)
 - **data.yml**: Main file but in YAML form instead of JSON form.
-  - [https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/metadata/data.yml](https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/metadata/data.yml)
+  - [https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/data.yml](https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/data.yml)
 
 The most pertinent values for this will be `last_update` which is compatible with Python's datetime parser, `last_update_ts` which is compatible with JavaScript's `new Date` parser, and `base_url` in case the metadata provider location changes and there needs to be a reference point for downloading posters.
 
 These are sourced from these files:
 
-- Posters: https://github.com/ladyisatis/one-pace-metadata/tree/main/metadata/posters
-- Series Information: https://github.com/ladyisatis/one-pace-metadata/blob/main/metadata/arcs.yml
-- Season/Arc Information: https://github.com/ladyisatis/one-pace-metadata/blob/main/metadata/arcs.yml
-- Episodes by CRC32: https://github.com/ladyisatis/one-pace-metadata/tree/main/metadata/episodes
+- Posters: https://github.com/ladyisatis/one-pace-metadata/tree/main/posters
+- Series Information: https://github.com/ladyisatis/one-pace-metadata/blob/main/arcs.yml
+- Season/Arc Information: https://github.com/ladyisatis/one-pace-metadata/blob/main/arcs.yml
+- Episodes by CRC32: https://github.com/ladyisatis/one-pace-metadata/tree/main/episodes
 
 This repository will be rarely touched unless things break or to accept Pull Requests.
 

@@ -161,7 +161,7 @@ def update():
                     logger.info(f"-- Renaming to: {out_arcs[arc]['title']}")
 
                 try:
-                    poster_path = Path(".", "metadata", "posters", f"{arc}", "poster.png")
+                    poster_path = Path(".", "posters", f"{arc}", "poster.png")
 
                     if not poster_path.exists():
                         poster_path.parent.mkdir(exist_ok=True)
@@ -178,7 +178,7 @@ def update():
                             logger.success(f"-- Saved poster to {poster_path}")
 
                     if poster_path.exists():
-                        out_arcs[arc]['poster'] = f"metadata/posters/{arc}/{poster_path.name}"
+                        out_arcs[arc]['poster'] = f"posters/{arc}/{poster_path.name}"
 
                 except:
                     logger.exception("-- Skipping fetching poster")
@@ -298,7 +298,7 @@ def update():
                             if ep_num in out_arcs[arc_id]["episodes"]:
                                 out_arcs[arc_id]["episodes"][ep_num][crc_key] = crc32
 
-                            if Path(".", "metadata", "episodes", f"{crc32}.yml").exists():
+                            if Path(".", "episodes", f"{crc32}.yml").exists():
                                 logger.warning("-- Skipping: crc32 file exists")
                                 continue
 
@@ -365,7 +365,7 @@ def update():
                                 if ep_num in out_arcs[arc_id]["episodes"]:
                                     out_arcs[arc_id]["episodes"][ep_num][crc_key] = crc32
 
-                                if Path(".", "metadata", "episodes", f"{crc32}.yml").exists():
+                                if Path(".", "episodes", f"{crc32}.yml").exists():
                                     logger.warning("---- Skipping: crc32 file exists")
                                     continue
 
@@ -453,7 +453,7 @@ def update():
         logger.info("--------------------------")
 
         for crc32, data in out_episodes.items():
-            file_path = Path(".", "metadata", "episodes", f"{crc32}.yml")
+            file_path = Path(".", "episodes", f"{crc32}.yml")
 
             arc = data['arc']
             episode = data['episode']
@@ -522,7 +522,7 @@ def update():
 
             logger.success(f"Wrote episode to {file_path}")
 
-        arc_path = Path(".", "metadata", "arcs.yml")
+        arc_path = Path(".", "arcs.yml")
         with arc_path.open(mode='w') as f:
             YamlDump(data=out_arcs, stream=f, allow_unicode=True, sort_keys=False)
 
@@ -580,12 +580,12 @@ def val_convert_string(d):
     return unicode_fix(str(d))
 
 def generate_json():
-    tvshow_yml = Path(".", "metadata", "tvshow.yml")
-    arcs_yml = Path(".", "metadata", "arcs.yml")
-    episodes_dir = Path(".", "metadata", "episodes")
-    data_yml = Path(".", "metadata", "data.yml")
-    json_file = Path(".", "metadata", "data.json")
-    json_min_file = Path(".", "metadata", "data.min.json")
+    tvshow_yml = Path(".", "tvshow.yml")
+    arcs_yml = Path(".", "arcs.yml")
+    episodes_dir = Path(".", "episodes")
+    data_yml = Path(".", "data.yml")
+    json_file = Path(".", "data.json")
+    json_min_file = Path(".", "data.min.json")
 
     tvshow = {}
     arcs = []
