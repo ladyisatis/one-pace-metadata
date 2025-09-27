@@ -522,7 +522,7 @@ def update():
 
             logger.success(f"Wrote episode to {file_path}")
 
-        if now.hour % 6 == 0:
+        if out_arcs[2]["episodes"]["01"]["crc32"] != "CBFE01C7":
             arc_path = Path(".", "arcs.yml")
             with arc_path.open(mode='w') as f:
                 YamlDump(data=out_arcs, stream=f, allow_unicode=True, sort_keys=False)
