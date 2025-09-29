@@ -1687,6 +1687,9 @@
     '54':
       crc32: 79C6DC33
       crc32_extended: ''
+    '55':
+      crc32: 2501AC5A
+      crc32_extended: 425F93B9
 36:
   part: 36
   saga: Final Saga

@@ -1,6 +1,6 @@
 {
-  "last_update": "2025-09-27T23:06:58.086467+00:00",
-  "last_update_ts": 1759014418.086467,
+  "last_update": "2025-09-29T03:22:50.446472+00:00",
+  "last_update_ts": 1759116170.446472,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main",
   "tvshow": {
     "title": "One Piece",
@@ -2152,6 +2152,10 @@
         "54": {
           "crc32": "79C6DC33",
           "crc32_extended": ""
+        },
+        "55": {
+          "crc32": "2501AC5A",
+          "crc32_extended": "425F93B9"
         }
       }
     },
@@ -6468,9 +6472,9 @@
       "title": "The Fourth",
       "sorttitle": "Fourth",
       "description": "As the dust of battle settles, the still poisoned Gin decides to go back to the Grand Line with Krieg, and Sanji makes the difficult decision to join Luffy's crew. Suddenly, Yosaku returns with news of where Nami took the Going Merry.",
-      "chapters": "67-68",
+      "chapters": "67-69",
       "episodes": "30",
-      "released": "2025-09-27",
+      "released": "2023-07-29",
       "hashes": {
         "crc32": "A6F61DEE"
       }
