@@ -66,7 +66,7 @@
       crc32: D08B41AE
       crc32_extended: ''
     '07':
-      crc32: EFCC14E1
+      crc32: D0A51040
       crc32_extended: ''
 4:
   part: 4
@@ -80,7 +80,7 @@
   poster: posters/4/poster.png
   episodes:
     '01':
-      crc32: 9269F40F
+      crc32: 0C2DBF75
       crc32_extended: ''
 5:
   part: 5
@@ -100,7 +100,7 @@
       crc32: 9BD35F80
       crc32_extended: ''
     '03':
-      crc32: E90342F6
+      crc32: 15D77CB3
       crc32_extended: ''
     '04':
       crc32: 792BE789
@@ -109,10 +109,10 @@
       crc32: ACEA0537
       crc32_extended: ''
     '06':
-      crc32: 1375A4F5
+      crc32: E3B8A188
       crc32_extended: ''
     '07':
-      crc32: 5B161435
+      crc32: F850EAFD
       crc32_extended: ''
     08:
       crc32: A6F61DEE
