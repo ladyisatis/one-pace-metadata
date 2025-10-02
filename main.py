@@ -295,8 +295,8 @@ def update():
                             arc_id = arc_to_num[arc_name]
                             crc_key = "crc32_extended" if "Extended" in item.title.content else "crc32"
 
-                            if ep_num in out_arcs[arc_id]["episodes"]:
-                                out_arcs[arc_id]["episodes"][ep_num][crc_key] = crc32
+                            #if ep_num in out_arcs[arc_id]["episodes"]:
+                            #    out_arcs[arc_id]["episodes"][ep_num][crc_key] = crc32
 
                             if Path(".", "episodes", f"{crc32}.yml").exists():
                                 logger.warning("-- Skipping: crc32 file exists")
@@ -362,8 +362,8 @@ def update():
                                 arc_id = arc_to_num[arc_name]
                                 crc_key = "crc32_extended" if "Extended" in filename else "crc32"
 
-                                if ep_num in out_arcs[arc_id]["episodes"]:
-                                    out_arcs[arc_id]["episodes"][ep_num][crc_key] = crc32
+                                #if ep_num in out_arcs[arc_id]["episodes"]:
+                                #    out_arcs[arc_id]["episodes"][ep_num][crc_key] = crc32
 
                                 if Path(".", "episodes", f"{crc32}.yml").exists():
                                     logger.warning("---- Skipping: crc32 file exists")
@@ -522,11 +522,9 @@ def update():
 
             logger.success(f"Wrote episode to {file_path}")
 
-        if out_arcs[2]["episodes"]["01"]["crc32"] != "CBFE01C7":
-            arc_path = Path(".", "arcs.yml")
-            with arc_path.open(mode='w') as f:
-                YamlDump(data=out_arcs, stream=f, allow_unicode=True, sort_keys=False)
-    
+        arc_path = Path(".", "arcs.yml")
+        with arc_path.open(mode='w') as f:
+            YamlDump(data=out_arcs, stream=f, allow_unicode=True, sort_keys=False)
             logger.success(f"Wrote arcs to {arc_path}")
 
     except:
