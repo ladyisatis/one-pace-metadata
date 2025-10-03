@@ -22,7 +22,7 @@ These are sourced from these files:
 
 ## Information
 
-The metadata is updated [once per hour](https://github.com/ladyisatis/one-pace-metadata/blob/main/.github/workflows/metadata-job.yml#L5) based upon these two spreadsheets or data points:
+The metadata is updated [once per hour](https://github.com/ladyisatis/one-pace-metadata/blob/main/.github/workflows/metadata-job.yml#L5) based upon these sources:
 
 - [One Pace Episode Guide](https://docs.google.com/spreadsheets/d/1HQRMJgu_zArp-sLnvFMDzOyjdsht87eFLECxMK858lA/) for CRC32, Manga Chapters, Anime Episodes
 - [One Pace Subtitles' title.properties](https://raw.githubusercontent.com/one-pace/one-pace-public-subtitles/refs/heads/main/main/title.properties) for `originaltitle` properties, matching the title in the video files.
