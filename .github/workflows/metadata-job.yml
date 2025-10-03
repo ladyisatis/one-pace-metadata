@@ -3,7 +3,6 @@ name: One Pace Metadata Job
 on:
   schedule:
     - cron: '0 * * * *'
-  workflow_dispatch:
 
 jobs:
   build:
@@ -30,7 +29,7 @@ jobs:
           enable-cache: true
 
       - name: Install dependencies
-        run: uv sync --locked --all-extras --dev
+        run: uv sync --locked --all-extras
 
       - name: Run metadata updater
         env:
