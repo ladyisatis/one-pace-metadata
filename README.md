@@ -1,4 +1,4 @@
-# Metadata Updater
+# One Pace Metadata Updater
 
 ## URLs
 
@@ -11,7 +11,7 @@ There are three separate files that are always kept up to date in case you want 
 - **data.yml**: Main file but in YAML form instead of JSON form.
   - [https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/data.yml](https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/data.yml)
 
-The most pertinent values for this will be `last_update` which is compatible with Python's datetime parser, `last_update_ts` which is compatible with JavaScript's `new Date` parser, and `base_url` in case the metadata provider location changes and there needs to be a reference point for downloading posters.
+The most pertinent values for this will be `last_update` which is compatible with Python's datetime parser, `last_update_ts` in Unix epoch timestamp format as a float, and `base_url` in case the metadata provider location changes and there needs to be a reference point for downloading posters.
 
 These are sourced from these files:
 
@@ -24,17 +24,18 @@ This repository will be rarely touched unless things break or to accept Pull Req
 
 ## Information
 
-The metadata is updated [once per hour](https://github.com/ladyisatis/one-pace-metadata/blob/main/.github/workflows/metadata-job.yml#L4) based upon these two spreadsheets or data points:
+The metadata is updated [once per hour](https://github.com/ladyisatis/one-pace-metadata/blob/main/.github/workflows/metadata-job.yml#L5) based upon these two spreadsheets or data points:
 
 - [One Pace Episode Guide](https://docs.google.com/spreadsheets/d/1HQRMJgu_zArp-sLnvFMDzOyjdsht87eFLECxMK858lA/) for CRC32, Manga Chapters, Anime Episodes
 - [One Pace Episode Descriptions](https://docs.google.com/spreadsheets/d/1M0Aa2p5x7NioaH9-u8FyHq6rH3t5s6Sccs8GoC6pHAM/) for descriptions for arcs and episodes
 - [One Pace Subtitles' title.properties](https://raw.githubusercontent.com/one-pace/one-pace-public-subtitles/refs/heads/main/main/title.properties) for `originaltitle` properties, matching the title in the video files.
+- [One Pace Chapters' chapter.properties](https://raw.githubusercontent.com/one-pace/one-pace-public-subtitles/refs/heads/main/main/chapter.properties) for matching manga `chapters` properties to new episodes.
 
 ## YAML (episodes/*.yml, arcs.yml, tvshow.yml)
 
-Metadata is provided in YAML format. Each YAML file is the CRC32 with the .yml extension, e.g. `E5F09F49.yml`.
+Metadata is provided in [YAML format](https://en.wikipedia.org/wiki/YAML#Syntax). Each YAML file is the CRC32 with the .yml extension, e.g. `E5F09F49.yml`.
 
-This CRC32 is based off the 8-character ID-looking thing at the end of the filename, for example: `[One Pace][1] Romance Dawn 01 [1080p][E5F09F49].mkv`
+This CRC32 is based off the 8-character ID at the end of the filename, for example: `[One Pace][1] Romance Dawn 01 [1080p][E5F09F49].mkv`
 
 The contents of the `.yml` file:
 
