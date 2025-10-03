@@ -1,10 +1,7 @@
 [project]
 name = "onepacemetadata"
 version = "1.0.0"
-description = "One Pace metadata collection for One Pace Organizer and more"
-authors = [
-    {name = "Isatis",email = "git@isatis.blue"}
-]
+description = "Generated metadata for One Pace via its Episode Guide and Descriptions Google Docs."
 license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.13"
