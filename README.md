@@ -1,4 +1,4 @@
-# One Pace Metadata Updater
+# One Pace Metadata
 
 ## URLs
 
