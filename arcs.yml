@@ -6,19 +6,7 @@
   description: Monkey D. Luffy sets out on an adventure to form a crew, find the legendary
     One Piece, and become the pirate king.
   poster: posters/1/poster.png
-  episodes:
-    '01':
-      crc32: E5F09F49
-      crc32_extended: ''
-    '02':
-      crc32: A465972A
-      crc32_extended: ''
-    '03':
-      crc32: 2DEB2701
-      crc32_extended: ''
-    '04':
-      crc32: 6E46167D
-      crc32_extended: ''
+  episodes: {}
 2:
   part: 2
   saga: East Blue
@@ -28,16 +16,7 @@
     Buggy the Clown. They are joined by a young girl named Nami who helps them navigate
     this predicament.
   poster: posters/2/poster.png
-  episodes:
-    '01':
-      crc32: C23AC8D3
-      crc32_extended: ''
-    '02':
-      crc32: D7327225
-      crc32_extended: ''
-    '03':
-      crc32: 1809DA8A
-      crc32_extended: ''
+  episodes: {}
 3:
   part: 3
   saga: East Blue
@@ -46,28 +25,7 @@
   description: Luffy's fledgling pirate crew arrives at the slopes of Syrup Village.
     There they find a liar and a conspiracy to steal a young lady's fortune.
   poster: posters/3/poster.png
-  episodes:
-    '01':
-      crc32: A6DDEC2C
-      crc32_extended: ''
-    '02':
-      crc32: 0433686D
-      crc32_extended: ''
-    '03':
-      crc32: 35E9CFA6
-      crc32_extended: ''
-    '04':
-      crc32: 89B18321
-      crc32_extended: ''
-    '05':
-      crc32: 0D3E2158
-      crc32_extended: ''
-    '06':
-      crc32: D08B41AE
-      crc32_extended: ''
-    '07':
-      crc32: D0A51040
-      crc32_extended: ''
+  episodes: {}
 4:
   part: 4
   saga: East Blue
