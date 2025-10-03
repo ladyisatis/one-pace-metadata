@@ -507,7 +507,7 @@ def update():
             out = out.replace("{title}", YamlDump({"title": data['title']}, allow_unicode=True), 1)
             out = out.replace("{description}", YamlDump({"description": data['description']}, allow_unicode=True), 1)
 
-            if file_path.read_text() != out:
+            if not file_path.is_file() or file_path.read_text() != out:
                 with file_path.open(mode='w') as f:
                     f.write(out)
 
