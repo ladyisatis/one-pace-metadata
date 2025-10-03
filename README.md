@@ -25,9 +25,10 @@ These are sourced from these files:
 The metadata is updated [once per hour](https://github.com/ladyisatis/one-pace-metadata/blob/main/.github/workflows/metadata-job.yml#L5) based upon these two spreadsheets or data points:
 
 - [One Pace Episode Guide](https://docs.google.com/spreadsheets/d/1HQRMJgu_zArp-sLnvFMDzOyjdsht87eFLECxMK858lA/) for CRC32, Manga Chapters, Anime Episodes
-- [One Pace Episode Descriptions](https://docs.google.com/spreadsheets/d/1M0Aa2p5x7NioaH9-u8FyHq6rH3t5s6Sccs8GoC6pHAM/) for descriptions for arcs and episodes
 - [One Pace Subtitles' title.properties](https://raw.githubusercontent.com/one-pace/one-pace-public-subtitles/refs/heads/main/main/title.properties) for `originaltitle` properties, matching the title in the video files.
 - [One Pace Chapters' chapter.properties](https://raw.githubusercontent.com/one-pace/one-pace-public-subtitles/refs/heads/main/main/chapter.properties) for matching manga `chapters` properties to new episodes.
+- [One Pace Episode Descriptions](https://docs.google.com/spreadsheets/d/1M0Aa2p5x7NioaH9-u8FyHq6rH3t5s6Sccs8GoC6pHAM/) for descriptions for arcs and episodes
+  - Maintained by Craigy from the One Pace team - please tag him in the One Pace Discord if there are missing descriptions for episodes.
 
 ## YAML (episodes/*.yml, arcs.yml, tvshow.yml)
 
