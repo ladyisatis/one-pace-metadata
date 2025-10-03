@@ -1,5 +1,7 @@
 # One Pace Metadata Updater
 
+This repository is the metadata source that's used by [One Pace Organizer for Plex and Jellyfin](https://github.com/ladyisatis/OnePaceOrganizer/?tab=readme-ov-file#one-pace-organizer).
+
 ## URLs
 
 There are three separate files that are always kept up to date in case you want to develop something with it or keep it up to date:
@@ -19,8 +21,6 @@ These are sourced from these files:
 - Series Information: https://github.com/ladyisatis/one-pace-metadata/blob/main/tvshow.yml
 - Season/Arc Information: https://github.com/ladyisatis/one-pace-metadata/blob/main/arcs.yml
 - Episodes by CRC32: https://github.com/ladyisatis/one-pace-metadata/tree/main/episodes
-
-This repository will be rarely touched unless things break or to accept Pull Requests.
 
 ## Information
 
