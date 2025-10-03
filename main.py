@@ -263,9 +263,6 @@ def update():
                     now = datetime.now().astimezone(timezone.utc)
 
                     for i, item in enumerate(RSSParser.parse(r.text).channel.items):
-                        if i == 25:
-                            break
-
                         if not item.title or not item.title.content or item.title.content == "":
                             logger.warning(f"Skipping: {item}")
                             continue
@@ -278,6 +275,13 @@ def update():
                                 continue
 
                             arc_name, ep_num, extra, crc32 = match.groups()
+
+                            key = f"{arc_name} {ep_num}"
+                            if key in arc_eps:
+                                if crc32 not in arc_eps[key]:
+                                    arc_eps[key].append(crc32)
+                            else:
+                                arc_eps[key] = [crc32]
 
                             if Path(".", "episodes", f"{crc32}.yml").exists():
                                 continue
@@ -307,7 +311,7 @@ def update():
                                 if crc32 not in out_episodes:
                                     if chs == "" or eps == "":
                                         for v in out_episodes.values():
-                                            if v["arc"] == _s and v["episode"] == ep_num and v["chs"] != "" and v["eps"] != "":
+                                            if v["arc"] == _s and v["episode"] == ep_num and v["chapters"] != "" and v["episodes"] != "":
                                                 t = v["title"]
                                                 ep_desc = v["description"]
                                                 chs = v["chapters"]
@@ -315,7 +319,7 @@ def update():
                                                 break
 
                                     out_episodes[crc32] = {
-                                        "arc": arc_to_num[arc_name],
+                                        "arc": _s,
                                         "episode": ep_num,
                                         "title": t,
                                         "description": ep_desc,
@@ -323,12 +327,6 @@ def update():
                                         "episodes": eps,
                                         "released": released
                                     }
-
-                                key = f"{arc_name} {ep_num}"
-                                if key in arc_eps:
-                                    arc_eps[key].append(crc32)
-                                else:
-                                    arc_eps[key] = [crc32]
 
                                 logger.success(f"-- Added S{arc_to_num[arc_name]:02d}E{ep_num:02d} ({t}, {released})")
 
@@ -352,6 +350,13 @@ def update():
 
                                 arc_name, ep_num, extra, crc32 = match.groups()
 
+                                key = f"{arc_name} {ep_num}"
+                                if key in arc_eps:
+                                    if crc32 not in arc_eps[key]:
+                                        arc_eps[key].append(crc32)
+                                else:
+                                    arc_eps[key] = [crc32]
+
                                 if Path(".", "episodes", f"{crc32}.yml").exists():
                                     logger.warning("---- Skipping: crc32 file exists")
                                     continue
@@ -370,7 +375,7 @@ def update():
                                         eps = ""
 
                                         for v in out_episodes.values():
-                                            if v["arc"] == _s and v["episode"] == ep_num and v["chs"] != "" and v["eps"] != "":
+                                            if v["arc"] == _s and v["episode"] == ep_num and v["chapters"] != "" and v["episodes"] != "":
                                                 t = v["title"]
                                                 ep_desc = v["description"]
                                                 chs = v["chapters"]
@@ -386,12 +391,6 @@ def update():
                                             "episodes": eps,
                                             "released": released
                                         }
-
-                                    key = f"{arc_name} {ep_num}"
-                                    if key in arc_eps:
-                                        arc_eps[key].append(crc32)
-                                    else:
-                                        arc_eps[key] = [crc32]
 
                                     logger.success(f"---- Added S{arc_to_num[arc_name]:02d}E{ep_num:02d} ({t}, {released})")
                                 else:
@@ -421,26 +420,27 @@ def update():
                         continue
 
                     for crc32 in arc_eps[key]:
-                        out_episodes[crc32]["episode"] = int(episode)
-                        out_episodes[crc32]["title"] = title
-                        out_episodes[crc32]["description"] = description
-
-                        try:
-                            _s = f"{out_episodes[crc32]['arc']}"
-                            _e = f"{out_episodes[crc32]['episode']}"
-
-                            if _s != "0":
-                                if _s in mkv_titles and _e in mkv_titles[_s]:
-                                    _origtitle = mkv_titles[_s][_e]
+                        if crc32 in out_episodes:
+                            out_episodes[crc32]["episode"] = int(episode)
+                            out_episodes[crc32]["title"] = title
+                            out_episodes[crc32]["description"] = description
     
-                                    if title.lower() != _origtitle.lower():
-                                        out_episodes[crc32]["originaltitle"] = _origtitle
-
-                                if _s in chapter_list and _e in chapter_list[_s]:
-                                    out_episodes[crc32]["chapters"] = chapter_list[_s][_e]
-
-                        except:
-                            logger.error(f"Skipping: {key}\n{traceback.format_exc()}")
+                            try:
+                                _s = f"{out_episodes[crc32]['arc']}"
+                                _e = f"{out_episodes[crc32]['episode']}"
+    
+                                if _s != "0":
+                                    if _s in mkv_titles and _e in mkv_titles[_s]:
+                                        _origtitle = mkv_titles[_s][_e]
+        
+                                        if title.lower() != _origtitle.lower():
+                                            out_episodes[crc32]["originaltitle"] = _origtitle
+    
+                                    if _s in chapter_list and _e in chapter_list[_s]:
+                                        out_episodes[crc32]["chapters"] = chapter_list[_s][_e]
+    
+                            except:
+                                logger.error(f"Skipping: {key}\n{traceback.format_exc()}")
 
         for crc32, data in out_episodes.items():
             file_path = Path(".", "episodes", f"{crc32}.yml")
