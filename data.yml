@@ -1,14 +1,17 @@
-last_update: '2025-10-03T10:07:52.372018+00:00'
-last_update_ts: 1759486072.372018
+last_update: '2025-10-05T23:06:15.677642+00:00'
+last_update_ts: 1759705575.677642
 base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main
 tvshow:
   title: One Piece
   sorttitle: One Piece
   originaltitle: One Pace
   genre:
-  - Action Adventure
+  - Action
+  - Adventure
   - Anime
-  - Fantasy Epic
+  - Fantasy
+  - Science Fiction
+  - Comedy
   - Modern Odyssey
   - Sh\u014dnen Jump
   premiered: '2013-03-27'
@@ -2809,6 +2812,20 @@ episodes:
     released: 2017-12-01
     hashes:
       crc32: 24351CC0
+  24DEE374:
+    arc: 36
+    episode: 18
+    title: The Final Lesson
+    sorttitle: Final Lesson
+    description: At Pirate Island, Vice Admiral Garp continues the Koby extraction
+      mission, but Avalo Pizarro's devil fruit powers threaten to sink the rescue
+      ship. Garp, weakened from an attack by Shiryu, entrusts the operation's success
+      to the next generation.
+    chapters: 1087-1088
+    episodes: 1121-1122
+    released: 2025-10-05
+    hashes:
+      crc32: 24DEE374
   2501AC5A:
     arc: 35
     episode: 55
