@@ -49,7 +49,12 @@ def update():
     PATTERN_CHAPTER_EPISODE = r'\b\d+(?:-\d+)?(?:,\s*\d+(?:-\d+)?)*\b'
     PATTERN_TITLE = r'\[One Pace\]\[\d+(?:[-,]\d+)*\]\s+(.+?)\s+(\d{2,})\s*(\w+)?\s*\[\d+p\]\[([A-Fa-f0-9]{8})\]\.mkv'
 
-    out_arcs = {}
+    try:
+        with arcs_yml.open(mode='r', encoding='utf-8') as f:
+            out_arcs = YamlLoad(stream=f)
+    except:
+        out_arcs = {}
+
     out_episodes = {}
     arc_eps = {}
     arc_to_num = {}
@@ -134,9 +139,11 @@ def update():
                         "title": title,
                         "originaltitle": "",
                         "description": row['description_en'],
-                        "poster": "",
-                        "episodes": {}
+                        "poster": ""
                     }
+
+                    if "episodes" not in out_arcs[part]:
+                        out_arcs[part]["episodes"] = {}
 
                     arc_to_num[title] = part
 
@@ -156,21 +163,29 @@ def update():
                     arc_to_num[arc_title] = arc
 
                 crc32_id = {}
+
                 try:
-                    poster_path = Path(".", "posters", f"{arc}", "poster.png")
+                    spreadsheet_html = None
 
-                    if not poster_path.exists():
-                        poster_path.parent.mkdir(exist_ok=True)
-
+                    if now.hour % 6 == 0:
                         spreadsheet_html = client.get(f"https://docs.google.com/spreadsheets/u/0/d/{ONE_PACE_EPISODE_GUIDE_ID}/htmlview/sheet?headers=true&gid={sheetId}", follow_redirects=True)
                         html_parser = BeautifulSoup(spreadsheet_html.text, "html.parser")
-
+    
                         for a in html_parser.find_all("a", href=True):
                             crc32 = a.get_text(strip=True)
                             if re.fullmatch(r"[A-Z0-9]{8}", crc32):
                                 match = re.search(r"/view/(\d+)", a["href"])
                                 if match:
                                     crc32_id[crc32] = match.group(1)
+
+                    poster_path = Path(".", "posters", f"{arc}", "poster.png")
+
+                    if not poster_path.exists():
+                        poster_path.parent.mkdir(exist_ok=True)
+
+                        if spreadsheet_html is None:
+                            spreadsheet_html = client.get(f"https://docs.google.com/spreadsheets/u/0/d/{ONE_PACE_EPISODE_GUIDE_ID}/htmlview/sheet?headers=true&gid={sheetId}", follow_redirects=True)
+                            html_parser = BeautifulSoup(spreadsheet_html.text, "html.parser")
 
                         img = html_parser.find("img")
                         if img and img.get("src", "") != "":
@@ -294,7 +309,7 @@ def update():
                                     arc_eps[key].append(crc32)
                             else:
                                 arc_eps[key] = [crc32]
-                            
+
                             crc_key = "crc32_extended" if "Extended" in item.title.content else "crc32"
                             tid_key = "tid_extended" if "Extended" in item.title.content else "tid"
 
