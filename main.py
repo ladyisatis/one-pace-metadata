@@ -275,10 +275,14 @@ def update():
                         _tid = crc32_id.get(mkv_crc32, "")
                         if _tid != "":
                             out_arcs[arc]["episodes"][_e]["tid"] = _tid
+                        elif "tid" not in out_arcs[arc]["episodes"][_e]:
+                            out_arcs[arc]["episodes"][_e]["tid"] = ""
 
                         _tid_ext = crc32_id.get(mkv_crc32_ext, "")
                         if _tid_ext != "":
                             out_arcs[arc]["episodes"][_e]["tid_extended"] = _tid_ext
+                        elif "tid_extended" not in out_arcs[arc]["episodes"][_e]:
+                            out_arcs[arc]["episodes"][_e]["tid_extended"] = ""
 
                         if len(mkv_crc32_ext) > 0:
                             out_episodes[mkv_crc32_ext] = out_episodes[mkv_crc32]
