@@ -325,10 +325,10 @@ def update():
                             tid_key = "tid_extended" if "Extended" in item.title.content else "tid"
 
                             arc_id = arc_to_num.get(arc_name, -1)
-                            if arc_id != -1 and ep_num in out_arcs[arc]["episodes"]:
-                                out_arcs[arc]["episodes"][ep_num][crc_key] = crc32
+                            if arc_id != -1 and ep_num in out_arcs[arc_id]["episodes"]:
+                                out_arcs[arc_id]["episodes"][ep_num][crc_key] = crc32
                                 if "/view/" in item.guid.content:
-                                    out_arcs[arc]["episodes"][ep_num][tid_key] = item.guid.content.split("/view/")[1]
+                                    out_arcs[arc_id]["episodes"][ep_num][tid_key] = item.guid.content.split("/view/")[1]
 
                             if Path(".", "episodes", f"{crc32}.yml").exists():
                                 continue
