@@ -50,7 +50,7 @@ def update():
     PATTERN_TITLE = r'\[One Pace\]\[\d+(?:[-,]\d+)*\]\s+(.+?)\s+(\d{2,})\s*(\w+)?\s*\[\d+p\]\[([A-Fa-f0-9]{8})\]\.mkv'
 
     try:
-        with arcs_yml.open(mode='r', encoding='utf-8') as f:
+        with Path(".", "arcs.yml").open(mode='r', encoding='utf-8') as f:
             out_arcs = YamlLoad(stream=f)
     except:
         out_arcs = {}
