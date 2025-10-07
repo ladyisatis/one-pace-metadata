@@ -168,7 +168,7 @@ def update():
                         for a in html_parser.find_all("a", href=True):
                             crc32 = a.get_text(strip=True)
                             if re.fullmatch(r"[A-Z0-9]{8}", crc32):
-                                match = re.search(r"/view/(\d+)", href)
+                                match = re.search(r"/view/(\d+)", a["href"])
                                 if match:
                                     crc32_id[crc32] = match.group(1)
 
