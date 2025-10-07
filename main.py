@@ -155,6 +155,7 @@ def update():
                     out_arcs[arc]['title'] = arc_title
                     arc_to_num[arc_title] = arc
 
+                crc32_id = {}
                 try:
                     poster_path = Path(".", "posters", f"{arc}", "poster.png")
 
@@ -162,8 +163,16 @@ def update():
                         poster_path.parent.mkdir(exist_ok=True)
 
                         spreadsheet_html = client.get(f"https://docs.google.com/spreadsheets/u/0/d/{ONE_PACE_EPISODE_GUIDE_ID}/htmlview/sheet?headers=true&gid={sheetId}", follow_redirects=True)
-                        img = BeautifulSoup(spreadsheet_html.text, "html.parser").find("img")
+                        html_parser = BeautifulSoup(spreadsheet_html.text, "html.parser")
 
+                        for a in html_parser.find_all("a", href=True):
+                            crc32 = a.get_text(strip=True)
+                            if re.fullmatch(r"[A-Z0-9]{8}", crc32):
+                                match = re.search(r"/view/(\d+)", href)
+                                if match:
+                                    crc32_id[crc32] = match.group(1)
+
+                        img = html_parser.find("img")
                         if img and img.get("src", "") != "":
                             with poster_path.open(mode='wb') as f:
                                 with client.stream("GET", img["src"], follow_redirects=True) as resp:
@@ -174,7 +183,7 @@ def update():
                         out_arcs[arc]['poster'] = f"posters/{arc}/{poster_path.name}"
 
                 except:
-                    logger.exception("-- Skipping fetching poster")
+                    logger.exception("-- Skipping fetching poster/links")
 
                 with client.stream("GET", f"https://docs.google.com/spreadsheets/d/{ONE_PACE_EPISODE_GUIDE_ID}/export?gid={sheetId}&format=csv", follow_redirects=True) as resp:
                     reader = CSVReader(resp.iter_lines())
@@ -239,8 +248,11 @@ def update():
                         }
 
                         out_arcs[arc]["episodes"][_e] = {
+                            "length": row['Length'].strip() if 'Length' in row else '',
                             "crc32": mkv_crc32,
-                            "crc32_extended": mkv_crc32_ext
+                            "crc32_extended": mkv_crc32_ext,
+                            "tid": crc32_id.get(mkv_crc32, ""),
+                            "tid_extended": crc32_id.get(mkv_crc32_ext, "")
                         }
 
                         if len(mkv_crc32_ext) > 0:
@@ -269,7 +281,7 @@ def update():
 
                         pub_date = datetime.strptime(item.pub_date.content, "%a, %d %b %Y %H:%M:%S %z")
 
-                        if item.title.content.endswith(".mkv"):
+                        if item.title.content.endswith(".mkv") or item.title.content.endswith(".mp4"):
                             match = title_pattern.match(item.title.content)
                             if not match:
                                 continue
@@ -282,11 +294,18 @@ def update():
                                     arc_eps[key].append(crc32)
                             else:
                                 arc_eps[key] = [crc32]
+                            
+                            crc_key = "crc32_extended" if "Extended" in item.title.content else "crc32"
+                            tid_key = "tid_extended" if "Extended" in item.title.content else "tid"
+
+                            arc_id = arc_to_num.get(arc_name, -1)
+                            if arc_id != -1 and ep_num in out_arcs[arc]["episodes"]:
+                                out_arcs[arc]["episodes"][ep_num][crc_key] = crc32
+                                if "/view/" in item.guid.content:
+                                    out_arcs[arc]["episodes"][ep_num][tid_key] = item.guid.content.split("/view/")[1]
 
                             if Path(".", "episodes", f"{crc32}.yml").exists():
                                 continue
-
-                            crc_key = "crc32_extended" if "Extended" in item.title.content else "crc32"
 
                             r = httpx.get(item.guid.content)
                             div = BeautifulSoup(r.text, 'html.parser').find('div', { 'class': 'panel-body', 'id': 'torrent-description' })
