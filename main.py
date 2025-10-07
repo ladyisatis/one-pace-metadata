@@ -146,7 +146,7 @@ def update():
                     else:
                         out_arcs[part]["part"] = part
                         out_arcs[part]["saga"] = row["saga_title"]
-                        out_arcs[part]["title"] = row["title"]
+                        out_arcs[part]["title"] = title
                         out_arcs[part]["description"] = row["description_en"]
 
                     arc_to_num[title] = part
@@ -171,8 +171,7 @@ def update():
                 try:
                     spreadsheet_html = None
 
-                    #if now.hour % 6 == 0:
-                    if now.hour == 22:
+                    if now.hour % 6 == 0:
                         spreadsheet_html = client.get(f"https://docs.google.com/spreadsheets/u/0/d/{ONE_PACE_EPISODE_GUIDE_ID}/htmlview/sheet?headers=true&gid={sheetId}", follow_redirects=True)
                         html_parser = BeautifulSoup(spreadsheet_html.text, "html.parser")
     
@@ -327,7 +326,7 @@ def update():
                             arc_id = arc_to_num.get(arc_name, -1)
                             if arc_id != -1 and ep_num in out_arcs[arc_id]["episodes"]:
                                 out_arcs[arc_id]["episodes"][ep_num][crc_key] = crc32
-                                if "/view/" in item.guid.content:
+                                if "/view/" in item.guid.content and tid_key in out_arcs[arc_id]["episodes"][ep_num]:
                                     out_arcs[arc_id]["episodes"][ep_num][tid_key] = item.guid.content.split("/view/")[1]
 
                             if Path(".", "episodes", f"{crc32}.yml").exists():
