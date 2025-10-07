@@ -133,17 +133,21 @@ def update():
                     elif part > 90:
                         continue
 
-                    out_arcs[part] = {
-                        "part": part,
-                        "saga": row['saga_title'],
-                        "title": title,
-                        "originaltitle": "",
-                        "description": row['description_en'],
-                        "poster": ""
-                    }
-
-                    if "episodes" not in out_arcs[part]:
-                        out_arcs[part]["episodes"] = {}
+                    if part not in out_arcs:
+                        out_arcs[part] = {
+                            "part": part,
+                            "saga": row['saga_title'],
+                            "title": title,
+                            "originaltitle": "",
+                            "description": row['description_en'],
+                            "poster": "",
+                            "episodes": {}
+                        }
+                    else:
+                        out_arcs[part]["part"] = part
+                        out_arcs[part]["saga"] = row["saga_title"]
+                        out_arcs[part]["title"] = row["title"]
+                        out_arcs[part]["description"] = row["description_en"]
 
                     arc_to_num[title] = part
 
