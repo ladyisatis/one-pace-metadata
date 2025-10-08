@@ -183,7 +183,7 @@ def update():
                                     match = re.search(r"/view/(\d+)", a["href"])
                                     if match:
                                         crc32_id[crc32] = match.group(1)
-                                elif "/?q=" in a["href"]:
+                                elif "/?q%3D" in a["href"]:
                                     href = a["href"]
                                     if "google.com" in href:
                                         href = unquote(parse_qs(urlparse(href).query)['q'][0])
