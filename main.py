@@ -171,16 +171,23 @@ def update():
                 try:
                     spreadsheet_html = None
 
-                    if now.hour == 0:
+                    if now.weekday() == 3 and now.hour == 0:
                         spreadsheet_html = client.get(f"https://docs.google.com/spreadsheets/u/0/d/{ONE_PACE_EPISODE_GUIDE_ID}/htmlview/sheet?headers=true&gid={sheetId}", follow_redirects=True)
                         html_parser = BeautifulSoup(spreadsheet_html.text, "html.parser")
-    
+
                         for a in html_parser.find_all("a", href=True):
                             crc32 = a.get_text(strip=True)
                             if re.fullmatch(r"[A-Z0-9]{8}", crc32):
-                                match = re.search(r"/view/(\d+)", a["href"])
-                                if match:
-                                    crc32_id[crc32] = match.group(1)
+                                if "/view/" in a["href"]:
+                                    match = re.search(r"/view/(\d+)", a["href"])
+                                    if match:
+                                        crc32_id[crc32] = match.group(1)
+                                elif "?q=" in a["href"]:
+                                    res = client.get(a["href"])
+                                    if (res.status_code == 301 or res.status_code == 302) and "Location" in res.headers:
+                                        match = re.search(r"/view/(\d+)", a["href"])
+                                        if match:
+                                            crc32_id[crc32] = match.group(1)
 
                     poster_path = Path(".", "posters", f"{arc}", "poster.png")
 
