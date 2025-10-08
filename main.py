@@ -17,6 +17,7 @@ from pathlib import Path
 from httpx_retries import RetryTransport, Retry
 from rss_parser import RSSParser
 from bs4 import BeautifulSoup
+from urllib.parse import urlparse, parse_qs, unquote
 
 def escape_char(c):
     if c == "’":
@@ -171,8 +172,8 @@ def update():
                 try:
                     spreadsheet_html = None
 
-                    #if now.weekday() == 3 and now.hour == 0:
                     if spreadsheet_html is None:
+                    #if now.weekday() == 3 and now.hour == 0:
                         spreadsheet_html = client.get(f"https://docs.google.com/spreadsheets/u/0/d/{ONE_PACE_EPISODE_GUIDE_ID}/htmlview/sheet?headers=true&gid={sheetId}", follow_redirects=True)
                         html_parser = BeautifulSoup(spreadsheet_html.text, "html.parser")
 
@@ -183,10 +184,14 @@ def update():
                                     match = re.search(r"/view/(\d+)", a["href"])
                                     if match:
                                         crc32_id[crc32] = match.group(1)
-                                elif "?q=" in a["href"]:
-                                    res = client.get(a["href"])
+                                elif "/?q=" in a["href"]:
+                                    href = a["href"]
+                                    if "google.com" in href:
+                                        href = unquote(parse_qs(urlparse(href).query)['q'][0])
+
+                                    res = client.get(href)
                                     if (res.status_code == 301 or res.status_code == 302) and "Location" in res.headers:
-                                        match = re.search(r"/view/(\d+)", a["href"])
+                                        match = re.search(r"/view/(\d+)", href)
                                         if match:
                                             crc32_id[crc32] = match.group(1)
 
