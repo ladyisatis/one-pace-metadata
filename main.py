@@ -71,6 +71,8 @@ def update():
             mkv_titles = {}
             chapter_list = {}
 
+            logger.info("1. mkv_titles")
+
             try:
                 resp = client.get("https://raw.githubusercontent.com/one-pace/one-pace-public-subtitles/refs/heads/main/main/title.properties", follow_redirects=True)
                 title_props = javaproperties.loads(resp.text)
@@ -114,6 +116,8 @@ def update():
                     if chap_k in chapter_props:
                         chapter_list[arc_id][ep_num] = chapter_props[chap_k]
 
+            logger.info("2. One Pace Episode Descriptions Arcs")
+
             _s = []
             with client.stream("GET", f"https://docs.google.com/spreadsheets/d/{ONE_PACE_EPISODE_DESC_ID}/export?gid=2010244982&format=csv", follow_redirects=True) as resp:
                 reader = CSVReader(resp.iter_lines())
@@ -152,6 +156,8 @@ def update():
 
                     arc_to_num[title] = part
 
+            logger.info("3. CRC32 updates from One Pace Episode Guide")
+
             r = client.get(f"https://sheets.googleapis.com/v4/spreadsheets/{ONE_PACE_EPISODE_GUIDE_ID}?key={GCLOUD_API_KEY}")
             spreadsheet = orjson.loads(r.content)
 
@@ -172,8 +178,9 @@ def update():
                 try:
                     spreadsheet_html = None
 
-                    if spreadsheet_html is None:
-                    #if now.hour == 0:
+                    if now.hour == 0:
+                        logger.info("3a. Update IDs")
+
                         spreadsheet_html = client.get(f"https://docs.google.com/spreadsheets/u/0/d/{ONE_PACE_EPISODE_GUIDE_ID}/htmlview/sheet?headers=true&gid={sheetId}", follow_redirects=True)
                         html_parser = BeautifulSoup(spreadsheet_html.text, "html.parser")
 
@@ -312,6 +319,8 @@ def update():
 
                         else:
                             arc_eps[key] = [mkv_crc32] if mkv_crc32_ext == '' else [mkv_crc32, mkv_crc32_ext]
+
+            logger.info("4. One Pace RSS Feed")
 
             if ONE_PACE_RSS_FEED != '':
                 try:
@@ -463,6 +472,8 @@ def update():
                 except:
                     logger.error(f"Skipping RSS parsing\n{traceback.format_exc()}")
 
+            logger.info("5. One Pace Episode Descriptions Update")
+
             with client.stream("GET", f"https://docs.google.com/spreadsheets/d/{ONE_PACE_EPISODE_DESC_ID}/export?gid=0&format=csv", follow_redirects=True) as resp:
                 reader = CSVReader(resp.iter_lines())
 
@@ -505,6 +516,8 @@ def update():
     
                             except:
                                 logger.error(f"Skipping: {key}\n{traceback.format_exc()}")
+
+        logger.info("6. Update Files")
 
         for crc32, data in out_episodes.items():
             file_path = Path(".", "episodes", f"{crc32}.yml")
