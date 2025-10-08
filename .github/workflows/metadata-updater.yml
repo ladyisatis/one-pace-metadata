@@ -33,9 +33,6 @@ jobs:
         with:
           enable-cache: true
 
-      - name: Install dependencies
-        run: uv sync --locked --all-extras
-
       - name: Run data.json updater
         env:
           GCLOUD_API_KEY: ${{ secrets.GCLOUD_API_KEY }}
