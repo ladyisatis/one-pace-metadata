@@ -172,8 +172,7 @@ def update():
                 try:
                     spreadsheet_html = None
 
-                    if spreadsheet_html is None:
-                    #if now.weekday() == 3 and now.hour == 0:
+                    if now.hour == 0:
                         spreadsheet_html = client.get(f"https://docs.google.com/spreadsheets/u/0/d/{ONE_PACE_EPISODE_GUIDE_ID}/htmlview/sheet?headers=true&gid={sheetId}", follow_redirects=True)
                         html_parser = BeautifulSoup(spreadsheet_html.text, "html.parser")
 
