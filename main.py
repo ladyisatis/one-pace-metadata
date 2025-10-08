@@ -171,7 +171,7 @@ def update():
                 try:
                     spreadsheet_html = None
 
-                    if now.hour % 12 == 0:
+                    if now.hour == 0:
                         spreadsheet_html = client.get(f"https://docs.google.com/spreadsheets/u/0/d/{ONE_PACE_EPISODE_GUIDE_ID}/htmlview/sheet?headers=true&gid={sheetId}", follow_redirects=True)
                         html_parser = BeautifulSoup(spreadsheet_html.text, "html.parser")
     
@@ -280,11 +280,11 @@ def update():
                             out_arcs[arc]["episodes"][_e]["crc32_extended"] = mkv_crc32_ext
 
                         _tid = crc32_id.get(mkv_crc32, "")
-                        if _tid != "":
+                        if _tid != "" and out_arcs[arc]["episodes"][_e]["tid"] == "":
                             out_arcs[arc]["episodes"][_e]["tid"] = _tid
 
                         _tid_ext = crc32_id.get(mkv_crc32_ext, "")
-                        if _tid_ext != "":
+                        if _tid_ext != "" and out_arcs[arc]["episodes"][_e]["tid_extended"] == "":
                             out_arcs[arc]["episodes"][_e]["tid_extended"] = _tid_ext
 
                         if len(mkv_crc32_ext) > 0:
