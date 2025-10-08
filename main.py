@@ -171,7 +171,8 @@ def update():
                 try:
                     spreadsheet_html = None
 
-                    if now.hour % 12 == 0:
+                    #if now.hour % 12 == 0:
+                    if spreadsheet_html is None:
                         spreadsheet_html = client.get(f"https://docs.google.com/spreadsheets/u/0/d/{ONE_PACE_EPISODE_GUIDE_ID}/htmlview/sheet?headers=true&gid={sheetId}", follow_redirects=True)
                         html_parser = BeautifulSoup(spreadsheet_html.text, "html.parser")
     
@@ -266,23 +267,26 @@ def update():
                             "released": release_date.isoformat()
                         }
 
-                        out_arcs[arc]["episodes"][_e] = {
-                            "length": row['Length'].strip() if 'Length' in row else '',
-                            "crc32": mkv_crc32,
-                            "crc32_extended": mkv_crc32_ext
-                        }
+                        if _e not in out_arcs[arc]["episodes"]:
+                            out_arcs[arc]["episodes"][_e] = {
+                                "length": row['Length'].strip() if 'Length' in row else '',
+                                "crc32": mkv_crc32,
+                                "crc32_extended": mkv_crc32_ext,
+                                "tid": "",
+                                "tid_extended": ""
+                            }
+                        else:
+                            out_arcs[arc]["episodes"][_e]["length"] = row['Length'].strip() if 'Length' in row else ''
+                            out_arcs[arc]["episodes"][_e]["crc32"] = mkv_crc32
+                            out_arcs[arc]["episodes"][_e]["crc32_extended"] = mkv_crc32_ext
 
                         _tid = crc32_id.get(mkv_crc32, "")
                         if _tid != "":
                             out_arcs[arc]["episodes"][_e]["tid"] = _tid
-                        elif "tid" not in out_arcs[arc]["episodes"][_e]:
-                            out_arcs[arc]["episodes"][_e]["tid"] = ""
 
                         _tid_ext = crc32_id.get(mkv_crc32_ext, "")
                         if _tid_ext != "":
                             out_arcs[arc]["episodes"][_e]["tid_extended"] = _tid_ext
-                        elif "tid_extended" not in out_arcs[arc]["episodes"][_e]:
-                            out_arcs[arc]["episodes"][_e]["tid_extended"] = ""
 
                         if len(mkv_crc32_ext) > 0:
                             out_episodes[mkv_crc32_ext] = out_episodes[mkv_crc32]
