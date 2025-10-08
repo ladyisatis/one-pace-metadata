@@ -191,7 +191,7 @@ def update():
 
                                     res = client.get(href)
                                     if (res.status_code == 301 or res.status_code == 302) and "Location" in res.headers:
-                                        match = re.search(r"/view/(\d+)", href)
+                                        match = re.search(r"/view/(\d+)", res.headers["Location"])
                                         if match:
                                             crc32_id[crc32] = match.group(1)
 
