@@ -178,7 +178,7 @@ def update():
                 try:
                     spreadsheet_html = None
 
-                    if now.hour == 0:
+                    if now.weekday() == 2 and now.hour == 0:
                         logger.info("3a. Update IDs")
 
                         spreadsheet_html = client.get(f"https://docs.google.com/spreadsheets/u/0/d/{ONE_PACE_EPISODE_GUIDE_ID}/htmlview/sheet?headers=true&gid={sheetId}", follow_redirects=True)
@@ -430,11 +430,18 @@ def update():
                                 else:
                                     arc_eps[key] = [crc32]
 
+                                crc_key = "crc32_extended" if "Extended" in item.title.content else "crc32"
+                                tid_key = "tid_extended" if "Extended" in item.title.content else "tid"
+    
+                                arc_id = arc_to_num.get(arc_name, -1)
+                                if arc_id != -1 and ep_num in out_arcs[arc_id]["episodes"]:
+                                    out_arcs[arc_id]["episodes"][ep_num][crc_key] = crc32
+                                    if "/view/" in item.guid.content and tid_key in out_arcs[arc_id]["episodes"][ep_num]:
+                                        out_arcs[arc_id]["episodes"][ep_num][tid_key] = item.guid.content.split("/view/")[1]
+
                                 if Path(".", "episodes", f"{crc32}.yml").exists():
                                     logger.warning("---- Skipping: crc32 file exists")
                                     continue
-
-                                crc_key = "crc32_extended" if "Extended" in filename else "crc32"
 
                                 if arc_name in arc_to_num:
                                     ep_num = int(ep_num)
