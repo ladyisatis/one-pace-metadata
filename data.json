@@ -1,6 +1,6 @@
 {
-  "last_update": "2025-10-10T07:07:26.092717+00:00",
-  "last_update_ts": 1760080046.092717,
+  "last_update": "2025-10-10T12:11:56.203669+00:00",
+  "last_update_ts": 1760098316.203669,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main",
   "tvshow": {
     "title": "One Piece",
@@ -84,23 +84,23 @@
       "episodes": {
         "01": {
           "length": "28:36",
-          "crc32": "C23AC8D3",
+          "crc32": "CBFE01C7",
           "crc32_extended": "",
-          "tid": "1958602",
+          "tid": "2016635",
           "tid_extended": ""
         },
         "02": {
           "length": "36:55",
-          "crc32": "D7327225",
+          "crc32": "FAFCDE38",
           "crc32_extended": "",
-          "tid": "1964132",
+          "tid": "2016635",
           "tid_extended": ""
         },
         "03": {
           "length": "22:42",
-          "crc32": "1809DA8A",
+          "crc32": "9C115EE6",
           "crc32_extended": "",
-          "tid": "1969560",
+          "tid": "2016635",
           "tid_extended": ""
         }
       }
