@@ -1,18 +1,18 @@
 [project]
 name = "onepacemetadata"
 version = "1.0.0"
-description = "Generated metadata for One Pace via its Episode Guide and Descriptions Google Docs."
+description = "Generated metadata for One Pace via its Episode Guide and Descriptions Google Docs"
 license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "beautifulsoup4>=4.13.4",
-    "deepdiff>=8.6.0",
-    "httpx-retries>=0.4.0",
+    "beautifulsoup4>=4.14.2",
+    "deepdiff>=8.6.1",
+    "httpx-retries>=0.4.3",
     "httpx[http2]>=0.28.1",
     "javaproperties>=0.8.2",
     "loguru>=0.7.3",
-    "orjson>=3.11.2",
-    "pyyaml>=6.0.2",
+    "orjson>=3.11.3",
+    "pyyaml>=6.0.3",
     "rss-parser>=2.1.1"
 ]
