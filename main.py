@@ -330,7 +330,7 @@ def update():
 
             if ONE_PACE_RSS_FEED != '':
                 try:
-                    r = client.get(ONE_PACE_RSS_FEED)
+                    r = client.get(ONE_PACE_RSS_FEED, follow_redirects=True)
                     title_pattern = re.compile(PATTERN_TITLE, re.IGNORECASE)
                     now = datetime.now().astimezone(timezone.utc)
 
@@ -375,7 +375,7 @@ def update():
                             if Path(".", "episodes", f"{crc32}.yml").exists():
                                 continue
 
-                            r = httpx.get(item.guid.content)
+                            r = client.get(item.guid.content, follow_redirects=True)
                             div = BeautifulSoup(r.text, 'html.parser').find('div', { 'class': 'panel-body', 'id': 'torrent-description' })
                             desc = div.get_text(strip=True).split("\n") if div else []
 
@@ -421,10 +421,10 @@ def update():
                                 logger.warning(f"-- Skipping: arc {arc_name} not found")
 
                         elif now.hour % 6 == 0:
-                            r = httpx.get(item.guid.content)
+                            sr = client.get(item.guid.content, follow_redirects=True)
 
-                            for item in BeautifulSoup(r.text, "html.parser").select("li i.fa-file"):
-                                li = item.find_parent("li")
+                            for subitem in BeautifulSoup(sr.text, "html.parser").select("li i.fa-file"):
+                                li = subitem.find_parent("li")
                                 if not li:
                                     continue
 
@@ -444,8 +444,8 @@ def update():
                                 else:
                                     arc_eps[key] = [crc32]
 
-                                crc_key = "crc32_extended" if "Extended" in item.title.content else "crc32"
-                                tid_key = "tid_extended" if "Extended" in item.title.content else "tid"
+                                crc_key = "crc32_extended" if "Extended" in subitem.title.content else "crc32"
+                                tid_key = "tid_extended" if "Extended" in subitem.title.content else "tid"
     
                                 arc_id = arc_to_num.get(arc_name, -1)
                                 if arc_id != -1:
