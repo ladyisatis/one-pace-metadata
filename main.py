@@ -53,6 +53,8 @@ def update():
     try:
         with Path(".", "arcs.yml").open(mode='r', encoding='utf-8') as f:
             out_arcs = YamlLoad(stream=f)
+            if "arcs" in out_arcs:
+                out_arcs = out_arcs["arcs"]
     except:
         out_arcs = {}
 
@@ -632,7 +634,7 @@ def update():
         if _all_crc32:
             arc_path = Path(".", "arcs.yml")
             with arc_path.open(mode='w') as f:
-                YamlDump(data=out_arcs, stream=f, allow_unicode=True, sort_keys=False)
+                YamlDump(data={"arcs": out_arcs}, stream=f, allow_unicode=True, sort_keys=False)
 
     except:
         logger.critical(f"Uncaught Exception\n{traceback.format_exc()}")
@@ -701,6 +703,8 @@ def generate_json():
 
     with arcs_yml.open(mode='r', encoding='utf-8') as f:
         arcs = YamlLoad(stream=f)
+        if "arcs" in arcs:
+            arcs = arcs["arcs"]
 
     episodes = {}
 
@@ -715,55 +719,38 @@ def generate_json():
                 episodes[key] = YamlLoad(stream=f)
 
     episodes = sort_dict(episodes)
+    now = datetime.now(timezone.utc)
 
-#    try:
-#        old = {}
-#        with data_yml.open(mode='r', encoding='utf-8') as f:
-#            old = YamlLoad(stream=f)
-
-#        episodes_changed = dict_changed(old["episodes"], episodes)
-#        arcs_changed = dict_changed(old["arcs"], arcs)
-#        tvshow_changed = dict_changed(old["tvshow"], tvshow)
-#    except Exception as e:
-#        logger.exception("Something went wrong")
-#        episodes_changed = True
-#        arcs_changed = True
-#        tvshow_changed = True
-    enable_changes = True
-
-    if enable_changes:
-        now = datetime.now(timezone.utc)
-
-        with data_yml.open(mode='w') as f:
-            YamlDump(data={
-                "last_update": now.isoformat(),
-                "last_update_ts": now.timestamp(),
-                "base_url": f"https://raw.githubusercontent.com/{os.environ['GITHUB_REPOSITORY']}/refs/heads/main",
-                "tvshow": tvshow,
-                "arcs": arcs,
-                "episodes": episodes
-            }, stream=f, allow_unicode=True, sort_keys=False)
-
-        if isinstance(arcs, list):
-            for i, arc in enumerate(arcs):
-                arcs[i] = unicode_fix_dict(arc)
-        elif isinstance(arcs, dict):
-            arcs = unicode_fix_dict(sort_dict(arcs))
-            arcs = [arc for arc in arcs.values()]
-
-        out = {
+    with data_yml.open(mode='w') as f:
+        YamlDump(data={
             "last_update": now.isoformat(),
             "last_update_ts": now.timestamp(),
             "base_url": f"https://raw.githubusercontent.com/{os.environ['GITHUB_REPOSITORY']}/refs/heads/main",
             "tvshow": tvshow,
             "arcs": arcs,
-            "episodes": unicode_fix_dict(episodes)
-        }
+            "episodes": episodes
+        }, stream=f, allow_unicode=True, sort_keys=False)
 
-        _data_json_out = orjson.dumps(out, option=orjson.OPT_NON_STR_KEYS | orjson.OPT_INDENT_2).replace(b"\\\\", b"\\")
-        json_file.write_bytes(_data_json_out)
-        _data_min_json = orjson.dumps(out, option=orjson.OPT_NON_STR_KEYS).replace(b"\\\\", b"\\")
-        json_min_file.write_bytes(_data_min_json)
+    if isinstance(arcs, list):
+        for i, arc in enumerate(arcs):
+            arcs[i] = unicode_fix_dict(arc)
+    elif isinstance(arcs, dict):
+        arcs = unicode_fix_dict(sort_dict(arcs))
+        arcs = [arc for arc in arcs.values()]
+
+    out = {
+        "last_update": now.isoformat(),
+        "last_update_ts": now.timestamp(),
+        "base_url": f"https://raw.githubusercontent.com/{os.environ['GITHUB_REPOSITORY']}/refs/heads/main",
+        "tvshow": tvshow,
+        "arcs": arcs,
+        "episodes": unicode_fix_dict(episodes)
+    }
+
+    _data_json_out = orjson.dumps(out, option=orjson.OPT_NON_STR_KEYS | orjson.OPT_INDENT_2).replace(b"\\\\", b"\\")
+    json_file.write_bytes(_data_json_out)
+    _data_min_json = orjson.dumps(out, option=orjson.OPT_NON_STR_KEYS).replace(b"\\\\", b"\\")
+    json_min_file.write_bytes(_data_min_json)
 
 def main():
     if len(sys.argv) > 1 and sys.argv[1] == 'update':
