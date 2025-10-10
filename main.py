@@ -335,6 +335,9 @@ def update():
                     now = datetime.now().astimezone(timezone.utc)
 
                     for i, item in enumerate(RSSParser.parse(r.text).channel.items):
+                        if i == 25:
+                            break
+
                         if not item.title or not item.title.content or item.title.content == "":
                             logger.warning(f"Skipping: {item}")
                             continue
@@ -420,7 +423,7 @@ def update():
                             else:
                                 logger.warning(f"-- Skipping: arc {arc_name} not found")
 
-                        elif now.hour % 6 == 0:
+                        elif now.hour % 6 == 0 and i < 10:
                             sr = client.get(item.guid.content, follow_redirects=True)
 
                             for subitem in BeautifulSoup(sr.text, "html.parser").select("li i.fa-file"):
