@@ -2,14 +2,16 @@
 
 ## URLs
 
-There are three separate files that are always kept up to date in case you want to develop something with it or keep it up to date:
+There are four separate files that are always kept up to date in case you want to develop something with it or keep it up to date:
 
-- **data.json**: Main file that gets updated and referenced.
+- **data.json**: Main file with `last_update`, `base_url`, `tvshow`, `arcs`, `episodes`, etc. that gets updated and referenced.
   - [https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/data.json](https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/data.json)
-- **data.min.json**: More compact version of `data.json` that strips out spacing. (321KB for the main file becomes 251KB here.)
+- **data.min.json**: More compact version of `data.json` that strips out spacing. (On average, this file is 26% smaller than `data.json`, e.g. 359KB becomes 272KB.)
   - [https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/data.min.json](https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/data.min.json)
 - **data.yml**: Main file but in YAML form instead of JSON form.
   - [https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/data.yml](https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/data.yml)
+- **status.json**: Status file that only contains `last_update`, `last_update_ts`, `base_url`, and `version` for tracking versioning without downloading a whole datafile.
+  - [https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/status.json](https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/status.json)
 
 The most pertinent values for this will be `last_update` which is compatible with Python's datetime parser, `last_update_ts` in Unix epoch timestamp format as a float, and `base_url` in case the metadata provider location changes and there needs to be a reference point for downloading posters.
 
