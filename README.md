@@ -66,6 +66,4 @@ If there's two clashing CRC32's:
   - The value of `crc32` is the original CRC32. (`E5F09F49`)
   - The value of `blake2` is the first 16 characters of the blake2s hash of the file.
 
-If there are new One Pace releases that the automatic updater misses, send a [Pull Request](https://github.com/ladyisatis/one-pace-metadata/pulls) with the added `.yml` in the `episodes` folder. Already-existing `.yml` files do not get overwritten by the automatic metadata updater.
-
-Note that future One Pace releases are allowed to be submitted as well, though if the CRC32 isn't known, it can be submitted in the format `Season_99_Episode_99.yml` where 99 in both the season and episode is replaced with the actual season number and episode number with no leading zeroes. Any future releases will be renamed once the actual video file is out and the CRC32 is known.
+If there are new One Pace releases that the automatic updater misses, send a [Pull Request](https://github.com/ladyisatis/one-pace-metadata/pulls) with the added `.yml` in the `episodes` folder. Already-existing `.yml` files do not get overwritten by the automatic metadata updater as long as the `title`, `description`, `chapters`, `episodes`, and `released` fields are not missing or empty.
