@@ -444,8 +444,8 @@ def update():
                                 else:
                                     arc_eps[key] = [crc32]
 
-                                crc_key = "crc32_extended" if "Extended" in subitem.title.content else "crc32"
-                                tid_key = "tid_extended" if "Extended" in subitem.title.content else "tid"
+                                crc_key = "crc32_extended" if "Extended" in extra else "crc32"
+                                tid_key = "tid_extended" if "Extended" in extra else "tid"
     
                                 arc_id = arc_to_num.get(arc_name, -1)
                                 if arc_id != -1:
