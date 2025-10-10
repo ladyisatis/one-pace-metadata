@@ -36,13 +36,17 @@ jobs:
       - name: Run data.json updater
         env:
           GCLOUD_API_KEY: ${{ secrets.GCLOUD_API_KEY }}
-        run: uv run main.py json
+        run: |
+          git fetch --unshallow origin
+          export METADATA_VERSION="$(git rev-list --count origin/main)"
+
+          uv run main.py json
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add data.json data.min.json data.yml
+          git add data.json data.min.json data.yml status.json
           git diff --cached --quiet || git commit -m "Update metadata listings [automated]"
           git push

@@ -40,5 +40,10 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
           git add episodes posters arcs.yml tvshow.yml
-          git diff --cached --quiet || (uv run main.py json && git add data.json data.min.json data.yml && git commit -m "Add metadata via external sources [automated]")
+          git diff --cached --quiet || (git fetch --unshallow origin && \
+            export METADATA_VERSION="$(git rev-list --count origin/main)" && \
+            uv run main.py json && \
+            git add data.json data.min.json data.yml status.json && \
+            git commit -m "Add metadata via external sources [automated]" \
+          )
           git push

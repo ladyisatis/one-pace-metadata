@@ -694,6 +694,7 @@ def generate_json():
     data_yml = Path(".", "data.yml")
     json_file = Path(".", "data.json")
     json_min_file = Path(".", "data.min.json")
+    status_file = Path(".", "status.json")
 
     tvshow = {}
     arcs = []
@@ -751,6 +752,16 @@ def generate_json():
     json_file.write_bytes(_data_json_out)
     _data_min_json = orjson.dumps(out, option=orjson.OPT_NON_STR_KEYS).replace(b"\\\\", b"\\")
     json_min_file.write_bytes(_data_min_json)
+
+    #status.json
+    out = {
+        "last_update": now.isoformat(),
+        "last_update_ts": now.timestamp(),
+        "base_url": f"https://raw.githubusercontent.com/{os.environ['GITHUB_REPOSITORY']}/refs/heads/main",
+        "version": int(os.environ['METADATA_VERSION']) if 'METADATA_VERSION' in os.environ else 0
+    }
+
+    status_file.write_bytes(orjson.dumps(out, option=orjson.OPT_NON_STR_KEYS | orjson.OPT_INDENT_2).replace(b"\\\\", b"\\"))
 
 def main():
     if len(sys.argv) > 1 and sys.argv[1] == 'update':
