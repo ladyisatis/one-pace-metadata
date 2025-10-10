@@ -1,4 +1,4 @@
-name: One Pace Metadata Job
+name: Clean Workflow Runs
 
 on:
   schedule:
