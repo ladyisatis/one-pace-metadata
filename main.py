@@ -296,8 +296,12 @@ def update():
                             }
                         else:
                             out_arcs[arc]["episodes"][_e]["length"] = row['Length'].strip() if 'Length' in row else ''
-                            out_arcs[arc]["episodes"][_e]["crc32"] = mkv_crc32
-                            out_arcs[arc]["episodes"][_e]["crc32_extended"] = mkv_crc32_ext
+
+                            if mkv_crc32 != "" and out_arcs[arc]["episodes"][_e]["crc32"] == "":
+                                out_arcs[arc]["episodes"][_e]["crc32"] = mkv_crc32
+
+                            if mkv_crc32_ext != "" and out_arcs[arc]["episodes"][_e]["crc32_extended"] == "":
+                                out_arcs[arc]["episodes"][_e]["crc32_extended"] = mkv_crc32_ext
 
                         _tid = crc32_id.get(mkv_crc32, "")
                         if _tid != "" and out_arcs[arc]["episodes"][_e]["tid"] == "":
@@ -353,10 +357,18 @@ def update():
                             tid_key = "tid_extended" if "Extended" in item.title.content else "tid"
 
                             arc_id = arc_to_num.get(arc_name, -1)
-                            if arc_id != -1 and ep_num in out_arcs[arc_id]["episodes"]:
+                            if arc_id != -1:
+                                if ep_num not in out_arcs[arc_id]["episodes"]:
+                                    out_arcs[arc]["episodes"][ep_num] = {
+                                        "length": "",
+                                        "crc32": "",
+                                        "crc32_extended": "",
+                                        "tid": "",
+                                        "tid_extended": ""
+                                    }
+
                                 out_arcs[arc_id]["episodes"][ep_num][crc_key] = crc32
-                                if "/view/" in item.guid.content and tid_key in out_arcs[arc_id]["episodes"][ep_num]:
-                                    out_arcs[arc_id]["episodes"][ep_num][tid_key] = item.guid.content.split("/view/")[1]
+                                out_arcs[arc_id]["episodes"][ep_num][tid_key] = item.guid.content.split("/view/")[1] if "/view/" in item.guid.content else ""
 
                             if Path(".", "episodes", f"{crc32}.yml").exists():
                                 continue
@@ -434,10 +446,18 @@ def update():
                                 tid_key = "tid_extended" if "Extended" in item.title.content else "tid"
     
                                 arc_id = arc_to_num.get(arc_name, -1)
-                                if arc_id != -1 and ep_num in out_arcs[arc_id]["episodes"]:
+                                if arc_id != -1:
+                                    if ep_num not in out_arcs[arc_id]["episodes"]:
+                                        out_arcs[arc]["episodes"][ep_num] = {
+                                            "length": "",
+                                            "crc32": "",
+                                            "crc32_extended": "",
+                                            "tid": "",
+                                            "tid_extended": ""
+                                        }
+
                                     out_arcs[arc_id]["episodes"][ep_num][crc_key] = crc32
-                                    if "/view/" in item.guid.content and tid_key in out_arcs[arc_id]["episodes"][ep_num]:
-                                        out_arcs[arc_id]["episodes"][ep_num][tid_key] = item.guid.content.split("/view/")[1]
+                                    out_arcs[arc_id]["episodes"][ep_num][tid_key] = item.guid.content.split("/view/")[1] if "/view/" in item.guid.content else ""
 
                                 if Path(".", "episodes", f"{crc32}.yml").exists():
                                     logger.warning("---- Skipping: crc32 file exists")
