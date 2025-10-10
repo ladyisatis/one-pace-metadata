@@ -30,6 +30,8 @@ The metadata is updated [once per hour](https://github.com/ladyisatis/one-pace-m
 - [One Pace Episode Descriptions](https://docs.google.com/spreadsheets/d/1M0Aa2p5x7NioaH9-u8FyHq6rH3t5s6Sccs8GoC6pHAM/) for descriptions for arcs and episodes
   - Maintained by Craigy from the One Pace team - please tag him in the One Pace Discord if there are missing descriptions for episodes.
 
+Tasks such as generation of metadata from inside a release's folders run every 6 hours, and `tid` information for downloading episodes is updated every Wednesday at 00:00:00 UTC.
+
 ## YAML (episodes/*.yml, arcs.yml, tvshow.yml)
 
 Metadata is provided in [YAML format](https://en.wikipedia.org/wiki/YAML#Syntax). Each YAML file is the CRC32 with the .yml extension, e.g. `E5F09F49.yml`.
