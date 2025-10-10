@@ -1,6 +1,6 @@
 {
-  "last_update": "2025-10-10T06:10:08.586331+00:00",
-  "last_update_ts": 1760076608.586331,
+  "last_update": "2025-10-10T07:07:26.092717+00:00",
+  "last_update_ts": 1760080046.092717,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main",
   "tvshow": {
     "title": "One Piece",
@@ -150,9 +150,9 @@
         },
         "06": {
           "length": "17:42",
-          "crc32": "F9DE972C",
+          "crc32": "D08B41AE",
           "crc32_extended": "",
-          "tid": "1958601",
+          "tid": "1995006",
           "tid_extended": ""
         },
         "07": {
@@ -3473,9 +3473,9 @@
         },
         "53": {
           "length": "32:11",
-          "crc32": "CE6E899D",
+          "crc32": "C99E7631",
           "crc32_extended": "",
-          "tid": "1990297",
+          "tid": "1995005",
           "tid_extended": ""
         },
         "54": {
@@ -3602,16 +3602,16 @@
         },
         "15": {
           "length": "31:48",
-          "crc32": "B9537A27",
+          "crc32": "21BF9495",
           "crc32_extended": "",
-          "tid": "1945227",
+          "tid": "2010311",
           "tid_extended": ""
         },
         "16": {
           "length": "24:50",
-          "crc32": "78ED23DF",
+          "crc32": "7A93DCC5",
           "crc32_extended": "",
-          "tid": "1947899",
+          "tid": "2012474",
           "tid_extended": ""
         },
         "17": {

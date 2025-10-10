@@ -101,9 +101,9 @@ arcs:
         tid_extended: ''
       '06':
         length: '17:42'
-        crc32: F9DE972C
+        crc32: D08B41AE
         crc32_extended: ''
-        tid: '1958601'
+        tid: '1995006'
         tid_extended: ''
       '07':
         length: '19:17'
@@ -3007,9 +3007,9 @@ arcs:
         tid_extended: ''
       '53':
         length: '32:11'
-        crc32: CE6E899D
+        crc32: C99E7631
         crc32_extended: ''
-        tid: '1990297'
+        tid: '1995005'
         tid_extended: ''
       '54':
         length: '32:18'
@@ -3119,15 +3119,15 @@ arcs:
         tid_extended: '2004230'
       '15':
         length: '31:48'
-        crc32: B9537A27
+        crc32: 21BF9495
         crc32_extended: ''
-        tid: '1945227'
+        tid: '2010311'
         tid_extended: ''
       '16':
         length: '24:50'
-        crc32: 78ED23DF
+        crc32: 7A93DCC5
         crc32_extended: ''
-        tid: '1947899'
+        tid: '2012474'
         tid_extended: ''
       '17':
         length: '20:21'
