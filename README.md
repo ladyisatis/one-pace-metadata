@@ -2,7 +2,7 @@
 
 ## URLs
 
-There are four separate files that are always kept up to date in case you want to develop something with it or keep it up to date:
+There are five separate files that are always kept up to date in case you want to develop something with it or keep it up to date:
 
 - **data.json**: Main file with `last_update`, `base_url`, `tvshow`, `arcs`, `episodes`, etc. that gets updated and referenced.
   - [https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/data.json](https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/data.json)
@@ -12,6 +12,8 @@ There are four separate files that are always kept up to date in case you want t
   - [https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/data.yml](https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/data.yml)
 - **status.json**: Status file that only contains `last_update`, `last_update_ts`, `base_url`, and `version` for tracking versioning without downloading a whole datafile.
   - [https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/status.json](https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/status.json)
+- **status.yml**: Status file but in YAML form instead of JSON form.
+  - [https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/status.yml](https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main/status.yml)
 
 The most pertinent values for this will be `last_update` which is compatible with Python's datetime parser, `last_update_ts` in Unix epoch timestamp format as a float, and `base_url` in case the metadata provider location changes and there needs to be a reference point for downloading posters.
 

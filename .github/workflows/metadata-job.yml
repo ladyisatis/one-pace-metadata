@@ -43,7 +43,7 @@ jobs:
           git diff --cached --quiet || (git fetch --unshallow origin && \
             export METADATA_VERSION="$(git rev-list --count origin/main)" && \
             uv run main.py json && \
-            git add data.json data.min.json data.yml status.json && \
+            git add data.json data.min.json data.yml status.json status.yml && \
             git commit -m "Add metadata via external sources [automated]" \
           )
           git push

@@ -181,7 +181,7 @@ def update():
                     spreadsheet_html = None
 
                     if now.weekday() == 2 and now.hour == 0:
-                        logger.info("3a. Update IDs")
+                        #logger.info("3a. Update IDs")
 
                         spreadsheet_html = client.get(f"https://docs.google.com/spreadsheets/u/0/d/{ONE_PACE_EPISODE_GUIDE_ID}/htmlview/sheet?headers=true&gid={sheetId}", follow_redirects=True)
                         html_parser = BeautifulSoup(spreadsheet_html.text, "html.parser")
@@ -449,7 +449,7 @@ def update():
 
                                 crc_key = "crc32_extended" if extra is not None else "crc32"
                                 tid_key = "tid_extended" if extra is not None else "tid"
-    
+
                                 arc_id = arc_to_num.get(arc_name, -1)
                                 if arc_id != -1:
                                     if ep_num not in out_arcs[arc_id]["episodes"]:
@@ -531,21 +531,21 @@ def update():
                             out_episodes[crc32]["episode"] = int(episode)
                             out_episodes[crc32]["title"] = title
                             out_episodes[crc32]["description"] = description
-    
+
                             try:
                                 _s = f"{out_episodes[crc32]['arc']}"
                                 _e = f"{out_episodes[crc32]['episode']}"
-    
+
                                 if _s != "0":
                                     if _s in mkv_titles and _e in mkv_titles[_s]:
                                         _origtitle = mkv_titles[_s][_e]
-        
+
                                         if title.lower() != _origtitle.lower():
                                             out_episodes[crc32]["originaltitle"] = _origtitle
-    
+
                                     if _s in chapter_list and _e in chapter_list[_s]:
                                         out_episodes[crc32]["chapters"] = chapter_list[_s][_e]
-    
+
                             except:
                                 logger.error(f"Skipping: {key}\n{traceback.format_exc()}")
 
@@ -698,6 +698,7 @@ def generate_json():
     json_file = Path(".", "data.json")
     json_min_file = Path(".", "data.min.json")
     status_file = Path(".", "status.json")
+    status_yml = Path(".", "status.yml")
 
     tvshow = {}
     arcs = []
@@ -706,9 +707,7 @@ def generate_json():
         tvshow = val_convert_string(YamlLoad(stream=f))
 
     with arcs_yml.open(mode='r', encoding='utf-8') as f:
-        arcs = YamlLoad(stream=f)
-        if "arcs" in arcs:
-            arcs = arcs["arcs"]
+        arcs = YamlLoad(stream=f)["arcs"]
 
     episodes = {}
 
@@ -756,7 +755,6 @@ def generate_json():
     _data_min_json = orjson.dumps(out, option=orjson.OPT_NON_STR_KEYS).replace(b"\\\\", b"\\")
     json_min_file.write_bytes(_data_min_json)
 
-    #status.json
     out = {
         "last_update": now.isoformat(),
         "last_update_ts": now.timestamp(),
@@ -765,6 +763,9 @@ def generate_json():
     }
 
     status_file.write_bytes(orjson.dumps(out, option=orjson.OPT_NON_STR_KEYS | orjson.OPT_INDENT_2).replace(b"\\\\", b"\\"))
+
+    with status_yml.open(mode='w') as f:
+        YamlDump(data=out, stream=f, allow_unicode=True, sort_keys=False)
 
 def main():
     if len(sys.argv) > 1 and sys.argv[1] == 'update':
