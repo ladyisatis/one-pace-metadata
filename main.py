@@ -361,7 +361,7 @@ def update():
 
                             arc_name, ep_num, extra, crc32 = match.groups()
 
-                            key = f"{arc_name} {ep_num}"
+                            key = f"{arc_name} {int(ep_num)}"
                             logger.info(f"-- {key}")
                             if key in arc_eps:
                                 logger.info(f"---- old: {arc_eps[key]}")
@@ -466,7 +466,7 @@ def update():
 
                                 arc_name, ep_num, extra, crc32 = match.groups()
 
-                                key = f"{arc_name} {ep_num}"
+                                key = f"{arc_name} {int(ep_num)}"
                                 if key in arc_eps:
                                     if crc32 not in arc_eps[key]:
                                         arc_eps[key].append(crc32)
