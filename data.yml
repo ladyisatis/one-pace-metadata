@@ -1,5 +1,5 @@
-last_update: '2025-10-10T12:11:56.203669+00:00'
-last_update_ts: 1760098316.203669
+last_update: '2025-10-13T05:08:19.511251+00:00'
+last_update_ts: 1760332099.511251
 base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main
 tvshow:
   title: One Piece
@@ -236,9 +236,9 @@ arcs:
     episodes:
       '01':
         length: '30:47'
-        crc32: AD09145D
+        crc32: C269DEF5
         crc32_extended: ''
-        tid: '1902842'
+        tid: '2030687'
         tid_extended: ''
       '02':
         length: '22:02'
@@ -6398,6 +6398,19 @@ episodes:
     released: 2024-11-16
     hashes:
       crc32: 7392F65E
+  73E70A0E:
+    arc: 36
+    episode: 19
+    title: Hostage Situation
+    description: In the Labophase on Egghead, which is completely surrounded by the
+      Marines, Luffy and the others devise a plan to escape the island. However, the
+      Frontier Dome, the laser defense system, cannot be deactivated without York’s
+      secret passcode.
+    chapters: 1089-1090
+    episodes: 1123-1124
+    released: 2025-10-13
+    hashes:
+      crc32: 73E70A0E
   747CF45E:
     arc: 19
     episode: 3
@@ -8232,6 +8245,16 @@ episodes:
     released: 2025-04-11
     hashes:
       crc32: C23AC8D3
+  C269DEF5:
+    arc: 6
+    episode: 1
+    title: Arlong Park 01
+    description: ''
+    chapters: 69-71
+    episodes: 31-32
+    released: 2025-10-13
+    hashes:
+      crc32: C269DEF5
   C2835057:
     arc: 23
     episode: 3
@@ -8588,6 +8611,19 @@ episodes:
     released: 2023-11-17
     hashes:
       crc32: CF0B1E5A
+  CF226ADC:
+    arc: 36
+    episode: 19
+    title: Hostage Situation
+    description: In the Labophase on Egghead, which is completely surrounded by the
+      Marines, Luffy and the others devise a plan to escape the island. However, the
+      Frontier Dome, the laser defense system, cannot be deactivated without York’s
+      secret passcode.
+    chapters: 1089-1090
+    episodes: 1123-1124
+    released: 2025-10-13
+    hashes:
+      crc32: CF226ADC
   CF6F1505:
     arc: 19
     episode: 11

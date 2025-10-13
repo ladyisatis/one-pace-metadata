@@ -199,9 +199,9 @@ arcs:
     episodes:
       '01':
         length: '30:47'
-        crc32: AD09145D
+        crc32: C269DEF5
         crc32_extended: ''
-        tid: '1902842'
+        tid: '2030687'
         tid_extended: ''
       '02':
         length: '22:02'
