@@ -364,10 +364,13 @@ def update():
                             key = f"{arc_name} {ep_num}"
                             logger.info(f"-- {key}")
                             if key in arc_eps:
+                                logger.info(f"---- old: {arc_eps[key]}")
                                 if crc32 not in arc_eps[key]:
                                     arc_eps[key].append(crc32)
+                                    logger.info(f"---- new: {arc_eps[key]}")
                             else:
                                 arc_eps[key] = [crc32]
+                                logger.info(f"---- set: {arc_eps[key]}")
 
                             logger.info(f"---- {crc32}")
 
@@ -393,7 +396,7 @@ def update():
                                 with f.open(mode='r', encoding='utf-8') as f:
                                     ep = YamlLoad(stream=f)
                                     try:
-                                        if ep["title"] != "" and ep["description"] != "":
+                                        if (ep["title"] != "" and ep["description"] != "") or "reference" in ep:
                                             continue
                                     except Exception as e:
                                         logger.info(f"---- {e}")
@@ -492,7 +495,7 @@ def update():
                                     with f.open(mode='r', encoding='utf-8') as f:
                                         ep = YamlLoad(stream=f)
                                         try:
-                                            if ep["title"] != "" and ep["description"] != "":
+                                            if (ep["title"] != "" and ep["description"] != "") or "reference" in ep:
                                                 continue
                                         except Exception as e:
                                             logger.info(f"---- {e}")
