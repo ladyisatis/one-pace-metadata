@@ -110,7 +110,7 @@ def update():
                         arc_name_to_id[arc_name] = arc_id
                         mkv_titles[arc_id] = {}
                         chapter_list[arc_id] = {}
-                        logger.info(f"-- {arc_id}: {arc_name}")
+                        #logger.info(f"-- {arc_id}: {arc_name}")
 
                     arc_id = arc_name_to_id[arc_name]
                     mkv_titles[arc_id][ep_num] = v
@@ -118,9 +118,9 @@ def update():
                     chap_k = k.replace(".eptitle", ".chapter")
                     if chap_k in chapter_props:
                         chapter_list[arc_id][ep_num] = chapter_props[chap_k]
-                        logger.info(f"---- {arc_name} {ep_num} ({chapter_props[chap_k]}): {v}")
+                        #logger.info(f"---- {arc_name} {ep_num} ({chapter_props[chap_k]}): {v}")
                     else:
-                        logger.info(f"---- {arc_name} {ep_num}: {v}")
+                        #logger.info(f"---- {arc_name} {ep_num}: {v}")
 
             logger.info("2. One Pace Episode Descriptions Arcs")
 
@@ -160,7 +160,7 @@ def update():
                         out_arcs[part]["title"] = title
                         out_arcs[part]["description"] = row["description_en"]
 
-                    logger.info(f"-- {part}: {title}")
+                    #logger.info(f"-- {part}: {title}")
                     arc_to_num[title] = part
 
             logger.info("3. CRC32 updates from One Pace Episode Guide")
@@ -293,7 +293,7 @@ def update():
                             "released": release_date.isoformat()
                         }
 
-                        logger.info(f"-- {out_arcs[arc]['title']} {episode}")
+                        #logger.info(f"-- {out_arcs[arc]['title']} {episode}")
 
                         if _e not in out_arcs[arc]["episodes"]:
                             out_arcs[arc]["episodes"][_e] = {
@@ -326,15 +326,15 @@ def update():
                         key = f"{out_arcs[arc]['originaltitle']} {episode}" if 'originaltitle' in out_arcs[arc] and out_arcs[arc]['originaltitle'] != "" else f"{out_arcs[arc]['title']} {episode}"
                         if key in arc_eps:
                             arc_eps[key].append(mkv_crc32)
-                            logger.info(f"---- {key}: {mkv_crc32}")
+                            #nfo(f"---- {key}: {mkv_crc32}")
 
                             if mkv_crc32_ext != '':
                                 arc_eps[key].append(mkv_crc32_ext)
-                                logger.info(f"---- {key}: {mkv_crc32_ext}")
+                                #logger.info(f"---- {key}: {mkv_crc32_ext}")
 
                         else:
                             arc_eps[key] = [mkv_crc32] if mkv_crc32_ext == '' else [mkv_crc32, mkv_crc32_ext]
-                            logger.info(f"---- {key}: {arc_eps[key]}")
+                            #logger.info(f"---- {key}: {arc_eps[key]}")
 
             logger.info("4. One Pace RSS Feed")
 
@@ -362,17 +362,17 @@ def update():
                             arc_name, ep_num, extra, crc32 = match.groups()
 
                             key = f"{arc_name} {int(ep_num)}"
-                            logger.info(f"-- {key}")
+                            #logger.info(f"-- {key}")
                             if key in arc_eps:
-                                logger.info(f"---- old: {arc_eps[key]}")
+                                #logger.info(f"---- old: {arc_eps[key]}")
                                 if crc32 not in arc_eps[key]:
                                     arc_eps[key].append(crc32)
-                                    logger.info(f"---- new: {arc_eps[key]}")
+                                    #logger.info(f"---- new: {arc_eps[key]}")
                             else:
                                 arc_eps[key] = [crc32]
-                                logger.info(f"---- set: {arc_eps[key]}")
+                                #logger.info(f"---- set: {arc_eps[key]}")
 
-                            logger.info(f"---- {crc32}")
+                            #logger.info(f"---- {crc32}")
 
                             crc_key = "crc32_extended" if extra is not None else "crc32"
                             tid_key = "tid_extended" if extra is not None else "tid"
@@ -396,10 +396,10 @@ def update():
                                 with f.open(mode='r', encoding='utf-8') as f:
                                     ep = YamlLoad(stream=f)
                                     try:
-                                        if (ep["title"] != "" and ep["description"] != "") or "reference" in ep:
+                                        if "reference" in ep or (ep["title"] != "" and ep["description"] != ""):
                                             continue
-                                    except Exception as e:
-                                        logger.info(f"---- {e}")
+                                    except:
+                                        pass
 
                             r = client.get(item.guid.content, follow_redirects=True)
                             div = BeautifulSoup(r.text, 'html.parser').find('div', { 'class': 'panel-body', 'id': 'torrent-description' })
@@ -421,7 +421,7 @@ def update():
                                 t = f"{arc_name} {ep_num:02d}"
                                 ep_desc = ""
 
-                                logger.info(f"---- arc part: {_s}")
+                                #logger.info(f"---- arc part: {_s}")
 
                                 if crc32 not in out_episodes:
                                     if chs == "" or eps == "":
@@ -431,7 +431,7 @@ def update():
                                                 ep_desc = v["description"]
                                                 chs = v["chapters"]
                                                 eps = v["episodes"]
-                                                logger.info(f"---- copy info from {k} ({t})")
+                                                #logger.info(f"---- copy info from {k} ({t})")
                                                 break
 
                                     out_episodes[crc32] = {
@@ -495,10 +495,10 @@ def update():
                                     with f.open(mode='r', encoding='utf-8') as f:
                                         ep = YamlLoad(stream=f)
                                         try:
-                                            if (ep["title"] != "" and ep["description"] != "") or "reference" in ep:
+                                            if "reference" in ep or (ep["title"] != "" and ep["description"] != ""):
                                                 continue
-                                        except Exception as e:
-                                            logger.info(f"---- {e}")
+                                        except:
+                                            pass
 
                                 if arc_name in arc_to_num:
                                     ep_num = int(ep_num)
@@ -554,14 +554,14 @@ def update():
                         continue
 
                     key = f"{arc} {episode}"
-                    logger.info(f"-- {arc} ({episode})")
+                    #logger.info(f"-- {arc} ({episode})")
                     if key not in arc_eps:
                         logger.warning(f"Skipping: {key} (not found)")
                         continue
 
                     for crc32 in arc_eps[key]:
                         if crc32 in out_episodes:
-                            logger.info(f"---- {crc32} (Y)")
+                            #logger.info(f"---- {crc32} (Y)")
                             out_episodes[crc32]["episode"] = int(episode)
                             out_episodes[crc32]["title"] = title
                             out_episodes[crc32]["description"] = description
@@ -583,8 +583,8 @@ def update():
                             except:
                                 logger.error(f"Skipping: {key}\n{traceback.format_exc()}")
 
-                        else:
-                            logger.info(f"---- {crc32} (N)")
+                        #else:
+                        #    logger.info(f"---- {crc32} (N)")
 
         logger.info("6. Update Files")
 
