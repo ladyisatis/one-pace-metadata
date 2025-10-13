@@ -1,5 +1,5 @@
-last_update: '2025-10-13T05:08:19.511251+00:00'
-last_update_ts: 1760332099.511251
+last_update: '2025-10-13T08:45:05.334560+00:00'
+last_update_ts: 1760345105.33456
 base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main
 tvshow:
   title: One Piece
@@ -8248,8 +8248,10 @@ episodes:
   C269DEF5:
     arc: 6
     episode: 1
-    title: Arlong Park 01
-    description: ''
+    title: Arlong Park
+    description: As they depart the Baratie in pursuit of Nami and the Going Merry,
+      Yosaku warns Luffy and Sanji about the vicious Arlong and his fishman underlings.
+      Meanwhile, Usopp, Johnny, and Zoro make landfall where Nami docked the Merry.
     chapters: 69-71
     episodes: 31-32
     released: 2025-10-13
