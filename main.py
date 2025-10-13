@@ -392,8 +392,11 @@ def update():
                             if f.is_file():
                                 with f.open(mode='r', encoding='utf-8') as f:
                                     ep = YamlLoad(stream=f)
-                                    if ep["title"] != "" and ep["description"] != "":
-                                        continue
+                                    try:
+                                        if ep["title"] != "" and ep["description"] != "":
+                                            continue
+                                    except Exception as e:
+                                        logger.info(f"---- {e}")
 
                             r = client.get(item.guid.content, follow_redirects=True)
                             div = BeautifulSoup(r.text, 'html.parser').find('div', { 'class': 'panel-body', 'id': 'torrent-description' })
@@ -488,8 +491,11 @@ def update():
                                 if f.is_file():
                                     with f.open(mode='r', encoding='utf-8') as f:
                                         ep = YamlLoad(stream=f)
-                                        if ep["title"] != "" and ep["description"] != "":
-                                            continue
+                                        try:
+                                            if ep["title"] != "" and ep["description"] != "":
+                                                continue
+                                        except Exception as e:
+                                            logger.info(f"---- {e}")
 
                                 if arc_name in arc_to_num:
                                     ep_num = int(ep_num)
