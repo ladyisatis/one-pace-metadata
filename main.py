@@ -119,7 +119,7 @@ def update():
                     if chap_k in chapter_props:
                         chapter_list[arc_id][ep_num] = chapter_props[chap_k]
                         #logger.info(f"---- {arc_name} {ep_num} ({chapter_props[chap_k]}): {v}")
-                    else:
+                    #else:
                         #logger.info(f"---- {arc_name} {ep_num}: {v}")
 
             logger.info("2. One Pace Episode Descriptions Arcs")
