@@ -1,5 +1,5 @@
-last_update: '2025-10-13T08:45:05.334560+00:00'
-last_update_ts: 1760345105.33456
+last_update: '2025-10-19T22:06:48.953352+00:00'
+last_update_ts: 1760911608.953352
 base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main
 tvshow:
   title: One Piece
@@ -242,9 +242,9 @@ arcs:
         tid_extended: ''
       '02':
         length: '22:02'
-        crc32: 432F7EDF
+        crc32: E419D54E
         crc32_extended: ''
-        tid: '1902851'
+        tid: '2033327'
         tid_extended: ''
       '03':
         length: '24:35'
@@ -9095,6 +9095,17 @@ episodes:
     released: 2014-10-21
     hashes:
       crc32: E3C90B8B
+  E419D54E:
+    arc: 6
+    episode: 2
+    title: Monsters of the Grand Line
+    description: Usopp, having challenged the fishmen, has been caught. To effectively
+      prove her loyalty to the Arlong Pirates, Nami is left with a morbid choice.
+    chapters: 72-74
+    episodes: 31-33
+    released: 2025-10-19
+    hashes:
+      crc32: E419D54E
   E468A31D:
     arc: 15
     episode: 5
