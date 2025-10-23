@@ -588,6 +588,8 @@ def update():
 
         logger.info("6. Update Files")
 
+        added_eps = []
+
         for crc32, data in out_episodes.items():
             file_path = Path(".", "episodes", f"{crc32}.yml")
 
@@ -658,6 +660,7 @@ def update():
                     f.write(out)
 
                 logger.success(f"Wrote episode to {file_path}")
+                added_eps.append(f"{out_arcs[arc]['title']} {episode:02d} ({crc32})")
 
         _all_crc32 = True
         if isinstance(out_arcs, list):
@@ -675,6 +678,10 @@ def update():
             arc_path = Path(".", "arcs.yml")
             with arc_path.open(mode='w') as f:
                 YamlDump(data={"arcs": out_arcs}, stream=f, allow_unicode=True, sort_keys=False)
+
+        if len(added_eps) > 0:
+            added_eps = ", ".join(added_eps)
+            print(f"Add metadata: {added_eps}")
 
     except:
         logger.critical(f"Uncaught Exception\n{traceback.format_exc()}")
