@@ -3,7 +3,6 @@ name: One Pace Metadata Job
 on:
   schedule:
     - cron: '0 * * * *'
-  workflow_dispatch:
 
 jobs:
   build:
@@ -33,10 +32,9 @@ jobs:
         env:
           GCLOUD_API_KEY: ${{ secrets.GCLOUD_API_KEY }}
           ONE_PACE_RSS_FEED: ${{ secrets.ONE_PACE_RSS_FEED }}
-        run: uv run main.py update
-
-      - name: Commit and push changes
         run: |
+          output_update="$(uv run main.py update 2> >(cat >&2))"
+
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
@@ -45,6 +43,6 @@ jobs:
             export METADATA_VERSION="$(git rev-list --count origin/main)" && \
             uv run main.py json && \
             git add data.json data.min.json data.yml status.json status.yml && \
-            git commit -m "Add metadata via external sources [automated]" \
+            git commit -m "${output_update} [automated]" \
           )
           git push
