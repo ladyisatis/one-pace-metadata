@@ -211,9 +211,9 @@ arcs:
         tid_extended: ''
       '03':
         length: '24:35'
-        crc32: C060DA73
+        crc32: CC4900AE
         crc32_extended: ''
-        tid: '1920010'
+        tid: '2035983'
         tid_extended: ''
       '04':
         length: '26:57'

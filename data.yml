@@ -1,5 +1,5 @@
-last_update: '2025-10-19T22:06:48.953352+00:00'
-last_update_ts: 1760911608.953352
+last_update: '2025-10-27T14:07:58.427351+00:00'
+last_update_ts: 1761574078.427351
 base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main
 tvshow:
   title: One Piece
@@ -248,9 +248,9 @@ arcs:
         tid_extended: ''
       '03':
         length: '24:35'
-        crc32: C060DA73
+        crc32: CC4900AE
         crc32_extended: ''
-        tid: '1920010'
+        tid: '2035983'
         tid_extended: ''
       '04':
         length: '26:57'
@@ -8526,6 +8526,18 @@ episodes:
     released: 2021-11-21
     hashes:
       crc32: CC37D6C6
+  CC4900AE:
+    arc: 6
+    episode: 3
+    title: Sea Charts and Fishmen
+    description: Luffy’s group has reached the island but are met with a shocking
+      revelation. Unmoved by Nami’s apparent actions and her insistence that he leaves,
+      Luffy stubbornly sticks around.
+    chapters: 74-76
+    episodes: 33-34
+    released: 2025-10-27
+    hashes:
+      crc32: CC4900AE
   CC88315A:
     arc: 30
     episode: 6
