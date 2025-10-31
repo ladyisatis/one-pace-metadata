@@ -170,13 +170,13 @@ arcs:
         tid: '2010309'
         tid_extended: ''
       '06':
-        length: '28:00'
+        length: '27:59'
         crc32: 1375A4F5
         crc32_extended: ''
         tid: '2022729'
         tid_extended: ''
       '07':
-        length: '26:53'
+        length: '27:47'
         crc32: 5B161435
         crc32_extended: ''
         tid: '2022710'
