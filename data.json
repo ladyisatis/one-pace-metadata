@@ -1,6 +1,6 @@
 {
-  "last_update": "2025-10-31T10:07:59.776824+00:00",
-  "last_update_ts": 1761905279.776824,
+  "last_update": "2025-11-03T01:35:54.378544+00:00",
+  "last_update_ts": 1762133754.378544,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main",
   "tvshow": {
     "title": "One Piece",
@@ -278,9 +278,9 @@
         },
         "04": {
           "length": "26:57",
-          "crc32": "DB23E2E6",
+          "crc32": "E4D9E965",
           "crc32_extended": "",
-          "tid": "1925908",
+          "tid": "2038517",
           "tid_extended": ""
         },
         "05": {
@@ -9357,6 +9357,18 @@
       "released": "2023-06-05",
       "hashes": {
         "crc32": "E4BA97D6"
+      }
+    },
+    "E4D9E965": {
+      "arc": 6,
+      "episode": 4,
+      "title": "Bell-m\u00e8re",
+      "description": "Nojiko goes into detail about Nami's childhood and their adoptive mother Bell-m\u00e8re, a former Marine. Despite being poor and unrelated by blood, they had a happy life on their tangerine orchard.",
+      "chapters": "77-78",
+      "episodes": "34-36",
+      "released": "2025-11-03",
+      "hashes": {
+        "crc32": "E4D9E965"
       }
     },
     "E4F68497": {
