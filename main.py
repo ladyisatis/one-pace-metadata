@@ -682,6 +682,8 @@ def update():
         if len(added_eps) > 0:
             added_eps = ", ".join(added_eps)
             print(f"Add metadata: {added_eps}")
+        else:
+            print("Update metadata from external sources")
 
     except:
         logger.critical(f"Uncaught Exception\n{traceback.format_exc()}")
