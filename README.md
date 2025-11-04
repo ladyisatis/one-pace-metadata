@@ -36,6 +36,12 @@ The metadata is updated [once per hour](https://github.com/ladyisatis/one-pace-m
 
 Tasks such as generation of metadata from inside a release's folders run every 6 hours, and `tid` information for downloading episodes is updated every Wednesday at 00:00:00 UTC.
 
+## Other Edits (Onigashima Paced, Muhn Pace, Metadata in Other Languages)
+
+While the `episodes` and `posters` directories will reflect official One Pace releases and will be automatically updated, there is support for adding other edits. Place all `.yml` files from the alternate edit 
+
+If there is metadata you wish to translate into other languages or a separate anime edit, create a repository on GitHub with the `.yml` files, and a `README.md` for people who want to know what this is an edit of, or what is being translated. [Create an issue](https://github.com/ladyisatis/OnePaceOrganizer/issues) with a link to the repository of `.yml` files and it will be added as a submodule inside of `other-edits`.
+
 ## YAML (episodes/*.yml, arcs.yml, tvshow.yml)
 
 Metadata is provided in [YAML format](https://en.wikipedia.org/wiki/YAML#Syntax). Each YAML file is the CRC32 with the .yml extension, e.g. `E5F09F49.yml`.
@@ -71,3 +77,11 @@ If there's two clashing CRC32's:
   - The value of `blake2` is the first 16 characters of the blake2s hash of the file.
 
 If there are new One Pace releases that the automatic updater misses, send a [Pull Request](https://github.com/ladyisatis/one-pace-metadata/pulls) with the added `.yml` in the `episodes` folder. Already-existing `.yml` files do not get overwritten by the automatic metadata updater as long as the `title`, `description`, `chapters`, `episodes`, and `released` fields are not missing or empty.
+
+There is also support for referencing an existing metadata file. Create the file `[new crc32].yml` where `[new crc32]` is the calculated CRC32 of the new video file, and set the `reference` parameter to the CRC32 of the old video file, e.g.
+
+```
+reference: E5F09F49
+```
+
+The automatic updater will point all instances searching for the metadata for the new video file to the existing metadata inside `E5F09F49.yml`.
