@@ -1,5 +1,5 @@
-last_update: '2025-11-03T01:35:54.378544+00:00'
-last_update_ts: 1762133754.378544
+last_update: '2025-11-10T03:31:47.549386+00:00'
+last_update_ts: 1762745507.549386
 base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main
 tvshow:
   title: One Piece
@@ -260,10 +260,10 @@ arcs:
         tid_extended: ''
       '05':
         length: '30:32'
-        crc32: 1CC0DA84
-        crc32_extended: ACD6AA5F
-        tid: '1929184'
-        tid_extended: '1929185'
+        crc32: 5D1CA4A2
+        crc32_extended: CEDBEA59
+        tid: '2041111'
+        tid_extended: '2041112'
       '06':
         length: '26:57'
         crc32: 06F25D1B
@@ -3184,6 +3184,12 @@ arcs:
         crc32_extended: 93B80191
         tid: '2012475'
         tid_extended: '2012476'
+      '20':
+        length: ''
+        crc32: B974EFD7
+        crc32_extended: ''
+        tid: '2041114'
+        tid_extended: ''
   0:
     part: 0
     saga: Specials
@@ -5618,6 +5624,18 @@ episodes:
     released: 2022-12-18
     hashes:
       crc32: 5C7E0604
+  5D1CA4A2:
+    arc: 6
+    episode: 5
+    title: Live
+    description: When a Marine officer under Arlong's pay confiscates all the money
+      Nami accumulated over the years, it becomes clear where Arlong stands on his
+      promise.
+    chapters: 79-81
+    episodes: 36-37
+    released: 2025-11-10
+    hashes:
+      crc32: 5D1CA4A2
   5D5D24DF:
     arc: 24
     episode: 6
@@ -8031,6 +8049,19 @@ episodes:
     released: 2025-03-08
     hashes:
       crc32: B9537A27
+  B974EFD7:
+    arc: 36
+    episode: 20
+    title: Sentomaru
+    description: Admiral Kizaru finally makes landfall, but Sentomaru stands in his
+      way while the Straw Hats attempt to move the Sunny to the back side of the island.
+      And back at Mary Geoise, Fleet Admiral Akainu stands in the way of the ever-advancing
+      Kuma.
+    chapters: 1091-1092
+    episodes: 1125-1126
+    released: 2025-11-10
+    hashes:
+      crc32: B974EFD7
   BAFD9522:
     arc: 18
     episode: 10
@@ -8600,6 +8631,18 @@ episodes:
     chapters: 996-997
     episodes: 1009-1011
     released: ''
+  CEDBEA59:
+    arc: 6
+    episode: 5
+    title: Live
+    description: When a Marine officer under Arlong's pay confiscates all the money
+      Nami accumulated over the years, it becomes clear where Arlong stands on his
+      promise.
+    chapters: 79-81
+    episodes: 36-37
+    released: 2025-11-10
+    hashes:
+      crc32: CEDBEA59
   CEF78887:
     arc: 20
     episode: 5
