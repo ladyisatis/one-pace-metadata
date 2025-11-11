@@ -38,7 +38,7 @@ Tasks such as generation of metadata from inside a release's folders run every 6
 
 ## Other Edits (Onigashima Paced, Muhn Pace, Metadata in Other Languages)
 
-While the `episodes` and `posters` directories will reflect official One Pace releases and will be automatically updated, there is support for adding other edits. Place all `.yml` files from the alternate edit 
+While the `episodes` and `posters` directories will reflect official One Pace releases and will be automatically updated, there is support for adding other edits. Place all `.yml` files from the alternate edit folder into the `episodes` folder. If there are existing files in the `episode` directory, then overwrite the alternate edit files or edit the filename so that the old metadata file ends with `_1.yml` and the new one ends with `_2.yml` respectively.
 
 If there is metadata you wish to translate into other languages or a separate anime edit, create a repository on GitHub with the `.yml` files, and a `README.md` for people who want to know what this is an edit of, or what is being translated. [Create an issue](https://github.com/ladyisatis/OnePaceOrganizer/issues) with a link to the repository of `.yml` files and it will be added as a submodule inside of `other-edits`.
 
