@@ -223,10 +223,10 @@ arcs:
         tid_extended: ''
       '05':
         length: '30:32'
-        crc32: 1CC0DA84
-        crc32_extended: ACD6AA5F
-        tid: '1929184'
-        tid_extended: '1929185'
+        crc32: 5D1CA4A2
+        crc32_extended: CEDBEA59
+        tid: '2041111'
+        tid_extended: '2041112'
       '06':
         length: '26:57'
         crc32: 06F25D1B
@@ -3147,6 +3147,12 @@ arcs:
         crc32_extended: 93B80191
         tid: '2012475'
         tid_extended: '2012476'
+      '20':
+        length: '30:25'
+        crc32: B974EFD7
+        crc32_extended: ''
+        tid: '2041114'
+        tid_extended: ''
   0:
     part: 0
     saga: Specials
