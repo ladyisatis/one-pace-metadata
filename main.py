@@ -299,12 +299,14 @@ def update():
                             out_arcs[arc]["episodes"][_e] = {
                                 "length": row['Length'].strip() if 'Length' in row else '',
                                 "crc32": mkv_crc32,
-                                "crc32_extended": mkv_crc32_ext,
                                 "tid": "",
+                                "length_extended": row['Length (Extended)'].strip() if 'Length (Extended)' in row else '',
+                                "crc32_extended": mkv_crc32_ext,
                                 "tid_extended": ""
                             }
                         else:
                             out_arcs[arc]["episodes"][_e]["length"] = row['Length'].strip() if 'Length' in row else ''
+                            out_arcs[arc]["episodes"][_e]["length_extended"] = row['Length (Extended)'] if 'Length (Extended)' in row else ''
 
                             if mkv_crc32 != "" and out_arcs[arc]["episodes"][_e]["crc32"] == "":
                                 out_arcs[arc]["episodes"][_e]["crc32"] = mkv_crc32
@@ -383,8 +385,9 @@ def update():
                                     out_arcs[arc]["episodes"][ep_num] = {
                                         "length": "",
                                         "crc32": "",
-                                        "crc32_extended": "",
                                         "tid": "",
+                                        "length_extended": "",
+                                        "crc32_extended": "",
                                         "tid_extended": ""
                                     }
 
@@ -482,8 +485,9 @@ def update():
                                         out_arcs[arc]["episodes"][ep_num] = {
                                             "length": "",
                                             "crc32": "",
-                                            "crc32_extended": "",
                                             "tid": "",
+                                            "length_extended": "",
+                                            "crc32_extended": "",
                                             "tid_extended": ""
                                         }
 
