@@ -1009,15 +1009,15 @@ arcs:
     episodes:
       '01':
         length: '27:47'
-        crc32: A6CD3EBB
+        crc32: 785FB818
         crc32_extended: ''
-        tid: '1257013'
+        tid: '2043732'
         tid_extended: ''
       '02':
         length: '18:33'
-        crc32: EBBD7693
+        crc32: 495CDC31
         crc32_extended: ''
-        tid: '1257014'
+        tid: '2043733'
         tid_extended: ''
       '03':
         length: '23:09'

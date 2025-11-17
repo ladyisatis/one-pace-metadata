@@ -1,6 +1,6 @@
 {
-  "last_update": "2025-11-10T07:08:20.244115+00:00",
-  "last_update_ts": 1762758500.244115,
+  "last_update": "2025-11-17T00:30:26.200371+00:00",
+  "last_update_ts": 1763339426.200371,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main",
   "tvshow": {
     "title": "One Piece",
@@ -1178,16 +1178,16 @@
       "episodes": {
         "01": {
           "length": "27:47",
-          "crc32": "A6CD3EBB",
+          "crc32": "785FB818",
           "crc32_extended": "",
-          "tid": "1257013",
+          "tid": "2043732",
           "tid_extended": ""
         },
         "02": {
           "length": "18:33",
-          "crc32": "EBBD7693",
+          "crc32": "495CDC31",
           "crc32_extended": "",
-          "tid": "1257014",
+          "tid": "2043733",
           "tid_extended": ""
         },
         "03": {
@@ -5436,6 +5436,20 @@
         "crc32": "482F69B7"
       }
     },
+    "495CDC31": {
+      "arc": 19,
+      "episode": 2,
+      "title": "The Big Showdown on the Judiciary Island!!",
+      "originaltitle": "The Big Showdown on the Judicial Island!",
+      "sorttitle": "Big Showdown on the Judiciary Island!!",
+      "description": "Luffy launches a one-man assault on Enies Lobby, and the rest of his allies work to break the first gate's defenses. What awaits Galley-La and the Franky Family at the second gate is a showdown of massive proportions!",
+      "chapters": "376-378",
+      "episodes": "265-266",
+      "released": "2025-11-16",
+      "hashes": {
+        "crc32": "495CDC31"
+      }
+    },
     "4A52B138": {
       "arc": 32,
       "episode": 10,
@@ -5809,6 +5823,18 @@
       "released": "2022-11-30",
       "hashes": {
         "crc32": 58649840
+      }
+    },
+    "587689A9": {
+      "arc": 6,
+      "episode": 5,
+      "title": "Live",
+      "description": "When a Marine officer under Arlong's pay confiscates all the money Nami accumulated over the years, it becomes clear where Arlong stands on his promise.",
+      "chapters": "79-81",
+      "episodes": "36-37",
+      "released": "2025-11-16",
+      "hashes": {
+        "crc32": "587689A9"
       }
     },
     "58865EA7": {
@@ -6863,6 +6889,19 @@
       "released": "2014-06-01",
       "hashes": {
         "crc32": "777DE97C"
+      }
+    },
+    "785FB818": {
+      "arc": 19,
+      "episode": 1,
+      "title": "The Superhumans of Enies Lobby",
+      "sorttitle": "Superhumans of Enies Lobby",
+      "description": "As the Straw Hats and their allies approach Enies Lobby on Rocketman, they hatch a plan to save Robin before she passes through the Gates of Justice. Meanwhile, Spandam holds a meeting with CP9 where they await Lucci's return in the Tower of Justice.",
+      "chapters": "375-376",
+      "episodes": "263-264",
+      "released": "2025-11-16",
+      "hashes": {
+        "crc32": "785FB818"
       }
     },
     "78ED23DF": {
