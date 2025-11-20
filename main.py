@@ -772,7 +772,7 @@ def generate_json():
                 episodes[key] = YamlLoad(stream=f)
 
     episodes = sort_dict(episodes)
-    now = datetime.now(timezone.utc)
+    now = datetime.now(timezone.utc).replace(microsecond=0)
 
     with data_yml.open(mode='w') as f:
         YamlDump(data={
