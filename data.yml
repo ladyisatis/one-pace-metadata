@@ -1,5 +1,5 @@
-last_update: '2025-11-17T21:07:04.194778+00:00'
-last_update_ts: 1763413624.194778
+last_update: '2025-11-21T14:07:20+00:00'
+last_update_ts: 1763734040.0
 base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main
 tvshow:
   title: One Piece
@@ -1196,9 +1196,9 @@ arcs:
         length_extended: ''
       '03':
         length: '23:09'
-        crc32: 747CF45E
+        crc32: 861EE2FF
         crc32_extended: ''
-        tid: '1257099'
+        tid: '2045104'
         tid_extended: ''
         length_extended: ''
       '04':
@@ -7320,6 +7320,19 @@ episodes:
     released: 2013-05-07
     hashes:
       crc32: 85AD9C81
+  861EE2FF:
+    arc: 19
+    episode: 3
+    title: Express to the Main Island of Enies Lobby
+    originaltitle: Express to Enies Lobby, Main Island
+    description: Robin and Franky are finally brought before Spandam while Luffy continues
+      to blast through waves of marines. Galley-La and the Franky Family still have
+      one giant to deal with, and the main gate closes to halt Rocketman's entry.
+    chapters: 379-380
+    episodes: 266-267
+    released: 2025-11-21
+    hashes:
+      crc32: 861EE2FF
   86CC0CCF:
     arc: 2
     episode: 2
