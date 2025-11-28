@@ -777,7 +777,7 @@ def generate_json():
     with data_yml.open(mode='w') as f:
         YamlDump(data={
             "last_update": now.isoformat(),
-            "last_update_ts": now.timestamp(),
+            "last_update_ts": round(now.timestamp()),
             "base_url": f"https://raw.githubusercontent.com/{os.environ['GITHUB_REPOSITORY']}/refs/heads/main",
             "tvshow": tvshow,
             "arcs": arcs,
@@ -793,7 +793,7 @@ def generate_json():
 
     out = {
         "last_update": now.isoformat(),
-        "last_update_ts": now.timestamp(),
+        "last_update_ts": round(now.timestamp()),
         "base_url": f"https://raw.githubusercontent.com/{os.environ['GITHUB_REPOSITORY']}/refs/heads/main",
         "tvshow": tvshow,
         "arcs": arcs,
@@ -807,7 +807,7 @@ def generate_json():
 
     out = {
         "last_update": now.isoformat(),
-        "last_update_ts": now.timestamp(),
+        "last_update_ts": round(now.timestamp()),
         "base_url": f"https://raw.githubusercontent.com/{os.environ['GITHUB_REPOSITORY']}/refs/heads/main",
         "version": int(os.environ['METADATA_VERSION']) if 'METADATA_VERSION' in os.environ else 0
     }
