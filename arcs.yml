@@ -298,7 +298,7 @@ arcs:
     description: Buggy, after being defeated by Luffy, Zoro, and Nami, begins his
       quest to regain his body parts and his crew, and then he will get his flashy
       revenge on Luffy.
-    poster: ''
+    poster: posters/7/poster.png
     episodes:
       '01':
         length: '22:26'

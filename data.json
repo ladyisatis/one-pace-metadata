@@ -1,6 +1,6 @@
 {
-  "last_update": "2025-11-29T10:07:43+00:00",
-  "last_update_ts": 1764410863,
+  "last_update": "2025-11-29T11:06:18+00:00",
+  "last_update_ts": 1764414378,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main",
   "tvshow": {
     "title": "One Piece",
@@ -366,7 +366,7 @@
       "title": "The Adventures of Buggy's Crew",
       "originaltitle": "",
       "description": "Buggy, after being defeated by Luffy, Zoro, and Nami, begins his quest to regain his body parts and his crew, and then he will get his flashy revenge on Luffy.",
-      "poster": "",
+      "poster": "posters/7/poster.png",
       "episodes": {
         "01": {
           "length": "22:26",
