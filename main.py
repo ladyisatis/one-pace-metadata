@@ -220,10 +220,17 @@ def update():
 
                         img = html_parser.find("img")
                         if img and img.get("src", "") != "":
-                            with poster_path.open(mode='wb') as f:
-                                with client.stream("GET", img["src"], follow_redirects=True) as resp:
-                                    for chunk in resp.iter_bytes():
-                                        f.write(chunk)
+                            with client.stream("GET", img["src"], follow_redirects=True) as resp:
+                                _cl = 0
+                                if "Content-Length" in resp.headers:
+                                    _cl = int(resp.headers["Content-Length"])
+                                elif "content-length" in resp.headers:
+                                    _cl = int(resp.headers["content-length"])
+
+                                if _cl > 1024:
+                                    with poster_path.open(mode='wb') as f:
+                                        for chunk in resp.iter_bytes():
+                                            f.write(chunk)
 
                     if poster_path.exists():
                         out_arcs[arc]['poster'] = f"posters/{arc}/{poster_path.name}"
