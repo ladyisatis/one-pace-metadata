@@ -78,51 +78,51 @@ arcs:
     episodes:
       '01':
         length: '30:02'
-        crc32: A6DDEC2C
+        crc32: 9BC8F913
         crc32_extended: ''
-        tid: '1974749'
+        tid: '2050665'
         tid_extended: ''
         length_extended: ''
       '02':
         length: '23:27'
-        crc32: 0433686D
+        crc32: 25913BDA
         crc32_extended: ''
-        tid: '1979543'
+        tid: '2050665'
         tid_extended: ''
         length_extended: ''
       '03':
         length: '25:35'
-        crc32: 35E9CFA6
+        crc32: F66FB414
         crc32_extended: ''
-        tid: '1984624'
+        tid: '2050665'
         tid_extended: ''
         length_extended: ''
       '04':
         length: '31:40'
-        crc32: A594704B
+        crc32: A5E4EBC0
         crc32_extended: ''
-        tid: '1932420'
+        tid: '2050665'
         tid_extended: ''
         length_extended: ''
       '05':
         length: '23:42'
-        crc32: F2D99494
+        crc32: 707146C8
         crc32_extended: ''
-        tid: '1958600'
+        tid: '2050665'
         tid_extended: ''
         length_extended: ''
       '06':
         length: '17:42'
-        crc32: D08B41AE
+        crc32: 014834ED
         crc32_extended: ''
-        tid: '1995006'
+        tid: '2050665'
         tid_extended: ''
         length_extended: ''
       '07':
         length: '19:17'
-        crc32: EFCC14E1
+        crc32: 1B7544F3
         crc32_extended: ''
-        tid: '1998999'
+        tid: '2050665'
         tid_extended: ''
         length_extended: ''
   4:

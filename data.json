@@ -1,6 +1,6 @@
 {
-  "last_update": "2025-12-01T04:34:43+00:00",
-  "last_update_ts": 1764563683,
+  "last_update": "2025-12-07T00:34:03+00:00",
+  "last_update_ts": 1765067643,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/main",
   "tvshow": {
     "title": "One Piece",
@@ -122,57 +122,57 @@
       "episodes": {
         "01": {
           "length": "30:02",
-          "crc32": "A6DDEC2C",
+          "crc32": "9BC8F913",
           "crc32_extended": "",
-          "tid": "1974749",
+          "tid": "2050665",
           "tid_extended": "",
           "length_extended": ""
         },
         "02": {
           "length": "23:27",
-          "crc32": "0433686D",
+          "crc32": "25913BDA",
           "crc32_extended": "",
-          "tid": "1979543",
+          "tid": "2050665",
           "tid_extended": "",
           "length_extended": ""
         },
         "03": {
           "length": "25:35",
-          "crc32": "35E9CFA6",
+          "crc32": "F66FB414",
           "crc32_extended": "",
-          "tid": "1984624",
+          "tid": "2050665",
           "tid_extended": "",
           "length_extended": ""
         },
         "04": {
           "length": "31:40",
-          "crc32": "A594704B",
+          "crc32": "A5E4EBC0",
           "crc32_extended": "",
-          "tid": "1932420",
+          "tid": "2050665",
           "tid_extended": "",
           "length_extended": ""
         },
         "05": {
           "length": "23:42",
-          "crc32": "F2D99494",
+          "crc32": "707146C8",
           "crc32_extended": "",
-          "tid": "1958600",
+          "tid": "2050665",
           "tid_extended": "",
           "length_extended": ""
         },
         "06": {
           "length": "17:42",
-          "crc32": "D08B41AE",
+          "crc32": "014834ED",
           "crc32_extended": "",
-          "tid": "1995006",
+          "tid": "2050665",
           "tid_extended": "",
           "length_extended": ""
         },
         "07": {
           "length": "19:17",
-          "crc32": "EFCC14E1",
+          "crc32": "1B7544F3",
           "crc32_extended": "",
-          "tid": "1998999",
+          "tid": "2050665",
           "tid_extended": "",
           "length_extended": ""
         }
@@ -4160,6 +4160,18 @@
         "crc32": "0144BBBA"
       }
     },
+    "014834ED": {
+      "arc": 3,
+      "episode": 6,
+      "title": "For Whom the Bell Tolls",
+      "description": "Kuro's ultimate move attacks everything in the area, friend nor foe notwithstanding, and Luffy becomes enraged by Kuro's lack of regard for his crew.",
+      "chapters": "38-39",
+      "episodes": "16-17",
+      "released": "2025-12-06",
+      "hashes": {
+        "crc32": "014834ED"
+      }
+    },
     "01874097": {
       "arc": 18,
       "episode": 3,
@@ -4840,6 +4852,18 @@
         "crc32": "1B5DC33C"
       }
     },
+    "1B7544F3": {
+      "arc": 3,
+      "episode": 7,
+      "title": "To the Sea",
+      "description": "The island is saved without any villagers ever knowing what almost befell their home. Kaya, grateful to the Straw Hats for what they did, gifts them something invaluable for sailing the high seas. Meanwhile, one more person joins Luffy's crew.",
+      "chapters": "40-41",
+      "episodes": "17",
+      "released": "2025-12-06",
+      "hashes": {
+        "crc32": "1B7544F3"
+      }
+    },
     "1CADC5DC": {
       "arc": 31,
       "episode": 25,
@@ -5100,6 +5124,18 @@
       "released": "2025-09-27",
       "hashes": {
         "crc32": "2501AC5A"
+      }
+    },
+    "25913BDA": {
+      "arc": 3,
+      "episode": 2,
+      "title": "Captain Kuro",
+      "description": "After uncovering a devious plot, Usopp warns the village and Kaya, but finds his years of lying make it difficult to convince people of the truth.",
+      "chapters": "26-27",
+      "episodes": "10-11",
+      "released": "2025-12-06",
+      "hashes": {
+        "crc32": "25913BDA"
       }
     },
     "25AFC3E5": {
@@ -7048,6 +7084,20 @@
         "crc32": "702231E9"
       }
     },
+    "707146C8": {
+      "arc": 3,
+      "episode": 5,
+      "title": "The Pirate \"Kuro of a Hundred Plans\"",
+      "originaltitle": "Captain Kuro of a Thousand Plans",
+      "sorttitle": "Pirate \"Kuro of a Hundred Plans\"",
+      "description": "While the fight between Luffy and Kuro continues, Jango works to force Kaya to bequeath her family's money to the Black Cat captain. Despite the Usopp Pirates' efforts to stop the hypnotist, it seems as if the transaction is all but inevitable.",
+      "chapters": "35-37",
+      "episodes": "15-16",
+      "released": "2025-12-06",
+      "hashes": {
+        "crc32": "707146C8"
+      }
+    },
     "7073A62F": {
       "arc": 31,
       "episode": 16,
@@ -8121,6 +8171,19 @@
         "crc32": "9B126B00"
       }
     },
+    "9BC8F913": {
+      "arc": 3,
+      "episode": 1,
+      "title": "Captain Usopp",
+      "originaltitle": "Enter: Captain Usopp",
+      "description": "With Nami joining as Luffy's navigator (though not as an actual member of the crew), they arrive at Syrup Village in search of a proper ship. There they meet a man claiming to be a pirate captain who also seems to have ties to Red-Haired Shanks.",
+      "chapters": "23-25",
+      "episodes": "9-10",
+      "released": "2025-12-06",
+      "hashes": {
+        "crc32": "9BC8F913"
+      }
+    },
     "9BD35F80": {
       "arc": 5,
       "episode": 2,
@@ -8358,6 +8421,19 @@
       "chapters": "31-34",
       "episodes": "13-14",
       "released": "2025-02-07"
+    },
+    "A5E4EBC0": {
+      "arc": 3,
+      "episode": 4,
+      "title": "The Silent Man",
+      "sorttitle": "Silent Man",
+      "description": "Captain Kuro makes his appearance, and with Zoro too injured to fight, Luffy incapacitated, and Usopp and Nami too weak to make a stand, the situation is desperate. However, Kaya herself arrives, intent on bargaining with Kuro.",
+      "chapters": "31-34",
+      "episodes": "13-14",
+      "released": "2025-12-06",
+      "hashes": {
+        "crc32": "A5E4EBC0"
+      }
     },
     "A5F0A507": {
       "arc": 23,
@@ -10418,6 +10494,19 @@
       "released": "2013-04-14",
       "hashes": {
         "crc32": "F4BB17EB"
+      }
+    },
+    "F66FB414": {
+      "arc": 3,
+      "episode": 3,
+      "title": "The Slope",
+      "sorttitle": "Slope",
+      "description": "Usopp resolves that if he is to keep the peace, the town must continue to believe he is a liar, which means he cannot let Captain Kuro's men up the slope to the village! Luffy, Zoro, and Nami aid Usopp in his plan to keep the Black Cat Pirates at bay.",
+      "chapters": "28-30",
+      "episodes": "12-13",
+      "released": "2025-12-06",
+      "hashes": {
+        "crc32": "F66FB414"
       }
     },
     "F6C7EB83": {
