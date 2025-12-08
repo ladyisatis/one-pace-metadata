@@ -419,6 +419,7 @@ class OnePaceMetadata:
 
                 else:
                     data = self.read_yaml(config_yml)
+                    changed = False
 
                     if data.get("part", None) != part_i:
                         changed = True
