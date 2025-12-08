@@ -40,7 +40,7 @@ jobs:
           git fetch --unshallow origin
           export METADATA_VERSION="$(git rev-list --count origin/v2)"
 
-          uv run main.py json
+          pushd ./src && uv run main.py json && popd
 
       - name: Commit and push changes
         run: |

@@ -33,7 +33,9 @@ jobs:
           GCLOUD_API_KEY: ${{ secrets.GCLOUD_API_KEY }}
           ONE_PACE_RSS_FEED: ${{ secrets.ONE_PACE_RSS_FEED }}
         run: |
+          pushd ./src
           output_update="$(uv run main.py update 2> >(cat >&2))"
+          popd
 
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -41,7 +43,7 @@ jobs:
           git add arcs episodes
           git diff --cached --quiet || (git fetch --unshallow origin && \
             export METADATA_VERSION="$(git rev-list --count origin/v2)" && \
-            uv run main.py json && \
+            pushd ./src && uv run main.py json && popd && \
             git add metadata && \
             git commit -m "${output_update} [automated]" \
           )
