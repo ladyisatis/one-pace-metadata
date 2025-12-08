@@ -66,7 +66,7 @@ class OnePaceMetadata:
         if isinstance(obj, date):
             return obj.isoformat()
         if isinstance(obj, datetime):
-            return obj.isoformat(timespec='seconds').replace('T', ' ')
+            return obj.isoformat(timespec='seconds') #.replace('T', ' ')
         raise TypeError ("Type %s not serializable" % type(obj))
 
     def escape_char(self, c):
