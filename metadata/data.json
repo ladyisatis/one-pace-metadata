@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2025-12-08T03:35:46+00:00",
-    "last_update_ts": 1765164946,
+    "last_update": "2025-12-08T09:38:10+00:00",
+    "last_update_ts": 1765186690,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 0
+    "version": 9
   },
   "tvshow": {
     "en": {
@@ -39,7 +39,39 @@
         "title": "Specials",
         "shortcode": "SP",
         "description": "Occasionally, the One Pace team likes to have some extra fun, so we made animated specials. See alternative storylines with twists you might not have expected.",
-        "mkvcode": "specials"
+        "mkvcode": "specials",
+        "episodes": [
+          {
+            "episode": "02",
+            "standard": "415455AE",
+            "extended": ""
+          },
+          {
+            "epsiode": "04",
+            "standard": "05BE81E6",
+            "extended": ""
+          },
+          {
+            "episode": "07",
+            "standard": "EFF6059A",
+            "extended": ""
+          },
+          {
+            "episode": "09",
+            "standard": "2F71D53E",
+            "extended": ""
+          },
+          {
+            "episode": "10",
+            "standard": "B4925314",
+            "extended": ""
+          },
+          {
+            "episode": "98",
+            "standard": "9974A092",
+            "extended": ""
+          }
+        ]
       },
       {
         "part": 1,
@@ -3328,28 +3360,28 @@
         "arc": 0,
         "episode": 1,
         "title": "Strong World",
-        "originaltitle": "The Adventures of Buggy's Crew",
+        "originaltitle": "",
         "description": ""
       },
       {
         "arc": 0,
         "episode": 2,
         "title": "Straw Hat Theatre",
-        "originaltitle": "The Trials of KobyMeppo",
+        "originaltitle": "",
         "description": ""
       },
       {
         "arc": 0,
         "episode": 3,
         "title": "Romance Dawn, Version 2",
-        "originaltitle": "If You Could Go Anywhere... The Adventures of the Straw Hats",
+        "originaltitle": "",
         "description": ""
       },
       {
         "arc": 0,
         "episode": 4,
         "title": "Wapol's Omnivorous Hurrah",
-        "originaltitle": "One Piece Fan Letter",
+        "originaltitle": "",
         "description": ""
       },
       {
@@ -3393,6 +3425,13 @@
         "title": "Warship Island 01 (April Fools 2025)",
         "originaltitle": "",
         "description": ""
+      },
+      {
+        "arc": 0,
+        "episode": 98,
+        "title": "One Piece Fan Letter",
+        "originaltitle": "",
+        "description": "As the Straw Hat Pirates reunite on the Sabaody Archipelago, the various members of the island are drawn together like pieces of a puzzle, their love of certain members of the crew driving their actions and emotions."
       },
       {
         "arc": 1,
@@ -6920,6 +6959,26 @@
         "index": 0
       }
     },
+    "05BE81E6": {
+      "arc": 0,
+      "episode": 4,
+      "manga_chapters": "Covers of 236-262",
+      "anime_episodes": "778",
+      "released": "2017-02-26",
+      "duration": 123,
+      "extended": false,
+      "hashes": {
+        "crc32": "05BE81E6",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 903285,
+        "name": "[One Pace][Cover 236-262] Wapol's Omnivorous Hurrah [720p][05BE81E6].mkv",
+        "size": "21.6 MiB",
+        "hash": "2cbbeef2c6c5597ef09c8659ee8d541e6d2be371",
+        "index": 0
+      }
+    },
     "066FD68B": {
       "arc": 22,
       "episode": 1,
@@ -8580,6 +8639,26 @@
         "index": 0
       }
     },
+    "2F71D53E": {
+      "arc": 0,
+      "episode": 9,
+      "manga_chapters": "199-201",
+      "anime_episodes": "",
+      "released": "2024-03-31",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "2F71D53E",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 1797142,
+        "name": "[One Pace][199-201] Arabasta 16 [1080p][2F71D53E].mkv",
+        "size": "152.7 MiB",
+        "hash": "e513256e0e4f24fc950dd5c1aec9a38c9e5a75d2",
+        "index": 0
+      }
+    },
     "2FFA5720": {
       "arc": 28,
       "episode": 3,
@@ -9197,6 +9276,26 @@
         "name": "[One Pace][911-912] Wano 03 [1080p][410FD111].mkv",
         "size": "1.7 GiB",
         "hash": "7d694013793318e42338ea04e42d233e90bb5cac",
+        "index": 0
+      }
+    },
+    "415455AE": {
+      "arc": 0,
+      "episode": 2,
+      "manga_chapters": "",
+      "anime_episodes": "",
+      "released": "2014-09-14",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "415455AE",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 597534,
+        "name": "[One Pace] Straw Hat Theatre [720p][415455AE].mkv",
+        "size": "244.1 MiB",
+        "hash": "db52460eabf9592e3188f2f239b1c9c4603a7c59",
         "index": 0
       }
     },
@@ -12613,6 +12712,26 @@
         "index": 0
       }
     },
+    "9974A092": {
+      "arc": 0,
+      "episode": 98,
+      "manga_chapters": "One Piece Novel: Straw Hat Stories",
+      "anime_episodes": "One Piece Fan Letter",
+      "released": "2024-11-29",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "9974A092",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 1905874,
+        "name": "[One Pace] One Piece Fan Letter [1080p][9974A092].mkv",
+        "size": "486.9 MiB",
+        "hash": "89913d954cec1c03a50667b81bc2b9508c4f2214",
+        "index": 0
+      }
+    },
     "99A61805": {
       "arc": 29,
       "episode": 24,
@@ -13510,6 +13629,26 @@
         "name": "[One Pace][534-536] Impel Down 05 [720p][B46EDD50].mkv",
         "size": "223.7 MiB",
         "hash": "2e1a040b1de930368ae027be070e6e8bc134b709",
+        "index": 0
+      }
+    },
+    "B4925314": {
+      "arc": 0,
+      "episode": 10,
+      "manga_chapters": "",
+      "anime_episodes": "54",
+      "released": "2025-03-31",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "B4925314",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 1954481,
+        "name": "[One Pace] Warship Island 01 (April Fools 2025) [1080p][B4925314].mkv",
+        "size": "472.8 MiB",
+        "hash": "77ba0dd87a00cf4216648bb79b7206e8549686c0",
         "index": 0
       }
     },
@@ -15590,6 +15729,26 @@
         "name": "[One Pace] Paced One Piece - Thriller Bark Episode 16 [720p][EF1D7B5F].mkv",
         "size": "284.7 MiB",
         "hash": "2c83d7ba67a243de5995f687073787341c69958c",
+        "index": 0
+      }
+    },
+    "EFF6059A": {
+      "arc": 0,
+      "episode": 7,
+      "manga_chapters": "",
+      "anime_episodes": "",
+      "released": "2021-04-01",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "EFF6059A",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 1365870,
+        "name": "[One Pace][42,22] Gaimon [480p][EFF6059A].mkv",
+        "size": "72.5 MiB",
+        "hash": "06b1f1e89dc70b3bd217cd656605ebd3ac5c983a",
         "index": 0
       }
     },

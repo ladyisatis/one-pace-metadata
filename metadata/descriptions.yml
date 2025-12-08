@@ -2,22 +2,22 @@ en:
 - arc: 0
   episode: 1
   title: Strong World
-  originaltitle: The Adventures of Buggy's Crew
+  originaltitle: ''
   description: ''
 - arc: 0
   episode: 2
   title: Straw Hat Theatre
-  originaltitle: The Trials of KobyMeppo
+  originaltitle: ''
   description: ''
 - arc: 0
   episode: 3
   title: Romance Dawn, Version 2
-  originaltitle: If You Could Go Anywhere... The Adventures of the Straw Hats
+  originaltitle: ''
   description: ''
 - arc: 0
   episode: 4
   title: Wapol's Omnivorous Hurrah
-  originaltitle: One Piece Fan Letter
+  originaltitle: ''
   description: ''
 - arc: 0
   episode: 5
@@ -56,6 +56,13 @@ en:
   title: Warship Island 01 (April Fools 2025)
   originaltitle: ''
   description: ''
+- arc: 0
+  episode: 98
+  title: One Piece Fan Letter
+  originaltitle: ''
+  description: As the Straw Hat Pirates reunite on the Sabaody Archipelago, the various
+    members of the island are drawn together like pieces of a puzzle, their love of
+    certain members of the crew driving their actions and emotions.
 - arc: 1
   episode: 1
   title: Romance Dawn, the Dawn of an Adventure
