@@ -113,7 +113,8 @@ class OnePaceMetadata:
                 "audio_languages": "",
                 "sub_languages": "",
                 "pixeldrain_only": "",
-                "resolution": ""
+                "resolution": "",
+                "arc_watch_guide": ""
             }
         }
 
@@ -418,7 +419,6 @@ class OnePaceMetadata:
 
                 else:
                     data = self.read_yaml(config_yml)
-                    changed = False
 
                     if data.get("part", None) != part_i:
                         changed = True
@@ -647,102 +647,29 @@ class OnePaceMetadata:
                         status = "Work In Progress"
 
                     data = self.read_yaml(config_yml)
-                    if "info" not in data:
-                        data["info"] = {
-                            "status": status,
-                            "manga_chapters": manga_chapters,
-                            "num_of_chapters": num_of_chapters,
-                            "anime_episodes": anime_episodes,
-                            "episodes_adapted": episodes_adapted,
-                            "filler_episodes": filler_episodes,
-                            "num_of_pace_eps": num_of_pace_eps,
-                            "piece_minutes": piece_minutes,
-                            "pace_minutes": pace_minutes,
-                            "audio_languages": audio_languages,
-                            "sub_languages": sub_languages,
-                            "pixeldrain_only": pixeldrain_only,
-                            "resolution": resolution,
-                            "arc_watch_guide": arc_watch_guide
-                        }
-                    else:
-                        changed = False
+                    data["info"] = {
+                        "status": status,
+                        "manga_chapters": manga_chapters,
+                        "num_of_chapters": num_of_chapters,
+                        "anime_episodes": anime_episodes,
+                        "episodes_adapted": episodes_adapted,
+                        "filler_episodes": filler_episodes,
+                        "num_of_pace_eps": num_of_pace_eps,
+                        "piece_minutes": piece_minutes,
+                        "pace_minutes": pace_minutes,
+                        "audio_languages": audio_languages,
+                        "sub_languages": sub_languages,
+                        "pixeldrain_only": pixeldrain_only,
+                        "resolution": resolution,
+                        "arc_watch_guide": arc_watch_guide
+                    }
 
-                        if data["info"].get("status", "") != status:
-                            logger.info(f"[{arc_name}] status: {data['info'].get('status', '')} -> {status}")
-                            data['info']['status'] = status
-                            changed = True
+                    config_yml.write_text(
+                        YamlDump(data, allow_unicode=True, sort_keys=False).replace("\ninfo:\n", "\n\ninfo:\n").replace("\nepisodes:\n", "\n\nepisodes:\n"),
+                        encoding="utf-8"
+                    )
 
-                        if data["info"].get("manga_chapters", "") != manga_chapters:
-                            logger.info(f"[{arc_name}] manga_chapters: {data['info'].get('manga_chapters', '')} -> {manga_chapters}")
-                            data['info']['manga_chapters'] = manga_chapters
-                            changed = True
-
-                        if data["info"].get("num_of_chapters", "") != num_of_chapters:
-                            logger.info(f"[{arc_name}] num_of_chapters: {data['info'].get('num_of_chapters', '')} -> {num_of_chapters}")
-                            data['info']['num_of_chapters'] = num_of_chapters
-                            changed = True
-
-                        if data["info"].get("anime_episodes", "") != anime_episodes:
-                            logger.info(f"[{arc_name}] anime_episodes: {data['info'].get('anime_episodes', '')} -> {anime_episodes}")
-                            data['info']['anime_episodes'] = anime_episodes
-                            changed = True
-
-                        if data["info"].get("episodes_adapted") != episodes_adapted:
-                            logger.info(f"[{arc_name}] episodes_adapted: {data['info'].get('episodes_adapted', '')} -> {episodes_adapted}")
-                            data['info']['episodes_adapted'] = episodes_adapted
-                            changed = True
-
-                        if data["info"].get("filler_episodes", "") != filler_episodes:
-                            logger.info(f"[{arc_name}] filler_episodes: {data['info'].get('filler_episodes', '')} -> {filler_episodes}")
-                            data['info']['filler_episodes'] = filler_episodes
-                            changed = True
-
-                        if data["info"].get("num_of_pace_eps", "") != num_of_pace_eps:
-                            logger.info(f"[{arc_name}] num_of_pace_eps: {data['info'].get('num_of_pace_eps', '')} -> {num_of_pace_eps}")
-                            data['info']['num_of_pace_eps'] = num_of_pace_eps
-                            changed = True
-
-                        if data["info"].get("piece_minutes", "") != piece_minutes:
-                            logger.info(f"[{arc_name}] piece_minutes: {data['info'].get('piece_minutes', '')} -> {piece_minutes}")
-                            data['info']['piece_minutes'] = piece_minutes
-                            changed = True
-
-                        if data["info"].get("pace_minutes", "") != pace_minutes:
-                            logger.info(f"[{arc_name}] pace_minutes: {data['info'].get('pace_minutes', '')} -> {pace_minutes}")
-                            data['info']['pace_minutes'] = pace_minutes
-                            changed = True
-
-                        if data["info"].get("audio_languages", "") != audio_languages:
-                            logger.info(f"[{arc_name}] audio_languages: {data['info'].get('audio_languages', '')} -> {audio_languages}")
-                            data['info']['audio_languages'] = audio_languages
-                            changed = True
-
-                        if data["info"].get("sub_languages", "") != sub_languages:
-                            logger.info(f"[{arc_name}] sub_languages: {data['info'].get('sub_languages', '')} -> {sub_languages}")
-                            data['info']['sub_languages'] = sub_languages
-                            changed = True
-
-                        if data["info"].get("pixeldrain_only", "") != pixeldrain_only:
-                            logger.info(f"[{arc_name}] pixeldrain_only: {data['info'].get('pixeldrain_only', '')} -> {pixeldrain_only}")
-                            data['info']['pixeldrain_only'] = pixeldrain_only
-                            changed = True
-
-                        if data["info"].get("resolution", "") != resolution:
-                            logger.info(f"[{arc_name}] resolution: {data['info'].get('resolution', '')} -> {resolution}")
-                            data['info']['resolution'] = resolution
-                            changed = True
-
-                        if data["info"].get("arc_watch_guide", "") != arc_watch_guide:
-                            logger.info(f"[{arc_name}] arc_watch_guide: {data['info'].get('arc_watch_guide', '')} -> {arc_watch_guide}")
-                            data['info']['arc_watch_guide'] = arc_watch_guide
-                            changed = True
-
-                        if changed:
-                            config_yml.write_text(
-                                YamlDump(data, allow_unicode=True, sort_keys=False).replace("\ninfo:\n", "\n\ninfo:\n").replace("\nepisodes:\n", "\n\nepisodes:\n"),
-                                encoding="utf-8"
-                            )
-                            logger.info(f"[{arc_name}] Wrote to: {config_yml}")
+                    logger.info(f"[{arc_name}] Wrote to: {config_yml}")
 
     def parse_spreadsheet_page(self, guide_id, sheet_id, sheet_title, sheet_index):
         logger.info(f"[{sheet_title}] Retrieving HTML sheet")
@@ -801,14 +728,14 @@ class OnePaceMetadata:
                 if len(length_group) == 2:
                     length = timedelta(minutes=int(length_group[0]), seconds=int(length_group[1])).seconds
                 elif len(length_group) == 3:
-                    length = timedelta(hours=int(length_group[0]), minutes=int(length_group[1]), seconds=int(length_group[2])).seconds
+                    length = timedelta(hours=int(length_group[0]), minutes=int(length_group[1]), seconds=int(length_group[2])).total_seconds()
 
             if ":" in length_extended:
                 length_group = length_extended.split(":")
                 if len(length_group) == 2:
                     length_extended = timedelta(minutes=int(length_group[0]), seconds=int(length_group[1])).seconds
                 elif len(length_group) == 3:
-                    length_extended = timedelta(hours=int(length_group[0]), minutes=int(length_group[1]), seconds=int(length_group[2])).seconds
+                    length_extended = timedelta(hours=int(length_group[0]), minutes=int(length_group[1]), seconds=int(length_group[2])).total_seconds()
 
             for arc_folder in self.arc_dir.iterdir():
                 config_yml = Path(arc_folder, str(sheet_index), "config.yml")
@@ -1403,6 +1330,66 @@ class OnePaceMetadata:
 
         logger.info("Generate data_with_posters.sqlite")
         self.generate_sqlite(data_posters_sqlite, arcs, episodes, descriptions, status, tvshow, True)
+
+        logger.info("Generate data.json compatible with Organizer")
+        self.generate_compat_data(arcs, episodes, descriptions, status, tvshow)
+
+    def generate_compat_data(self, arcs, episodes, descriptions, status, tvshow):
+        try:
+            output = {
+                "last_update": status["last_update"],
+                "last_update_ts": status["last_update_ts"],
+                "base_url": status["base_url"],
+                "tvshow": tvshow["en"],
+                "arcs": [],
+                "episodes": {}
+            }
+
+            for arc in arcs["en"]:
+                output["arcs"].append({
+                    "part": arc.get("part", 0),
+                    "saga": arc.get("saga", ""),
+                    "title": arc.get("title", ""),
+                    "originaltitle": arc.get("originaltitle", ""),
+                    "description": arc.get("description", ""),
+                    "poster": f"arcs/en/{arc.get('part', 0)}/poster.png"
+                })
+
+            desc_dict = {}
+            for desc in descriptions["en"]:
+                if desc["arc"] not in desc_dict:
+                    desc_dict[desc["arc"]] = {}
+
+                desc_dict[desc["arc"]][desc["episode"]] = {
+                    "title": desc["title"],
+                    "originaltitle": desc["originaltitle"],
+                    "description": desc["description"]
+                }
+
+            for crc32, ep in episodes.items():
+                if ep["arc"] in desc_dict and ep["episode"] in desc_dict[ep["arc"]]:
+                    ep_desc = desc_dict[ep["arc"]][ep["episode"]]
+                    if "title" in ep_desc:
+                        output["episodes"][crc32] = {
+                            "arc": ep.get("arc", 0),
+                            "episode": ep.get("episode", 0),
+                            "title": ep_desc.get("title", ""),
+                            "originaltitle": ep_desc.get("originaltitle", ""),
+                            "description": ep_desc.get("description", ""),
+                            "chapters": str(ep.get("manga_chapters", "")),
+                            "episodes": str(ep.get("anime_episodes", "")),
+                            "released": str(ep.get("released", "")),
+                            "hashes": {
+                                "crc32": str(ep["hashes"].get("crc32", "")),
+                                "blake2": str(ep["hashes"].get("blake2s", ""))
+                            }
+                        }
+
+            Path("../data.json").write_text(json.dumps(output, indent=2, default=self.serialize_json))
+            Path("../data.min.json").write_text(json.dumps(output, default=self.serialize_json))
+
+        except:
+            logger.exception("Unable to create compat data.json")
 
     def cmd_update(self):
         self.client = httpx.Client(
