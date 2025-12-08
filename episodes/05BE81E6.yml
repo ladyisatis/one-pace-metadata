@@ -1,0 +1,19 @@
+arc: 0
+episode: 4
+
+manga_chapters: Covers of 236-262
+anime_episodes: 778
+released: 2017-02-26
+duration: 123
+extended: false
+
+hashes:
+  crc32: 05BE81E6
+  blake2s: ''
+
+file:
+  id: 903285
+  name: '[One Pace][Cover 236-262] Wapol''s Omnivorous Hurrah [720p][05BE81E6].mkv'
+  size: 21.6 MiB
+  hash: 2cbbeef2c6c5597ef09c8659ee8d541e6d2be371
+  index: 0

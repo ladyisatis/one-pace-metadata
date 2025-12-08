@@ -5,3 +5,23 @@ shortcode: SP
 description: Occasionally, the One Pace team likes to have some extra fun, so we made
   animated specials. See alternative storylines with twists you might not have expected.
 mkvcode: specials
+
+episodes:
+- episode: '02'
+  standard: '415455AE'
+  extended: ''
+- epsiode: '04'
+  standard: '05BE81E6'
+  extended: ''
+- episode: '07'
+  standard: 'EFF6059A'
+  extended: ''
+- episode: '09'
+  standard: '2F71D53E'
+  extended: ''
+- episode: '10'
+  standard: 'B4925314'
+  extended: ''
+- episode: '98'
+  standard: '9974A092'
+  extended: ''

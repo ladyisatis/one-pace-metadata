@@ -1,0 +1,19 @@
+arc: 0
+episode: 7
+
+manga_chapters: ''
+anime_episodes: ''
+released: 2021-04-01
+duration: 0
+extended: false
+
+hashes:
+  crc32: EFF6059A
+  blake2s: ''
+
+file:
+  id: 1365870
+  name: '[One Pace][42,22] Gaimon [480p][EFF6059A].mkv'
+  size: 72.5 MiB
+  hash: 06b1f1e89dc70b3bd217cd656605ebd3ac5c983a
+  index: 0

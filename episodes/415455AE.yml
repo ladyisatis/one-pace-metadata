@@ -1,0 +1,19 @@
+arc: 0
+episode: 2
+
+manga_chapters: ''
+anime_episodes: ''
+released: 2014-09-14
+duration: 0
+extended: false
+
+hashes:
+  crc32: 415455AE
+  blake2s: ''
+
+file:
+  id: 597534
+  name: '[One Pace] Straw Hat Theatre [720p][415455AE].mkv'
+  size: 244.1 MiB
+  hash: db52460eabf9592e3188f2f239b1c9c4603a7c59
+  index: 0

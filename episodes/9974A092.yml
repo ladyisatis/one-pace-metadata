@@ -1,0 +1,19 @@
+arc: 0
+episode: 98
+
+manga_chapters: 'One Piece Novel: Straw Hat Stories'
+anime_episodes: 'One Piece Fan Letter'
+released: 2024-11-29
+duration: 0
+extended: false
+
+hashes:
+  crc32: 9974A092
+  blake2s: ''
+
+file:
+  id: 1905874
+  name: '[One Pace] One Piece Fan Letter [1080p][9974A092].mkv'
+  size: 486.9 MiB
+  hash: 89913d954cec1c03a50667b81bc2b9508c4f2214
+  index: 0
