@@ -6,10 +6,13 @@ license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "bs4>=0.0.2",
+    "beautifulsoup4>=4.14.3",
     "httpx-retries>=0.4.5",
     "javaproperties>=0.8.2",
     "loguru>=0.7.3",
     "pyyaml>=6.0.3",
-    "rss-parser>=2.1.1",
+    "rss-parser",
 ]
+
+[tool.uv.sources]
+rss-parser = { git = "https://github.com/dhvcc/rss-parser" }
