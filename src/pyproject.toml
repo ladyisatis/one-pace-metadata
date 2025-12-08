@@ -1,0 +1,15 @@
+[project]
+name = "onepacemetadata"
+version = "1.0.0"
+description = "Generated metadata for One Pace via its Episode Guide and Descriptions Google Docs"
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bs4>=0.0.2",
+    "httpx-retries>=0.4.5",
+    "javaproperties>=0.8.2",
+    "loguru>=0.7.3",
+    "pyyaml>=6.0.3",
+    "rss-parser>=2.1.1",
+]

@@ -1,0 +1,19 @@
+arc: 30
+episode: 14
+
+manga_chapters: 681-682
+anime_episodes: 607-608
+released: 2013-08-31
+duration: 1150
+extended: false
+
+hashes:
+  crc32: 75CC1F6E
+  blake2s: ''
+
+file:
+  id: 1140878
+  name: '[One Pace][681-682] Punk Hazard 14 [720p][75CC1F6E].mkv'
+  size: 298.9 MiB
+  hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
+  index: 13

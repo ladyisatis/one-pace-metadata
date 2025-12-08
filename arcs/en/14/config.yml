@@ -1,0 +1,89 @@
+part: 14
+saga: Arabasta
+title: Arabasta
+originaltitle: ''
+shortcode: AA
+mkvcode: alabasta
+description: Arabasta teeters on the edge of civil war, and it's up to Princess Vivi
+  and the Straw Hats to stem the rebellion, uncover the plot of Baroque Works, and
+  beat the Warlord Crocodile.
+
+episodes:
+- episode: '01'
+  standard: BB1D093C
+  extended: ''
+- episode: '02'
+  standard: E4BA97D6
+  extended: ''
+- episode: '03'
+  standard: '73003149'
+  extended: ''
+- episode: '04'
+  standard: FF1E1708
+  extended: ''
+- episode: '05'
+  standard: E9E8604E
+  extended: ''
+- episode: '06'
+  standard: 58865EA7
+  extended: ''
+- episode: '07'
+  standard: CFA091A0
+  extended: ''
+- episode: 08
+  standard: 726FD61C
+  extended: ''
+- episode: 09
+  standard: A905C964
+  extended: ''
+- episode: '10'
+  standard: 4B8CC4E7
+  extended: ''
+- episode: '11'
+  standard: C51CB284
+  extended: ''
+- episode: '12'
+  standard: FF26917C
+  extended: ''
+- episode: '13'
+  standard: '58649840'
+  extended: ''
+- episode: '14'
+  standard: 0F3017E1
+  extended: ''
+- episode: '15'
+  standard: 2AD355ED
+  extended: ''
+- episode: '16'
+  standard: 5E646504
+  extended: ''
+- episode: '17'
+  standard: B5A40AD2
+  extended: ''
+- episode: '18'
+  standard: E4F68497
+  extended: ''
+- episode: '19'
+  standard: 845C0D1D
+  extended: ''
+- episode: '20'
+  standard: 0C5E9A92
+  extended: ''
+- episode: '21'
+  standard: EAA06203
+  extended: ''
+
+info:
+  manga_chapters: 155 - 217
+  num_of_chapters: 63
+  anime_episodes: 92 - 130
+  episodes_adapted: 40
+  filler_episodes: 99, 102
+  num_of_pace_eps: 21
+  piece_minutes: 840
+  pace_minutes: 555
+  audio_languages: Jpn,Eng
+  sub_languages: 'Eng,Es, Fr '
+  pixeldrain_only: Fr
+  resolution: 1080p
+  arc_watch_guide: Pace

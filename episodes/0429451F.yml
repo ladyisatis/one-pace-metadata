@@ -1,0 +1,19 @@
+arc: 31
+episode: 38
+
+manga_chapters: 774-775
+anime_episodes: 714-716
+released: 2017-03-12
+duration: 1756
+extended: false
+
+hashes:
+  crc32: 0429451F
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 774-775 [720p][0429451F].mkv'
+  size: 216.2 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 37

@@ -1,0 +1,19 @@
+arc: 20
+episode: 5
+
+manga_chapters: 440-441
+anime_episodes: 324-325
+released: 2013-06-28
+duration: 1386
+extended: false
+
+hashes:
+  crc32: CEF78887
+  blake2s: ''
+
+file:
+  id: 1168790
+  name: '[One Pace][440-441] Post-Enies Lobby 05 [720p][CEF78887].mkv'
+  size: 352.3 MiB
+  hash: 59497fc3d9a6dbcdbaced48eaa9f5ba2047614df
+  index: 0

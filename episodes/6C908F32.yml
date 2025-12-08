@@ -1,0 +1,19 @@
+arc: 19
+episode: 10
+
+manga_chapters: 397-398
+anime_episodes: 278
+released: 2019-07-25
+duration: 1290
+extended: false
+
+hashes:
+  crc32: 6C908F32
+  blake2s: ''
+
+file:
+  id: 1169558
+  name: '[One Pace][397-398] Enies Lobby 10 [720p][6C908F32].mkv'
+  size: 297.6 MiB
+  hash: 24b093304e357aad9f3c7b958c199a3ce9fd8bff
+  index: 0

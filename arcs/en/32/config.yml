@@ -1,0 +1,58 @@
+part: 32
+saga: Four Emperors
+title: Zou
+originaltitle: ''
+shortcode: ZO
+mkvcode: zou
+description: Zou cannot be reached by conventional means, nor is it easy to enter
+  once one finds it. Within its secretive walls lie the Mink Tribe, and the Straw
+  Hats soon discover that the people of Zou hold a piece of the puzzle that unlocks
+  the mysteries of the world.
+
+episodes:
+- episode: '01'
+  standard: E70913D9
+  extended: ''
+- episode: '02'
+  standard: 32150FF4
+  extended: ''
+- episode: '03'
+  standard: E4B077F8
+  extended: ''
+- episode: '04'
+  standard: A4F76B13
+  extended: ''
+- episode: '05'
+  standard: 7149D13F
+  extended: ''
+- episode: '06'
+  standard: 7F73DB45
+  extended: ''
+- episode: '07'
+  standard: '55837445'
+  extended: ''
+- episode: 08
+  standard: 5B2AAFBF
+  extended: ''
+- episode: 09
+  standard: 0880B38F
+  extended: ''
+- episode: '10'
+  standard: 4A52B138
+  extended: ''
+
+info:
+  manga_chapters: 801 - 822
+  num_of_chapters: 22
+  anime_episodes: 751 - 776
+  episodes_adapted: 28
+  filler_episodes: '775'
+  num_of_pace_eps: 10
+  piece_minutes: 602
+  pace_minutes: 275
+  audio_languages: Jpn
+  sub_languages: 'Eng,Es, Fr '
+  pixeldrain_only: Fr
+  resolution: 720p
+  status: To Be Redone
+  arc_watch_guide: Pace

@@ -1,0 +1,19 @@
+arc: 33
+episode: 24
+
+manga_chapters: 869-870
+anime_episodes: 839-841
+released: 2020-12-11
+duration: 1721
+extended: false
+
+hashes:
+  crc32: 6E422CFB
+  blake2s: ''
+
+file:
+  id: 1313289
+  name: '[One Pace][869-870] Whole Cake Island 24 [720p][6E422CFB].mkv'
+  size: 265.4 MiB
+  hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
+  index: 23

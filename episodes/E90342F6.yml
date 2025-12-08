@@ -1,0 +1,19 @@
+arc: 5
+episode: 3
+
+manga_chapters: 48-52
+anime_episodes: 23-24, 29, 135
+released: 2025-08-10
+duration: 2278
+extended: false
+
+hashes:
+  crc32: E90342F6
+  blake2s: ''
+
+file:
+  id: 2004228
+  name: '[One Pace][48-52] Baratie 03 [1080p][E90342F6].mkv'
+  size: 835.9 MiB
+  hash: 5d546b5605ed333d87ecc858e6a4a2ed2675d52e
+  index: 0

@@ -1,0 +1,19 @@
+arc: 36
+episode: 11
+
+manga_chapters: 1075-1076
+anime_episodes: 1107-1109
+released: 2025-05-03
+duration: 1898
+extended: false
+
+hashes:
+  crc32: 448628C9
+  blake2s: ''
+
+file:
+  id: 1966910
+  name: '[One Pace][1075-1076] Egghead 11 [1080p][448628C9].mkv'
+  size: 865.7 MiB
+  hash: 2137e92a3febe8d7865fac2b7625d1647f7ef6a7
+  index: 0

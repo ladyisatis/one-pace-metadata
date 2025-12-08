@@ -1,0 +1,19 @@
+arc: 36
+episode: 12
+
+manga_chapters: 1077-1078
+anime_episodes: 1108, 1110-1111
+released: 2025-06-13
+duration: 1719
+extended: false
+
+hashes:
+  crc32: 6FEADFF5
+  blake2s: ''
+
+file:
+  id: 1982060
+  name: '[One Pace][1077-1078] Egghead 12 [1080p][6FEADFF5].mkv'
+  size: 867.7 MiB
+  hash: 748f223628b66fa402bc3b647369098e9e2d6200
+  index: 0

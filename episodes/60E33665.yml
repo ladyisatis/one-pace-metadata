@@ -1,0 +1,19 @@
+arc: 21
+episode: 6
+
+manga_chapters: 453-454
+anime_episodes: 347-348
+released: 2013-09-01
+duration: 1310
+extended: false
+
+hashes:
+  crc32: 60E33665
+  blake2s: ''
+
+file:
+  id: 608554
+  name: '[One Pace] Paced One Piece - Thriller Bark Episode 06 [720p][60E33665].mkv'
+  size: 326.0 MiB
+  hash: 2c83d7ba67a243de5995f687073787341c69958c
+  index: 0

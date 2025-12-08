@@ -1,0 +1,19 @@
+arc: 26
+episode: 9
+
+manga_chapters: 565-566
+anime_episodes: 474-475
+released: 2020-10-07
+duration: 1601
+extended: false
+
+hashes:
+  crc32: 1638FE88
+  blake2s: ''
+
+file:
+  id: 1287648
+  name: '[One Pace][565-566] Marineford 09 [720p][1638FE88].mkv'
+  size: 227.5 MiB
+  hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
+  index: 0

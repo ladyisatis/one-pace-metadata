@@ -1,0 +1,19 @@
+arc: 27
+episode: 7
+
+manga_chapters: 593-594
+anime_episodes: 510-512
+released: 2020-12-20
+duration: 2210
+extended: false
+
+hashes:
+  crc32: D85BC22C
+  blake2s: ''
+
+file:
+  id: 1317881
+  name: '[One Pace][593-594] Post-War 07 [1080p][D85BC22C].mkv'
+  size: 444.5 MiB
+  hash: 53b3c345c97722e5840573c7781d8c09583434dd
+  index: 0

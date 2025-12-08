@@ -1,0 +1,19 @@
+arc: 2
+episode: 3
+
+manga_chapters: 19-21
+anime_episodes: 8
+released: 2025-05-09
+duration: 1362
+extended: false
+
+hashes:
+  crc32: 1809DA8A
+  blake2s: ''
+
+file:
+  id: 1969560
+  name: '[One Pace][19-21] Orange Town 03 [1080p][1809DA8A].mkv'
+  size: 619.0 MiB
+  hash: cb0b62648edf1c01c77981547d047306fd1f283f
+  index: 0

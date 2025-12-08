@@ -1,0 +1,30 @@
+part: 25
+saga: Summit War
+title: The Adventures of the Straw Hats
+originaltitle: If You Could Go Anywhere... The Adventures of the Straw Hats
+shortcode: IF
+mkvcode: av_strawhats
+description: Somewhere in the world... Sanji resists, while Robin meets terrible people.
+  Franky's not himself, and Usopp learns to survive. Chopper avoids becoming food,
+  and Nami reports on the weather. Brook is repaid in underpants, and Zoro... is lost
+  and annoyed.
+
+episodes:
+- episode: '01'
+  standard: 2BC41092
+  extended: ''
+
+info:
+  manga_chapters: 543 - 560
+  num_of_chapters: 0
+  anime_episodes: 453 - 456
+  episodes_adapted: 4
+  filler_episodes: ''
+  num_of_pace_eps: 1
+  piece_minutes: 86
+  pace_minutes: 21
+  audio_languages: Eng, Es, Jpn
+  sub_languages: Eng, Es, Jpn
+  pixeldrain_only: ''
+  resolution: 1080p
+  arc_watch_guide: Pace

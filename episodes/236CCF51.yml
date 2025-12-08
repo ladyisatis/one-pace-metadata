@@ -1,0 +1,19 @@
+arc: 16
+episode: 8
+
+manga_chapters: 252-254
+anime_episodes: 165-167
+released: 2023-10-28
+duration: 2215
+extended: false
+
+hashes:
+  crc32: 236CCF51
+  blake2s: ''
+
+file:
+  id: 1735139
+  name: '[One Pace][252-254] Skypiea 08 [1080p][236CCF51].mkv'
+  size: 733.2 MiB
+  hash: 63a53a466547469c6c854c498301c9308ab76c6a
+  index: 0

@@ -1,0 +1,87 @@
+part: 36
+saga: Final Saga
+title: Egghead
+originaltitle: ''
+shortcode: EG
+mkvcode: egghead
+description: Futuristic tech, giant alien monsters, battle robots, superhuman clones...
+  Who are all these people calling themselves Dr. Vegapunk, and why is the government
+  after one of their own?
+
+episodes:
+- episode: '01'
+  standard: CA3F14A8
+  extended: ''
+- episode: '02'
+  standard: D511F339
+  extended: ''
+- episode: '03'
+  standard: 5B546203
+  extended: ''
+- episode: '04'
+  standard: ACBE88D6
+  extended: ''
+- episode: '05'
+  standard: C6E79353
+  extended: ''
+- episode: '06'
+  standard: 69F1BBD5
+  extended: ''
+- episode: '07'
+  standard: A42DEAED
+  extended: ''
+- episode: 08
+  standard: 4C1997F3
+  extended: 1FDB8A9C
+- episode: 09
+  standard: 29B2D72D
+  extended: ''
+- episode: '10'
+  standard: 2B00E24B
+  extended: ''
+- episode: '11'
+  standard: 448628C9
+  extended: ''
+- episode: '12'
+  standard: 6FEADFF5
+  extended: ''
+- episode: '13'
+  standard: 6C170189
+  extended: 482F69B7
+- episode: '14'
+  standard: 3C0010BE
+  extended: CA3683BA
+- episode: '15'
+  standard: 21BF9495
+  extended: ''
+- episode: '16'
+  standard: 7A93DCC5
+  extended: ''
+- episode: '17'
+  standard: 76281ED9
+  extended: ''
+- episode: '18'
+  standard: 8A1836B5
+  extended: ''
+- episode: '19'
+  standard: 6AE11B21
+  extended: 93B80191
+- episode: '20'
+  standard: B974EFD7
+  extended: ''
+
+info:
+  manga_chapters: 1058 - 1125
+  num_of_chapters: 68
+  anime_episodes: 1086 —
+  episodes_adapted: 38
+  filler_episodes: ''
+  num_of_pace_eps: 20
+  piece_minutes: 798
+  pace_minutes: 534
+  audio_languages: Jpn, Eng (1-12, 17-18)
+  sub_languages: Eng,Fr,De (3-)
+  pixeldrain_only: De (1,2)
+  resolution: 1080p
+  status: Work In Progress
+  arc_watch_guide: Pace Episodes 1-20 then Original Episodes 1127-

@@ -1,0 +1,19 @@
+arc: 18
+episode: 1
+
+manga_chapters: 322-324
+anime_episodes: 228-230
+released: 2020-09-03
+duration: 1713
+extended: false
+
+hashes:
+  crc32: 9101CF0E
+  blake2s: ''
+
+file:
+  id: 1277104
+  name: '[One Pace][322-324] Water Seven 01 [1080p][9101CF0E].mkv'
+  size: 815.7 MiB
+  hash: 2c90a26aa26847de6726432e57da790e551c7dfb
+  index: 0

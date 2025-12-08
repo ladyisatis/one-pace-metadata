@@ -1,0 +1,57 @@
+part: 6
+saga: East Blue
+title: Arlong Park
+originaltitle: ''
+shortcode: AR
+mkvcode: arlongpark
+description: Nami's hometown has long been overrun by Arlong and his band of fishmen
+  from the Grand Line. When the Straw Hats arrive, they find that their prospective
+  navigator has left out a few key details about herself.
+
+episodes:
+- episode: '01'
+  standard: AD09145D
+  extended: ''
+- episode: '02'
+  standard: 432F7EDF
+  extended: ''
+- episode: '03'
+  standard: C060DA73
+  extended: ''
+- episode: '04'
+  standard: DB23E2E6
+  extended: ''
+- episode: '05'
+  standard: 1CC0DA84
+  extended: ACD6AA5F
+- episode: '06'
+  standard: 06F25D1B
+  extended: ''
+- episode: '07'
+  standard: 9599889C
+  extended: ''
+- episode: 08
+  standard: 83E6D2A7
+  extended: ''
+- episode: 09
+  standard: A57211D1
+  extended: ''
+- episode: '10'
+  standard: 5AF7A9B1
+  extended: ''
+
+info:
+  status: ''
+  manga_chapters: 69 - 95
+  num_of_chapters: 27
+  anime_episodes: 31 - 44
+  episodes_adapted: 14
+  filler_episodes: ''
+  num_of_pace_eps: 10
+  piece_minutes: 294
+  pace_minutes: 239
+  audio_languages: Jpn,Eng
+  sub_languages: Eng,Es, Fr, De (1-5)
+  pixeldrain_only: 'Fr '
+  resolution: 480p,1080p
+  arc_watch_guide: Pace

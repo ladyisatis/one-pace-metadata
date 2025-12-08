@@ -1,0 +1,19 @@
+arc: 17
+episode: 2
+
+manga_chapters: 307-309
+anime_episodes: 209-210
+released: 2017-12-01
+duration: 1476
+extended: false
+
+hashes:
+  crc32: 57F75027
+  blake2s: ''
+
+file:
+  id: 1327706
+  name: '[One Pace][307-309] Long Ring Long Land 02 [720p][57F75027].mkv'
+  size: 409.5 MiB
+  hash: 4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5
+  index: 0

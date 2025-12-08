@@ -1,0 +1,19 @@
+arc: 32
+episode: 6
+
+manga_chapters: 812-813
+anime_episodes: 762-764
+released: 2016-12-24
+duration: 1776
+extended: false
+
+hashes:
+  crc32: 7F73DB45
+  blake2s: ''
+
+file:
+  id: 1032088
+  name: '[One Pace][812-813] Zou 06 [720p][7F73DB45].mkv'
+  size: 187.9 MiB
+  hash: 5c027631a28242814a6cf1fe24f455b70bca14bc
+  index: 5

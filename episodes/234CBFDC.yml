@@ -1,0 +1,19 @@
+arc: 22
+episode: 6
+
+manga_chapters: 501-502
+anime_episodes: 395-396
+released: 2017-12-01
+duration: 1673
+extended: false
+
+hashes:
+  crc32: 234CBFDC
+  blake2s: ''
+
+file:
+  id: 1167639
+  name: '[One Pace][501-502] Sabaody Archipelago 06 [720p][234CBFDC].mkv'
+  size: 289.9 MiB
+  hash: 2589926c8f90e8f031a6caeab93bcd5b79990c0e
+  index: 0

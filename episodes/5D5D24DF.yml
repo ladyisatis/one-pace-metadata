@@ -1,0 +1,19 @@
+arc: 24
+episode: 6
+
+manga_chapters: 537-538
+anime_episodes: 438-440
+released: 2017-02-17
+duration: 1933
+extended: false
+
+hashes:
+  crc32: 5D5D24DF
+  blake2s: ''
+
+file:
+  id: 1140836
+  name: '[One Pace][537-538] Impel Down 06 [720p][5D5D24DF].mkv'
+  size: 223.0 MiB
+  hash: 2e1a040b1de930368ae027be070e6e8bc134b709
+  index: 0

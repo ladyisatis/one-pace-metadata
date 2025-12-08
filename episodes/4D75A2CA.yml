@@ -1,0 +1,19 @@
+arc: 18
+episode: 7
+
+manga_chapters: 338-339
+anime_episodes: 239-240
+released: 2021-06-14
+duration: 1431
+extended: false
+
+hashes:
+  crc32: 4D75A2CA
+  blake2s: ''
+
+file:
+  id: 1398300
+  name: '[One Pace][338-339] Water Seven 07 [1080p][4D75A2CA].mkv'
+  size: 734.4 MiB
+  hash: aba8524c50790688447578b6497bf1235885f0d7
+  index: 0

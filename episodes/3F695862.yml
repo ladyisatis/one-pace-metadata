@@ -1,0 +1,19 @@
+arc: 16
+episode: 24
+
+manga_chapters: 301
+anime_episodes: 194
+released: 2025-04-26
+duration: 1193
+extended: false
+
+hashes:
+  crc32: 3F695862
+  blake2s: ''
+
+file:
+  id: 1964134
+  name: '[One Pace][301] Skypiea 24 [1080p][3F695862].mkv'
+  size: 410.5 MiB
+  hash: 1cc6de813b6485f292383062fad31ea21f8cf611
+  index: 0

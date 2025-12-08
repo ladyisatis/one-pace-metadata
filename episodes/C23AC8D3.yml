@@ -1,0 +1,19 @@
+arc: 2
+episode: 1
+
+manga_chapters: 8-11
+anime_episodes: 4-6
+released: 2025-04-11
+duration: 1716
+extended: false
+
+hashes:
+  crc32: C23AC8D3
+  blake2s: ''
+
+file:
+  id: 1958602
+  name: '[One Pace][8-11] Orange Town 01 [1080p][C23AC8D3].mkv'
+  size: 706.3 MiB
+  hash: 9479f6fa2a8bb2c43c558db57161649377d6e7bd
+  index: 0

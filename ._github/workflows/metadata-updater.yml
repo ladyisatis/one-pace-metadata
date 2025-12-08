@@ -1,0 +1,52 @@
+name: One Pace Metadata Updater (v2)
+
+on:
+  push:
+    branches: [v2]
+    paths:
+      - 'arcs/**'
+      - 'episodes/**'
+      - 'other_edits/**'
+      - 'config.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@main
+        with:
+          python-version: '>=3.13'
+          #freethreaded: true
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@main
+        with:
+          enable-cache: true
+
+      - name: Run data.json updater
+        env:
+          GCLOUD_API_KEY: ${{ secrets.GCLOUD_API_KEY }}
+        run: |
+          git fetch --unshallow origin
+          export METADATA_VERSION="$(git rev-list --count origin/v2)"
+
+          uv run main.py json
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add metadata
+          git diff --cached --quiet || git commit -m "Update metadata listings [automated]"
+          git push

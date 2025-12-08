@@ -1,0 +1,19 @@
+arc: 35
+episode: 25
+
+manga_chapters: 946-947
+anime_episodes: 945-947
+released: 2021-09-10
+duration: 2007
+extended: false
+
+hashes:
+  crc32: C3825063
+  blake2s: ''
+
+file:
+  id: 1431108
+  name: '[One Pace][946-947] Wano 25 [1080p][C3825063].mkv'
+  size: 1.7 GiB
+  hash: 6a26cb6bb9d3f8259fd54a610acbe7b8fc1039bc
+  index: 0

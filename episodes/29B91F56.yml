@@ -1,0 +1,19 @@
+arc: 35
+episode: 32
+
+manga_chapters: 957
+anime_episodes: 958
+released: 2023-07-08
+duration: 983
+extended: false
+
+hashes:
+  crc32: 29B91F56
+  blake2s: ''
+
+file:
+  id: 1695576
+  name: '[One Pace][957] Wano 32 [1080p][29B91F56].mkv'
+  size: 722.3 MiB
+  hash: 89bdea16caeaa66658592cd75be624c0a9dce31a
+  index: 0

@@ -1,0 +1,19 @@
+arc: 31
+episode: 48
+
+manga_chapters: 798-800
+anime_episodes: 742-745
+released: 2017-09-10
+duration: 2576
+extended: false
+
+hashes:
+  crc32: 5F035A13
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 798-800 [720p][5F035A13].mkv'
+  size: 313.5 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 47

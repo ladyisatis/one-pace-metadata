@@ -1,0 +1,19 @@
+arc: 31
+episode: 42
+
+manga_chapters: 784-785
+anime_episodes: 726-728
+released: 2017-05-13
+duration: 1718
+extended: false
+
+hashes:
+  crc32: 55292D1C
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 784-785 [720p][55292D1C].mkv'
+  size: 240.3 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 41

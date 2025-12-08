@@ -1,0 +1,19 @@
+arc: 31
+episode: 40
+
+manga_chapters: 779-781
+anime_episodes: 714-715, 720-723
+released: 2017-03-26
+duration: 2465
+extended: false
+
+hashes:
+  crc32: ECD80B22
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 779-781 [720p][ECD80B22].mkv'
+  size: 285.4 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 39

@@ -1,0 +1,19 @@
+arc: 30
+episode: 19
+
+manga_chapters: 691-692
+anime_episodes: 617-618
+released: 2013-11-05
+duration: 1296
+extended: false
+
+hashes:
+  crc32: 54AC1705
+  blake2s: ''
+
+file:
+  id: 1140878
+  name: '[One Pace][691-692] Punk Hazard 19 [720p][54AC1705].mkv'
+  size: 324.8 MiB
+  hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
+  index: 18

@@ -1,0 +1,19 @@
+arc: 31
+episode: 15
+
+manga_chapters: 728-729
+anime_episodes: 660-661
+released: 2014-10-29
+duration: 1437
+extended: false
+
+hashes:
+  crc32: 6A3CE0EA
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 728-729 [720p][6A3CE0EA].mkv'
+  size: 275.2 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 14

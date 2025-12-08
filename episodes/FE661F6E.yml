@@ -1,0 +1,19 @@
+arc: 30
+episode: 3
+
+manga_chapters: 659-660
+anime_episodes: 583-585
+released: 2013-05-21
+duration: 1786
+extended: false
+
+hashes:
+  crc32: FE661F6E
+  blake2s: ''
+
+file:
+  id: 1140878
+  name: '[One Pace][659-660] Punk Hazard 03 [720p][FE661F6E].mkv'
+  size: 525.9 MiB
+  hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
+  index: 2

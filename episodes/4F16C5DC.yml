@@ -1,0 +1,19 @@
+arc: 31
+episode: 30
+
+manga_chapters: 758-759
+anime_episodes: 694, 696-698
+released: 2016-10-06
+duration: 1362
+extended: false
+
+hashes:
+  crc32: 4F16C5DC
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 758-759 [720p][4F16C5DC].mkv'
+  size: 177.8 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 29

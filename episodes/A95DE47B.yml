@@ -1,0 +1,19 @@
+arc: 31
+episode: 5
+
+manga_chapters: 708-709
+anime_episodes: 637-638
+released: 2014-04-25
+duration: 1270
+extended: false
+
+hashes:
+  crc32: A95DE47B
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 708-709 [720p][A95DE47B].mkv'
+  size: 314.0 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 4

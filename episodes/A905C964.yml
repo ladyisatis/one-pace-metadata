@@ -1,0 +1,19 @@
+arc: 14
+episode: 9
+
+manga_chapters: 175-178
+anime_episodes: 109-110
+released: 2021-11-27
+duration: 2184
+extended: false
+
+hashes:
+  crc32: A905C964
+  blake2s: ''
+
+file:
+  id: 1460743
+  name: '[One Pace][175-178] Arabasta 09 [1080p][A905C964].mkv'
+  size: 651.9 MiB
+  hash: 56cd276106efe594f9722a27e63b4de25f6a0248
+  index: 0

@@ -1,0 +1,19 @@
+arc: 14
+episode: 17
+
+manga_chapters: 202-205
+anime_episodes: 123-124
+released: 2024-06-14
+duration: 1958
+extended: false
+
+hashes:
+  crc32: B5A40AD2
+  blake2s: ''
+
+file:
+  id: 1833636
+  name: '[One Pace][202-205] Arabasta 17 [1080p][B5A40AD2].mkv'
+  size: 744.6 MiB
+  hash: f16a5459f018ba802342c64e424ff005cdb47115
+  index: 0

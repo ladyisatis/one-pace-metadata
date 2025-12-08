@@ -1,0 +1,192 @@
+part: 35
+saga: Four Emperors
+title: Wano
+originaltitle: ''
+shortcode: WN
+mkvcode: wano
+description: 'The Straw Hats finally regroup in Wano to carry out theirs and their
+  allies'' ultimate goal: to see to the Emperor Kaido''s downfall and restore the
+  Kozuki family to its rightful place of power.'
+
+episodes:
+- episode: '01'
+  standard: F15AFDE0
+  extended: ''
+- episode: '02'
+  standard: 8538EDC4
+  extended: 6F26FDAB
+- episode: '03'
+  standard: 410FD111
+  extended: ''
+- episode: '04'
+  standard: 23CF2FA6
+  extended: ''
+- episode: '05'
+  standard: B51C53E9
+  extended: ''
+- episode: '06'
+  standard: 13E4ABCF
+  extended: ''
+- episode: '07'
+  standard: F71F9B71
+  extended: ''
+- episode: 08
+  standard: 6DA86F5F
+  extended: ''
+- episode: 09
+  standard: 5A5E65B1
+  extended: ''
+- episode: '10'
+  standard: 91BE23B7
+  extended: ''
+- episode: '11'
+  standard: 6A9CF454
+  extended: ''
+- episode: '12'
+  standard: 5ACE812A
+  extended: ''
+- episode: '13'
+  standard: DCF7AD65
+  extended: ''
+- episode: '14'
+  standard: BF92DCAF
+  extended: ''
+- episode: '15'
+  standard: AE6ABE84
+  extended: ''
+- episode: '16'
+  standard: 9FA61F60
+  extended: ''
+- episode: '17'
+  standard: D2E02F36
+  extended: ''
+- episode: '18'
+  standard: 94F78CF3
+  extended: ''
+- episode: '19'
+  standard: 6C9E8055
+  extended: ''
+- episode: '20'
+  standard: '93376225'
+  extended: ''
+- episode: '21'
+  standard: 0B965026
+  extended: ''
+- episode: '22'
+  standard: 9F63AF78
+  extended: ''
+- episode: '23'
+  standard: 37670A03
+  extended: ''
+- episode: '24'
+  standard: 6173BCE1
+  extended: ''
+- episode: '25'
+  standard: C3825063
+  extended: ''
+- episode: '26'
+  standard: F3E829E8
+  extended: ''
+- episode: '27'
+  standard: 3CC8226D
+  extended: ''
+- episode: '28'
+  standard: 22F81B0E
+  extended: ''
+- episode: '29'
+  standard: 5C7E0604
+  extended: ''
+- episode: '30'
+  standard: 43A0D1DF
+  extended: ''
+- episode: '31'
+  standard: F6C7EB83
+  extended: ''
+- episode: '32'
+  standard: 29B91F56
+  extended: ''
+- episode: '33'
+  standard: E3AB2BA0
+  extended: ''
+- episode: '34'
+  standard: 224B7846
+  extended: ''
+- episode: '35'
+  standard: 98B5E26D
+  extended: ''
+- episode: '36'
+  standard: BAFFE801
+  extended: ''
+- episode: '37'
+  standard: AD8C9C16
+  extended: ''
+- episode: '38'
+  standard: 298A4284
+  extended: ''
+- episode: '39'
+  standard: 56CFB8B0
+  extended: ''
+- episode: '40'
+  standard: 713F7916
+  extended: ''
+- episode: '41'
+  standard: C89B4C1E
+  extended: ''
+- episode: '42'
+  standard: 3FC81ABD
+  extended: ''
+- episode: '43'
+  standard: 26D98629
+  extended: ''
+- episode: '44'
+  standard: F1FB27C6
+  extended: ''
+- episode: '45'
+  standard: DFB30A71
+  extended: ''
+- episode: '46'
+  standard: 7392F65E
+  extended: ''
+- episode: '47'
+  standard: D78E29CD
+  extended: ''
+- episode: '48'
+  standard: F47C3EDD
+  extended: ''
+- episode: '49'
+  standard: FE878EE8
+  extended: 58469AB0
+- episode: '50'
+  standard: 0144BBBA
+  extended: ''
+- episode: '51'
+  standard: E004EDB5
+  extended: ''
+- episode: '52'
+  standard: D985734A
+  extended: ''
+- episode: '53'
+  standard: C99E7631
+  extended: ''
+- episode: '54'
+  standard: 79C6DC33
+  extended: ''
+- episode: '55'
+  standard: 2501AC5A
+  extended: 425F93B9
+
+info:
+  manga_chapters: 909 - 1057
+  num_of_chapters: 149
+  anime_episodes: 890 - 1085
+  episodes_adapted: 124
+  filler_episodes: ''
+  num_of_pace_eps: 55
+  piece_minutes: 2666
+  pace_minutes: 1596
+  audio_languages: Jpn,Eng (1-3, 31-)
+  sub_languages: Eng,Es ,Fr,Ar, De (44-)
+  pixeldrain_only: Es,Fr, Ar
+  resolution: 1080p
+  status: Work In Progress
+  arc_watch_guide: Pace Episodes 1-55 then Original Episodes 1016 - 1085

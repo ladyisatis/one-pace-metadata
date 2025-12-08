@@ -1,0 +1,19 @@
+arc: 22
+episode: 4
+
+manga_chapters: 496-497
+anime_episodes: 390-391
+released: 2015-02-25
+duration: 1872
+extended: false
+
+hashes:
+  crc32: 76D21468
+  blake2s: ''
+
+file:
+  id: 1167639
+  name: '[One Pace][496-497] Sabaody Archipelago 04 [720p][76D21468].mkv'
+  size: 285.9 MiB
+  hash: 2589926c8f90e8f031a6caeab93bcd5b79990c0e
+  index: 0

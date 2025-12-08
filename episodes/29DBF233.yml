@@ -1,0 +1,19 @@
+arc: 26
+episode: 14
+
+manga_chapters: 574
+anime_episodes: 483-484
+released: 2020-10-07
+duration: 1131
+extended: false
+
+hashes:
+  crc32: 29DBF233
+  blake2s: ''
+
+file:
+  id: 1287648
+  name: '[One Pace][574] Marineford 14 [720p][29DBF233].mkv'
+  size: 136.0 MiB
+  hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
+  index: 0

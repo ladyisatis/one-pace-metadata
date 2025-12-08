@@ -1,0 +1,19 @@
+arc: 36
+episode: 5
+
+manga_chapters: 1064-1065
+anime_episodes: 1093-1095
+released: 2025-01-11
+duration: 2046
+extended: false
+
+hashes:
+  crc32: C6E79353
+  blake2s: ''
+
+file:
+  id: 1920013
+  name: '[One Pace][1064-1065] Egghead 05 [1080p][C6E79353].mkv'
+  size: 962.8 MiB
+  hash: 2bd887b544a4061a9b3974597268d7e8434d6212
+  index: 0

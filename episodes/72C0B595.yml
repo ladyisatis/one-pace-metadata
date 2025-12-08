@@ -1,0 +1,19 @@
+arc: 17
+episode: 4
+
+manga_chapters: 313-316
+anime_episodes: 212, 215, 217-218
+released: 2017-05-16
+duration: 2178
+extended: false
+
+hashes:
+  crc32: 72C0B595
+  blake2s: ''
+
+file:
+  id: 1327706
+  name: '[One Pace][313-316] Long Ring Long Land 04 [720p][72C0B595].mkv'
+  size: 459.1 MiB
+  hash: 4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5
+  index: 0

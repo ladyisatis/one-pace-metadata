@@ -1,0 +1,19 @@
+arc: 2
+episode: 2
+
+manga_chapters: 12-19
+anime_episodes: 6-7
+released: 2025-04-25
+duration: 2215
+extended: false
+
+hashes:
+  crc32: D7327225
+  blake2s: ''
+
+file:
+  id: 1964132
+  name: '[One Pace][12-19] Orange Town 02 [1080p][D7327225].mkv'
+  size: 940.9 MiB
+  hash: 9a870a7c01d716bad7330b1a14ef687a3062c955
+  index: 0

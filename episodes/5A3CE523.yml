@@ -1,0 +1,19 @@
+arc: 30
+episode: 2
+
+manga_chapters: 656-658
+anime_episodes: 580-583
+released: 2013-05-20
+duration: 2736
+extended: false
+
+hashes:
+  crc32: 5A3CE523
+  blake2s: ''
+
+file:
+  id: 1140878
+  name: '[One Pace][656-658] Punk Hazard 02 [720p][5A3CE523].mkv'
+  size: 811.9 MiB
+  hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
+  index: 1

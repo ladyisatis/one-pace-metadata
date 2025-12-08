@@ -1,0 +1,19 @@
+arc: 23
+episode: 1
+
+manga_chapters: 514-515
+anime_episodes: 408-409
+released: 2016-01-26
+duration: 1580
+extended: false
+
+hashes:
+  crc32: 06BF070D
+  blake2s: ''
+
+file:
+  id: 1140828
+  name: '[One Pace][514-515] Amazon Lily 01 [720p][06BF070D].mkv'
+  size: 277.1 MiB
+  hash: 1f62e2583956c412f8550672bc8066c5e96ab0a8
+  index: 0

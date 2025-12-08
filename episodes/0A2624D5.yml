@@ -1,0 +1,19 @@
+arc: 30
+episode: 17
+
+manga_chapters: 687-688
+anime_episodes: 613-614
+released: 2013-10-10
+duration: 1308
+extended: false
+
+hashes:
+  crc32: 0A2624D5
+  blake2s: ''
+
+file:
+  id: 1140878
+  name: '[One Pace][687-688] Punk Hazard 17 [720p][0A2624D5].mkv'
+  size: 377.8 MiB
+  hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
+  index: 16

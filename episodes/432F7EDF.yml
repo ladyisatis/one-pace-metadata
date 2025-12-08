@@ -1,0 +1,19 @@
+arc: 6
+episode: 2
+
+manga_chapters: 71-73
+anime_episodes: 32-33
+released: 2024-11-23
+duration: 1322
+extended: false
+
+hashes:
+  crc32: 432F7EDF
+  blake2s: ''
+
+file:
+  id: 1902851
+  name: '[One Pace][72-74] Arlong Park 02 [1080p][432F7EDF].mkv'
+  size: 543.0 MiB
+  hash: 4fab3eeb4c1939ba65131c5e6241b4a2c0697f60
+  index: 0

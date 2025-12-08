@@ -1,0 +1,19 @@
+arc: 31
+episode: 22
+
+manga_chapters: 742-743
+anime_episodes: 675-678
+released: 2015-03-07
+duration: 1725
+extended: false
+
+hashes:
+  crc32: 5FC46535
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 742-743 [720p][5FC46535].mkv'
+  size: 246.4 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 21

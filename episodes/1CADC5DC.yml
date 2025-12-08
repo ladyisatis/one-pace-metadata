@@ -1,0 +1,19 @@
+arc: 31
+episode: 25
+
+manga_chapters: 748-749
+anime_episodes: 683-686
+released: 2015-05-06
+duration: 1312
+extended: false
+
+hashes:
+  crc32: 1CADC5DC
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 748-749 [720p][1CADC5DC].mkv'
+  size: 253.2 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 24

@@ -1,0 +1,19 @@
+arc: 16
+episode: 4
+
+manga_chapters: 243-244
+anime_episodes: 157-158
+released: 2023-06-12
+duration: 1753
+extended: false
+
+hashes:
+  crc32: C6120876
+  blake2s: ''
+
+file:
+  id: 1681700
+  name: '[One Pace][243-244] Skypiea 04 [1080p][C6120876].mkv'
+  size: 570.2 MiB
+  hash: aa34040a41bbdd8b165cfbc81dbe4e72f59e676e
+  index: 0

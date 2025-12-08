@@ -1,0 +1,19 @@
+arc: 16
+episode: 11
+
+manga_chapters: 261-263
+anime_episodes: 171-173
+released: 2024-04-12
+duration: 1945
+extended: false
+
+hashes:
+  crc32: F0EF6382
+  blake2s: ''
+
+file:
+  id: 1802323
+  name: '[One Pace][261-263] Skypiea 11 [1080p][F0EF6382].mkv'
+  size: 753.4 MiB
+  hash: 2b45ebd651777a757b1e8d35660b4d96a0ee4021
+  index: 0

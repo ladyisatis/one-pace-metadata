@@ -1,0 +1,19 @@
+arc: 21
+episode: 4
+
+manga_chapters: 449-450
+anime_episodes: 342-344
+released: 2013-08-08
+duration: 1434
+extended: false
+
+hashes:
+  crc32: EB4DA5F4
+  blake2s: ''
+
+file:
+  id: 608554
+  name: '[One Pace] Paced One Piece - Thriller Bark Episode 04 [720p][EB4DA5F4].mkv'
+  size: 315.7 MiB
+  hash: 2c83d7ba67a243de5995f687073787341c69958c
+  index: 0

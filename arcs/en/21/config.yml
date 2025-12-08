@@ -1,0 +1,94 @@
+part: 21
+saga: Thriller Bark
+title: Thriller Bark
+originaltitle: ''
+shortcode: TR
+mkvcode: thrillerbark
+description: The Straw Hats' next destination is Fishman Island, but first they must
+  traverse the dreaded Florian Triangle which is known for many eerie and mysterious
+  things such as disappearing crews, conversational skeletons, and a floating island
+  full of zombies and other horrors.
+
+episodes:
+- episode: '01'
+  standard: 30D0916C
+  extended: ''
+- episode: '02'
+  standard: EA100F0C
+  extended: ''
+- episode: '03'
+  standard: C2AAAAF7
+  extended: ''
+- episode: '04'
+  standard: EB4DA5F4
+  extended: ''
+- episode: '05'
+  standard: 5B4DF29D
+  extended: ''
+- episode: '06'
+  standard: 60E33665
+  extended: ''
+- episode: '07'
+  standard: 1E847368
+  extended: ''
+- episode: 08
+  standard: 694AD702
+  extended: ''
+- episode: 09
+  standard: 19D3B6A3
+  extended: ''
+- episode: '10'
+  standard: 38BBF05C
+  extended: ''
+- episode: '11'
+  standard: D538CFD7
+  extended: ''
+- episode: '12'
+  standard: 8B836836
+  extended: ''
+- episode: '13'
+  standard: 3AEE90B8
+  extended: ''
+- episode: '14'
+  standard: 7CAE5640
+  extended: ''
+- episode: '15'
+  standard: A9784E2B
+  extended: ''
+- episode: '16'
+  standard: EF1D7B5F
+  extended: ''
+- episode: '17'
+  standard: 6AAC9B33
+  extended: ''
+- episode: '18'
+  standard: 2295F0A1
+  extended: ''
+- episode: '19'
+  standard: 099FB95D
+  extended: ''
+- episode: '20'
+  standard: AD2D4BCD
+  extended: ''
+- episode: '21'
+  standard: 22E58F96
+  extended: ''
+- episode: '22'
+  standard: F23079ED
+  extended: ''
+
+info:
+  manga_chapters: 442 - 489
+  num_of_chapters: 48
+  anime_episodes: 337 - 381
+  episodes_adapted: 45
+  filler_episodes: ''
+  num_of_pace_eps: 22
+  piece_minutes: 0
+  pace_minutes: 484
+  audio_languages: Jpn
+  sub_languages: Eng, Es
+  pixeldrain_only: Eng, Es
+  resolution: 720p
+  status: To Be Redone
+  arc_watch_guide: Pace

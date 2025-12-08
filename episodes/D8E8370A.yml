@@ -1,0 +1,19 @@
+arc: 31
+episode: 11
+
+manga_chapters: 720-721
+anime_episodes: 650-651
+released: 2014-07-24
+duration: 1834
+extended: false
+
+hashes:
+  crc32: D8E8370A
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 720-721 [720p][D8E8370A].mkv'
+  size: 401.4 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 10

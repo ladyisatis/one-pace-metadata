@@ -1,0 +1,34 @@
+part: 28
+saga: Fishman Island
+title: Return to Sabaody
+originaltitle: ''
+shortcode: RT
+mkvcode: rts
+description: Two years have passed since the Straw Hats were forcibly separated, and
+  they reconvene back at Sabaody stronger and even more committed to the journey ahead.
+
+episodes:
+- episode: '01'
+  standard: 5FBDCD0F
+  extended: ''
+- episode: '02'
+  standard: 9677C63E
+  extended: ''
+- episode: '03'
+  standard: 2FFA5720
+  extended: ''
+
+info:
+  manga_chapters: 598 - 602
+  num_of_chapters: 5
+  anime_episodes: 517 - 522
+  episodes_adapted: 6
+  filler_episodes: ''
+  num_of_pace_eps: 3
+  piece_minutes: 129
+  pace_minutes: 91
+  audio_languages: Jpn,Eng
+  sub_languages: Eng,Es,Fr,Ar
+  pixeldrain_only: ''
+  resolution: 1080p
+  arc_watch_guide: Pace

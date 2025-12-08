@@ -1,0 +1,19 @@
+arc: 31
+episode: 34
+
+manga_chapters: 766-767
+anime_episodes: 705-706
+released: 2016-12-02
+duration: 1738
+extended: false
+
+hashes:
+  crc32: 0CA47011
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 766-767 [720p][0CA47011].mkv'
+  size: 242.5 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 33

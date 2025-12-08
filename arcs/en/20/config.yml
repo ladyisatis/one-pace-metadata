@@ -1,0 +1,42 @@
+part: 20
+saga: Water Seven
+title: Post-Enies Lobby
+originaltitle: ''
+shortcode: PO
+mkvcode: postenieslobby
+description: The Straw Hats return to Water Seven after the ordeal at Enies Lobby.
+  While there, they are met by a familial vice admiral, and they await news of their
+  new ship.
+
+episodes:
+- episode: '01'
+  standard: 216595EE
+  extended: ''
+- episode: '02'
+  standard: 344EA844
+  extended: ''
+- episode: '03'
+  standard: 2C843A0F
+  extended: ''
+- episode: '04'
+  standard: 659EF70C
+  extended: ''
+- episode: '05'
+  standard: CEF78887
+  extended: ''
+
+info:
+  manga_chapters: 431 - 441
+  num_of_chapters: 11
+  anime_episodes: 313 - 325
+  episodes_adapted: 11
+  filler_episodes: 317 - 318
+  num_of_pace_eps: 5
+  piece_minutes: 0
+  pace_minutes: 133
+  audio_languages: Jpn
+  sub_languages: Eng
+  pixeldrain_only: Eng
+  resolution: 720p
+  status: To Be Redone
+  arc_watch_guide: Pace

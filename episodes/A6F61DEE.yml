@@ -1,0 +1,19 @@
+arc: 5
+episode: 8
+
+manga_chapters: 67-69
+anime_episodes: 30
+released: 2023-07-29
+duration: 1123
+extended: false
+
+hashes:
+  crc32: A6F61DEE
+  blake2s: ''
+
+file:
+  id: 2024713
+  name: '[One Pace][67-68] Baratie 08 [1080p][A6F61DEE].mkv'
+  size: 452.0 MiB
+  hash: 6f5c2abf645aebeeba59f468ebbd24b666cdca4f
+  index: 0

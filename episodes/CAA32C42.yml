@@ -1,0 +1,19 @@
+arc: 31
+episode: 43
+
+manga_chapters: 786-787
+anime_episodes: 728-730
+released: 2017-05-20
+duration: 1695
+extended: false
+
+hashes:
+  crc32: CAA32C42
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 786-787 [720p][CAA32C42].mkv'
+  size: 228.6 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 42

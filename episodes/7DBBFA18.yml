@@ -1,0 +1,19 @@
+arc: 29
+episode: 22
+
+manga_chapters: 647-649
+anime_episodes: 567-569
+released: 2013-05-11
+duration: 2547
+extended: false
+
+hashes:
+  crc32: 7DBBFA18
+  blake2s: ''
+
+file:
+  id: 1031876
+  name: '[One Pace][647-649] Fishman Island 22 [720p][7DBBFA18].mkv'
+  size: 823.2 MiB
+  hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
+  index: 21

@@ -1,0 +1,19 @@
+arc: 36
+episode: 7
+
+manga_chapters: 1067-1068
+anime_episodes: 1097-1099
+released: 2025-02-22
+duration: 1945
+extended: false
+
+hashes:
+  crc32: A42DEAED
+  blake2s: ''
+
+file:
+  id: 1939369
+  name: '[One Pace][1067-1068] Egghead 07 [1080p][A42DEAED].mkv'
+  size: 994.6 MiB
+  hash: 6713e1c28dcb9a5532f99e291abefa13426a4333
+  index: 0

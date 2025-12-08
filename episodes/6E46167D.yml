@@ -1,0 +1,19 @@
+arc: 1
+episode: 4
+
+manga_chapters: 5-7
+anime_episodes: 3
+released: 2025-05-03
+duration: 1083
+extended: false
+
+hashes:
+  crc32: 6E46167D
+  blake2s: ''
+
+file:
+  id: 1966911
+  name: '[One Pace][5-7] Romance Dawn 04 [1080p][6E46167D].mkv'
+  size: 484.0 MiB
+  hash: cdab4a928dbbff643bbe5531f216eb36a60c85af
+  index: 0

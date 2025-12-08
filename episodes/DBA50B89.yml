@@ -1,0 +1,19 @@
+arc: 29
+episode: 8
+
+manga_chapters: 616-618
+anime_episodes: 535-537
+released: 2013-04-09
+duration: 2713
+extended: false
+
+hashes:
+  crc32: DBA50B89
+  blake2s: ''
+
+file:
+  id: 1031876
+  name: '[One Pace][616-618] Fishman Island 08 [720p][DBA50B89].mkv'
+  size: 879.5 MiB
+  hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
+  index: 0

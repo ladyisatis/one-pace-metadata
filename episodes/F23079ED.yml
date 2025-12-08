@@ -1,0 +1,19 @@
+arc: 21
+episode: 22
+
+manga_chapters: 488-489
+anime_episodes: 380-381
+released: 2014-10-12
+duration: 1461
+extended: false
+
+hashes:
+  crc32: F23079ED
+  blake2s: ''
+
+file:
+  id: 608554
+  name: '[One Pace] Paced One Piece - Thriller Bark Episode 22 [720p][F23079ED].mkv'
+  size: 350.4 MiB
+  hash: 2c83d7ba67a243de5995f687073787341c69958c
+  index: 0

@@ -1,0 +1,19 @@
+arc: 26
+episode: 7
+
+manga_chapters: 561-562
+anime_episodes: 470-471
+released: 2020-10-07
+duration: 1729
+extended: false
+
+hashes:
+  crc32: 511BA151
+  blake2s: ''
+
+file:
+  id: 1287648
+  name: '[One Pace][561-562] Marineford 07 [720p][511BA151].mkv'
+  size: 255.5 MiB
+  hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
+  index: 0

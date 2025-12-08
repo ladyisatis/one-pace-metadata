@@ -1,0 +1,19 @@
+arc: 21
+episode: 8
+
+manga_chapters: 457-458
+anime_episodes: 351-353
+released: 2013-09-20
+duration: 1298
+extended: false
+
+hashes:
+  crc32: 694AD702
+  blake2s: ''
+
+file:
+  id: 608554
+  name: '[One Pace] Paced One Piece - Thriller Bark Episode 08 [720p][694AD702].mkv'
+  size: 437.8 MiB
+  hash: 2c83d7ba67a243de5995f687073787341c69958c
+  index: 0

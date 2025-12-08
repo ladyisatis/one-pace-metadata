@@ -1,0 +1,19 @@
+arc: 30
+episode: 8
+
+manga_chapters: 669-670
+anime_episodes: 595-596
+released: 2013-06-02
+duration: 1670
+extended: false
+
+hashes:
+  crc32: 658D36CE
+  blake2s: ''
+
+file:
+  id: 1140878
+  name: '[One Pace][669-670] Punk Hazard 08 [720p][658D36CE].mkv'
+  size: 602.8 MiB
+  hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
+  index: 7

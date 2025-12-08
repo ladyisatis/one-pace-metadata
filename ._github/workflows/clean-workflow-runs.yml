@@ -1,0 +1,17 @@
+name: Clean Workflow Runs
+
+on:
+  schedule:
+    - cron: '30 0 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Delete workflow runs
+        uses: dmvict/clean-workflow-runs@v1.0.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          save_period: 14

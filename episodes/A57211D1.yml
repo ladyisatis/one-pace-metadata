@@ -1,0 +1,19 @@
+arc: 6
+episode: 9
+
+manga_chapters: 91-94
+anime_episodes: 42-43
+released: 2020-09-12
+duration: 1475
+extended: false
+
+hashes:
+  crc32: A57211D1
+  blake2s: ''
+
+file:
+  id: 1279925
+  name: '[One Pace][91-94] Arlong Park 09 [480p][A57211D1].mkv'
+  size: 175.7 MiB
+  hash: 4c688038db6ae51893f505fbb0c12eafacde8f4b
+  index: 0

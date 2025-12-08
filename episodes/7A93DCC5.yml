@@ -1,0 +1,19 @@
+arc: 36
+episode: 16
+
+manga_chapters: 1084-1085
+anime_episodes: 1118-1119
+released: 2025-08-29
+duration: 1490
+extended: false
+
+hashes:
+  crc32: 7A93DCC5
+  blake2s: ''
+
+file:
+  id: 2012474
+  name: '[One Pace][1084-1085] Egghead 16 [1080p][7A93DCC5].mkv'
+  size: 779.3 MiB
+  hash: 531d70c452d0baef273ede6eb93b2cf8929ba89c
+  index: 0

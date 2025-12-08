@@ -1,0 +1,19 @@
+arc: 29
+episode: 6
+
+manga_chapters: 613-614
+anime_episodes: 532-533
+released: 2013-04-06
+duration: 1782
+extended: false
+
+hashes:
+  crc32: 64FB3990
+  blake2s: ''
+
+file:
+  id: 1031876
+  name: '[One Pace][613-614] Fishman Island 06 [720p][64FB3990].mkv'
+  size: 342.0 MiB
+  hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
+  index: 0

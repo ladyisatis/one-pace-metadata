@@ -1,0 +1,19 @@
+arc: 5
+episode: 7
+
+manga_chapters: 63-67
+anime_episodes: 28-29
+released: 2023-07-22
+duration: 1667
+extended: false
+
+hashes:
+  crc32: 5B161435
+  blake2s: ''
+
+file:
+  id: 2022710
+  name: '[One Pace][63-67] Baratie 07 [1080p][5B161435].mkv'
+  size: 836.8 MiB
+  hash: fe84c629b8d60ae32672ae37fd1ad58501d88f7e
+  index: 0

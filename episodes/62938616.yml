@@ -1,0 +1,19 @@
+arc: 16
+episode: 22
+
+manga_chapters: 295-298
+anime_episodes: 191-192
+released: 2025-02-22
+duration: 1975
+extended: false
+
+hashes:
+  crc32: 62938616
+  blake2s: ''
+
+file:
+  id: 1939111
+  name: '[One Pace][295-298] Skypiea 22 [1080p][62938616].mkv'
+  size: 644.6 MiB
+  hash: 8c504fc06149b17c4b6e45c303013f87124e0d85
+  index: 0

@@ -1,0 +1,19 @@
+arc: 30
+episode: 22
+
+manga_chapters: 698-699
+anime_episodes: 624-626, 628
+released: 2014-01-20
+duration: 1477
+extended: false
+
+hashes:
+  crc32: 021A8886
+  blake2s: ''
+
+file:
+  id: 1140878
+  name: '[One Pace][698-699] Punk Hazard 22 [720p][021A8886].mkv'
+  size: 331.9 MiB
+  hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
+  index: 21

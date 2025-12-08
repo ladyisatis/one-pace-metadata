@@ -1,0 +1,19 @@
+arc: 16
+episode: 7
+
+manga_chapters: 250-251
+anime_episodes: 163-164
+released: 2023-10-21
+duration: 1230
+extended: false
+
+hashes:
+  crc32: 3C665F73
+  blake2s: ''
+
+file:
+  id: 1731814
+  name: '[One Pace][250-251] Skypiea 07 [1080p][3C665F73].mkv'
+  size: 505.3 MiB
+  hash: da97987eb5adeaed1f34269af22cf7202c6ae93c
+  index: 0

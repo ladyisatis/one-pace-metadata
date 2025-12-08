@@ -1,0 +1,19 @@
+arc: 28
+episode: 1
+
+manga_chapters: 598-599
+anime_episodes: 517-519
+released: 2022-05-04
+duration: 2046
+extended: false
+
+hashes:
+  crc32: 5FBDCD0F
+  blake2s: ''
+
+file:
+  id: 1524087
+  name: '[One Pace][598-599] Return to Sabaody 01 [1080p][5FBDCD0F].mkv'
+  size: 726.0 MiB
+  hash: 77cc4c78deedc5b7048cd72620688bf37de17032
+  index: 0

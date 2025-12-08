@@ -1,0 +1,19 @@
+arc: 31
+episode: 2
+
+manga_chapters: 702-703
+anime_episodes: 631-633
+released: 2014-03-25
+duration: 1310
+extended: false
+
+hashes:
+  crc32: E058DEF9
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 702-703 [720p][E058DEF9].mkv'
+  size: 283.8 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 1

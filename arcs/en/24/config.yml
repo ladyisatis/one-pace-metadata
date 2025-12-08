@@ -1,0 +1,57 @@
+part: 24
+saga: Summit War
+title: Impel Down
+originaltitle: ''
+shortcode: IM
+mkvcode: impeldown
+description: Luffy launches a daring rescue mission to break his big brother Ace from
+  the government prison, Impel Down. It's a race to the prison's lowest levels — a
+  literal journey through hell itself.
+
+episodes:
+- episode: '01'
+  standard: 479D510C
+  extended: ''
+- episode: '02'
+  standard: 7306EDA1
+  extended: ''
+- episode: '03'
+  standard: FB406E73
+  extended: ''
+- episode: '04'
+  standard: 5DD0859D
+  extended: ''
+- episode: '05'
+  standard: B46EDD50
+  extended: ''
+- episode: '06'
+  standard: 5D5D24DF
+  extended: ''
+- episode: '07'
+  standard: 379DD054
+  extended: ''
+- episode: 08
+  standard: 683EDC5C
+  extended: ''
+- episode: 09
+  standard: F0C33425
+  extended: ''
+- episode: '10'
+  standard: 540A9642
+  extended: ''
+
+info:
+  manga_chapters: 525 - 548
+  num_of_chapters: 24
+  anime_episodes: 422 - 452
+  episodes_adapted: 27
+  filler_episodes: 426 - 429
+  num_of_pace_eps: 10
+  piece_minutes: 0
+  pace_minutes: 317
+  audio_languages: Jpn
+  sub_languages: 'Eng,Es '
+  pixeldrain_only: Es
+  resolution: 720p
+  status: To Be Redone
+  arc_watch_guide: Pace

@@ -1,0 +1,19 @@
+arc: 24
+episode: 9
+
+manga_chapters: 544-546
+anime_episodes: 446-450
+released: 2017-06-23
+duration: 2263
+extended: false
+
+hashes:
+  crc32: F0C33425
+  blake2s: ''
+
+file:
+  id: 1140836
+  name: '[One Pace][544-546] Impel Down 09 [720p][F0C33425].mkv'
+  size: 343.9 MiB
+  hash: 2e1a040b1de930368ae027be070e6e8bc134b709
+  index: 0

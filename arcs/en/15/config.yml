@@ -1,0 +1,50 @@
+part: 15
+saga: Skypiea
+title: Jaya
+originaltitle: ''
+shortcode: JA
+mkvcode: jaya
+description: The Straw Hats seek the fabled sky island Skypiea and head to Jaya for
+  information on its whereabouts. Their convictions are tested by the pirates of Mock
+  Town, but not everyone on the island is a hardline skeptic.
+
+episodes:
+- episode: '01'
+  standard: 2BBCD106
+  extended: ''
+- episode: '02'
+  standard: 6DAB82A3
+  extended: ''
+- episode: '03'
+  standard: B4950266
+  extended: ''
+- episode: '04'
+  standard: 86DC8F38
+  extended: ''
+- episode: '05'
+  standard: E468A31D
+  extended: ''
+- episode: '06'
+  standard: 8783E1B0
+  extended: ''
+- episode: '07'
+  standard: 580A0C3B
+  extended: ''
+- episode: 08
+  standard: FA2E5ADD
+  extended: ''
+
+info:
+  manga_chapters: 218 - 236
+  num_of_chapters: 19
+  anime_episodes: 144 - 152
+  episodes_adapted: 9
+  filler_episodes: ''
+  num_of_pace_eps: 8
+  piece_minutes: 189
+  pace_minutes: 161
+  audio_languages: Jpn,Eng
+  sub_languages: Eng, Es, Fr
+  pixeldrain_only: ''
+  resolution: 1080p
+  arc_watch_guide: Pace

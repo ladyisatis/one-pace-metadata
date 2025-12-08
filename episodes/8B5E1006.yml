@@ -1,0 +1,19 @@
+arc: 33
+episode: 11
+
+manga_chapters: 843-844
+anime_episodes: 806-808
+released: 2020-12-11
+duration: 1578
+extended: false
+
+hashes:
+  crc32: 8B5E1006
+  blake2s: ''
+
+file:
+  id: 1313289
+  name: '[One Pace][843-844] Whole Cake Island 11 [720p][8B5E1006].mkv'
+  size: 210.4 MiB
+  hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
+  index: 10

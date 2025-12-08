@@ -1,0 +1,19 @@
+arc: 33
+episode: 17
+
+manga_chapters: 855-856
+anime_episodes: 823-825
+released: 2020-12-11
+duration: 2029
+extended: false
+
+hashes:
+  crc32: 0CF96D5A
+  blake2s: ''
+
+file:
+  id: 1313289
+  name: '[One Pace][855-856] Whole Cake Island 17 [720p][0CF96D5A].mkv'
+  size: 223.2 MiB
+  hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
+  index: 16

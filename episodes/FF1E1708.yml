@@ -1,0 +1,19 @@
+arc: 14
+episode: 4
+
+manga_chapters: 159-164
+anime_episodes: 98, 100-101, 103
+released: 2023-11-25
+duration: 1515
+extended: false
+
+hashes:
+  crc32: FF1E1708
+  blake2s: ''
+
+file:
+  id: 1746899
+  name: '[One Pace][159-164] Arabasta 04 [1080p][FF1E1708].mkv'
+  size: 513.7 MiB
+  hash: 48f7e9efea3a6c5a03a7f7cb9a609beb67aab9de
+  index: 0

@@ -1,0 +1,19 @@
+arc: 16
+episode: 13
+
+manga_chapters: 266-269
+anime_episodes: 175-176
+released: 2024-05-24
+duration: 1989
+extended: false
+
+hashes:
+  crc32: 460CC2CD
+  blake2s: ''
+
+file:
+  id: 1823871
+  name: '[One Pace][266-269] Skypiea 13 [1080p][460CC2CD].mkv'
+  size: 722.4 MiB
+  hash: 16e16ed3e486700a85726477725608fd7d78348f
+  index: 0

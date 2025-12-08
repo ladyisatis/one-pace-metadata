@@ -1,0 +1,19 @@
+arc: 16
+episode: 5
+
+manga_chapters: 245-246
+anime_episodes: 159-160
+released: 2023-06-12
+duration: 1399
+extended: false
+
+hashes:
+  crc32: FEA121C3
+  blake2s: ''
+
+file:
+  id: 1682011
+  name: '[One Pace][245-246] Skypiea 05 [1080p][FEA121C3].mkv'
+  size: 543.4 MiB
+  hash: 948a213b3753b1572b65de94f049a116d1d19dee
+  index: 0

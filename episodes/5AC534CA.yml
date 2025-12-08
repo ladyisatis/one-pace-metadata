@@ -1,0 +1,19 @@
+arc: 19
+episode: 20
+
+manga_chapters: 419-420
+anime_episodes: 301-302
+released: 2020-05-29
+duration: 1585
+extended: false
+
+hashes:
+  crc32: 5AC534CA
+  blake2s: ''
+
+file:
+  id: 1250592
+  name: '[One Pace][419-420] Enies Lobby 20 [1080p][5AC534CA].mkv'
+  size: 788.1 MiB
+  hash: 4cab4c469be3e484489256907ec662acb8a87025
+  index: 0

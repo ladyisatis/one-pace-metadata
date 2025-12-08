@@ -1,0 +1,19 @@
+arc: 17
+episode: 3
+
+manga_chapters: 310-312
+anime_episodes: 211-212
+released: 2017-12-01
+duration: 1532
+extended: false
+
+hashes:
+  crc32: 24351CC0
+  blake2s: ''
+
+file:
+  id: 1327706
+  name: '[One Pace][310-312] Long Ring Long Land 03 [720p][24351CC0].mkv'
+  size: 506.6 MiB
+  hash: 4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5
+  index: 0

@@ -1,0 +1,78 @@
+part: 26
+saga: Summit War
+title: Marineford
+originaltitle: ''
+shortcode: MA
+mkvcode: marineford
+description: 'Pirate Whitebeard and his allies on one side; the Navy and its Seven
+  Warlords on the other. At the center of it all: Portgas D. Ace and his unspeakable
+  past and heritage. Luffy races to Ace''s execution scaffold as a battle between
+  the world''s most powerful people unfolds.'
+
+episodes:
+- episode: '01'
+  standard: 92956F40
+  extended: ''
+- episode: '02'
+  standard: 4F5151F2
+  extended: ''
+- episode: '03'
+  standard: D16C3A7A
+  extended: ''
+- episode: '04'
+  standard: 738B1A3B
+  extended: ''
+- episode: '05'
+  standard: '66006702'
+  extended: ''
+- episode: '06'
+  standard: E46F5F07
+  extended: ''
+- episode: '07'
+  standard: 511BA151
+  extended: ''
+- episode: 08
+  standard: 2A3B3264
+  extended: ''
+- episode: 09
+  standard: 1638FE88
+  extended: ''
+- episode: '10'
+  standard: C65F13AA
+  extended: ''
+- episode: '11'
+  standard: A84B5499
+  extended: ''
+- episode: '12'
+  standard: 6BD41435
+  extended: ''
+- episode: '13'
+  standard: 66E68054
+  extended: ''
+- episode: '14'
+  standard: 29DBF233
+  extended: ''
+- episode: '15'
+  standard: 00768DB7
+  extended: ''
+- episode: '16'
+  standard: 91EEA92E
+  extended: ''
+- episode: '17'
+  standard: 2DC3ECF7
+  extended: ''
+
+info:
+  manga_chapters: 549 - 580
+  num_of_chapters: 32
+  anime_episodes: 457 - 489
+  episodes_adapted: 33
+  filler_episodes: ''
+  num_of_pace_eps: 17
+  piece_minutes: 0
+  pace_minutes: 395
+  audio_languages: Jpn
+  sub_languages: 'Eng,Es,Fr '
+  pixeldrain_only: Fr
+  resolution: 720p
+  arc_watch_guide: Pace

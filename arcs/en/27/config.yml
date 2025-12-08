@@ -1,0 +1,50 @@
+part: 27
+saga: Summit War
+title: Post-War
+originaltitle: ''
+shortcode: PS
+mkvcode: postwar
+description: The war has taken its toll on the world, and Luffy reminisces about younger
+  days when he first met Ace and became his brother. To become strong enough to withstand
+  the New World, Luffy must make a critical decision for himself and his crew.
+
+episodes:
+- episode: '01'
+  standard: E7B15590
+  extended: ''
+- episode: '02'
+  standard: 1A183CBE
+  extended: ''
+- episode: '03'
+  standard: 9DEAD0F3
+  extended: ''
+- episode: '04'
+  standard: 5FA1920A
+  extended: ''
+- episode: '05'
+  standard: FA5B3DCD
+  extended: ''
+- episode: '06'
+  standard: 735F9F49
+  extended: ''
+- episode: '07'
+  standard: D85BC22C
+  extended: ''
+- episode: 08
+  standard: 178190BC
+  extended: ''
+
+info:
+  manga_chapters: 581 - 597
+  num_of_chapters: 17
+  anime_episodes: 490 - 516
+  episodes_adapted: 26
+  filler_episodes: 492, 499, 506
+  num_of_pace_eps: 8
+  piece_minutes: 559
+  pace_minutes: 306
+  audio_languages: Jpn,Eng (1-6)
+  sub_languages: 'Eng,Es ,Fr '
+  pixeldrain_only: Es,Fr
+  resolution: 1080p
+  arc_watch_guide: Pace

@@ -1,0 +1,19 @@
+arc: 31
+episode: 17
+
+manga_chapters: 732-733
+anime_episodes: 664-665
+released: 2014-11-10
+duration: 1304
+extended: false
+
+hashes:
+  crc32: 174F92DD
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 732-733 [720p][174F92DD].mkv'
+  size: 288.8 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 16

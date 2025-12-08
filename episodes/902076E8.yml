@@ -1,0 +1,19 @@
+arc: 13
+episode: 4
+
+manga_chapters: 139-140
+anime_episodes: 84
+released: 2022-09-26
+duration: 1215
+extended: false
+
+hashes:
+  crc32: 902076E8
+  blake2s: ''
+
+file:
+  id: 1583374
+  name: '[One Pace][139-140] Drum Island 04 [1080p][902076E8].mkv'
+  size: 472.0 MiB
+  hash: d7b48a58f44b5a5f6c0f9709976629fa5efe17a8
+  index: 0

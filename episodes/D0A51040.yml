@@ -1,0 +1,19 @@
+arc: 3
+episode: 7
+
+manga_chapters: 40-41
+anime_episodes: 17
+released: 2025-07-12
+duration: 1157
+extended: false
+
+hashes:
+  crc32: D0A51040
+  blake2s: ''
+
+file:
+  id: 1992015
+  name: '[One Pace][40-41] Syrup Village 07 [1080p][D0A51040].mkv'
+  size: 508.3 MiB
+  hash: 3d2896f8adff27aa22a69ad7a27dfd3d58ea2f9d
+  index: 0

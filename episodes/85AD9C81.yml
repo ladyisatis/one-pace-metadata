@@ -1,0 +1,19 @@
+arc: 29
+episode: 21
+
+manga_chapters: 643-646
+anime_episodes: 562-567
+released: 2013-05-07
+duration: 1748
+extended: false
+
+hashes:
+  crc32: 85AD9C81
+  blake2s: ''
+
+file:
+  id: 1031876
+  name: '[One Pace][643-646] Fishman Island 21 [720p][85AD9C81].mkv'
+  size: 540.5 MiB
+  hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
+  index: 20

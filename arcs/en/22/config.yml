@@ -1,0 +1,61 @@
+part: 22
+saga: Summit War
+title: Sabaody Archipelago
+originaltitle: ''
+shortcode: SA
+mkvcode: sabaody
+description: The second half of the Grand Line lays just ahead, so the Straw Hats
+  stop at Sabaody Archipelago to plan the way forward. But being so close to the Holy
+  Land and Navy Headquarters, Luffy's crew comes face-to-face with the darkest forces
+  of the World Government.
+
+episodes:
+- episode: '01'
+  standard: 066FD68B
+  extended: ''
+- episode: '02'
+  standard: F0334710
+  extended: ''
+- episode: '03'
+  standard: C19CADF5
+  extended: ''
+- episode: '04'
+  standard: 76D21468
+  extended: ''
+- episode: '05'
+  standard: 7D6E8499
+  extended: ''
+- episode: '06'
+  standard: 234CBFDC
+  extended: ''
+- episode: '07'
+  standard: 63A829E4
+  extended: ''
+- episode: 08
+  standard: 873CB57E
+  extended: ''
+- episode: 09
+  standard: 0E0C5A82
+  extended: ''
+- episode: '10'
+  standard: 20ADEE90
+  extended: ''
+- episode: '11'
+  standard: 1306F53D
+  extended: ''
+
+info:
+  manga_chapters: 490 - 513
+  num_of_chapters: 24
+  anime_episodes: 385 - 405
+  episodes_adapted: 21
+  filler_episodes: ''
+  num_of_pace_eps: 11
+  piece_minutes: 0
+  pace_minutes: 285
+  audio_languages: Jpn
+  sub_languages: 'Eng, Es '
+  pixeldrain_only: Es
+  resolution: 720p
+  status: To Be Redone
+  arc_watch_guide: Pace

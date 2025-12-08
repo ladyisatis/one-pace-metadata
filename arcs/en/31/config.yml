@@ -1,0 +1,171 @@
+part: 31
+saga: Dressrosa
+title: Dressrosa
+originaltitle: ''
+shortcode: DE
+mkvcode: dressrosa
+description: Luffy's alliance with Law brings him next to Dressrosa to take down Doflamingo's
+  booming business. But the crazed warlord and self-proclaimed ruler of Dressrosa
+  has control over everyone and everything.
+
+episodes:
+- episode: '01'
+  standard: 2A35B710
+  extended: ''
+- episode: '02'
+  standard: E058DEF9
+  extended: ''
+- episode: '03'
+  standard: 90034ECC
+  extended: ''
+- episode: '04'
+  standard: E98FA912
+  extended: ''
+- episode: '05'
+  standard: A95DE47B
+  extended: ''
+- episode: '06'
+  standard: F7CB97CD
+  extended: ''
+- episode: '07'
+  standard: EACE397D
+  extended: ''
+- episode: 08
+  standard: 777DE97C
+  extended: ''
+- episode: 09
+  standard: C2C37921
+  extended: ''
+- episode: '10'
+  standard: '50143351'
+  extended: ''
+- episode: '11'
+  standard: D8E8370A
+  extended: ''
+- episode: '12'
+  standard: F20B5423
+  extended: ''
+- episode: '13'
+  standard: C29E5C35
+  extended: ''
+- episode: '14'
+  standard: E3C90B8B
+  extended: ''
+- episode: '15'
+  standard: 6A3CE0EA
+  extended: ''
+- episode: '16'
+  standard: 7073A62F
+  extended: ''
+- episode: '17'
+  standard: 174F92DD
+  extended: ''
+- episode: '18'
+  standard: C9362978
+  extended: ''
+- episode: '19'
+  standard: 77081AEE
+  extended: ''
+- episode: '20'
+  standard: BE72EB0E
+  extended: ''
+- episode: '21'
+  standard: C21EC74A
+  extended: ''
+- episode: '22'
+  standard: 5FC46535
+  extended: ''
+- episode: '23'
+  standard: 5A38EC3B
+  extended: ''
+- episode: '24'
+  standard: 11DA7BCB
+  extended: ''
+- episode: '25'
+  standard: 1CADC5DC
+  extended: ''
+- episode: '26'
+  standard: 71CA89FC
+  extended: ''
+- episode: '27'
+  standard: DC6C3C54
+  extended: ''
+- episode: '28'
+  standard: 04186119
+  extended: ''
+- episode: '29'
+  standard: ACC7852E
+  extended: ''
+- episode: '30'
+  standard: 4F16C5DC
+  extended: ''
+- episode: '31'
+  standard: 9C3360D6
+  extended: ''
+- episode: '32'
+  standard: E98F852E
+  extended: ''
+- episode: '33'
+  standard: 53AEB13C
+  extended: ''
+- episode: '34'
+  standard: 0CA47011
+  extended: ''
+- episode: '35'
+  standard: 1B5DC33C
+  extended: ''
+- episode: '36'
+  standard: F218F0E4
+  extended: ''
+- episode: '37'
+  standard: 777A9A6A
+  extended: ''
+- episode: '38'
+  standard: 0429451F
+  extended: ''
+- episode: '39'
+  standard: 7391ECD4
+  extended: ''
+- episode: '40'
+  standard: ECD80B22
+  extended: ''
+- episode: '41'
+  standard: 3E9F11F9
+  extended: ''
+- episode: '42'
+  standard: 55292D1C
+  extended: ''
+- episode: '43'
+  standard: CAA32C42
+  extended: ''
+- episode: '44'
+  standard: 4DDF4C07
+  extended: ''
+- episode: '45'
+  standard: '15344804'
+  extended: ''
+- episode: '46'
+  standard: 81C4666C
+  extended: ''
+- episode: '47'
+  standard: 01C40FA1
+  extended: ''
+- episode: '48'
+  standard: 5F035A13
+  extended: ''
+
+info:
+  manga_chapters: 700 - 800
+  num_of_chapters: 101
+  anime_episodes: 629 - 746
+  episodes_adapted: 118
+  filler_episodes: ''
+  num_of_pace_eps: 48
+  piece_minutes: 2537
+  pace_minutes: 1206
+  audio_languages: Jpn
+  sub_languages: 'Eng,Es '
+  pixeldrain_only: Es
+  resolution: 720p
+  status: To Be Redone
+  arc_watch_guide: Pace

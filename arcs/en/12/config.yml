@@ -1,0 +1,41 @@
+part: 12
+saga: Arabasta
+title: Little Garden
+originaltitle: ''
+shortcode: LI
+mkvcode: littlegarden
+description: The Straw Hats vow to bring Princess Vivi to Arabasta, and their journey
+  brings them to Little Garden, an island from prehistoria that is home to creatures
+  and people larger than life.
+
+episodes:
+- episode: '01'
+  standard: FA63AC14
+  extended: ''
+- episode: '02'
+  standard: '64714640'
+  extended: ''
+- episode: '03'
+  standard: 0AB937B1
+  extended: ''
+- episode: '04'
+  standard: 8BE7A415
+  extended: ''
+- episode: '05'
+  standard: 51105EBB
+  extended: ''
+
+info:
+  manga_chapters: 115 - 129
+  num_of_chapters: 15
+  anime_episodes: 70 - 78
+  episodes_adapted: 9
+  filler_episodes: ''
+  num_of_pace_eps: 5
+  piece_minutes: 189
+  pace_minutes: 135
+  audio_languages: Jpn,Eng
+  sub_languages: 'Eng,Es,Fr,Ar,De,It '
+  pixeldrain_only: ''
+  resolution: 1080p
+  arc_watch_guide: Pace

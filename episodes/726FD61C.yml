@@ -1,0 +1,19 @@
+arc: 14
+episode: 8
+
+manga_chapters: 171-174
+anime_episodes: 107-108
+released: 2021-09-01
+duration: 2134
+extended: false
+
+hashes:
+  crc32: 726FD61C
+  blake2s: ''
+
+file:
+  id: 1427878
+  name: '[One Pace][171-174] Arabasta 08 [1080p][726FD61C].mkv'
+  size: 681.9 MiB
+  hash: 66df46977cd5206f7684963ac3af20ada7dfdea4
+  index: 0

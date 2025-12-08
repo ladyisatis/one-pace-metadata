@@ -1,0 +1,19 @@
+arc: 16
+episode: 20
+
+manga_chapters: 290-291
+anime_episodes: 188
+released: 2025-01-18
+duration: 1426
+extended: false
+
+hashes:
+  crc32: 481A9A9D
+  blake2s: ''
+
+file:
+  id: 1923038
+  name: '[One Pace][290-291] Skypiea 20 [1080p][481A9A9D].mkv'
+  size: 435.9 MiB
+  hash: f310ad44380a16a0fef792b5738affccbb0fc65c
+  index: 0

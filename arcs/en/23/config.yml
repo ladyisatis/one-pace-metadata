@@ -1,0 +1,42 @@
+part: 23
+saga: Summit War
+title: Amazon Lily
+originaltitle: ''
+shortcode: AM
+mkvcode: amazonlily
+description: Luffy is separated from his crew, and he finds himself on an unfamiliar
+  island in the middle of the Calm Belt... an island inhabited only by women where
+  men are prohibited from entering.
+
+episodes:
+- episode: '01'
+  standard: 06BF070D
+  extended: ''
+- episode: '02'
+  standard: E817809A
+  extended: ''
+- episode: '03'
+  standard: C2835057
+  extended: ''
+- episode: '04'
+  standard: A5F0A507
+  extended: ''
+- episode: '05'
+  standard: 0F8517DC
+  extended: ''
+
+info:
+  manga_chapters: 514 - 524
+  num_of_chapters: 11
+  anime_episodes: 408 - 421
+  episodes_adapted: 14
+  filler_episodes: ''
+  num_of_pace_eps: 5
+  piece_minutes: 301
+  pace_minutes: 132
+  audio_languages: Jpn
+  sub_languages: 'Eng, Es , Fr '
+  pixeldrain_only: Es, Fr
+  resolution: 720p
+  status: To Be Redone
+  arc_watch_guide: Pace

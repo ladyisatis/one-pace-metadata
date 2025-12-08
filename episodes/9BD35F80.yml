@@ -1,0 +1,19 @@
+arc: 5
+episode: 2
+
+manga_chapters: 45-47
+anime_episodes: 21-23
+released: 2025-08-10
+duration: 1890
+extended: false
+
+hashes:
+  crc32: 9BD35F80
+  blake2s: ''
+
+file:
+  id: 2004227
+  name: '[One Pace][45-47] Baratie 02 [1080p][9BD35F80].mkv'
+  size: 684.7 MiB
+  hash: 6cf2faf6f5d96a58dfd846070dd098d18d324642
+  index: 0

@@ -1,0 +1,19 @@
+arc: 19
+episode: 25
+
+manga_chapters: 430
+anime_episodes: 312
+released: 2020-08-27
+duration: 1005
+extended: false
+
+hashes:
+  crc32: 3251D51B
+  blake2s: ''
+
+file:
+  id: 1275170
+  name: '[One Pace][430] Enies Lobby 25 [1080p][3251D51B].mkv'
+  size: 493.3 MiB
+  hash: 7e24c561da498f298ff137f5462d5fe89b38edff
+  index: 0

@@ -1,0 +1,19 @@
+arc: 14
+episode: 3
+
+manga_chapters: 159, 161-162
+anime_episodes: 96-98
+released: 2023-07-28
+duration: 1558
+extended: false
+
+hashes:
+  crc32: 73003149
+  blake2s: ''
+
+file:
+  id: 1698209
+  name: '[One Pace][159, 161-162] Arabasta 03 [1080p][73003149].mkv'
+  size: 534.8 MiB
+  hash: 4f3742283679c68ee64ccf1a7fbf71f1acb600da
+  index: 0

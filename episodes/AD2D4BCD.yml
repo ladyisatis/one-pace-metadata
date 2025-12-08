@@ -1,0 +1,19 @@
+arc: 21
+episode: 20
+
+manga_chapters: 483-485
+anime_episodes: 375-377
+released: 2014-09-28
+duration: 2040
+extended: false
+
+hashes:
+  crc32: AD2D4BCD
+  blake2s: ''
+
+file:
+  id: 608554
+  name: '[One Pace] Paced One Piece - Thriller Bark Episode 20 [720p][AD2D4BCD].mkv'
+  size: 418.7 MiB
+  hash: 2c83d7ba67a243de5995f687073787341c69958c
+  index: 0

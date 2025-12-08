@@ -1,0 +1,19 @@
+arc: 13
+episode: 5
+
+manga_chapters: 140-145
+anime_episodes: 85-86
+released: 2023-03-21
+duration: 2366
+extended: false
+
+hashes:
+  crc32: E7044DBE
+  blake2s: ''
+
+file:
+  id: 1651826
+  name: '[One Pace][141-145] Drum Island 05 [1080p][E7044DBE].mkv'
+  size: 888.6 MiB
+  hash: d12effbcce07e669155bec4c2aaccaffaff790eb
+  index: 0

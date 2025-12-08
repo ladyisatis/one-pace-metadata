@@ -1,0 +1,101 @@
+part: 19
+saga: Water Seven
+title: Enies Lobby
+originaltitle: ''
+shortcode: EN
+mkvcode: enieslobby
+description: 'In order to free Nico Robin from the clutches of the World Government,
+  the Straw Hats and their allies must invade the judicial island, Enies Lobby, and
+  take on the government''s premiere clandestine unit: CP9.'
+
+episodes:
+- episode: '01'
+  standard: A6CD3EBB
+  extended: ''
+- episode: '02'
+  standard: EBBD7693
+  extended: ''
+- episode: '03'
+  standard: 747CF45E
+  extended: ''
+- episode: '04'
+  standard: 194603B0
+  extended: ''
+- episode: '05'
+  standard: 56E89B6A
+  extended: ''
+- episode: '06'
+  standard: 0E201E28
+  extended: ''
+- episode: '07'
+  standard: 3BBE532B
+  extended: ''
+- episode: 08
+  standard: DECF4267
+  extended: ''
+- episode: 09
+  standard: 952F5BEB
+  extended: ''
+- episode: '10'
+  standard: 6C908F32
+  extended: ''
+- episode: '11'
+  standard: CF6F1505
+  extended: ''
+- episode: '12'
+  standard: DA166192
+  extended: ''
+- episode: '13'
+  standard: FE0F64E2
+  extended: ''
+- episode: '14'
+  standard: A9C9701B
+  extended: ''
+- episode: '15'
+  standard: 160B1E51
+  extended: ''
+- episode: '16'
+  standard: 158476AB
+  extended: ''
+- episode: '17'
+  standard: 7562EF8D
+  extended: ''
+- episode: '18'
+  standard: 64207B1A
+  extended: ''
+- episode: '19'
+  standard: C4106519
+  extended: ''
+- episode: '20'
+  standard: 5AC534CA
+  extended: ''
+- episode: '21'
+  standard: 13D874FD
+  extended: ''
+- episode: '22'
+  standard: C0B33E05
+  extended: ''
+- episode: '23'
+  standard: 25AFC3E5
+  extended: ''
+- episode: '24'
+  standard: 7F76CDD9
+  extended: ''
+- episode: '25'
+  standard: 3251D51B
+  extended: ''
+
+info:
+  manga_chapters: 375 - 430
+  num_of_chapters: 56
+  anime_episodes: 263 - 312
+  episodes_adapted: 45
+  filler_episodes: 291 - 292, 303
+  num_of_pace_eps: 25
+  piece_minutes: 945
+  pace_minutes: 595
+  audio_languages: Jpn,Eng (23-25)
+  sub_languages: 'Eng, Es , Fr '
+  pixeldrain_only: Fr
+  resolution: 720p,1080p
+  arc_watch_guide: Pace

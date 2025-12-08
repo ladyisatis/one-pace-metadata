@@ -1,0 +1,19 @@
+arc: 18
+episode: 6
+
+manga_chapters: 334-337
+anime_episodes: 237-239
+released: 2021-05-03
+duration: 2215
+extended: false
+
+hashes:
+  crc32: D17BD2C5
+  blake2s: ''
+
+file:
+  id: 1381354
+  name: '[One Pace][334-337] Water Seven 06 [1080p][D17BD2C5].mkv'
+  size: 1.1 GiB
+  hash: d5460ed548e29b724bf6f1ef423b3dc60672bbab
+  index: 0

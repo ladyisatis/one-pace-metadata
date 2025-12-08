@@ -1,0 +1,19 @@
+arc: 3
+episode: 2
+
+manga_chapters: 26-27
+anime_episodes: 10-11
+released: 2025-12-06 14:03:39+00:00
+duration: 0
+extended: false
+
+hashes:
+  crc32: 25913BDA
+  blake2s: ''
+
+file:
+  id: 2050665
+  name: '[One Pace][26-27] Syrup Village 02 [1080p][25913BDA].mkv'
+  size: 544.7 MiB
+  hash: f6c32b46bb55924888aed6815bfa0edb7287a45e
+  index: 1

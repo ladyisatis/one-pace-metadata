@@ -1,0 +1,19 @@
+arc: 23
+episode: 3
+
+manga_chapters: 518-519
+anime_episodes: 412-413
+released: 2016-02-12
+duration: 1378
+extended: false
+
+hashes:
+  crc32: C2835057
+  blake2s: ''
+
+file:
+  id: 1140828
+  name: '[One Pace][518-519] Amazon Lily 03 [720p][C2835057].mkv'
+  size: 251.5 MiB
+  hash: 1f62e2583956c412f8550672bc8066c5e96ab0a8
+  index: 0

@@ -1,0 +1,19 @@
+arc: 31
+episode: 20
+
+manga_chapters: 738-739
+anime_episodes: 670-672
+released: 2015-01-23
+duration: 1483
+extended: false
+
+hashes:
+  crc32: BE72EB0E
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 738-739 [720p][BE72EB0E].mkv'
+  size: 192.5 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 19

@@ -1,0 +1,19 @@
+arc: 31
+episode: 8
+
+manga_chapters: 714-715
+anime_episodes: 643-645
+released: 2014-06-01
+duration: 1257
+extended: false
+
+hashes:
+  crc32: 777DE97C
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 714-715 [720p][777DE97C].mkv'
+  size: 318.4 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 7

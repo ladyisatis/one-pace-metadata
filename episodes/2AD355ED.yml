@@ -1,0 +1,19 @@
+arc: 14
+episode: 15
+
+manga_chapters: 196-198
+anime_episodes: 120-121
+released: 2023-05-22
+duration: 1750
+extended: false
+
+hashes:
+  crc32: 2AD355ED
+  blake2s: ''
+
+file:
+  id: 1857619
+  name: '[One Pace][196-198] Arabasta 15 [1080p][2AD355ED].mkv'
+  size: 602.1 MiB
+  hash: 3a5927bc4599b185209cc79936265d57d95196c2
+  index: 0

@@ -1,0 +1,19 @@
+arc: 21
+episode: 18
+
+manga_chapters: 477-479
+anime_episodes: 371-372
+released: 2014-01-30
+duration: 1440
+extended: false
+
+hashes:
+  crc32: 2295F0A1
+  blake2s: ''
+
+file:
+  id: 608554
+  name: '[One Pace] Paced One Piece - Thriller Bark Episode 18 [720p][2295F0A1].mkv'
+  size: 325.3 MiB
+  hash: 2c83d7ba67a243de5995f687073787341c69958c
+  index: 0

@@ -1,0 +1,19 @@
+arc: 17
+episode: 0
+
+manga_chapters: 303
+anime_episodes: 207, 225
+released: 2025-05-08
+duration: 128
+extended: false
+
+hashes:
+  crc32: E85B9E9D
+  blake2s: ''
+
+file:
+  id: 1972746
+  name: '[One Pace][303] Long Ring Long Land 00 [1080p][E85B9E9D].mkv'
+  size: 34.0 MiB
+  hash: eba02743616eef490bdd3417d67cb9cad1a43260
+  index: 0

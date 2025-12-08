@@ -1,0 +1,19 @@
+arc: 31
+episode: 21
+
+manga_chapters: 740-741
+anime_episodes: 672-675
+released: 2015-03-02
+duration: 1614
+extended: false
+
+hashes:
+  crc32: C21EC74A
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 740-741 [720p][C21EC74A].mkv'
+  size: 209.5 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 20

@@ -1,0 +1,19 @@
+arc: 19
+episode: 14
+
+manga_chapters: 405-406
+anime_episodes: 289-290
+released: 2020-04-15
+duration: 1238
+extended: false
+
+hashes:
+  crc32: A9C9701B
+  blake2s: ''
+
+file:
+  id: 1238673
+  name: '[One Pace][405-406] Enies Lobby 14 [1080p][A9C9701B].mkv'
+  size: 363.6 MiB
+  hash: ec44626d4aac1bc12516cf7677f3a141cf5eafa5
+  index: 0

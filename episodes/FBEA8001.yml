@@ -1,0 +1,19 @@
+arc: 16
+episode: 17
+
+manga_chapters: 280-283
+anime_episodes: 183-185
+released: 2024-12-07
+duration: 1896
+extended: false
+
+hashes:
+  crc32: FBEA8001
+  blake2s: ''
+
+file:
+  id: 1908582
+  name: '[One Pace][280-283] Skypiea 17 [1080p][FBEA8001].mkv'
+  size: 784.8 MiB
+  hash: 66e680e42cb00d97a60b6ca9d542182ac0b1a61d
+  index: 0

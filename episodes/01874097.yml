@@ -1,0 +1,19 @@
+arc: 18
+episode: 3
+
+manga_chapters: 326-329
+anime_episodes: 232-234
+released: 2021-01-19
+duration: 2582
+extended: false
+
+hashes:
+  crc32: 01874097
+  blake2s: ''
+
+file:
+  id: 1346720
+  name: '[One Pace][326-329] Water Seven 03 [1080p][01874097].mkv'
+  size: 1.2 GiB
+  hash: 6f5eea9fb14a4815605f94201e18758dbeb1e3bb
+  index: 0

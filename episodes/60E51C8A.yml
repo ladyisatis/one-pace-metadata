@@ -1,0 +1,19 @@
+arc: 16
+episode: 18
+
+manga_chapters: 283-286
+anime_episodes: 185-186
+released: 2024-12-13
+duration: 2014
+extended: false
+
+hashes:
+  crc32: 60E51C8A
+  blake2s: ''
+
+file:
+  id: 1911121
+  name: '[One Pace][283-286] Skypiea 18 [1080p][60E51C8A].mkv'
+  size: 676.4 MiB
+  hash: 287ff7da8f77b2749c633fd143a6c5bc2203b50a
+  index: 0

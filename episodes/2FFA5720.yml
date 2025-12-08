@@ -1,0 +1,19 @@
+arc: 28
+episode: 3
+
+manga_chapters: 601-602
+anime_episodes: 520-522
+released: 2022-05-04
+duration: 2018
+extended: false
+
+hashes:
+  crc32: 2FFA5720
+  blake2s: ''
+
+file:
+  id: 1524087
+  name: '[One Pace][601-602] Return to Sabaody 03 [1080p][2FFA5720].mkv'
+  size: 829.6 MiB
+  hash: 77cc4c78deedc5b7048cd72620688bf37de17032
+  index: 0

@@ -1,0 +1,19 @@
+arc: 19
+episode: 11
+
+manga_chapters: 399-400
+anime_episodes: 284-285
+released: 2019-08-20
+duration: 1666
+extended: false
+
+hashes:
+  crc32: CF6F1505
+  blake2s: ''
+
+file:
+  id: 1169555
+  name: '[One Pace][399-400] Enies Lobby 11 [720p][CF6F1505].mkv'
+  size: 379.1 MiB
+  hash: 1305ccebb2193ef7249abc6a00b38b4c0cac92ff
+  index: 0

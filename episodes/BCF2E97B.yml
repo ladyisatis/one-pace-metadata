@@ -1,0 +1,19 @@
+arc: 17
+episode: 5
+
+manga_chapters: 317-318
+anime_episodes: 219, 226
+released: 2017-05-29
+duration: 931
+extended: false
+
+hashes:
+  crc32: BCF2E97B
+  blake2s: ''
+
+file:
+  id: 1327706
+  name: '[One Pace][317-318] Long Ring Long Land 05 [720p][BCF2E97B].mkv'
+  size: 256.0 MiB
+  hash: 4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5
+  index: 0

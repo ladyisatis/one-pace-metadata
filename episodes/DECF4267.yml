@@ -1,0 +1,19 @@
+arc: 19
+episode: 8
+
+manga_chapters: 391-393
+anime_episodes: 275-276
+released: 2019-05-29
+duration: 1866
+extended: false
+
+hashes:
+  crc32: DECF4267
+  blake2s: ''
+
+file:
+  id: 1148661
+  name: '[One Pace][391-393] Enies Lobby 08 [720p][DECF4267].mkv'
+  size: 246.9 MiB
+  hash: 1fe8afe6de98a34ea89ce434db2a437fe50724fe
+  index: 0

@@ -1,0 +1,19 @@
+arc: 15
+episode: 3
+
+manga_chapters: 225-226
+anime_episodes: 147
+released: 2023-03-11
+duration: 1206
+extended: false
+
+hashes:
+  crc32: B4950266
+  blake2s: ''
+
+file:
+  id: 1647787
+  name: '[One Pace][225-226] Jaya 03 [1080p][B4950266].mkv'
+  size: 402.9 MiB
+  hash: fb777e9dadcf29a80900d8846e64ab33f9df6077
+  index: 0

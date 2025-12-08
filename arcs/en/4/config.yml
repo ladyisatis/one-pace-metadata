@@ -1,0 +1,31 @@
+part: 4
+saga: East Blue
+title: Gaimon
+originaltitle: ''
+shortcode: GA
+mkvcode: gaimon
+description: With Usopp now on the crew and their new ship, the Going Merry, under
+  their command, the Straw Hats head to an island said to hold a fabled treasure.
+  There they encounter a strange man stuck in a box who has been looking for the same
+  treasure.
+
+episodes:
+- episode: '01'
+  standard: 0C2DBF75
+  extended: ''
+
+info:
+  status: ''
+  manga_chapters: 42,22
+  num_of_chapters: 2
+  anime_episodes: '18'
+  episodes_adapted: 1
+  filler_episodes: ''
+  num_of_pace_eps: 1
+  piece_minutes: 21
+  pace_minutes: 18
+  audio_languages: Jpn,Eng,Es
+  sub_languages: Eng,Es,Fr, De
+  pixeldrain_only: ''
+  resolution: 1080p
+  arc_watch_guide: Pace

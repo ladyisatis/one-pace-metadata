@@ -1,0 +1,101 @@
+part: 16
+saga: Skypiea
+title: Skypiea
+originaltitle: ''
+shortcode: SK
+mkvcode: skypiea
+description: Arriving at Skypiea, the Straw Hats are instantly met with unfamiliar
+  sights, objects, and customs. What's more, the god of the sky island deems the Blue
+  Sea dwellers to be trespassing and casts his judgment upon them.
+
+episodes:
+- episode: '01'
+  standard: CA5552FC
+  extended: ''
+- episode: '02'
+  standard: EB6E8FF5
+  extended: ''
+- episode: '03'
+  standard: A50167E6
+  extended: ''
+- episode: '04'
+  standard: C6120876
+  extended: ''
+- episode: '05'
+  standard: FEA121C3
+  extended: ''
+- episode: '06'
+  standard: BF59EB14
+  extended: ''
+- episode: '07'
+  standard: 3C665F73
+  extended: ''
+- episode: 08
+  standard: 236CCF51
+  extended: ''
+- episode: 09
+  standard: CF0B1E5A
+  extended: ''
+- episode: '10'
+  standard: 602704E6
+  extended: ''
+- episode: '11'
+  standard: F0EF6382
+  extended: ''
+- episode: '12'
+  standard: 99260C5A
+  extended: ''
+- episode: '13'
+  standard: 460CC2CD
+  extended: ''
+- episode: '14'
+  standard: 702231E9
+  extended: ''
+- episode: '15'
+  standard: 9863ADF4
+  extended: ''
+- episode: '16'
+  standard: 088462CB
+  extended: ''
+- episode: '17'
+  standard: FBEA8001
+  extended: ''
+- episode: '18'
+  standard: 60E51C8A
+  extended: ''
+- episode: '19'
+  standard: '88263203'
+  extended: ''
+- episode: '20'
+  standard: 481A9A9D
+  extended: ''
+- episode: '21'
+  standard: 9B126B00
+  extended: ''
+- episode: '22'
+  standard: '62938616'
+  extended: ''
+- episode: '23'
+  standard: D9CD96CA
+  extended: ''
+- episode: '24'
+  standard: 3F695862
+  extended: ''
+- episode: '25'
+  standard: 90C45C25
+  extended: ''
+
+info:
+  manga_chapters: 237 - 303
+  num_of_chapters: 66
+  anime_episodes: 153 - 195, 203
+  episodes_adapted: 44
+  filler_episodes: ''
+  num_of_pace_eps: 25
+  piece_minutes: 924
+  pace_minutes: 644
+  audio_languages: Jpn,Eng
+  sub_languages: Eng,Es (1-4), Fr, Es (5), De (17-)
+  pixeldrain_only: Es (5),De
+  resolution: 1080p
+  arc_watch_guide: Pace

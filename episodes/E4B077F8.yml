@@ -1,0 +1,19 @@
+arc: 32
+episode: 3
+
+manga_chapters: 806-807
+anime_episodes: 755-757
+released: 2016-09-30
+duration: 1601
+extended: false
+
+hashes:
+  crc32: E4B077F8
+  blake2s: ''
+
+file:
+  id: 1032088
+  name: '[One Pace][806-807] Zou 03 [720p][E4B077F8].mkv'
+  size: 309.2 MiB
+  hash: 5c027631a28242814a6cf1fe24f455b70bca14bc
+  index: 2

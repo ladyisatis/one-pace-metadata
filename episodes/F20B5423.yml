@@ -1,0 +1,19 @@
+arc: 31
+episode: 12
+
+manga_chapters: 722-723
+anime_episodes: 652-654
+released: 2014-08-07
+duration: 1626
+extended: false
+
+hashes:
+  crc32: F20B5423
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 722-723 [720p][F20B5423].mkv'
+  size: 366.2 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 11

@@ -1,0 +1,19 @@
+arc: 29
+episode: 4
+
+manga_chapters: 609-610
+anime_episodes: 528-529
+released: 2013-04-02
+duration: 1724
+extended: false
+
+hashes:
+  crc32: 9E0A91E9
+  blake2s: ''
+
+file:
+  id: 1031876
+  name: '[One Pace][609-610] Fishman Island 04 [720p][9E0A91E9].mkv'
+  size: 350.0 MiB
+  hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
+  index: 0

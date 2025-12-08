@@ -1,0 +1,19 @@
+arc: 12
+episode: 3
+
+manga_chapters: 119-122
+anime_episodes: 73-74
+released: 2025-04-18
+duration: 1752
+extended: false
+
+hashes:
+  crc32: 0AB937B1
+  blake2s: ''
+
+file:
+  id: 1961204
+  name: '[One Pace][119-122] Little Garden 03 [1080p][0AB937B1].mkv'
+  size: 725.4 MiB
+  hash: 5bbbc6cf59dd1c083e3148531012061620922701
+  index: 0

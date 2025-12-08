@@ -1,0 +1,19 @@
+arc: 18
+episode: 13
+
+manga_chapters: 355-357
+anime_episodes: 249-250
+released: 2022-06-21
+duration: 1406
+extended: false
+
+hashes:
+  crc32: B4592974
+  blake2s: ''
+
+file:
+  id: 1544361
+  name: '[One Pace][355-357] Water Seven 13 [1080p][B4592974].mkv'
+  size: 910.0 MiB
+  hash: 2c4f7c0f37291a1866df9c4382381c0c03f249cd
+  index: 0

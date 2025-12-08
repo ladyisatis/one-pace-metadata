@@ -1,0 +1,19 @@
+arc: 26
+episode: 11
+
+manga_chapters: 568-569
+anime_episodes: 477-478
+released: 2020-10-07
+duration: 1560
+extended: false
+
+hashes:
+  crc32: A84B5499
+  blake2s: ''
+
+file:
+  id: 1287648
+  name: '[One Pace][568-569] Marineford 11 [720p][A84B5499].mkv'
+  size: 190.6 MiB
+  hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
+  index: 0

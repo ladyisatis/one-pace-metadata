@@ -1,0 +1,19 @@
+arc: 31
+episode: 3
+
+manga_chapters: 704-705
+anime_episodes: 633-635
+released: 2014-04-01
+duration: 1621
+extended: false
+
+hashes:
+  crc32: 90034ECC
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 704-705 [720p][90034ECC].mkv'
+  size: 351.3 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 2

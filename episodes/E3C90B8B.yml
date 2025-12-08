@@ -1,0 +1,19 @@
+arc: 31
+episode: 14
+
+manga_chapters: 726-727
+anime_episodes: 648, 657-659
+released: 2014-10-21
+duration: 1746
+extended: false
+
+hashes:
+  crc32: E3C90B8B
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 726-727 [720p][E3C90B8B].mkv'
+  size: 348.1 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 13

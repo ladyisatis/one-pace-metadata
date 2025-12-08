@@ -1,0 +1,19 @@
+arc: 15
+episode: 8
+
+manga_chapters: 235-236
+anime_episodes: 152
+released: 2023-09-30
+duration: 1146
+extended: false
+
+hashes:
+  crc32: FA2E5ADD
+  blake2s: ''
+
+file:
+  id: 1722450
+  name: '[One Pace][235-236] Jaya 08 [1080p][FA2E5ADD].mkv'
+  size: 413.5 MiB
+  hash: abb69044f4a1806092b9a213669c5edb4f0bb92a
+  index: 0

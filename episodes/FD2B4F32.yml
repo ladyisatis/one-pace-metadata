@@ -1,0 +1,19 @@
+arc: 13
+episode: 1
+
+manga_chapters: 129-132
+anime_episodes: 78-79
+released: 2022-09-26
+duration: 1777
+extended: false
+
+hashes:
+  crc32: FD2B4F32
+  blake2s: ''
+
+file:
+  id: 1583366
+  name: '[One Pace][129-132] Drum Island 01 [1080p][FD2B4F32].mkv'
+  size: 587.8 MiB
+  hash: 00d22c441e261ae3005e32736f2154b1156f5c48
+  index: 0

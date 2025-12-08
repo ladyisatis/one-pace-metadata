@@ -1,0 +1,19 @@
+arc: 31
+episode: 45
+
+manga_chapters: 791-793
+anime_episodes: 734-736
+released: 2017-06-10
+duration: 2424
+extended: false
+
+hashes:
+  crc32: 15344804
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 791-793 [720p][15344804].mkv'
+  size: 255.9 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 44

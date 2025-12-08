@@ -1,0 +1,19 @@
+arc: 31
+episode: 19
+
+manga_chapters: 736-737
+anime_episodes: 668-670
+released: 2014-12-18
+duration: 1217
+extended: false
+
+hashes:
+  crc32: 77081AEE
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 736-737 [720p][77081AEE].mkv'
+  size: 274.1 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 18

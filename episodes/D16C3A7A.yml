@@ -1,0 +1,19 @@
+arc: 26
+episode: 3
+
+manga_chapters: 553-554
+anime_episodes: 462-463
+released: 2020-10-07
+duration: 973
+extended: false
+
+hashes:
+  crc32: D16C3A7A
+  blake2s: ''
+
+file:
+  id: 1287648
+  name: '[One Pace][553-554] Marineford 03 [720p][D16C3A7A].mkv'
+  size: 232.3 MiB
+  hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
+  index: 0

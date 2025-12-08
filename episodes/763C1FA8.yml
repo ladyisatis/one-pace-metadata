@@ -1,0 +1,19 @@
+arc: 18
+episode: 2
+
+manga_chapters: 324-326
+anime_episodes: 229-231
+released: 2020-11-25
+duration: 1848
+extended: false
+
+hashes:
+  crc32: 763C1FA8
+  blake2s: ''
+
+file:
+  id: 1346719
+  name: '[One Pace][324-326] Water Seven 02 [1080p][763C1FA8].mkv'
+  size: 866.1 MiB
+  hash: 17cea791fe57b94d57713cc5ffbfb6346c3512e1
+  index: 0

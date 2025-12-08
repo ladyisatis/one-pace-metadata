@@ -1,0 +1,20 @@
+arc: 25
+episode: 1
+
+manga_chapters: 543-560
+anime_episodes: 453-456
+released: 2024-03-29
+duration: 1384
+extended: false
+
+hashes:
+  crc32: 2BC41092
+  blake2s: ''
+
+file:
+  id: 1796385
+  name: '[One Pace][543-560] If You Could Go Anywhere... The Adventures of the Straw
+    Hats [1080p][2BC41092].mkv'
+  size: 639.3 MiB
+  hash: 48112bfe29daffd541040e566d37607ea1835ceb
+  index: 0

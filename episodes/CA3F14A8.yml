@@ -1,0 +1,19 @@
+arc: 36
+episode: 1
+
+manga_chapters: 1058-1059
+anime_episodes: 1086-1088
+released: 2024-09-24
+duration: 1493
+extended: false
+
+hashes:
+  crc32: CA3F14A8
+  blake2s: ''
+
+file:
+  id: 1870237
+  name: '[One Pace][1058-1059] Egghead 01 [1080p][CA3F14A8].mkv'
+  size: 775.4 MiB
+  hash: aa40134492bb9d86eb4b70632047db0e799d66d6
+  index: 0

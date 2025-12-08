@@ -1,0 +1,87 @@
+part: 18
+saga: Water Seven
+title: Water Seven
+originaltitle: ''
+shortcode: WA
+mkvcode: waterseven
+description: The Straw Hats make landfall at the glorious city of Water Seven, known
+  worldwide for its unparalleled shipyards. The pirates go to inquire about repairs
+  for their ship, but the city threatens to take their money, their ship, and their
+  crewmates.
+
+episodes:
+- episode: '01'
+  standard: 9101CF0E
+  extended: ''
+- episode: '02'
+  standard: 763C1FA8
+  extended: ''
+- episode: '03'
+  standard: 01874097
+  extended: ''
+- episode: '04'
+  standard: D5D6D5BA
+  extended: ''
+- episode: '05'
+  standard: 593FF591
+  extended: ''
+- episode: '06'
+  standard: D17BD2C5
+  extended: ''
+- episode: '07'
+  standard: 4D75A2CA
+  extended: ''
+- episode: 08
+  standard: 6E2DB1B9
+  extended: ''
+- episode: 09
+  standard: F96F0A4A
+  extended: ''
+- episode: '10'
+  standard: BAFD9522
+  extended: ''
+- episode: '11'
+  standard: 0D273612
+  extended: ''
+- episode: '12'
+  standard: 0017358A
+  extended: ''
+- episode: '13'
+  standard: B4592974
+  extended: ''
+- episode: '14'
+  standard: 203E5D6E
+  extended: ''
+- episode: '15'
+  standard: 87F0C48B
+  extended: ''
+- episode: '16'
+  standard: AF5B5194
+  extended: ''
+- episode: '17'
+  standard: AB231A9E
+  extended: ''
+- episode: '18'
+  standard: 47D68652
+  extended: ''
+- episode: '19'
+  standard: 1206A42A
+  extended: ''
+- episode: '20'
+  standard: F0FBC907
+  extended: ''
+
+info:
+  manga_chapters: 322 - 374
+  num_of_chapters: 53
+  anime_episodes: 229 - 263
+  episodes_adapted: 37
+  filler_episodes: ''
+  num_of_pace_eps: 20
+  piece_minutes: 777
+  pace_minutes: 549
+  audio_languages: Jpn,Eng
+  sub_languages: 'Eng,Fr '
+  pixeldrain_only: Fr
+  resolution: 1080p
+  arc_watch_guide: Pace

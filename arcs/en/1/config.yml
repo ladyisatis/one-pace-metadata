@@ -1,0 +1,38 @@
+part: 1
+saga: East Blue
+title: Romance Dawn
+originaltitle: ''
+shortcode: RO
+mkvcode: romancedawn
+description: Monkey D. Luffy sets out on an adventure to form a crew, find the legendary
+  One Piece, and become the pirate king.
+
+episodes:
+- episode: '01'
+  standard: E5F09F49
+  extended: ''
+- episode: '02'
+  standard: A465972A
+  extended: ''
+- episode: '03'
+  standard: 2DEB2701
+  extended: ''
+- episode: '04'
+  standard: 6E46167D
+  extended: ''
+
+info:
+  status: ''
+  manga_chapters: 1 - 7
+  num_of_chapters: 7
+  anime_episodes: 1 - 4, 19
+  episodes_adapted: 5
+  filler_episodes: ''
+  num_of_pace_eps: 4
+  piece_minutes: 105
+  pace_minutes: 76
+  audio_languages: Jpn,Eng,Es, De
+  sub_languages: Eng,Es,Fr,De,Ar,Pt,Pl,Eng CC
+  pixeldrain_only: ''
+  resolution: 1080p
+  arc_watch_guide: Pace

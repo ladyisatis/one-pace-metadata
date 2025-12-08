@@ -1,0 +1,19 @@
+arc: 33
+episode: 6
+
+manga_chapters: 833-834
+anime_episodes: 793-795
+released: 2020-12-11
+duration: 1939
+extended: false
+
+hashes:
+  crc32: 410C8F0C
+  blake2s: ''
+
+file:
+  id: 1313289
+  name: '[One Pace][833-834] Whole Cake Island 06 [720p][410C8F0C].mkv'
+  size: 210.3 MiB
+  hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
+  index: 5

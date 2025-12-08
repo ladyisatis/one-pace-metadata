@@ -1,0 +1,19 @@
+arc: 27
+episode: 5
+
+manga_chapters: 589-590
+anime_episodes: 503-505
+released: 2020-07-26
+duration: 2470
+extended: false
+
+hashes:
+  crc32: FA5B3DCD
+  blake2s: ''
+
+file:
+  id: 1265974
+  name: '[One Pace][589-590] Post-War 05 [1080p][FA5B3DCD].mkv'
+  size: 517.2 MiB
+  hash: eacbf73c4965a12fbf2eb97e4db53151ff39788f
+  index: 0

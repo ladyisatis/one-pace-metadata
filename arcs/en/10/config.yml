@@ -1,0 +1,32 @@
+part: 10
+saga: Arabasta
+title: Whisky Peak
+originaltitle: ''
+shortcode: WH
+mkvcode: whiskypeak
+description: The first island on the Grand Line is surprisingly welcoming to pirates.
+  But as night falls, a deadly plot unravels.
+
+episodes:
+- episode: '01'
+  standard: 26D6F22A
+  extended: ''
+- episode: '02'
+  standard: 3677DB27
+  extended: ''
+
+info:
+  manga_chapters: 106 - 114
+  num_of_chapters: 9
+  anime_episodes: 64 - 67
+  episodes_adapted: 4
+  filler_episodes: ''
+  num_of_pace_eps: 2
+  piece_minutes: 84
+  pace_minutes: 67
+  audio_languages: Jpn
+  sub_languages: 'Eng, Es , Fr '
+  pixeldrain_only: Es, Fr
+  resolution: 480p
+  status: To Be Redone
+  arc_watch_guide: Pace

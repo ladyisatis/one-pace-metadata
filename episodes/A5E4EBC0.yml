@@ -1,0 +1,19 @@
+arc: 3
+episode: 4
+
+manga_chapters: 31-34
+anime_episodes: 13-14
+released: 2025-12-06 14:03:39+00:00
+duration: 0
+extended: false
+
+hashes:
+  crc32: A5E4EBC0
+  blake2s: ''
+
+file:
+  id: 2050665
+  name: '[One Pace][31-34] Syrup Village 04 [1080p][A5E4EBC0].mkv'
+  size: 716.8 MiB
+  hash: f6c32b46bb55924888aed6815bfa0edb7287a45e
+  index: 3

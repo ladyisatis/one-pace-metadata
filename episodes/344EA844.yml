@@ -1,0 +1,19 @@
+arc: 20
+episode: 2
+
+manga_chapters: 433-435
+anime_episodes: 315-316, 319-320, 325
+released: 2013-06-14
+duration: 2362
+extended: false
+
+hashes:
+  crc32: 344EA844
+  blake2s: ''
+
+file:
+  id: 1168790
+  name: '[One Pace][433-435] Post-Enies Lobby 02 [720p][344EA844].mkv'
+  size: 458.0 MiB
+  hash: 59497fc3d9a6dbcdbaced48eaa9f5ba2047614df
+  index: 0

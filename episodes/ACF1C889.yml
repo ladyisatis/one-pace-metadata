@@ -1,0 +1,19 @@
+arc: 30
+episode: 5
+
+manga_chapters: 663-664
+anime_episodes: 588-589
+released: 2013-05-27
+duration: 2141
+extended: false
+
+hashes:
+  crc32: ACF1C889
+  blake2s: ''
+
+file:
+  id: 1140878
+  name: '[One Pace][663-664] Punk Hazard 05 [720p][ACF1C889].mkv'
+  size: 668.5 MiB
+  hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
+  index: 4

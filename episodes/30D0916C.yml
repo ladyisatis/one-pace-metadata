@@ -1,0 +1,19 @@
+arc: 21
+episode: 1
+
+manga_chapters: 442-443
+anime_episodes: 326, 337-339
+released: 2013-07-01
+duration: 1711
+extended: false
+
+hashes:
+  crc32: 30D0916C
+  blake2s: ''
+
+file:
+  id: 608554
+  name: '[One Pace] Paced One Piece - Thriller Bark Episode 01 [720p][30D0916C].mkv'
+  size: 365.2 MiB
+  hash: 2c83d7ba67a243de5995f687073787341c69958c
+  index: 0

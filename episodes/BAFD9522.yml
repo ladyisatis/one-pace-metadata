@@ -1,0 +1,19 @@
+arc: 18
+episode: 10
+
+manga_chapters: 346-348
+anime_episodes: 244-246
+released: 2021-12-05
+duration: 1826
+extended: false
+
+hashes:
+  crc32: BAFD9522
+  blake2s: ''
+
+file:
+  id: 1463838
+  name: '[One Pace][346-348] Water Seven 10 [1080p][BAFD9522].mkv'
+  size: 800.9 MiB
+  hash: 3db5d95badd012ad1916dc624adfe747aec1b379
+  index: 0

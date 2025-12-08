@@ -1,0 +1,19 @@
+arc: 33
+episode: 36
+
+manga_chapters: 892-895
+anime_episodes: 865, 867-870
+released: 2020-12-11
+duration: 2029
+extended: false
+
+hashes:
+  crc32: 3AF37912
+  blake2s: ''
+
+file:
+  id: 1313289
+  name: '[One Pace][892-895] Whole Cake Island 36 [720p][3AF37912].mkv'
+  size: 308.3 MiB
+  hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
+  index: 35

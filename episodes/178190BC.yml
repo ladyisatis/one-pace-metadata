@@ -1,0 +1,19 @@
+arc: 27
+episode: 8
+
+manga_chapters: 595-597
+anime_episodes: 513-516
+released: 2021-01-18
+duration: 3600
+extended: false
+
+hashes:
+  crc32: 178190BC
+  blake2s: ''
+
+file:
+  id: 1329424
+  name: '[One Pace][595-597] Post-War 08 [1080p][178190BC].mkv'
+  size: 1.5 GiB
+  hash: ea2c5500648c09321acf2be9aee11fc8a798af7b
+  index: 0

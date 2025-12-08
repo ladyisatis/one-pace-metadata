@@ -1,0 +1,36 @@
+part: 8
+saga: East Blue
+title: Loguetown
+originaltitle: ''
+shortcode: LO
+mkvcode: loguetown
+description: 'The final island before entering the Grand Line: Loguetown. Luffy and
+  his crew drop anchor to stock up, sightsee, and pay their respects to the place
+  where Gold Roger drew his last breath.'
+
+episodes:
+- episode: '01'
+  standard: 4200CE0D
+  extended: ''
+- episode: '02'
+  standard: 8E970FD4
+  extended: ''
+- episode: '03'
+  standard: 23E3E489
+  extended: ''
+
+info:
+  status: ''
+  manga_chapters: 96 - 100
+  num_of_chapters: 5
+  anime_episodes: 45, 48 - 53
+  episodes_adapted: 6
+  filler_episodes: '51'
+  num_of_pace_eps: 3
+  piece_minutes: 126
+  pace_minutes: 89
+  audio_languages: Jpn,Eng
+  sub_languages: 'Eng,Es, Fr '
+  pixeldrain_only: Fr
+  resolution: 480p
+  arc_watch_guide: Pace

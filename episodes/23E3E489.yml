@@ -1,0 +1,19 @@
+arc: 8
+episode: 3
+
+manga_chapters: 98-100
+anime_episodes: 52-53
+released: 2020-09-22
+duration: 2173
+extended: false
+
+hashes:
+  crc32: 23E3E489
+  blake2s: ''
+
+file:
+  id: 1282922
+  name: '[One Pace][98-100] Loguetown 03 [480p][23E3E489].mkv'
+  size: 331.0 MiB
+  hash: fc5f605b1fc12f8a14b6176690151ea53bcb7e19
+  index: 0

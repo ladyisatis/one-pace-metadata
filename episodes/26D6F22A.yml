@@ -1,0 +1,19 @@
+arc: 10
+episode: 1
+
+manga_chapters: 106-109
+anime_episodes: 64-65
+released: 2017-08-10
+duration: 1858
+extended: false
+
+hashes:
+  crc32: 26D6F22A
+  blake2s: ''
+
+file:
+  id: 951046
+  name: '[One Pace][106-109] Whiskey Peak 01 [480p][26D6F22A].mkv'
+  size: 123.5 MiB
+  hash: d5af21f3f6ab66d20dda4b131b5eeb0e17a23b7a
+  index: 0

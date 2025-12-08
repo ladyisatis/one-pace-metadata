@@ -1,0 +1,19 @@
+arc: 19
+episode: 12
+
+manga_chapters: 401-402
+anime_episodes: 286-287
+released: 2020-03-11
+duration: 1278
+extended: false
+
+hashes:
+  crc32: DA166192
+  blake2s: ''
+
+file:
+  id: 1228253
+  name: '[One Pace][401-402] Enies Lobby 12 [720p][DA166192].mkv'
+  size: 169.2 MiB
+  hash: 5b49e7a4640ec5b8e455ea5be5cef520fea82da7
+  index: 0

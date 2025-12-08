@@ -1,0 +1,19 @@
+arc: 31
+episode: 41
+
+manga_chapters: 782-783
+anime_episodes: 723-725
+released: 2017-04-27
+duration: 1735
+extended: false
+
+hashes:
+  crc32: 3E9F11F9
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 782-783 [720p][3E9F11F9].mkv'
+  size: 222.5 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 40

@@ -1,0 +1,19 @@
+arc: 18
+episode: 11
+
+manga_chapters: 349-352
+anime_episodes: 246-248
+released: 2022-01-28
+duration: 2302
+extended: false
+
+hashes:
+  crc32: 0D273612
+  blake2s: ''
+
+file:
+  id: 1483587
+  name: '[One Pace][349-352] Water Seven 11 [1080p][0D273612].mkv'
+  size: 975.9 MiB
+  hash: 4407d9e55c5b3169646fd4e19dd605c4363fa37f
+  index: 0

@@ -1,0 +1,19 @@
+arc: 18
+episode: 9
+
+manga_chapters: 342-345
+anime_episodes: 242-243
+released: 2021-07-25
+duration: 2174
+extended: false
+
+hashes:
+  crc32: F96F0A4A
+  blake2s: ''
+
+file:
+  id: 1413188
+  name: '[One Pace][342-345] Water Seven 09 [1080p][F96F0A4A].mkv'
+  size: 1013.3 MiB
+  hash: 9375a1c30eeb49ff96ec96dac5df252d74556f36
+  index: 0

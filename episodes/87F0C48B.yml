@@ -1,0 +1,19 @@
+arc: 18
+episode: 15
+
+manga_chapters: 360-362
+anime_episodes: 252-254
+released: 2023-12-22
+duration: 2017
+extended: false
+
+hashes:
+  crc32: 87F0C48B
+  blake2s: ''
+
+file:
+  id: 1758931
+  name: '[One Pace][360-362] Water Seven 15 [1080p][87F0C48B].mkv'
+  size: 947.1 MiB
+  hash: d85f798f06f91f45d9531df0abfbf863564517fb
+  index: 0

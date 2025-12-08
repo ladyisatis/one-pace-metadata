@@ -1,0 +1,19 @@
+arc: 30
+episode: 11
+
+manga_chapters: 675-676
+anime_episodes: 601-602
+released: 2013-07-08
+duration: 1558
+extended: false
+
+hashes:
+  crc32: 398915C6
+  blake2s: ''
+
+file:
+  id: 1140878
+  name: '[One Pace][675-676] Punk Hazard 11 [720p][398915C6].mkv'
+  size: 463.6 MiB
+  hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
+  index: 10

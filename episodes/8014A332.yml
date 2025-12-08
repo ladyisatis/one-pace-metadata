@@ -1,0 +1,19 @@
+arc: 29
+episode: 15
+
+manga_chapters: 632-633
+anime_episodes: 552-553
+released: 2013-04-19
+duration: 1819
+extended: false
+
+hashes:
+  crc32: 8014A332
+  blake2s: ''
+
+file:
+  id: 1031876
+  name: '[One Pace][632-633] Fishman Island 15 [720p][8014A332].mkv'
+  size: 589.2 MiB
+  hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
+  index: 14

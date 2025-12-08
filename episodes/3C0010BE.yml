@@ -1,0 +1,19 @@
+arc: 36
+episode: 14
+
+manga_chapters: 1080-1081
+anime_episodes: 1113-1115
+released: 2025-08-10
+duration: 2356
+extended: false
+
+hashes:
+  crc32: 3C0010BE
+  blake2s: ''
+
+file:
+  id: 2004229
+  name: '[One Pace][1080-1081] Egghead 14 [1080p][3C0010BE].mkv'
+  size: 1.4 GiB
+  hash: c3a348f1134137296151a65871ba511f76421502
+  index: 0

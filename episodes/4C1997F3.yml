@@ -1,0 +1,19 @@
+arc: 36
+episode: 8
+
+manga_chapters: 1069-1070
+anime_episodes: 1099-1102
+released: 2025-03-08
+duration: 2103
+extended: false
+
+hashes:
+  crc32: 4C1997F3
+  blake2s: ''
+
+file:
+  id: 1945225
+  name: '[One Pace][1069-1070] Egghead 08 [1080p][4C1997F3].mkv'
+  size: 1.1 GiB
+  hash: 69509c80416517dc017f21d3b5712cdf066db8bb
+  index: 0

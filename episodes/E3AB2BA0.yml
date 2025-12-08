@@ -1,0 +1,19 @@
+arc: 35
+episode: 33
+
+manga_chapters: 958-959
+anime_episodes: 959-960
+released: 2023-09-02
+duration: 1552
+extended: false
+
+hashes:
+  crc32: E3AB2BA0
+  blake2s: ''
+
+file:
+  id: 1711394
+  name: '[One Pace][958-959] Wano 33 [1080p][E3AB2BA0].mkv'
+  size: 1.3 GiB
+  hash: 8bb2c2f222f540c60d0a57fa54a6065e2c2da271
+  index: 0

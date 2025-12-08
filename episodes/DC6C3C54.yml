@@ -1,0 +1,19 @@
+arc: 31
+episode: 27
+
+manga_chapters: 752-753
+anime_episodes: 688-691
+released: 2016-08-23
+duration: 1515
+extended: false
+
+hashes:
+  crc32: DC6C3C54
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 752-753 [720p][DC6C3C54].mkv'
+  size: 207.9 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 26

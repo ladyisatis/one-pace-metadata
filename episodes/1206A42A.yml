@@ -1,0 +1,19 @@
+arc: 18
+episode: 19
+
+manga_chapters: 370-371
+anime_episodes: 259-261
+released: 2024-03-02
+duration: 1476
+extended: false
+
+hashes:
+  crc32: 1206A42A
+  blake2s: ''
+
+file:
+  id: 1784331
+  name: '[One Pace][370-371] Water Seven 19 [1080p][1206A42A].mkv'
+  size: 885.5 MiB
+  hash: b5c1549472cfc5856ad616b958d8520741e6ce6c
+  index: 0

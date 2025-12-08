@@ -1,0 +1,52 @@
+part: 5
+saga: East Blue
+title: Baratie
+originaltitle: ''
+shortcode: BA
+mkvcode: baratie
+description: The Straw Hats head to the ocean-going restaurant, Baratie, with the
+  hopes of recruiting one of their cooks. In the meantime, hungry yet powerful forces
+  gather to lay siege to the restaurant — all while a menacing swordsman from the
+  Grand Line steadily approaches.
+
+episodes:
+- episode: '01'
+  standard: BE634289
+  extended: ''
+- episode: '02'
+  standard: 9BD35F80
+  extended: ''
+- episode: '03'
+  standard: E90342F6
+  extended: ''
+- episode: '04'
+  standard: 792BE789
+  extended: ''
+- episode: '05'
+  standard: ACEA0537
+  extended: ''
+- episode: '06'
+  standard: 1375A4F5
+  extended: ''
+- episode: '07'
+  standard: 5B161435
+  extended: ''
+- episode: 08
+  standard: A6F61DEE
+  extended: ''
+
+info:
+  status: ''
+  manga_chapters: 42 - 68
+  num_of_chapters: 27
+  anime_episodes: 19 - 30
+  episodes_adapted: 12
+  filler_episodes: ''
+  num_of_pace_eps: 9
+  piece_minutes: 252
+  pace_minutes: 181
+  audio_languages: Jpn,Eng
+  sub_languages: Eng,Es, Fr (3-9), De (1-6)
+  pixeldrain_only: Fr  (1-2)
+  resolution: 1080p
+  arc_watch_guide: Pace

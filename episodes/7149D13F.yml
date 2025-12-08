@@ -1,0 +1,19 @@
+arc: 32
+episode: 5
+
+manga_chapters: 810-811
+anime_episodes: 759-762
+released: 2016-11-16
+duration: 1443
+extended: false
+
+hashes:
+  crc32: 7149D13F
+  blake2s: ''
+
+file:
+  id: 1032088
+  name: '[One Pace][810-811] Zou 05 [720p][7149D13F].mkv'
+  size: 191.9 MiB
+  hash: 5c027631a28242814a6cf1fe24f455b70bca14bc
+  index: 4

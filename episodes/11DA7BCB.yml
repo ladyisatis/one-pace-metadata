@@ -1,0 +1,19 @@
+arc: 31
+episode: 24
+
+manga_chapters: 746-747
+anime_episodes: 681-683
+released: 2015-04-19
+duration: 1653
+extended: false
+
+hashes:
+  crc32: 11DA7BCB
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 746-747 [720p][11DA7BCB].mkv'
+  size: 223.2 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 23

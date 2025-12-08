@@ -1,0 +1,49 @@
+part: 17
+saga: Water Seven
+title: Long Ring Long Land
+originaltitle: ''
+shortcode: LN
+mkvcode: dbf
+description: On Long Ring Long Land, the Straw Hats are challenged to a Davy Back
+  Fight. As they dive headfirst into a series of games with serious outcomes, the
+  best the Navy has to offer has meanwhile begun to pay closer attention to certain
+  Straw Hat crewmembers.
+
+episodes:
+- episode: '00'
+  standard: E85B9E9D
+  extended: ''
+- episode: '01'
+  standard: B692FD08
+  extended: ''
+- episode: '02'
+  standard: 57F75027
+  extended: ''
+- episode: '03'
+  standard: 24351CC0
+  extended: ''
+- episode: '04'
+  standard: 72C0B595
+  extended: ''
+- episode: '05'
+  standard: BCF2E97B
+  extended: ''
+- episode: '06'
+  standard: A65C20C2
+  extended: ''
+
+info:
+  manga_chapters: 304 - 321
+  num_of_chapters: 19
+  anime_episodes: 207 - 219, 226 - 228
+  episodes_adapted: 14
+  filler_episodes: 213 - 215
+  num_of_pace_eps: 6
+  piece_minutes: 294
+  pace_minutes: 154
+  audio_languages: Jpn,Eng
+  sub_languages: Eng
+  pixeldrain_only: Eng
+  resolution: 720p
+  status: To Be Redone
+  arc_watch_guide: Pace

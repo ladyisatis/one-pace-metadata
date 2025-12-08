@@ -1,0 +1,36 @@
+part: 2
+saga: East Blue
+title: Orange Town
+originaltitle: ''
+shortcode: OR
+mkvcode: orangetown
+description: Luffy and Zoro run afoul of a flashy crew of pirates and their captain,
+  Buggy the Clown. They are joined by a young girl named Nami who helps them navigate
+  this predicament.
+
+episodes:
+- episode: '01'
+  standard: C23AC8D3
+  extended: ''
+- episode: '02'
+  standard: D7327225
+  extended: ''
+- episode: '03'
+  standard: 1809DA8A
+  extended: ''
+
+info:
+  status: ''
+  manga_chapters: 8 - 21
+  num_of_chapters: 14
+  anime_episodes: 4 - 8
+  episodes_adapted: 5
+  filler_episodes: ''
+  num_of_pace_eps: 3
+  piece_minutes: 105
+  pace_minutes: 79
+  audio_languages: 'Jpn,Eng, Es, De '
+  sub_languages: Eng,Es,Fr,Ar,Pt,De
+  pixeldrain_only: Pt
+  resolution: 1080p
+  arc_watch_guide: Pace

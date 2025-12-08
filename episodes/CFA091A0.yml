@@ -1,0 +1,19 @@
+arc: 14
+episode: 7
+
+manga_chapters: 169-170
+anime_episodes: 106
+released: 2021-07-13
+duration: 1080
+extended: false
+
+hashes:
+  crc32: CFA091A0
+  blake2s: ''
+
+file:
+  id: 1408874
+  name: '[One Pace][169-170] Arabasta 07 [1080p][CFA091A0].mkv'
+  size: 364.6 MiB
+  hash: c3d949cf5c3229da4e355867599bea0933a23ec2
+  index: 0

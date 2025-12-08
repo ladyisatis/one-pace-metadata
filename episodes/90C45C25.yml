@@ -1,0 +1,19 @@
+arc: 16
+episode: 25
+
+manga_chapters: 302-303
+anime_episodes: 195, 203, 207
+released: 2025-05-03
+duration: 
+extended: false
+
+hashes:
+  crc32: 90C45C25
+  blake2s: ''
+
+file:
+  id: 1967576
+  name: '[One Pace][302-303] Skypiea 25 Alternate (G-8) [1080p][90C45C25].mkv'
+  size: 457.7 MiB
+  hash: 045ee32a340609e74fa6e7bb9d059ec928672437
+  index: 0

@@ -1,0 +1,19 @@
+arc: 35
+episode: 15
+
+manga_chapters: 928-930
+anime_episodes: 921-923
+released: 2020-07-12
+duration: 2331
+extended: false
+
+hashes:
+  crc32: AE6ABE84
+  blake2s: ''
+
+file:
+  id: 1262119
+  name: '[One Pace][928-930] Wano 15 [1080p][AE6ABE84].mkv'
+  size: 1.2 GiB
+  hash: 1e8b4afc42cce0c51f7b72973de5b90f18246459
+  index: 0

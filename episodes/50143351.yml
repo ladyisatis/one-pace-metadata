@@ -1,0 +1,19 @@
+arc: 31
+episode: 10
+
+manga_chapters: 718-719
+anime_episodes: 648-649
+released: 2014-07-04
+duration: 1291
+extended: false
+
+hashes:
+  crc32: 50143351
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 718-719 [720p][50143351].mkv'
+  size: 279.5 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 9

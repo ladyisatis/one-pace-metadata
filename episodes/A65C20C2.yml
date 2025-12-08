@@ -1,0 +1,19 @@
+arc: 17
+episode: 6
+
+manga_chapters: 319-321
+anime_episodes: 227-228
+released: 2016-06-05
+duration: 1834
+extended: false
+
+hashes:
+  crc32: A65C20C2
+  blake2s: ''
+
+file:
+  id: 1327706
+  name: '[One Pace][318-321] Long Ring Long Land 06 [720p][A65C20C2].mkv'
+  size: 402.6 MiB
+  hash: 4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5
+  index: 0

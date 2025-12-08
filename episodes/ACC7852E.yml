@@ -1,0 +1,19 @@
+arc: 31
+episode: 29
+
+manga_chapters: 756-757
+anime_episodes: 693-696
+released: 2016-09-30
+duration: 1544
+extended: false
+
+hashes:
+  crc32: ACC7852E
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 756-757 [720p][ACC7852E].mkv'
+  size: 235.3 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 28

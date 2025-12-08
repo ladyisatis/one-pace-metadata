@@ -1,0 +1,19 @@
+arc: 26
+episode: 8
+
+manga_chapters: 563-564
+anime_episodes: 472-473
+released: 2020-10-07
+duration: 1712
+extended: false
+
+hashes:
+  crc32: 2A3B3264
+  blake2s: ''
+
+file:
+  id: 1287648
+  name: '[One Pace][563-564] Marineford 08 [720p][2A3B3264].mkv'
+  size: 212.9 MiB
+  hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
+  index: 0

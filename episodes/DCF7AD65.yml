@@ -1,0 +1,19 @@
+arc: 35
+episode: 13
+
+manga_chapters: 925-926
+anime_episodes: 917-919, 924
+released: 2020-05-06
+duration: 2214
+extended: false
+
+hashes:
+  crc32: DCF7AD65
+  blake2s: ''
+
+file:
+  id: 1244493
+  name: '[One Pace][925-926] Wano 13 [1080p][DCF7AD65].mkv'
+  size: 821.0 MiB
+  hash: 7bb74e6d6cb948274a02e389732418ad5d2aa39a
+  index: 0

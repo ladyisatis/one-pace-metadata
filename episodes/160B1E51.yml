@@ -1,0 +1,19 @@
+arc: 19
+episode: 15
+
+manga_chapters: 407-408
+anime_episodes: 290, 293
+released: 2020-04-22
+duration: 1380
+extended: false
+
+hashes:
+  crc32: 160B1E51
+  blake2s: ''
+
+file:
+  id: 1240728
+  name: '[One Pace][407-408] Enies Lobby 15 [1080p][160B1E51].mkv'
+  size: 359.3 MiB
+  hash: 7a490e03ce2488bd81cea75679e8590b40db004c
+  index: 0

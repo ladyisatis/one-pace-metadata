@@ -1,0 +1,19 @@
+arc: 31
+episode: 31
+
+manga_chapters: 760-761
+anime_episodes: 699-700
+released: 2016-10-13
+duration: 1282
+extended: false
+
+hashes:
+  crc32: 9C3360D6
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 760-761 [720p][9C3360D6].mkv'
+  size: 175.9 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 30

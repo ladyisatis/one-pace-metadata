@@ -1,0 +1,31 @@
+part: 11
+saga: Arabasta
+title: The Trials of Koby-Meppo
+originaltitle: ''
+shortcode: TE
+mkvcode: trials_koby
+description: Koby and Helmeppo are new cabin boys for the marines, but they become
+  unwillingly involved in an escape attempt by Morgan. Their bravery will either earn
+  them the respect of their superiors—as well as Vice Admiral Garp—or it will spell
+  their doom.
+
+episodes:
+- episode: '01'
+  standard: 4B56844F
+  extended: ''
+
+info:
+  status: ''
+  manga_chapters: 83-119
+  num_of_chapters: 0
+  anime_episodes: 68 - 69
+  episodes_adapted: 2
+  filler_episodes: ''
+  num_of_pace_eps: 1
+  piece_minutes: 42
+  pace_minutes: 13
+  audio_languages: Jpn,Eng
+  sub_languages: 'Eng, Fr, Es '
+  pixeldrain_only: Es
+  resolution: 1080p
+  arc_watch_guide: Pace

@@ -1,0 +1,19 @@
+arc: 27
+episode: 4
+
+manga_chapters: 587-588
+anime_episodes: 501-503
+released: 2020-07-24
+duration: 2166
+extended: false
+
+hashes:
+  crc32: 5FA1920A
+  blake2s: ''
+
+file:
+  id: 1265511
+  name: '[One Pace][587-588] Post-War 04 [1080p][5FA1920A].mkv'
+  size: 462.1 MiB
+  hash: 4a03c4b6eea6bb621839a8f55fc56dab9942ae68
+  index: 0

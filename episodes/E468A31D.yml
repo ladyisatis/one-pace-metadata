@@ -1,0 +1,19 @@
+arc: 15
+episode: 5
+
+manga_chapters: 229-230
+anime_episodes: 149
+released: 2023-08-20
+duration: 1297
+extended: false
+
+hashes:
+  crc32: E468A31D
+  blake2s: ''
+
+file:
+  id: 1705712
+  name: '[One Pace][229-230] Jaya 05 [1080p][E468A31D].mkv'
+  size: 431.1 MiB
+  hash: b53ea9000dd3db38573e917b2109163568532797
+  index: 0

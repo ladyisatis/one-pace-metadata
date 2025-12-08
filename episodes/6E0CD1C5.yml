@@ -1,0 +1,19 @@
+arc: 34
+episode: 2
+
+manga_chapters: 905-906
+anime_episodes: 881-885
+released: 2024-10-05
+duration: 2104
+extended: false
+
+hashes:
+  crc32: 6E0CD1C5
+  blake2s: ''
+
+file:
+  id: 1880864
+  name: '[One Pace][905-906] Reverie 02 [1080p][6E0CD1C5].mkv'
+  size: 1.0 GiB
+  hash: 4d9497e964d820760adf11e47664df3091b808f2
+  index: 1

@@ -1,0 +1,19 @@
+arc: 5
+episode: 6
+
+manga_chapters: 59-63
+anime_episodes: 27-28
+released: 2025-09-15
+duration: 1679
+extended: false
+
+hashes:
+  crc32: 1375A4F5
+  blake2s: ''
+
+file:
+  id: 2022729
+  name: '[One Pace][59-63] Baratie 06 [1080p][1375A4F5].mkv'
+  size: 764.6 MiB
+  hash: 0697a5ddacdebc624df67961c7d8ca85b61410dc
+  index: 0

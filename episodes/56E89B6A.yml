@@ -1,0 +1,19 @@
+arc: 19
+episode: 5
+
+manga_chapters: 383-384
+anime_episodes: 269-271
+released: 2019-03-14
+duration: 1536
+extended: false
+
+hashes:
+  crc32: 56E89B6A
+  blake2s: ''
+
+file:
+  id: 1130673
+  name: '[One Pace][383-384] Enies Lobby 05 [720p][56E89B6A].mkv'
+  size: 279.6 MiB
+  hash: abb1df690997f215a5866d7987223a26059ad4f9
+  index: 0

@@ -1,0 +1,19 @@
+arc: 31
+episode: 44
+
+manga_chapters: 788-790
+anime_episodes: 730-733
+released: 2017-05-28
+duration: 2349
+extended: false
+
+hashes:
+  crc32: 4DDF4C07
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 788-790 [720p][4DDF4C07].mkv'
+  size: 312.0 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 43

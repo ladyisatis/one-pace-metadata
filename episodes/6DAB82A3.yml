@@ -1,0 +1,19 @@
+arc: 15
+episode: 2
+
+manga_chapters: 221-224
+anime_episodes: 145-146
+released: 2023-02-10
+duration: 1955
+extended: false
+
+hashes:
+  crc32: 6DAB82A3
+  blake2s: ''
+
+file:
+  id: 1636106
+  name: '[One Pace][221-224] Jaya 02 [1080p][6DAB82A3].mkv'
+  size: 592.8 MiB
+  hash: 78a190b5e79d1155f9c5d2affd30cf73c3bb2f5e
+  index: 0

@@ -1,0 +1,19 @@
+arc: 21
+episode: 9
+
+manga_chapters: 459-460
+anime_episodes: 353-355
+released: 2013-10-03
+duration: 1570
+extended: false
+
+hashes:
+  crc32: 19D3B6A3
+  blake2s: ''
+
+file:
+  id: 608554
+  name: '[One Pace] Paced One Piece - Thriller Bark Episode 09 [720p][19D3B6A3].mkv'
+  size: 330.5 MiB
+  hash: 2c83d7ba67a243de5995f687073787341c69958c
+  index: 0

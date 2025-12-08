@@ -1,0 +1,32 @@
+part: 9
+saga: Arabasta
+title: Reverse Mountain
+originaltitle: ''
+shortcode: RE
+mkvcode: reversemountain
+description: Reverse Mountain is the entrance to the Grand Line. What await the Straw
+  Hats are impossible water currents, a giant whale, and dubious people going by codenames.
+
+episodes:
+- episode: '01'
+  standard: CE01A533
+  extended: ''
+- episode: '02'
+  standard: 5195CDBC
+  extended: ''
+
+info:
+  status: ''
+  manga_chapters: 101 - 105
+  num_of_chapters: 5
+  anime_episodes: 55, 61 - 63
+  episodes_adapted: 4
+  filler_episodes: 56 - 60
+  num_of_pace_eps: 2
+  piece_minutes: 84
+  pace_minutes: 49
+  audio_languages: Jpn,Eng
+  sub_languages: 'Eng,Es , Fr '
+  pixeldrain_only: De
+  resolution: 1080p
+  arc_watch_guide: Pace

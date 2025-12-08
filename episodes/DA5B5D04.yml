@@ -1,0 +1,19 @@
+arc: 29
+episode: 5
+
+manga_chapters: 611-612
+anime_episodes: 530-531
+released: 2013-04-04
+duration: 1627
+extended: false
+
+hashes:
+  crc32: DA5B5D04
+  blake2s: ''
+
+file:
+  id: 1031876
+  name: '[One Pace][611-612] Fishman Island 05 [720p][DA5B5D04].mkv'
+  size: 348.8 MiB
+  hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
+  index: 0

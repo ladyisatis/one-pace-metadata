@@ -1,0 +1,94 @@
+part: 30
+saga: Dressrosa
+title: Punk Hazard
+originaltitle: ''
+shortcode: PU
+mkvcode: punkhazard
+description: The first island of the New World is a strange place covered in flames
+  on one half, and freezing temperatures on the other. What seems at first to be an
+  unlivable place later reveals a laboratory, a maniac scientist, and a certain Warlord
+  of the Sea.
+
+episodes:
+- episode: '01'
+  standard: 90015E67
+  extended: ''
+- episode: '02'
+  standard: 5A3CE523
+  extended: ''
+- episode: '03'
+  standard: FE661F6E
+  extended: ''
+- episode: '04'
+  standard: 666061E3
+  extended: ''
+- episode: '05'
+  standard: ACF1C889
+  extended: ''
+- episode: '06'
+  standard: CC88315A
+  extended: ''
+- episode: '07'
+  standard: F0B1F815
+  extended: ''
+- episode: 08
+  standard: 658D36CE
+  extended: ''
+- episode: 09
+  standard: AD550761
+  extended: ''
+- episode: '10'
+  standard: 72E3E794
+  extended: ''
+- episode: '11'
+  standard: 398915C6
+  extended: ''
+- episode: '12'
+  standard: CD83F1E9
+  extended: ''
+- episode: '13'
+  standard: 964FB36B
+  extended: ''
+- episode: '14'
+  standard: 75CC1F6E
+  extended: ''
+- episode: '15'
+  standard: 9CE5B9DD
+  extended: ''
+- episode: '16'
+  standard: 4CD92CFC
+  extended: ''
+- episode: '17'
+  standard: 0A2624D5
+  extended: ''
+- episode: '18'
+  standard: D56597BC
+  extended: ''
+- episode: '19'
+  standard: 54AC1705
+  extended: ''
+- episode: '20'
+  standard: 5012E091
+  extended: ''
+- episode: '21'
+  standard: 0CBF5258
+  extended: ''
+- episode: '22'
+  standard: 021A8886
+  extended: ''
+
+info:
+  manga_chapters: 654 - 699
+  num_of_chapters: 46
+  anime_episodes: 579 - 626, 628
+  episodes_adapted: 46
+  filler_episodes: '590'
+  num_of_pace_eps: 22
+  piece_minutes: 989
+  pace_minutes: 519
+  audio_languages: Jpn
+  sub_languages: Eng,Es
+  pixeldrain_only: ''
+  resolution: 720p
+  status: To Be Redone
+  arc_watch_guide: Pace

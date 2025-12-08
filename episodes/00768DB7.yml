@@ -1,0 +1,19 @@
+arc: 26
+episode: 15
+
+manga_chapters: 575-576
+anime_episodes: 484-485
+released: 2020-10-07
+duration: 1782
+extended: false
+
+hashes:
+  crc32: 00768DB7
+  blake2s: ''
+
+file:
+  id: 1287648
+  name: '[One Pace][575-576] Marineford 15 [720p][00768DB7].mkv'
+  size: 258.7 MiB
+  hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
+  index: 0

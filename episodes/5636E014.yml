@@ -1,0 +1,19 @@
+arc: 29
+episode: 3
+
+manga_chapters: 607-608
+anime_episodes: 526-527
+released: 2013-03-31
+duration: 1445
+extended: false
+
+hashes:
+  crc32: 5636E014
+  blake2s: ''
+
+file:
+  id: 1031876
+  name: '[One Pace][607-608] Fishman Island 03 [720p][5636E014].mkv'
+  size: 352.4 MiB
+  hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
+  index: 0

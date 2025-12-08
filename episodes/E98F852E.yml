@@ -1,0 +1,19 @@
+arc: 31
+episode: 32
+
+manga_chapters: 762-763
+anime_episodes: 701-702
+released: 2016-10-16
+duration: 1715
+extended: false
+
+hashes:
+  crc32: E98F852E
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 762-763 [720p][E98F852E].mkv'
+  size: 207.6 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 31

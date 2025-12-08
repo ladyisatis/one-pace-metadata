@@ -1,0 +1,19 @@
+arc: 13
+episode: 3
+
+manga_chapters: 136-139
+anime_episodes: 82-83
+released: 2022-09-26
+duration: 2069
+extended: false
+
+hashes:
+  crc32: 2971EF62
+  blake2s: ''
+
+file:
+  id: 1583368
+  name: '[One Pace][136-139] Drum Island 03 [1080p][2971EF62].mkv'
+  size: 953.2 MiB
+  hash: 998c73c81bed577dcb03a5cbed5b0c9dc0fd1ff2
+  index: 0

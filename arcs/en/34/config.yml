@@ -1,0 +1,35 @@
+part: 34
+saga: Four Emperors
+title: Reverie
+originaltitle: ''
+shortcode: RV
+mkvcode: reverie
+description: Every four years, the leaders of the world gather at the Holy Land to
+  discuss a mutually agreed upon path for the government. During this particular Reverie,
+  many parties with their own agendas arrive... and some are uninvited.
+
+episodes:
+- episode: '01'
+  standard: C5FB1123
+  extended: ''
+- episode: '02'
+  standard: 6E0CD1C5
+  extended: ''
+- episode: '03'
+  standard: 0B51015F
+  extended: ''
+
+info:
+  manga_chapters: 903 - 908
+  num_of_chapters: 6
+  anime_episodes: 878 - 889
+  episodes_adapted: 12
+  filler_episodes: ''
+  num_of_pace_eps: 3
+  piece_minutes: 258
+  pace_minutes: 94
+  audio_languages: Jpn,Eng
+  sub_languages: Eng,Es,Fr
+  pixeldrain_only: ''
+  resolution: 1080p
+  arc_watch_guide: Pace

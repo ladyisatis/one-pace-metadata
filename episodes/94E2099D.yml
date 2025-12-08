@@ -1,0 +1,19 @@
+arc: 29
+episode: 20
+
+manga_chapters: 642-645
+anime_episodes: 563-567
+released: 2013-05-03
+duration: 1823
+extended: false
+
+hashes:
+  crc32: 94E2099D
+  blake2s: ''
+
+file:
+  id: 1031876
+  name: '[One Pace][642-645] Fishman Island 20 [720p][94E2099D].mkv'
+  size: 575.2 MiB
+  hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
+  index: 19

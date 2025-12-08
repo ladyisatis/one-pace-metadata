@@ -1,0 +1,19 @@
+arc: 35
+episode: 52
+
+manga_chapters: 994-995
+anime_episodes: 1006-1009
+released: 2025-06-20
+duration: 1609
+extended: false
+
+hashes:
+  crc32: D985734A
+  blake2s: ''
+
+file:
+  id: 1984625
+  name: '[One Pace][994-995] Wano 52 [1080p][D985734A].mkv'
+  size: 1.1 GiB
+  hash: bb8bc26b08683ec1eedc75183d438bfde544c549
+  index: 0

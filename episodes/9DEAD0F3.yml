@@ -1,0 +1,19 @@
+arc: 27
+episode: 3
+
+manga_chapters: 585-586
+anime_episodes: 496-498, 500-501
+released: 2020-07-24
+duration: 2548
+extended: false
+
+hashes:
+  crc32: 9DEAD0F3
+  blake2s: ''
+
+file:
+  id: 1265510
+  name: '[One Pace][585-586] Post-War 03 [1080p][9DEAD0F3].mkv'
+  size: 509.5 MiB
+  hash: b15d098996eff6129be674891ae4cb14645c780f
+  index: 0

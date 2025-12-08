@@ -1,0 +1,19 @@
+arc: 29
+episode: 16
+
+manga_chapters: 634-635
+anime_episodes: 554-556
+released: 2013-04-25
+duration: 2165
+extended: false
+
+hashes:
+  crc32: DF3A7006
+  blake2s: ''
+
+file:
+  id: 1031876
+  name: '[One Pace][634-635] Fishman Island 16 [720p][DF3A7006].mkv'
+  size: 649.2 MiB
+  hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
+  index: 15

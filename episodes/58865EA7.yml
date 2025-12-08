@@ -1,0 +1,19 @@
+arc: 14
+episode: 6
+
+manga_chapters: 167-168
+anime_episodes: 105
+released: 2021-07-06
+duration: 1210
+extended: false
+
+hashes:
+  crc32: 58865EA7
+  blake2s: ''
+
+file:
+  id: 1406133
+  name: '[One Pace][167-168] Arabasta 06 [1080p][58865EA7].mkv'
+  size: 472.4 MiB
+  hash: e7c6688ee517f4b291a6a5fef0c4e50d143314ae
+  index: 0

@@ -1,0 +1,19 @@
+arc: 16
+episode: 14
+
+manga_chapters: 270-273
+anime_episodes: 177-179
+released: 2024-06-08
+duration: 1741
+extended: false
+
+hashes:
+  crc32: 702231E9
+  blake2s: ''
+
+file:
+  id: 1836486
+  name: '[One Pace][270-273] Skypiea 14 [1080p][702231E9].mkv'
+  size: 625.6 MiB
+  hash: 99068f6eabe3588fcd58da600fdfcfbd41ec5b9b
+  index: 0

@@ -1,0 +1,19 @@
+arc: 11
+episode: 1
+
+manga_chapters: 83-119
+anime_episodes: 68-69
+released: 2023-06-05
+duration: 911
+extended: false
+
+hashes:
+  crc32: 4B56844F
+  blake2s: ''
+
+file:
+  id: 1679185
+  name: '[One Pace][83-119] The Trials of Koby-Meppo [1080p][4B56844F].mkv'
+  size: 330.4 MiB
+  hash: c345a0dc89a9d20b9cbdad787b0bd80c34f52809
+  index: 0

@@ -1,0 +1,19 @@
+arc: 22
+episode: 3
+
+manga_chapters: 494-495
+anime_episodes: 388-389
+released: 2015-01-10
+duration: 1407
+extended: false
+
+hashes:
+  crc32: C19CADF5
+  blake2s: ''
+
+file:
+  id: 1167639
+  name: '[One Pace][494-495] Sabaody Archipelago 03 [720p][C19CADF5].mkv'
+  size: 283.0 MiB
+  hash: 2589926c8f90e8f031a6caeab93bcd5b79990c0e
+  index: 0

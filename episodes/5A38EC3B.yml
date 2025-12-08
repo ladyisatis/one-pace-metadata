@@ -1,0 +1,19 @@
+arc: 31
+episode: 23
+
+manga_chapters: 744-745
+anime_episodes: 678-680
+released: 2015-03-22
+duration: 1675
+extended: false
+
+hashes:
+  crc32: 5A38EC3B
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 744-745 [720p][5A38EC3B].mkv'
+  size: 240.1 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 22

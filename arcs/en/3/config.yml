@@ -1,0 +1,47 @@
+part: 3
+saga: East Blue
+title: Syrup Village
+originaltitle: ''
+shortcode: SY
+mkvcode: syrupvillage
+description: Luffy's fledgling pirate crew arrives at the slopes of Syrup Village.
+  There they find a liar and a conspiracy to steal a young lady's fortune.
+
+episodes:
+- episode: '01'
+  standard: A6DDEC2C
+  extended: ''
+- episode: '02'
+  standard: 0433686D
+  extended: ''
+- episode: '03'
+  standard: 35E9CFA6
+  extended: ''
+- episode: '04'
+  standard: 89B18321
+  extended: ''
+- episode: '05'
+  standard: 0D3E2158
+  extended: ''
+- episode: '06'
+  standard: D08B41AE
+  extended: ''
+- episode: '07'
+  standard: D0A51040
+  extended: ''
+
+info:
+  status: ''
+  manga_chapters: 23 - 41
+  num_of_chapters: 19
+  anime_episodes: 9 - 17
+  episodes_adapted: 9
+  filler_episodes: ''
+  num_of_pace_eps: 7
+  piece_minutes: 189
+  pace_minutes: 151
+  audio_languages: Jpn, Eng (1-6), Es (1-6)
+  sub_languages: Eng,Es,Fr,De
+  pixeldrain_only: Es, Fr
+  resolution: 1080p
+  arc_watch_guide: Pace

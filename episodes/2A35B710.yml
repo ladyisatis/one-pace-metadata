@@ -1,0 +1,19 @@
+arc: 31
+episode: 1
+
+manga_chapters: 700-701
+anime_episodes: 628-631
+released: 2014-02-09
+duration: 1787
+extended: false
+
+hashes:
+  crc32: 2A35B710
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 700-701 [720p][2A35B710].mkv'
+  size: 373.4 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 0

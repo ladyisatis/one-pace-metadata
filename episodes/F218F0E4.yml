@@ -1,0 +1,19 @@
+arc: 31
+episode: 36
+
+manga_chapters: 770-771
+anime_episodes: 708-711
+released: 2017-01-14
+duration: 1579
+extended: false
+
+hashes:
+  crc32: F218F0E4
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 770-771 [720p][F218F0E4].mkv'
+  size: 214.7 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 35

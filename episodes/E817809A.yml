@@ -1,0 +1,19 @@
+arc: 23
+episode: 2
+
+manga_chapters: 516-517
+anime_episodes: 410-411
+released: 2016-02-03
+duration: 1557
+extended: false
+
+hashes:
+  crc32: E817809A
+  blake2s: ''
+
+file:
+  id: 1140828
+  name: '[One Pace][516-517] Amazon Lily 02 [720p][E817809A].mkv'
+  size: 273.9 MiB
+  hash: 1f62e2583956c412f8550672bc8066c5e96ab0a8
+  index: 0

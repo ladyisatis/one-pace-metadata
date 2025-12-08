@@ -1,0 +1,19 @@
+arc: 3
+episode: 5
+
+manga_chapters: 35-37
+anime_episodes: 15-16
+released: 2025-07-12
+duration: 1422
+extended: false
+
+hashes:
+  crc32: 0D3E2158
+  blake2s: ''
+
+file:
+  id: 1992016
+  name: '[One Pace][35-37] Syrup Village 05 [1080p][0D3E2158].mkv'
+  size: 603.6 MiB
+  hash: d4acaf14e1e67a2f2a59e4c18bcb2f8504617545
+  index: 0

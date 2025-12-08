@@ -1,0 +1,19 @@
+arc: 29
+episode: 12
+
+manga_chapters: 625-626
+anime_episodes: 545-546
+released: 2013-04-14
+duration: 2361
+extended: false
+
+hashes:
+  crc32: F134C10A
+  blake2s: ''
+
+file:
+  id: 1031876
+  name: '[One Pace][625-626] Fishman Island 12 [720p][F134C10A].mkv'
+  size: 779.0 MiB
+  hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
+  index: 0

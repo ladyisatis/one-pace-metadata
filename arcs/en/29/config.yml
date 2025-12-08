@@ -1,0 +1,100 @@
+part: 29
+saga: Fishman Island
+title: Fishman Island
+originaltitle: ''
+shortcode: FI
+mkvcode: fi
+description: The path the to the New World takes the Straw Hats thousands of leagues
+  under the sea to the underwater Fishman Island. However, the island's dark past
+  is reaching a breaking point, and Luffy and his crew are caught in the middle of
+  the conflict.
+
+episodes:
+- episode: '01'
+  standard: FBA08093
+  extended: ''
+- episode: '02'
+  standard: BD7169C3
+  extended: ''
+- episode: '03'
+  standard: 5636E014
+  extended: ''
+- episode: '04'
+  standard: 9E0A91E9
+  extended: ''
+- episode: '05'
+  standard: DA5B5D04
+  extended: ''
+- episode: '06'
+  standard: 64FB3990
+  extended: ''
+- episode: '07'
+  standard: 29A10280
+  extended: ''
+- episode: 08
+  standard: DBA50B89
+  extended: ''
+- episode: 09
+  standard: FCF7F7E4
+  extended: ''
+- episode: '10'
+  standard: F4BB17EB
+  extended: ''
+- episode: '11'
+  standard: 7926F9B5
+  extended: ''
+- episode: '12'
+  standard: F134C10A
+  extended: ''
+- episode: '13'
+  standard: 04C7B716
+  extended: ''
+- episode: '14'
+  standard: 35A189E2
+  extended: ''
+- episode: '15'
+  standard: 8014A332
+  extended: ''
+- episode: '16'
+  standard: DF3A7006
+  extended: ''
+- episode: '17'
+  standard: EB0BC95C
+  extended: ''
+- episode: '18'
+  standard: B6BD1A60
+  extended: ''
+- episode: '19'
+  standard: C19D5680
+  extended: ''
+- episode: '20'
+  standard: 94E2099D
+  extended: ''
+- episode: '21'
+  standard: 85AD9C81
+  extended: ''
+- episode: '22'
+  standard: 7DBBFA18
+  extended: ''
+- episode: '23'
+  standard: 65BD682D
+  extended: ''
+- episode: '24'
+  standard: 99A61805
+  extended: ''
+
+info:
+  manga_chapters: 603 - 653
+  num_of_chapters: 51
+  anime_episodes: 523 - 574
+  episodes_adapted: 51
+  filler_episodes: '542'
+  num_of_pace_eps: 24
+  piece_minutes: 0
+  pace_minutes: 710
+  audio_languages: Jpn
+  sub_languages: 'Eng,Es '
+  pixeldrain_only: Es
+  resolution: 720p
+  status: To Be Redone
+  arc_watch_guide: Pace

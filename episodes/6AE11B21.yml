@@ -1,0 +1,19 @@
+arc: 36
+episode: 19
+
+manga_chapters: 1089-1090
+anime_episodes: 1123-1124
+released: 2025-08-30
+duration: 1859
+extended: false
+
+hashes:
+  crc32: 6AE11B21
+  blake2s: ''
+
+file:
+  id: 2012475
+  name: '[One Pace][1089-1090] Egghead 19 [1080p][6AE11B21].mkv'
+  size: 939.4 MiB
+  hash: 8505a46f6568b9b3c541ac4658566dd9fd009f0a
+  index: 0

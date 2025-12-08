@@ -1,0 +1,19 @@
+arc: 14
+episode: 20
+
+manga_chapters: 214-216
+anime_episodes: 128-129
+released: 2024-08-09
+duration: 1884
+extended: false
+
+hashes:
+  crc32: 0C5E9A92
+  blake2s: ''
+
+file:
+  id: 1857618
+  name: '[One Pace][214-216] Arabasta 20 [1080p][0C5E9A92].mkv'
+  size: 633.0 MiB
+  hash: 8bba964bcef29bebf7846d56b58fa92e903c6e51
+  index: 0

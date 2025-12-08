@@ -1,0 +1,19 @@
+arc: 31
+episode: 33
+
+manga_chapters: 764-765
+anime_episodes: 703-704
+released: 2016-11-05
+duration: 1779
+extended: false
+
+hashes:
+  crc32: 53AEB13C
+  blake2s: ''
+
+file:
+  id: 972546
+  name: '[One Pace] Chapter 764-765 [720p][53AEB13C].mkv'
+  size: 221.6 MiB
+  hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
+  index: 32

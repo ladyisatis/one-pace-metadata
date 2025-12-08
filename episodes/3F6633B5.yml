@@ -1,0 +1,19 @@
+arc: 33
+episode: 3
+
+manga_chapters: 827-828
+anime_episodes: 785-788
+released: 2020-12-11
+duration: 1917
+extended: false
+
+hashes:
+  crc32: 3F6633B5
+  blake2s: ''
+
+file:
+  id: 1313289
+  name: '[One Pace][827-828] Whole Cake Island 03 [720p][3F6633B5].mkv'
+  size: 196.2 MiB
+  hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
+  index: 2

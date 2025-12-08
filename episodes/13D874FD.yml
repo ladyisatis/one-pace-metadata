@@ -1,0 +1,19 @@
+arc: 19
+episode: 21
+
+manga_chapters: 421-422
+anime_episodes: 302, 304-305
+released: 2020-06-06
+duration: 1457
+extended: false
+
+hashes:
+  crc32: 13D874FD
+  blake2s: ''
+
+file:
+  id: 1252594
+  name: '[One Pace][421-422] Enies Lobby 21 [1080p][13D874FD].mkv'
+  size: 817.0 MiB
+  hash: b2a2edbbb0a4d476f93b479d2d6215ee46387e00
+  index: 0
