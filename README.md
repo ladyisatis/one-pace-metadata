@@ -4,7 +4,7 @@ Metadata updater for One Pace. Every hour, the metadata updater will check an RS
 
 All updates and batch metadata files are made in the [arcs](https://github.com/ladyisatis/one-pace-metadata/tree/v2/arcs) and [episodes](https://github.com/ladyisatis/one-pace-metadata/tree/v2/episodes) folder respectively, with the former holding information on titles and descriptions, and the latter defining the information on the video file.
 
-The data.json and data.min.json will stay for compatibility reasons for One Pace Organizer support, but this will go away 3 months after v1.2.0 is released.
+The data.json and data.min.json in the project root (NOT in the metadata folder) will stay for compatibility reasons for One Pace Organizer support, but this will go away 3 months after v1.2.0 is released.
 
 ## URLs
 
