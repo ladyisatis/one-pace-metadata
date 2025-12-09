@@ -71,6 +71,7 @@ episodes:
   extended: ''
 
 info:
+  status: Work In Progress
   manga_chapters: 1058 - 1125
   num_of_chapters: 68
   anime_episodes: 1086 —
@@ -83,5 +84,4 @@ info:
   sub_languages: Eng,Fr,De (3-)
   pixeldrain_only: De (1,2)
   resolution: 1080p
-  status: Work In Progress
   arc_watch_guide: Pace Episodes 1-20 then Original Episodes 1127-

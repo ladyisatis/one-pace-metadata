@@ -35,6 +35,7 @@ episodes:
   extended: ''
 
 info:
+  status: ''
   manga_chapters: 129 - 154
   num_of_chapters: 26
   anime_episodes: 78 - 91

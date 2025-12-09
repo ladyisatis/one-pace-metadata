@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2025-12-09T00:11:22+00:00",
-    "last_update_ts": 1765239082,
+    "last_update": "2025-12-09T00:29:02+00:00",
+    "last_update_ts": 1765240142,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 21
+    "version": 22
   },
   "tvshow": {
     "en": {
@@ -532,6 +532,7 @@
           }
         ],
         "info": {
+          "status": "To Be Redone",
           "manga_chapters": "106 - 114",
           "num_of_chapters": 9,
           "anime_episodes": "64 - 67",
@@ -544,7 +545,6 @@
           "sub_languages": "Eng, Es , Fr ",
           "pixeldrain_only": "Es, Fr",
           "resolution": "480p",
-          "status": "To Be Redone",
           "arc_watch_guide": "Pace"
         }
       },
@@ -616,6 +616,7 @@
           }
         ],
         "info": {
+          "status": "",
           "manga_chapters": "115 - 129",
           "num_of_chapters": 15,
           "anime_episodes": "70 - 78",
@@ -682,6 +683,7 @@
           }
         ],
         "info": {
+          "status": "",
           "manga_chapters": "129 - 154",
           "num_of_chapters": 26,
           "anime_episodes": "78 - 91",
@@ -813,6 +815,7 @@
           }
         ],
         "info": {
+          "status": "",
           "manga_chapters": "155 - 217",
           "num_of_chapters": 63,
           "anime_episodes": "92 - 130",
@@ -879,6 +882,7 @@
           }
         ],
         "info": {
+          "status": "",
           "manga_chapters": "218 - 236",
           "num_of_chapters": 19,
           "anime_episodes": "144 - 152",
@@ -1030,6 +1034,7 @@
           }
         ],
         "info": {
+          "status": "",
           "manga_chapters": "237 - 303",
           "num_of_chapters": 66,
           "anime_episodes": "153 - 195, 203",
@@ -1091,6 +1096,7 @@
           }
         ],
         "info": {
+          "status": "To Be Redone",
           "manga_chapters": "304 - 321",
           "num_of_chapters": 19,
           "anime_episodes": "207 - 219, 226 - 228",
@@ -1103,7 +1109,6 @@
           "sub_languages": "Eng",
           "pixeldrain_only": "Eng",
           "resolution": "720p",
-          "status": "To Be Redone",
           "arc_watch_guide": "Pace"
         }
       },
@@ -1218,6 +1223,7 @@
           }
         ],
         "info": {
+          "status": "",
           "manga_chapters": "322 - 374",
           "num_of_chapters": 53,
           "anime_episodes": "229 - 263",
@@ -1369,6 +1375,7 @@
           }
         ],
         "info": {
+          "status": "",
           "manga_chapters": "375 - 430",
           "num_of_chapters": 56,
           "anime_episodes": "263 - 312",
@@ -1420,6 +1427,7 @@
           }
         ],
         "info": {
+          "status": "To Be Redone",
           "manga_chapters": "431 - 441",
           "num_of_chapters": 11,
           "anime_episodes": "313 - 325",
@@ -1432,7 +1440,6 @@
           "sub_languages": "Eng",
           "pixeldrain_only": "Eng",
           "resolution": "720p",
-          "status": "To Be Redone",
           "arc_watch_guide": "Pace"
         }
       },
@@ -1557,6 +1564,7 @@
           }
         ],
         "info": {
+          "status": "To Be Redone",
           "manga_chapters": "442 - 489",
           "num_of_chapters": 48,
           "anime_episodes": "337 - 381",
@@ -1569,7 +1577,6 @@
           "sub_languages": "Eng, Es",
           "pixeldrain_only": "Eng, Es",
           "resolution": "720p",
-          "status": "To Be Redone",
           "arc_watch_guide": "Pace"
         }
       },
@@ -1639,6 +1646,7 @@
           }
         ],
         "info": {
+          "status": "To Be Redone",
           "manga_chapters": "490 - 513",
           "num_of_chapters": 24,
           "anime_episodes": "385 - 405",
@@ -1651,7 +1659,6 @@
           "sub_languages": "Eng, Es ",
           "pixeldrain_only": "Es",
           "resolution": "720p",
-          "status": "To Be Redone",
           "arc_watch_guide": "Pace"
         }
       },
@@ -1691,6 +1698,7 @@
           }
         ],
         "info": {
+          "status": "To Be Redone",
           "manga_chapters": "514 - 524",
           "num_of_chapters": 11,
           "anime_episodes": "408 - 421",
@@ -1703,7 +1711,6 @@
           "sub_languages": "Eng, Es , Fr ",
           "pixeldrain_only": "Es, Fr",
           "resolution": "720p",
-          "status": "To Be Redone",
           "arc_watch_guide": "Pace"
         }
       },
@@ -1768,6 +1775,7 @@
           }
         ],
         "info": {
+          "status": "To Be Redone",
           "manga_chapters": "525 - 548",
           "num_of_chapters": 24,
           "anime_episodes": "422 - 452",
@@ -1780,7 +1788,6 @@
           "sub_languages": "Eng,Es ",
           "pixeldrain_only": "Es",
           "resolution": "720p",
-          "status": "To Be Redone",
           "arc_watch_guide": "Pace"
         }
       },
@@ -1800,6 +1807,7 @@
           }
         ],
         "info": {
+          "status": "",
           "manga_chapters": "543 - 560",
           "num_of_chapters": 0,
           "anime_episodes": "453 - 456",
@@ -1911,6 +1919,7 @@
           }
         ],
         "info": {
+          "status": "",
           "manga_chapters": "549 - 580",
           "num_of_chapters": 32,
           "anime_episodes": "457 - 489",
@@ -1977,6 +1986,7 @@
           }
         ],
         "info": {
+          "status": "",
           "manga_chapters": "581 - 597",
           "num_of_chapters": 17,
           "anime_episodes": "490 - 516",
@@ -2018,6 +2028,7 @@
           }
         ],
         "info": {
+          "status": "",
           "manga_chapters": "598 - 602",
           "num_of_chapters": 5,
           "anime_episodes": "517 - 522",
@@ -2164,6 +2175,7 @@
           }
         ],
         "info": {
+          "status": "To Be Redone",
           "manga_chapters": "603 - 653",
           "num_of_chapters": 51,
           "anime_episodes": "523 - 574",
@@ -2176,7 +2188,6 @@
           "sub_languages": "Eng,Es ",
           "pixeldrain_only": "Es",
           "resolution": "720p",
-          "status": "To Be Redone",
           "arc_watch_guide": "Pace"
         }
       },
@@ -2301,6 +2312,7 @@
           }
         ],
         "info": {
+          "status": "To Be Redone",
           "manga_chapters": "654 - 699",
           "num_of_chapters": 46,
           "anime_episodes": "579 - 626, 628",
@@ -2313,7 +2325,6 @@
           "sub_languages": "Eng,Es",
           "pixeldrain_only": "",
           "resolution": "720p",
-          "status": "To Be Redone",
           "arc_watch_guide": "Pace"
         }
       },
@@ -2568,6 +2579,7 @@
           }
         ],
         "info": {
+          "status": "To Be Redone",
           "manga_chapters": "700 - 800",
           "num_of_chapters": 101,
           "anime_episodes": "629 - 746",
@@ -2580,7 +2592,6 @@
           "sub_languages": "Eng,Es ",
           "pixeldrain_only": "Es",
           "resolution": "720p",
-          "status": "To Be Redone",
           "arc_watch_guide": "Pace"
         }
       },
@@ -2645,6 +2656,7 @@
           }
         ],
         "info": {
+          "status": "To Be Redone",
           "manga_chapters": "801 - 822",
           "num_of_chapters": 22,
           "anime_episodes": "751 - 776",
@@ -2657,7 +2669,6 @@
           "sub_languages": "Eng,Es, Fr ",
           "pixeldrain_only": "Fr",
           "resolution": "720p",
-          "status": "To Be Redone",
           "arc_watch_guide": "Pace"
         }
       },
@@ -2867,6 +2878,7 @@
           }
         ],
         "info": {
+          "status": "",
           "manga_chapters": "823 - 902",
           "num_of_chapters": 80,
           "anime_episodes": "777 - 877",
@@ -2908,6 +2920,7 @@
           }
         ],
         "info": {
+          "status": "",
           "manga_chapters": "903 - 908",
           "num_of_chapters": 6,
           "anime_episodes": "878 - 889",
@@ -3209,6 +3222,7 @@
           }
         ],
         "info": {
+          "status": "Work In Progress",
           "manga_chapters": "909 - 1057",
           "num_of_chapters": 149,
           "anime_episodes": "890 - 1085",
@@ -3221,7 +3235,6 @@
           "sub_languages": "Eng,Es ,Fr,Ar, De (44-)",
           "pixeldrain_only": "Es,Fr, Ar",
           "resolution": "1080p",
-          "status": "Work In Progress",
           "arc_watch_guide": "Pace Episodes 1-55 then Original Episodes 1016 - 1085"
         }
       },
@@ -3336,6 +3349,7 @@
           }
         ],
         "info": {
+          "status": "Work In Progress",
           "manga_chapters": "1058 - 1125",
           "num_of_chapters": 68,
           "anime_episodes": "1086 \u2014",
@@ -3348,7 +3362,6 @@
           "sub_languages": "Eng,Fr,De (3-)",
           "pixeldrain_only": "De (1,2)",
           "resolution": "1080p",
-          "status": "Work In Progress",
           "arc_watch_guide": "Pace Episodes 1-20 then Original Episodes 1127-"
         }
       }

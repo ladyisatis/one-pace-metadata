@@ -84,6 +84,7 @@ episodes:
   extended: ''
 
 info:
+  status: To Be Redone
   manga_chapters: 603 - 653
   num_of_chapters: 51
   anime_episodes: 523 - 574
@@ -96,5 +97,4 @@ info:
   sub_languages: 'Eng,Es '
   pixeldrain_only: Es
   resolution: 720p
-  status: To Be Redone
   arc_watch_guide: Pace
