@@ -71,6 +71,23 @@ CREATE TABLE "episodes" (
 	PRIMARY KEY("id" AUTOINCREMENT)
 );
 
+CREATE TABLE "other_edits" (
+	"id"	INTEGER,
+	"edit_name" TEXT,
+	"arc"	INTEGER,
+	"episode"	INTEGER,
+	"title"    TEXT,
+	"description"    TEXT,
+	"manga_chapters"	TEXT,
+	"anime_episodes"	TEXT,
+	"released"	TEXT,
+	"duration"	INTEGER,
+	"extended"	INTEGER,
+	"hash_crc32"	TEXT,
+	"hash_blake2s"	TEXT,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);
+
 CREATE TABLE "status" (
 	"id"	INTEGER,
 	"last_update"	TEXT,

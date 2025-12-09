@@ -50,6 +50,7 @@ class OnePaceMetadata:
         self.http_cache = OrderedDict()
         self.existing_sc = set()
         self.metadata_dir = Path(self.config["paths"]["metadata"])
+        self.other_edits_dir = Path(self.config["paths"]["other_edits"])
 
     def read_yaml(self, file_path):
         data = {}
@@ -1127,7 +1128,25 @@ class OnePaceMetadata:
     def generate_tvshow(self):
         return self.config["tvshow"] if "tvshow" in self.config else {}
 
-    def generate_sqlite(self, data_file, arcs, episodes, descriptions, status, tvshow, with_posters=False):
+    def generate_other_edits(self):
+        other_edits = {}
+
+        for edit_dir in self.other_edits_dir.iterdir():
+            if not edit_dir.is_dir():
+                continue
+
+            e_id = edit_dir.name
+            other_edits[e_id] = {}
+
+            for yml in edit_dir.rglob("*.yml"):
+                try:
+                    other_edits[e_id][yml.stem] = self.read_yaml(yml)
+                except:
+                    logger.exception(f"Skipping: Cannot read {yml}")
+
+        return {key: other_edits[key] for key in sorted(other_edits.keys())}
+
+    def generate_sqlite(self, data_file, arcs, episodes, descriptions, status, tvshow, other_edits, with_posters=False):
         with sqlite3.connect(data_file, timeout=15.0) as conn:
             cursor = conn.cursor()
 
@@ -1218,28 +1237,31 @@ class OnePaceMetadata:
 
             conn.commit()
 
-            for crc32, episode in episodes.items():
-                hashes = episode.get("hashes", {})
-                file = episode.get("file", {})
+            for crc32, all_eps in episodes.items():
+                total_eps = [all_eps] if isinstance(all_eps, dict) else all_eps
 
-                cursor.execute("INSERT INTO episodes (arc, episode, manga_chapters, " +
-                    "anime_episodes, released, duration, extended, hash_crc32, " +
-                    "hash_blake2s, file_id, file_name, file_size, file_hash, " +
-                    "file_index) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
-                    (episode.get("arc", 0),
-                    episode.get("episode", 0),
-                    episode.get("manga_chapters", ""),
-                    episode.get("anime_episodes", ""),
-                    episode.get("released", ""),
-                    episode.get("duration", 0),
-                    episode.get("extended", False),
-                    hashes.get("crc32", ""),
-                    hashes.get("blake2s", ""),
-                    file.get("id", 0),
-                    file.get("name", ""),
-                    file.get("size", ""),
-                    file.get("hash", ""),
-                    file.get("index", 0))
+                for episode in total_eps:
+                    hashes = episode.get("hashes", {})
+                    file = episode.get("file", {})
+
+                    cursor.execute("INSERT INTO episodes (arc, episode, manga_chapters, " +
+                        "anime_episodes, released, duration, extended, hash_crc32, " +
+                        "hash_blake2s, file_id, file_name, file_size, file_hash, " +
+                        "file_index) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                        (episode.get("arc", 0),
+                        episode.get("episode", 0),
+                        episode.get("manga_chapters", ""),
+                        episode.get("anime_episodes", ""),
+                        episode.get("released", ""),
+                        episode.get("duration", 0),
+                        episode.get("extended", False),
+                        hashes.get("crc32", ""),
+                        hashes.get("blake2s", ""),
+                        file.get("id", 0),
+                        file.get("name", ""),
+                        file.get("size", ""),
+                        file.get("hash", ""),
+                        file.get("index", 0))
                 )
 
             conn.commit()
@@ -1262,11 +1284,38 @@ class OnePaceMetadata:
 
             conn.commit()
 
+            for edit_name, b2 in other_edits.items():
+                for ep in b2.values():
+                    hashes = ep.get("hashes", {})
+                    cursor.execute("INSERT INTO other_edits (edit_name, arc, " +
+                        "episode, title, description, manga_chapters, " +
+                        "anime_episodes, released, duration, extended, " +
+                        "hash_crc32, hash_blake2s) VALUES (?, ?, ?, " +
+                        "?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                        (
+                            edit_name,
+                            ep.get("arc", 0),
+                            ep.get("episode", 0),
+                            ep.get("title", ""),
+                            ep.get("description", ""),
+                            ep.get("manga_chapters", ""),
+                            ep.get("anime_episodes", ""),
+                            ep.get("released", ""),
+                            ep.get("duration", 0),
+                            ep.get("extended", False),
+                            str(hashes.get("crc32", "")).upper(),
+                            str(hashes.get("blake2", "")).upper()
+                        )
+                    )
+
+            conn.commit()
+
     def generate_data(self):
         arcs = self.generate_arcs()
         episodes = self.generate_episodes()
         descriptions = self.generate_descriptions()
         tvshow = self.generate_tvshow()
+        other_edits = self.generate_other_edits()
 
         logger.info("Generate arcs")
         Path(self.metadata_dir, "arcs.json").write_text(json.dumps(arcs, indent=2, default=self.serialize_json))
@@ -1282,6 +1331,11 @@ class OnePaceMetadata:
         Path(self.metadata_dir, "episodes.json").write_text(json.dumps(episodes, indent=2, default=self.serialize_json))
         Path(self.metadata_dir, "episodes.min.json").write_text(json.dumps(episodes, default=self.serialize_json))
         self.write_yaml(Path(self.metadata_dir, "arcs.yml"), episodes)
+
+        logger.info("Generate other edits")
+        Path(self.metadata_dir, "other_edits.json").write_text(json.dumps(other_edits, indent=2, default=self.serialize_json))
+        Path(self.metadata_dir, "other_edits.min.json").write_text(json.dumps(other_edits, default=self.serialize_json))
+        self.write_yaml(Path(self.metadata_dir, "other_edits.yml"), other_edits)
 
         logger.info("Generate tvshow")
         Path(self.metadata_dir, "tvshow.json").write_text(json.dumps(tvshow, indent=2, default=self.serialize_json))
@@ -1310,7 +1364,8 @@ class OnePaceMetadata:
             "tvshow": tvshow,
             "arcs": arcs,
             "descriptions": descriptions,
-            "episodes": episodes
+            "episodes": episodes,
+            "other_edits": other_edits
         }
 
         logger.info("Generate data.json")
@@ -1327,10 +1382,10 @@ class OnePaceMetadata:
             data_posters_sqlite.unlink()
 
         logger.info("Generate data.sqlite")
-        self.generate_sqlite(data_sqlite, arcs, episodes, descriptions, status, tvshow, False)
+        self.generate_sqlite(data_sqlite, arcs, episodes, descriptions, status, tvshow, other_edits, False)
 
         logger.info("Generate data_with_posters.sqlite")
-        self.generate_sqlite(data_posters_sqlite, arcs, episodes, descriptions, status, tvshow, True)
+        self.generate_sqlite(data_posters_sqlite, arcs, episodes, descriptions, status, tvshow, other_edits, True)
 
         logger.info("Generate data.json compatible with Organizer")
         self.generate_compat_data(arcs, episodes, descriptions, status, tvshow)

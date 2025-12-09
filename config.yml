@@ -12,6 +12,7 @@ paths:
   arcs: ../arcs
   episodes: ../episodes
   metadata: ../metadata
+  other_edits: ../other_edits
 
 tvshow:
   en:
