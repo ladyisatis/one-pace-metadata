@@ -727,14 +727,14 @@ class OnePaceMetadata:
             if ":" in length:
                 length_group = length.split(":")
                 if len(length_group) == 2:
-                    length = timedelta(minutes=int(length_group[0]), seconds=int(length_group[1])).seconds
+                    length = timedelta(minutes=int(length_group[0]), seconds=int(length_group[1])).total_seconds()
                 elif len(length_group) == 3:
                     length = timedelta(hours=int(length_group[0]), minutes=int(length_group[1]), seconds=int(length_group[2])).total_seconds()
 
             if ":" in length_extended:
                 length_group = length_extended.split(":")
                 if len(length_group) == 2:
-                    length_extended = timedelta(minutes=int(length_group[0]), seconds=int(length_group[1])).seconds
+                    length_extended = timedelta(minutes=int(length_group[0]), seconds=int(length_group[1])).total_seconds()
                 elif len(length_group) == 3:
                     length_extended = timedelta(hours=int(length_group[0]), minutes=int(length_group[1]), seconds=int(length_group[2])).total_seconds()
 
