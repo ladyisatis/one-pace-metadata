@@ -61,3 +61,15 @@ jobs:
 
       - name: Minimize uv cache
         run: uv cache prune --ci
+
+      - name: Organizer Compatibility
+        run: |
+          git fetch origin main
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout main
+
+          git checkout v2 data.json data.min.json
+          git diff --cached --quiet || git commit -m "Update data.json from v2 [automated]"
+          git push
+          git checkout v2
