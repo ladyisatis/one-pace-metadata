@@ -942,7 +942,7 @@ class OnePaceMetadata:
 
                 added_metadata.append(f"{arc_name} {ep_num} {extra} ({crc32})")
 
-                arc_num = self.arc_to_num[arc_name]
+                arc_num = self.arc_to_num.get(arc_name, 0)
                 standard_crc = crc32 if extra is None else ""
                 extended_crc = crc32 if extra is not None else ""
 
