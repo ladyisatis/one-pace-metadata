@@ -5,8 +5,8 @@ description_sources:
 
 check_rss_every_hours: 1
 oldest_rss_release_hours: 12
-check_ep_descriptions_every_hours: 6
-check_ep_guide_every_hours: 6
+check_ep_descriptions_every_hours: 4
+check_ep_guide_every_hours: 4
 
 paths:
   arcs: ../arcs
