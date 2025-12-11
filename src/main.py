@@ -1274,13 +1274,18 @@ class OnePaceMetadata:
                 status["version"])
             )
 
+            query = "INSERT INTO tvshow (lang, key, value) VALUES (?, ?, ?)"
             for show_lang, show_items in tvshow.items():
                 for k, v in show_items.items():
-                    cursor.execute("INSERT INTO tvshow (lang, key, value) " +
-                        "VALUES (?, ?, ?)",
-                        (show_lang,
-                        str(k), str(v))
-                    )
+                    if isinstance(v, list):
+                        for item in v:
+                            cursor.execute(query, (show_lang, str(k), str(item)))
+                    elif isinstance(v, bool):
+                        cursor.execute(query, (show_lang, str(k), "true" if v else "false"))
+                    elif isistance(v, datetime) or isinstance(v, date):
+                        cursor.execute(query, (show_lang, str(k), v.isoformat()))
+                    else:
+                        cursor.execute(query, (show_lang, str(k), str(v)))
 
             conn.commit()
 
