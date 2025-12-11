@@ -1282,7 +1282,7 @@ class OnePaceMetadata:
                             cursor.execute(query, (show_lang, str(k), str(item)))
                     elif isinstance(v, bool):
                         cursor.execute(query, (show_lang, str(k), "true" if v else "false"))
-                    elif isistance(v, datetime) or isinstance(v, date):
+                    elif isinstance(v, datetime) or isinstance(v, date):
                         cursor.execute(query, (show_lang, str(k), v.isoformat()))
                     else:
                         cursor.execute(query, (show_lang, str(k), str(v)))
