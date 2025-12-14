@@ -851,8 +851,8 @@ class OnePaceMetadata:
             yml_load["anime_episodes"] = episodes
             changed = True
 
-        if yml_load.get("duration", 0) != int(duration):
-            yml_load["duration"] = int(duration)
+        if yml_load.get("duration", 0) != int(length):
+            yml_load["duration"] = int(length)
             changed = True
 
         if "length" in yml_load:
