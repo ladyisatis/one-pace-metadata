@@ -1,6 +1,6 @@
 {
-  "last_update": "2025-12-08T08:34:52+00:00",
-  "last_update_ts": 1765182892,
+  "last_update": "2025-12-14T01:28:39+00:00",
+  "last_update_ts": 1765675719,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -490,6 +490,20 @@
       "released": "2013-04-16",
       "hashes": {
         "crc32": "04C7B716",
+        "blake2": ""
+      }
+    },
+    "05BE81E6": {
+      "arc": 0,
+      "episode": 4,
+      "title": "Wapol's Omnivorous Hurrah",
+      "originaltitle": "",
+      "description": "",
+      "chapters": "Covers of 236-262",
+      "episodes": "778",
+      "released": "2017-02-26",
+      "hashes": {
+        "crc32": "05BE81E6",
         "blake2": ""
       }
     },
@@ -1347,6 +1361,20 @@
         "blake2": ""
       }
     },
+    "24DEE374": {
+      "arc": 36,
+      "episode": 18,
+      "title": "The Final Lesson",
+      "originaltitle": "",
+      "description": "At Pirate Island, Vice Admiral Garp continues the Koby extraction mission, but Avalo Pizarro's devil fruit powers threaten to sink the rescue ship. Garp, weakened from an attack by Shiryu, entrusts the operation's success to the next generation.",
+      "chapters": "1087-1088",
+      "episodes": "1121-1122",
+      "released": "2025-10-05 20:17:22+00:00",
+      "hashes": {
+        "crc32": "24DEE374",
+        "blake2": ""
+      }
+    },
     "2501AC5A": {
       "arc": 35,
       "episode": 55,
@@ -1652,6 +1680,20 @@
       "released": "2025-05-03",
       "hashes": {
         "crc32": "2DEB2701",
+        "blake2": ""
+      }
+    },
+    "2F71D53E": {
+      "arc": 0,
+      "episode": 9,
+      "title": "The Desert Doo Doo Hits the Fan (April Fools 2024)",
+      "originaltitle": "",
+      "description": "When Crocodile yells \"Oh no! Water!\" it's game over! Join Monkey D. Luffy and his courageous crew\u2014Nami, Usopp, Chopper (who does doctoring), Sanji, and Zolo\u2014as they save Alabasta from the crooked clutches of Baroque Works!",
+      "chapters": "199-201",
+      "episodes": "",
+      "released": "2024-03-31",
+      "hashes": {
+        "crc32": "2F71D53E",
         "blake2": ""
       }
     },
@@ -2089,6 +2131,20 @@
         "blake2": ""
       }
     },
+    "415455AE": {
+      "arc": 0,
+      "episode": 2,
+      "title": "Straw Hat Theatre",
+      "originaltitle": "",
+      "description": "",
+      "chapters": "",
+      "episodes": "",
+      "released": "2014-09-14",
+      "hashes": {
+        "crc32": "415455AE",
+        "blake2": ""
+      }
+    },
     "4200CE0D": {
       "arc": 8,
       "episode": 1,
@@ -2240,6 +2296,20 @@
       "released": "2025-06-30",
       "hashes": {
         "crc32": "482F69B7",
+        "blake2": ""
+      }
+    },
+    "495CDC31": {
+      "arc": 19,
+      "episode": 2,
+      "title": "The Big Showdown on the Judiciary Island!!",
+      "originaltitle": "The Big Showdown on the Judicial Island!",
+      "description": "Luffy launches a one-man assault on Enies Lobby, and the rest of his allies work to break the first gate's defenses. What awaits Galley-La and the Franky Family at the second gate is a showdown of massive proportions!",
+      "chapters": "376-378",
+      "episodes": "265-266",
+      "released": "2025-11-16 22:24:15+00:00",
+      "hashes": {
+        "crc32": "495CDC31",
         "blake2": ""
       }
     },
@@ -2649,6 +2719,20 @@
         "blake2": ""
       }
     },
+    "587689A9": {
+      "arc": 6,
+      "episode": 5,
+      "title": "Live",
+      "originaltitle": "",
+      "description": "When a Marine officer under Arlong's pay confiscates all the money Nami accumulated over the years, it becomes clear where Arlong stands on his promise.",
+      "chapters": "79-81",
+      "episodes": "36-37",
+      "released": "2025-11-16 23:28:26+00:00",
+      "hashes": {
+        "crc32": "587689A9",
+        "blake2": ""
+      }
+    },
     "58865EA7": {
       "arc": 14,
       "episode": 6,
@@ -2828,6 +2912,20 @@
       "released": "2022-12-18",
       "hashes": {
         "crc32": "5C7E0604",
+        "blake2": ""
+      }
+    },
+    "5D1CA4A2": {
+      "arc": 6,
+      "episode": 5,
+      "title": "Live",
+      "originaltitle": "",
+      "description": "When a Marine officer under Arlong's pay confiscates all the money Nami accumulated over the years, it becomes clear where Arlong stands on his promise.",
+      "chapters": "79-81",
+      "episodes": "36-37",
+      "released": "2025-11-10 01:20:26+00:00",
+      "hashes": {
+        "crc32": "5D1CA4A2",
         "blake2": ""
       }
     },
@@ -3671,6 +3769,20 @@
         "blake2": ""
       }
     },
+    "73E70A0E": {
+      "arc": 36,
+      "episode": 19,
+      "title": "Hostage Situation",
+      "originaltitle": "",
+      "description": "In the Labophase on Egghead, which is completely surrounded by the Marines, Luffy and the others devise a plan to escape the island. However, the Frontier Dome, the laser defense system, cannot be deactivated without York\u2019s secret passcode.",
+      "chapters": "1089-1090",
+      "episodes": "1123-1124",
+      "released": "2025-10-13 02:35:18+00:00",
+      "hashes": {
+        "crc32": "73E70A0E",
+        "blake2": ""
+      }
+    },
     "747CF45E": {
       "arc": 19,
       "episode": 3,
@@ -3794,6 +3906,20 @@
       "released": "2014-06-01",
       "hashes": {
         "crc32": "777DE97C",
+        "blake2": ""
+      }
+    },
+    "785FB818": {
+      "arc": 19,
+      "episode": 1,
+      "title": "The Superhumans of Enies Lobby",
+      "originaltitle": "",
+      "description": "As the Straw Hats and their allies approach Enies Lobby on Rocketman, they hatch a plan to save Robin before she passes through the Gates of Justice. Meanwhile, Spandam holds a meeting with CP9 where they await Lucci's return in the Tower of Justice.",
+      "chapters": "375-376",
+      "episodes": "263-264",
+      "released": "2025-11-16 22:22:52+00:00",
+      "hashes": {
+        "crc32": "785FB818",
         "blake2": ""
       }
     },
@@ -4018,6 +4144,20 @@
       "released": "2013-05-07",
       "hashes": {
         "crc32": "85AD9C81",
+        "blake2": ""
+      }
+    },
+    "861EE2FF": {
+      "arc": 19,
+      "episode": 3,
+      "title": "Express to the Main Island of Enies Lobby",
+      "originaltitle": "",
+      "description": "Robin and Franky are finally brought before Spandam while Luffy continues to blast through waves of marines. Galley-La and the Franky Family still have one giant to deal with, and the main gate closes to halt Rocketman's entry.",
+      "chapters": "379-380",
+      "episodes": "266-267",
+      "released": "2025-11-21 13:24:19+00:00",
+      "hashes": {
+        "crc32": "861EE2FF",
         "blake2": ""
       }
     },
@@ -4483,6 +4623,20 @@
         "blake2": ""
       }
     },
+    "9974A092": {
+      "arc": 0,
+      "episode": 98,
+      "title": "One Piece Fan Letter",
+      "originaltitle": "",
+      "description": "As the Straw Hat Pirates reunite on the Sabaody Archipelago, the various members of the island are drawn together like pieces of a puzzle, their love of certain members of the crew driving their actions and emotions.",
+      "chapters": "One Piece Novel: Straw Hat Stories",
+      "episodes": "One Piece Fan Letter",
+      "released": "2024-11-29",
+      "hashes": {
+        "crc32": "9974A092",
+        "blake2": ""
+      }
+    },
     "99A61805": {
       "arc": 29,
       "episode": 24,
@@ -4536,6 +4690,20 @@
       "released": "2025-08-10",
       "hashes": {
         "crc32": "9BD35F80",
+        "blake2": ""
+      }
+    },
+    "9C115EE6": {
+      "arc": 2,
+      "episode": 3,
+      "title": "Pirate Buggy \"the Clown\"",
+      "originaltitle": "",
+      "description": "Shockingly, it turns out Captain Buggy and Red-Haired Shanks share a common history. When the bombastic clown rips Shanks' straw hat, Luffy's rage knows no bounds.",
+      "chapters": "19-21",
+      "episodes": "8",
+      "released": "2025-09-07 14:47:50+00:00",
+      "hashes": {
+        "crc32": "9C115EE6",
         "blake2": ""
       }
     },
@@ -5113,6 +5281,20 @@
         "blake2": ""
       }
     },
+    "B4925314": {
+      "arc": 0,
+      "episode": 10,
+      "title": "Warship Island 01 (April Fools 2025)",
+      "originaltitle": "",
+      "description": "",
+      "chapters": "",
+      "episodes": "54",
+      "released": "2025-03-31",
+      "hashes": {
+        "crc32": "B4925314",
+        "blake2": ""
+      }
+    },
     "B4950266": {
       "arc": 15,
       "episode": 3,
@@ -5407,6 +5589,20 @@
         "blake2": ""
       }
     },
+    "C269DEF5": {
+      "arc": 6,
+      "episode": 1,
+      "title": "Arlong Park",
+      "originaltitle": "",
+      "description": "As they depart the Baratie in pursuit of Nami and the Going Merry, Yosaku warns Luffy and Sanji about the vicious Arlong and his fishman underlings. Meanwhile, Usopp, Johnny, and Zoro make landfall where Nami docked the Merry.",
+      "chapters": "69-71",
+      "episodes": "31-32",
+      "released": "2025-10-13 02:33:17+00:00",
+      "hashes": {
+        "crc32": "C269DEF5",
+        "blake2": ""
+      }
+    },
     "C2835057": {
       "arc": 23,
       "episode": 3,
@@ -5673,6 +5869,34 @@
         "blake2": ""
       }
     },
+    "CBFE01C7": {
+      "arc": 2,
+      "episode": 1,
+      "title": "Enter: Nami",
+      "originaltitle": "",
+      "description": "Nami, a street-smart girl who loves money and tangerines, makes Luffy's acquaintance. To save herself and steal a map to the Grand Line, she tricks Luffy into allowing her to turn him over to the infamous pirate Buggy the Clown.",
+      "chapters": "8-11",
+      "episodes": "4-6",
+      "released": "2025-09-07 14:47:50+00:00",
+      "hashes": {
+        "crc32": "CBFE01C7",
+        "blake2": ""
+      }
+    },
+    "CC4900AE": {
+      "arc": 6,
+      "episode": 3,
+      "title": "Sea Charts and Fishmen",
+      "originaltitle": "",
+      "description": "Luffy\u2019s group has reached the island but are met with a shocking revelation. Unmoved by Nami\u2019s apparent actions and her insistence that he leaves, Luffy stubbornly sticks around.",
+      "chapters": "74-76",
+      "episodes": "33-34",
+      "released": "2025-10-27 13:13:40+00:00",
+      "hashes": {
+        "crc32": "CC4900AE",
+        "blake2": ""
+      }
+    },
     "CC88315A": {
       "arc": 30,
       "episode": 6,
@@ -5729,6 +5953,20 @@
         "blake2": ""
       }
     },
+    "CEDBEA59": {
+      "arc": 6,
+      "episode": 5,
+      "title": "Live",
+      "originaltitle": "",
+      "description": "When a Marine officer under Arlong's pay confiscates all the money Nami accumulated over the years, it becomes clear where Arlong stands on his promise.",
+      "chapters": "79-81",
+      "episodes": "36-37",
+      "released": "2025-11-10 01:20:49+00:00",
+      "hashes": {
+        "crc32": "CEDBEA59",
+        "blake2": ""
+      }
+    },
     "CEF78887": {
       "arc": 20,
       "episode": 5,
@@ -5754,6 +5992,20 @@
       "released": "2023-11-17",
       "hashes": {
         "crc32": "CF0B1E5A",
+        "blake2": ""
+      }
+    },
+    "CF226ADC": {
+      "arc": 36,
+      "episode": 19,
+      "title": "Hostage Situation",
+      "originaltitle": "",
+      "description": "In the Labophase on Egghead, which is completely surrounded by the Marines, Luffy and the others devise a plan to escape the island. However, the Frontier Dome, the laser defense system, cannot be deactivated without York\u2019s secret passcode.",
+      "chapters": "1089-1090",
+      "episodes": "1123-1124",
+      "released": "2025-10-13 02:35:31+00:00",
+      "hashes": {
+        "crc32": "CF226ADC",
         "blake2": ""
       }
     },
@@ -6205,6 +6457,20 @@
         "blake2": ""
       }
     },
+    "E419D54E": {
+      "arc": 6,
+      "episode": 2,
+      "title": "Monsters of the Grand Line",
+      "originaltitle": "",
+      "description": "Usopp, having challenged the fishmen, has been caught. To effectively prove her loyalty to the Arlong Pirates, Nami is left with a morbid choice.",
+      "chapters": "72-74",
+      "episodes": "31-33",
+      "released": "2025-10-19 21:09:06+00:00",
+      "hashes": {
+        "crc32": "E419D54E",
+        "blake2": ""
+      }
+    },
     "E468A31D": {
       "arc": 15,
       "episode": 5,
@@ -6258,6 +6524,20 @@
       "released": "2023-06-05",
       "hashes": {
         "crc32": "E4BA97D6",
+        "blake2": ""
+      }
+    },
+    "E4D9E965": {
+      "arc": 6,
+      "episode": 4,
+      "title": "Bell-m\u00e8re",
+      "originaltitle": "",
+      "description": "Nojiko goes into detail about Nami's childhood and their adoptive mother Bell-m\u00e8re, a former Marine. Despite being poor and unrelated by blood, they had a happy life on their tangerine orchard.",
+      "chapters": "77-78",
+      "episodes": "34-36",
+      "released": "2025-11-03 00:41:47+00:00",
+      "hashes": {
+        "crc32": "E4D9E965",
         "blake2": ""
       }
     },
@@ -6552,6 +6832,20 @@
       "released": "2014-01-18",
       "hashes": {
         "crc32": "EF1D7B5F",
+        "blake2": ""
+      }
+    },
+    "EFF6059A": {
+      "arc": 0,
+      "episode": 7,
+      "title": "Gaimon 01 (April Fools 2021)",
+      "originaltitle": "",
+      "description": "The Straw Hats venture to the fabled \"Treasure Island\" to discover riches, adventure, and... strange creatures. Oh, and everything is in Klingon for some reason.",
+      "chapters": "",
+      "episodes": "",
+      "released": "2021-04-01",
+      "hashes": {
+        "crc32": "EFF6059A",
         "blake2": ""
       }
     },
@@ -6860,6 +7154,20 @@
       "released": "2025-03-22",
       "hashes": {
         "crc32": "FA63AC14",
+        "blake2": ""
+      }
+    },
+    "FAFCDE38": {
+      "arc": 2,
+      "episode": 2,
+      "title": "Treasure",
+      "originaltitle": "",
+      "description": "Luffy meets a small dog guarding his late master\u2019s store. Meanwhile, Beast Tamer Mohji, Cabaji the Acrobat, and the lion Richie show up in the streets of Orange Town to get revenge for Captain Buggy's humiliating loss.",
+      "chapters": "12-19",
+      "episodes": "6-7",
+      "released": "2025-09-07 14:47:50+00:00",
+      "hashes": {
+        "crc32": "FAFCDE38",
         "blake2": ""
       }
     },

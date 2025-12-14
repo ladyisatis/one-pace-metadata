@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2025-12-14T01:20:57+00:00",
-    "last_update_ts": 1765675257,
+    "last_update": "2025-12-14T01:28:39+00:00",
+    "last_update_ts": 1765675719,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 40
+    "version": 43
   },
   "tvshow": {
     "en": {
