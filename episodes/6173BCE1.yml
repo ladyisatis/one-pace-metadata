@@ -1,7 +1,7 @@
 arc: 35
 episode: 24
 
-manga_chapters: 945
+manga_chapters: '945'
 anime_episodes: 942-944
 released: 2022-01-18
 duration: 1350
@@ -17,3 +17,4 @@ file:
   size: 1.1 GiB
   hash: 1806979f06ae1560485ef48bd1983d42aa5b5696
   index: 0
+length: 1350.0

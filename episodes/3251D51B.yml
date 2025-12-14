@@ -1,8 +1,8 @@
 arc: 19
 episode: 25
 
-manga_chapters: 430
-anime_episodes: 312
+manga_chapters: '430'
+anime_episodes: '312'
 released: 2020-08-27
 duration: 1005
 extended: false
@@ -17,3 +17,4 @@ file:
   size: 493.3 MiB
   hash: 7e24c561da498f298ff137f5462d5fe89b38edff
   index: 0
+length: 1005.0

@@ -2,7 +2,7 @@ arc: 14
 episode: 21
 
 manga_chapters: 217-218
-anime_episodes: 130
+anime_episodes: '130'
 released: 2024-08-16
 duration: 1037
 extended: false
@@ -17,3 +17,4 @@ file:
   size: 347.5 MiB
   hash: 5154d5a2f0abd8371ffb3ab7d0efe4f6f96d728a
   index: 0
+length: 1037.0

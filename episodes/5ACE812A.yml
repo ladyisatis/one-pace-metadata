@@ -1,8 +1,8 @@
 arc: 35
 episode: 12
 
-manga_chapters: 924
-anime_episodes: 916
+manga_chapters: '924'
+anime_episodes: '916'
 released: 2020-04-01
 duration: 1231
 extended: false
@@ -17,3 +17,4 @@ file:
   size: 565.4 MiB
   hash: d67ed82392c28cb6c40509383ba70bfb4e6aefdf
   index: 11
+length: 1231.0

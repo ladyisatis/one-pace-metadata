@@ -2,7 +2,7 @@ arc: 16
 episode: 1
 
 manga_chapters: 237-238
-anime_episodes: 153
+anime_episodes: '153'
 released: 2023-06-12
 duration: 1196
 extended: false
@@ -17,3 +17,4 @@ file:
   size: 399.6 MiB
   hash: e915f2fdd84e6b482417b25021a1c9a184b8658b
   index: 0
+length: 1196.0

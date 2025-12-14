@@ -1,8 +1,8 @@
 arc: 35
 episode: 31
 
-manga_chapters: 956
-anime_episodes: 957
+manga_chapters: '956'
+anime_episodes: '957'
 released: 2023-06-27
 duration: 1105
 extended: false
@@ -17,3 +17,4 @@ file:
   size: 882.0 MiB
   hash: 8d0650670a3b6de5de5b9411057e984d86247d9a
   index: 0
+length: 1105.0

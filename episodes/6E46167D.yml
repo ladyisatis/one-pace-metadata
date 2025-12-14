@@ -2,7 +2,7 @@ arc: 1
 episode: 4
 
 manga_chapters: 5-7
-anime_episodes: 3
+anime_episodes: '3'
 released: 2025-05-03
 duration: 1083
 extended: false
@@ -17,3 +17,4 @@ file:
   size: 484.0 MiB
   hash: cdab4a928dbbff643bbe5531f216eb36a60c85af
   index: 0
+length: 1083.0

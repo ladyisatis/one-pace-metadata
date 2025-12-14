@@ -2,7 +2,7 @@ arc: 13
 episode: 4
 
 manga_chapters: 139-140
-anime_episodes: 84
+anime_episodes: '84'
 released: 2022-09-26
 duration: 1215
 extended: false
@@ -17,3 +17,4 @@ file:
   size: 472.0 MiB
   hash: d7b48a58f44b5a5f6c0f9709976629fa5efe17a8
   index: 0
+length: 1215.0

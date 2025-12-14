@@ -1,7 +1,7 @@
 arc: 35
 episode: 4
 
-manga_chapters: 913
+manga_chapters: '913'
 anime_episodes: 898-899
 released: 2019-10-18
 duration: 1519
@@ -17,3 +17,4 @@ file:
   size: 669.4 MiB
   hash: d67ed82392c28cb6c40509383ba70bfb4e6aefdf
   index: 3
+length: 1519.0

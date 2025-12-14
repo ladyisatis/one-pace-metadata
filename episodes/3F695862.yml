@@ -1,8 +1,8 @@
 arc: 16
 episode: 24
 
-manga_chapters: 301
-anime_episodes: 194
+manga_chapters: '301'
+anime_episodes: '194'
 released: 2025-04-26
 duration: 1193
 extended: false
@@ -17,3 +17,4 @@ file:
   size: 410.5 MiB
   hash: 1cc6de813b6485f292383062fad31ea21f8cf611
   index: 0
+length: 1193.0

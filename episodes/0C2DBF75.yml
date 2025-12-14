@@ -2,7 +2,7 @@ arc: 4
 episode: 1
 
 manga_chapters: 42, 22
-anime_episodes: 18
+anime_episodes: '18'
 released: 2023-01-28
 duration: 1235
 extended: false
@@ -17,3 +17,4 @@ file:
   size: 480.3 MiB
   hash: b83d8260265b01910c0068b2b488d81b674917ea
   index: 0
+length: 1235.0

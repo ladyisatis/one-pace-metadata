@@ -1,7 +1,7 @@
 arc: 26
 episode: 14
 
-manga_chapters: 574
+manga_chapters: '574'
 anime_episodes: 483-484
 released: 2020-10-07
 duration: 1131
@@ -17,3 +17,4 @@ file:
   size: 136.0 MiB
   hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
   index: 0
+length: 1131.0
