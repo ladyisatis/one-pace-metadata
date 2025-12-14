@@ -55,7 +55,7 @@ jobs:
           git diff --cached --quiet || (git fetch --unshallow origin && \
             export METADATA_VERSION="$(git rev-list --count origin/v2)" && \
             pushd ./src && uv run main.py json && popd && \
-            git add metadata && \
+            git add metadata data.json data.min.json && \
             git commit -m "${output_update} [automated]" \
           )
           git push
