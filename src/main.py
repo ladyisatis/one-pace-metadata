@@ -945,7 +945,8 @@ class OnePaceMetadata:
                     logger.info(f"Skipping {arc_name} {ep_num}: episodes/{crc32}.yml exists")
                     continue
 
-                added_metadata.append(f"{arc_name} {ep_num} {extra} ({crc32})")
+                extra_str = f" {extra}" if extra is not None else ""
+                added_metadata.append(f"{arc_name} {ep_num}{extra_str} ({crc32})")
 
                 arc_num = self.arc_to_num.get(arc_name, 0)
                 standard_crc = crc32 if extra is None else ""
