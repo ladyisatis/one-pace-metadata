@@ -924,8 +924,8 @@ class OnePaceMetadata:
                 continue
 
             pub_date = datetime.strptime(item.pub_date.content, "%a, %d %b %Y %H:%M:%S %z")
-            #if (now - pub_date).total_seconds() > (int(self.config["oldest_rss_release_hours"]) * 3600):
-            #    continue
+            if (now - pub_date).total_seconds() > (int(self.config["oldest_rss_release_hours"]) * 3600):
+                continue
 
             logger.info(f"Processing new release from: {item.guid.content}")
             resp = self.client.get(item.guid.content, follow_redirects=True)
