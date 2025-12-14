@@ -783,11 +783,15 @@ class OnePaceMetadata:
             crc_file = Path(self.episodes_dir, f"{mkv_crc32[0]}.yml")
             if not crc_file.is_file():
                 self.create_crc_file(sheet_index, ep, crc_file, mkv_crc32, chapters, episodes, release_date, length, False)
+            else:
+                self.check_crc_file(sheet_index, ep, crc_file, mkv_crc32, chapters, episodes, release_date, length, False)
 
             if len(mkv_crc32_extended) > 0:
                 crc_file = Path(self.episodes_dir, f"{mkv_crc32_extended[0]}.yml")
                 if not crc_file.is_file():
                     self.create_crc_file(sheet_index, ep, crc_file, mkv_crc32_extended, chapters, episodes, release_date, length, True)
+                else:
+                    self.check_crc_file(sheet_index, ep, crc_file, mkv_crc32, chapters, episodes, release_date, length, True)
 
         if poster != "":
             poster_file = Path(f"{self.arc_dir}/en/{sheet_index}/poster.png")
@@ -826,6 +830,32 @@ class OnePaceMetadata:
         )
 
         crc_file.write_text(out, encoding="utf-8")
+
+    def check_crc_file(self, sheet_index, ep, crc_file, mkv_crc32, chapters, episodes, release_date, length, extended):
+        yml_load = self.read_yaml(crc_file)
+
+        if yml_load.get("arc", 0) != int(sheet_index):
+            yml_load["arc"] = int(sheet_index)
+
+        if yml_load.get("episode", 0) != int(ep):
+            yml_load["episode"] = int(ep)
+
+        if yml_load.get("manga_chapters", "") != chapters:
+            yml_load["manga_chapters"] = chapters
+
+        if yml_load.get("anime_episodes", "") != episodes:
+            yml_load["anime_episodes"] = episodes
+
+        if yml_load.get("length", 0) != length:
+            yml_load["length"] = length
+
+        crc_file.write_text(
+            YamlDump(yml_load, allow_unicode=True, sort_keys=False)
+                .replace("\nmanga_chapters:", "\n\nmanga_chapters:")
+                .replace("\nfile:\n", "\n\nfile:\n")
+                .replace("\nhashes:", "\n\nhashes:"),
+            encoding="utf-8"
+        )
 
     def fetch_file_info(self, url, search=""):
         is_url = False
@@ -1445,7 +1475,7 @@ class OnePaceMetadata:
                             "description": ep_desc.get("description", ""),
                             "chapters": str(ep.get("manga_chapters", "")),
                             "episodes": str(ep.get("anime_episodes", "")),
-                            "released": str(ep.get("released", "")),
+                            "released": str(ep.get("released", "")).split("T")[0],
                             "hashes": {
                                 "crc32": str(ep["hashes"].get("crc32", "")),
                                 "blake2": str(ep["hashes"].get("blake2s", ""))

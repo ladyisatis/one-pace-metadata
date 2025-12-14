@@ -10,20 +10,20 @@ description: Nami's hometown has long been overrun by Arlong and his band of fis
 
 episodes:
 - episode: '01'
-  standard: AD09145D
+  standard: C269DEF5
   extended: ''
 - episode: '02'
-  standard: 432F7EDF
+  standard: E419D54E
   extended: ''
 - episode: '03'
-  standard: C060DA73
+  standard: CC4900AE
   extended: ''
 - episode: '04'
-  standard: DB23E2E6
+  standard: E4D9E965
   extended: ''
 - episode: '05'
-  standard: 1CC0DA84
-  extended: ACD6AA5F
+  standard: 5D1CA4A2
+  extended: CEDBEA59
 - episode: '06'
   standard: 06F25D1B
   extended: ''
