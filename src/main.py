@@ -828,10 +828,12 @@ class OnePaceMetadata:
         crc_file.write_text(out, encoding="utf-8")
 
     def fetch_file_info(self, url, search=""):
+        is_url = False
+
         if url in self.http_cache:
             logger.info(f"Retrieving cached item ({url})")
             soup = BeautifulSoup(self.http_cache.get(url), "html.parser")
-        elif url.startswith("https://"):
+        elif url.startswith("http"):
             logger.info(f"Sending request to: {url}")
             resp = httpx.get(url)
 
@@ -844,11 +846,13 @@ class OnePaceMetadata:
 
             self.set_cache(url, resp.text)
             soup = BeautifulSoup(resp.text, "html.parser")
+            is_url = True
         else:
             soup = BeautifulSoup(url, "html.parser")
 
-        file_id = int(url.split("/view/")[1]) if "/view/" in url else 0
-        if file_id == 0:
+        if is_url and "/view/" in url:
+            file_id = int(url.split("/view/")[1])
+        else:
             clearfix = soup.find("div", class_="clearfix")
             if clearfix:
                 href = clearfix.find("a", href=True)
@@ -920,8 +924,8 @@ class OnePaceMetadata:
                 continue
 
             pub_date = datetime.strptime(item.pub_date.content, "%a, %d %b %Y %H:%M:%S %z")
-            if (now - pub_date).total_seconds() > (int(self.config["oldest_rss_release_hours"]) * 3600):
-                continue
+            #if (now - pub_date).total_seconds() > (int(self.config["oldest_rss_release_hours"]) * 3600):
+            #    continue
 
             logger.info(f"Processing new release from: {item.guid.content}")
             resp = self.client.get(item.guid.content, follow_redirects=True)
@@ -1042,6 +1046,7 @@ class OnePaceMetadata:
                 )
 
                 logger.info(f"Writing to: {crc_file}")
+                crc_file.unlink(missing_ok=True)
                 crc_file.write_text(out, encoding="utf-8")
 
         if len(added_metadata) > 0:
@@ -1446,8 +1451,13 @@ class OnePaceMetadata:
                             }
                         }
 
-            Path("../data.json").write_text(json.dumps(output, indent=2, default=self.serialize_json))
-            Path("../data.min.json").write_text(json.dumps(output, default=self.serialize_json))
+            data = Path("../data.json")
+            data.unlink(missing_ok=True)
+            data.write_text(json.dumps(output, indent=2, default=self.serialize_json))
+
+            data = Path("../data.min.json")
+            data.unlink(missing_ok=True)
+            data.write_text(json.dumps(output, default=self.serialize_json))
 
         except:
             logger.exception("Unable to create compat data.json")
