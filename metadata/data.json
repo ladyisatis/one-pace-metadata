@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2025-12-14T01:19:45+00:00",
-    "last_update_ts": 1765675185,
+    "last_update": "2025-12-14T01:20:57+00:00",
+    "last_update_ts": 1765675257,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 39
+    "version": 40
   },
   "tvshow": {
     "en": {
@@ -131,17 +131,17 @@
         "episodes": [
           {
             "episode": "01",
-            "standard": "C23AC8D3",
+            "standard": "CBFE01C7",
             "extended": ""
           },
           {
             "episode": "02",
-            "standard": "D7327225",
+            "standard": "FAFCDE38",
             "extended": ""
           },
           {
             "episode": "03",
-            "standard": "1809DA8A",
+            "standard": "9C115EE6",
             "extended": ""
           }
         ],
@@ -334,28 +334,28 @@
         "episodes": [
           {
             "episode": "01",
-            "standard": "AD09145D",
+            "standard": "C269DEF5",
             "extended": ""
           },
           {
             "episode": "02",
-            "standard": "432F7EDF",
+            "standard": "E419D54E",
             "extended": ""
           },
           {
             "episode": "03",
-            "standard": "C060DA73",
+            "standard": "CC4900AE",
             "extended": ""
           },
           {
             "episode": "04",
-            "standard": "DB23E2E6",
+            "standard": "E4D9E965",
             "extended": ""
           },
           {
             "episode": "05",
-            "standard": "1CC0DA84",
-            "extended": "ACD6AA5F"
+            "standard": "5D1CA4A2",
+            "extended": "CEDBEA59"
           },
           {
             "episode": "06",
@@ -1250,17 +1250,17 @@
         "episodes": [
           {
             "episode": "01",
-            "standard": "A6CD3EBB",
+            "standard": "785FB818",
             "extended": ""
           },
           {
             "episode": "02",
-            "standard": "EBBD7693",
+            "standard": "495CDC31",
             "extended": ""
           },
           {
             "episode": "03",
-            "standard": "747CF45E",
+            "standard": "861EE2FF",
             "extended": ""
           },
           {
@@ -3334,13 +3334,13 @@
           },
           {
             "episode": "18",
-            "standard": "8A1836B5",
+            "standard": "24DEE374",
             "extended": ""
           },
           {
             "episode": "19",
-            "standard": "6AE11B21",
-            "extended": "93B80191"
+            "standard": "73E70A0E",
+            "extended": "CF226ADC"
           },
           {
             "episode": "20",
@@ -8212,6 +8212,26 @@
         "index": 0
       }
     },
+    "24DEE374": {
+      "arc": 36,
+      "episode": 18,
+      "manga_chapters": "1087-1088",
+      "anime_episodes": "1121-1122",
+      "released": "2025-10-05T20:17:22+00:00",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "24DEE374",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2027739,
+        "name": "[One Pace][1087-1088] Egghead 18 [1080p][24DEE374].mkv",
+        "size": "1.9 GiB",
+        "hash": "5c75cb08152979cf745ddc3b0ef240eca6551d91",
+        "index": 0
+      }
+    },
     "2501AC5A": {
       "arc": 35,
       "episode": 55,
@@ -9532,6 +9552,26 @@
         "index": 0
       }
     },
+    "495CDC31": {
+      "arc": 19,
+      "episode": 2,
+      "manga_chapters": "376-378",
+      "anime_episodes": "265-266",
+      "released": "2025-11-16T22:24:15+00:00",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "495CDC31",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2043733,
+        "name": "[One Pace][376-378] Enies Lobby 02 [1080p][495CDC31].mkv",
+        "size": "707.4 MiB",
+        "hash": "1d5aec88a4e0ab7d1d190376f8a803583dc5c143",
+        "index": 0
+      }
+    },
     "4A52B138": {
       "arc": 32,
       "episode": 10,
@@ -10112,6 +10152,26 @@
         "index": 0
       }
     },
+    "587689A9": {
+      "arc": 6,
+      "episode": 5,
+      "manga_chapters": "79-81",
+      "anime_episodes": "36-37",
+      "released": "2025-11-16T23:28:26+00:00",
+      "duration": 0,
+      "extended": true,
+      "hashes": {
+        "crc32": "587689A9",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2043738,
+        "name": "[One Pace][79-81] Arlong Park 05 Extended [1080p][587689A9].mkv",
+        "size": "747.4 MiB",
+        "hash": "9c5533d4044c55b1639d32782c0e68ac98453c87",
+        "index": 0
+      }
+    },
     "58865EA7": {
       "arc": 14,
       "episode": 6,
@@ -10369,6 +10429,26 @@
         "name": "[One Pace][953-954] Wano 29 [1080p][5C7E0604].mkv",
         "size": "1.5 GiB",
         "hash": "0c335ffe392916183f738e9831c1379b2c432601",
+        "index": 0
+      }
+    },
+    "5D1CA4A2": {
+      "arc": 6,
+      "episode": 5,
+      "manga_chapters": "79-81",
+      "anime_episodes": "36-37",
+      "released": "2025-11-10T01:20:26+00:00",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "5D1CA4A2",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2041111,
+        "name": "[One Pace][79-81] Arlong Park 05 [1080p][5D1CA4A2].mkv",
+        "size": "728.5 MiB",
+        "hash": "2c0761e2ebd4849d31b8e0fa43e8666d9a339a33",
         "index": 0
       }
     },
@@ -11572,6 +11652,26 @@
         "index": 0
       }
     },
+    "73E70A0E": {
+      "arc": 36,
+      "episode": 19,
+      "manga_chapters": "1089-1090",
+      "anime_episodes": "1123-1124",
+      "released": "2025-10-13T02:35:18+00:00",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "73E70A0E",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2030688,
+        "name": "[One Pace][1089-1090] Egghead 19 [1080p][73E70A0E].mkv",
+        "size": "1018.0 MiB",
+        "hash": "a730af57f74d14bd063173ed8985a8e59f5b0706",
+        "index": 0
+      }
+    },
     "747CF45E": {
       "arc": 19,
       "episode": 3,
@@ -11750,6 +11850,26 @@
         "size": "318.4 MiB",
         "hash": "a031cac6baf81b804c4d034dfaef0e5e4a671145",
         "index": 7
+      }
+    },
+    "785FB818": {
+      "arc": 19,
+      "episode": 1,
+      "manga_chapters": "375-376",
+      "anime_episodes": "263-264",
+      "released": "2025-11-16T22:22:52+00:00",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "785FB818",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2043732,
+        "name": "[One Pace][375-376] Enies Lobby 01 [1080p][785FB818].mkv",
+        "size": "776.5 MiB",
+        "hash": "c8919ae39648b5318b04a0828c61d4f6da9b24ca",
+        "index": 0
       }
     },
     "7926F9B5": {
@@ -12070,6 +12190,26 @@
         "size": "540.5 MiB",
         "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
         "index": 20
+      }
+    },
+    "861EE2FF": {
+      "arc": 19,
+      "episode": 3,
+      "manga_chapters": "379-380",
+      "anime_episodes": "266-267",
+      "released": "2025-11-21T13:24:19+00:00",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "861EE2FF",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2045104,
+        "name": "[One Pace][379-380] Enies Lobby 03 [1080p][861EE2FF].mkv",
+        "size": "723.0 MiB",
+        "hash": "f1f530b7a94aaa03d880ee145027c86e22f534d5",
+        "index": 0
       }
     },
     "86DC8F38": {
@@ -12823,6 +12963,26 @@
         "size": "684.7 MiB",
         "hash": "6cf2faf6f5d96a58dfd846070dd098d18d324642",
         "index": 0
+      }
+    },
+    "9C115EE6": {
+      "arc": 2,
+      "episode": 3,
+      "manga_chapters": "19-21",
+      "anime_episodes": "8",
+      "released": "2025-09-07T14:47:50+00:00",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "9C115EE6",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2016635,
+        "name": "[One Pace][19-21] Orange Town 03 [1080p][9C115EE6].mkv",
+        "size": "624.1 MiB",
+        "hash": "35f4c7c850dd11fac6f55dc5dfd6633e0e3f406f",
+        "index": 1
       }
     },
     "9C3360D6": {
@@ -14085,6 +14245,26 @@
         "index": 0
       }
     },
+    "C269DEF5": {
+      "arc": 6,
+      "episode": 1,
+      "manga_chapters": "69-71",
+      "anime_episodes": "31-32",
+      "released": "2025-10-13T02:33:17+00:00",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "C269DEF5",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2030687,
+        "name": "[One Pace][69-71] Arlong Park 01 [1080p][C269DEF5].mkv",
+        "size": "718.6 MiB",
+        "hash": "b3aaeeac3f12b5129380d7cd17415edbfbd12689",
+        "index": 0
+      }
+    },
     "C2835057": {
       "arc": 23,
       "episode": 3,
@@ -14465,6 +14645,46 @@
         "index": 42
       }
     },
+    "CBFE01C7": {
+      "arc": 2,
+      "episode": 1,
+      "manga_chapters": "8-11",
+      "anime_episodes": "4-6",
+      "released": "2025-09-07T14:47:50+00:00",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "CBFE01C7",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2016635,
+        "name": "[One Pace][8-11] Orange Town 01 [1080p][CBFE01C7].mkv",
+        "size": "717.5 MiB",
+        "hash": "35f4c7c850dd11fac6f55dc5dfd6633e0e3f406f",
+        "index": 2
+      }
+    },
+    "CC4900AE": {
+      "arc": 6,
+      "episode": 3,
+      "manga_chapters": "74-76",
+      "anime_episodes": "33-34",
+      "released": "2025-10-27T13:13:40+00:00",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "CC4900AE",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2035983,
+        "name": "[One Pace][74-76] Arlong Park 03 [1080p][CC4900AE].mkv",
+        "size": "591.6 MiB",
+        "hash": "c6ac0931b41840cec35ff81307899cc4d1e2cb69",
+        "index": 0
+      }
+    },
     "CC88315A": {
       "arc": 30,
       "episode": 6,
@@ -14545,6 +14765,26 @@
         "index": 0
       }
     },
+    "CEDBEA59": {
+      "arc": 6,
+      "episode": 5,
+      "manga_chapters": "79-81",
+      "anime_episodes": "36-37",
+      "released": "2025-11-10T01:20:49+00:00",
+      "duration": 0,
+      "extended": true,
+      "hashes": {
+        "crc32": "CEDBEA59",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2041112,
+        "name": "[One Pace][79-81] Arlong Park 05 Extended [1080p][CEDBEA59].mkv",
+        "size": "746.7 MiB",
+        "hash": "0a698f048382a10b864450682b7054d9fc1ec4d4",
+        "index": 0
+      }
+    },
     "CEF78887": {
       "arc": 20,
       "episode": 5,
@@ -14582,6 +14822,26 @@
         "name": "[One Pace][255-257] Skypiea 09 [1080p][CF0B1E5A].mkv",
         "size": "807.7 MiB",
         "hash": "1ad1d02f115868eacb6852eef0a8e6ca59a3c524",
+        "index": 0
+      }
+    },
+    "CF226ADC": {
+      "arc": 36,
+      "episode": 19,
+      "manga_chapters": "1089-1090",
+      "anime_episodes": "1123-1124",
+      "released": "2025-10-13T02:35:31+00:00",
+      "duration": 0,
+      "extended": true,
+      "hashes": {
+        "crc32": "CF226ADC",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2030689,
+        "name": "[One Pace][1089-1090] Egghead 19 Extended [1080p][CF226ADC].mkv",
+        "size": "1.0 GiB",
+        "hash": "cf747af3f246da16cb0e3f7fdbd90bbeb812158a",
         "index": 0
       }
     },
@@ -15225,6 +15485,26 @@
         "index": 13
       }
     },
+    "E419D54E": {
+      "arc": 6,
+      "episode": 2,
+      "manga_chapters": "72-74",
+      "anime_episodes": "31-33",
+      "released": "2025-10-19T21:09:06+00:00",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "E419D54E",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2033327,
+        "name": "[One Pace][72-74] Arlong Park 02 [1080p][E419D54E].mkv",
+        "size": "580.4 MiB",
+        "hash": "43a6cf0635ec1d9513b17a67acc687ac36f919c1",
+        "index": 0
+      }
+    },
     "E468A31D": {
       "arc": 15,
       "episode": 5,
@@ -15302,6 +15582,26 @@
         "name": "[One Pace][157-159] Arabasta 02 [1080p][E4BA97D6].mkv",
         "size": "591.5 MiB",
         "hash": "e1850b8632072a00a675ad85b1daf7db607632a1",
+        "index": 0
+      }
+    },
+    "E4D9E965": {
+      "arc": 6,
+      "episode": 4,
+      "manga_chapters": "77-78",
+      "anime_episodes": "34-36",
+      "released": "2025-11-03T00:41:47+00:00",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "E4D9E965",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2038517,
+        "name": "[One Pace][77-78] Arlong Park 04 [1080p][E4D9E965].mkv",
+        "size": "621.5 MiB",
+        "hash": "0e4c02a3271301f1c2f6460be9e49498bf795b66",
         "index": 0
       }
     },
@@ -16195,6 +16495,26 @@
         "name": "[One Pace][115-117] Little Garden 01 [1080p][FA63AC14].mkv",
         "size": "717.5 MiB",
         "hash": "ee1feaf374699150ebe9cf8876df199acb9a5fea",
+        "index": 0
+      }
+    },
+    "FAFCDE38": {
+      "arc": 2,
+      "episode": 2,
+      "manga_chapters": "12-19",
+      "anime_episodes": "6-7",
+      "released": "2025-09-07T14:47:50+00:00",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "FAFCDE38",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2016635,
+        "name": "[One Pace][12-19] Orange Town 02 [1080p][FAFCDE38].mkv",
+        "size": "961.1 MiB",
+        "hash": "35f4c7c850dd11fac6f55dc5dfd6633e0e3f406f",
         "index": 0
       }
     },

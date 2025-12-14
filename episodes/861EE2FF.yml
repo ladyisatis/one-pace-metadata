@@ -1,0 +1,19 @@
+arc: 19
+episode: 3
+
+manga_chapters: 379-380
+anime_episodes: 266-267
+released: 2025-11-21 13:24:19+00:00
+duration: 0
+extended: false
+
+hashes:
+  crc32: 861EE2FF
+  blake2s: ''
+
+file:
+  id: 2045104
+  name: '[One Pace][379-380] Enies Lobby 03 [1080p][861EE2FF].mkv'
+  size: 723.0 MiB
+  hash: f1f530b7a94aaa03d880ee145027c86e22f534d5
+  index: 0

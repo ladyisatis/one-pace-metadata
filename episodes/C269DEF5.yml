@@ -1,0 +1,19 @@
+arc: 6
+episode: 1
+
+manga_chapters: 69-71
+anime_episodes: 31-32
+released: 2025-10-13 02:33:17+00:00
+duration: 0
+extended: false
+
+hashes:
+  crc32: C269DEF5
+  blake2s: ''
+
+file:
+  id: 2030687
+  name: '[One Pace][69-71] Arlong Park 01 [1080p][C269DEF5].mkv'
+  size: 718.6 MiB
+  hash: b3aaeeac3f12b5129380d7cd17415edbfbd12689
+  index: 0

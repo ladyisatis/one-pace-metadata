@@ -1,0 +1,19 @@
+arc: 6
+episode: 4
+
+manga_chapters: 77-78
+anime_episodes: 34-36
+released: 2025-11-03 00:41:47+00:00
+duration: 0
+extended: false
+
+hashes:
+  crc32: E4D9E965
+  blake2s: ''
+
+file:
+  id: 2038517
+  name: '[One Pace][77-78] Arlong Park 04 [1080p][E4D9E965].mkv'
+  size: 621.5 MiB
+  hash: 0e4c02a3271301f1c2f6460be9e49498bf795b66
+  index: 0

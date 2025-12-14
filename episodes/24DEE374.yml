@@ -1,0 +1,19 @@
+arc: 36
+episode: 18
+
+manga_chapters: 1087-1088
+anime_episodes: 1121-1122
+released: 2025-10-05 20:17:22+00:00
+duration: 0
+extended: false
+
+hashes:
+  crc32: 24DEE374
+  blake2s: ''
+
+file:
+  id: 2027739
+  name: '[One Pace][1087-1088] Egghead 18 [1080p][24DEE374].mkv'
+  size: 1.9 GiB
+  hash: 5c75cb08152979cf745ddc3b0ef240eca6551d91
+  index: 0

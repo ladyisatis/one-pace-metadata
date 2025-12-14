@@ -1,0 +1,19 @@
+arc: 6
+episode: 5
+
+manga_chapters: 79-81
+anime_episodes: 36-37
+released: 2025-11-16 23:28:26+00:00
+duration: 0
+extended: true
+
+hashes:
+  crc32: 587689A9
+  blake2s: ''
+
+file:
+  id: 2043738
+  name: '[One Pace][79-81] Arlong Park 05 Extended [1080p][587689A9].mkv'
+  size: 747.4 MiB
+  hash: 9c5533d4044c55b1639d32782c0e68ac98453c87
+  index: 0
