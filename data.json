@@ -1,6 +1,6 @@
 {
-  "last_update": "2025-12-08T08:34:52+00:00",
-  "last_update_ts": 1765182892,
+  "last_update": "2025-12-14T00:52:02+00:00",
+  "last_update_ts": 1765673522,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -490,6 +490,20 @@
       "released": "2013-04-16",
       "hashes": {
         "crc32": "04C7B716",
+        "blake2": ""
+      }
+    },
+    "05BE81E6": {
+      "arc": 0,
+      "episode": 4,
+      "title": "Wapol's Omnivorous Hurrah",
+      "originaltitle": "",
+      "description": "",
+      "chapters": "Covers of 236-262",
+      "episodes": "778",
+      "released": "2017-02-26",
+      "hashes": {
+        "crc32": "05BE81E6",
         "blake2": ""
       }
     },
@@ -1655,6 +1669,20 @@
         "blake2": ""
       }
     },
+    "2F71D53E": {
+      "arc": 0,
+      "episode": 9,
+      "title": "The Desert Doo Doo Hits the Fan (April Fools 2024)",
+      "originaltitle": "",
+      "description": "When Crocodile yells \"Oh no! Water!\" it's game over! Join Monkey D. Luffy and his courageous crew\u2014Nami, Usopp, Chopper (who does doctoring), Sanji, and Zolo\u2014as they save Alabasta from the crooked clutches of Baroque Works!",
+      "chapters": "199-201",
+      "episodes": "",
+      "released": "2024-03-31",
+      "hashes": {
+        "crc32": "2F71D53E",
+        "blake2": ""
+      }
+    },
     "2FFA5720": {
       "arc": 28,
       "episode": 3,
@@ -2086,6 +2114,20 @@
       "released": "2025-06-01",
       "hashes": {
         "crc32": "410FD111",
+        "blake2": ""
+      }
+    },
+    "415455AE": {
+      "arc": 0,
+      "episode": 2,
+      "title": "Straw Hat Theatre",
+      "originaltitle": "",
+      "description": "",
+      "chapters": "",
+      "episodes": "",
+      "released": "2014-09-14",
+      "hashes": {
+        "crc32": "415455AE",
         "blake2": ""
       }
     },
@@ -4483,6 +4525,20 @@
         "blake2": ""
       }
     },
+    "9974A092": {
+      "arc": 0,
+      "episode": 98,
+      "title": "One Piece Fan Letter",
+      "originaltitle": "",
+      "description": "As the Straw Hat Pirates reunite on the Sabaody Archipelago, the various members of the island are drawn together like pieces of a puzzle, their love of certain members of the crew driving their actions and emotions.",
+      "chapters": "One Piece Novel: Straw Hat Stories",
+      "episodes": "One Piece Fan Letter",
+      "released": "2024-11-29",
+      "hashes": {
+        "crc32": "9974A092",
+        "blake2": ""
+      }
+    },
     "99A61805": {
       "arc": 29,
       "episode": 24,
@@ -5110,6 +5166,20 @@
       "released": "2017-02-10",
       "hashes": {
         "crc32": "B46EDD50",
+        "blake2": ""
+      }
+    },
+    "B4925314": {
+      "arc": 0,
+      "episode": 10,
+      "title": "Warship Island 01 (April Fools 2025)",
+      "originaltitle": "",
+      "description": "",
+      "chapters": "",
+      "episodes": "54",
+      "released": "2025-03-31",
+      "hashes": {
+        "crc32": "B4925314",
         "blake2": ""
       }
     },
@@ -6552,6 +6622,20 @@
       "released": "2014-01-18",
       "hashes": {
         "crc32": "EF1D7B5F",
+        "blake2": ""
+      }
+    },
+    "EFF6059A": {
+      "arc": 0,
+      "episode": 7,
+      "title": "Gaimon 01 (April Fools 2021)",
+      "originaltitle": "",
+      "description": "The Straw Hats venture to the fabled \"Treasure Island\" to discover riches, adventure, and... strange creatures. Oh, and everything is in Klingon for some reason.",
+      "chapters": "",
+      "episodes": "",
+      "released": "2021-04-01",
+      "hashes": {
+        "crc32": "EFF6059A",
         "blake2": ""
       }
     },
