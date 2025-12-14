@@ -833,29 +833,36 @@ class OnePaceMetadata:
 
     def check_crc_file(self, sheet_index, ep, crc_file, mkv_crc32, chapters, episodes, release_date, length, extended):
         yml_load = self.read_yaml(crc_file)
+        changed = False
 
         if yml_load.get("arc", 0) != int(sheet_index):
             yml_load["arc"] = int(sheet_index)
+            changed = True
 
         if yml_load.get("episode", 0) != int(ep):
             yml_load["episode"] = int(ep)
+            changed = True
 
         if yml_load.get("manga_chapters", "") != chapters:
             yml_load["manga_chapters"] = chapters
+            changed = True
 
         if yml_load.get("anime_episodes", "") != episodes:
             yml_load["anime_episodes"] = episodes
+            changed = True
 
-        if yml_load.get("length", 0) != length:
-            yml_load["length"] = length
+        if yml_load.get("length", 0) != int(length):
+            yml_load["length"] = int(length)
+            changed = True
 
-        crc_file.write_text(
-            YamlDump(yml_load, allow_unicode=True, sort_keys=False)
-                .replace("\nmanga_chapters:", "\n\nmanga_chapters:")
-                .replace("\nfile:\n", "\n\nfile:\n")
-                .replace("\nhashes:", "\n\nhashes:"),
-            encoding="utf-8"
-        )
+        if changed:
+            crc_file.write_text(
+                YamlDump(yml_load, allow_unicode=True, sort_keys=False)
+                    .replace("\nmanga_chapters:", "\n\nmanga_chapters:")
+                    .replace("\nfile:\n", "\n\nfile:\n")
+                    .replace("\nhashes:", "\n\nhashes:"),
+                encoding="utf-8"
+            )
 
     def fetch_file_info(self, url, search=""):
         is_url = False
