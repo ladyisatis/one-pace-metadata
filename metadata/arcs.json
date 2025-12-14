@@ -3186,6 +3186,11 @@
           "episode": "55",
           "standard": "2501AC5A",
           "extended": "425F93B9"
+        },
+        {
+          "episode": "56",
+          "standard": "E58B9A11",
+          "extended_crc": ""
         }
       ],
       "info": {

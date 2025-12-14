@@ -1,8 +1,8 @@
 status:
-  last_update: '2025-12-14T12:12:30+00:00'
-  last_update_ts: 1765714350
+  last_update: '2025-12-14T18:09:35+00:00'
+  last_update_ts: 1765735775
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 51
+  version: 52
 tvshow:
   en:
     title: One Piece
@@ -2269,6 +2269,9 @@ arcs:
     - episode: '55'
       standard: 2501AC5A
       extended: 425F93B9
+    - episode: '56'
+      standard: E58B9A11
+      extended_crc: ''
     info:
       status: Work In Progress
       manga_chapters: 909 - 1057
@@ -13949,6 +13952,23 @@ episodes:
       hash: b5f43863a0a59e5cdbc3d6a36afad34f4ab4923f
       index: 0
     length: 2079.0
+  E58B9A11:
+    arc: 35
+    episode: 56
+    manga_chapters: 1001-1002
+    anime_episodes: 1016-1017
+    released: '2025-12-14T17:10:48+00:00'
+    duration: 0
+    extended: false
+    hashes:
+      crc32: E58B9A11
+      blake2s: ''
+    file:
+      id: 2054252
+      name: '[One Pace][1001-1002] Wano 56 [1080p][E58B9A11].mkv'
+      size: 1.3 GiB
+      hash: 4dd76792a4f94f06751a88f93cefc17515b3b3ed
+      index: 0
   E5F09F49:
     arc: 1
     episode: 1
