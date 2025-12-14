@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2025-12-14T07:21:54+00:00",
-    "last_update_ts": 1765696914,
+    "last_update": "2025-12-14T07:44:48+00:00",
+    "last_update_ts": 1765698288,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 48
+    "version": 50
   },
   "tvshow": {
     "en": {
@@ -131,17 +131,17 @@
         "episodes": [
           {
             "episode": "01",
-            "standard": "C23AC8D3",
+            "standard": "CBFE01C7",
             "extended": ""
           },
           {
             "episode": "02",
-            "standard": "D7327225",
+            "standard": "FAFCDE38",
             "extended": ""
           },
           {
             "episode": "03",
-            "standard": "1809DA8A",
+            "standard": "9C115EE6",
             "extended": ""
           }
         ],
@@ -334,28 +334,28 @@
         "episodes": [
           {
             "episode": "01",
-            "standard": "AD09145D",
+            "standard": "C269DEF5",
             "extended": ""
           },
           {
             "episode": "02",
-            "standard": "432F7EDF",
+            "standard": "E419D54E",
             "extended": ""
           },
           {
             "episode": "03",
-            "standard": "C060DA73",
+            "standard": "CC4900AE",
             "extended": ""
           },
           {
             "episode": "04",
-            "standard": "DB23E2E6",
+            "standard": "E4D9E965",
             "extended": ""
           },
           {
             "episode": "05",
-            "standard": "1CC0DA84",
-            "extended": "ACD6AA5F"
+            "standard": "5D1CA4A2",
+            "extended": "CEDBEA59"
           },
           {
             "episode": "06",
@@ -1250,17 +1250,17 @@
         "episodes": [
           {
             "episode": "01",
-            "standard": "A6CD3EBB",
+            "standard": "785FB818",
             "extended": ""
           },
           {
             "episode": "02",
-            "standard": "EBBD7693",
+            "standard": "495CDC31",
             "extended": ""
           },
           {
             "episode": "03",
-            "standard": "747CF45E",
+            "standard": "861EE2FF",
             "extended": ""
           },
           {
@@ -3334,13 +3334,13 @@
           },
           {
             "episode": "18",
-            "standard": "8A1836B5",
+            "standard": "24DEE374",
             "extended": ""
           },
           {
             "episode": "19",
-            "standard": "6AE11B21",
-            "extended": "93B80191"
+            "standard": "73E70A0E",
+            "extended": "CF226ADC"
           },
           {
             "episode": "20",
