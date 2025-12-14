@@ -765,11 +765,11 @@ class OnePaceMetadata:
                         })
                         changed = True
                     else:
-                        if config_data["episodes"][i]["standard"] != mkv_crc32[0]:
+                        if config_data["episodes"][i]["standard"] == "":
                             config_data["episodes"][i]["standard"] = mkv_crc32[0]
                             changed = True
 
-                        if len(mkv_crc32_extended) > 0 and config_data["episodes"][i]["extended"] != mkv_crc32_extended[0]:
+                        if len(mkv_crc32_extended) > 0 and config_data["episodes"][i]["extended"] == "":
                             config_data["episodes"][i]["extended"] = mkv_crc32_extended[0]
                             changed = True
 
@@ -1021,7 +1021,7 @@ class OnePaceMetadata:
                 meta = {
                     "manga_chapters": chapters,
                     "anime_episodes": episodes,
-                    "released": pub_date,
+                    "released": pub_date.isoformat(timespec='seconds'),
                     "duration": 0,
                     "extended": extra is not None
                 }

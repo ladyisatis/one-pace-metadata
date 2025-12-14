@@ -98,17 +98,17 @@
       "episodes": [
         {
           "episode": "01",
-          "standard": "CBFE01C7",
+          "standard": "C23AC8D3",
           "extended": ""
         },
         {
           "episode": "02",
-          "standard": "FAFCDE38",
+          "standard": "D7327225",
           "extended": ""
         },
         {
           "episode": "03",
-          "standard": "9C115EE6",
+          "standard": "1809DA8A",
           "extended": ""
         }
       ],
@@ -301,28 +301,28 @@
       "episodes": [
         {
           "episode": "01",
-          "standard": "C269DEF5",
+          "standard": "AD09145D",
           "extended": ""
         },
         {
           "episode": "02",
-          "standard": "E419D54E",
+          "standard": "432F7EDF",
           "extended": ""
         },
         {
           "episode": "03",
-          "standard": "CC4900AE",
+          "standard": "C060DA73",
           "extended": ""
         },
         {
           "episode": "04",
-          "standard": "E4D9E965",
+          "standard": "DB23E2E6",
           "extended": ""
         },
         {
           "episode": "05",
-          "standard": "5D1CA4A2",
-          "extended": "CEDBEA59"
+          "standard": "1CC0DA84",
+          "extended": "ACD6AA5F"
         },
         {
           "episode": "06",
@@ -1217,17 +1217,17 @@
       "episodes": [
         {
           "episode": "01",
-          "standard": "785FB818",
+          "standard": "A6CD3EBB",
           "extended": ""
         },
         {
           "episode": "02",
-          "standard": "495CDC31",
+          "standard": "EBBD7693",
           "extended": ""
         },
         {
           "episode": "03",
-          "standard": "861EE2FF",
+          "standard": "747CF45E",
           "extended": ""
         },
         {
@@ -3301,13 +3301,13 @@
         },
         {
           "episode": "18",
-          "standard": "24DEE374",
+          "standard": "8A1836B5",
           "extended": ""
         },
         {
           "episode": "19",
-          "standard": "73E70A0E",
-          "extended": "CF226ADC"
+          "standard": "6AE11B21",
+          "extended": "93B80191"
         },
         {
           "episode": "20",
