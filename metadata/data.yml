@@ -1,8 +1,8 @@
 status:
-  last_update: '2025-12-14T06:10:05+00:00'
-  last_update_ts: 1765692605
+  last_update: '2025-12-14T07:21:54+00:00'
+  last_update_ts: 1765696914
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 47
+  version: 48
 tvshow:
   en:
     title: One Piece
