@@ -48,6 +48,7 @@ jobs:
           output_update="$(uv run main.py update 2> >(cat >&2))"
           popd
 
+          git lfs prune -f
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
