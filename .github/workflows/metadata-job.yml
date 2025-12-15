@@ -3,7 +3,6 @@ name: One Pace Metadata Job (v2)
 on:
   schedule:
     - cron: '0 * * * *'
-  workflow_dispatch:
 
 jobs:
   build:
@@ -48,7 +47,6 @@ jobs:
           output_update="$(uv run main.py update 2> >(cat >&2))"
           popd
 
-          git lfs prune -f
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
