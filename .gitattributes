@@ -1,2 +1,0 @@
-metadata/data_with_posters.sqlite filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
