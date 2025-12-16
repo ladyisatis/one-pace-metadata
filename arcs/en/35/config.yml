@@ -183,13 +183,13 @@ info:
   manga_chapters: 909 - 1057
   num_of_chapters: 149
   anime_episodes: 890 - 1085
-  episodes_adapted: 124
-  filler_episodes: ''
-  num_of_pace_eps: 55
-  piece_minutes: 2666
+  episodes_adapted: 126
+  filler_episodes: 1029 - 1030, 1084
+  num_of_pace_eps: 56
+  piece_minutes: 2709
   pace_minutes: 1596
   audio_languages: Jpn,Eng (1-3, 31-)
   sub_languages: Eng,Es ,Fr,Ar, De (44-)
   pixeldrain_only: Es,Fr, Ar
   resolution: 1080p
-  arc_watch_guide: Pace Episodes 1-55 then Original Episodes 1016 - 1085
+  arc_watch_guide: Pace Episodes 1-56 then Original Episodes 1018 - 1085
