@@ -1,8 +1,8 @@
 status:
-  last_update: '2025-12-16T06:11:07+00:00'
-  last_update_ts: 1765865467
+  last_update: '2025-12-16T12:12:34+00:00'
+  last_update_ts: 1765887154
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 61
+  version: 62
 tvshow:
   en:
     title: One Piece
@@ -2281,7 +2281,7 @@ arcs:
       filler_episodes: 1029 - 1030, 1084
       num_of_pace_eps: 56
       piece_minutes: 2709
-      pace_minutes: 1596
+      pace_minutes: 1620
       audio_languages: Jpn,Eng (1-3, 31-)
       sub_languages: Eng,Es ,Fr,Ar, De (44-)
       pixeldrain_only: Es,Fr, Ar
