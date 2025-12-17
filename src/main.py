@@ -851,12 +851,13 @@ class OnePaceMetadata:
             yml_load["anime_episodes"] = episodes
             changed = True
 
-        if yml_load.get("duration", 0) != int(length):
+        if str(yml_load.get("duration", 0)) != str(length):
             yml_load["duration"] = int(length)
             changed = True
 
         if "length" in yml_load:
             del yml_load["length"]
+            changed = True
 
         if changed:
             crc_file.write_text(
