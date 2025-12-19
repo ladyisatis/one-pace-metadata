@@ -487,10 +487,10 @@ class OnePaceMetadata:
                     logger.info(f"Not in row: {row}")
                     continue
 
-                arc = row["arc_title"].strip()
+                arc = self.unicode_fix(row["arc_title"].strip())
                 episode = row["arc_part"].strip()
-                title = row[title_key].strip()
-                description = row[desc_key].strip()
+                title = self.unicode_fix(row[title_key].strip())
+                description = self.unicode_fix(row[desc_key].strip())
 
                 if arc == "" or episode == "" or title == "":
                     continue
