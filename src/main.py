@@ -731,6 +731,12 @@ class OnePaceMetadata:
                     length = timedelta(minutes=int(length_group[0]), seconds=int(length_group[1])).total_seconds()
                 elif len(length_group) == 3:
                     length = timedelta(hours=int(length_group[0]), minutes=int(length_group[1]), seconds=int(length_group[2])).total_seconds()
+                else:
+                    length = 0
+            elif str(length).isdecimal():
+                length = int(length)
+            else:
+                length = 0
 
             if ":" in length_extended:
                 length_group = length_extended.split(":")
@@ -738,6 +744,12 @@ class OnePaceMetadata:
                     length_extended = timedelta(minutes=int(length_group[0]), seconds=int(length_group[1])).total_seconds()
                 elif len(length_group) == 3:
                     length_extended = timedelta(hours=int(length_group[0]), minutes=int(length_group[1]), seconds=int(length_group[2])).total_seconds()
+                else:
+                    length_extended = 0
+            elif str(length_extended).isdecimal():
+                length_extended = int(length_extended)
+            else:
+                length_extended = 0
 
             for arc_folder in self.arc_dir.iterdir():
                 config_yml = Path(arc_folder, str(sheet_index), "config.yml")
@@ -853,10 +865,6 @@ class OnePaceMetadata:
 
         if str(yml_load.get("duration", 0)) != str(length):
             yml_load["duration"] = int(length)
-            changed = True
-
-        if "length" in yml_load:
-            del yml_load["length"]
             changed = True
 
         if changed:
