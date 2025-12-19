@@ -1,8 +1,8 @@
 status:
-  last_update: '2025-12-19T01:32:14+00:00'
-  last_update_ts: 1766107934
+  last_update: '2025-12-19T06:10:42+00:00'
+  last_update_ts: 1766124642
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 66
+  version: 68
 tvshow:
   en:
     title: One Piece
@@ -2477,7 +2477,7 @@ descriptions:
     episode: 2
     title: Treasure
     originaltitle: ''
-    description: Luffy meets a small dog guarding his late master’s store. Meanwhile,
+    description: Luffy meets a small dog guarding his late master's store. Meanwhile,
       Beast Tamer Mohji, Cabaji the Acrobat, and the lion Richie show up in the streets
       of Orange Town to get revenge for Captain Buggy's humiliating loss.
   - arc: 2
@@ -2506,7 +2506,7 @@ descriptions:
     title: The Slope
     originaltitle: ''
     description: Usopp resolves that if he is to keep the peace, the town must continue
-      to believe he is a liar, which means he cannot let Captain Kuro’s men up the
+      to believe he is a liar, which means he cannot let Captain Kuro's men up the
       slope to the village! Luffy, Zoro, and Nami aid Usopp in his plan to keep the
       Black Cat Pirates at bay.
   - arc: 3
@@ -2599,7 +2599,7 @@ descriptions:
     originaltitle: ''
     description: The struggle with Krieg nears its end. Luffy's fighting spirit is
       unwavering, even after taking several hits from Krieg's Stalwart War Spear.
-      Straw Hat’s strategy shifts to smashing through Krieg’s defenses and attacking
+      Straw Hat's strategy shifts to smashing through Krieg's defenses and attacking
       the spear head-on.
   - arc: 5
     episode: 8
@@ -2626,8 +2626,8 @@ descriptions:
     episode: 3
     title: Sea Charts and Fishmen
     originaltitle: ''
-    description: Luffy’s group has reached the island but are met with a shocking
-      revelation. Unmoved by Nami’s apparent actions and her insistence that he leaves,
+    description: Luffy's group has reached the island but are met with a shocking
+      revelation. Unmoved by Nami's apparent actions and her insistence that he leaves,
       Luffy stubbornly sticks around.
   - arc: 6
     episode: 4
@@ -2654,8 +2654,8 @@ descriptions:
     episode: 7
     title: Chivalry vs. Fishman Karate
     originaltitle: ''
-    description: Luffy’s newest move leaves him incapacitated and at the mercy of
-      the sea while Zoro, Sanji, and Usopp desperately fight off Arlong’s top officers.
+    description: Luffy's newest move leaves him incapacitated and at the mercy of
+      the sea while Zoro, Sanji, and Usopp desperately fight off Arlong's top officers.
   - arc: 6
     episode: 8
     title: My Turn
@@ -2713,7 +2713,7 @@ descriptions:
     title: Reverse Mountain
     originaltitle: ''
     description: Following a near disaster in the Calm Belt, the Straw Hats take a
-      wild ride up and down a mountain… and are promptly swallowed by a giant whale!
+      wild ride up and down a mountain... and are promptly swallowed by a giant whale!
   - arc: 9
     episode: 2
     title: Cape Promise
@@ -2850,7 +2850,7 @@ descriptions:
     title: Hiriluk's Cherry Blossoms
     originaltitle: Hiruluk's Cherry Blossoms
     description: Finally convinced to join the Straw Hat Pirates, Chopper announces
-      his intentions to Dr. Kureha. While she doesn’t receive the news well at first,
+      his intentions to Dr. Kureha. While she doesn't receive the news well at first,
       she decides to give the Straw Hats a fond parting gift while they exit the island.
   - arc: 14
     episode: 1
@@ -2864,9 +2864,9 @@ descriptions:
     episode: 2
     title: Landfall in Alabasta
     originaltitle: Landfall in Arabasta
-    description: The Merry makes landfall at Arabasta’s port town, and while the rest
+    description: The Merry makes landfall at Arabasta's port town, and while the rest
       of the Straw Hats wisely don disguises, Luffy runs afoul of an old foe. However,
-      a chance reunion with a flame-wielding member of Luffy’s family might just be
+      a chance reunion with a flame-wielding member of Luffy's family might just be
       the saving grace he needs!
   - arc: 14
     episode: 3
@@ -2901,17 +2901,17 @@ descriptions:
     episode: 7
     title: It Begins
     originaltitle: ''
-    description: Luffy leads a daring—but foolish—raid on Crocodile’s casino. His
+    description: Luffy leads a daring—but foolish—raid on Crocodile's casino. His
       poor planning lands him behind bars with Captain Smoker. But more importantly,
       these actions leave Vivi alone and unprotected.
   - arc: 14
     episode: 8
     title: Rebellion
     originaltitle: ''
-    description: “The king of Arabasta” appears to order Nanohana’s attack. With this,
-      the people's anger explodes! Meanwhile, Vivi frantically looks for Sanji, and
-      as Crocodile leaves the pirates to their fate, he is suddenly contacted by a
-      "Mr. Prince."
+    description: '"The king of Arabasta" appears to order Nanohana''s attack. With
+      this, the people''s anger explodes! Meanwhile, Vivi frantically looks for Sanji,
+      and as Crocodile leaves the pirates to their fate, he is suddenly contacted
+      by a "Mr. Prince."'
   - arc: 14
     episode: 9
     title: Rush!!
@@ -2924,7 +2924,7 @@ descriptions:
     episode: 10
     title: Showdown at Alubarna
     originaltitle: ''
-    description: Vivi’s party speeds along toward Alubarna, as does the Rebel Army.
+    description: Vivi's party speeds along toward Alubarna, as does the Rebel Army.
       While the Supersonic Duck Squad helps Zoro and the others play decoy, Vivi sets
       out on her own to try and stop Koza and his rebels.
   - arc: 14
@@ -2969,10 +2969,10 @@ descriptions:
     episode: 16
     title: HOPE!!
     originaltitle: ''
-    description: 'Luffy vs. Crocodile: Round 2! Luffy has discovered Crocodile’s weakness,
-      but the power of the Sand-Sand Fruit is devastating regardless. Meanwhile, the
-      remaining Straw Hats have ten minutes to find a hidden cannoneer before a bomb
-      is launched into the city.'
+    description: 'Luffy vs. Crocodile: Round 2! Luffy has discovered Crocodile''s
+      weakness, but the power of the Sand-Sand Fruit is devastating regardless. Meanwhile,
+      the remaining Straw Hats have ten minutes to find a hidden cannoneer before
+      a bomb is launched into the city.'
   - arc: 14
     episode: 17
     title: Croc-ish
@@ -3010,7 +3010,7 @@ descriptions:
     title: Stowaway
     originaltitle: ''
     description: The Straw Hats have evaded the Marines, but a new development crops
-      up when a certain stowaway makes her presence on the Going Merry known… and
+      up when a certain stowaway makes her presence on the Going Merry known... and
       she wants to be part of the crew!
   - arc: 15
     episode: 1
@@ -3103,7 +3103,7 @@ descriptions:
     originaltitle: ''
     description: The pirates are fed up and ready to leave Skypiea, but Nami, Zoro,
       Robin, and Chopper are whisked away aboard the Merry. The remaining Straw Hat
-      Pirates must face Enel’s challenge, so Conis shows them the way to Upper Yard.
+      Pirates must face Enel's challenge, so Conis shows them the way to Upper Yard.
   - arc: 16
     episode: 5
     title: Adventure on God's Island
@@ -3132,7 +3132,7 @@ descriptions:
     episode: 8
     title: Vearth
     originaltitle: ''
-    description: The Shandians’ attack on Upper Yard commences! At the Sacrificial
+    description: The Shandians' attack on Upper Yard commences! At the Sacrificial
       Altar, the crew is finally reunited, and everyone recounts what has happened.
       Chopper looks after the injured Gan Fall, and the pirates devise a plan to steal
       the gold on the island.
@@ -3149,7 +3149,7 @@ descriptions:
     originaltitle: ''
     description: Only 80 remain in the Upper Yard survival game. Zoro finds himself
       face-to-face with the Shandian Braham, Luffy takes on Wyper and his burning
-      bazooka, and Nami’s group on the Merry has the deadliest encounter of all!
+      bazooka, and Nami's group on the Merry has the deadliest encounter of all!
   - arc: 16
     episode: 11
     title: Pirate Chopper vs. Priest Gedatsu
@@ -3178,7 +3178,7 @@ descriptions:
     originaltitle: ''
     description: After being swallowed by the giant snake, Nami, Gan Fall, and Aisa
       meet someone they never expected would be in the serpent's stomach. As Priest
-      Ohm’s Ordeal of Iron comes to a close in the Upper Ruins, Zoro unleashes a powerful
+      Ohm's Ordeal of Iron comes to a close in the Upper Ruins, Zoro unleashes a powerful
       new technique.
   - arc: 16
     episode: 15
@@ -3273,7 +3273,7 @@ descriptions:
     episode: 2
     title: Donut Race!!
     originaltitle: ''
-    description: 'Luffy accepts Foxy’s challenge to a Davy Back Fight, a pirate contest
+    description: 'Luffy accepts Foxy''s challenge to a Davy Back Fight, a pirate contest
       in which the stakes are the crews themselves! Round #1 is the Donut Race, where
       each team races around the island in tiny boats made from just the scraps of
       three barrels.'
@@ -3327,7 +3327,7 @@ descriptions:
     originaltitle: ''
     description: Kalifa shows Luffy and co. around Dock One and tells them about Iceburg
       and Galley-La Company. During the tour, Kaku returns with some bad news, and
-      a long-nosed Straw Hat goes missing… along with the money he was watching!
+      a long-nosed Straw Hat goes missing... along with the money he was watching!
   - arc: 18
     episode: 4
     title: Impasse
@@ -3339,7 +3339,7 @@ descriptions:
     episode: 5
     title: Luffy vs. Usopp
     originaltitle: ''
-    description: Usopp is unwilling to say farewell to the Going Merry… not without
+    description: Usopp is unwilling to say farewell to the Going Merry... not without
       a fight, that is! He challenges his former captain to a duel between men, so
       Luffy honors the pride of his former crewmate and faces him in battle.
   - arc: 18
@@ -3347,7 +3347,7 @@ descriptions:
     title: Warning
     originaltitle: ''
     description: Iceburg has been shot! When Luffy and Nami decide to go check on
-      him, the fire-breathing, half-mechanical Franky challenges the Straw Hats’ captain.
+      him, the fire-breathing, half-mechanical Franky challenges the Straw Hats' captain.
       Before their fight gets too heated, Galley-La swoops in with an unexpected accusation!
   - arc: 18
     episode: 7
@@ -3407,7 +3407,7 @@ descriptions:
     title: Bingo
     originaltitle: ''
     description: CP9 hauls away Franky and Usopp, but not before giving a coldhearted
-      farewell to the Merry. At Galley-La’s HQ, Nami learns from Iceburg the truth
+      farewell to the Merry. At Galley-La's HQ, Nami learns from Iceburg the truth
       behind Robin's betrayal and the difficult choice she had to make to save the
       lives of the Straw Hats.
   - arc: 18
@@ -3438,7 +3438,7 @@ descriptions:
     originaltitle: ''
     description: Sogeking appears in grand fashion! Wanze threatens Sanji's group
       with his ramen kenpo, so the Straw Hat cook urges the others ahead. Franky takes
-      on CP9's newest recruit “Sea Weasel” Nero, and Sogeking moves forward to meet
+      on CP9's newest recruit "Sea Weasel" Nero, and Sogeking moves forward to meet
       up with Robin.
   - arc: 18
     episode: 19
@@ -3446,14 +3446,14 @@ descriptions:
     originaltitle: ''
     description: In his battle against Wanze and his strange Ramen Kenpo, Sanji makes
       an exception to his rule of never using his hands. Meanwhile, Franky and Nero
-      are baffled by each other’s abilities, and back on Rocketman, Zoro clashes with
-      “Ship-Slasher” T-Bone.
+      are baffled by each other's abilities, and back on Rocketman, Zoro clashes with
+      "Ship-Slasher" T-Bone.
   - arc: 18
     episode: 20
     title: Necessary Evil
     originaltitle: ''
     description: Sanji and Franky conclude their fights and enter the train car where
-      CP9’s agents lie in wait. When Sogeking sees the danger of the situation, it
+      CP9's agents lie in wait. When Sogeking sees the danger of the situation, it
       falls to him to formulate a plan for escape. However, CP9 is far from being
       thwarted!
   - arc: 19
@@ -3539,7 +3539,7 @@ descriptions:
     episode: 12
     title: Pirates vs. CP9
     originaltitle: ''
-    description: The Straw Hats split up to find the correct key before Robin’s fate
+    description: The Straw Hats split up to find the correct key before Robin's fate
       is sealed. Zoro finds and engages Kaku in battle, and Sogeking attempts to steal
       a key from the sleeping Jabra.
   - arc: 19
@@ -3568,7 +3568,7 @@ descriptions:
     episode: 16
     title: The Terrifying Emergency Broadcast
     originaltitle: ''
-    description: As the Marines eke out a comeback against the Straw Hats’ allies,
+    description: As the Marines eke out a comeback against the Straw Hats' allies,
       Spandam makes the call Robin most dreaded. In the meantime, Lucci and Luffy
       begin their mutually anticipated duel, while Nami and Kalifa's fight enters
       the next phase.
@@ -3576,7 +3576,7 @@ descriptions:
     episode: 17
     title: The Hunter
     originaltitle: ''
-    description: Kalifa attempts to counter Nami’s mirages, and something must be
+    description: Kalifa attempts to counter Nami's mirages, and something must be
       done to save Chopper, still on a monstrous rampage. Zoro, now uncuffed, resumes
       his duel with Kaku. As Sogeking reaches his limit against Jabra, Sanji reappears,
       and he is hunting wolves.
@@ -3615,7 +3615,7 @@ descriptions:
     episode: 22
     title: The Legend of the Mermaid
     originaltitle: ''
-    description: Lucci corners Luffy, weakened by his new ability’s aftereffects.
+    description: Lucci corners Luffy, weakened by his new ability's aftereffects.
       Back on the bridge, Spandam makes an attempt on Robin's life, so Franky jumps
       into action. Meanwhile, the rest of the gang is about to drown in the flooded
       passageway.
@@ -3671,12 +3671,12 @@ descriptions:
     originaltitle: ''
     description: The Straw Hats set sail, but Usopp is conspicuously missing. Zoro
       soberly reminds Luffy that Usopp's return should not be granted so casually.
-      More immediately, the pirates need to avoid Garp’s barrage of cannon balls!
+      More immediately, the pirates need to avoid Garp's barrage of cannon balls!
   - arc: 20
     episode: 5
     title: The Circling Bounties and The Duel on Banaro Island!
     originaltitle: ''
-    description: The Straw Hats’ new wanted posters begin circulating around the world,
+    description: The Straw Hats' new wanted posters begin circulating around the world,
       but three days earlier, Blackbeard began plotting their pursuit. However, one
       obstacle stood in his way; Ace had finally caught up to his estranged crewmate!
   - arc: 21
@@ -3806,12 +3806,12 @@ descriptions:
     originaltitle: ''
     description: To give Luffy a fighting chance against Moria, Lola and her pirate
       crew propose a plan to fight shadow with shadow. Meanwhile, Gecko Moria uses
-      his abilities to enhance and manipulate Oars’ massive body.
+      his abilities to enhance and manipulate Oars' massive body.
   - arc: 21
     episode: 18
     title: The Crew's Annihilation! Oars vs. Nightmare Luffy
     originaltitle: ''
-    description: 'Moria’s strange combination with Oars defeats the Straw Hats one
+    description: 'Moria''s strange combination with Oars defeats the Straw Hats one
       after the other. They are at their breaking point when a powerful figure swoops
       in and takes up the fight in their stead. The hellish creation: Nightmare Luffy!'
   - arc: 21
@@ -3825,7 +3825,7 @@ descriptions:
     episode: 20
     title: The Power That Can Deflect Anything?! Zoro Fights Prepared to Die!
     originaltitle: ''
-    description: Moria’s defeat returns the shadows of all his victims. However, one
+    description: Moria's defeat returns the shadows of all his victims. However, one
       Warlord remains on the island, and he has orders to terminate the Straw Hats
       and everyone else in the area. A lone Zoro faces Kuma in vain and is presented
       with a deadly choice.
@@ -3842,7 +3842,7 @@ descriptions:
     description: At death's door, the Rumbar Pirates sang "Binks' Brew" one last time
       and recorded it in a tone dial, hoping to one day deliver it to Laboon. With
       their new crewmate and musician Brook on board, the Straw Hats bid farewell
-      to Lola’s crew.
+      to Lola's crew.
   - arc: 22
     episode: 1
     title: Flying Fish Riders
@@ -3856,7 +3856,7 @@ descriptions:
     title: Iron Mask Duval
     originaltitle: ''
     description: The Straw Hats arrive at Duval's (eerily quiet) base and manage to
-      locate Camie's captured friend. Realizing the captive’s identity, the Straw
+      locate Camie's captured friend. Realizing the captive's identity, the Straw
       Hats reluctantly agree to rescue him, and only in exchange for directions to
       Fishman Island.
   - arc: 22
@@ -3879,7 +3879,7 @@ descriptions:
     episode: 5
     title: The Embers of History
     originaltitle: ''
-    description: While at Shakky’s Rip-off Bar, the Straw Hats learn that Luffy, Zoro
+    description: While at Shakky's Rip-off Bar, the Straw Hats learn that Luffy, Zoro
       and nine other rookie pirates on Sabaody have reached a certain level of infamy.
       Later, Zoro has a close call with an insufferable and sadistic Celestial Dragon.
   - arc: 22
@@ -3895,7 +3895,7 @@ descriptions:
     title: An Island in Chaos
     originaltitle: ''
     description: As chaos erupts inside the auction house, a mysterious man with an
-      equally mysterious power emerges from backstage. But now, due to Luffy’s insolent
+      equally mysterious power emerges from backstage. But now, due to Luffy's insolent
       actions, a Marine admiral is on his way to Sabaody.
   - arc: 22
     episode: 8
@@ -3924,7 +3924,7 @@ descriptions:
     originaltitle: ''
     description: In the face of overwhelming danger, Luffy orders a full retreat.
       However, Warlord Kuma cuts off their frenzied escape and uses a harrowing touch
-      of his devil fruit powers against Luffy’s crewmates, one by one.
+      of his devil fruit powers against Luffy's crewmates, one by one.
   - arc: 23
     episode: 1
     title: Adventure on the Island of Women
@@ -3944,14 +3944,14 @@ descriptions:
     episode: 3
     title: The Arena
     originaltitle: ''
-    description: Luffy is sentenced to execution by arena combat with Boa Hancock’s
+    description: Luffy is sentenced to execution by arena combat with Boa Hancock's
       serpentine sisters. Luffy soon discovers that the two women have a mysterious
       ability that allows them to slither through all his attacks unharmed.
   - arc: 23
     episode: 4
     title: Hancock's Confession
     originaltitle: ''
-    description: Impressed by Luffy’s efforts to protect the secret of the snake sisters,
+    description: Impressed by Luffy's efforts to protect the secret of the snake sisters,
       Hancock reveals the story behind the familiar mark on their backs. Their childhood
       was tragic, suffered at the hands of a corrupt group that Luffy knows all too
       well.
@@ -3960,7 +3960,7 @@ descriptions:
     title: No One Can Stop This Now
     originaltitle: ''
     description: As Luffy prepares to depart Amazon Lily, Hancock suddenly takes ill.
-      Taking heed of the knowledge and wisdom of Elder Nyon, the Snake Princess “recovers,”
+      Taking heed of the knowledge and wisdom of Elder Nyon, the Snake Princess "recovers,"
       and a plan to save Ace is quickly hatched.
   - arc: 24
     episode: 1
@@ -4028,13 +4028,13 @@ descriptions:
     title: To Sunshine and Freedom
     originaltitle: ''
     description: It is utter chaos in Impel Down, and between the sudden appearance
-      of Blackbeard, the vice warden’s interference, and Magellan’s dogged attempts
+      of Blackbeard, the vice warden's interference, and Magellan's dogged attempts
       to restore order, the escape team just might see daylight yet!
   - arc: 24
     episode: 10
     title: Thank You
     originaltitle: ''
-    description: Thanks to Jinbe’s quick thinking, Luffy and co. narrowly escape Impel
+    description: Thanks to Jinbe's quick thinking, Luffy and co. narrowly escape Impel
       Down. However, the Gates of Justice remain closed, and a horde of Marine ships
       is gaining on them. Then, just when all hope seems lost, a dear friend makes
       an all-or-nothing gamble.
@@ -4059,7 +4059,7 @@ descriptions:
     originaltitle: ''
     description: To the surprise of all, the Moby Dick surfaces in the middle of Marineford!
       On the deck stands Whitebeard, the man who Ace calls father, and his fourteen
-      commanders, the pirates he calls family, who share Luffy’s determination to
+      commanders, the pirates he calls family, who share Luffy's determination to
       stop the execution.
   - arc: 26
     episode: 3
@@ -4096,7 +4096,7 @@ descriptions:
     episode: 7
     title: The Whirl Spider
     originaltitle: ''
-    description: Luffy’s progress is halted by Mihawk, but the Whitebeard Pirates
+    description: Luffy's progress is halted by Mihawk, but the Whitebeard Pirates
       counter with a swordsman of their own. Then, when an army of human weapons encircle
       the battlefield, Luffy and his allies find themselves overwhelmed by their explosive
       attacks.
@@ -4104,16 +4104,16 @@ descriptions:
     episode: 8
     title: The Man Who Shook the World
     originaltitle: ''
-    description: Squard’s betrayal of Whitebeard sends ripples of distrust and uncertainty
-      throughout the pirate alliance. And yet, Whitebeard’s faith will not be shattered,
+    description: Squard's betrayal of Whitebeard sends ripples of distrust and uncertainty
+      throughout the pirate alliance. And yet, Whitebeard's faith will not be shattered,
       and it soon becomes clear that his allies are falling into a clever setup launched
       by the Marines.
   - arc: 26
     episode: 9
     title: Assault
     originaltitle: ''
-    description: The pirates are trapped in the bay, held there by Akainu’s magma.
-      Amid the chaos, the order for Ace’s execution is given, and Luffy makes a drastic
+    description: The pirates are trapped in the bay, held there by Akainu's magma.
+      Amid the chaos, the order for Ace's execution is given, and Luffy makes a drastic
       decision that puts him face-to-face with the Marines' most powerful men.
   - arc: 26
     episode: 10
@@ -4122,22 +4122,22 @@ descriptions:
     description: His adopted son within reach, Whitebeard charges forth, undeterred
       by the strongest the Marines have to offer. With both sides swinging between
       victory and defeat, the battlefield plunges into chaos. Then Marco takes to
-      the sky and soars to Ace’s side!
+      the sky and soars to Ace's side!
   - arc: 26
     episode: 11
     title: The White Monster
     originaltitle: Monster
     description: Faced with the might of the admirals, even Whitebeard's commanders
       falter. Refusing to relent, Luffy begs Ivankov for a final chance at victory.
-      Amid a bevy of Marines, an old friend of Luffy’s appears for a much too premature
+      Amid a bevy of Marines, an old friend of Luffy's appears for a much too premature
       reunion.
   - arc: 26
     episode: 12
     title: The Execution Platform
     originaltitle: ''
-    description: Having borne witness to Luffy’s latent powers, the Marines send everything
-      they have at him. But thanks to Ivankov’s quick thinking, Luffy ascends toward
-      Ace. Garp, unable to watch any longer, leaps into Luffy’s path.
+    description: Having borne witness to Luffy's latent powers, the Marines send everything
+      they have at him. But thanks to Ivankov's quick thinking, Luffy ascends toward
+      Ace. Garp, unable to watch any longer, leaps into Luffy's path.
   - arc: 26
     episode: 13
     title: The Times They Are A-Changin'
@@ -4158,7 +4158,7 @@ descriptions:
     episode: 15
     title: Edward Newgate
     originaltitle: ''
-    description: Blackbeard appears, Thatch’s murder and Ace’s capture all part of
+    description: Blackbeard appears, Thatch's murder and Ace's capture all part of
       a terrifying plan that no one could have imagined! With the war in its final
       stage, Whitebeard fights to avenge his fallen sons and to punish the traitor
       who plotted his undoing.
@@ -4174,7 +4174,7 @@ descriptions:
     episode: 17
     title: The War's Conclusion
     originaltitle: ''
-    description: Senseless violence dyes the battlefield red with blood. Luffy’s allies
+    description: Senseless violence dyes the battlefield red with blood. Luffy's allies
       struggle to save him as the admirals maintain their assault. Suddenly, the Red
       Hair Pirates appear! Narrowly missing a reunion with Luffy, Shanks utters a
       speech on the battlefield.
@@ -4184,7 +4184,7 @@ descriptions:
     originaltitle: ''
     description: The Summit War has thrown the entire world into chaos. Emboldened
       by Whitebeard's final words, pirates once again envision a wave they can ride
-      into a new era. At Hancock’s order, Luffy is taken to Amazon Lily to hide from
+      into a new era. At Hancock's order, Luffy is taken to Amazon Lily to hide from
       the Marines while he recovers.
   - arc: 27
     episode: 2
@@ -4231,7 +4231,7 @@ descriptions:
     originaltitle: ''
     description: Although Marine HQ is in ruins after the Summit War, Marines and
       reporters still stalk its grounds. Luffy, Rayleigh, and Jinbe return to where
-      Ace died to carry out a mysterious plan. If all goes well, Luffy’s crew will
+      Ace died to carry out a mysterious plan. If all goes well, Luffy's crew will
       understand his actions.
   - arc: 27
     episode: 8
@@ -4284,7 +4284,7 @@ descriptions:
     title: Landing on Fishman Island! The Mermaid Cove and Gyoverly Hills!
     originaltitle: ''
     description: After a near miss with a creepy undersea ship and Fishman Island
-      in sight, Luffy’s crew is halted by a group of fishmen riding atop sea kings.
+      in sight, Luffy's crew is halted by a group of fishmen riding atop sea kings.
       But time is of the essence, so the Straw Hats attempt a desperate maneuver.
   - arc: 29
     episode: 4
@@ -4321,9 +4321,9 @@ descriptions:
     episode: 8
     title: The Beginning of the Vengeful Plan! Zoro vs. Hody!
     originaltitle: ''
-    description: Hody’s plan for revenge is set in motion, and the Straw Hats who
+    description: Hody's plan for revenge is set in motion, and the Straw Hats who
       have unwittingly taken control of the palace must now defend it against the
-      New Fishman Pirates. Outside, Luffy’s excursion with Shirahoshi is rudely interrupted.
+      New Fishman Pirates. Outside, Luffy's excursion with Shirahoshi is rudely interrupted.
   - arc: 29
     episode: 9
     title: At the Sea Forest! Arlong and Hody
@@ -4342,16 +4342,16 @@ descriptions:
     episode: 11
     title: The Shocking Truth of Tiger! The End of the Sun Pirates
     originaltitle: ''
-    description: Fisher Tiger’s past quickly caught up to him, and he left his crew
-      with a sobering, final command. While Jinbe vowed to uphold Tiger’s and Otohime’s
-      ideals, Arlong’s resentment only grew, and soon, the Sun Pirates faced a crisis
+    description: Fisher Tiger's past quickly caught up to him, and he left his crew
+      with a sobering, final command. While Jinbe vowed to uphold Tiger's and Otohime's
+      ideals, Arlong's resentment only grew, and soon, the Sun Pirates faced a crisis
       of identity.
   - arc: 29
     episode: 12
     title: The Shipwrecked Celestial Dragon! A Bullet That Seals the Future
     originaltitle: ''
     description: The sudden appearance of a Celestial Dragon almost imperiled Fishman
-      Island, but Queen Otohime’s ability to end hostilities provided a ray of hope
+      Island, but Queen Otohime's ability to end hostilities provided a ray of hope
       for everyone. Just when the path to the future seemed bright, a shot echoed
       through the plaza.
   - arc: 29
@@ -4376,7 +4376,7 @@ descriptions:
     originaltitle: ''
     description: Shirahoshi and Jinbe hurry to free King Neptune but run headlong
       into a trap. There, Hody reveals a shocking truth about the history of his revolution,
-      but even in the face of Hody’s cruelty, Shirahoshi holds true to her mother’s
+      but even in the face of Hody's cruelty, Shirahoshi holds true to her mother's
       dying wish.
   - arc: 29
     episode: 16
@@ -4384,12 +4384,12 @@ descriptions:
     originaltitle: ''
     description: The Straw Hats have reassembled at last, an army of New Fishman Pirates
       standing before them. With the last two years still fresh in their minds, the
-      Straw Hats’ training is put to the test, and they unleash a flurry of new techniques.
+      Straw Hats' training is put to the test, and they unleash a flurry of new techniques.
   - arc: 29
     episode: 17
     title: The General from the Future Land and the Crisis of Fishman Island's Destruction
     originaltitle: ''
-    description: Franky’s mechanical masterpieces have transformations in store that
+    description: Franky's mechanical masterpieces have transformations in store that
       can only be described as "super!" However, onlookers curb their enthusiasm when
       a foreboding shadow is cast upon the plaza by a giant ship hurtling toward the
       island!
@@ -4406,20 +4406,20 @@ descriptions:
     title: What Are You?
     originaltitle: ''
     description: The Straw Hats hold their own against the powerful officers from
-      Hody’s crew. But their struggle will be in vain if Luffy cannot stop the Noah.
+      Hody's crew. But their struggle will be in vain if Luffy cannot stop the Noah.
       Meanwhile, Hody becomes stronger than ever.
   - arc: 29
     episode: 20
     title: Phantom
     originaltitle: ''
-    description: Neptune’s army aids the Straw Hats against the New Fishman Pirates,
-      finally accepting the crew as allies. As the fight continues, Fukaboshi’s transponder
+    description: Neptune's army aids the Straw Hats against the New Fishman Pirates,
+      finally accepting the crew as allies. As the fight continues, Fukaboshi's transponder
       snail reveals the bone chilling truth behind Hody's motivations.
   - arc: 29
     episode: 21
     title: Death Is Also Revenge
     originaltitle: ''
-    description: Luffy has a fist of fire with Hody’s name on it, and the rest of
+    description: Luffy has a fist of fire with Hody's name on it, and the rest of
       the Straw Hats push forward with all their might. Hody takes even more energy
       steroids, and a gravely injured Luffy struggles to overcome the fishman's unbelievable
       stamina.
@@ -4465,7 +4465,7 @@ descriptions:
     episode: 3
     title: About My Torso
     originaltitle: ''
-    description: Luffy’s group finds themselves up against a gang of centaurs, Brook
+    description: Luffy's group finds themselves up against a gang of centaurs, Brook
       battles an aggressive mysterious torso, and Vice Admiral Smoker encounters someone
       highly unexpected! Meanwhile, Nami and Chopper seek a safe exit for a group
       of children.
@@ -4473,8 +4473,8 @@ descriptions:
     episode: 4
     title: The Lake of Bandits
     originaltitle: ''
-    description: Luffy’s group takes a deadly plunge into icy waters, and Trafalgar
-      Law uses his unique abilities to rearrange Nami’s group and place the Straw
+    description: Luffy's group takes a deadly plunge into icy waters, and Trafalgar
+      Law uses his unique abilities to rearrange Nami's group and place the Straw
       Hats into a state of chaos! Then, things heat up when G-5 squares off with Law.
   - arc: 30
     episode: 5
@@ -4482,7 +4482,7 @@ descriptions:
     originaltitle: ''
     description: Luffy is excited to once again cross paths with Trafalgar Law. While
       Vice Admiral Smoker determines his next move, an exceptionally large pirate
-      with alligator legs tells Luffy and the Straw Hats the true story of Punk Hazard’s
+      with alligator legs tells Luffy and the Straw Hats the true story of Punk Hazard's
       mysterious transformation!
   - arc: 30
     episode: 6
@@ -4504,14 +4504,14 @@ descriptions:
     title: Blizzard with a Chance of Slime
     originaltitle: ''
     description: Zoro, Sanji, and Brook continue their search for the samurai, and
-      Law tries to sneak Chopper into the laboratory! And then, Luffy’s battle with
+      Law tries to sneak Chopper into the laboratory! And then, Luffy's battle with
       his old nemesis Smoker is interrupted by the arrival of a terrifying toxic blob.
   - arc: 30
     episode: 9
     title: My Name Is Kin'emon!!
     originaltitle: ''
-    description: Law's plan to infiltrate Caesar’s facility hits a snag when an unexpected
-      guest complicates things. Meanwhile, Chopper investigates the Master’s lab,
+    description: Law's plan to infiltrate Caesar's facility hits a snag when an unexpected
+      guest complicates things. Meanwhile, Chopper investigates the Master's lab,
       and the mysterious samurai shows what he can do with a full body!
   - arc: 30
     episode: 10
@@ -4533,15 +4533,15 @@ descriptions:
     episode: 12
     title: The Counterattack Begins!
     originaltitle: ''
-    description: Law has a trick up his sleeve that turns the tide in the alliance’s
+    description: Law has a trick up his sleeve that turns the tide in the alliance's
       favor, to include an on-the-spot partnership with former foes. Zoro and company
-      reunite with Nami and Sanji, and it is all Luffy’s group can do to ensure everyone’s
+      reunite with Nami and Sanji, and it is all Luffy's group can do to ensure everyone's
       safety in the lab.
   - arc: 30
     episode: 13
     title: G-5's Sacrifice and the Betrayal of the Vice Admiral!
     originaltitle: ''
-    description: Caesar hatches a plan to forever silence his enemies, and Tashigi’s
+    description: Caesar hatches a plan to forever silence his enemies, and Tashigi's
       men make the ultimate sacrifice! Luffy races toward Caesar to deliver on his
       promise to beat and capture him, and Chopper does all he can to keep the children
       from consuming more candy.
@@ -4550,22 +4550,22 @@ descriptions:
     title: The Mastermind in the Shadows and the Battle Between Gas and Rubber!
     originaltitle: ''
     description: Law finds the room that could ruin the New World, and Luffy hopes
-      to bring Caesar’s reign of terror to a brutal end! With Law's true ambitions
+      to bring Caesar's reign of terror to a brutal end! With Law's true ambitions
       revealed, Doflamingo flies into action to protect his criminal operation!
   - arc: 30
     episode: 15
     title: Vice Admiral vs. Vice Admiral and the Truth Behind Punk Hazard's Destruction!
     originaltitle: ''
     description: Smoker attacks the estranged Vice Admiral Vergo for assaulting his
-      men, and in the trash heap, Luffy meets something strange. Meanwhile, Caesar’s
-      bloated words to his men about the island’s history do not match what occurred.
+      men, and in the trash heap, Luffy meets something strange. Meanwhile, Caesar's
+      bloated words to his men about the island's history do not match what occurred.
   - arc: 30
     episode: 16
     title: The Dragon Named Momonosuke and the Menacing Snow Fruit User!
     originaltitle: ''
     description: Luffy befriends a dragon that used to be a human boy, and Vice Admiral
       Smoker continues his brutal battle with the villainous Vergo. Mocha tries to
-      keep the Master’s candy away from her friends, and Zoro pits his steel against
+      keep the Master's candy away from her friends, and Zoro pits his steel against
       snow in a battle with Monet.
   - arc: 30
     episode: 17
@@ -4589,14 +4589,14 @@ descriptions:
     originaltitle: ''
     description: Law concludes his epic battle with Vergo, and Luffy looks to land
       a devastating blow on the murderous gasbag mastermind. Meanwhile, word of Luffy
-      and Law’s alliance spreads throughout the world, and Joker sends a team to rescue
+      and Law's alliance spreads throughout the world, and Joker sends a team to rescue
       Caesar.
   - arc: 30
     episode: 20
     title: Die for Me! The Dangerous Man Makes His Move!
     originaltitle: ''
-    description: As the Straw Hats and co. flee the crumbling laboratory, Caesar’s
-      desperate act of vengeance thwarts Joker’s plan to forever silence his enemies.
+    description: As the Straw Hats and co. flee the crumbling laboratory, Caesar's
+      desperate act of vengeance thwarts Joker's plan to forever silence his enemies.
       Franky continues his battle with Buffalo and Baby 5, and Usopp takes a shot
       at capturing Caesar.
   - arc: 30
@@ -4621,7 +4621,7 @@ descriptions:
     originaltitle: ''
     description: Dressrosa! The Straw Hats split up and set about their business on
       this passionate, enchanting island! But here, in the heart of enemy territory,
-      danger lurks around every corner. Luffy’s group encounters an intriguing blind
+      danger lurks around every corner. Luffy's group encounters an intriguing blind
       man whose luck has run dry.
   - arc: 31
     episode: 2
@@ -4629,7 +4629,7 @@ descriptions:
     originaltitle: ''
     description: Zoro and co. strike off in search of the thieving fairy who has taken
       Zoro's sword, but Sanji gets distracted by the alluring dancing of a gorgeous
-      Dressrosan. Meanwhile, the prize of the late Ace’s devil fruit draws Luffy and
+      Dressrosan. Meanwhile, the prize of the late Ace's devil fruit draws Luffy and
       Franky to the colosseum.
   - arc: 31
     episode: 3
@@ -4674,10 +4674,10 @@ descriptions:
     episode: 8
     title: Closely Contested Block C! Lucy and Ucy!
     originaltitle: ''
-    description: The Sunny is mysteriously deformed by Giolla’s strange powers! Meanwhile,
+    description: The Sunny is mysteriously deformed by Giolla's strange powers! Meanwhile,
       the battle for Block C is under way, but Luffy suffers a staggering setback.
       He eventually knocks down the giant Hajrudin, but Chinjao has his sights set
-      on Garp’s grandson!
+      on Garp's grandson!
   - arc: 31
     episode: 9
     title: C Block's Blazing Battle and the Forgotten of Dressrosa!
@@ -4685,7 +4685,7 @@ descriptions:
     description: In the colosseum, Chinjao finally faces Luffy and reveals the old
       grudge he bears against Garp! Meanwhile, Usopp and Robin get swept up in the
       Tontattas' raid against the royal family, and Franky learns the eerie secret
-      of Dressrosa’s living toys.
+      of Dressrosa's living toys.
   - arc: 31
     episode: 10
     title: The Tontatta Rebellion and the C Block Finale!
@@ -4765,8 +4765,8 @@ descriptions:
     title: Captain
     originaltitle: ''
     description: With Operation SOP in its final stage, the Tontattas are devastated
-      by Trebol’s furious attack, but as Usopp tries to convince Leo to abort the
-      operation, Leo tells him about their commander’s stunning true identity.
+      by Trebol's furious attack, but as Usopp tries to convince Leo to abort the
+      operation, Leo tells him about their commander's stunning true identity.
   - arc: 31
     episode: 21
     title: Usoland the Liar
@@ -4793,7 +4793,7 @@ descriptions:
     title: Executive Officer Pica
     originaltitle: ''
     description: Doflamingo announces the rules for his deadly game with the highest
-      bounty reserved for… Usopp! As Luffy and co. head toward the palace, Fujitora
+      bounty reserved for... Usopp! As Luffy and co. head toward the palace, Fujitora
       stands in their way, and Pica emerges in town to change the stakes of the game.
   - arc: 31
     episode: 25
@@ -4829,7 +4829,7 @@ descriptions:
     title: Trump Card
     originaltitle: ''
     description: Gladius' exploding spheres send Robin and Bartolomeo hurtling directly
-      into Luffy and co.’s battle with some creepy dolls. Rebecca makes it to the
+      into Luffy and co.'s battle with some creepy dolls. Rebecca makes it to the
       Flower Field alone, and Sabo tastes Fujitora's full might!
   - arc: 31
     episode: 30
@@ -4845,7 +4845,7 @@ descriptions:
     description: All hopes rest on Luffy and Law being able to take down Doflamingo;
       however, the Warlord has other plans in mind as he gives the two the fight of
       their lives, and he reveals his true, shocking history! Meanwhile, Sabo finds
-      out Fujitora’s true intention.
+      out Fujitora's true intention.
   - arc: 31
     episode: 32
     title: White Town
@@ -4859,8 +4859,8 @@ descriptions:
     title: 'The Island of Fate: Minion'
     originaltitle: ''
     description: Things grew stranger for Law when he learned the secret behind why
-      Corazón feigned being mute. But the mysterious Corazón’s actions were only beginning
-      to baffle Law when he took him on a journey to cure the youth’s disease.
+      Corazón feigned being mute. But the mysterious Corazón's actions were only beginning
+      to baffle Law when he took him on a journey to cure the youth's disease.
   - arc: 31
     episode: 34
     title: Cora
@@ -4930,7 +4930,7 @@ descriptions:
     originaltitle: ''
     description: The birdcage tightens its grip on Dressrosa, so Zoro sets off with
       a plan to stop it from slicing apart the country. Meanwhile, Luffy digs deep
-      into his training to provide an answer born of rubber and haki to combat Doflamingo’s
+      into his training to provide an answer born of rubber and haki to combat Doflamingo's
       might.
   - arc: 31
     episode: 43
@@ -4945,7 +4945,7 @@ descriptions:
     originaltitle: ''
     description: With just over a minute to spare, everyone in Dressrosa turns their
       efforts toward slowing the birdcage. Meanwhile, Rebecca, under the control of
-      Doflamingo, advances to attack Viola, and a hero’s recovery cannot come soon
+      Doflamingo, advances to attack Viola, and a hero's recovery cannot come soon
       enough!
   - arc: 31
     episode: 45
@@ -4981,7 +4981,7 @@ descriptions:
     title: Zou
     originaltitle: ''
     description: The mysterious island of Zou approaches in the distance, obscured
-      by fog. When the haze clears, what greets the Straw Hats is beyond anyone’s
+      by fog. When the haze clears, what greets the Straw Hats is beyond anyone's
       expectations! Luffy and co. find the Sunny nearby, but the rest of the crew
       has already disembarked.
   - arc: 32
@@ -5018,7 +5018,7 @@ descriptions:
     title: Tea Party Invitation
     originaltitle: ''
     description: The mystery of Sanji's disappearance only deepens as Luffy learns
-      that Big Mom’s lackeys caught up with him and offered him an invitation from
+      that Big Mom's lackeys caught up with him and offered him an invitation from
       one of the Four Emperors that simply could not be refused.
   - arc: 32
     episode: 7
@@ -5047,7 +5047,7 @@ descriptions:
     originaltitle: ''
     description: 'The Straw Hats divide and conquer: one group to go save Sanji, and
       the other to Wano! But just before their departure, the tremendous elephant
-      quakes as Jack’s fleet launches an aggressive attack on the monstrous Zunesha.'
+      quakes as Jack''s fleet launches an aggressive attack on the monstrous Zunesha.'
   - arc: 33
     episode: 1
     title: A World Abuzz
@@ -5067,7 +5067,7 @@ descriptions:
     title: Totto Land
     originaltitle: ''
     description: Arriving on Cacao Island, Luffy and Chopper are in heaven as everything
-      before their eyes is edible. There, the Straw Hats encounter Sanji’s betrothed,
+      before their eyes is edible. There, the Straw Hats encounter Sanji's betrothed,
       Pudding, but when they challenge her for Sanji's heart, her answer is truly
       shocking.
   - arc: 33
@@ -5077,12 +5077,12 @@ descriptions:
     description: Big Mom ravages Whole Cake Island in search of sweets, and while
       a familiar face across the waters has just what she needs, he also brings ill
       tidings. As the Straw Hats draw closer to the island, Pedro shares his sordid
-      past in Big Mom’s territory.
+      past in Big Mom's territory.
   - arc: 33
     episode: 5
     title: Adventure in the Mysterious Forest
     originaltitle: ''
-    description: Luffy’s group makes its way toward Sanji, only to be distracted by
+    description: Luffy's group makes its way toward Sanji, only to be distracted by
       the endless supply of sweets and a second Luffy. Before they realize it, they
       are lost in the Seducing Woods! Meanwhile, Sanji confronts his older brother.
   - arc: 33
@@ -5112,15 +5112,15 @@ descriptions:
     title: The Iron Mask
     originaltitle: ''
     description: Sanji challenges his entire family, but they have effectively ensured
-      he follows their wedding scheme. The truth of Germa's power and Vinsmoke Judge’s
+      he follows their wedding scheme. The truth of Germa's power and Vinsmoke Judge's
       dark history is also revealed. Meanwhile, Nami has recruited the homies and
       challenges Cracker!
   - arc: 33
     episode: 10
     title: To the East Blue
     originaltitle: ''
-    description: Sanji’s tragic history included a rare moment of compassion that
-      was his only chance at escape, but even then, his father’s cruelty haunted him.
+    description: Sanji's tragic history included a rare moment of compassion that
+      was his only chance at escape, but even then, his father's cruelty haunted him.
       In the present, Reiju helps Sanji straighten himself out before he meets with
       his fiancée.
   - arc: 33
@@ -5128,7 +5128,7 @@ descriptions:
     title: Luffy vs. Sanji
     originaltitle: ''
     description: Luffy finishes off Cracker and finally catches up with Sanji, but
-      the Straw Hats’ cook seems far from thrilled about the reunion. A heartbreaking
+      the Straw Hats' cook seems far from thrilled about the reunion. A heartbreaking
       duel commences, but a steadfast Luffy makes a solemn vow to his friend and crewmate.
   - arc: 33
     episode: 12
@@ -5136,7 +5136,7 @@ descriptions:
     originaltitle: ''
     description: Luffy stands his ground and waits for Sanji to return, but as the
       vengeful army washes over him, only a true friend can step in to help. At Big
-      Mom’s castle, Sanji and Pudding discuss their marriage and come to a startling
+      Mom's castle, Sanji and Pudding discuss their marriage and come to a startling
       conclusion!
   - arc: 33
     episode: 13
@@ -5180,15 +5180,15 @@ descriptions:
     episode: 18
     title: Rook
     originaltitle: ''
-    description: Jinbe tells the Straw Hats about Capone “Gang” Bege and proposes
+    description: Jinbe tells the Straw Hats about Capone "Gang" Bege and proposes
       a shocking plan to take down Big Mom! But before they are granted an audience
       with Bege, they must make themselves presentable.
   - arc: 33
     episode: 19
     title: Emperor Assassination Plan
     originaltitle: ''
-    description: The plan for Big Mom’s assassination is all set. Sanji heads back
-      to his room to avoid suspicion, but Mont d’Or is hot on his trail. The day arrives,
+    description: The plan for Big Mom's assassination is all set. Sanji heads back
+      to his room to avoid suspicion, but Mont d'Or is hot on his trail. The day arrives,
       and guests from the criminal underground pour in in droves, some with their
       own agendas to settle.
   - arc: 33
@@ -5211,7 +5211,7 @@ descriptions:
     title: Hey, Mother
     originaltitle: ''
     description: 'Luffy dashes toward Big Mom to show her the broken portrait again,
-      and Sanji attempts to free his family. Here, Big Mom’s tragic and sad history
+      and Sanji attempts to free his family. Here, Big Mom''s tragic and sad history
       is revealed: from the very beginning, Big Mom''s voracious hunger has brought
       her into conflict with others.'
   - arc: 33
@@ -5219,7 +5219,7 @@ descriptions:
     title: HAPPY BIRTHDAY
     originaltitle: ''
     description: A young Linlin managed to enrage the giants of Elbaph, but Mother
-      Carmel begged for clemency on her behalf. After Carmel’s mysterious disappearance,
+      Carmel begged for clemency on her behalf. After Carmel's mysterious disappearance,
       Linlin fell in with a new cohort and found her reason to go on living.
   - arc: 33
     episode: 24
@@ -5234,7 +5234,7 @@ descriptions:
     title: You Can Do It, Caesar!!
     originaltitle: ''
     description: Caesar flies the entire alliance, still inside Bege, out of the venue!
-      However, the full might of the Big Mom Pirates proves too much. The alliance’s
+      However, the full might of the Big Mom Pirates proves too much. The alliance's
       annihilation is imminent, but something shakes the playing field.
   - arc: 33
     episode: 26
@@ -5249,7 +5249,7 @@ descriptions:
     title: A Woman's Honor
     originaltitle: ''
     description: Big Mom is relentless in her pursuit of the Straw Hats. Elsewhere,
-      the plan to recreate the wedding cake progresses while Pudding’s unpredictable
+      the plan to recreate the wedding cake progresses while Pudding's unpredictable
       heart confuses everyone, including herself.
   - arc: 33
     episode: 28
@@ -5263,14 +5263,14 @@ descriptions:
     title: Zero Escape
     originaltitle: ''
     description: In the Mirro-world, Luffy confronts the formidable Charlotte Katakuri,
-      Big Mom’s strongest child. Meanwhile, Pudding and Sanji arrive at Cacao Island
+      Big Mom's strongest child. Meanwhile, Pudding and Sanji arrive at Cacao Island
       to remake the cake, but they bicker like a married couple the whole time.
   - arc: 33
     episode: 30
     title: Wave Room
     originaltitle: ''
     description: Nami and Luffy discuss a rendezvous point while the others break
-      the mirrors on the Sunny. Little do they know their plan is overheard, and Luffy’s
+      the mirrors on the Sunny. Little do they know their plan is overheard, and Luffy's
       grueling battle against Katakuri—haki vs. haki, rubber vs. mochi—intensifies.
   - arc: 33
     episode: 31
@@ -5313,7 +5313,7 @@ descriptions:
     episode: 36
     title: Pirate Luffy vs. Commander Katakuri
     originaltitle: ''
-    description: Desiring revenge after complete embarrassment, Big Mom’s children
+    description: Desiring revenge after complete embarrassment, Big Mom's children
       band together to smash the Straw Hats. Meanwhile, Luffy and Katakuri are locked
       in a duel to end all duels, where each blow could be the last.
   - arc: 33
@@ -5340,7 +5340,7 @@ descriptions:
     episode: 1
     title: The Fifth Emperor
     originaltitle: ''
-    description: Luffy’s reputation grows as all eyes look toward the Straw Hats’
+    description: Luffy's reputation grows as all eyes look toward the Straw Hats'
       next move. Meanwhile, the royals of the world make their way to the Reverie,
       but their absence welcomes a raid by a vicious band of pirates on the Kingdom
       of Lulusia.
@@ -5350,7 +5350,7 @@ descriptions:
     originaltitle: ''
     description: At New Marineford, Fleet Admiral Sakazuki hears the news about Luffy
       while nobles from around the world gather for the Reverie! At the Red Line,
-      Garp is escorting King Neptune’s family when Shirahoshi sees the surface world
+      Garp is escorting King Neptune's family when Shirahoshi sees the surface world
       for the first time.
   - arc: 34
     episode: 3
@@ -5392,7 +5392,7 @@ descriptions:
     episode: 5
     title: Okobore Town
     originaltitle: ''
-    description: Otama is kidnapped by Kaido’s gifters and taken to a flourishing
+    description: Otama is kidnapped by Kaido's gifters and taken to a flourishing
       settlement called Bakura Town where a creepy-looking headliner was expecting
       her. Luffy, Zoro, and the samurai Okiku rush to her rescue.
   - arc: 35
@@ -5407,7 +5407,7 @@ descriptions:
     title: The Provisions Ship
     originaltitle: ''
     description: Luffy and co. finally find Otama hanging from the mouth of a lion
-      in Holdem’s stomach. Luffy prepares to save Otama from Kaido’s lackey, and elsewhere,
+      in Holdem's stomach. Luffy prepares to save Otama from Kaido's lackey, and elsewhere,
       a mysterious figure confronts Basil Hawkins.
   - arc: 35
     episode: 8
@@ -5421,14 +5421,14 @@ descriptions:
     episode: 9
     title: I Love Oden
     originaltitle: ''
-    description: Kin’emon tells Luffy and the others about how Kozuki Oden brought
+    description: Kin'emon tells Luffy and the others about how Kozuki Oden brought
       peace to Kuri and became its daimyo. However, he was set up by Kaido and Orochi.
-      When Kin’emon ran to save Oden’s wife, she revealed a shocking truth.
+      When Kin'emon ran to save Oden's wife, she revealed a shocking truth.
   - arc: 35
     episode: 10
     title: Shutenmaru
     originaltitle: ''
-    description: Ashura Doji, a.k.a Shutenmaru, is one of the allies Kin’emon wants
+    description: Ashura Doji, a.k.a Shutenmaru, is one of the allies Kin'emon wants
       to search for, and he leads a raid on Okobore Town to steal the food that Luffy
       brought. This unrest prompts the drunken Kaido to fly above Okobore Town in
       his dragon form.
@@ -5436,7 +5436,7 @@ descriptions:
     episode: 11
     title: Emperor Kaido vs. Luffy
     originaltitle: ''
-    description: Infuriated by Kaido’s violence toward his allies, Luffy lands blow
+    description: Infuriated by Kaido's violence toward his allies, Luffy lands blow
       after blow on the drunken Emperor. When he activates Gear Fourth and launches
       even more powerful attacks, Kaido fights back. Law tries to rescue Luffy but
       is interrupted by Hawkins.
@@ -5458,14 +5458,14 @@ descriptions:
     episode: 14
     title: Otoko the Kamuro
     originaltitle: ''
-    description: In the Prisoner Mining Camp, Luffy’s and Kid’s competition garners
-      the wrong kind of attention. Meanwhile, Sanji’s soba becomes immensely popular,
-      but gang members disturb his business and knock over a customer’s bowl.
+    description: In the Prisoner Mining Camp, Luffy's and Kid's competition garners
+      the wrong kind of attention. Meanwhile, Sanji's soba becomes immensely popular,
+      but gang members disturb his business and knock over a customer's bowl.
   - arc: 35
     episode: 15
     title: Oiran Komurasaki Arrives
     originaltitle: ''
-    description: Wano’s top courtesan—the oiran Komurasaki—is in procession and slowly
+    description: Wano's top courtesan—the oiran Komurasaki—is in procession and slowly
       makes her way to Orochi Palace. While everyone is fascinated by the oiran, some
       seeking vengeance get in her way.
   - arc: 35
@@ -5473,13 +5473,13 @@ descriptions:
     title: Soba Mask
     originaltitle: ''
     description: In the Flower Capital, a member of the Beast Pirates, Page One, attacks
-      every soba restaurant in search of Sanji. The Straw Hat’s cook faces Kaido’s
-      headliner while using Germa’s device for the first time to hide his identity.
+      every soba restaurant in search of Sanji. The Straw Hat's cook faces Kaido's
+      headliner while using Germa's device for the first time to hide his identity.
   - arc: 35
     episode: 17
     title: The Shogun and the Oiran
     originaltitle: ''
-    description: At the shogun’s banquet, the oiran’s child attendant Otoko bursts
+    description: At the shogun's banquet, the oiran's child attendant Otoko bursts
       with laughter and cannot stop. The enraged Shogun Orochi attacks her, but an
       unexpected person stands in his way. To end the to-do, Kyoshiro takes matters
       into his own hands.
@@ -5487,7 +5487,7 @@ descriptions:
     episode: 18
     title: Hyogoro the Flower
     originaltitle: ''
-    description: Chopper’s group is off to rescue Luffy from the Prisoner Mining Camp,
+    description: Chopper's group is off to rescue Luffy from the Prisoner Mining Camp,
       but the Straw Hat captain is in a bit of a bind. While Luffy tries to save old
       man Hyo from execution, Queen the Plague comes to visit the prison.
   - arc: 35
@@ -5497,14 +5497,14 @@ descriptions:
     description: Luffy fights in an endless sumo match to protect old man Hyo, and
       Nami, Robin, and Shinobu are cornered as Hawkins raids the bathhouse. Elsewhere,
       Zoro faces a samurai who accuses him of stealing Shusui, but their duel is interrupted
-      by a woman’s scream.
+      by a woman's scream.
   - arc: 35
     episode: 20
     title: A Woman's Secret
     originaltitle: ''
     description: The wounded Zoro wakes up to find out the shocking identity of the
       woman he saved and is told the unbelievable tale of twenty years earlier. Meanwhile,
-      Luffy’s “training” is not getting anywhere, but a surprising person gives him
+      Luffy's "training" is not getting anywhere, but a surprising person gives him
       his first lesson.
   - arc: 35
     episode: 21
@@ -5527,21 +5527,21 @@ descriptions:
     title: SMILE
     originaltitle: ''
     description: The truth behind the smiles of the Ebisu villagers finally comes
-      to light, the Shogun and Kaido’s plan revealed! And in Udon Luffy and Hyo are
+      to light, the Shogun and Kaido's plan revealed! And in Udon Luffy and Hyo are
       shocked to see Captain Kid return in chains alongside a smiling newcomer.
   - arc: 35
     episode: 24
     title: Olin
     originaltitle: Partners
     description: A very big and hungry visitor arrives at Udon looking for Superstar
-      Queen’s sweet red bean oshiruko, and Rasetsu town is in a full-blown riot with
+      Queen's sweet red bean oshiruko, and Rasetsu town is in a full-blown riot with
       the Straw Hats at the center!
   - arc: 35
     episode: 25
     title: Queen vs. Olin
     originaltitle: ''
-    description: To Chopper’s surprise, the kind and sweet Olin—a.k.a. Emperor Big
-      Mom—has proven her power to be just as devastating as ever. Olin’s hunger pangs
+    description: To Chopper's surprise, the kind and sweet Olin—a.k.a. Emperor Big
+      Mom—has proven her power to be just as devastating as ever. Olin's hunger pangs
       just about reach their limit, and Luffy must act quickly before his mechanical
       collar executes him.
   - arc: 35
@@ -5558,13 +5558,13 @@ descriptions:
     originaltitle: Warriors' Dream
     description: In Udon, an unexpected person stands up to bring the prisoners renewed
       hope! Elsewhere, Zoro and Hiyori are pursued by ninja, Orochi is told of Trafalgar
-      Law’s capture, and the people of the Flower Capital prepare for the upcoming
+      Law's capture, and the people of the Flower Capital prepare for the upcoming
       Fire Festival.
   - arc: 35
     episode: 28
     title: RAMPAGE
     originaltitle: ''
-    description: Kanjuro takes Yasuie’s body to bury him with Oden, and Robin, Usopp,
+    description: Kanjuro takes Yasuie's body to bury him with Oden, and Robin, Usopp,
       and Brook cleverly pass a checkpoint. While Big Mom and Kaido clash at Onigashima,
       Old Man Hyo finds his former allies in Udon. And in Ringo, Zoro faces Gyukimaru
       once more.
@@ -5580,9 +5580,9 @@ descriptions:
     episode: 30
     title: Enma
     originaltitle: ''
-    description: As the day of the raid approaches, Kin’emon discusses the plan, and
+    description: As the day of the raid approaches, Kin'emon discusses the plan, and
       at Onigashima, Kaido and Big Mom make a surprising declaration! In the meantime,
-      Zoro is stunned by Enma’s demonic power and its ties to him.
+      Zoro is stunned by Enma's demonic power and its ties to him.
   - arc: 35
     episode: 31
     title: Big News
@@ -5611,7 +5611,7 @@ descriptions:
     title: The Day of the Mountain God
     originaltitle: ''
     description: Forty-one years ago, Oden had not yet earned the respect of everyone,
-      but when the angry mountain god almost killed Kin’emon, Oden stepped in. Still,
+      but when the angry mountain god almost killed Kin'emon, Oden stepped in. Still,
       disavowed by his father, Oden journeyed around the country, gathering followers
       as he went.
   - arc: 35
@@ -5619,7 +5619,7 @@ descriptions:
     title: Daimyo and Retainers
     originaltitle: ''
     description: Oden transformed Kuri and was made Daimyo over it. He also met a
-      kappa fishman and two minks, who soon became his followers. Kin’emon and the
+      kappa fishman and two minks, who soon became his followers. Kin'emon and the
       other vassals took Yasuie's strong words to heart and began transforming themselves
       for their lord.
   - arc: 35
@@ -5696,7 +5696,7 @@ descriptions:
     title: Fighting Music
     originaltitle: Battle Music
     description: Luffy and Zoro are outed by Scratchman Apoo, and Queen announces
-      that anyone who catches them will get a coveted promotion. Elsewhere, Kin’emon's
+      that anyone who catches them will get a coveted promotion. Elsewhere, Kin'emon's
       infiltration strategy evolves while Big Mom's children are greeted by a surprise
       party crasher.
   - arc: 35
@@ -5810,7 +5810,7 @@ descriptions:
     description: The three-way struggle between the Marines, the Blackbeard Pirates,
       and the Kuja Pirates comes to an end when an unexpected figure shows up. On
       the Sunny, the Straw Hats talk about the recent incidents around the world and
-      Luffy’s words surprise everyone.
+      Luffy's words surprise everyone.
   - arc: 36
     episode: 3
     title: Future Island Egghead
@@ -5939,7 +5939,7 @@ descriptions:
     originaltitle: ''
     description: In the Labophase on Egghead, which is completely surrounded by the
       Marines, Luffy and the others devise a plan to escape the island. However, the
-      Frontier Dome, the laser defense system, cannot be deactivated without York’s
+      Frontier Dome, the laser defense system, cannot be deactivated without York's
       secret passcode.
   - arc: 36
     episode: 20
