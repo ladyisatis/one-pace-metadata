@@ -1,0 +1,19 @@
+arc: 19
+episode: 4
+
+manga_chapters: 381-382
+anime_episodes: 268-269
+released: '2025-12-20T19:16:12+00:00'
+duration: 0
+extended: false
+
+hashes:
+  crc32: 90B6D40E
+  blake2s: ''
+
+file:
+  id: 2056275
+  name: '[One Pace][381-382] Enies Lobby 04 [1080p][90B6D40E].mkv'
+  size: 1.1 GiB
+  hash: ac67df04e33cfab8a2fe354d8b88f4868ea487e8
+  index: 0

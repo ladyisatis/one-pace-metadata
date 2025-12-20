@@ -1,6 +1,6 @@
 {
-  "last_update": "2025-12-19T12:12:02+00:00",
-  "last_update_ts": 1766146322,
+  "last_update": "2025-12-20T20:06:43+00:00",
+  "last_update_ts": 1766261203,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -4368,6 +4368,20 @@
       "released": "2022-09-26",
       "hashes": {
         "crc32": "902076E8",
+        "blake2": ""
+      }
+    },
+    "90B6D40E": {
+      "arc": 19,
+      "episode": 4,
+      "title": "Fired",
+      "originaltitle": "You're Fired",
+      "description": "The Straw Hats struggle to catch up to Luffy, who is already on the main island wreaking havoc for the Marines. Meanwhile, Robin learns from Spandam that the terms of their deal have changed, and he somehow has rights to a buster call.",
+      "chapters": "381-382",
+      "episodes": "268-269",
+      "released": "2025-12-20",
+      "hashes": {
+        "crc32": "90B6D40E",
         "blake2": ""
       }
     },

@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2025-12-19T12:12:02+00:00",
-    "last_update_ts": 1766146322,
+    "last_update": "2025-12-20T20:06:43+00:00",
+    "last_update_ts": 1766261203,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 70
+    "version": 71
   },
   "tvshow": {
     "en": {
@@ -1265,7 +1265,7 @@
           },
           {
             "episode": "04",
-            "standard": "194603B0",
+            "standard": "90B6D40E",
             "extended": ""
           },
           {
@@ -12514,6 +12514,26 @@
         "name": "[One Pace][139-140] Drum Island 04 [1080p][902076E8].mkv",
         "size": "472.0 MiB",
         "hash": "d7b48a58f44b5a5f6c0f9709976629fa5efe17a8",
+        "index": 0
+      }
+    },
+    "90B6D40E": {
+      "arc": 19,
+      "episode": 4,
+      "manga_chapters": "381-382",
+      "anime_episodes": "268-269",
+      "released": "2025-12-20T19:16:12+00:00",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "90B6D40E",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2056275,
+        "name": "[One Pace][381-382] Enies Lobby 04 [1080p][90B6D40E].mkv",
+        "size": "1.1 GiB",
+        "hash": "ac67df04e33cfab8a2fe354d8b88f4868ea487e8",
         "index": 0
       }
     },
