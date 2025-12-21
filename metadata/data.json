@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2025-12-20T20:06:43+00:00",
-    "last_update_ts": 1766261203,
+    "last_update": "2025-12-21T00:31:26+00:00",
+    "last_update_ts": 1766277086,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 71
+    "version": 72
   },
   "tvshow": {
     "en": {
@@ -1383,7 +1383,7 @@
           "filler_episodes": "291 - 292, 303",
           "num_of_pace_eps": 25,
           "piece_minutes": 945,
-          "pace_minutes": 595,
+          "pace_minutes": 591,
           "audio_languages": "Jpn,Eng (23-25)",
           "sub_languages": "Eng, Es , Fr ",
           "pixeldrain_only": "Fr",
@@ -9563,7 +9563,7 @@
       "manga_chapters": "376-378",
       "anime_episodes": "265-266",
       "released": "2025-11-16T22:24:15+00:00",
-      "duration": 0,
+      "duration": 1255,
       "extended": false,
       "hashes": {
         "crc32": "495CDC31",
@@ -11863,7 +11863,7 @@
       "manga_chapters": "375-376",
       "anime_episodes": "263-264",
       "released": "2025-11-16T22:22:52+00:00",
-      "duration": 0,
+      "duration": 1586,
       "extended": false,
       "hashes": {
         "crc32": "785FB818",
@@ -12203,7 +12203,7 @@
       "manga_chapters": "379-380",
       "anime_episodes": "266-267",
       "released": "2025-11-21T13:24:19+00:00",
-      "duration": 0,
+      "duration": 1389,
       "extended": false,
       "hashes": {
         "crc32": "861EE2FF",
@@ -12523,7 +12523,7 @@
       "manga_chapters": "381-382",
       "anime_episodes": "268-269",
       "released": "2025-12-20T19:16:12+00:00",
-      "duration": 0,
+      "duration": 1534,
       "extended": false,
       "hashes": {
         "crc32": "90B6D40E",
