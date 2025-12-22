@@ -63,11 +63,18 @@ class OnePaceMetadata:
         with file_path.open(mode="w", encoding="utf-8") as f:
             YamlDump(data, stream=f, allow_unicode=True, sort_keys=False)
 
+    def datetime_serialize(self, dt):
+        if isinstance(dt, date):
+            return dt.isoformat()
+        if isinstance(dt, datetime):
+            return dt.isoformat(timespec='seconds').replace('T', ' ').replace('+00:00', '')
+
+        return dt
+
     def serialize_json(self, obj):
-        if isinstance(obj, date):
-            return obj.isoformat()
-        if isinstance(obj, datetime):
-            return obj.isoformat(timespec='seconds') #.replace('T', ' ')
+        if isinstance(obj, (date, datetime)):
+            return self.datetime_serialize(obj)
+
         raise TypeError ("Type %s not serializable" % type(obj))
 
     def escape_char(self, c):
@@ -830,7 +837,7 @@ class OnePaceMetadata:
             "\n"
             f"manga_chapters: {chapters}\n"
             f"anime_episodes: {episodes}\n"
-            f"released: {release_date.isoformat() if isinstance(release_date, (date, datetime)) else release_date}\n"
+            f"released: {self.datetime_serialize(release_date)}\n"
             f"duration: {length}\n"
             f"extended: {'true' if extended else 'false'}\n"
             "\n"
@@ -865,6 +872,14 @@ class OnePaceMetadata:
 
         if str(yml_load.get("duration", 0)) != str(length):
             yml_load["duration"] = int(length)
+            changed = True
+
+        _released = yml_load.get("released", "")
+        if "T" in _released:
+            yml_load["released"] = self.datetime_serialize(datetime.fromisoformat(_released))
+            changed = True
+        elif "+00:00" in _released:
+            yml_load["released"] = _released.replace("+00:00", "")
             changed = True
 
         if changed:
@@ -1070,7 +1085,7 @@ class OnePaceMetadata:
                 meta = {
                     "manga_chapters": chapters,
                     "anime_episodes": episodes,
-                    "released": pub_date.isoformat(timespec='seconds'),
+                    "released": self.datetime_serialize(pub_date),
                     "duration": 0,
                     "extended": extra is not None
                 }
