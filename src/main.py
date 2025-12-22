@@ -874,7 +874,7 @@ class OnePaceMetadata:
             yml_load["duration"] = int(length)
             changed = True
 
-        _released = yml_load.get("released", "")
+        _released = str(yml_load.get("released", ""))
         if "T" in _released:
             yml_load["released"] = self.datetime_serialize(datetime.fromisoformat(_released))
             changed = True
