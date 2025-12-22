@@ -1509,7 +1509,7 @@ class OnePaceMetadata:
                             "description": ep_desc.get("description", ""),
                             "chapters": str(ep.get("manga_chapters", "")),
                             "episodes": str(ep.get("anime_episodes", "")),
-                            "released": str(ep.get("released", "")).split("T")[0],
+                            "released": str(ep.get("released", "")).split(" ")[0],
                             "hashes": {
                                 "crc32": str(ep["hashes"].get("crc32", "")),
                                 "blake2": str(ep["hashes"].get("blake2s", ""))
