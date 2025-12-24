@@ -1,8 +1,8 @@
 status:
-  last_update: '2025-12-22T12:12:46+00:00'
-  last_update_ts: 1766405566
+  last_update: '2025-12-24T06:11:22+00:00'
+  last_update_ts: 1766556682
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 76
+  version: 77
 tvshow:
   en:
     title: One Piece
@@ -2361,7 +2361,7 @@ arcs:
       status: Work In Progress
       manga_chapters: 1058 - 1125
       num_of_chapters: 68
-      anime_episodes: 1086 —
+      anime_episodes: 1086 - 1155
       episodes_adapted: 38
       filler_episodes: ''
       num_of_pace_eps: 20
