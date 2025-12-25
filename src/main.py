@@ -280,9 +280,6 @@ class OnePaceMetadata:
             chapter_key = k.replace(".eptitle", ".chapter")
             if chapter_key in chapter_props:
                 self.chapter_list[arc_id][ep_num] = chapter_props[chapter_key]
-                logger.info(f"---- {arc_name} {ep_num} ({chapter_props[chapter_key]}): {v}")
-            else:
-                logger.info(f"---- {arc_name} {ep_num}: {v}")
 
         return True
 
@@ -1394,27 +1391,27 @@ class OnePaceMetadata:
 
         logger.info("Generate arcs")
         Path(self.metadata_dir, "arcs.json").write_text(json.dumps(arcs, indent=2, default=self.serialize_json))
-        Path(self.metadata_dir, "arcs.min.json").write_text(json.dumps(arcs, default=self.serialize_json))
+        Path(self.metadata_dir, "arcs.min.json").write_text(json.dumps(arcs, separators=(',', ':'), default=self.serialize_json))
         self.write_yaml(Path(self.metadata_dir, "arcs.yml"), arcs)
 
         logger.info("Generate descriptions")
         Path(self.metadata_dir, "descriptions.json").write_text(json.dumps(descriptions, indent=2, default=self.serialize_json))
-        Path(self.metadata_dir, "descriptions.min.json").write_text(json.dumps(descriptions, default=self.serialize_json))
+        Path(self.metadata_dir, "descriptions.min.json").write_text(json.dumps(descriptions, separators=(',', ':'), default=self.serialize_json))
         self.write_yaml(Path(self.metadata_dir, "descriptions.yml"), descriptions)
 
         logger.info("Generate episodes")
         Path(self.metadata_dir, "episodes.json").write_text(json.dumps(episodes, indent=2, default=self.serialize_json))
-        Path(self.metadata_dir, "episodes.min.json").write_text(json.dumps(episodes, default=self.serialize_json))
+        Path(self.metadata_dir, "episodes.min.json").write_text(json.dumps(episodes, separators=(',', ':'), default=self.serialize_json))
         self.write_yaml(Path(self.metadata_dir, "arcs.yml"), episodes)
 
         logger.info("Generate other edits")
         Path(self.metadata_dir, "other_edits.json").write_text(json.dumps(other_edits, indent=2, default=self.serialize_json))
-        Path(self.metadata_dir, "other_edits.min.json").write_text(json.dumps(other_edits, default=self.serialize_json))
+        Path(self.metadata_dir, "other_edits.min.json").write_text(json.dumps(other_edits, separators=(',', ':'), default=self.serialize_json))
         self.write_yaml(Path(self.metadata_dir, "other_edits.yml"), other_edits)
 
         logger.info("Generate tvshow")
         Path(self.metadata_dir, "tvshow.json").write_text(json.dumps(tvshow, indent=2, default=self.serialize_json))
-        Path(self.metadata_dir, "tvshow.min.json").write_text(json.dumps(tvshow, default=self.serialize_json))
+        Path(self.metadata_dir, "tvshow.min.json").write_text(json.dumps(tvshow, separators=(',', ':'), default=self.serialize_json))
         self.write_yaml(Path(self.metadata_dir, "tvshow.yml"), tvshow)
 
         now = datetime.now().astimezone(timezone.utc).replace(microsecond=0)
