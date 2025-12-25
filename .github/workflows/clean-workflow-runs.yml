@@ -7,11 +7,12 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: read
 
     steps:
       - name: Delete workflow runs
-        uses: dmvict/clean-workflow-runs@v1.0.0
+        uses: Mattraks/delete-workflow-runs@main
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          save_period: 7
+          retain_days: 7
