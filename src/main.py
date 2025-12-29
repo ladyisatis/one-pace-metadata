@@ -1402,7 +1402,7 @@ class OnePaceMetadata:
         logger.info("Generate episodes")
         Path(self.metadata_dir, "episodes.json").write_text(json.dumps(episodes, indent=2, default=self.serialize_json))
         Path(self.metadata_dir, "episodes.min.json").write_text(json.dumps(episodes, separators=(',', ':'), default=self.serialize_json))
-        self.write_yaml(Path(self.metadata_dir, "arcs.yml"), episodes)
+        self.write_yaml(Path(self.metadata_dir, "episodes.yml"), episodes)
 
         logger.info("Generate other edits")
         Path(self.metadata_dir, "other_edits.json").write_text(json.dumps(other_edits, indent=2, default=self.serialize_json))
