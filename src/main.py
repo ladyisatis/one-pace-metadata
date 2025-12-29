@@ -1442,7 +1442,7 @@ class OnePaceMetadata:
 
         logger.info("Generate data.json")
         Path(self.metadata_dir, "data.json").write_text(json.dumps(data, indent=2, default=self.serialize_json))
-        Path(self.metadata_dir, "data.min.json").write_text(json.dumps(data, default=self.serialize_json))
+        Path(self.metadata_dir, "data.min.json").write_text(json.dumps(data, separators=(',', ':'), default=self.serialize_json))
         self.write_yaml(Path(self.metadata_dir, "data.yml"), data)
 
         data_sqlite = Path(self.metadata_dir, "data.sqlite")
@@ -1519,7 +1519,7 @@ class OnePaceMetadata:
 
             data = Path("../data.min.json")
             data.unlink(missing_ok=True)
-            data.write_text(json.dumps(output, default=self.serialize_json))
+            data.write_text(json.dumps(output, separators=(',', ':'), default=self.serialize_json))
 
         except:
             logger.exception("Unable to create compat data.json")
