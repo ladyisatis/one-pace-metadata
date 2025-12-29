@@ -1,6 +1,7 @@
 name: One Pace Metadata Updater (v2)
 
 on:
+  workflow_dispatch:
   push:
     branches: [v2]
     paths:
