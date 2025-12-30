@@ -79,10 +79,10 @@ class OnePaceMetadata:
 
     def datetime_unserialize(self, dt):
         if isinstance(dt, str):
-            if " " in dt or "T" in dt:
+            if " " in dt or "T" in dt or "+00:00" in dt:
                 dt = dt.replace(' ', 'T')
                 dt = datetime.fromisoformat(dt)
-            else:
+            elif "-" in dt:
                 dt = date.fromisoformat(dt)
 
         return dt
@@ -1193,8 +1193,11 @@ class OnePaceMetadata:
             data["manga_chapters"] = str(data.get("manga_chapters", ""))
             data["anime_episodes"] = str(data.get("anime_episodes", ""))
 
-            if for_json:
-                data["released"] = self.datetime_serialize(data.get("released", ""))
+            if "released" in data:
+                if for_json:
+                    data["released"] = self.datetime_serialize(data["released"])
+                else:
+                    data["released"] = self.datetime_unserialize(data["released"])
 
             if "_" in crc32:
                 crc32_spl = crc32.split("_")
