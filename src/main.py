@@ -65,9 +65,10 @@ class OnePaceMetadata:
 
     def datetime_serialize(self, dt):
         if isinstance(dt, date):
-            return dt.isoformat()
+            return str(dt).replace('T', ' ').replace('+00:00', '')
+
         if isinstance(dt, datetime):
-            return dt.isoformat(timespec='seconds').replace('T', ' ').replace('+00:00', '')
+            return dt.strftime('%Y-%m-%d %H:%M:%S')
 
         dt = str(dt)
         if "T" in dt:
@@ -987,7 +988,7 @@ class OnePaceMetadata:
         resp = self.client.get(rss_feed_url, follow_redirects=True)
 
         title_pattern = re.compile(r'\[One Pace\]\[\d+(?:[-,]\d+)*\]\s+(.+?)\s+(\d{2,})\s*(\w+)?\s*\[\d+p\]\[([A-Fa-f0-9]{8})\]\.mkv', re.IGNORECASE)
-        now = datetime.now().astimezone(timezone.utc)
+        now = datetime.now(tz=timezone.utc)
         added_metadata = []
 
         for i, item in enumerate(RSSParser.parse(resp.text).channel.items):
@@ -1219,7 +1220,7 @@ class OnePaceMetadata:
     def generate_tvshow(self):
         return self.config["tvshow"] if "tvshow" in self.config else {}
 
-    def generate_other_edits(self):
+    def generate_other_edits(self, for_json=True):
         other_edits = {}
 
         for edit_dir in self.other_edits_dir.iterdir():
@@ -1231,7 +1232,18 @@ class OnePaceMetadata:
 
             for yml in edit_dir.rglob("*.yml"):
                 try:
-                    other_edits[e_id][yml.stem] = self.read_yaml(yml)
+                    data = self.read_yaml(yml)
+                    data["manga_chapters"] = str(data.get("manga_chapters", ""))
+                    data["anime_episodes"] = str(data.get("anime_episodes", ""))
+
+                    if "released" in data:
+                        if for_json:
+                            data["released"] = self.datetime_serialize(data["released"])
+                        else:
+                            data["released"] = self.datetime_unserialize(data["released"])
+
+                    other_edits[e_id][yml.stem] = data
+
                 except:
                     logger.exception(f"Skipping: Cannot read {yml}")
 
@@ -1375,7 +1387,7 @@ class OnePaceMetadata:
                     elif isinstance(v, bool):
                         cursor.execute(query, (show_lang, str(k), "true" if v else "false"))
                     elif isinstance(v, datetime) or isinstance(v, date):
-                        cursor.execute(query, (show_lang, str(k), v.isoformat()))
+                        cursor.execute(query, (show_lang, str(k), self.datetime_serialize(v)))
                     else:
                         cursor.execute(query, (show_lang, str(k), str(v)))
 
@@ -1410,39 +1422,39 @@ class OnePaceMetadata:
             conn.commit()
 
     def generate_data(self):
-        arcs = self.generate_arcs()
-        episodes = self.generate_episodes(for_json=True)
-        episodes_yml = self.generate_episodes(for_json=False)
-        descriptions = self.generate_descriptions()
-        tvshow = self.generate_tvshow()
-        other_edits = self.generate_other_edits()
-
         logger.info("Generate arcs")
+        arcs = self.generate_arcs()
         Path(self.metadata_dir, "arcs.json").write_text(json.dumps(arcs, indent=2, default=self.serialize_json))
         Path(self.metadata_dir, "arcs.min.json").write_text(json.dumps(arcs, separators=(',', ':'), default=self.serialize_json))
         self.write_yaml(Path(self.metadata_dir, "arcs.yml"), arcs)
 
         logger.info("Generate descriptions")
+        descriptions = self.generate_descriptions()
         Path(self.metadata_dir, "descriptions.json").write_text(json.dumps(descriptions, indent=2, default=self.serialize_json))
         Path(self.metadata_dir, "descriptions.min.json").write_text(json.dumps(descriptions, separators=(',', ':'), default=self.serialize_json))
         self.write_yaml(Path(self.metadata_dir, "descriptions.yml"), descriptions)
 
         logger.info("Generate episodes")
+        episodes = self.generate_episodes(for_json=True)
+        episodes_yml = self.generate_episodes(for_json=False)
         Path(self.metadata_dir, "episodes.json").write_text(json.dumps(episodes, indent=2, default=self.serialize_json))
         Path(self.metadata_dir, "episodes.min.json").write_text(json.dumps(episodes, separators=(',', ':'), default=self.serialize_json))
         self.write_yaml(Path(self.metadata_dir, "episodes.yml"), episodes_yml)
 
         logger.info("Generate other edits")
+        other_edits = self.generate_other_edits(for_json=True)
+        other_edits_yml = self.generate_other_edits(for_json=False)
         Path(self.metadata_dir, "other_edits.json").write_text(json.dumps(other_edits, indent=2, default=self.serialize_json))
         Path(self.metadata_dir, "other_edits.min.json").write_text(json.dumps(other_edits, separators=(',', ':'), default=self.serialize_json))
-        self.write_yaml(Path(self.metadata_dir, "other_edits.yml"), other_edits)
+        self.write_yaml(Path(self.metadata_dir, "other_edits.yml"), other_edits_yml)
 
         logger.info("Generate tvshow")
+        tvshow = self.generate_tvshow()
         Path(self.metadata_dir, "tvshow.json").write_text(json.dumps(tvshow, indent=2, default=self.serialize_json))
         Path(self.metadata_dir, "tvshow.min.json").write_text(json.dumps(tvshow, separators=(',', ':'), default=self.serialize_json))
         self.write_yaml(Path(self.metadata_dir, "tvshow.yml"), tvshow)
 
-        now = datetime.now().astimezone(timezone.utc).replace(microsecond=0)
+        now = datetime.now(tz=timezone.utc).replace(microsecond=0)
 
         if self.GITHUB_ACTIONS:
             base_url = f"https://raw.githubusercontent.com/{os.environ['GITHUB_REPOSITORY']}/{os.environ['GITHUB_REF']}"
@@ -1473,6 +1485,7 @@ class OnePaceMetadata:
         Path(self.metadata_dir, "data.min.json").write_text(json.dumps(data, separators=(',', ':'), default=self.serialize_json))
 
         data["episodes"] = episodes_yml
+        data["other_edits"] = other_edits_yml
         self.write_yaml(Path(self.metadata_dir, "data.yml"), data)
 
         data_sqlite = Path(self.metadata_dir, "data.sqlite")
@@ -1561,7 +1574,7 @@ class OnePaceMetadata:
             )
         )
 
-        now = datetime.now().astimezone(timezone.utc)
+        now = datetime.now(tz=timezone.utc)
 
         try:
             logger.success("Loading existing arcs")
