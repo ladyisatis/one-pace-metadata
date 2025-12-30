@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2025-12-30T10:17:50+00:00",
-    "last_update_ts": 1767089870,
+    "last_update": "2025-12-30T12:12:34+00:00",
+    "last_update_ts": 1767096754,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 89
+    "version": 90
   },
   "tvshow": {
     "en": {
@@ -3363,7 +3363,7 @@
           "num_of_pace_eps": 20,
           "piece_minutes": 798,
           "pace_minutes": 534,
-          "audio_languages": "Jpn, Eng (1-12, 17-18)",
+          "audio_languages": "Jpn, Eng",
           "sub_languages": "Eng,Fr,De (3-)",
           "pixeldrain_only": "De (1,2)",
           "resolution": "1080p",
