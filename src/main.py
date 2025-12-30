@@ -77,6 +77,16 @@ class OnePaceMetadata:
 
         return dt
 
+    def datetime_unserialize(self, dt):
+        if isinstance(dt, str):
+            if " " in dt or "T" in dt:
+                dt = dt.replace(' ', 'T')
+                dt = datetime.fromisoformat(dt)
+            else:
+                dt = date.fromisoformat(dt)
+
+        return dt
+
     def serialize_json(self, obj):
         if isinstance(obj, (date, datetime)):
             return self.datetime_serialize(obj)
@@ -1174,7 +1184,7 @@ class OnePaceMetadata:
 
         return desc
 
-    def generate_episodes(self):
+    def generate_episodes(self, for_json=True):
         episodes = {}
         for yml in self.episodes_dir.glob("*.yml"):
             crc32 = yml.stem
@@ -1182,7 +1192,9 @@ class OnePaceMetadata:
             data = self.read_yaml(yml)
             data["manga_chapters"] = str(data.get("manga_chapters", ""))
             data["anime_episodes"] = str(data.get("anime_episodes", ""))
-            data["released"] = self.datetime_serialize(data.get("released", ""))
+
+            if for_json:
+                data["released"] = self.datetime_serialize(data.get("released", ""))
 
             if "_" in crc32:
                 crc32_spl = crc32.split("_")
@@ -1396,7 +1408,8 @@ class OnePaceMetadata:
 
     def generate_data(self):
         arcs = self.generate_arcs()
-        episodes = self.generate_episodes()
+        episodes = self.generate_episodes(for_json=True)
+        episodes_yml = self.generate_episodes(for_json=False)
         descriptions = self.generate_descriptions()
         tvshow = self.generate_tvshow()
         other_edits = self.generate_other_edits()
@@ -1414,7 +1427,7 @@ class OnePaceMetadata:
         logger.info("Generate episodes")
         Path(self.metadata_dir, "episodes.json").write_text(json.dumps(episodes, indent=2, default=self.serialize_json))
         Path(self.metadata_dir, "episodes.min.json").write_text(json.dumps(episodes, separators=(',', ':'), default=self.serialize_json))
-        self.write_yaml(Path(self.metadata_dir, "episodes.yml"), episodes)
+        self.write_yaml(Path(self.metadata_dir, "episodes.yml"), episodes_yml)
 
         logger.info("Generate other edits")
         Path(self.metadata_dir, "other_edits.json").write_text(json.dumps(other_edits, indent=2, default=self.serialize_json))
@@ -1455,6 +1468,8 @@ class OnePaceMetadata:
         logger.info("Generate data.json")
         Path(self.metadata_dir, "data.json").write_text(json.dumps(data, indent=2, default=self.serialize_json))
         Path(self.metadata_dir, "data.min.json").write_text(json.dumps(data, separators=(',', ':'), default=self.serialize_json))
+
+        data["episodes"] = episodes_yml
         self.write_yaml(Path(self.metadata_dir, "data.yml"), data)
 
         data_sqlite = Path(self.metadata_dir, "data.sqlite")
@@ -1518,7 +1533,7 @@ class OnePaceMetadata:
                             "description": ep_desc.get("description", ""),
                             "chapters": str(ep.get("manga_chapters", "")),
                             "episodes": str(ep.get("anime_episodes", "")),
-                            "released": str(ep.get("released", "")).split(" ")[0],
+                            "released": (str(ep.get("released", "")).split(" ")[0]).split("T")[0],
                             "hashes": {
                                 "crc32": str(ep["hashes"].get("crc32", "")),
                                 "blake2": str(ep["hashes"].get("blake2s", ""))
