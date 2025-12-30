@@ -834,8 +834,8 @@ muhn_pace:
     description: Luffy is sent to a great mine where prisoners must endure harsh,
       forced labor. There, he has an unexpected reunion. Meanwhile, Okiku rushes to
       the ruins of Oden Castle to confirm the safety of the Straw Hats and the others.
-    manga_chapters: 924
-    anime_episodes: 916
+    manga_chapters: '924'
+    anime_episodes: '916'
     duration: 0
     released: 2020-04-01
     hashes:
@@ -1128,8 +1128,8 @@ muhn_pace:
       by the strongest the Marines have to offer. With both sides swinging between
       victory and defeat, the battlefield plunges into chaos. Then Marco takes to
       the sky and soars to Ace's side!
-    manga_chapters: 567
-    anime_episodes: 476
+    manga_chapters: '567'
+    anime_episodes: '476'
     duration: 0
     released: 2020-10-07
     hashes:
@@ -1157,7 +1157,7 @@ muhn_pace:
     description: Luffy and Zoro are stalled by Hawkins, but their fortune looks bright
       when a woman guides them to a teahouse. There, they find an herbal remedy for
       the river poison that Otama drank, while old acquaintances look on from a distance.
-    manga_chapters: 913
+    manga_chapters: '913'
     anime_episodes: 898-899
     duration: 0
     released: 2019-10-18
@@ -1589,7 +1589,7 @@ muhn_pace:
     description: A very big and hungry visitor arrives at Udon looking for Superstar
       Queen's sweet red bean oshiruko, and Rasetsu town is in a full-blown riot with
       the Straw Hats at the center!
-    manga_chapters: 945
+    manga_chapters: '945'
     anime_episodes: 942-944
     duration: 0
     released: 2022-01-18
@@ -3401,7 +3401,7 @@ muhn_pace:
     description: To prove his undying loyalty to Robin, Luffy makes a defiant statement
       to the World Government.
     manga_chapters: 397-398
-    anime_episodes: 278
+    anime_episodes: '278'
     duration: 0
     released: 2019-07-25
     hashes:
@@ -3575,7 +3575,7 @@ muhn_pace:
       the process. Jinbe and the Whitebeard Pirates rush to his aid but soon realize
       he is far beyond help. As Ace takes his final breaths, he imparts a heartfelt
       message.
-    manga_chapters: 574
+    manga_chapters: '574'
     anime_episodes: 483-484
     duration: 0
     released: 2020-10-07
@@ -3907,7 +3907,7 @@ onigashima_paced:
     episode: 7
     title: My Bible
     description: ''
-    manga_chapters: 984
+    manga_chapters: '984'
     anime_episodes: 991-992
     duration: 1272
     released: 2023-05-27
@@ -3931,7 +3931,7 @@ onigashima_paced:
     episode: 3
     title: Fighting Music
     description: ''
-    manga_chapters: 980
+    manga_chapters: '980'
     anime_episodes: 985-986
     duration: 1069
     released: 2023-05-12
@@ -3943,7 +3943,7 @@ onigashima_paced:
     episode: 5
     title: Scoundrel Meets Scoundrel
     description: ''
-    manga_chapters: 982
+    manga_chapters: '982'
     anime_episodes: 988-989
     duration: 1165
     released: 2023-05-06
@@ -3955,7 +3955,7 @@ onigashima_paced:
     episode: 2
     title: Family Problem
     description: ''
-    manga_chapters: 979
+    manga_chapters: '979'
     anime_episodes: 984-985
     duration: 1105
     released: 2023-05-05
@@ -3979,7 +3979,7 @@ onigashima_paced:
     episode: 8
     title: New Onigashima Project
     description: ''
-    manga_chapters: 985
+    manga_chapters: '985'
     anime_episodes: 993-994
     duration: 1195
     released: 2023-05-06
@@ -3991,7 +3991,7 @@ onigashima_paced:
     episode: 17
     title: Flame Clouds
     description: ''
-    manga_chapters: 997
+    manga_chapters: '997'
     anime_episodes: 1010-1011
     duration: 1306
     released: 2023-05-22
@@ -4027,7 +4027,7 @@ onigashima_paced:
     episode: 16
     title: Island of the Strongest
     description: ''
-    manga_chapters: 996
+    manga_chapters: '996'
     anime_episodes: 1009-1010
     duration: 1060
     released: 2023-05-22
@@ -4039,7 +4039,7 @@ onigashima_paced:
     episode: 9
     title: My Name
     description: ''
-    manga_chapters: 986
+    manga_chapters: '986'
     anime_episodes: 994-995
     duration: 1184
     released: 2023-05-06
@@ -4087,7 +4087,7 @@ onigashima_paced:
     episode: 18
     title: Ancient Types
     description: ''
-    manga_chapters: 998
+    manga_chapters: '998'
     anime_episodes: 1012-1013
     duration: 1132
     released: 2023-05-23
@@ -4099,8 +4099,8 @@ onigashima_paced:
     episode: 20
     title: Straw Hat Luffy
     description: ''
-    manga_chapters: 1000
-    anime_episodes: 1015
+    manga_chapters: '1000'
+    anime_episodes: '1015'
     duration: 1354
     released: 2023-05-02
     hashes:
@@ -4123,7 +4123,7 @@ onigashima_paced:
     episode: 15
     title: A Kunoichi's Oath
     description: ''
-    manga_chapters: 995
+    manga_chapters: '995'
     anime_episodes: 1008-1009
     duration: 971
     released: 2023-05-22
@@ -4135,7 +4135,7 @@ onigashima_paced:
     episode: 10
     title: Retainers of Glory
     description: ''
-    manga_chapters: 987
+    manga_chapters: '987'
     anime_episodes: 996-997
     duration: 1147
     released: 2023-05-07
@@ -4171,7 +4171,7 @@ onigashima_paced:
     episode: 27
     title: The Code of Oshiruko
     description: ''
-    manga_chapters: 1011
+    manga_chapters: '1011'
     anime_episodes: 1028, 1031
     duration: 1352
     released: 2023-06-24
@@ -4195,7 +4195,7 @@ onigashima_paced:
     episode: 43
     title: Komurasaki
     description: ''
-    manga_chapters: 1041
+    manga_chapters: '1041'
     anime_episodes: 1068-1069
     duration: 1162
     released: 2024-03-12
@@ -4207,7 +4207,7 @@ onigashima_paced:
     episode: 4
     title: Joining the Fight
     description: ''
-    manga_chapters: 981
+    manga_chapters: '981'
     anime_episodes: 987-988
     duration: 1375
     released: 2023-05-22
@@ -4219,7 +4219,7 @@ onigashima_paced:
     episode: 14
     title: My Other Name Is Yamato
     description: ''
-    manga_chapters: 994
+    manga_chapters: '994'
     anime_episodes: 1006-1007
     duration: 1194
     released: 2023-05-09
@@ -4267,8 +4267,8 @@ onigashima_paced:
     episode: 49
     title: New Morning
     description: ''
-    manga_chapters: 1052
-    anime_episodes: 1079
+    manga_chapters: '1052'
+    anime_episodes: '1079'
     duration: 1141
     released: 2024-04-15
     hashes:
@@ -4303,7 +4303,7 @@ onigashima_paced:
     episode: 6
     title: Thunder
     description: ''
-    manga_chapters: 983
+    manga_chapters: '983'
     anime_episodes: 990-991
     duration: 1217
     released: 2023-05-06
@@ -4315,8 +4315,8 @@ onigashima_paced:
     episode: 53
     title: Final Curtain
     description: ''
-    manga_chapters: 1057
-    anime_episodes: 1085
+    manga_chapters: '1057'
+    anime_episodes: '1085'
     duration: 1273
     released: 2024-04-24
     hashes:
@@ -4364,7 +4364,7 @@ onigashima_paced:
     title: Farewell
     description: ''
     manga_chapters: Filler
-    anime_episodes: 1084
+    anime_episodes: '1084'
     duration: 1184
     released: 2024-04-23
     hashes:
@@ -4387,7 +4387,7 @@ onigashima_paced:
     episode: 19
     title: The Sake I Brewed to Drink With You
     description: ''
-    manga_chapters: 999
+    manga_chapters: '999'
     anime_episodes: 1013-1014
     duration: 1632
     released: 2023-05-23
@@ -4447,7 +4447,7 @@ onigashima_paced:
     episode: 24
     title: Raccoon Dog-san
     description: ''
-    manga_chapters: 1007
+    manga_chapters: '1007'
     anime_episodes: 1023-1024
     duration: 1207
     released: 2023-05-26
@@ -4531,7 +4531,7 @@ onigashima_paced:
     episode: 25
     title: Ashura Doji
     description: ''
-    manga_chapters: 1008
+    manga_chapters: '1008'
     anime_episodes: 1024-1025
     duration: 1186
     released: 2023-05-27
