@@ -1,6 +1,6 @@
 {
-  "last_update": "2025-12-30T22:39:08+00:00",
-  "last_update_ts": 1767134348,
+  "last_update": "2025-12-30T22:56:12+00:00",
+  "last_update_ts": 1767135372,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -375,7 +375,7 @@
       "description": "Kuro's ultimate move attacks everything in the area, friend nor foe notwithstanding, and Luffy becomes enraged by Kuro's lack of regard for his crew.",
       "chapters": "38-39",
       "episodes": "16-17",
-      "released": "2025-12-06T14:03:39",
+      "released": "2025-12-06",
       "hashes": {
         "crc32": "014834ED",
         "blake2": ""
@@ -1103,7 +1103,7 @@
       "description": "The island is saved without any villagers ever knowing what almost befell their home. Kaya, grateful to the Straw Hats for what they did, gifts them something invaluable for sailing the high seas. Meanwhile, one more person joins Luffy's crew.",
       "chapters": "40-41",
       "episodes": "17",
-      "released": "2025-12-06T14:03:39",
+      "released": "2025-12-06",
       "hashes": {
         "crc32": "1B7544F3",
         "blake2": ""
@@ -1369,7 +1369,7 @@
       "description": "At Pirate Island, Vice Admiral Garp continues the Koby extraction mission, but Avalo Pizarro's devil fruit powers threaten to sink the rescue ship. Garp, weakened from an attack by Shiryu, entrusts the operation's success to the next generation.",
       "chapters": "1087-1088",
       "episodes": "1121-1122",
-      "released": "2025-10-05T20:17:22",
+      "released": "2025-10-05",
       "hashes": {
         "crc32": "24DEE374",
         "blake2": ""
@@ -1397,7 +1397,7 @@
       "description": "After uncovering a devious plot, Usopp warns the village and Kaya, but finds his years of lying make it difficult to convince people of the truth.",
       "chapters": "26-27",
       "episodes": "10-11",
-      "released": "2025-12-06T14:03:39",
+      "released": "2025-12-06",
       "hashes": {
         "crc32": "25913BDA",
         "blake2": ""
@@ -2727,7 +2727,7 @@
       "description": "When a Marine officer under Arlong's pay confiscates all the money Nami accumulated over the years, it becomes clear where Arlong stands on his promise.",
       "chapters": "79-81",
       "episodes": "36-37",
-      "released": "2025-11-16T23:28:26",
+      "released": "2025-11-16",
       "hashes": {
         "crc32": "587689A9",
         "blake2": ""
@@ -2923,7 +2923,7 @@
       "description": "When a Marine officer under Arlong's pay confiscates all the money Nami accumulated over the years, it becomes clear where Arlong stands on his promise.",
       "chapters": "79-81",
       "episodes": "36-37",
-      "released": "2025-11-10T01:20:26",
+      "released": "2025-11-10",
       "hashes": {
         "crc32": "5D1CA4A2",
         "blake2": ""
@@ -3567,7 +3567,7 @@
       "description": "While the fight between Luffy and Kuro continues, Jango works to force Kaya to bequeath her family's money to the Black Cat captain. Despite the Usopp Pirates' efforts to stop the hypnotist, it seems as if the transaction is all but inevitable.",
       "chapters": "35-37",
       "episodes": "15-16",
-      "released": "2025-12-06T14:03:39",
+      "released": "2025-12-06",
       "hashes": {
         "crc32": "707146C8",
         "blake2": ""
@@ -3777,7 +3777,7 @@
       "description": "In the Labophase on Egghead, which is completely surrounded by the Marines, Luffy and the others devise a plan to escape the island. However, the Frontier Dome, the laser defense system, cannot be deactivated without York's secret passcode.",
       "chapters": "1089-1090",
       "episodes": "1123-1124",
-      "released": "2025-10-13T02:35:18",
+      "released": "2025-10-13",
       "hashes": {
         "crc32": "73E70A0E",
         "blake2": ""
@@ -4687,7 +4687,7 @@
       "description": "With Nami joining as Luffy's navigator (though not as an actual member of the crew), they arrive at Syrup Village in search of a proper ship. There they meet a man claiming to be a pirate captain who also seems to have ties to Red-Haired Shanks.",
       "chapters": "23-25",
       "episodes": "9-10",
-      "released": "2025-12-06T14:03:39",
+      "released": "2025-12-06",
       "hashes": {
         "crc32": "9BC8F913",
         "blake2": ""
@@ -4715,7 +4715,7 @@
       "description": "Shockingly, it turns out Captain Buggy and Red-Haired Shanks share a common history. When the bombastic clown rips Shanks' straw hat, Luffy's rage knows no bounds.",
       "chapters": "19-21",
       "episodes": "8",
-      "released": "2025-09-07T14:47:50",
+      "released": "2025-09-07",
       "hashes": {
         "crc32": "9C115EE6",
         "blake2": ""
@@ -4911,7 +4911,7 @@
       "description": "Captain Kuro makes his appearance, and with Zoro too injured to fight, Luffy incapacitated, and Usopp and Nami too weak to make a stand, the situation is desperate. However, Kaya herself arrives, intent on bargaining with Kuro.",
       "chapters": "31-34",
       "episodes": "13-14",
-      "released": "2025-12-06T14:03:39",
+      "released": "2025-12-06",
       "hashes": {
         "crc32": "A5E4EBC0",
         "blake2": ""
@@ -5611,7 +5611,7 @@
       "description": "As they depart the Baratie in pursuit of Nami and the Going Merry, Yosaku warns Luffy and Sanji about the vicious Arlong and his fishman underlings. Meanwhile, Usopp, Johnny, and Zoro make landfall where Nami docked the Merry.",
       "chapters": "69-71",
       "episodes": "31-32",
-      "released": "2025-10-13T02:33:17",
+      "released": "2025-10-13",
       "hashes": {
         "crc32": "C269DEF5",
         "blake2": ""
@@ -5891,7 +5891,7 @@
       "description": "Nami, a street-smart girl who loves money and tangerines, makes Luffy's acquaintance. To save herself and steal a map to the Grand Line, she tricks Luffy into allowing her to turn him over to the infamous pirate Buggy the Clown.",
       "chapters": "8-11",
       "episodes": "4-6",
-      "released": "2025-09-07T14:47:50",
+      "released": "2025-09-07",
       "hashes": {
         "crc32": "CBFE01C7",
         "blake2": ""
@@ -5905,7 +5905,7 @@
       "description": "Luffy's group has reached the island but are met with a shocking revelation. Unmoved by Nami's apparent actions and her insistence that he leaves, Luffy stubbornly sticks around.",
       "chapters": "74-76",
       "episodes": "33-34",
-      "released": "2025-10-27T13:13:40",
+      "released": "2025-10-27",
       "hashes": {
         "crc32": "CC4900AE",
         "blake2": ""
@@ -5975,7 +5975,7 @@
       "description": "When a Marine officer under Arlong's pay confiscates all the money Nami accumulated over the years, it becomes clear where Arlong stands on his promise.",
       "chapters": "79-81",
       "episodes": "36-37",
-      "released": "2025-11-10T01:20:49",
+      "released": "2025-11-10",
       "hashes": {
         "crc32": "CEDBEA59",
         "blake2": ""
@@ -6017,7 +6017,7 @@
       "description": "In the Labophase on Egghead, which is completely surrounded by the Marines, Luffy and the others devise a plan to escape the island. However, the Frontier Dome, the laser defense system, cannot be deactivated without York's secret passcode.",
       "chapters": "1089-1090",
       "episodes": "1123-1124",
-      "released": "2025-10-13T02:35:31",
+      "released": "2025-10-13",
       "hashes": {
         "crc32": "CF226ADC",
         "blake2": ""
@@ -6479,7 +6479,7 @@
       "description": "Usopp, having challenged the fishmen, has been caught. To effectively prove her loyalty to the Arlong Pirates, Nami is left with a morbid choice.",
       "chapters": "72-74",
       "episodes": "31-33",
-      "released": "2025-10-19T21:09:06",
+      "released": "2025-10-19",
       "hashes": {
         "crc32": "E419D54E",
         "blake2": ""
@@ -6549,7 +6549,7 @@
       "description": "Nojiko goes into detail about Nami's childhood and their adoptive mother Bell-m\u00e8re, a former Marine. Despite being poor and unrelated by blood, they had a happy life on their tangerine orchard.",
       "chapters": "77-78",
       "episodes": "34-36",
-      "released": "2025-11-03T00:41:47",
+      "released": "2025-11-03",
       "hashes": {
         "crc32": "E4D9E965",
         "blake2": ""
@@ -7081,7 +7081,7 @@
       "description": "Usopp resolves that if he is to keep the peace, the town must continue to believe he is a liar, which means he cannot let Captain Kuro's men up the slope to the village! Luffy, Zoro, and Nami aid Usopp in his plan to keep the Black Cat Pirates at bay.",
       "chapters": "28-30",
       "episodes": "12-13",
-      "released": "2025-12-06T14:03:39",
+      "released": "2025-12-06",
       "hashes": {
         "crc32": "F66FB414",
         "blake2": ""
@@ -7193,7 +7193,7 @@
       "description": "Luffy meets a small dog guarding his late master's store. Meanwhile, Beast Tamer Mohji, Cabaji the Acrobat, and the lion Richie show up in the streets of Orange Town to get revenge for Captain Buggy's humiliating loss.",
       "chapters": "12-19",
       "episodes": "6-7",
-      "released": "2025-09-07T14:47:50",
+      "released": "2025-09-07",
       "hashes": {
         "crc32": "FAFCDE38",
         "blake2": ""
