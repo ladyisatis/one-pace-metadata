@@ -1033,7 +1033,7 @@ class OnePaceMetadata:
                             config_yml["episodes"].append({
                                 "episode": ep_num,
                                 "standard": standard_crc,
-                                "extended_crc": extended_crc
+                                "extended": extended_crc
                             })
                         else:
                             crc_key = "standard" if extra is None else "extended"
