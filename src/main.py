@@ -69,7 +69,7 @@ class OnePaceMetadata:
         if isinstance(dt, datetime):
             return dt.isoformat(timespec='seconds').replace('T', ' ').replace('+00:00', '')
 
-        return dt
+        return str(dt).replace('T', ' ').replace('+00:00', '')
 
     def serialize_json(self, obj):
         if isinstance(obj, (date, datetime)):
@@ -873,10 +873,7 @@ class OnePaceMetadata:
 
         _released = str(yml_load.get("released", ""))
         if "T" in _released:
-            yml_load["released"] = self.datetime_serialize(datetime.fromisoformat(_released))
-            changed = True
-        elif "+00:00" in _released:
-            yml_load["released"] = _released.replace("+00:00", "")
+            yml_load["released"] = self.datetime_serialize(_released)
             changed = True
 
         if changed:
@@ -1174,6 +1171,7 @@ class OnePaceMetadata:
             data = self.read_yaml(yml)
             data["manga_chapters"] = str(data.get("manga_chapters", ""))
             data["anime_episodes"] = str(data.get("anime_episodes", ""))
+            data["released"] = self.datetime_serialize(data["released"])
 
             if "_" in crc32:
                 crc32_spl = crc32.split("_")
@@ -1319,7 +1317,7 @@ class OnePaceMetadata:
                         episode.get("episode", 0),
                         episode.get("manga_chapters", ""),
                         episode.get("anime_episodes", ""),
-                        episode.get("released", ""),
+                        self.datetime_serialize(episode.get("released", "")),
                         episode.get("duration", 0),
                         episode.get("extended", False),
                         hashes.get("crc32", ""),
@@ -1372,7 +1370,7 @@ class OnePaceMetadata:
                             ep.get("description", ""),
                             ep.get("manga_chapters", ""),
                             ep.get("anime_episodes", ""),
-                            ep.get("released", ""),
+                            self.datetime_serialize(ep.get("released", "")),
                             ep.get("duration", 0),
                             ep.get("extended", False),
                             str(hashes.get("crc32", "")).upper(),
