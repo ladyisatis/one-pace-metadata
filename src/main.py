@@ -69,7 +69,13 @@ class OnePaceMetadata:
         if isinstance(dt, datetime):
             return dt.isoformat(timespec='seconds').replace('T', ' ').replace('+00:00', '')
 
-        return str(dt).replace('T', ' ').replace('+00:00', '')
+        dt = str(dt)
+        if "T" in dt:
+            dt = dt.replace('T', ' ')
+        if "+00:00" in dt:
+            dt = dt.replace('+00:00', '')
+
+        return dt
 
     def serialize_json(self, obj):
         if isinstance(obj, (date, datetime)):
@@ -871,9 +877,9 @@ class OnePaceMetadata:
             yml_load["duration"] = int(length)
             changed = True
 
-        _released = str(yml_load.get("released", ""))
-        if "T" in _released:
-            yml_load["released"] = self.datetime_serialize(_released)
+        _released = yml_load.get("released", "")
+        if isinstance(_released, str) and ("T" in _released or "+00:00" in _released):
+            yml_load["released"] = _released.replace("T", " ").replace("+00:00", "")
             changed = True
 
         if changed:
@@ -1079,7 +1085,7 @@ class OnePaceMetadata:
                 meta = {
                     "manga_chapters": chapters,
                     "anime_episodes": episodes,
-                    "released": self.datetime_serialize(pub_date),
+                    "released": "",
                     "duration": 0,
                     "extended": extra is not None
                 }
@@ -1102,6 +1108,11 @@ class OnePaceMetadata:
                     f"{YamlDump(hashes, allow_unicode=True, sort_keys=False)}"
                     "\n"
                     f"{file_info}"
+                )
+
+                out = out.replace(
+                    "\nreleased: ''",
+                    f"\nreleased: {self.datetime_serialize(pub_date)}"
                 )
 
                 logger.info(f"Writing to: {crc_file}")
@@ -1171,7 +1182,7 @@ class OnePaceMetadata:
             data = self.read_yaml(yml)
             data["manga_chapters"] = str(data.get("manga_chapters", ""))
             data["anime_episodes"] = str(data.get("anime_episodes", ""))
-            data["released"] = self.datetime_serialize(data["released"])
+            data["released"] = self.datetime_serialize(data.get("released", ""))
 
             if "_" in crc32:
                 crc32_spl = crc32.split("_")
@@ -1308,6 +1319,7 @@ class OnePaceMetadata:
                 for episode in total_eps:
                     hashes = episode.get("hashes", {})
                     file = episode.get("file", {})
+                    released = episode.get("released", "")
 
                     cursor.execute("INSERT INTO episodes (arc, episode, manga_chapters, " +
                         "anime_episodes, released, duration, extended, hash_crc32, " +
@@ -1317,7 +1329,7 @@ class OnePaceMetadata:
                         episode.get("episode", 0),
                         episode.get("manga_chapters", ""),
                         episode.get("anime_episodes", ""),
-                        self.datetime_serialize(episode.get("released", "")),
+                        self.datetime_serialize(released),
                         episode.get("duration", 0),
                         episode.get("extended", False),
                         hashes.get("crc32", ""),
@@ -1357,6 +1369,8 @@ class OnePaceMetadata:
             for edit_name, b2 in other_edits.items():
                 for ep in b2.values():
                     hashes = ep.get("hashes", {})
+                    released = ep.get("released", "")
+
                     cursor.execute("INSERT INTO other_edits (edit_name, arc, " +
                         "episode, title, description, manga_chapters, " +
                         "anime_episodes, released, duration, extended, " +
@@ -1370,7 +1384,7 @@ class OnePaceMetadata:
                             ep.get("description", ""),
                             ep.get("manga_chapters", ""),
                             ep.get("anime_episodes", ""),
-                            self.datetime_serialize(ep.get("released", "")),
+                            self.datetime_serialize(released),
                             ep.get("duration", 0),
                             ep.get("extended", False),
                             str(hashes.get("crc32", "")).upper(),
