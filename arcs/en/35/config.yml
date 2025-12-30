@@ -176,7 +176,7 @@ episodes:
   extended: 425F93B9
 - episode: '56'
   standard: E58B9A11
-  extended_crc: ''
+  extended: ''
 
 info:
   status: Work In Progress
