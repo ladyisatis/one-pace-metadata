@@ -4510,5 +4510,245 @@
         "blake2": "dadc2f54d9770eb9"
       }
     }
+  },
+  "shaved_egghead": {
+    "347981433ce3e691": {
+      "arc": 36,
+      "episode": 25,
+      "title": "Bonney's Birth (Shaved Egghead)",
+      "description": "",
+      "anime_episodes": "1132",
+      "manga_chapters": "1098",
+      "duration": 1365,
+      "released": "2025-06-08",
+      "hashes": {
+        "crc32": "80da99be",
+        "blake2": "347981433ce3e691"
+      }
+    },
+    "01ff3646e131dd4a": {
+      "arc": 36,
+      "episode": 22,
+      "title": "Better Off Dead in This World (Shaved Egghead)",
+      "description": "",
+      "anime_episodes": "1128-1129",
+      "manga_chapters": "1094-1095",
+      "duration": 2084,
+      "released": "2025-05-18",
+      "hashes": {
+        "crc32": "4e5d96d3",
+        "blake2": "01ff3646e131dd4a"
+      }
+    },
+    "634d00eb746c74ed": {
+      "arc": 36,
+      "episode": 34,
+      "title": "Starfall (Shaved Egghead)",
+      "description": "",
+      "anime_episodes": "1144",
+      "manga_chapters": "1110",
+      "duration": 887,
+      "released": "2025-09-21",
+      "hashes": {
+        "crc32": "3d712d5c",
+        "blake2": "634d00eb746c74ed"
+      }
+    },
+    "94f930d9090fb3ee": {
+      "arc": 36,
+      "episode": 35,
+      "title": "Sun Shield (Shaved Egghead)",
+      "description": "",
+      "anime_episodes": "1145-1146",
+      "manga_chapters": "1111-1112",
+      "duration": 1809,
+      "released": "2025-10-19",
+      "hashes": {
+        "crc32": "9c3bd8cd",
+        "blake2": "94f930d9090fb3ee"
+      }
+    },
+    "b15759c238e3bb19": {
+      "arc": 36,
+      "episode": 28,
+      "title": "To Bonney (Shaved Egghead)",
+      "description": "",
+      "anime_episodes": "1135",
+      "manga_chapters": "1101",
+      "duration": 1366,
+      "released": "2025-07-06",
+      "hashes": {
+        "crc32": "2a5526de",
+        "blake2": "b15759c238e3bb19"
+      }
+    },
+    "8ddc3eaa1017d6c0": {
+      "arc": 36,
+      "episode": 23,
+      "title": "Kumachi (Shaved Egghead)",
+      "description": "",
+      "anime_episodes": "1130",
+      "manga_chapters": "1096",
+      "duration": 1336,
+      "released": "2025-05-25",
+      "hashes": {
+        "crc32": "6a4db240",
+        "blake2": "8ddc3eaa1017d6c0"
+      }
+    },
+    "5759a6aa3724c448": {
+      "arc": 36,
+      "episode": 30,
+      "title": "Thank You, Daddy (Shaved Egghead)",
+      "description": "",
+      "anime_episodes": "1137-1138",
+      "manga_chapters": "1103-1104",
+      "duration": 1963,
+      "released": "2025-08-03",
+      "hashes": {
+        "crc32": "39bb5cb4",
+        "blake2": "5759a6aa3724c448"
+      }
+    },
+    "e35eb5ab05b38433": {
+      "arc": 36,
+      "episode": 21,
+      "title": "Luffy vs. Kizaru (Shaved Egghead)",
+      "description": "",
+      "anime_episodes": "1127",
+      "manga_chapters": "1093",
+      "duration": 804,
+      "released": "2025-04-27",
+      "hashes": {
+        "crc32": "41467ac6",
+        "blake2": "e35eb5ab05b38433"
+      }
+    },
+    "15f161f7da214a1d": {
+      "arc": 36,
+      "episode": 37,
+      "title": "The Wings of Icarus (Shaved Egghead)",
+      "description": "",
+      "anime_episodes": "1148",
+      "manga_chapters": "1114-1115",
+      "duration": null,
+      "released": "2025-11-02",
+      "hashes": {
+        "crc32": "89770fd1",
+        "blake2": "15f161f7da214a1d"
+      }
+    },
+    "6b8d16f1b461bf2b": {
+      "arc": 36,
+      "episode": 32,
+      "title": "Come In, World (Shaved Egghead)",
+      "description": "",
+      "anime_episodes": "1141-1142",
+      "manga_chapters": "1107-1108",
+      "duration": 1528,
+      "released": "2025-09-07",
+      "hashes": {
+        "crc32": "82fb4e51",
+        "blake2": "6b8d16f1b461bf2b"
+      }
+    },
+    "79e878943466fa6e": {
+      "arc": 36,
+      "episode": 33,
+      "title": "Interception (Shaved Egghead)",
+      "description": "",
+      "anime_episodes": "1143",
+      "manga_chapters": "1109",
+      "duration": 839,
+      "released": "2025-09-14",
+      "hashes": {
+        "crc32": "7f1a7287",
+        "blake2": "79e878943466fa6e"
+      }
+    },
+    "6014b2351e5ade95": {
+      "arc": 36,
+      "episode": 26,
+      "title": "Pacifist (Shaved Egghead)",
+      "description": "",
+      "anime_episodes": "1133",
+      "manga_chapters": "1099",
+      "duration": 1370,
+      "released": "2025-06-15",
+      "hashes": {
+        "crc32": "7308ff72",
+        "blake2": "6014b2351e5ade95"
+      }
+    },
+    "0023968f196b1390": {
+      "arc": 36,
+      "episode": 29,
+      "title": "Kuma's Life (Shaved Egghead)",
+      "description": "",
+      "anime_episodes": "1136",
+      "manga_chapters": "1102",
+      "duration": 1380,
+      "released": "2025-07-13",
+      "hashes": {
+        "crc32": "41b1f530",
+        "blake2": "0023968f196b1390"
+      }
+    },
+    "2d6bd30fc511fa89": {
+      "arc": 36,
+      "episode": 31,
+      "title": "On Your Side (Shaved Egghead)",
+      "description": "",
+      "anime_episodes": "1139-1140",
+      "manga_chapters": "1105-1106",
+      "duration": 1404,
+      "released": "2025-08-17",
+      "hashes": {
+        "crc32": "64a70157",
+        "blake2": "2d6bd30fc511fa89"
+      }
+    },
+    "e0c90cc5c845de2d": {
+      "arc": 36,
+      "episode": 36,
+      "title": "Stalemate (Shaved Egghead)",
+      "description": "",
+      "anime_episodes": "1147",
+      "manga_chapters": "1113",
+      "duration": 964,
+      "released": "2025-10-26",
+      "hashes": {
+        "crc32": "ff0ac003",
+        "blake2": "e0c90cc5c845de2d"
+      }
+    },
+    "f949c1c546cfc6c4": {
+      "arc": 36,
+      "episode": 24,
+      "title": "Ginny (Shaved Egghead)",
+      "description": "",
+      "anime_episodes": "1131",
+      "manga_chapters": "1097",
+      "duration": 1370,
+      "released": "2025-06-01",
+      "hashes": {
+        "crc32": "f99aa916",
+        "blake2": "f949c1c546cfc6c4"
+      }
+    },
+    "6162a9a0ac218962": {
+      "arc": 36,
+      "episode": 27,
+      "title": "Thank You, Bonney (Shaved Egghead)",
+      "description": "",
+      "anime_episodes": "1134",
+      "manga_chapters": "1100",
+      "duration": 1370,
+      "released": "2025-06-29",
+      "hashes": {
+        "crc32": "1da0fa20",
+        "blake2": "6162a9a0ac218962"
+      }
+    }
   }
 }
