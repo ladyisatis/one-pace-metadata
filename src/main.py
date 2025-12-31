@@ -1238,8 +1238,8 @@ class OnePaceMetadata:
 
                     hashes = data.get("hashes", {})
                     if "crc32" in hashes or "blake2" in hashes:
-                        data["hashes"]["crc32"] = data["hashes"].get("crc32", "").upper()[:8]
-                        data["hashes"]["blake2"] = data["hashes"].get("blake2", "").lower()[:16]
+                        data["hashes"]["crc32"] = str(data["hashes"].get("crc32", "")).upper()[:8]
+                        data["hashes"]["blake2"] = str(data["hashes"].get("blake2", "")).lower()[:16]
 
                     if "released" in data:
                         if for_json:
@@ -1247,7 +1247,7 @@ class OnePaceMetadata:
                         else:
                             data["released"] = self.datetime_unserialize(data["released"])
 
-                    if hashes.get("crc32", "") != "" and hashes.get("blake2", "") != "":
+                    if str(hashes.get("crc32", "")) != "" and str(hashes.get("blake2", "")) != "":
                         other_edits[e_id][yml.stem] = data
 
                 except:
