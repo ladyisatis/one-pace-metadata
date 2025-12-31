@@ -1427,6 +1427,16 @@ class OnePaceMetadata:
 
             conn.commit()
 
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_arcs_lang ON arcs(lang);")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_arcs_lang_part ON arcs(lang, part);")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_episodes_crc32 ON episodes(hash_crc32);")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_episodes_blake2s ON episodes(hash_blake2s);")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_other_edits_edit_name ON other_edits(edit_name);")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_other_edits_crc32 ON other_edits(crc32, edit_name);")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_other_edits_blake2s ON other_edits(blake2s, edit_name);")
+
+            conn.commit()
+
     def generate_data(self):
         logger.info("Generate arcs")
         arcs = self.generate_arcs()
