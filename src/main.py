@@ -1236,13 +1236,19 @@ class OnePaceMetadata:
                     data["manga_chapters"] = str(data.get("manga_chapters", ""))
                     data["anime_episodes"] = str(data.get("anime_episodes", ""))
 
+                    hashes = data.get("hashes", {})
+                    if "crc32" in hashes or "blake2" in hashes:
+                        data["hashes"]["crc32"] = data["hashes"].get("crc32", "").upper()[:8]
+                        data["hashes"]["blake2"] = data["hashes"].get("blake2", "").lower()[:16]
+
                     if "released" in data:
                         if for_json:
                             data["released"] = self.datetime_serialize(data["released"])
                         else:
                             data["released"] = self.datetime_unserialize(data["released"])
 
-                    other_edits[e_id][yml.stem] = data
+                    if hashes.get("crc32", "") != "" and hashes.get("blake2", "") != "":
+                        other_edits[e_id][yml.stem] = data
 
                 except:
                     logger.exception(f"Skipping: Cannot read {yml}")
