@@ -1176,7 +1176,7 @@ muhn_pace:
     duration: 0
     released: 2013-09-07
     hashes:
-      crc32: '1501139'
+      crc32: 01501139
       blake2: 9f56a4cd090d29fd
   97921ac02d5eb255:
     arc: 19
@@ -4224,7 +4224,7 @@ onigashima_paced:
     duration: 1194
     released: 2023-05-09
     hashes:
-      crc32: '140659'
+      crc32: 00140659
       blake2: ba02323171b97a6c
   a0b11b7af0b7f39d:
     arc: 35
