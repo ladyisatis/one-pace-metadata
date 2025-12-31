@@ -1365,8 +1365,8 @@ class OnePaceMetadata:
                         self.datetime_serialize(released),
                         episode.get("duration", 0),
                         episode.get("extended", False),
-                        hashes.get("crc32", ""),
-                        hashes.get("blake2s", ""),
+                        hashes.get("crc32", "").upper(),
+                        hashes.get("blake2s", "").lower(),
                         file.get("id", 0),
                         file.get("name", ""),
                         file.get("size", ""),
@@ -1421,7 +1421,7 @@ class OnePaceMetadata:
                             ep.get("duration", 0),
                             ep.get("extended", False),
                             str(hashes.get("crc32", "")).upper(),
-                            str(hashes.get("blake2", "")).upper()
+                            str(hashes.get("blake2", "")).lower()
                         )
                     )
 
@@ -1432,8 +1432,8 @@ class OnePaceMetadata:
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_episodes_crc32 ON episodes(hash_crc32);")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_episodes_blake2s ON episodes(hash_blake2s);")
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_other_edits_edit_name ON other_edits(edit_name);")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_other_edits_crc32 ON other_edits(crc32, edit_name);")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_other_edits_blake2s ON other_edits(blake2s, edit_name);")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_other_edits_crc32 ON other_edits(hash_crc32, edit_name);")
+            cursor.execute("CREATE INDEX IF NOT EXISTS idx_other_edits_blake2s ON other_edits(hash_blake2s, edit_name);")
 
             conn.commit()
 
