@@ -1164,20 +1164,6 @@ muhn_pace:
     hashes:
       crc32: C98B4752
       blake2: 64078fdc6dd1b2bb
-  9f56a4cd090d29fd:
-    arc: 21
-    episode: 7
-    title: The Fearsome Ability of the Shadow Fruit! The Ultimate Number 900!
-    description: Gecko Moria takes his next step toward his goal of eventually becoming
-      king of the pirates by creating the ultimate zombie. Luffy's shadow in hand,
-      Moria begins the revival of the much-anticipated number 900.
-    manga_chapters: 455-456
-    anime_episodes: 349-350
-    duration: 0
-    released: 2013-09-07
-    hashes:
-      crc32: 1501139
-      blake2: 9f56a4cd090d29fd
   97921ac02d5eb255:
     arc: 19
     episode: 7
@@ -2481,21 +2467,6 @@ muhn_pace:
     hashes:
       crc32: D169245E
       blake2: db92d7a1cdd0ad85
-  e1571b84a886e4e9:
-    arc: 31
-    episode: 36
-    title: The Spear of Elbaph and Don Sai
-    description: Hajrudin has been beaten down, but a fire still burns within him
-      to pay back the favor he owes! Lao G and Don Chinjao bring their most devastating
-      attacks to bear, but a misunderstanding caused by Baby 5 has Sai and Don Chinjao
-      distracted.
-    manga_chapters: 770-771
-    anime_episodes: 708-711
-    duration: 0
-    released: 2017-01-14
-    hashes:
-      crc32: 66547199
-      blake2: e1571b84a886e4e9
   b46e5a0cc07a2863:
     arc: 33
     episode: 1
@@ -3121,21 +3092,6 @@ muhn_pace:
     hashes:
       crc32: 24D048C4
       blake2: fb5b27ae364dd9b4
-  '4704004053989382':
-    arc: 26
-    episode: 13
-    title: The Times They Are A-Changin'
-    description: Ace is free at last, and the pair of brothers are unstoppable! Although
-      the Whitebeard Pirates are emboldened by their teamwork, their captain is not
-      convinced that their escape will come so easily, and Whitebeard makes a difficult
-      decision.
-    manga_chapters: 572-573
-    anime_episodes: 481-482
-    duration: 0
-    released: 2020-10-07
-    hashes:
-      crc32: 05B17079
-      blake2: 4704004053989382
   759018d0ce8fc7dc:
     arc: 22
     episode: 3
@@ -3757,20 +3713,6 @@ muhn_pace:
     hashes:
       crc32: 7DDAAC41
       blake2: f67401a8ad833d64
-  a7ee3e5aed80b9cb:
-    arc: 33
-    episode: 34
-    title: Unknown Mama
-    description: Wielding Napoleon and backed by Zeus and Prometheus, Big Mom wreaks
-      havoc on the Sunny. As the Straw Hats try to kick out the Emperor, their ship
-      catches fire! But then, Jinbe steps up to the plate to take a swing.
-    manga_chapters: 889-891
-    anime_episodes: 862-865
-    duration: 0
-    released: 2020-12-11
-    hashes:
-      crc32: 53487652
-      blake2: a7ee3e5aed80b9cb
   30d1c5f9316977ae:
     arc: 32
     episode: 1
@@ -4106,18 +4048,6 @@ onigashima_paced:
     hashes:
       crc32: 86F6871E
       blake2: 065f55ba14d2273c
-  6b16fe453e1f2dcd:
-    arc: 35
-    episode: 36
-    title: Brachiosnakeus
-    description: ''
-    manga_chapters: 1027-1028
-    anime_episodes: 1051-1053
-    duration: 1582
-    released: 2024-02-18
-    hashes:
-      crc32: 49206062
-      blake2: 6b16fe453e1f2dcd
   5931b60d93e2c269:
     arc: 35
     episode: 15
@@ -4214,18 +4144,6 @@ onigashima_paced:
     hashes:
       crc32: 11255B48
       blake2: fa8c23ab1fa2332d
-  ba02323171b97a6c:
-    arc: 35
-    episode: 14
-    title: My Other Name Is Yamato
-    description: ''
-    manga_chapters: '994'
-    anime_episodes: 1006-1007
-    duration: 1194
-    released: 2023-05-09
-    hashes:
-      crc32: 140659
-      blake2: ba02323171b97a6c
   a0b11b7af0b7f39d:
     arc: 35
     episode: 46
@@ -4549,7 +4467,7 @@ shaved_egghead:
     duration: 1365
     released: 2025-06-08
     hashes:
-      crc32: 80da99be
+      crc32: 80DA99BE
       blake2: 347981433ce3e691
   01ff3646e131dd4a:
     arc: 36
@@ -4561,7 +4479,7 @@ shaved_egghead:
     duration: 2084
     released: 2025-05-18
     hashes:
-      crc32: 4e5d96d3
+      crc32: 4E5D96D3
       blake2: 01ff3646e131dd4a
   634d00eb746c74ed:
     arc: 36
@@ -4573,7 +4491,7 @@ shaved_egghead:
     duration: 887
     released: 2025-09-21
     hashes:
-      crc32: 3d712d5c
+      crc32: 3D712D5C
       blake2: 634d00eb746c74ed
   94f930d9090fb3ee:
     arc: 36
@@ -4585,7 +4503,7 @@ shaved_egghead:
     duration: 1809
     released: 2025-10-19
     hashes:
-      crc32: 9c3bd8cd
+      crc32: 9C3BD8CD
       blake2: 94f930d9090fb3ee
   b15759c238e3bb19:
     arc: 36
@@ -4597,7 +4515,7 @@ shaved_egghead:
     duration: 1366
     released: 2025-07-06
     hashes:
-      crc32: 2a5526de
+      crc32: 2A5526DE
       blake2: b15759c238e3bb19
   8ddc3eaa1017d6c0:
     arc: 36
@@ -4609,7 +4527,7 @@ shaved_egghead:
     duration: 1336
     released: 2025-05-25
     hashes:
-      crc32: 6a4db240
+      crc32: 6A4DB240
       blake2: 8ddc3eaa1017d6c0
   5759a6aa3724c448:
     arc: 36
@@ -4621,7 +4539,7 @@ shaved_egghead:
     duration: 1963
     released: 2025-08-03
     hashes:
-      crc32: 39bb5cb4
+      crc32: 39BB5CB4
       blake2: 5759a6aa3724c448
   e35eb5ab05b38433:
     arc: 36
@@ -4633,7 +4551,7 @@ shaved_egghead:
     duration: 804
     released: 2025-04-27
     hashes:
-      crc32: 41467ac6
+      crc32: 41467AC6
       blake2: e35eb5ab05b38433
   15f161f7da214a1d:
     arc: 36
@@ -4645,7 +4563,7 @@ shaved_egghead:
     duration: null
     released: 2025-11-02
     hashes:
-      crc32: 89770fd1
+      crc32: 89770FD1
       blake2: 15f161f7da214a1d
   6b8d16f1b461bf2b:
     arc: 36
@@ -4657,7 +4575,7 @@ shaved_egghead:
     duration: 1528
     released: 2025-09-07
     hashes:
-      crc32: 82fb4e51
+      crc32: 82FB4E51
       blake2: 6b8d16f1b461bf2b
   79e878943466fa6e:
     arc: 36
@@ -4669,7 +4587,7 @@ shaved_egghead:
     duration: 839
     released: 2025-09-14
     hashes:
-      crc32: 7f1a7287
+      crc32: 7F1A7287
       blake2: 79e878943466fa6e
   6014b2351e5ade95:
     arc: 36
@@ -4681,7 +4599,7 @@ shaved_egghead:
     duration: 1370
     released: 2025-06-15
     hashes:
-      crc32: 7308ff72
+      crc32: 7308FF72
       blake2: 6014b2351e5ade95
   0023968f196b1390:
     arc: 36
@@ -4693,7 +4611,7 @@ shaved_egghead:
     duration: 1380
     released: 2025-07-13
     hashes:
-      crc32: 41b1f530
+      crc32: 41B1F530
       blake2: 0023968f196b1390
   2d6bd30fc511fa89:
     arc: 36
@@ -4705,7 +4623,7 @@ shaved_egghead:
     duration: 1404
     released: 2025-08-17
     hashes:
-      crc32: 64a70157
+      crc32: 64A70157
       blake2: 2d6bd30fc511fa89
   e0c90cc5c845de2d:
     arc: 36
@@ -4717,7 +4635,7 @@ shaved_egghead:
     duration: 964
     released: 2025-10-26
     hashes:
-      crc32: ff0ac003
+      crc32: FF0AC003
       blake2: e0c90cc5c845de2d
   f949c1c546cfc6c4:
     arc: 36
@@ -4729,7 +4647,7 @@ shaved_egghead:
     duration: 1370
     released: 2025-06-01
     hashes:
-      crc32: f99aa916
+      crc32: F99AA916
       blake2: f949c1c546cfc6c4
   6162a9a0ac218962:
     arc: 36
@@ -4741,5 +4659,5 @@ shaved_egghead:
     duration: 1370
     released: 2025-06-29
     hashes:
-      crc32: 1da0fa20
+      crc32: 1DA0FA20
       blake2: 6162a9a0ac218962
