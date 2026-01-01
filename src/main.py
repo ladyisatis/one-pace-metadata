@@ -1052,7 +1052,11 @@ class OnePaceMetadata:
                         else:
                             crc_key = "standard" if extra is None else "extended"
                             logger.info(f"Update episode #{i}: {crc_key} = {crc32}")
-                            config_yml["episodes"][i][crc_key] = crc32
+                            old_crc = str(config_yml["episodes"][i].get(crc_key, "")).upper()
+                            config_yml["episodes"][i][crc_key] = str(crc32).upper()
+
+                            if old_crc != "":
+                                Path(self.episodes_dir, f"{old_crc}.yml").unlink(missing_ok=True)
 
                     else:
                         config_yml = self.generate_arc_tmpl(
