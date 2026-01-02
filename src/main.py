@@ -873,14 +873,14 @@ class OnePaceMetadata:
         old_crc_dt = old_crc_yml.get("released", "2000-01-01 00:00:00")
         if isinstance(old_crc_dt, str):
             old_crc_dt = datetime.fromisoformat(old_crc_dt.split("+")[0] if old_crc_dt != "" else "2000-01-01 00:00:00")
-        elif isinstance(old_crc_dt, date):
+        elif isinstance(old_crc_dt, date) and not hasattr(old_crc_dt, "hour"):
             old_crc_dt = datetime.strptime(str(old_crc_dt), "%Y-%m-%d")
 
         new_crc_dt = new_crc_yml.get("released", "2000-01-01 00:00:00")
         if isinstance(new_crc_dt, str):
             new_crc_dt = datetime.fromisoformat(new_crc_dt.split("+")[0] if new_crc_dt != "" else "2000-01-01 00:00:00")
-        elif isinstance(new_crc_dt, date):
-            old_crc_dt = datetime.strptime(str(new_crc_dt), "%Y-%m-%d")
+        elif isinstance(new_crc_dt, date) and not hasattr(new_crc_dt, "hour"):
+            new_crc_dt = datetime.strptime(str(new_crc_dt), "%Y-%m-%d")
 
         if new_crc_dt.replace(tzinfo=timezone.utc) > old_crc_dt.replace(tzinfo=timezone.utc):
             logger.info(f"-- Pruning old episode file: {old_crc_file} ({new_crc_dt} > {old_crc_dt})")
