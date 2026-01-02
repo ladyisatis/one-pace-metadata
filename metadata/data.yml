@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-01-01T00:01:58+00:00'
-  last_update_ts: 1767225718
+  last_update: '2026-01-02T01:00:20+00:00'
+  last_update_ts: 1767315620
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 115
+  version: 117
 tvshow:
   en:
     title: One Piece
@@ -147,25 +147,25 @@ arcs:
       There they find a liar and a conspiracy to steal a young lady's fortune.
     episodes:
     - episode: '01'
-      standard: A6DDEC2C
+      standard: 9BC8F913
       extended: ''
     - episode: '02'
-      standard: 0433686D
+      standard: 25913BDA
       extended: ''
     - episode: '03'
-      standard: 35E9CFA6
+      standard: F66FB414
       extended: ''
     - episode: '04'
-      standard: 89B18321
+      standard: A5E4EBC0
       extended: ''
     - episode: '05'
-      standard: 0D3E2158
+      standard: 707146C8
       extended: ''
     - episode: '06'
-      standard: D08B41AE
+      standard: 014834ED
       extended: ''
     - episode: '07'
-      standard: D0A51040
+      standard: 1B7544F3
       extended: ''
     info:
       status: ''
@@ -285,7 +285,7 @@ arcs:
       extended: ''
     - episode: '05'
       standard: 5D1CA4A2
-      extended: CEDBEA59
+      extended: 587689A9
     - episode: '06'
       standard: 06F25D1B
       extended: ''
