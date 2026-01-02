@@ -786,7 +786,7 @@ class OnePaceMetadata:
 
                     i = None
                     for ind, obj in enumerate(config_data["episodes"]):
-                        if obj["episode"] == ep_str:
+                        if obj.get("episode", "") == ep_str:
                             i = ind
                             break
 
@@ -798,13 +798,25 @@ class OnePaceMetadata:
                         })
                         changed = True
                     else:
-                        if config_data["episodes"][i]["standard"] == "":
-                            config_data["episodes"][i]["standard"] = mkv_crc32[0]
-                            changed = True
+                        if len(mkv_crc32) > 0:
+                            old_crc_standard = config_data["episodes"][i].get("standard", "")
 
-                        if len(mkv_crc32_extended) > 0 and config_data["episodes"][i]["extended"] == "":
-                            config_data["episodes"][i]["extended"] = mkv_crc32_extended[0]
-                            changed = True
+                            if old_crc_standard == "":
+                                config_data["episodes"][i]["standard"] = mkv_crc32[0]
+                                changed = True
+                            elif self.compare_newer_crc_file(old_crc_standard, mkv_crc32[0]):
+                                config_data["episodes"][i]["standard"] = mkv_crc32[0]
+                                changed = True
+
+                        if len(mkv_crc32_extended) > 0:
+                            old_crc_extended = config_data["episodes"][i].get("extended", "")
+
+                            if old_crc_extended == "":
+                                config_data["episodes"][i]["extended"] = mkv_crc32_extended[0]
+                                changed = True
+                            elif self.compare_newer_crc_file(old_crc_extended, mkv_crc32_extended[0]):
+                                config_data["episodes"][i]["extended"] = mkv_crc32_extended[0]
+                                changed = True
 
                     if changed:
                         config_data["episodes"].sort(key=lambda x: int(x["episode"]))
@@ -840,6 +852,42 @@ class OnePaceMetadata:
                         with poster_file.open(mode='wb') as f:
                             for chunk in poster_resp.iter_bytes():
                                 f.write(chunk)
+
+    def compare_newer_crc_file(self, old, new):
+        if len(old) < 8 or len(new) < 8 or old == new:
+            return False
+
+        old_crc_file = Path(self.episodes_dir, f"{old}.yml")
+        new_crc_file = Path(self.episodes_dir, f"{new}.yml")
+
+        if not old_crc_file.is_file() or not new_crc_file.is_file():
+            return False
+
+        old_crc_yml = self.read_yaml(old_crc_file)
+        new_crc_yml = self.read_yaml(new_crc_file)
+
+        if int(old_crc_yml.get("arc", 0)) != int(new_crc_yml.get("arc", 0)) or int(old_crc_yml.get("episode", 0)) != int(new_crc_yml.get("episode", 0)):
+            logger.warning(f"Arc/episode pairing wasn't the same! {old_crc_yml.get('arc', 0)}/{old_crc_yml.get('episode', 0)} :: {new_crc_yml.get('arc', 0)}/{new_crc_yml.get('episode', 0)}")
+            return False
+
+        old_crc_dt = old_crc_yml.get("released", "2000-01-01 00:00:00")
+        if isinstance(old_crc_dt, str):
+            old_crc_dt = datetime.fromisoformat(old_crc_dt.split("+")[0] if old_crc_dt != "" else "2000-01-01 00:00:00")
+        elif isinstance(old_crc_dt, date):
+            old_crc_dt = datetime.strptime(str(old_crc_dt), "%Y-%m-%d")
+
+        new_crc_dt = new_crc_yml.get("released", "2000-01-01 00:00:00")
+        if isinstance(new_crc_dt, str):
+            new_crc_dt = datetime.fromisoformat(new_crc_dt.split("+")[0] if new_crc_dt != "" else "2000-01-01 00:00:00")
+        elif isinstance(new_crc_dt, date):
+            old_crc_dt = datetime.strptime(str(new_crc_dt), "%Y-%m-%d")
+
+        if new_crc_dt.replace(tzinfo=timezone.utc) > old_crc_dt.replace(tzinfo=timezone.utc):
+            logger.info(f"-- Pruning old episode file: {old_crc_file} ({new_crc_dt} > {old_crc_dt})")
+            old_crc_file.unlink()
+            return True
+
+        return False
 
     def create_crc_file(self, sheet_index, ep, crc_file, mkv_crc32, chapters, episodes, release_date, length, extended):
         file_info = self.fetch_file_info(mkv_crc32[1], search=f"[{mkv_crc32[0]}]")
@@ -1024,8 +1072,8 @@ class OnePaceMetadata:
                 added_metadata.append(f"{arc_name} {ep_num}{extra_str} ({crc32})")
 
                 arc_num = self.arc_to_num.get(arc_name, 0)
-                standard_crc = crc32 if extra is None else ""
-                extended_crc = crc32 if extra is not None else ""
+                standard_crc = str(crc32).upper() if extra is None else ""
+                extended_crc = str(crc32).upper() if extra is not None else ""
 
                 for arc_folder in self.arc_dir.iterdir():
                     arc_file = Path(arc_folder, str(arc_num), "config.yml")
@@ -1050,13 +1098,21 @@ class OnePaceMetadata:
                                 "extended": extended_crc
                             })
                         else:
-                            crc_key = "standard" if extra is None else "extended"
-                            logger.info(f"Update episode #{i}: {crc_key} = {crc32}")
-                            old_crc = str(config_yml["episodes"][i].get(crc_key, "")).upper()
-                            config_yml["episodes"][i][crc_key] = str(crc32).upper()
+                            old_crc_standard = str(config_yml["episodes"][i].get("standard", "")).upper()
+                            if old_crc_standard != standard_crc:
+                                logger.info(f"Update episode #{i} standard: {old_crc_standard} -> {standard_crc}")
+                                config_yml["episodes"][i]["standard"] = standard_crc
 
-                            if old_crc != "":
-                                Path(self.episodes_dir, f"{old_crc}.yml").unlink(missing_ok=True)
+                                if old_crc_standard != "":
+                                    Path(self.episodes_dir, f"{old_crc_standard}.yml").unlink(missing_ok=True)
+
+                            old_crc_extended = str(config_yml["episodes"][i].get("extended", "")).upper()
+                            if old_crc_extended != extended_crc:
+                                logger.info(f"Update episode #{i} extended: {old_crc_extended} -> {extended_crc}")
+                                config_yml["episodes"][i]["extended"] = extended_crc
+
+                                if old_crc_extended != "":
+                                    Path(self.episodes_dir, f"{old_crc_extended}.yml").unlink(missing_ok=True)
 
                     else:
                         config_yml = self.generate_arc_tmpl(
