@@ -1653,21 +1653,23 @@ class OnePaceMetadata:
         now = datetime.now(tz=timezone.utc)
 
         try:
+            is_workflow_dispatch = os.environ.get("GITHUB_EVENT_NAME", "") == "workflow_dispatch"
+
             logger.success("Loading existing arcs")
             self.load_arcs()
 
             logger.success("Loading title.properties / chapter.properties")
             self.get_titles_chapters()
 
-            if now.hour % int(self.config["check_ep_descriptions_every_hours"]) == 0:
+            if now.hour % int(self.config["check_ep_descriptions_every_hours"]) == 0 or is_workflow_dispatch:
                 logger.success("Updating episode descriptions")
                 self.update_desc_sources()
             
-            if now.hour % int(self.config["check_ep_guide_every_hours"]) == 0:
+            if now.hour % int(self.config["check_ep_guide_every_hours"]) == 0 or is_workflow_dispatch:
                 logger.success("Updating metadata from episode guide")
                 self.update_from_episode_guide()
 
-            if now.hour % int(self.config["check_rss_every_hours"]) == 0 and self.ONE_PACE_RSS_FEED != "":
+            if (now.hour % int(self.config["check_rss_every_hours"]) == 0 and self.ONE_PACE_RSS_FEED != "") or is_workflow_dispatch:
                 logger.success("Checking RSS feed for new releases")
                 self.update_from_rss_feed(self.ONE_PACE_RSS_FEED)
 
