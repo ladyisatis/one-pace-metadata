@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-01-02T08:42:24+00:00",
-    "last_update_ts": 1767343344,
+    "last_update": "2026-01-05T18:11:49+00:00",
+    "last_update_ts": 1767636709,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 121
+    "version": 122
   },
   "tvshow": {
     "en": {
@@ -248,7 +248,7 @@
           "filler_episodes": "",
           "num_of_pace_eps": 1,
           "piece_minutes": 21,
-          "pace_minutes": 18,
+          "pace_minutes": 19,
           "audio_languages": "Jpn,Eng,Es",
           "sub_languages": "Eng,Es,Fr, De",
           "pixeldrain_only": "",
@@ -313,7 +313,7 @@
           "anime_episodes": "19 - 30",
           "episodes_adapted": 12,
           "filler_episodes": "",
-          "num_of_pace_eps": 9,
+          "num_of_pace_eps": 8,
           "piece_minutes": 252,
           "pace_minutes": 181,
           "audio_languages": "Jpn,Eng",
@@ -12617,6 +12617,26 @@
         "index": 0
       }
     },
+    "9269F40F": {
+      "arc": 4,
+      "episode": 1,
+      "manga_chapters": "42, 22",
+      "anime_episodes": "18",
+      "released": "2025-07-27",
+      "duration": 1291.0,
+      "extended": false,
+      "hashes": {
+        "crc32": "9269F40F",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 1999001,
+        "name": "[One Pace][42,22] Gaimon 01 [1080p][9269F40F].mkv",
+        "size": "538.1 MiB",
+        "hash": "0b9784f51cdf848c3887d8e540d1204aa7830d96",
+        "index": 0
+      }
+    },
     "92956F40": {
       "arc": 26,
       "episode": 1,
@@ -13373,7 +13393,7 @@
     "A6F61DEE": {
       "arc": 5,
       "episode": 8,
-      "manga_chapters": "67-69",
+      "manga_chapters": "67-68",
       "anime_episodes": "30",
       "released": "2023-07-29",
       "duration": 1123,

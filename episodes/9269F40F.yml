@@ -1,0 +1,19 @@
+arc: 4
+episode: 1
+
+manga_chapters: 42, 22
+anime_episodes: 18
+released: 2025-07-27
+duration: 1291.0
+extended: false
+
+hashes:
+  crc32: 9269F40F
+  blake2s: ''
+
+file:
+  id: 1999001
+  name: '[One Pace][42,22] Gaimon 01 [1080p][9269F40F].mkv'
+  size: 538.1 MiB
+  hash: 0b9784f51cdf848c3887d8e540d1204aa7830d96
+  index: 0
