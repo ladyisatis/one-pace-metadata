@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-01-05T18:11:49+00:00",
-  "last_update_ts": 1767636709,
+  "last_update": "2026-01-06T00:30:24+00:00",
+  "last_update_ts": 1767659424,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -644,20 +644,6 @@
       "released": "2021-02-28",
       "hashes": {
         "crc32": "0B965026",
-        "blake2": ""
-      }
-    },
-    "0C2DBF75": {
-      "arc": 4,
-      "episode": 1,
-      "title": "You're the Rare Breed",
-      "originaltitle": "",
-      "description": "With Usopp now on the crew and their new ship, the Going Merry, under their command, the Straw Hats head to an island said to hold a fabled treasure. There they encounter a strange man stuck in a box who has been looking for the same treasure.",
-      "chapters": "42, 22",
-      "episodes": "18",
-      "released": "2023-01-28",
-      "hashes": {
-        "crc32": "0C2DBF75",
         "blake2": ""
       }
     },
