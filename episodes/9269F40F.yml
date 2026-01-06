@@ -2,7 +2,7 @@ arc: 4
 episode: 1
 
 manga_chapters: 42, 22
-anime_episodes: 18
+anime_episodes: '18'
 released: 2025-07-27
 duration: 1291.0
 extended: false

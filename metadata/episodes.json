@@ -459,26 +459,6 @@
       "index": 0
     }
   },
-  "0C2DBF75": {
-    "arc": 4,
-    "episode": 1,
-    "manga_chapters": "42, 22",
-    "anime_episodes": "18",
-    "released": "2023-01-28",
-    "duration": 1235,
-    "extended": false,
-    "hashes": {
-      "crc32": "0C2DBF75",
-      "blake2s": ""
-    },
-    "file": {
-      "id": 1630907,
-      "name": "[One Pace][42,22] Gaimon 01 [1080p][0C2DBF75].mkv",
-      "size": "480.3 MiB",
-      "hash": "b83d8260265b01910c0068b2b488d81b674917ea",
-      "index": 0
-    }
-  },
   "0C5E9A92": {
     "arc": 14,
     "episode": 20,
