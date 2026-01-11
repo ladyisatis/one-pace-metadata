@@ -299,26 +299,6 @@
       "index": 0
     }
   },
-  "06F25D1B": {
-    "arc": 6,
-    "episode": 6,
-    "manga_chapters": "82-84",
-    "anime_episodes": "38-39",
-    "released": "2020-09-12",
-    "duration": 1617,
-    "extended": false,
-    "hashes": {
-      "crc32": "06F25D1B",
-      "blake2s": ""
-    },
-    "file": {
-      "id": 1279925,
-      "name": "[One Pace][82-84] Arlong Park 06 [480p][06F25D1B].mkv",
-      "size": "170.6 MiB",
-      "hash": "4c688038db6ae51893f505fbb0c12eafacde8f4b",
-      "index": 0
-    }
-  },
   "0880B38F": {
     "arc": 32,
     "episode": 9,
@@ -9903,6 +9883,26 @@
       "size": "243.9 MiB",
       "hash": "8eae38e998ff4e537f0974ab4249f89479fb644d",
       "index": 6
+    }
+  },
+  "FCF6BA63": {
+    "arc": 6,
+    "episode": 6,
+    "manga_chapters": "82-84",
+    "anime_episodes": "38-39",
+    "released": "2026-01-10 22:26:35",
+    "duration": 0,
+    "extended": false,
+    "hashes": {
+      "crc32": "FCF6BA63",
+      "blake2s": ""
+    },
+    "file": {
+      "id": 2062715,
+      "name": "[One Pace][82-84] Arlong Park 06 [1080p][FCF6BA63].mkv",
+      "size": "587.6 MiB",
+      "hash": "2b8ae89cb5efdb0600c14d20a8b9ea38c9e2f21b",
+      "index": 0
     }
   },
   "FCF7F7E4": {
