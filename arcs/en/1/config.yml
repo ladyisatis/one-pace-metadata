@@ -31,8 +31,8 @@ info:
   num_of_pace_eps: 4
   piece_minutes: 105
   pace_minutes: 76
-  audio_languages: Jpn,Eng,Es, De
-  sub_languages: Eng,Es,Fr,De,Ar,Pt,Pl,Eng CC
+  audio_languages: JA, EN, ES, DE
+  sub_languages: EN,EN(CC), AR, DE, ES, FR, IT, PL, PT-BR, RU, TR
   pixeldrain_only: ''
   resolution: 1080p
   arc_watch_guide: Pace
