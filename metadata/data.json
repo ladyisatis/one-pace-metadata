@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-01-11T00:33:41+00:00",
-    "last_update_ts": 1768091621,
+    "last_update": "2026-01-11T06:10:28+00:00",
+    "last_update_ts": 1768111828,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 124
+    "version": 125
   },
   "tvshow": {
     "en": {
@@ -392,7 +392,7 @@
           "filler_episodes": "",
           "num_of_pace_eps": 10,
           "piece_minutes": 294,
-          "pace_minutes": 239,
+          "pace_minutes": 238,
           "audio_languages": "Jpn,Eng",
           "sub_languages": "Eng,Es, Fr, De (1-5)",
           "pixeldrain_only": "Fr ",
@@ -16629,7 +16629,7 @@
       "manga_chapters": "82-84",
       "anime_episodes": "38-39",
       "released": "2026-01-10 22:26:35",
-      "duration": 0,
+      "duration": 1559,
       "extended": false,
       "hashes": {
         "crc32": "FCF6BA63",
