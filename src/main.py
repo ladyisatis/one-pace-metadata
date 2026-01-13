@@ -603,7 +603,7 @@ class OnePaceMetadata:
 
                 else:
                     if not self.episodes_dir.is_dir():
-                        self.episodes_dir.mkdir(exist_ok=True)
+                        self.episodes_dir.mkdir(exist_ok=True, parents=True)
                         logger.info(f"Created directory: {self.episodes_dir}")
 
                     config_yml = Path(f"{self.arc_dir}/en/{sheet_index}/config.yml")
@@ -852,6 +852,48 @@ class OnePaceMetadata:
                         with poster_file.open(mode='wb') as f:
                             for chunk in poster_resp.iter_bytes():
                                 f.write(chunk)
+    
+    def archive_file(self, src):
+        archive_dir = Path(self.episodes_dir, "archive")
+        if not archive_dir.is_dir():
+            archive_dir.mkdir(exist_ok=True)
+    
+        stem = src.stem if hasattr(src, "stem") else src.name.split(".")[0]
+        suffix = src.suffix if hasattr(src, "suffix") else ".yml"
+    
+        pattern = re.compile(rf"^{re.escape(stem)}(?:_(\d+))?{re.escape(suffix)}$")
+        existing = []
+    
+        for f in archive_dir.iterdir():
+            if not f.is_file():
+                continue
+    
+            m = pattern.match(f.name)
+            if m:
+                existing.append(int(m.group(1) or 0))
+    
+        if len(existing) == 0:
+            target = Path(archive_dir, src.name)
+            logger.info("---- Moving {target} to: {target}")
+            src.move_into(target)
+            return
+    
+        max_n = max(existing)
+    
+        if 0 in existing:
+            original = Path(archive_dir, f"{stem}{suffix}")
+            new_file = Path(archive_dir, f"{stem}_1{suffix}")
+    
+            logger.info("---- Renaming {original} to: {new_file}")
+            original.rename(new_file)
+            existing.remove(0)
+            existing.append(1)
+    
+            max_n = max(existing)
+    
+        target = Path(archive_dir, f"{stem}_{max_n + 1}{suffix}")
+        logger.info("---- Renaming {src} to: {target}")
+        src.rename(target)
 
     def compare_newer_crc_file(self, old, new):
         if len(old) < 8 or len(new) < 8 or old == new:
@@ -882,9 +924,13 @@ class OnePaceMetadata:
         elif isinstance(new_crc_dt, date) and not hasattr(new_crc_dt, "hour"):
             new_crc_dt = datetime.strptime(str(new_crc_dt), "%Y-%m-%d")
 
+        episodes_old_dir = Path(self.episodes_dir, "archive")
+        if not episodes_old_dir.is_dir():
+            episodes_old_dir.mkdir(exist_ok=True)
+
         if new_crc_dt.replace(tzinfo=timezone.utc) > old_crc_dt.replace(tzinfo=timezone.utc):
             logger.info(f"-- Pruning old episode file: {old_crc_file} ({new_crc_dt} > {old_crc_dt})")
-            old_crc_file.unlink()
+            self.archive_file(old_crc_file)
             return True
 
         return False
@@ -1104,7 +1150,7 @@ class OnePaceMetadata:
                                 config_yml["episodes"][i]["standard"] = standard_crc
 
                                 if old_crc_standard != "":
-                                    Path(self.episodes_dir, f"{old_crc_standard}.yml").unlink(missing_ok=True)
+                                    self.archive_file(Path(self.episodes_dir, f"{old_crc_standard}.yml"))
 
                             old_crc_extended = str(config_yml["episodes"][i].get("extended", "")).upper()
                             if old_crc_extended != extended_crc:
@@ -1112,7 +1158,7 @@ class OnePaceMetadata:
                                 config_yml["episodes"][i]["extended"] = extended_crc
 
                                 if old_crc_extended != "":
-                                    Path(self.episodes_dir, f"{old_crc_extended}.yml").unlink(missing_ok=True)
+                                    self.archive_file(Path(self.episodes_dir, f"{old_crc_extended}.yml"))
 
                     else:
                         config_yml = self.generate_arc_tmpl(
