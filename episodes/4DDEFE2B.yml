@@ -1,0 +1,19 @@
+arc: 6
+episode: 7
+
+manga_chapters: 85-88
+anime_episodes: 39-40
+released: 2026-01-18
+duration: 1619.0
+extended: false
+
+hashes:
+  crc32: 4DDEFE2B
+  blake2s: ''
+
+file:
+  id: 2066084
+  name: '[One Pace][85-88] Arlong Park 07 [1080p][4DDEFE2B].mkv'
+  size: 638.4 MiB
+  hash: 03090fbaca642d7a89b95c401ca6f2933ed58830
+  index: 0

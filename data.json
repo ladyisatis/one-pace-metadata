@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-01-14T06:11:47+00:00",
-  "last_update_ts": 1768371107,
+  "last_update": "2026-01-18T19:39:09+00:00",
+  "last_update_ts": 1768765149,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -2380,6 +2380,20 @@
       "released": "2021-06-14",
       "hashes": {
         "crc32": "4D75A2CA",
+        "blake2": ""
+      }
+    },
+    "4DDEFE2B": {
+      "arc": 6,
+      "episode": 7,
+      "title": "Chivalry vs. Fishman Karate",
+      "originaltitle": "",
+      "description": "Luffy's newest move leaves him incapacitated and at the mercy of the sea while Zoro, Sanji, and Usopp desperately fight off Arlong's top officers.",
+      "chapters": "85-88",
+      "episodes": "39-40",
+      "released": "2026-01-18",
+      "hashes": {
+        "crc32": "4DDEFE2B",
         "blake2": ""
       }
     },
@@ -6463,8 +6477,8 @@
       "title": "Monsters of the Grand Line",
       "originaltitle": "",
       "description": "Usopp, having challenged the fishmen, has been caught. To effectively prove her loyalty to the Arlong Pirates, Nami is left with a morbid choice.",
-      "chapters": "72-74",
-      "episodes": "31-33",
+      "chapters": "71-73",
+      "episodes": "32-33",
       "released": "2025-10-19",
       "hashes": {
         "crc32": "E419D54E",
@@ -7028,6 +7042,20 @@
       "released": "2022-01-18",
       "hashes": {
         "crc32": "F3E829E8",
+        "blake2": ""
+      }
+    },
+    "F4754074": {
+      "arc": 4,
+      "episode": 1,
+      "title": "You're the Rare Breed",
+      "originaltitle": "",
+      "description": "With Usopp now on the crew and their new ship, the Going Merry, under their command, the Straw Hats head to an island said to hold a fabled treasure. There they encounter a strange man stuck in a box who has been looking for the same treasure.",
+      "chapters": "42, 22",
+      "episodes": "18",
+      "released": "2026-01-18",
+      "hashes": {
+        "crc32": "F4754074",
         "blake2": ""
       }
     },
