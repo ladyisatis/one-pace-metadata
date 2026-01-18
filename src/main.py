@@ -874,8 +874,8 @@ class OnePaceMetadata:
     
         if len(existing) == 0:
             target = Path(archive_dir, src.name)
-            logger.info("---- Moving {target} to: {target}")
-            src.move_into(target)
+            logger.info(f"---- Moving {src} to: {target}")
+            src.move(target)
             return
     
         max_n = max(existing)
