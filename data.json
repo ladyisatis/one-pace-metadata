@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-01-18T19:39:09+00:00",
-  "last_update_ts": 1768765149,
+  "last_update": "2026-01-19T00:32:18+00:00",
+  "last_update_ts": 1768782738,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -4427,20 +4427,6 @@
         "blake2": ""
       }
     },
-    "9269F40F": {
-      "arc": 4,
-      "episode": 1,
-      "title": "You're the Rare Breed",
-      "originaltitle": "",
-      "description": "With Usopp now on the crew and their new ship, the Going Merry, under their command, the Straw Hats head to an island said to hold a fabled treasure. There they encounter a strange man stuck in a box who has been looking for the same treasure.",
-      "chapters": "42, 22",
-      "episodes": "18",
-      "released": "2025-07-27",
-      "hashes": {
-        "crc32": "9269F40F",
-        "blake2": ""
-      }
-    },
     "92956F40": {
       "arc": 26,
       "episode": 1,
@@ -4536,20 +4522,6 @@
       "released": "2019-06-27",
       "hashes": {
         "crc32": "952F5BEB",
-        "blake2": ""
-      }
-    },
-    "9599889C": {
-      "arc": 6,
-      "episode": 7,
-      "title": "Chivalry vs. Fishman Karate",
-      "originaltitle": "",
-      "description": "Luffy's newest move leaves him incapacitated and at the mercy of the sea while Zoro, Sanji, and Usopp desperately fight off Arlong's top officers.",
-      "chapters": "85-87",
-      "episodes": "39-40",
-      "released": "2020-09-12",
-      "hashes": {
-        "crc32": "9599889C",
         "blake2": ""
       }
     },

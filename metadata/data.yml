@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-01-18T19:39:09+00:00'
-  last_update_ts: 1768765149
+  last_update: '2026-01-19T00:32:18+00:00'
+  last_update_ts: 1768782738
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 130
+  version: 131
 tvshow:
   en:
     title: One Piece
@@ -98,9 +98,9 @@ arcs:
       num_of_pace_eps: 4
       piece_minutes: 105
       pace_minutes: 76
-      audio_languages: JA, EN, ES, DE
+      audio_languages: JA, EN, ES
       sub_languages: EN,EN(CC), AR, DE, ES, FR, IT, PL, PT-BR, RU, TR
-      pixeldrain_only: ''
+      pixeldrain_only: DE
       resolution: 1080p
       arc_watch_guide: Pace
   - part: 2
@@ -194,7 +194,7 @@ arcs:
       same treasure.
     episodes:
     - episode: '01'
-      standard: 9269F40F
+      standard: F4754074
       extended: ''
     info:
       status: ''
@@ -290,7 +290,7 @@ arcs:
       standard: FCF6BA63
       extended: ''
     - episode: '07'
-      standard: 9599889C
+      standard: 4DDEFE2B
       extended: ''
     - episode: 08
       standard: 83E6D2A7
@@ -10955,23 +10955,6 @@ episodes:
       size: 197.4 MiB
       hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
       index: 0
-  9269F40F:
-    arc: 4
-    episode: 1
-    manga_chapters: 42, 22
-    anime_episodes: '18'
-    released: 2025-07-27
-    duration: 1291.0
-    extended: false
-    hashes:
-      crc32: 9269F40F
-      blake2s: ''
-    file:
-      id: 1999001
-      name: '[One Pace][42,22] Gaimon 01 [1080p][9269F40F].mkv'
-      size: 538.1 MiB
-      hash: 0b9784f51cdf848c3887d8e540d1204aa7830d96
-      index: 0
   92956F40:
     arc: 26
     episode: 1
@@ -11090,23 +11073,6 @@ episodes:
       name: '[One Pace][394-396] Enies Lobby 09 [720p][952F5BEB].mkv'
       size: 334.3 MiB
       hash: bc2fa17f4130b673cfee7cde79e9bd6b2af59004
-      index: 0
-  9599889C:
-    arc: 6
-    episode: 7
-    manga_chapters: 85-87
-    anime_episodes: 39-40
-    released: 2020-09-12
-    duration: 1676
-    extended: false
-    hashes:
-      crc32: 9599889C
-      blake2s: ''
-    file:
-      id: 1279925
-      name: '[One Pace][85-87] Arlong Park 07 [480p][9599889C].mkv'
-      size: 182.3 MiB
-      hash: 4c688038db6ae51893f505fbb0c12eafacde8f4b
       index: 0
   964FB36B:
     arc: 30

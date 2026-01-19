@@ -80,9 +80,9 @@
         "num_of_pace_eps": 4,
         "piece_minutes": 105,
         "pace_minutes": 76,
-        "audio_languages": "JA, EN, ES, DE",
+        "audio_languages": "JA, EN, ES",
         "sub_languages": "EN,EN(CC), AR, DE, ES, FR, IT, PL, PT-BR, RU, TR",
-        "pixeldrain_only": "",
+        "pixeldrain_only": "DE",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
       }
@@ -202,7 +202,7 @@
       "episodes": [
         {
           "episode": "01",
-          "standard": "9269F40F",
+          "standard": "F4754074",
           "extended": ""
         }
       ],
@@ -331,7 +331,7 @@
         },
         {
           "episode": "07",
-          "standard": "9599889C",
+          "standard": "4DDEFE2B",
           "extended": ""
         },
         {

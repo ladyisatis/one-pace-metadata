@@ -57,9 +57,9 @@ en:
     num_of_pace_eps: 4
     piece_minutes: 105
     pace_minutes: 76
-    audio_languages: JA, EN, ES, DE
+    audio_languages: JA, EN, ES
     sub_languages: EN,EN(CC), AR, DE, ES, FR, IT, PL, PT-BR, RU, TR
-    pixeldrain_only: ''
+    pixeldrain_only: DE
     resolution: 1080p
     arc_watch_guide: Pace
 - part: 2
@@ -153,7 +153,7 @@ en:
     same treasure.
   episodes:
   - episode: '01'
-    standard: 9269F40F
+    standard: F4754074
     extended: ''
   info:
     status: ''
@@ -249,7 +249,7 @@ en:
     standard: FCF6BA63
     extended: ''
   - episode: '07'
-    standard: 9599889C
+    standard: 4DDEFE2B
     extended: ''
   - episode: 08
     standard: 83E6D2A7
