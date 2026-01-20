@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-01-20T18:12:15+00:00",
-  "last_update_ts": 1768932735,
+  "last_update": "2026-01-20T19:21:00+00:00",
+  "last_update_ts": 1768936860,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -6636,6 +6636,20 @@
       "released": "2016-02-03",
       "hashes": {
         "crc32": "E817809A",
+        "blake2": ""
+      }
+    },
+    "E85B9E9D": {
+      "arc": 17,
+      "episode": 0,
+      "title": "The Wealthy Pirate Gang",
+      "originaltitle": "",
+      "description": "",
+      "chapters": "303",
+      "episodes": "207, 225",
+      "released": "2025-05-08",
+      "hashes": {
+        "crc32": "E85B9E9D",
         "blake2": ""
       }
     },

@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-01-20T18:12:15+00:00'
-  last_update_ts: 1768932735
+  last_update: '2026-01-20T19:21:00+00:00'
+  last_update_ts: 1768936860
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 132
+  version: 134
 tvshow:
   en:
     title: One Piece
@@ -3261,6 +3261,11 @@ descriptions:
     description: With a little help from their new friends—and a giant octopus—the
       Straw Hats bid farewell to Skypiea and begin their descent back to the Blue
       Sea. Then as night falls, a certain Warlord makes an appearance at Jaya...
+  - arc: 17
+    episode: 0
+    title: The Wealthy Pirate Gang
+    originaltitle: ''
+    description: ''
   - arc: 17
     episode: 1
     title: Adventure on a Long Island
