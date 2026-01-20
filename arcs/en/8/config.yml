@@ -30,7 +30,7 @@ info:
   piece_minutes: 126
   pace_minutes: 89
   audio_languages: Jpn,Eng
-  sub_languages: 'Eng,Es, Fr '
+  sub_languages: EN, ES, FR
   pixeldrain_only: Fr
   resolution: 480p
   arc_watch_guide: Pace

@@ -80,7 +80,7 @@
         "num_of_pace_eps": 4,
         "piece_minutes": 105,
         "pace_minutes": 76,
-        "audio_languages": "JA, EN, ES",
+        "audio_languages": "JP, EN, ES",
         "sub_languages": "EN,EN(CC), AR, DE, ES, FR, IT, PL, PT-BR, RU, TR",
         "pixeldrain_only": "DE",
         "resolution": "1080p",
@@ -122,7 +122,7 @@
         "num_of_pace_eps": 3,
         "piece_minutes": 105,
         "pace_minutes": 79,
-        "audio_languages": "JA, EN, ES, DE",
+        "audio_languages": "JP, EN, DE, ES",
         "sub_languages": "EN, AR, CS, DE, ES, FR, IT, PL, PT-BR, RU, TR",
         "pixeldrain_only": "",
         "resolution": "1080p",
@@ -184,9 +184,9 @@
         "num_of_pace_eps": 7,
         "piece_minutes": 189,
         "pace_minutes": 151,
-        "audio_languages": "JA, EN, DE",
+        "audio_languages": "JP, EN, DE",
         "sub_languages": "EN, AR, DE, ES, FR, IT, PL, PT-BR, RU, TR",
-        "pixeldrain_only": "Es, Fr",
+        "pixeldrain_only": "ES, FR",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
       }
@@ -216,9 +216,9 @@
         "num_of_pace_eps": 1,
         "piece_minutes": 21,
         "pace_minutes": 19,
-        "audio_languages": "JA, EN, ES, DE",
-        "sub_languages": "EN, ES, FR, DE, PL, PT-BR, HE",
-        "pixeldrain_only": "",
+        "audio_languages": "JP, EN, DE",
+        "sub_languages": "EN, AR, DE, FI, FR, HE, IT, PL, PT-BR, RU",
+        "pixeldrain_only": "ES",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
       }
@@ -283,8 +283,8 @@
         "num_of_pace_eps": 8,
         "piece_minutes": 252,
         "pace_minutes": 181,
-        "audio_languages": "Jpn,Eng",
-        "sub_languages": "Eng,Es, Fr (3-9), De (1-6)",
+        "audio_languages": "JP, EN",
+        "sub_languages": "EN, DE, ES, FR, IT, PL, RU",
         "pixeldrain_only": "Fr  (1-2)",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
@@ -361,7 +361,7 @@
         "piece_minutes": 294,
         "pace_minutes": 237,
         "audio_languages": "Jpn,Eng",
-        "sub_languages": "Eng,Es, Fr, De (1-7), AR, IT, RU, TR",
+        "sub_languages": "EN, AR, DE (1-7), ES, FR, IT, RU, TR",
         "pixeldrain_only": "Fr ",
         "resolution": "480p,1080p",
         "arc_watch_guide": "Pace"
@@ -393,7 +393,7 @@
         "piece_minutes": 42,
         "pace_minutes": 20,
         "audio_languages": "Jpn,Eng",
-        "sub_languages": "Eng,Es, Fr",
+        "sub_languages": "EN, ES, FR",
         "pixeldrain_only": "De",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
@@ -435,7 +435,7 @@
         "piece_minutes": 126,
         "pace_minutes": 89,
         "audio_languages": "Jpn,Eng",
-        "sub_languages": "Eng,Es, Fr ",
+        "sub_languages": "EN, ES, FR",
         "pixeldrain_only": "Fr",
         "resolution": "480p",
         "arc_watch_guide": "Pace"
@@ -472,7 +472,7 @@
         "piece_minutes": 84,
         "pace_minutes": 49,
         "audio_languages": "Jpn,Eng",
-        "sub_languages": "Eng,Es , Fr ",
+        "sub_languages": "EN, ES , FR",
         "pixeldrain_only": "De",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
@@ -509,7 +509,7 @@
         "piece_minutes": 84,
         "pace_minutes": 67,
         "audio_languages": "Jpn",
-        "sub_languages": "Eng, Es , Fr ",
+        "sub_languages": "EN, ES , FR",
         "pixeldrain_only": "Es, Fr",
         "resolution": "480p",
         "arc_watch_guide": "Pace"
@@ -541,7 +541,7 @@
         "piece_minutes": 42,
         "pace_minutes": 13,
         "audio_languages": "Jpn,Eng",
-        "sub_languages": "Eng, Fr, Es ",
+        "sub_languages": "EN, ES, FR",
         "pixeldrain_only": "Es",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
@@ -593,7 +593,7 @@
         "piece_minutes": 189,
         "pace_minutes": 135,
         "audio_languages": "Jpn,Eng",
-        "sub_languages": "Eng,Es,Fr,Ar,De,It ",
+        "sub_languages": "EN, AR, DE, ES, FR, IT",
         "pixeldrain_only": "",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"

@@ -24,7 +24,7 @@ info:
   piece_minutes: 42
   pace_minutes: 20
   audio_languages: Jpn,Eng
-  sub_languages: Eng,Es, Fr
+  sub_languages: EN, ES, FR
   pixeldrain_only: De
   resolution: 1080p
   arc_watch_guide: Pace
