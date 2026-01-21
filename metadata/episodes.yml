@@ -2504,7 +2504,7 @@
   manga_chapters: 85-88
   anime_episodes: 39-40
   released: 2026-01-18
-  duration: 1619.0
+  duration: 1619
   extended: false
   hashes:
     crc32: 4DDEFE2B
@@ -8136,7 +8136,7 @@ F4754074:
   manga_chapters: 42, 22
   anime_episodes: '18'
   released: 2026-01-18
-  duration: 1291.0
+  duration: 1291
   extended: false
   hashes:
     crc32: F4754074

@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-01-20T19:21:00+00:00'
-  last_update_ts: 1768936860
+  last_update: '2026-01-21T05:23:34+00:00'
+  last_update_ts: 1768973014
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 134
+  version: 140
 tvshow:
   en:
     title: One Piece
@@ -8484,7 +8484,7 @@ episodes:
     manga_chapters: 85-88
     anime_episodes: 39-40
     released: 2026-01-18
-    duration: 1619.0
+    duration: 1619
     extended: false
     hashes:
       crc32: 4DDEFE2B
@@ -14116,7 +14116,7 @@ episodes:
     manga_chapters: 42, 22
     anime_episodes: '18'
     released: 2026-01-18
-    duration: 1291.0
+    duration: 1291
     extended: false
     hashes:
       crc32: F4754074
