@@ -1299,14 +1299,20 @@ class OnePaceMetadata:
 
         return desc
 
-    def generate_episodes(self, for_json=True):
+    def generate_episodes(self, for_json=True, exclude_archived=True):
         episodes = {}
-        for yml in self.episodes_dir.glob("*.yml"):
+        for yml in self.episodes_dir.rglob("*.yml"):
+            if yml.parent.name == "archive" and exclude_archived:
+                continue
+
             crc32 = yml.stem
 
             data = self.read_yaml(yml)
             data["manga_chapters"] = str(data.get("manga_chapters", ""))
             data["anime_episodes"] = str(data.get("anime_episodes", ""))
+
+            if not exclude_archived:
+                data["archived"] = 1 if yml.parent.name == "archive" else 0
 
             if "released" in data:
                 if for_json:
@@ -1469,16 +1475,17 @@ class OnePaceMetadata:
                     released = episode.get("released", "")
 
                     cursor.execute("INSERT INTO episodes (arc, episode, manga_chapters, " +
-                        "anime_episodes, released, duration, extended, hash_crc32, " +
+                        "anime_episodes, released, duration, extended, archived, hash_crc32, " +
                         "hash_blake2s, file_id, file_name, file_size, file_hash, " +
-                        "file_index) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                        "file_index) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                         (episode.get("arc", 0),
                         episode.get("episode", 0),
                         episode.get("manga_chapters", ""),
                         episode.get("anime_episodes", ""),
                         self.datetime_serialize(released),
-                        episode.get("duration", 0),
-                        episode.get("extended", False),
+                        int(episode.get("duration", 0)),
+                        1 if episode.get("extended", False) else 0,
+                        1 if episode.get("archived", False) else 0,
                         str(hashes.get("crc32", "")).upper(),
                         str(hashes.get("blake2s", "")).lower(),
                         file.get("id", 0),
@@ -1614,7 +1621,7 @@ class OnePaceMetadata:
         Path(self.metadata_dir, "data.json").write_text(json.dumps(data, indent=2, default=self.serialize_json))
         Path(self.metadata_dir, "data.min.json").write_text(json.dumps(data, separators=(',', ':'), default=self.serialize_json))
 
-        data["episodes"] = episodes_yml
+        data["episodes"] = self.generate_episodes(for_json=False)
         data["other_edits"] = other_edits_yml
         self.write_yaml(Path(self.metadata_dir, "data.yml"), data)
 
@@ -1626,11 +1633,13 @@ class OnePaceMetadata:
         if data_posters_sqlite.is_file():
             data_posters_sqlite.unlink()
 
+        data["episodes"] = self.generate_episodes(for_json=False, exclude_archived=False)
+
         logger.info("Generate data.sqlite")
-        self.generate_sqlite(data_sqlite, arcs, episodes, descriptions, status, tvshow, other_edits, False)
+        self.generate_sqlite(data_sqlite, data["arcs"], data["episodes"], data["descriptions"], status, tvshow, data["other_edits"], False)
 
         logger.info("Generate data_with_posters.sqlite")
-        self.generate_sqlite(data_posters_sqlite, arcs, episodes, descriptions, status, tvshow, other_edits, True)
+        self.generate_sqlite(data_posters_sqlite, data["arcs"], data["episodes"], data["descriptions"], status, tvshow, data["other_edits"], True)
 
         logger.info("Generate data.json compatible with Organizer")
         self.generate_compat_data(arcs, episodes, descriptions, status, tvshow)
