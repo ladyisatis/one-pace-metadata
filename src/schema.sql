@@ -61,6 +61,7 @@ CREATE TABLE "episodes" (
 	"released"	TEXT,
 	"duration"	INTEGER,
 	"extended"	INTEGER,
+	"archived"  INTEGER,
 	"hash_crc32"	TEXT,
 	"hash_blake2s"	TEXT,
 	"file_id"	INTEGER,
