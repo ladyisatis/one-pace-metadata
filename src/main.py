@@ -1081,7 +1081,7 @@ class OnePaceMetadata:
 
         resp = self.client.get(rss_feed_url, follow_redirects=True)
 
-        title_pattern = re.compile(r'\[One Pace\]\[\d+(?:[-,]\d+)*\]\s+(.+?)\s+(\d{2,})\s*(\w+)?\s*\[\d+p\]\[([A-Fa-f0-9]{8})\]\.mkv', re.IGNORECASE)
+        title_pattern = re.compile(r'\[(?:One Pace)?\]\[\d+(?:[-,]\d+)*\]\s+(.+?)(?:\s+(\d{2,})(?:\s+(.+?))?)?\s+\[\d+p\](?:\[[^\]]+\])*\[([A-Fa-f0-9]{8})\]\.(?:mkv|mp4)', re.IGNORECASE)
         now = datetime.now(tz=timezone.utc)
         added_metadata = []
 
@@ -1108,6 +1108,7 @@ class OnePaceMetadata:
                     continue
 
                 arc_name, ep_num, extra, crc32 = match.groups()
+                is_extended = extra is not None and "extended" in extra.lower()
 
                 crc_file = Path(self.episodes_dir, f"{crc32}.yml")
                 if crc_file.is_file():
@@ -1118,8 +1119,11 @@ class OnePaceMetadata:
                 added_metadata.append(f"{arc_name} {ep_num}{extra_str} ({crc32})")
 
                 arc_num = self.arc_to_num.get(arc_name, 0)
-                standard_crc = str(crc32).upper() if extra is None else ""
-                extended_crc = str(crc32).upper() if extra is not None else ""
+                standard_crc = str(crc32).upper() if not is_extended else ""
+                extended_crc = str(crc32).upper() if is_extended else ""
+
+                if ep_num is None:
+                    arc_num = 0
 
                 for arc_folder in self.arc_dir.iterdir():
                     arc_file = Path(arc_folder, str(arc_num), "config.yml")
@@ -1137,6 +1141,10 @@ class OnePaceMetadata:
                                 break
 
                         if i is None:
+                            if ep_num is None and len(config_yml["episodes"]) > 0:
+                                new_ep = int(config_yml["episodes"][-1]["episode"]) + 1
+                                ep_num = f"{new_ep:02d}"
+
                             logger.info(f"Add new episode to arc {arc_num}: {arc_name} {ep_num} ['{standard_crc}'/'{extended_crc}']")
                             config_yml["episodes"].append({
                                 "episode": ep_num,
@@ -1160,7 +1168,7 @@ class OnePaceMetadata:
                                 if old_crc_extended != "":
                                     self.archive_file(Path(self.episodes_dir, f"{old_crc_extended}.yml"))
 
-                    else:
+                    elif ep_num is not None:
                         config_yml = self.generate_arc_tmpl(
                             title=arc_name,
                             episodes=[{
@@ -1204,7 +1212,7 @@ class OnePaceMetadata:
                     "anime_episodes": episodes,
                     "released": "",
                     "duration": 0,
-                    "extended": extra is not None
+                    "extended": is_extended
                 }
 
                 hashes = {
