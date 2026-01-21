@@ -1311,6 +1311,9 @@ class OnePaceMetadata:
             data["manga_chapters"] = str(data.get("manga_chapters", ""))
             data["anime_episodes"] = str(data.get("anime_episodes", ""))
 
+            if "duration" in data:
+                data["duration"] = int(data["duration"])
+
             if not exclude_archived:
                 data["archived"] = 1 if yml.parent.name == "archive" else 0
 
