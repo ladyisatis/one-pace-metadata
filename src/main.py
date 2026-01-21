@@ -1141,8 +1141,8 @@ class OnePaceMetadata:
                                 break
 
                         if i is None:
-                            if ep_num is None and len(config_yml["episodes"]) > 0:
-                                new_ep = int(config_yml["episodes"][-1]["episode"]) + 1
+                            if ep_num is None:
+                                new_ep = (int(config_yml["episodes"][-1]["episode"]) + 1) if len(config_yml["episodes"]) > 0 else 1
                                 ep_num = f"{new_ep:02d}"
 
                             logger.info(f"Add new episode to arc {arc_num}: {arc_name} {ep_num} ['{standard_crc}'/'{extended_crc}']")
