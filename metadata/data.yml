@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-01-26T00:32:47+00:00'
-  last_update_ts: 1769387567
+  last_update: '2026-01-26T05:16:22+00:00'
+  last_update_ts: 1769404582
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 141
+  version: 142
 tvshow:
   en:
     title: One Piece
@@ -2114,7 +2114,7 @@ arcs:
       standard: 410FD111
       extended: ''
     - episode: '04'
-      standard: 23CF2FA6
+      standard: E937ED2B
       extended: ''
     - episode: '05'
       standard: B51C53E9
@@ -7151,23 +7151,6 @@ episodes:
       size: 733.2 MiB
       hash: 63a53a466547469c6c854c498301c9308ab76c6a
       index: 0
-  23CF2FA6:
-    arc: 35
-    episode: 4
-    manga_chapters: '913'
-    anime_episodes: 898-899
-    released: 2019-10-18
-    duration: 1519
-    extended: false
-    hashes:
-      crc32: 23CF2FA6
-      blake2s: ''
-    file:
-      id: 1236480
-      name: '[One Pace][913] Wano 04 [1080p][23CF2FA6].mkv'
-      size: 669.4 MiB
-      hash: d67ed82392c28cb6c40509383ba70bfb4e6aefdf
-      index: 3
   23E3E489:
     arc: 8
     episode: 3
@@ -13691,6 +13674,23 @@ episodes:
       size: 346.2 MiB
       hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
       index: 37
+  E937ED2B:
+    arc: 35
+    episode: 4
+    manga_chapters: '913'
+    anime_episodes: 898-899
+    released: 2026-01-26 04:58:42
+    duration: 0
+    extended: false
+    hashes:
+      crc32: E937ED2B
+      blake2s: ''
+    file:
+      id: 2069226
+      name: '[One Pace][913] Wano 04 [1080p][E937ED2B].mkv'
+      size: 983.3 MiB
+      hash: d9d64d29a0644c3524cca5ccab2bb4aeb77cc767
+      index: 0
   E98F852E:
     arc: 31
     episode: 32

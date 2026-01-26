@@ -1,0 +1,19 @@
+arc: 35
+episode: 4
+
+manga_chapters: '913'
+anime_episodes: 898-899
+released: 2026-01-26 04:58:42
+duration: 0
+extended: false
+
+hashes:
+  crc32: E937ED2B
+  blake2s: ''
+
+file:
+  id: 2069226
+  name: '[One Pace][913] Wano 04 [1080p][E937ED2B].mkv'
+  size: 983.3 MiB
+  hash: d9d64d29a0644c3524cca5ccab2bb4aeb77cc767
+  index: 0
