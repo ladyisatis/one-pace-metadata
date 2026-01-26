@@ -1378,6 +1378,106 @@ class OnePaceMetadata:
 
         return {key: other_edits[key] for key in sorted(other_edits.keys())}
 
+    def generate_stremio(self, stremio_dir, arcs, episodes, descriptions):
+        meta = {
+            "meta": {
+                "videos": []
+            }
+        }
+
+        meta_series_file = Path(stremio_dir, "meta", "series", "pp_onepace.json")
+
+        if meta_series_file.is_file():
+            with meta_series_file.open(mode="r", encoding="utf-8") as f:
+                meta = json.load(f)
+
+        desc = {}
+        for item in descriptions:
+            if item["arc"] not in desc:
+                desc[item["arc"]] = {}
+
+            if item["episode"] not in desc[item["arc"]]:
+                arc = item["arc"]
+                ep = item["episode"]
+                desc[arc][ep] = (item["title"], item["description"])
+
+        for arc in arcs.get("en", []):
+            if arc["part"] == 0:
+                continue
+
+            shortcode = arc["shortcode"]
+            part = arc["part"]
+
+            for episode in arc["episodes"]:
+                if "episode" not in episode:
+                    continue
+
+                episode_num = int(episode["episode"])
+                crc32 = episode.get("standard", "")
+
+                if crc32 == "":
+                    continue
+
+                episode_data = episodes.get(crc32, None)
+                if episode_data is None:
+                    continue
+
+                ep_title, ep_desc = desc.get(part, {}).get(episode_num, ("", ""))
+                if ep_title == "":
+                    continue
+
+                manga_chapters = episode_data.get("manga_chapters", "")
+                anime_episodes = episode_data.get("anime_episodes", "")
+
+                if manga_chapters != "" or anime_episodes != "":
+                    if manga_chapters != "" and anime_episodes == "":
+                        ep_desc += f"\n\nManga Chapter(s): {manga_chapters}"
+                    elif manga_chapters == "" and anime_episodes != "":
+                        ep_desc += f"\n\nAnime Episode(s): {anime_episodes}"
+                    elif manga_chapters != "" and anime_episodes != "":
+                        ep_desc += f"\n\nManga Chapter(s): {manga_chapters}\nAnime Episode(s): {anime_episodes}"
+
+                video = {
+                    "id": f"{shortcode}_{episode_num}",
+                    "season": part,
+                    "episode": episode_num,
+                    "title": ep_title,
+                    "overview": ep_desc
+                }
+
+                if isinstance(episode_data["released"], (datetime.datetime, datetime.date)):
+                    video["released"] = episode_data["released"].isoformat().replace("+00:00", "Z")
+                elif isinstance(episode_data["released"], str):
+                    video["released"] = self.datetime_unserialize(episode_data["released"]).replace(tzinfo=timezone.utc).isoformat().replace("+00:00", "Z")
+
+                stream_file = Path(stremio_dir, "stream", "series", f"{video['id']}.json")
+                ep_file = episode_data.get("file", {})
+                ep_infohash = ep_file.get("hash", "")
+                ep_name = ep_file.get("name", "")
+                ep_index = ep_file.get("index", -1)
+
+                if ep_infohash == "" or ep_name == "" or ep_index == -1:
+                    continue
+
+                stream_file.write_text(json.dumps({
+                    "infoHash": ep_infohash,
+                    "fileIdx": ep_index,
+                    "name": ep_name,
+                    "description": f"{arc['title']} {episode['episode']}",
+                    "sources": {
+                        "tracker:http://nyaa.tracker.wf:7777",
+                        "tracker:udp://open.stealth.si:80",
+                        "tracker:udp://tracker.opentrackr.org:1337",
+                        "tracker:udp://exodus.desync.com:6969",
+                        "tracker:udp://tracker.torrent.eu.org:451"
+                    }
+                }, indent=2, default=self.serialize_json))
+
+                meta["meta"]["videos"].append(video)
+
+        if meta_series_file.parent.is_dir():
+            meta_series_file.write_text(json.dumps(meta, indent=2, default=self.serialize_json))
+
     def generate_sqlite(self, data_file, arcs, episodes, descriptions, status, tvshow, other_edits, with_posters=False):
         with sqlite3.connect(data_file, timeout=15.0) as conn:
             cursor = conn.cursor()
@@ -1580,6 +1680,9 @@ class OnePaceMetadata:
         Path(self.metadata_dir, "episodes.json").write_text(json.dumps(episodes, indent=2, default=self.serialize_json))
         Path(self.metadata_dir, "episodes.min.json").write_text(json.dumps(episodes, separators=(',', ':'), default=self.serialize_json))
         self.write_yaml(Path(self.metadata_dir, "episodes.yml"), episodes_yml)
+
+        logger.info("Generate stremio")
+        self.generate_stremio(Path("..", "stremio"), arcs, episodes, descriptions)
 
         logger.info("Generate other edits")
         other_edits = self.generate_other_edits(for_json=True)

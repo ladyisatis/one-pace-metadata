@@ -9,6 +9,8 @@ on:
       - 'arcs/**'
       - 'episodes/**'
       - 'other_edits/**'
+      - 'stremio/catalog/**'
+      - 'stremio/manifest.json'
       - 'config.yml'
 
 jobs:
