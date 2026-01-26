@@ -1393,13 +1393,13 @@ class OnePaceMetadata:
 
         desc = {}
         for item in descriptions:
-            if item["arc"] not in desc:
-                desc[item["arc"]] = {}
+            _arc = str(item["arc"])
+            _ep = str(item["episode"])
 
-            if item["episode"] not in desc[item["arc"]]:
-                arc = item["arc"]
-                ep = item["episode"]
-                desc[arc][ep] = (item["title"], item["description"])
+            if _arc not in desc:
+                desc[_arc] = {}
+
+            desc[_arc][_ep] = (item["title"], item["description"])
 
         for arc in arcs.get("en", []):
             if arc["part"] == 0:
@@ -1422,7 +1422,7 @@ class OnePaceMetadata:
                 if episode_data is None:
                     continue
 
-                ep_title, ep_desc = desc.get(part, {}).get(episode_num, ("", ""))
+                ep_title, ep_desc = desc.get(str(part), {}).get(str(episode_num), ("", ""))
                 if ep_title == "":
                     continue
 
