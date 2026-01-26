@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-01-21T05:23:34+00:00",
-    "last_update_ts": 1768973014,
+    "last_update": "2026-01-26T00:32:47+00:00",
+    "last_update_ts": 1769387567,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 140
+    "version": 141
   },
   "tvshow": {
     "en": {
@@ -12488,7 +12488,7 @@
       "arc": 13,
       "episode": 4,
       "manga_chapters": "139-140",
-      "anime_episodes": "84",
+      "anime_episodes": "83-84",
       "released": "2022-09-26",
       "duration": 1215,
       "extended": false,
