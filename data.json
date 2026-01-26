@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-01-26T00:32:47+00:00",
-  "last_update_ts": 1769387567,
+  "last_update": "2026-01-26T05:16:22+00:00",
+  "last_update_ts": 1769404582,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -1288,20 +1288,6 @@
       "released": "2023-10-28",
       "hashes": {
         "crc32": "236CCF51",
-        "blake2": ""
-      }
-    },
-    "23CF2FA6": {
-      "arc": 35,
-      "episode": 4,
-      "title": "Tsuru Returns the Favor",
-      "originaltitle": "",
-      "description": "Luffy and Zoro are stalled by Hawkins, but their fortune looks bright when a woman guides them to a teahouse. There, they find an herbal remedy for the river poison that Otama drank, while old acquaintances look on from a distance.",
-      "chapters": "913",
-      "episodes": "898-899",
-      "released": "2019-10-18",
-      "hashes": {
-        "crc32": "23CF2FA6",
         "blake2": ""
       }
     },
@@ -6678,6 +6664,20 @@
       "released": "2020-12-11",
       "hashes": {
         "crc32": "E9317CBD",
+        "blake2": ""
+      }
+    },
+    "E937ED2B": {
+      "arc": 35,
+      "episode": 4,
+      "title": "Tsuru Returns the Favor",
+      "originaltitle": "",
+      "description": "Luffy and Zoro are stalled by Hawkins, but their fortune looks bright when a woman guides them to a teahouse. There, they find an herbal remedy for the river poison that Otama drank, while old acquaintances look on from a distance.",
+      "chapters": "913",
+      "episodes": "898-899",
+      "released": "2026-01-26",
+      "hashes": {
+        "crc32": "E937ED2B",
         "blake2": ""
       }
     },
