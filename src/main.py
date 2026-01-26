@@ -1445,7 +1445,7 @@ class OnePaceMetadata:
                     "overview": ep_desc
                 }
 
-                if isinstance(episode_data["released"], (datetime.datetime, datetime.date)):
+                if isinstance(episode_data["released"], (datetime, date)):
                     video["released"] = episode_data["released"].isoformat().replace("+00:00", "Z")
                 elif isinstance(episode_data["released"], str):
                     video["released"] = self.datetime_unserialize(episode_data["released"]).replace(tzinfo=timezone.utc).isoformat().replace("+00:00", "Z")
