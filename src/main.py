@@ -1445,10 +1445,17 @@ class OnePaceMetadata:
                     "overview": ep_desc
                 }
 
-                if isinstance(episode_data["released"], (datetime, date)):
-                    video["released"] = episode_data["released"].isoformat().replace("+00:00", "Z")
+                if isinstance(episode_data["released"], datetime):
+                    video["released"] = episode_data["released"].isoformat().replace(" ", "T").replace("+00:00", "Z")
+                elif isinstance(episode_data["released"], date):
+                    video["released"] = episode_data["released"].isoformat()
                 elif isinstance(episode_data["released"], str):
-                    video["released"] = self.datetime_unserialize(episode_data["released"]).replace(tzinfo=timezone.utc).isoformat().replace("+00:00", "Z")
+                    video["released"] = self.datetime_unserialize(episode_data["released"])
+
+                    if hasattr(video["released"], "tzinfo"):
+                        video["released"] = video["released"].replace(tzinfo=timezone.utc)
+
+                    video["released"] = video["released"].replace("+00:00", "Z")
 
                 stream_file = Path(stremio_dir, "stream", "series", f"{video['id']}.json")
                 ep_file = episode_data.get("file", {})
