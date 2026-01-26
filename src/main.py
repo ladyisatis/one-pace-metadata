@@ -1392,7 +1392,7 @@ class OnePaceMetadata:
                 meta = json.load(f)
 
         desc = {}
-        for item in descriptions:
+        for item in descriptions.get("en", []):
             _arc = str(item["arc"])
             _ep = str(item["episode"])
 
