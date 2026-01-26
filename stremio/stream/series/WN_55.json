@@ -1,0 +1,13 @@
+{
+  "infoHash": "9806712382cf97d7c7e190bf20cbd1a6284e6906",
+  "fileIdx": 0,
+  "name": "[One Pace][1000] Wano 55 [1080p][2501AC5A].mkv",
+  "description": "Wano 55",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

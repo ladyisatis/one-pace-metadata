@@ -1,0 +1,13 @@
+{
+  "infoHash": "4d9497e964d820760adf11e47664df3091b808f2",
+  "fileIdx": 1,
+  "name": "[One Pace][905-906] Reverie 02 [1080p][6E0CD1C5].mkv",
+  "description": "Reverie 02",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

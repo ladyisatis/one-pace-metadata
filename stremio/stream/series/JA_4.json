@@ -1,0 +1,13 @@
+{
+  "infoHash": "0ee092c2048a597a5e14cbc7c41f3d0696d9821a",
+  "fileIdx": 0,
+  "name": "[One Pace][227-228] Jaya 04 [1080p][86DC8F38].mkv",
+  "description": "Jaya 04",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

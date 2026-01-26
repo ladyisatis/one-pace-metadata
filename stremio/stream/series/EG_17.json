@@ -1,0 +1,13 @@
+{
+  "infoHash": "e0f3e1d51a96441941c30534d0e962c7e1426cb0",
+  "fileIdx": 0,
+  "name": "[One Pace][1085-1086] Egghead 17 [1080p][76281ED9].mkv",
+  "description": "Egghead 17",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

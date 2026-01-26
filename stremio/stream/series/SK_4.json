@@ -1,0 +1,13 @@
+{
+  "infoHash": "aa34040a41bbdd8b165cfbc81dbe4e72f59e676e",
+  "fileIdx": 0,
+  "name": "[One Pace][243-244] Skypiea 04 [1080p][C6120876].mkv",
+  "description": "Skypiea 04",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

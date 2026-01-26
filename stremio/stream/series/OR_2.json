@@ -1,0 +1,13 @@
+{
+  "infoHash": "35f4c7c850dd11fac6f55dc5dfd6633e0e3f406f",
+  "fileIdx": 0,
+  "name": "[One Pace][12-19] Orange Town 02 [1080p][FAFCDE38].mkv",
+  "description": "Orange Town 02",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

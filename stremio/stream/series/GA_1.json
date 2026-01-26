@@ -1,0 +1,13 @@
+{
+  "infoHash": "8ef4ef99b9aed84a0111114f9efd830ced8046ae",
+  "fileIdx": 0,
+  "name": "[One Pace][42,22] Gaimon 01 [1080p][F4754074].mkv",
+  "description": "Gaimon 01",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

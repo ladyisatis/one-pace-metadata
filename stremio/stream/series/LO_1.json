@@ -1,0 +1,13 @@
+{
+  "infoHash": "fc5f605b1fc12f8a14b6176690151ea53bcb7e19",
+  "fileIdx": 0,
+  "name": "[One Pace][96-97] Loguetown 01 [480p][4200CE0D].mkv",
+  "description": "Loguetown 01",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

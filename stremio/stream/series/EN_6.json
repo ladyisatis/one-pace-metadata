@@ -1,0 +1,13 @@
+{
+  "infoHash": "eef5f64e3d053a6abe98dcabe934c67d5d2e3a73",
+  "fileIdx": 0,
+  "name": "[One Pace][385-387] Enies Lobby 06 [720p][0E201E28].mkv",
+  "description": "Enies Lobby 06",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

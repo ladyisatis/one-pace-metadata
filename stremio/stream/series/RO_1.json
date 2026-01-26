@@ -1,1 +1,13 @@
-{}
+{
+  "infoHash": "cdab4a928dbbff643bbe5531f216eb36a60c85af",
+  "fileIdx": 0,
+  "name": "[One Pace][1] Romance Dawn 01 [1080p][E5F09F49].mkv",
+  "description": "Romance Dawn 01",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

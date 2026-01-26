@@ -1,0 +1,13 @@
+{
+  "infoHash": "ee1feaf374699150ebe9cf8876df199acb9a5fea",
+  "fileIdx": 0,
+  "name": "[One Pace][115-117] Little Garden 01 [1080p][FA63AC14].mkv",
+  "description": "Little Garden 01",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

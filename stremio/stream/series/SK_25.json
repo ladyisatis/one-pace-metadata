@@ -1,0 +1,13 @@
+{
+  "infoHash": "045ee32a340609e74fa6e7bb9d059ec928672437",
+  "fileIdx": 0,
+  "name": "[One Pace][302-303] Skypiea 25 Alternate (G-8) [1080p][90C45C25].mkv",
+  "description": "Skypiea 25",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

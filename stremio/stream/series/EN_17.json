@@ -1,0 +1,13 @@
+{
+  "infoHash": "4d3503626c56e2199ab7fdb911de35bf4605348a",
+  "fileIdx": 0,
+  "name": "[One Pace][412-413] Enies Lobby 17 [1080p][7562EF8D].mkv",
+  "description": "Enies Lobby 17",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

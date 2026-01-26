@@ -1,0 +1,13 @@
+{
+  "infoHash": "4a05c56e0078216f691cf8e356fa1fa681f893d1",
+  "fileIdx": 0,
+  "name": "[One Pace][990-991] Wano 50 [1080p][0144BBBA].mkv",
+  "description": "Wano 50",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "infoHash": "4cab4c469be3e484489256907ec662acb8a87025",
+  "fileIdx": 0,
+  "name": "[One Pace][419-420] Enies Lobby 20 [1080p][5AC534CA].mkv",
+  "description": "Enies Lobby 20",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

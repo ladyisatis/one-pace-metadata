@@ -1,0 +1,13 @@
+{
+  "infoHash": "d85f798f06f91f45d9531df0abfbf863564517fb",
+  "fileIdx": 0,
+  "name": "[One Pace][360-362] Water Seven 15 [1080p][87F0C48B].mkv",
+  "description": "Water Seven 15",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

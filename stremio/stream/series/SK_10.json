@@ -1,0 +1,13 @@
+{
+  "infoHash": "aca4c747981ae6f366fe82d1fa6dceb7f619e49e",
+  "fileIdx": 0,
+  "name": "[One Pace][258-260] Skypiea 10 [1080p][602704E6].mkv",
+  "description": "Skypiea 10",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

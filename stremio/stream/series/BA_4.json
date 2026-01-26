@@ -1,0 +1,13 @@
+{
+  "infoHash": "393ba7ec5e3de1e091e58e75347eab1c80785de2",
+  "fileIdx": 0,
+  "name": "[One Pace][53-55] Baratie 04 [1080p][792BE789].mkv",
+  "description": "Baratie 04",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

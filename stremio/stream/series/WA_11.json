@@ -1,0 +1,13 @@
+{
+  "infoHash": "4407d9e55c5b3169646fd4e19dd605c4363fa37f",
+  "fileIdx": 0,
+  "name": "[One Pace][349-352] Water Seven 11 [1080p][0D273612].mkv",
+  "description": "Water Seven 11",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

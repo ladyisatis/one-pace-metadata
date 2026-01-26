@@ -1,0 +1,13 @@
+{
+  "infoHash": "1fe8afe6de98a34ea89ce434db2a437fe50724fe",
+  "fileIdx": 0,
+  "name": "[One Pace][391-393] Enies Lobby 08 [720p][DECF4267].mkv",
+  "description": "Enies Lobby 08",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

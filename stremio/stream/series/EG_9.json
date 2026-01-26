@@ -1,0 +1,13 @@
+{
+  "infoHash": "d62537c7d70f3a8b9d20ec11b593c138bb9b25d1",
+  "fileIdx": 0,
+  "name": "[One Pace][1071-1072] Egghead 09 [1080p][29B2D72D].mkv",
+  "description": "Egghead 09",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

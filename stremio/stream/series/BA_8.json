@@ -1,0 +1,13 @@
+{
+  "infoHash": "6f5c2abf645aebeeba59f468ebbd24b666cdca4f",
+  "fileIdx": 0,
+  "name": "[One Pace][67-68] Baratie 08 [1080p][A6F61DEE].mkv",
+  "description": "Baratie 08",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

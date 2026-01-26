@@ -1,0 +1,13 @@
+{
+  "infoHash": "24b093304e357aad9f3c7b958c199a3ce9fd8bff",
+  "fileIdx": 0,
+  "name": "[One Pace][397-398] Enies Lobby 10 [720p][6C908F32].mkv",
+  "description": "Enies Lobby 10",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

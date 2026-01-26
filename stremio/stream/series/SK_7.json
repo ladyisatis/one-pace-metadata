@@ -1,0 +1,13 @@
+{
+  "infoHash": "da97987eb5adeaed1f34269af22cf7202c6ae93c",
+  "fileIdx": 0,
+  "name": "[One Pace][250-251] Skypiea 07 [1080p][3C665F73].mkv",
+  "description": "Skypiea 07",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

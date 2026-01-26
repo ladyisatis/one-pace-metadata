@@ -1,0 +1,13 @@
+{
+  "infoHash": "aaaa08557942a56c8de16d086f2a26abee18b6d5",
+  "fileIdx": 0,
+  "name": "[One Pace][1062-1063] Egghead 04 [1080p][ACBE88D6].mkv",
+  "description": "Egghead 04",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

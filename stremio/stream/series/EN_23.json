@@ -1,0 +1,13 @@
+{
+  "infoHash": "bef6efff0f7c81422ca057a2e575363eb0b350f3",
+  "fileIdx": 0,
+  "name": "[One Pace][425-427] Enies Lobby 23 [1080p][25AFC3E5].mkv",
+  "description": "Enies Lobby 23",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

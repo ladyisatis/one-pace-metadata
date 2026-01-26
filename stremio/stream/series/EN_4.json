@@ -1,0 +1,13 @@
+{
+  "infoHash": "ac67df04e33cfab8a2fe354d8b88f4868ea487e8",
+  "fileIdx": 0,
+  "name": "[One Pace][381-382] Enies Lobby 04 [1080p][90B6D40E].mkv",
+  "description": "Enies Lobby 04",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

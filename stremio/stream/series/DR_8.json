@@ -1,0 +1,13 @@
+{
+  "infoHash": "a464ed705df4d6e5c82182720fcb680aff526df9",
+  "fileIdx": 0,
+  "name": "[One Pace][153-155, 142] Drum Island 08 [1080p][9794072D].mkv",
+  "description": "Drum Island 08",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

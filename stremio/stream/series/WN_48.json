@@ -1,0 +1,13 @@
+{
+  "infoHash": "e370cb1c0ff7e903871c512ce31e0468a26aa333",
+  "fileIdx": 0,
+  "name": "[One Pace][986-987] Wano 48 [1080p][F47C3EDD].mkv",
+  "description": "Wano 48",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

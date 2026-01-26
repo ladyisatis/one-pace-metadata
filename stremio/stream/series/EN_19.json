@@ -1,0 +1,13 @@
+{
+  "infoHash": "764222f18a8a43868058a0069310bae6556bcbfc",
+  "fileIdx": 0,
+  "name": "[One Pace][416-418] Enies Lobby 19 [1080p][C4106519].mkv",
+  "description": "Enies Lobby 19",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

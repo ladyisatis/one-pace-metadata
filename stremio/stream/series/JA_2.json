@@ -1,0 +1,13 @@
+{
+  "infoHash": "78a190b5e79d1155f9c5d2affd30cf73c3bb2f5e",
+  "fileIdx": 0,
+  "name": "[One Pace][221-224] Jaya 02 [1080p][6DAB82A3].mkv",
+  "description": "Jaya 02",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

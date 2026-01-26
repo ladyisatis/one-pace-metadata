@@ -1,0 +1,13 @@
+{
+  "infoHash": "40190e3c2d42d65307a05ba9b795ad3a03d5dc9e",
+  "fileIdx": 0,
+  "name": "[One Pace][277-279] Skypiea 16 [1080p][088462CB].mkv",
+  "description": "Skypiea 16",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "infoHash": "7649738b740f660e286a2364114179ec5e0ca997",
+  "fileIdx": 0,
+  "name": "[One Pace][1079] Egghead 13 [1080p][6C170189].mkv",
+  "description": "Egghead 13",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

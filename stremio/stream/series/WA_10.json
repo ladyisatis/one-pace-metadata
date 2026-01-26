@@ -1,0 +1,13 @@
+{
+  "infoHash": "3db5d95badd012ad1916dc624adfe747aec1b379",
+  "fileIdx": 0,
+  "name": "[One Pace][346-348] Water Seven 10 [1080p][BAFD9522].mkv",
+  "description": "Water Seven 10",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "infoHash": "99068f6eabe3588fcd58da600fdfcfbd41ec5b9b",
+  "fileIdx": 0,
+  "name": "[One Pace][270-273] Skypiea 14 [1080p][702231E9].mkv",
+  "description": "Skypiea 14",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

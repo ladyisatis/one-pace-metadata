@@ -1,0 +1,13 @@
+{
+  "infoHash": "d67ed82392c28cb6c40509383ba70bfb4e6aefdf",
+  "fileIdx": 6,
+  "name": "[One Pace][916-917] Wano 07 [1080p][F71F9B71].mkv",
+  "description": "Wano 07",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

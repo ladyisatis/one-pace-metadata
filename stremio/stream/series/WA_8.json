@@ -1,0 +1,13 @@
+{
+  "infoHash": "ebe71894a4c941359a7c8083218e421e5bf67914",
+  "fileIdx": 0,
+  "name": "[One Pace][340-342] Water Seven 08 [1080p][6E2DB1B9].mkv",
+  "description": "Water Seven 08",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

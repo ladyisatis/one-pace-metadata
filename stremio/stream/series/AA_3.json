@@ -1,0 +1,13 @@
+{
+  "infoHash": "4f3742283679c68ee64ccf1a7fbf71f1acb600da",
+  "fileIdx": 0,
+  "name": "[One Pace][159, 161-162] Arabasta 03 [1080p][73003149].mkv",
+  "description": "Arabasta 03",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

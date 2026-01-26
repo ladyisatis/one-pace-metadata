@@ -1,0 +1,13 @@
+{
+  "infoHash": "eba02743616eef490bdd3417d67cb9cad1a43260",
+  "fileIdx": 0,
+  "name": "[One Pace][303] Long Ring Long Land 00 [1080p][E85B9E9D].mkv",
+  "description": "Long Ring Long Land 00",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

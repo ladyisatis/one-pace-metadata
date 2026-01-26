@@ -1,0 +1,13 @@
+{
+  "infoHash": "435e4b1fe0aef5fec8cacc27f92b52ae7868ad7d",
+  "fileIdx": 0,
+  "name": "[One Pace][35-75] The Adventures of Buggy's Crew [1080p][E75794DB].mkv",
+  "description": "The Adventures of Buggy's Crew 01",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "infoHash": "ef9e5570bfb77108ddfd69536d804a3a4e00bc64",
+  "fileIdx": 0,
+  "name": "[One Pace][414-415] Enies Lobby 18 [1080p][64207B1A].mkv",
+  "description": "Enies Lobby 18",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

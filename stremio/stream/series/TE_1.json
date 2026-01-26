@@ -1,0 +1,13 @@
+{
+  "infoHash": "c345a0dc89a9d20b9cbdad787b0bd80c34f52809",
+  "fileIdx": 0,
+  "name": "[One Pace][83-119] The Trials of Koby-Meppo [1080p][4B56844F].mkv",
+  "description": "The Trials of Koby-Meppo 01",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

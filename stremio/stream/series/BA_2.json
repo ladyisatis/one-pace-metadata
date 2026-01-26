@@ -1,0 +1,13 @@
+{
+  "infoHash": "6cf2faf6f5d96a58dfd846070dd098d18d324642",
+  "fileIdx": 0,
+  "name": "[One Pace][45-47] Baratie 02 [1080p][9BD35F80].mkv",
+  "description": "Baratie 02",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

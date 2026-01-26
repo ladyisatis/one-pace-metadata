@@ -1,0 +1,13 @@
+{
+  "infoHash": "c2f3bec263a39710ad7654bf9ebb8c06ec1b955c",
+  "fileIdx": 0,
+  "name": "[One Pace][56-59] Baratie 05 [1080p][ACEA0537].mkv",
+  "description": "Baratie 05",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

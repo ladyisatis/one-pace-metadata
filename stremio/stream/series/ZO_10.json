@@ -1,0 +1,13 @@
+{
+  "infoHash": "5c027631a28242814a6cf1fe24f455b70bca14bc",
+  "fileIdx": 9,
+  "name": "[One Pace][820-822] Zou 10 [720p][4A52B138].mkv",
+  "description": "Zou 10",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "infoHash": "1e8b4afc42cce0c51f7b72973de5b90f18246459",
+  "fileIdx": 0,
+  "name": "[One Pace][928-930] Wano 15 [1080p][AE6ABE84].mkv",
+  "description": "Wano 15",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

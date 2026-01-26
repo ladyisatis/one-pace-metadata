@@ -1,0 +1,13 @@
+{
+  "infoHash": "bb2c6ec947742838a7daac23c54c87613eac604e",
+  "fileIdx": 0,
+  "name": "[One Pace][970-972] Wano 40 [1080p][713F7916].mkv",
+  "description": "Wano 40",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

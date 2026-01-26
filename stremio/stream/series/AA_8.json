@@ -1,0 +1,13 @@
+{
+  "infoHash": "66df46977cd5206f7684963ac3af20ada7dfdea4",
+  "fileIdx": 0,
+  "name": "[One Pace][171-174] Arabasta 08 [1080p][726FD61C].mkv",
+  "description": "Arabasta 08",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

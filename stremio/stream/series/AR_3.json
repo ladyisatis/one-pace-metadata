@@ -1,0 +1,13 @@
+{
+  "infoHash": "c6ac0931b41840cec35ff81307899cc4d1e2cb69",
+  "fileIdx": 0,
+  "name": "[One Pace][74-76] Arlong Park 03 [1080p][CC4900AE].mkv",
+  "description": "Arlong Park 03",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

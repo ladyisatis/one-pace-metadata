@@ -1,0 +1,13 @@
+{
+  "infoHash": "89bdea16caeaa66658592cd75be624c0a9dce31a",
+  "fileIdx": 0,
+  "name": "[One Pace][957] Wano 32 [1080p][29B91F56].mkv",
+  "description": "Wano 32",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

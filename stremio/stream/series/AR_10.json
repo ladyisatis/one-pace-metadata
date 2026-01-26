@@ -1,0 +1,13 @@
+{
+  "infoHash": "4c688038db6ae51893f505fbb0c12eafacde8f4b",
+  "fileIdx": 0,
+  "name": "[One Pace][94-95] Arlong Park 10 [480p][5AF7A9B1].mkv",
+  "description": "Arlong Park 10",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}

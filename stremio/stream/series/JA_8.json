@@ -1,0 +1,13 @@
+{
+  "infoHash": "abb69044f4a1806092b9a213669c5edb4f0bb92a",
+  "fileIdx": 0,
+  "name": "[One Pace][235-236] Jaya 08 [1080p][FA2E5ADD].mkv",
+  "description": "Jaya 08",
+  "sources": [
+    "tracker:http://nyaa.tracker.wf:7777",
+    "tracker:udp://open.stealth.si:80",
+    "tracker:udp://tracker.opentrackr.org:1337",
+    "tracker:udp://exodus.desync.com:6969",
+    "tracker:udp://tracker.torrent.eu.org:451"
+  ]
+}
