@@ -1455,7 +1455,7 @@ class OnePaceMetadata:
                     if hasattr(video["released"], "tzinfo"):
                         video["released"] = video["released"].replace(tzinfo=timezone.utc)
 
-                    video["released"] = video["released"].replace("+00:00", "Z")
+                    video["released"] = video["released"].isoformat().replace("+00:00", "Z")
 
                 stream_file = Path(stremio_dir, "stream", "series", f"{video['id']}.json")
                 ep_file = episode_data.get("file", {})
@@ -1471,13 +1471,13 @@ class OnePaceMetadata:
                     "fileIdx": ep_index,
                     "name": ep_name,
                     "description": f"{arc['title']} {episode['episode']}",
-                    "sources": {
+                    "sources": [
                         "tracker:http://nyaa.tracker.wf:7777",
                         "tracker:udp://open.stealth.si:80",
                         "tracker:udp://tracker.opentrackr.org:1337",
                         "tracker:udp://exodus.desync.com:6969",
                         "tracker:udp://tracker.torrent.eu.org:451"
-                    }
+                    ]
                 }, indent=2, default=self.serialize_json))
 
                 meta["meta"]["videos"].append(video)
