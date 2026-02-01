@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-02-01T06:22:28+00:00",
-  "last_update_ts": 1769926948,
+  "last_update": "2026-02-01T00:41:29+00:00",
+  "last_update_ts": 1769906489,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -395,20 +395,6 @@
         "blake2": ""
       }
     },
-    "02C6FC2B": {
-      "arc": 34,
-      "episode": 4,
-      "title": "Pirate Emperor, Charlotte Linlin",
-      "originaltitle": "",
-      "description": "Big Mom ravages Whole Cake Island in search of sweets, and while a familiar face across the waters has just what she needs, he also brings ill tidings. As the Straw Hats draw closer to the island, Pedro shares his sordid past in Big Mom's territory.",
-      "chapters": "829-830",
-      "episodes": "788-790",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "02C6FC2B",
-        "blake2": ""
-      }
-    },
     "0433686D": {
       "arc": 3,
       "episode": 2,
@@ -605,20 +591,6 @@
         "blake2": ""
       }
     },
-    "0CF96D5A": {
-      "arc": 34,
-      "episode": 17,
-      "title": "Liar",
-      "originaltitle": "",
-      "description": "Nami and co. finally locate Brook using the Mirro-world, but he is in the most inopportune of places! Meanwhile, Luffy is waylaid on his way back to the rendezvous, and Jinbe shares the awful truth about the wedding with the other Straw Hat pirates.",
-      "chapters": "855-856",
-      "episodes": "823-825",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "0CF96D5A",
-        "blake2": ""
-      }
-    },
     "0D273612": {
       "arc": 18,
       "episode": 11,
@@ -672,34 +644,6 @@
       "released": "2019-05-02",
       "hashes": {
         "crc32": "0E201E28",
-        "blake2": ""
-      }
-    },
-    "0E2022E4": {
-      "arc": 34,
-      "episode": 15,
-      "title": "Germa's Failure",
-      "originaltitle": "",
-      "description": "Things are looking grim for Luffy and Nami until an unexpected ally appears. Elsewhere, Sanji confronts his sister about what Pudding plans to do and learns the powerful secret of their mother's undying love.",
-      "chapters": "851-852",
-      "episodes": "817-820",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "0E2022E4",
-        "blake2": ""
-      }
-    },
-    "0F125E00": {
-      "arc": 34,
-      "episode": 19,
-      "title": "Emperor Assassination Plan",
-      "originaltitle": "",
-      "description": "The plan for Big Mom's assassination is all set. Sanji heads back to his room to avoid suspicion, but Mont d'Or is hot on his trail. The day arrives, and guests from the criminal underground pour in in droves, some with their own agendas to settle.",
-      "chapters": "859-860",
-      "episodes": "828-830",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "0F125E00",
         "blake2": ""
       }
     },
@@ -840,34 +784,6 @@
       "released": "2020-10-07",
       "hashes": {
         "crc32": "1638FE88",
-        "blake2": ""
-      }
-    },
-    "172F5F20": {
-      "arc": 34,
-      "episode": 39,
-      "title": "END ROLL",
-      "originaltitle": "",
-      "description": "As the Big Mom Pirate fleet approaches, Jinbe makes a crucial decision. At a great cost of energy and life, the Straw Hats make it out of Totto Land. Left behind in their wake are allies, friends, and would-be lovers.",
-      "chapters": "901-902",
-      "episodes": "876-877",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "172F5F20",
-        "blake2": ""
-      }
-    },
-    "1753F7D1": {
-      "arc": 34,
-      "episode": 35,
-      "title": "They Believe in Me",
-      "originaltitle": "",
-      "description": "The cake is finally brought before Big Mom. With the end of her vicious rampage in sight, the Straw Hats may just get their chance to flee! Big Mom's crew is forced to decide who to attack, and Luffy grows ever closer to mastering his haki.",
-      "chapters": "891-893",
-      "episodes": "865-868",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "1753F7D1",
         "blake2": ""
       }
     },
@@ -1067,20 +983,6 @@
         "blake2": ""
       }
     },
-    "22B16322": {
-      "arc": 34,
-      "episode": 28,
-      "title": "Mink Pedro, Captain of the Guardians",
-      "originaltitle": "",
-      "description": "Sandwiched between Big Mom and her advancing fleet, the only hope left to the Sunny is to blast right through it all. Meanwhile, Pedro comes face-to-face with his past and does what he must to ensure the success of his friends.",
-      "chapters": "877-878",
-      "episodes": "848-850",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "22B16322",
-        "blake2": ""
-      }
-    },
     "22E58F96": {
       "arc": 21,
       "episode": 21,
@@ -1204,20 +1106,6 @@
       "released": "2017-08-10",
       "hashes": {
         "crc32": "26D6F22A",
-        "blake2": ""
-      }
-    },
-    "270A4ABD": {
-      "arc": 34,
-      "episode": 29,
-      "title": "Zero Escape",
-      "originaltitle": "",
-      "description": "In the Mirro-world, Luffy confronts the formidable Charlotte Katakuri, Big Mom's strongest child. Meanwhile, Pudding and Sanji arrive at Cacao Island to remake the cake, but they bicker like a married couple the whole time.",
-      "chapters": "879-880",
-      "episodes": "851-853",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "270A4ABD",
         "blake2": ""
       }
     },
@@ -1375,20 +1263,6 @@
         "blake2": ""
       }
     },
-    "2CDA8E9D": {
-      "arc": 34,
-      "episode": 27,
-      "title": "A Woman's Honor",
-      "originaltitle": "",
-      "description": "Big Mom is relentless in her pursuit of the Straw Hats. Elsewhere, the plan to recreate the wedding cake progresses while Pudding's unpredictable heart confuses everyone, including herself.",
-      "chapters": "875-876",
-      "episodes": "846-848",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "2CDA8E9D",
-        "blake2": ""
-      }
-    },
     "2DC3ECF7": {
       "arc": 26,
       "episode": 17,
@@ -1459,20 +1333,6 @@
         "blake2": ""
       }
     },
-    "31018FCB": {
-      "arc": 34,
-      "episode": 8,
-      "title": "Luffy vs. Commander Cracker",
-      "originaltitle": "",
-      "description": "Luffy squares off against a commander of Big Mom, Charlotte Cracker, whose powers may prove more troublesome than they appear. Meanwhile, Brook and Pedro infiltrate Whole Cake Island and work out a plan to avoid getting caught.",
-      "chapters": "837-838",
-      "episodes": "798-800",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "31018FCB",
-        "blake2": ""
-      }
-    },
     "32150FF4": {
       "arc": 33,
       "episode": 2,
@@ -1498,20 +1358,6 @@
       "released": "2020-08-27",
       "hashes": {
         "crc32": "3251D51B",
-        "blake2": ""
-      }
-    },
-    "32CC4AB9": {
-      "arc": 34,
-      "episode": 25,
-      "title": "You Can Do It, Caesar!!",
-      "originaltitle": "",
-      "description": "Caesar flies the entire alliance, still inside Bege, out of the venue! However, the full might of the Big Mom Pirates proves too much. The alliance's annihilation is imminent, but something shakes the playing field.",
-      "chapters": "870-872",
-      "episodes": "841-843",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "32CC4AB9",
         "blake2": ""
       }
     },
@@ -1571,20 +1417,6 @@
         "blake2": ""
       }
     },
-    "36D0F622": {
-      "arc": 34,
-      "episode": 12,
-      "title": "Forces of Rage",
-      "originaltitle": "",
-      "description": "Luffy stands his ground and waits for Sanji to return, but as the vengeful army washes over him, only a true friend can step in to help. At Big Mom's castle, Sanji and Pudding discuss their marriage and come to a startling conclusion!",
-      "chapters": "845-846",
-      "episodes": "809-812",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "36D0F622",
-        "blake2": ""
-      }
-    },
     "37670A03": {
       "arc": 36,
       "episode": 23,
@@ -1641,20 +1473,6 @@
         "blake2": ""
       }
     },
-    "39D94718": {
-      "arc": 34,
-      "episode": 22,
-      "title": "Hey, Mother",
-      "originaltitle": "",
-      "description": "Luffy dashes toward Big Mom to show her the broken portrait again, and Sanji attempts to free his family. Here, Big Mom's tragic and sad history is revealed: from the very beginning, Big Mom's voracious hunger has brought her into conflict with others.",
-      "chapters": "865-866",
-      "episodes": "835-836",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "39D94718",
-        "blake2": ""
-      }
-    },
     "3AEE90B8": {
       "arc": 21,
       "episode": 13,
@@ -1666,20 +1484,6 @@
       "released": "2013-11-20",
       "hashes": {
         "crc32": "3AEE90B8",
-        "blake2": ""
-      }
-    },
-    "3AF37912": {
-      "arc": 34,
-      "episode": 36,
-      "title": "Pirate Luffy vs. Commander Katakuri",
-      "originaltitle": "",
-      "description": "Desiring revenge after complete embarrassment, Big Mom's children band together to smash the Straw Hats. Meanwhile, Luffy and Katakuri are locked in a duel to end all duels, where each blow could be the last.",
-      "chapters": "892-895",
-      "episodes": "865, 867-870",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "3AF37912",
         "blake2": ""
       }
     },
@@ -1711,20 +1515,6 @@
         "blake2": ""
       }
     },
-    "3C58DD41": {
-      "arc": 34,
-      "episode": 37,
-      "title": "One Last Thing",
-      "originaltitle": "",
-      "description": "Luffy's dramatic battle finally draws to a close, and a whole host of the Big Mom Pirates watch the last mirror to see who will come through.",
-      "chapters": "896-897",
-      "episodes": "871-872",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "3C58DD41",
-        "blake2": ""
-      }
-    },
     "3C665F73": {
       "arc": 16,
       "episode": 7,
@@ -1753,20 +1543,6 @@
         "blake2": ""
       }
     },
-    "3F5E7FD3": {
-      "arc": 34,
-      "episode": 18,
-      "title": "Rook",
-      "originaltitle": "",
-      "description": "Jinbe tells the Straw Hats about Capone \"Gang\" Bege and proposes a shocking plan to take down Big Mom! But before they are granted an audience with Bege, they must make themselves presentable.",
-      "chapters": "857-858",
-      "episodes": "826-828",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "3F5E7FD3",
-        "blake2": ""
-      }
-    },
     "3F6633B5": {
       "arc": 34,
       "episode": 3,
@@ -1792,20 +1568,6 @@
       "released": "2025-04-26",
       "hashes": {
         "crc32": "3F695862",
-        "blake2": ""
-      }
-    },
-    "410C8F0C": {
-      "arc": 34,
-      "episode": 6,
-      "title": "Vinsmoke Judge",
-      "originaltitle": "",
-      "description": "Sanji faces his father in a duel as the wounds of his childhood are laid bare! Meanwhile, Luffy falls for the illusions of the forest, and Big Mom has Caesar at her whims, ready to use him to continue her maniacal pursuits.",
-      "chapters": "833-834",
-      "episodes": "793-795",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "410C8F0C",
         "blake2": ""
       }
     },
@@ -1862,20 +1624,6 @@
       "released": "2024-11-23",
       "hashes": {
         "crc32": "432F7EDF",
-        "blake2": ""
-      }
-    },
-    "437F9E8D": {
-      "arc": 34,
-      "episode": 23,
-      "title": "HAPPY BIRTHDAY",
-      "originaltitle": "",
-      "description": "A young Linlin managed to enrage the giants of Elbaph, but Mother Carmel begged for clemency on her behalf. After Carmel's mysterious disappearance, Linlin fell in with a new cohort and found her reason to go on living.",
-      "chapters": "867-868",
-      "episodes": "837-839",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "437F9E8D",
         "blake2": ""
       }
     },
@@ -2047,20 +1795,6 @@
         "blake2": ""
       }
     },
-    "4CF30353": {
-      "arc": 34,
-      "episode": 5,
-      "title": "Adventure in the Mysterious Forest",
-      "originaltitle": "",
-      "description": "Luffy's group makes its way toward Sanji, only to be distracted by the endless supply of sweets and a second Luffy. Before they realize it, they are lost in the Seducing Woods! Meanwhile, Sanji confronts his older brother.",
-      "chapters": "831-832",
-      "episodes": "791-793",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "4CF30353",
-        "blake2": ""
-      }
-    },
     "4D75A2CA": {
       "arc": 18,
       "episode": 7,
@@ -2086,20 +1820,6 @@
       "released": "2026-01-18",
       "hashes": {
         "crc32": "4DDEFE2B",
-        "blake2": ""
-      }
-    },
-    "4F38961B": {
-      "arc": 34,
-      "episode": 20,
-      "title": "Veteran Actor",
-      "originaltitle": "",
-      "description": "Final preparations abound, plans come together, and Sanji meets his bride on the altar. As the veil is lifted off Pudding's face, emotions run high, and the chaos begins! As the proverbial icing on the cake, all hell breaks loose as Luffy charges in!",
-      "chapters": "861-862",
-      "episodes": "831-832",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "4F38961B",
         "blake2": ""
       }
     },
@@ -2184,20 +1904,6 @@
       "released": "2024-01-05",
       "hashes": {
         "crc32": "5195CDBC",
-        "blake2": ""
-      }
-    },
-    "529AE554": {
-      "arc": 34,
-      "episode": 31,
-      "title": "Merienda",
-      "originaltitle": "",
-      "description": "Katakuri retires to his sanctuary to enjoy a merienda\u2014a sweet chance to replenish his haki! But he is not the only one munching away. A mochi mountain has crushed Luffy, and he has found a delectable way to escape.",
-      "chapters": "883-884",
-      "episodes": "856-858",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "529AE554",
         "blake2": ""
       }
     },
@@ -2467,6 +2173,20 @@
         "blake2": ""
       }
     },
+    "5B546203": {
+      "arc": 36,
+      "episode": 3,
+      "title": "Future Island Egghead",
+      "originaltitle": "Future Island, Egghead",
+      "description": "Sabo contacts his comrades, which prompts a certain eavesdropper to take action against an entire island nation! Meanwhile, Luffy, Chopper, and Jinbe alongside a mysterious girl become separated from the rest of the Straw Hats when a giant shark attacks.",
+      "chapters": "1060-1061",
+      "episodes": "1089-1090",
+      "released": "2025-01-11",
+      "hashes": {
+        "crc32": "5B546203",
+        "blake2": ""
+      }
+    },
     "5D1CA4A2": {
       "arc": 6,
       "episode": 5,
@@ -2548,20 +2268,6 @@
       "released": "2022-05-04",
       "hashes": {
         "crc32": "5FBDCD0F",
-        "blake2": ""
-      }
-    },
-    "5FDB702D": {
-      "arc": 34,
-      "episode": 21,
-      "title": "The Honorable",
-      "originaltitle": "",
-      "description": "The wedding and the precious cake crumble to pieces around Big Mom as a slew of Luffys wreak havoc. The chaos pushes Big Mom past the edge of sanity, so her children make a move against Germa while Pudding takes aim at Sanji.",
-      "chapters": "863-864",
-      "episodes": "831, 833-834",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "5FDB702D",
         "blake2": ""
       }
     },
@@ -2943,20 +2649,6 @@
         "blake2": ""
       }
     },
-    "6E422CFB": {
-      "arc": 34,
-      "episode": 24,
-      "title": "Under Siege",
-      "originaltitle": "",
-      "description": "The Straw Hats and Germa 66 become cornered in Bege's stronghold, and the full might of the Big Mom Pirates is pinning them down! It is only a matter of time before their defenses crack, so they take the only way out and make a break for it.",
-      "chapters": "869-870",
-      "episodes": "839-841",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "6E422CFB",
-        "blake2": ""
-      }
-    },
     "6E46167D": {
       "arc": 1,
       "episode": 4,
@@ -2982,20 +2674,6 @@
       "released": "2025-05-17",
       "hashes": {
         "crc32": "6F26FDAB",
-        "blake2": ""
-      }
-    },
-    "6FBBD350": {
-      "arc": 34,
-      "episode": 33,
-      "title": "Lion",
-      "originaltitle": "",
-      "description": "Sanji and Bege contend with Charlotte Oven, who boils the sea itself! Meanwhile, a vicious pincer attack bears down on the Straw Hats, but Carrot draws on a deep power within and springs to action under the light of the full moon.",
-      "chapters": "887-888",
-      "episodes": "860-862",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "6FBBD350",
         "blake2": ""
       }
     },
@@ -3066,20 +2744,6 @@
       "released": "2016-11-16",
       "hashes": {
         "crc32": "7149D13F",
-        "blake2": ""
-      }
-    },
-    "71827EF0": {
-      "arc": 34,
-      "episode": 26,
-      "title": "Become My Servant",
-      "originaltitle": "",
-      "description": "The Straw Hats continue their mad dash to the Sunny, and Pudding puts her plan to rebuild the cake into action. As Zeus pursues the Straw Hats, Nami keeps him occupied with a shocking surprise that might stop Big Mom in her tracks!",
-      "chapters": "873-874",
-      "episodes": "843-846",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "71827EF0",
         "blake2": ""
       }
     },
@@ -3433,20 +3097,6 @@
         "blake2": ""
       }
     },
-    "8313ECE3": {
-      "arc": 34,
-      "episode": 32,
-      "title": "Way of Life",
-      "originaltitle": "",
-      "description": "When Chiffon comes under attack, Sanji must choose between defending her or revealing his whereabouts to his enemies. Elsewhere, Luffy uses Charlotte Br\u00fbl\u00e9e as a human shield to avoid the wrath of Big Mom.",
-      "chapters": "885-886",
-      "episodes": "858-860",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "8313ECE3",
-        "blake2": ""
-      }
-    },
     "83E6D2A7": {
       "arc": 6,
       "episode": 8,
@@ -3612,20 +3262,6 @@
       "released": "2025-04-04",
       "hashes": {
         "crc32": "8A1836B5",
-        "blake2": ""
-      }
-    },
-    "8B5E1006": {
-      "arc": 34,
-      "episode": 11,
-      "title": "Luffy vs. Sanji",
-      "originaltitle": "",
-      "description": "Luffy finishes off Cracker and finally catches up with Sanji, but the Straw Hats' cook seems far from thrilled about the reunion. A heartbreaking duel commences, but a steadfast Luffy makes a solemn vow to his friend and crewmate.",
-      "chapters": "843-844",
-      "episodes": "806-808",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "8B5E1006",
         "blake2": ""
       }
     },
@@ -3850,20 +3486,6 @@
       "released": "2013-05-03",
       "hashes": {
         "crc32": "94E2099D",
-        "blake2": ""
-      }
-    },
-    "94E3481F": {
-      "arc": 34,
-      "episode": 9,
-      "title": "The Iron Mask",
-      "originaltitle": "",
-      "description": "Sanji challenges his entire family, but they have effectively ensured he follows their wedding scheme. The truth of Germa's power and Vinsmoke Judge's dark history is also revealed. Meanwhile, Nami has recruited the homies and challenges Cracker!",
-      "chapters": "839-840",
-      "episodes": "800-803, 807",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "94E3481F",
         "blake2": ""
       }
     },
@@ -4105,20 +3727,6 @@
         "blake2": ""
       }
     },
-    "A3939979": {
-      "arc": 34,
-      "episode": 34,
-      "title": "Unknown Mama",
-      "originaltitle": "",
-      "description": "Wielding Napoleon and backed by Zeus and Prometheus, Big Mom wreaks havoc on the Sunny. As the Straw Hats try to kick out the Emperor, their ship catches fire! But then, Jinbe steps up to the plate to take a swing.",
-      "chapters": "889-891",
-      "episodes": "862-865",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "A3939979",
-        "blake2": ""
-      }
-    },
     "A42DEAED": {
       "arc": 36,
       "episode": 7,
@@ -4301,20 +3909,6 @@
         "blake2": ""
       }
     },
-    "A8E42FE1": {
-      "arc": 34,
-      "episode": 16,
-      "title": "Not Here",
-      "originaltitle": "",
-      "description": "Luffy fights through more obstacles in search of Sanji, and Brook hears Big Mom's plan firsthand as she shares her intentions with Pudding. While Big Mom's agents believe most of the Straw Hats to be under their control, Mont d'Or has his doubts.",
-      "chapters": "853-854",
-      "episodes": "820-822",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "A8E42FE1",
-        "blake2": ""
-      }
-    },
     "A905C964": {
       "arc": 14,
       "episode": 9,
@@ -4385,17 +3979,17 @@
         "blake2": ""
       }
     },
-    "ABB0AC56": {
-      "arc": 34,
-      "episode": 30,
-      "title": "Wave Room",
+    "ACBE88D6": {
+      "arc": 36,
+      "episode": 4,
+      "title": "Adventure in the Land of Science",
       "originaltitle": "",
-      "description": "Nami and Luffy discuss a rendezvous point while the others break the mirrors on the Sunny. Little do they know their plan is overheard, and Luffy's grueling battle against Katakuri\u2014haki vs. haki, rubber vs. mochi\u2014intensifies.",
-      "chapters": "881-883",
-      "episodes": "853-855, 858",
-      "released": "2020-12-11",
+      "description": "Franky and Luffy's groups are split up, but each encounter a person claiming to be Dr. Vegapunk. On the island, Luffy and co. find convenient food and futuristic clothing, but when a pacifista shows up, Bonney reveals her shocking relationship with Kuma.",
+      "chapters": "1062-1063",
+      "episodes": "1091-1093",
+      "released": "2025-01-11",
       "hashes": {
-        "crc32": "ABB0AC56",
+        "crc32": "ACBE88D6",
         "blake2": ""
       }
     },
@@ -4987,6 +4581,20 @@
         "blake2": ""
       }
     },
+    "CA3F14A8": {
+      "arc": 36,
+      "episode": 1,
+      "title": "New Emperors",
+      "originaltitle": "",
+      "description": "The Straw Hats rave over new bounties, and Crocodile and Mihawk pay Buggy a visit. Elsewhere, Dragon and his revolutionaries are shocked when they read about Sabo in the news, and an old comrade returns, a shell of his former self.",
+      "chapters": "1058-1059",
+      "episodes": "1086-1088",
+      "released": "2024-09-24",
+      "hashes": {
+        "crc32": "CA3F14A8",
+        "blake2": ""
+      }
+    },
     "CA5552FC": {
       "arc": 16,
       "episode": 1,
@@ -5040,20 +4648,6 @@
       "released": "2013-05-31",
       "hashes": {
         "crc32": "CC88315A",
-        "blake2": ""
-      }
-    },
-    "CCCBEFC0": {
-      "arc": 34,
-      "episode": 14,
-      "title": "A Ray of Light",
-      "originaltitle": "",
-      "description": "When Pudding arrives to meet the captured Luffy and Nami, their hopefulness suddenly turns to shock! To make matters worse, Brook comes face to face with Big Mom herself! At the risk of his own well-being, Luffy desperately tries to free himself.",
-      "chapters": "849-850",
-      "episodes": "814-817",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "CCCBEFC0",
         "blake2": ""
       }
     },
@@ -5239,6 +4833,20 @@
         "blake2": ""
       }
     },
+    "D511F339": {
+      "arc": 36,
+      "episode": 2,
+      "title": "The Matter Involving Captain Koby",
+      "originaltitle": "",
+      "description": "The three-way struggle between the Marines, the Blackbeard Pirates, and the Kuja Pirates comes to an end when an unexpected figure shows up. On the Sunny, the Straw Hats talk about the recent incidents around the world and Luffy's words surprise everyone.",
+      "chapters": "1059-1060",
+      "episodes": "1087-1088",
+      "released": "2024-09-14",
+      "hashes": {
+        "crc32": "D511F339",
+        "blake2": ""
+      }
+    },
     "D538CFD7": {
       "arc": 21,
       "episode": 11,
@@ -5320,20 +4928,6 @@
       "released": "2025-03-01",
       "hashes": {
         "crc32": "D9CD96CA",
-        "blake2": ""
-      }
-    },
-    "D9EEB564": {
-      "arc": 34,
-      "episode": 13,
-      "title": "Luffy and Big Mom",
-      "originaltitle": "",
-      "description": "Pedro creates a diversion for Brook to put his soulful plan into action. Meanwhile, the captured Luffy continues to goad Big Mom, and Pudding has the beginnings of rebellion stirring up inside her.",
-      "chapters": "847-848",
-      "episodes": "812-815",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "D9EEB564",
         "blake2": ""
       }
     },
@@ -5446,20 +5040,6 @@
       "released": "2014-03-25",
       "hashes": {
         "crc32": "E058DEF9",
-        "blake2": ""
-      }
-    },
-    "E123D314": {
-      "arc": 34,
-      "episode": 10,
-      "title": "To the East Blue",
-      "originaltitle": "",
-      "description": "Sanji's tragic history included a rare moment of compassion that was his only chance at escape, but even then, his father's cruelty haunted him. In the present, Reiju helps Sanji straighten himself out before he meets with his fianc\u00e9e.",
-      "chapters": "841-842",
-      "episodes": "804-806",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "E123D314",
         "blake2": ""
       }
     },
@@ -5670,20 +5250,6 @@
       "released": "2025-08-10",
       "hashes": {
         "crc32": "E90342F6",
-        "blake2": ""
-      }
-    },
-    "E9317CBD": {
-      "arc": 34,
-      "episode": 38,
-      "title": "BAD END MUSICAL",
-      "originaltitle": "",
-      "description": "Sanji tries his best to save himself and his captain. Now, the fate of Totto Land rests on the taste of the wedding cake! With the help of Germa and the Sun Pirates, the Straw Hats see their chance to escape!",
-      "chapters": "898-900",
-      "episodes": "873-875",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "E9317CBD",
         "blake2": ""
       }
     },
@@ -6146,20 +5712,6 @@
       "released": "2024-12-07",
       "hashes": {
         "crc32": "FBEA8001",
-        "blake2": ""
-      }
-    },
-    "FC2376A1": {
-      "arc": 34,
-      "episode": 7,
-      "title": "Lola's Vivre Card",
-      "originaltitle": "",
-      "description": "The mysterious half-buried man comes clean about his identity, but this must all be put aside when one of Big Mom's most powerful commanders comes calling. Nami's past exploits, however, hold the key to keeping the baddies at bay.",
-      "chapters": "835-836",
-      "episodes": "796-798",
-      "released": "2020-12-11",
-      "hashes": {
-        "crc32": "FC2376A1",
         "blake2": ""
       }
     },

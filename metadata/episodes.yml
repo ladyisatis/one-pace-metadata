@@ -3076,6 +3076,23 @@
     size: 251.8 MiB
     hash: 2c83d7ba67a243de5995f687073787341c69958c
     index: 0
+5B546203:
+  arc: 36
+  episode: 3
+  manga_chapters: 1060-1061
+  anime_episodes: 1089-1090
+  released: 2025-01-11
+  duration: 1830
+  extended: false
+  hashes:
+    crc32: 5B546203
+    blake2s: ''
+  file:
+    id: 1920011
+    name: '[One Pace][1060-1061] Egghead 03 [1080p][5B546203].mkv'
+    size: 1.1 GiB
+    hash: 86eec1e4d07215a87e09ae1114b2fdfac7c7c115
+    index: 0
 5C7E0604:
   arc: 36
   episode: 29
@@ -5722,6 +5739,23 @@ ABB0AC56:
     size: 244.2 MiB
     hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
     index: 29
+ACBE88D6:
+  arc: 36
+  episode: 4
+  manga_chapters: 1062-1063
+  anime_episodes: 1091-1093
+  released: 2025-01-11
+  duration: 1913
+  extended: false
+  hashes:
+    crc32: ACBE88D6
+    blake2s: ''
+  file:
+    id: 1920012
+    name: '[One Pace][1062-1063] Egghead 04 [1080p][ACBE88D6].mkv'
+    size: 1.0 GiB
+    hash: aaaa08557942a56c8de16d086f2a26abee18b6d5
+    index: 0
 ACC7852E:
   arc: 32
   episode: 29
@@ -6606,6 +6640,23 @@ CA3683BA:
     size: 1.5 GiB
     hash: 77ca3e8606de3ce6cb91041f585de5d68d59d613
     index: 0
+CA3F14A8:
+  arc: 36
+  episode: 1
+  manga_chapters: 1058-1059
+  anime_episodes: 1086-1088
+  released: 2024-09-24
+  duration: 1493
+  extended: false
+  hashes:
+    crc32: CA3F14A8
+    blake2s: ''
+  file:
+    id: 1870237
+    name: '[One Pace][1058-1059] Egghead 01 [1080p][CA3F14A8].mkv'
+    size: 775.4 MiB
+    hash: aa40134492bb9d86eb4b70632047db0e799d66d6
+    index: 0
 CA5552FC:
   arc: 16
   episode: 1
@@ -6928,6 +6979,23 @@ D2E02F36:
     name: '[One Pace][932-933] Wano 17 [1080p][D2E02F36].mkv'
     size: 1.5 GiB
     hash: ada27ed07c9bdb8339f563ea3a972e810db9c241
+    index: 0
+D511F339:
+  arc: 36
+  episode: 2
+  manga_chapters: 1059-1060
+  anime_episodes: 1087-1088
+  released: 2024-09-14
+  duration: 1438
+  extended: false
+  hashes:
+    crc32: D511F339
+    blake2s: ''
+  file:
+    id: 1870238
+    name: '[One Pace][1059-1060] Egghead 02 [1080p][D511F339].mkv'
+    size: 984.5 MiB
+    hash: 56fc879f3e8a417a5be04a08204e48102e44fd82
     index: 0
 D538CFD7:
   arc: 21
