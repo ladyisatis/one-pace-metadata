@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-01-26T22:07:57+00:00'
-  last_update_ts: 1769465277
+  last_update: '2026-02-01T00:41:29+00:00'
+  last_update_ts: 1769906489
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 152
+  version: 153
 tvshow:
   en:
     title: One Piece
@@ -1505,8 +1505,8 @@ arcs:
       arc_watch_guide: Pace
   - part: 29
     saga: Fishman Island
-    title: Fishman Island
-    originaltitle: ''
+    title: Sheet12
+    originaltitle: Fishman Island
     shortcode: FI
     mkvcode: fi
     description: The path the to the New World takes the Straw Hats thousands of leagues
@@ -1603,8 +1603,8 @@ arcs:
       arc_watch_guide: Pace
   - part: 30
     saga: Dressrosa
-    title: Punk Hazard
-    originaltitle: ''
+    title: Fishman Island
+    originaltitle: Punk Hazard
     shortcode: PU
     mkvcode: punkhazard
     description: The first island of the New World is a strange place covered in flames
@@ -1678,6 +1678,12 @@ arcs:
     - episode: '22'
       standard: 021A8886
       extended: ''
+    - episode: '23'
+      standard: 65BD682D
+      extended: ''
+    - episode: '24'
+      standard: 99A61805
+      extended: ''
     info:
       status: To Be Redone
       manga_chapters: 654 - 699
@@ -1695,8 +1701,8 @@ arcs:
       arc_watch_guide: Pace
   - part: 31
     saga: Dressrosa
-    title: Dressrosa
-    originaltitle: ''
+    title: Punk Hazard
+    originaltitle: Dressrosa
     shortcode: DE
     mkvcode: dressrosa
     description: Luffy's alliance with Law brings him next to Dressrosa to take down
@@ -1864,8 +1870,8 @@ arcs:
       arc_watch_guide: Pace
   - part: 32
     saga: Four Emperors
-    title: Zou
-    originaltitle: ''
+    title: Dressrosa
+    originaltitle: Zou
     shortcode: ZO
     mkvcode: zou
     description: Zou cannot be reached by conventional means, nor is it easy to enter
@@ -1903,6 +1909,120 @@ arcs:
     - episode: '10'
       standard: 4A52B138
       extended: ''
+    - episode: '11'
+      standard: D8E8370A
+      extended: ''
+    - episode: '12'
+      standard: F20B5423
+      extended: ''
+    - episode: '13'
+      standard: C29E5C35
+      extended: ''
+    - episode: '14'
+      standard: E3C90B8B
+      extended: ''
+    - episode: '15'
+      standard: 6A3CE0EA
+      extended: ''
+    - episode: '16'
+      standard: 7073A62F
+      extended: ''
+    - episode: '17'
+      standard: 174F92DD
+      extended: ''
+    - episode: '18'
+      standard: C9362978
+      extended: ''
+    - episode: '19'
+      standard: 77081AEE
+      extended: ''
+    - episode: '20'
+      standard: BE72EB0E
+      extended: ''
+    - episode: '21'
+      standard: C21EC74A
+      extended: ''
+    - episode: '22'
+      standard: 5FC46535
+      extended: ''
+    - episode: '23'
+      standard: 5A38EC3B
+      extended: ''
+    - episode: '24'
+      standard: 11DA7BCB
+      extended: ''
+    - episode: '25'
+      standard: 1CADC5DC
+      extended: ''
+    - episode: '26'
+      standard: 71CA89FC
+      extended: ''
+    - episode: '27'
+      standard: DC6C3C54
+      extended: ''
+    - episode: '28'
+      standard: 04186119
+      extended: ''
+    - episode: '29'
+      standard: ACC7852E
+      extended: ''
+    - episode: '30'
+      standard: 4F16C5DC
+      extended: ''
+    - episode: '31'
+      standard: 9C3360D6
+      extended: ''
+    - episode: '32'
+      standard: E98F852E
+      extended: ''
+    - episode: '33'
+      standard: 53AEB13C
+      extended: ''
+    - episode: '34'
+      standard: 0CA47011
+      extended: ''
+    - episode: '35'
+      standard: 1B5DC33C
+      extended: ''
+    - episode: '36'
+      standard: F218F0E4
+      extended: ''
+    - episode: '37'
+      standard: 777A9A6A
+      extended: ''
+    - episode: '38'
+      standard: 0429451F
+      extended: ''
+    - episode: '39'
+      standard: 7391ECD4
+      extended: ''
+    - episode: '40'
+      standard: ECD80B22
+      extended: ''
+    - episode: '41'
+      standard: 3E9F11F9
+      extended: ''
+    - episode: '42'
+      standard: 55292D1C
+      extended: ''
+    - episode: '43'
+      standard: CAA32C42
+      extended: ''
+    - episode: '44'
+      standard: 4DDF4C07
+      extended: ''
+    - episode: '45'
+      standard: '15344804'
+      extended: ''
+    - episode: '46'
+      standard: 81C4666C
+      extended: ''
+    - episode: '47'
+      standard: 01C40FA1
+      extended: ''
+    - episode: '48'
+      standard: 5F035A13
+      extended: ''
     info:
       status: To Be Redone
       manga_chapters: 801 - 822
@@ -1920,8 +2040,8 @@ arcs:
       arc_watch_guide: Pace
   - part: 33
     saga: Four Emperors
-    title: Whole Cake Island
-    originaltitle: ''
+    title: Zou
+    originaltitle: Whole Cake Island
     shortcode: WO
     mkvcode: wci
     description: Luffy will not sail the seas without his cook, so he stubbornly goes
@@ -2062,8 +2182,8 @@ arcs:
       arc_watch_guide: Pace
   - part: 34
     saga: Four Emperors
-    title: Reverie
-    originaltitle: ''
+    title: Whole Cake Island
+    originaltitle: Reverie
     shortcode: RV
     mkvcode: reverie
     description: Every four years, the leaders of the world gather at the Holy Land
@@ -2078,6 +2198,114 @@ arcs:
       extended: ''
     - episode: '03'
       standard: 0B51015F
+      extended: ''
+    - episode: '04'
+      standard: 02C6FC2B
+      extended: ''
+    - episode: '05'
+      standard: 4CF30353
+      extended: ''
+    - episode: '06'
+      standard: 410C8F0C
+      extended: ''
+    - episode: '07'
+      standard: FC2376A1
+      extended: ''
+    - episode: 08
+      standard: 31018FCB
+      extended: ''
+    - episode: 09
+      standard: 94E3481F
+      extended: ''
+    - episode: '10'
+      standard: E123D314
+      extended: ''
+    - episode: '11'
+      standard: 8B5E1006
+      extended: ''
+    - episode: '12'
+      standard: 36D0F622
+      extended: ''
+    - episode: '13'
+      standard: D9EEB564
+      extended: ''
+    - episode: '14'
+      standard: CCCBEFC0
+      extended: ''
+    - episode: '15'
+      standard: 0E2022E4
+      extended: ''
+    - episode: '16'
+      standard: A8E42FE1
+      extended: ''
+    - episode: '17'
+      standard: 0CF96D5A
+      extended: ''
+    - episode: '18'
+      standard: 3F5E7FD3
+      extended: ''
+    - episode: '19'
+      standard: 0F125E00
+      extended: ''
+    - episode: '20'
+      standard: 4F38961B
+      extended: ''
+    - episode: '21'
+      standard: 5FDB702D
+      extended: ''
+    - episode: '22'
+      standard: 39D94718
+      extended: ''
+    - episode: '23'
+      standard: 437F9E8D
+      extended: ''
+    - episode: '24'
+      standard: 6E422CFB
+      extended: ''
+    - episode: '25'
+      standard: 32CC4AB9
+      extended: ''
+    - episode: '26'
+      standard: 71827EF0
+      extended: ''
+    - episode: '27'
+      standard: 2CDA8E9D
+      extended: ''
+    - episode: '28'
+      standard: 22B16322
+      extended: ''
+    - episode: '29'
+      standard: 270A4ABD
+      extended: ''
+    - episode: '30'
+      standard: ABB0AC56
+      extended: ''
+    - episode: '31'
+      standard: 529AE554
+      extended: ''
+    - episode: '32'
+      standard: 8313ECE3
+      extended: ''
+    - episode: '33'
+      standard: 6FBBD350
+      extended: ''
+    - episode: '34'
+      standard: A3939979
+      extended: ''
+    - episode: '35'
+      standard: 1753F7D1
+      extended: ''
+    - episode: '36'
+      standard: 3AF37912
+      extended: ''
+    - episode: '37'
+      standard: 3C58DD41
+      extended: ''
+    - episode: '38'
+      standard: E9317CBD
+      extended: ''
+    - episode: '39'
+      standard: 172F5F20
       extended: ''
     info:
       status: ''
@@ -2096,8 +2324,8 @@ arcs:
       arc_watch_guide: Pace
   - part: 35
     saga: Four Emperors
-    title: Wano
-    originaltitle: ''
+    title: Reverie
+    originaltitle: Wano
     shortcode: WN
     mkvcode: wano
     description: 'The Straw Hats finally regroup in Wano to carry out theirs and their
@@ -2289,8 +2517,8 @@ arcs:
       arc_watch_guide: Pace Episodes 1-56 then Original Episodes 1018 - 1085
   - part: 36
     saga: Final Saga
-    title: Egghead
-    originaltitle: ''
+    title: Wano
+    originaltitle: Egghead
     shortcode: EG
     mkvcode: egghead
     description: Futuristic tech, giant alien monsters, battle robots, superhuman
@@ -2302,7 +2530,7 @@ arcs:
       extended: ''
     - episode: '02'
       standard: D511F339
-      extended: ''
+      extended: 6F26FDAB
     - episode: '03'
       standard: 5B546203
       extended: ''
@@ -2356,6 +2584,114 @@ arcs:
       extended: CF226ADC
     - episode: '20'
       standard: B974EFD7
+      extended: ''
+    - episode: '21'
+      standard: 0B965026
+      extended: ''
+    - episode: '22'
+      standard: 9F63AF78
+      extended: ''
+    - episode: '23'
+      standard: 37670A03
+      extended: ''
+    - episode: '24'
+      standard: 6173BCE1
+      extended: ''
+    - episode: '25'
+      standard: C3825063
+      extended: ''
+    - episode: '26'
+      standard: F3E829E8
+      extended: ''
+    - episode: '27'
+      standard: 3CC8226D
+      extended: ''
+    - episode: '28'
+      standard: 22F81B0E
+      extended: ''
+    - episode: '29'
+      standard: 5C7E0604
+      extended: ''
+    - episode: '30'
+      standard: 43A0D1DF
+      extended: ''
+    - episode: '31'
+      standard: F6C7EB83
+      extended: ''
+    - episode: '32'
+      standard: 29B91F56
+      extended: ''
+    - episode: '33'
+      standard: E3AB2BA0
+      extended: ''
+    - episode: '34'
+      standard: 224B7846
+      extended: ''
+    - episode: '35'
+      standard: 98B5E26D
+      extended: ''
+    - episode: '36'
+      standard: BAFFE801
+      extended: ''
+    - episode: '37'
+      standard: AD8C9C16
+      extended: ''
+    - episode: '38'
+      standard: 298A4284
+      extended: ''
+    - episode: '39'
+      standard: 56CFB8B0
+      extended: ''
+    - episode: '40'
+      standard: 713F7916
+      extended: ''
+    - episode: '41'
+      standard: C89B4C1E
+      extended: ''
+    - episode: '42'
+      standard: 3FC81ABD
+      extended: ''
+    - episode: '43'
+      standard: 26D98629
+      extended: ''
+    - episode: '44'
+      standard: F1FB27C6
+      extended: ''
+    - episode: '45'
+      standard: DFB30A71
+      extended: ''
+    - episode: '46'
+      standard: 7392F65E
+      extended: ''
+    - episode: '47'
+      standard: D78E29CD
+      extended: ''
+    - episode: '48'
+      standard: F47C3EDD
+      extended: ''
+    - episode: '49'
+      standard: FE878EE8
+      extended: 58469AB0
+    - episode: '50'
+      standard: 0144BBBA
+      extended: ''
+    - episode: '51'
+      standard: E004EDB5
+      extended: ''
+    - episode: '52'
+      standard: D985734A
+      extended: ''
+    - episode: '53'
+      standard: C99E7631
+      extended: ''
+    - episode: '54'
+      standard: 79C6DC33
+      extended: ''
+    - episode: '55'
+      standard: 2501AC5A
+      extended: 425F93B9
+    - episode: '56'
+      standard: E58B9A11
       extended: ''
     info:
       status: Work In Progress
@@ -6013,7 +6349,7 @@ episodes:
       hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
       index: 0
   0144BBBA:
-    arc: 35
+    arc: 36
     episode: 50
     manga_chapters: 990-991
     anime_episodes: 1001-1003
@@ -6064,7 +6400,7 @@ episodes:
       hash: 6f5eea9fb14a4815605f94201e18758dbeb1e3bb
       index: 0
   01C40FA1:
-    arc: 31
+    arc: 32
     episode: 47
     manga_chapters: 796-797
     anime_episodes: 740-742
@@ -6081,7 +6417,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 46
   021A8886:
-    arc: 30
+    arc: 31
     episode: 22
     manga_chapters: 698-699
     anime_episodes: 624-626, 628
@@ -6098,7 +6434,7 @@ episodes:
       hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
       index: 21
   02C6FC2B:
-    arc: 33
+    arc: 34
     episode: 4
     manga_chapters: 829-830
     anime_episodes: 788-790
@@ -6115,7 +6451,7 @@ episodes:
       hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
       index: 3
   04186119:
-    arc: 31
+    arc: 32
     episode: 28
     manga_chapters: 754-755
     anime_episodes: 691-693
@@ -6132,7 +6468,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 27
   0429451F:
-    arc: 31
+    arc: 32
     episode: 38
     manga_chapters: 774-775
     anime_episodes: 714-716
@@ -6166,7 +6502,7 @@ episodes:
       hash: e793fc6c822d8ee6eb57551626708ad5e980b86b
       index: 0
   04C7B716:
-    arc: 29
+    arc: 30
     episode: 13
     manga_chapters: 627-629
     anime_episodes: 547-550
@@ -6234,7 +6570,7 @@ episodes:
       hash: 1f62e2583956c412f8550672bc8066c5e96ab0a8
       index: 0
   0880B38F:
-    arc: 32
+    arc: 33
     episode: 9
     manga_chapters: 818-819
     anime_episodes: 769-772
@@ -6285,7 +6621,7 @@ episodes:
       hash: 2c83d7ba67a243de5995f687073787341c69958c
       index: 0
   0A2624D5:
-    arc: 30
+    arc: 31
     episode: 17
     manga_chapters: 687-688
     anime_episodes: 613-614
@@ -6319,7 +6655,7 @@ episodes:
       hash: 5bbbc6cf59dd1c083e3148531012061620922701
       index: 0
   0B51015F:
-    arc: 34
+    arc: 35
     episode: 3
     manga_chapters: 907-908
     anime_episodes: 886-889
@@ -6336,7 +6672,7 @@ episodes:
       hash: 4d9497e964d820760adf11e47664df3091b808f2
       index: 2
   0B965026:
-    arc: 35
+    arc: 36
     episode: 21
     manga_chapters: 940-941
     anime_episodes: 936-938
@@ -6370,7 +6706,7 @@ episodes:
       hash: 8bba964bcef29bebf7846d56b58fa92e903c6e51
       index: 0
   0CA47011:
-    arc: 31
+    arc: 32
     episode: 34
     manga_chapters: 766-767
     anime_episodes: 705-706
@@ -6387,7 +6723,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 33
   0CBF5258:
-    arc: 30
+    arc: 31
     episode: 21
     manga_chapters: 696-697
     anime_episodes: 622-623
@@ -6404,7 +6740,7 @@ episodes:
       hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
       index: 20
   0CF96D5A:
-    arc: 33
+    arc: 34
     episode: 17
     manga_chapters: 855-856
     anime_episodes: 823-825
@@ -6489,7 +6825,7 @@ episodes:
       hash: eef5f64e3d053a6abe98dcabe934c67d5d2e3a73
       index: 0
   0E2022E4:
-    arc: 33
+    arc: 34
     episode: 15
     manga_chapters: 851-852
     anime_episodes: 817-820
@@ -6506,7 +6842,7 @@ episodes:
       hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
       index: 14
   0F125E00:
-    arc: 33
+    arc: 34
     episode: 19
     manga_chapters: 859-860
     anime_episodes: 828-830
@@ -6557,7 +6893,7 @@ episodes:
       hash: 1f62e2583956c412f8550672bc8066c5e96ab0a8
       index: 0
   11DA7BCB:
-    arc: 31
+    arc: 32
     episode: 24
     manga_chapters: 746-747
     anime_episodes: 681-683
@@ -6642,7 +6978,7 @@ episodes:
       hash: b2a2edbbb0a4d476f93b479d2d6215ee46387e00
       index: 0
   13E4ABCF:
-    arc: 35
+    arc: 36
     episode: 6
     manga_chapters: 915-916
     anime_episodes: 902-903
@@ -6659,7 +6995,7 @@ episodes:
       hash: d67ed82392c28cb6c40509383ba70bfb4e6aefdf
       index: 5
   '15344804':
-    arc: 31
+    arc: 32
     episode: 45
     manga_chapters: 791-793
     anime_episodes: 734-736
@@ -6727,7 +7063,7 @@ episodes:
       hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
       index: 0
   172F5F20:
-    arc: 33
+    arc: 34
     episode: 39
     manga_chapters: 901-902
     anime_episodes: 876-877
@@ -6744,7 +7080,7 @@ episodes:
       hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
       index: 38
   174F92DD:
-    arc: 31
+    arc: 32
     episode: 17
     manga_chapters: 732-733
     anime_episodes: 664-665
@@ -6761,7 +7097,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 16
   1753F7D1:
-    arc: 33
+    arc: 34
     episode: 35
     manga_chapters: 891-893
     anime_episodes: 865-868
@@ -6863,7 +7199,7 @@ episodes:
       hash: 535cb2a580f3051871405411a4484d45db62ee54
       index: 0
   1B5DC33C:
-    arc: 31
+    arc: 32
     episode: 35
     manga_chapters: 768-769
     anime_episodes: 707-711
@@ -6897,7 +7233,7 @@ episodes:
       hash: f6c32b46bb55924888aed6815bfa0edb7287a45e
       index: 6
   1CADC5DC:
-    arc: 31
+    arc: 32
     episode: 25
     manga_chapters: 748-749
     anime_episodes: 683-686
@@ -7033,7 +7369,7 @@ episodes:
       hash: e43a7f5dcde3876aef00bb50d3bfa255993a3736
       index: 0
   224B7846:
-    arc: 35
+    arc: 36
     episode: 34
     manga_chapters: 960-961
     anime_episodes: 960-961
@@ -7067,7 +7403,7 @@ episodes:
       hash: 2c83d7ba67a243de5995f687073787341c69958c
       index: 0
   22B16322:
-    arc: 33
+    arc: 34
     episode: 28
     manga_chapters: 877-878
     anime_episodes: 848-850
@@ -7101,7 +7437,7 @@ episodes:
       hash: 2c83d7ba67a243de5995f687073787341c69958c
       index: 0
   22F81B0E:
-    arc: 35
+    arc: 36
     episode: 28
     manga_chapters: 952-953
     anime_episodes: 952-953
@@ -7203,7 +7539,7 @@ episodes:
       hash: 5c75cb08152979cf745ddc3b0ef240eca6551d91
       index: 0
   2501AC5A:
-    arc: 35
+    arc: 36
     episode: 55
     manga_chapters: '1000'
     anime_episodes: '1015'
@@ -7271,7 +7607,7 @@ episodes:
       hash: d5af21f3f6ab66d20dda4b131b5eeb0e17a23b7a
       index: 0
   26D98629:
-    arc: 35
+    arc: 36
     episode: 43
     manga_chapters: 977-978
     anime_episodes: 981-982
@@ -7288,7 +7624,7 @@ episodes:
       hash: 352e9177eaa9a12b4ff56213dc6f1cdda883187b
       index: 0
   270A4ABD:
-    arc: 33
+    arc: 34
     episode: 29
     manga_chapters: 879-880
     anime_episodes: 851-853
@@ -7322,7 +7658,7 @@ episodes:
       hash: 998c73c81bed577dcb03a5cbed5b0c9dc0fd1ff2
       index: 0
   298A4284:
-    arc: 35
+    arc: 36
     episode: 38
     manga_chapters: '967'
     anime_episodes: 967-968
@@ -7339,7 +7675,7 @@ episodes:
       hash: c7e226bf4c40fb20dc2cce2bf5e32f8b5cde5dbd
       index: 0
   29A10280:
-    arc: 29
+    arc: 30
     episode: 7
     manga_chapters: 614-615
     anime_episodes: 533-534
@@ -7373,7 +7709,7 @@ episodes:
       hash: d62537c7d70f3a8b9d20ec11b593c138bb9b25d1
       index: 0
   29B91F56:
-    arc: 35
+    arc: 36
     episode: 32
     manga_chapters: '957'
     anime_episodes: '958'
@@ -7407,7 +7743,7 @@ episodes:
       hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
       index: 0
   2A35B710:
-    arc: 31
+    arc: 32
     episode: 1
     manga_chapters: 700-701
     anime_episodes: 628-631
@@ -7527,7 +7863,7 @@ episodes:
       hash: 59497fc3d9a6dbcdbaced48eaa9f5ba2047614df
       index: 0
   2CDA8E9D:
-    arc: 33
+    arc: 34
     episode: 27
     manga_chapters: 875-876
     anime_episodes: 846-848
@@ -7629,7 +7965,7 @@ episodes:
       hash: 2c83d7ba67a243de5995f687073787341c69958c
       index: 0
   31018FCB:
-    arc: 33
+    arc: 34
     episode: 8
     manga_chapters: 837-838
     anime_episodes: 798-800
@@ -7646,7 +7982,7 @@ episodes:
       hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
       index: 7
   32150FF4:
-    arc: 32
+    arc: 33
     episode: 2
     manga_chapters: 804-805
     anime_episodes: 753-754
@@ -7680,7 +8016,7 @@ episodes:
       hash: 7e24c561da498f298ff137f5462d5fe89b38edff
       index: 0
   32CC4AB9:
-    arc: 33
+    arc: 34
     episode: 25
     manga_chapters: 870-872
     anime_episodes: 841-843
@@ -7714,7 +8050,7 @@ episodes:
       hash: 59497fc3d9a6dbcdbaced48eaa9f5ba2047614df
       index: 0
   35A189E2:
-    arc: 29
+    arc: 30
     episode: 14
     manga_chapters: 630-631
     anime_episodes: 550-551
@@ -7765,7 +8101,7 @@ episodes:
       hash: d5af21f3f6ab66d20dda4b131b5eeb0e17a23b7a
       index: 0
   36D0F622:
-    arc: 33
+    arc: 34
     episode: 12
     manga_chapters: 845-846
     anime_episodes: 809-812
@@ -7782,7 +8118,7 @@ episodes:
       hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
       index: 11
   37670A03:
-    arc: 35
+    arc: 36
     episode: 23
     manga_chapters: 943-944
     anime_episodes: 941-943
@@ -7833,7 +8169,7 @@ episodes:
       hash: 2c83d7ba67a243de5995f687073787341c69958c
       index: 0
   398915C6:
-    arc: 30
+    arc: 31
     episode: 11
     manga_chapters: 675-676
     anime_episodes: 601-602
@@ -7850,7 +8186,7 @@ episodes:
       hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
       index: 10
   39D94718:
-    arc: 33
+    arc: 34
     episode: 22
     manga_chapters: 865-866
     anime_episodes: 835-836
@@ -7884,7 +8220,7 @@ episodes:
       hash: 2c83d7ba67a243de5995f687073787341c69958c
       index: 0
   3AF37912:
-    arc: 33
+    arc: 34
     episode: 36
     manga_chapters: 892-895
     anime_episodes: 865, 867-870
@@ -7935,7 +8271,7 @@ episodes:
       hash: c3a348f1134137296151a65871ba511f76421502
       index: 0
   3C58DD41:
-    arc: 33
+    arc: 34
     episode: 37
     manga_chapters: 896-897
     anime_episodes: 871-872
@@ -7969,7 +8305,7 @@ episodes:
       hash: da97987eb5adeaed1f34269af22cf7202c6ae93c
       index: 0
   3CC8226D:
-    arc: 35
+    arc: 36
     episode: 27
     manga_chapters: 950-951
     anime_episodes: 950-951
@@ -7986,7 +8322,7 @@ episodes:
       hash: b164abb99ea78b42c76b575a1591991302185d0d
       index: 0
   3E9F11F9:
-    arc: 31
+    arc: 32
     episode: 41
     manga_chapters: 782-783
     anime_episodes: 723-725
@@ -8003,7 +8339,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 40
   3F24A1D8:
-    arc: 33
+    arc: 34
     episode: 1
     manga_chapters: 823-824
     anime_episodes: 777-779, 783
@@ -8020,7 +8356,7 @@ episodes:
       hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
       index: 0
   3F5E7FD3:
-    arc: 33
+    arc: 34
     episode: 18
     manga_chapters: 857-858
     anime_episodes: 826-828
@@ -8037,7 +8373,7 @@ episodes:
       hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
       index: 17
   3F6633B5:
-    arc: 33
+    arc: 34
     episode: 3
     manga_chapters: 827-828
     anime_episodes: 785-788
@@ -8071,7 +8407,7 @@ episodes:
       hash: 1cc6de813b6485f292383062fad31ea21f8cf611
       index: 0
   3FC81ABD:
-    arc: 35
+    arc: 36
     episode: 42
     manga_chapters: 975-976
     anime_episodes: 978-980
@@ -8088,7 +8424,7 @@ episodes:
       hash: 873fe3265ca245d9209c76404b20cab6771896a9
       index: 0
   410C8F0C:
-    arc: 33
+    arc: 34
     episode: 6
     manga_chapters: 833-834
     anime_episodes: 793-795
@@ -8105,7 +8441,7 @@ episodes:
       hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
       index: 5
   410FD111:
-    arc: 35
+    arc: 36
     episode: 3
     manga_chapters: 911-912
     anime_episodes: 894, 897
@@ -8156,7 +8492,7 @@ episodes:
       hash: fc5f605b1fc12f8a14b6176690151ea53bcb7e19
       index: 0
   425F93B9:
-    arc: 35
+    arc: 36
     episode: 55
     manga_chapters: '1000'
     anime_episodes: '1015'
@@ -8190,7 +8526,7 @@ episodes:
       hash: 4fab3eeb4c1939ba65131c5e6241b4a2c0697f60
       index: 0
   437F9E8D:
-    arc: 33
+    arc: 34
     episode: 23
     manga_chapters: 867-868
     anime_episodes: 837-839
@@ -8207,7 +8543,7 @@ episodes:
       hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
       index: 22
   43A0D1DF:
-    arc: 35
+    arc: 36
     episode: 30
     manga_chapters: 954-955
     anime_episodes: 955-956
@@ -8343,7 +8679,7 @@ episodes:
       hash: 1d5aec88a4e0ab7d1d190376f8a803583dc5c143
       index: 0
   4A52B138:
-    arc: 32
+    arc: 33
     episode: 10
     manga_chapters: 820-822
     anime_episodes: 772-774, 776
@@ -8411,7 +8747,7 @@ episodes:
       hash: 69509c80416517dc017f21d3b5712cdf066db8bb
       index: 0
   4CD92CFC:
-    arc: 30
+    arc: 31
     episode: 16
     manga_chapters: 685-686
     anime_episodes: 611-612
@@ -8428,7 +8764,7 @@ episodes:
       hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
       index: 15
   4CF30353:
-    arc: 33
+    arc: 34
     episode: 5
     manga_chapters: 831-832
     anime_episodes: 791-793
@@ -8479,7 +8815,7 @@ episodes:
       hash: 03090fbaca642d7a89b95c401ca6f2933ed58830
       index: 0
   4DDF4C07:
-    arc: 31
+    arc: 32
     episode: 44
     manga_chapters: 788-790
     anime_episodes: 730-733
@@ -8496,7 +8832,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 43
   4F16C5DC:
-    arc: 31
+    arc: 32
     episode: 30
     manga_chapters: 758-759
     anime_episodes: 694, 696-698
@@ -8513,7 +8849,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 29
   4F38961B:
-    arc: 33
+    arc: 34
     episode: 20
     manga_chapters: 861-862
     anime_episodes: 831-832
@@ -8547,7 +8883,7 @@ episodes:
       hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
       index: 0
   5012E091:
-    arc: 30
+    arc: 31
     episode: 20
     manga_chapters: 693-695
     anime_episodes: 619-621
@@ -8564,7 +8900,7 @@ episodes:
       hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
       index: 19
   '50143351':
-    arc: 31
+    arc: 32
     episode: 10
     manga_chapters: 718-719
     anime_episodes: 648-649
@@ -8632,7 +8968,7 @@ episodes:
       hash: 08545ca4151f7d4d7b86ecb9f485c3557551321f
       index: 0
   529AE554:
-    arc: 33
+    arc: 34
     episode: 31
     manga_chapters: 883-884
     anime_episodes: 856-858
@@ -8649,7 +8985,7 @@ episodes:
       hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
       index: 30
   53AEB13C:
-    arc: 31
+    arc: 32
     episode: 33
     manga_chapters: 764-765
     anime_episodes: 703-704
@@ -8683,7 +9019,7 @@ episodes:
       hash: 2e1a040b1de930368ae027be070e6e8bc134b709
       index: 0
   54AC1705:
-    arc: 30
+    arc: 31
     episode: 19
     manga_chapters: 691-692
     anime_episodes: 617-618
@@ -8700,7 +9036,7 @@ episodes:
       hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
       index: 18
   55292D1C:
-    arc: 31
+    arc: 32
     episode: 42
     manga_chapters: 784-785
     anime_episodes: 726-728
@@ -8717,7 +9053,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 41
   '55837445':
-    arc: 32
+    arc: 33
     episode: 7
     manga_chapters: 814-815
     anime_episodes: 764-766
@@ -8734,7 +9070,7 @@ episodes:
       hash: 5c027631a28242814a6cf1fe24f455b70bca14bc
       index: 6
   5636E014:
-    arc: 29
+    arc: 30
     episode: 3
     manga_chapters: 607-608
     anime_episodes: 526-527
@@ -8751,7 +9087,7 @@ episodes:
       hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
       index: 0
   56CFB8B0:
-    arc: 35
+    arc: 36
     episode: 39
     manga_chapters: 968-969
     anime_episodes: 969-971
@@ -8819,7 +9155,7 @@ episodes:
       hash: 2f0b8368eb300acc4863283dbb5f21054a81adbe
       index: 0
   58469AB0:
-    arc: 35
+    arc: 36
     episode: 49
     manga_chapters: 988-989
     anime_episodes: 997-1000
@@ -8904,7 +9240,7 @@ episodes:
       hash: ad55e3818ea4150920e6a5af3f1bde8e0a129d36
       index: 0
   5A38EC3B:
-    arc: 31
+    arc: 32
     episode: 23
     manga_chapters: 744-745
     anime_episodes: 678-680
@@ -8921,7 +9257,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 22
   5A3CE523:
-    arc: 30
+    arc: 31
     episode: 2
     manga_chapters: 656-658
     anime_episodes: 580-583
@@ -8938,7 +9274,7 @@ episodes:
       hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
       index: 1
   5A5E65B1:
-    arc: 35
+    arc: 36
     episode: 9
     manga_chapters: 919-920
     anime_episodes: 909-911
@@ -8972,7 +9308,7 @@ episodes:
       hash: 4cab4c469be3e484489256907ec662acb8a87025
       index: 0
   5ACE812A:
-    arc: 35
+    arc: 36
     episode: 12
     manga_chapters: '924'
     anime_episodes: '916'
@@ -9023,7 +9359,7 @@ episodes:
       hash: fe84c629b8d60ae32672ae37fd1ad58501d88f7e
       index: 0
   5B2AAFBF:
-    arc: 32
+    arc: 33
     episode: 8
     manga_chapters: 816-817
     anime_episodes: 767-769
@@ -9074,7 +9410,7 @@ episodes:
       hash: 86eec1e4d07215a87e09ae1114b2fdfac7c7c115
       index: 0
   5C7E0604:
-    arc: 35
+    arc: 36
     episode: 29
     manga_chapters: 953-954
     anime_episodes: 954-955
@@ -9159,7 +9495,7 @@ episodes:
       hash: 3cf270e6d4bc31029e40eb275f49a2121092c62b
       index: 0
   5F035A13:
-    arc: 31
+    arc: 32
     episode: 48
     manga_chapters: 798-800
     anime_episodes: 742-745
@@ -9210,7 +9546,7 @@ episodes:
       hash: 77cc4c78deedc5b7048cd72620688bf37de17032
       index: 0
   5FC46535:
-    arc: 31
+    arc: 32
     episode: 22
     manga_chapters: 742-743
     anime_episodes: 675-678
@@ -9227,7 +9563,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 21
   5FDB702D:
-    arc: 33
+    arc: 34
     episode: 21
     manga_chapters: 863-864
     anime_episodes: 831, 833-834
@@ -9295,7 +9631,7 @@ episodes:
       hash: 287ff7da8f77b2749c633fd143a6c5bc2203b50a
       index: 0
   6173BCE1:
-    arc: 35
+    arc: 36
     episode: 24
     manga_chapters: '945'
     anime_episodes: 942-944
@@ -9380,7 +9716,7 @@ episodes:
       hash: 707378a82ffb792bcbb455a8ac4e2b68de3e5721
       index: 0
   64FB3990:
-    arc: 29
+    arc: 30
     episode: 6
     manga_chapters: 613-614
     anime_episodes: 532-533
@@ -9397,7 +9733,7 @@ episodes:
       hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
       index: 0
   658D36CE:
-    arc: 30
+    arc: 31
     episode: 8
     manga_chapters: 669-670
     anime_episodes: 595-596
@@ -9431,7 +9767,7 @@ episodes:
       hash: 59497fc3d9a6dbcdbaced48eaa9f5ba2047614df
       index: 0
   65BD682D:
-    arc: 29
+    arc: 30
     episode: 23
     manga_chapters: 650-651
     anime_episodes: 570-571
@@ -9465,7 +9801,7 @@ episodes:
       hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
       index: 0
   666061E3:
-    arc: 30
+    arc: 31
     episode: 4
     manga_chapters: 661-662
     anime_episodes: 585-587
@@ -9550,7 +9886,7 @@ episodes:
       hash: aac0cb0e0a9d3fb1695e53887134887fb2f15a9e
       index: 0
   6A3CE0EA:
-    arc: 31
+    arc: 32
     episode: 15
     manga_chapters: 728-729
     anime_episodes: 660-661
@@ -9567,7 +9903,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 14
   6A9CF454:
-    arc: 35
+    arc: 36
     episode: 11
     manga_chapters: 922-923
     anime_episodes: 914-915
@@ -9669,7 +10005,7 @@ episodes:
       hash: 24b093304e357aad9f3c7b958c199a3ce9fd8bff
       index: 0
   6C9E8055:
-    arc: 35
+    arc: 36
     episode: 19
     manga_chapters: 936-938
     anime_episodes: 931-934
@@ -9686,7 +10022,7 @@ episodes:
       hash: 21bfa9becd4b71b3f39a102b5182d4b5df601801
       index: 0
   6DA86F5F:
-    arc: 35
+    arc: 36
     episode: 8
     manga_chapters: 918-919
     anime_episodes: 906, 908-909
@@ -9720,7 +10056,7 @@ episodes:
       hash: 78a190b5e79d1155f9c5d2affd30cf73c3bb2f5e
       index: 0
   6E0CD1C5:
-    arc: 34
+    arc: 35
     episode: 2
     manga_chapters: 905-906
     anime_episodes: 881-885
@@ -9754,7 +10090,7 @@ episodes:
       hash: ebe71894a4c941359a7c8083218e421e5bf67914
       index: 0
   6E422CFB:
-    arc: 33
+    arc: 34
     episode: 24
     manga_chapters: 869-870
     anime_episodes: 839-841
@@ -9788,7 +10124,7 @@ episodes:
       hash: cdab4a928dbbff643bbe5531f216eb36a60c85af
       index: 0
   6F26FDAB:
-    arc: 35
+    arc: 36
     episode: 2
     manga_chapters: 909-911
     anime_episodes: 892-894
@@ -9805,7 +10141,7 @@ episodes:
       hash: 7ffbac3cd827eed21309b4c451135564b82029eb
       index: 0
   6FBBD350:
-    arc: 33
+    arc: 34
     episode: 33
     manga_chapters: 887-888
     anime_episodes: 860-862
@@ -9839,7 +10175,7 @@ episodes:
       hash: 748f223628b66fa402bc3b647369098e9e2d6200
       index: 0
   6FFCB482:
-    arc: 33
+    arc: 34
     episode: 2
     manga_chapters: 825-826
     anime_episodes: 783-785
@@ -9890,7 +10226,7 @@ episodes:
       hash: f6c32b46bb55924888aed6815bfa0edb7287a45e
       index: 4
   7073A62F:
-    arc: 31
+    arc: 32
     episode: 16
     manga_chapters: 730-731
     anime_episodes: 657, 662-663
@@ -9907,7 +10243,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 15
   713F7916:
-    arc: 35
+    arc: 36
     episode: 40
     manga_chapters: 970-972
     anime_episodes: 971-975
@@ -9924,7 +10260,7 @@ episodes:
       hash: bb2c6ec947742838a7daac23c54c87613eac604e
       index: 0
   7149D13F:
-    arc: 32
+    arc: 33
     episode: 5
     manga_chapters: 810-811
     anime_episodes: 759-762
@@ -9941,7 +10277,7 @@ episodes:
       hash: 5c027631a28242814a6cf1fe24f455b70bca14bc
       index: 4
   71827EF0:
-    arc: 33
+    arc: 34
     episode: 26
     manga_chapters: 873-874
     anime_episodes: 843-846
@@ -9958,7 +10294,7 @@ episodes:
       hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
       index: 25
   71CA89FC:
-    arc: 31
+    arc: 32
     episode: 26
     manga_chapters: 750-751
     anime_episodes: 685-688
@@ -10009,7 +10345,7 @@ episodes:
       hash: 4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5
       index: 0
   72E3E794:
-    arc: 30
+    arc: 31
     episode: 10
     manga_chapters: 673-674
     anime_episodes: 599-600
@@ -10094,7 +10430,7 @@ episodes:
       hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
       index: 0
   7391ECD4:
-    arc: 31
+    arc: 32
     episode: 39
     manga_chapters: 776-778
     anime_episodes: 716-719
@@ -10111,7 +10447,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 38
   7392F65E:
-    arc: 35
+    arc: 36
     episode: 46
     manga_chapters: 982-983
     anime_episodes: 988-991
@@ -10179,7 +10515,7 @@ episodes:
       hash: 4d3503626c56e2199ab7fdb911de35bf4605348a
       index: 0
   75CC1F6E:
-    arc: 30
+    arc: 31
     episode: 14
     manga_chapters: 681-682
     anime_episodes: 607-608
@@ -10247,7 +10583,7 @@ episodes:
       hash: 2589926c8f90e8f031a6caeab93bcd5b79990c0e
       index: 0
   77081AEE:
-    arc: 31
+    arc: 32
     episode: 19
     manga_chapters: 736-737
     anime_episodes: 668-670
@@ -10264,7 +10600,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 18
   777A9A6A:
-    arc: 31
+    arc: 32
     episode: 37
     manga_chapters: 772-773
     anime_episodes: 711-713
@@ -10281,7 +10617,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 36
   777DE97C:
-    arc: 31
+    arc: 32
     episode: 8
     manga_chapters: 714-715
     anime_episodes: 643-645
@@ -10315,7 +10651,7 @@ episodes:
       hash: c8919ae39648b5318b04a0828c61d4f6da9b24ca
       index: 0
   7926F9B5:
-    arc: 29
+    arc: 30
     episode: 11
     manga_chapters: 623-624
     anime_episodes: 543-545
@@ -10349,7 +10685,7 @@ episodes:
       hash: 393ba7ec5e3de1e091e58e75347eab1c80785de2
       index: 0
   79C6DC33:
-    arc: 35
+    arc: 36
     episode: 54
     manga_chapters: 998-999
     anime_episodes: 1012-1014
@@ -10417,7 +10753,7 @@ episodes:
       hash: 2589926c8f90e8f031a6caeab93bcd5b79990c0e
       index: 0
   7DBBFA18:
-    arc: 29
+    arc: 30
     episode: 22
     manga_chapters: 647-649
     anime_episodes: 567-569
@@ -10434,7 +10770,7 @@ episodes:
       hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
       index: 21
   7F73DB45:
-    arc: 32
+    arc: 33
     episode: 6
     manga_chapters: 812-813
     anime_episodes: 762-764
@@ -10468,7 +10804,7 @@ episodes:
       hash: d23029c1860a74513bac08372ee2c9f43a56550b
       index: 0
   8014A332:
-    arc: 29
+    arc: 30
     episode: 15
     manga_chapters: 632-633
     anime_episodes: 552-553
@@ -10485,7 +10821,7 @@ episodes:
       hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
       index: 14
   81C4666C:
-    arc: 31
+    arc: 32
     episode: 46
     manga_chapters: 794-795
     anime_episodes: 737-739
@@ -10502,7 +10838,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 45
   8313ECE3:
-    arc: 33
+    arc: 34
     episode: 32
     manga_chapters: 885-886
     anime_episodes: 858-860
@@ -10553,7 +10889,7 @@ episodes:
       hash: cf9b6a373f58b82bff412b2db09b72a1a3418543
       index: 0
   8538EDC4:
-    arc: 35
+    arc: 36
     episode: 2
     manga_chapters: 909-911
     anime_episodes: 892-894
@@ -10570,7 +10906,7 @@ episodes:
       hash: 7a76ae41f0ec5f223d3b3851fb3a71814262d1c8
       index: 0
   85AD9C81:
-    arc: 29
+    arc: 30
     episode: 21
     manga_chapters: 643-646
     anime_episodes: 562-567
@@ -10723,7 +11059,7 @@ episodes:
       hash: 5d1954d76c09b92b9e888cfe1a61f5627ac82ccf
       index: 0
   8B5E1006:
-    arc: 33
+    arc: 34
     episode: 11
     manga_chapters: 843-844
     anime_episodes: 806-808
@@ -10808,7 +11144,7 @@ episodes:
       hash: 6c31b3c4ffb98f61dc9dee31e7162755f467b748
       index: 0
   90015E67:
-    arc: 30
+    arc: 31
     episode: 1
     manga_chapters: 654-655
     anime_episodes: 574, 579
@@ -10825,7 +11161,7 @@ episodes:
       hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
       index: 0
   90034ECC:
-    arc: 31
+    arc: 32
     episode: 3
     manga_chapters: 704-705
     anime_episodes: 633-635
@@ -10910,7 +11246,7 @@ episodes:
       hash: 2c90a26aa26847de6726432e57da790e551c7dfb
       index: 0
   91BE23B7:
-    arc: 35
+    arc: 36
     episode: 10
     manga_chapters: 921-922
     anime_episodes: 911-913
@@ -10961,7 +11297,7 @@ episodes:
       hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
       index: 0
   '93376225':
-    arc: 35
+    arc: 36
     episode: 20
     manga_chapters: 938-939
     anime_episodes: 934-937
@@ -10995,7 +11331,7 @@ episodes:
       hash: f1145e93416adc5dcc84c1a761c7d1363c24ec1e
       index: 0
   94E2099D:
-    arc: 29
+    arc: 30
     episode: 20
     manga_chapters: 642-645
     anime_episodes: 563-567
@@ -11012,7 +11348,7 @@ episodes:
       hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
       index: 19
   94E3481F:
-    arc: 33
+    arc: 34
     episode: 9
     manga_chapters: 839-840
     anime_episodes: 800-803, 807
@@ -11029,7 +11365,7 @@ episodes:
       hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
       index: 8
   94F78CF3:
-    arc: 35
+    arc: 36
     episode: 18
     manga_chapters: 934-935
     anime_episodes: 929-931
@@ -11063,7 +11399,7 @@ episodes:
       hash: bc2fa17f4130b673cfee7cde79e9bd6b2af59004
       index: 0
   964FB36B:
-    arc: 30
+    arc: 31
     episode: 13
     manga_chapters: 679-680
     anime_episodes: 604-606
@@ -11125,7 +11461,7 @@ episodes:
       hash: fbb47fa1f426b4f3c8afb9fcead3ba923f10fbc3
       index: 0
   98B5E26D:
-    arc: 35
+    arc: 36
     episode: 35
     manga_chapters: 962-963
     anime_episodes: 961-963
@@ -11176,7 +11512,7 @@ episodes:
       hash: 89913d954cec1c03a50667b81bc2b9508c4f2214
       index: 0
   99A61805:
-    arc: 29
+    arc: 30
     episode: 24
     manga_chapters: 652-653
     anime_episodes: 572-573
@@ -11261,7 +11597,7 @@ episodes:
       hash: 35f4c7c850dd11fac6f55dc5dfd6633e0e3f406f
       index: 1
   9C3360D6:
-    arc: 31
+    arc: 32
     episode: 31
     manga_chapters: 760-761
     anime_episodes: 699-700
@@ -11278,7 +11614,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 30
   9CE5B9DD:
-    arc: 30
+    arc: 31
     episode: 15
     manga_chapters: 683-684
     anime_episodes: 609-610
@@ -11312,7 +11648,7 @@ episodes:
       hash: b15d098996eff6129be674891ae4cb14645c780f
       index: 0
   9E0A91E9:
-    arc: 29
+    arc: 30
     episode: 4
     manga_chapters: 609-610
     anime_episodes: 528-529
@@ -11329,7 +11665,7 @@ episodes:
       hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
       index: 0
   9F63AF78:
-    arc: 35
+    arc: 36
     episode: 22
     manga_chapters: 941-943
     anime_episodes: 939-940
@@ -11346,7 +11682,7 @@ episodes:
       hash: 555b93c2e368c9f652ff4fff987d5fbc3c3bad6b
       index: 0
   9FA61F60:
-    arc: 35
+    arc: 36
     episode: 16
     manga_chapters: 930-931
     anime_episodes: 923-926
@@ -11363,7 +11699,7 @@ episodes:
       hash: 679f3a126c68708414677326663f1be953a4588c
       index: 0
   A3939979:
-    arc: 33
+    arc: 34
     episode: 34
     manga_chapters: 889-891
     anime_episodes: 862-865
@@ -11414,7 +11750,7 @@ episodes:
       hash: cdab4a928dbbff643bbe5531f216eb36a60c85af
       index: 0
   A4F76B13:
-    arc: 32
+    arc: 33
     episode: 4
     manga_chapters: 808-809
     anime_episodes: 757-760
@@ -11601,7 +11937,7 @@ episodes:
       hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
       index: 0
   A8E42FE1:
-    arc: 33
+    arc: 34
     episode: 16
     manga_chapters: 853-854
     anime_episodes: 820-822
@@ -11635,7 +11971,7 @@ episodes:
       hash: 56cd276106efe594f9722a27e63b4de25f6a0248
       index: 0
   A95DE47B:
-    arc: 31
+    arc: 32
     episode: 5
     manga_chapters: 708-709
     anime_episodes: 637-638
@@ -11703,7 +12039,7 @@ episodes:
       hash: 8e6256aa057d6c88af4d7421ad4bdf1f0e266d92
       index: 0
   ABB0AC56:
-    arc: 33
+    arc: 34
     episode: 30
     manga_chapters: 881-883
     anime_episodes: 853-855, 858
@@ -11737,7 +12073,7 @@ episodes:
       hash: aaaa08557942a56c8de16d086f2a26abee18b6d5
       index: 0
   ACC7852E:
-    arc: 31
+    arc: 32
     episode: 29
     manga_chapters: 756-757
     anime_episodes: 693-696
@@ -11788,7 +12124,7 @@ episodes:
       hash: c2f3bec263a39710ad7654bf9ebb8c06ec1b955c
       index: 0
   ACF1C889:
-    arc: 30
+    arc: 31
     episode: 5
     manga_chapters: 663-664
     anime_episodes: 588-589
@@ -11839,7 +12175,7 @@ episodes:
       hash: 2c83d7ba67a243de5995f687073787341c69958c
       index: 0
   AD550761:
-    arc: 30
+    arc: 31
     episode: 9
     manga_chapters: 671-672
     anime_episodes: 597-598
@@ -11856,7 +12192,7 @@ episodes:
       hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
       index: 8
   AD8C9C16:
-    arc: 35
+    arc: 36
     episode: 37
     manga_chapters: 965-966
     anime_episodes: 964-967
@@ -11873,7 +12209,7 @@ episodes:
       hash: 904b90a8508bdfd00fe31a6cd901af116ac838ce
       index: 0
   AE6ABE84:
-    arc: 35
+    arc: 36
     episode: 15
     manga_chapters: 928-930
     anime_episodes: 921-923
@@ -11992,7 +12328,7 @@ episodes:
       hash: fb777e9dadcf29a80900d8846e64ab33f9df6077
       index: 0
   B51C53E9:
-    arc: 35
+    arc: 36
     episode: 5
     manga_chapters: 914-915
     anime_episodes: 900-902
@@ -12043,7 +12379,7 @@ episodes:
       hash: 4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5
       index: 0
   B6BD1A60:
-    arc: 29
+    arc: 30
     episode: 18
     manga_chapters: 638-639
     anime_episodes: 559-560
@@ -12094,7 +12430,7 @@ episodes:
       hash: 3db5d95badd012ad1916dc624adfe747aec1b379
       index: 0
   BAFFE801:
-    arc: 35
+    arc: 36
     episode: 36
     manga_chapters: 964-965
     anime_episodes: 963-964
@@ -12145,7 +12481,7 @@ episodes:
       hash: 4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5
       index: 0
   BD7169C3:
-    arc: 29
+    arc: 30
     episode: 2
     manga_chapters: 605-606
     anime_episodes: 524-526
@@ -12179,7 +12515,7 @@ episodes:
       hash: 1dd4173b425487b4224493565739d85083bed570
       index: 0
   BE72EB0E:
-    arc: 31
+    arc: 32
     episode: 20
     manga_chapters: 738-739
     anime_episodes: 670-672
@@ -12213,7 +12549,7 @@ episodes:
       hash: 914c0da7db2f30c80988adea7e67af78e1502587
       index: 0
   BF92DCAF:
-    arc: 35
+    arc: 36
     episode: 14
     manga_chapters: 926-927
     anime_episodes: 919-922
@@ -12281,7 +12617,7 @@ episodes:
       hash: 2589926c8f90e8f031a6caeab93bcd5b79990c0e
       index: 0
   C19D5680:
-    arc: 29
+    arc: 30
     episode: 19
     manga_chapters: 640-641
     anime_episodes: 561-562
@@ -12298,7 +12634,7 @@ episodes:
       hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
       index: 18
   C21EC74A:
-    arc: 31
+    arc: 32
     episode: 21
     manga_chapters: 740-741
     anime_episodes: 672-675
@@ -12366,7 +12702,7 @@ episodes:
       hash: 1f62e2583956c412f8550672bc8066c5e96ab0a8
       index: 0
   C29E5C35:
-    arc: 31
+    arc: 32
     episode: 13
     manga_chapters: 724-725
     anime_episodes: 655-657
@@ -12400,7 +12736,7 @@ episodes:
       hash: 2c83d7ba67a243de5995f687073787341c69958c
       index: 0
   C2C37921:
-    arc: 31
+    arc: 32
     episode: 9
     manga_chapters: 716-717
     anime_episodes: 646-647
@@ -12417,7 +12753,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 8
   C3825063:
-    arc: 35
+    arc: 36
     episode: 25
     manga_chapters: 946-947
     anime_episodes: 945-947
@@ -12468,7 +12804,7 @@ episodes:
       hash: 5b9eb12d70a9290c0684cf72282dba53c8f56e35
       index: 0
   C5FB1123:
-    arc: 34
+    arc: 35
     episode: 1
     manga_chapters: 903-904
     anime_episodes: 878-880
@@ -12536,7 +12872,7 @@ episodes:
       hash: 2bd887b544a4061a9b3974597268d7e8434d6212
       index: 0
   C89B4C1E:
-    arc: 35
+    arc: 36
     episode: 41
     manga_chapters: 972-974
     anime_episodes: 975-977
@@ -12553,7 +12889,7 @@ episodes:
       hash: 6fb0ceb05a74e832246ddf23263d5d9a53290c9a
       index: 0
   C9362978:
-    arc: 31
+    arc: 32
     episode: 18
     manga_chapters: 734-735
     anime_episodes: 666-667
@@ -12587,7 +12923,7 @@ episodes:
       hash: 93dc270abb9d346f88661fa35cd1ac9b58428a5c
       index: 0
   C99E7631:
-    arc: 35
+    arc: 36
     episode: 53
     manga_chapters: 996-997
     anime_episodes: 1009-1011
@@ -12655,7 +12991,7 @@ episodes:
       hash: e915f2fdd84e6b482417b25021a1c9a184b8658b
       index: 0
   CAA32C42:
-    arc: 31
+    arc: 32
     episode: 43
     manga_chapters: 786-787
     anime_episodes: 728-730
@@ -12706,7 +13042,7 @@ episodes:
       hash: c6ac0931b41840cec35ff81307899cc4d1e2cb69
       index: 0
   CC88315A:
-    arc: 30
+    arc: 31
     episode: 6
     manga_chapters: 665-666
     anime_episodes: 591-592
@@ -12723,7 +13059,7 @@ episodes:
       hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
       index: 5
   CCCBEFC0:
-    arc: 33
+    arc: 34
     episode: 14
     manga_chapters: 849-850
     anime_episodes: 814-817
@@ -12740,7 +13076,7 @@ episodes:
       hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
       index: 13
   CD83F1E9:
-    arc: 30
+    arc: 31
     episode: 12
     manga_chapters: 677-678
     anime_episodes: 603-604
@@ -12944,7 +13280,7 @@ episodes:
       hash: d5460ed548e29b724bf6f1ef423b3dc60672bbab
       index: 0
   D2E02F36:
-    arc: 35
+    arc: 36
     episode: 17
     manga_chapters: 932-933
     anime_episodes: 926-928
@@ -12995,7 +13331,7 @@ episodes:
       hash: 2c83d7ba67a243de5995f687073787341c69958c
       index: 0
   D56597BC:
-    arc: 30
+    arc: 31
     episode: 18
     manga_chapters: 689-690
     anime_episodes: 615-616
@@ -13046,7 +13382,7 @@ episodes:
       hash: 9a870a7c01d716bad7330b1a14ef687a3062c955
       index: 0
   D78E29CD:
-    arc: 35
+    arc: 36
     episode: 47
     manga_chapters: 984-985
     anime_episodes: 991-994
@@ -13080,7 +13416,7 @@ episodes:
       hash: 53b3c345c97722e5840573c7781d8c09583434dd
       index: 0
   D8E8370A:
-    arc: 31
+    arc: 32
     episode: 11
     manga_chapters: 720-721
     anime_episodes: 650-651
@@ -13097,7 +13433,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 10
   D985734A:
-    arc: 35
+    arc: 36
     episode: 52
     manga_chapters: 994-995
     anime_episodes: 1006-1009
@@ -13131,7 +13467,7 @@ episodes:
       hash: 3f036fe6d496d5037d57164b8793479bac94bc63
       index: 0
   D9EEB564:
-    arc: 33
+    arc: 34
     episode: 13
     manga_chapters: 847-848
     anime_episodes: 812-815
@@ -13165,7 +13501,7 @@ episodes:
       hash: 5b49e7a4640ec5b8e455ea5be5cef520fea82da7
       index: 0
   DA5B5D04:
-    arc: 29
+    arc: 30
     episode: 5
     manga_chapters: 611-612
     anime_episodes: 530-531
@@ -13199,7 +13535,7 @@ episodes:
       hash: 3c71f8d8fbdbeb18e8eff88d11e9256f39cc1b63
       index: 0
   DBA50B89:
-    arc: 29
+    arc: 30
     episode: 8
     manga_chapters: 616-618
     anime_episodes: 535-537
@@ -13216,7 +13552,7 @@ episodes:
       hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
       index: 0
   DC6C3C54:
-    arc: 31
+    arc: 32
     episode: 27
     manga_chapters: 752-753
     anime_episodes: 688-691
@@ -13233,7 +13569,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 26
   DCF7AD65:
-    arc: 35
+    arc: 36
     episode: 13
     manga_chapters: 925-926
     anime_episodes: 917-919, 924
@@ -13267,7 +13603,7 @@ episodes:
       hash: 1fe8afe6de98a34ea89ce434db2a437fe50724fe
       index: 0
   DF3A7006:
-    arc: 29
+    arc: 30
     episode: 16
     manga_chapters: 634-635
     anime_episodes: 554-556
@@ -13284,7 +13620,7 @@ episodes:
       hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
       index: 15
   DFB30A71:
-    arc: 35
+    arc: 36
     episode: 45
     manga_chapters: 980-981
     anime_episodes: 985-988
@@ -13301,7 +13637,7 @@ episodes:
       hash: 1a4a34e36f79f59d7d72dd8f112407eea5f40063
       index: 0
   E004EDB5:
-    arc: 35
+    arc: 36
     episode: 51
     manga_chapters: 992-993
     anime_episodes: 1003-1006
@@ -13318,7 +13654,7 @@ episodes:
       hash: 4a1b7e6a9ae811cb5f8902b09312380c80336ebb
       index: 0
   E058DEF9:
-    arc: 31
+    arc: 32
     episode: 2
     manga_chapters: 702-703
     anime_episodes: 631-633
@@ -13335,7 +13671,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 1
   E123D314:
-    arc: 33
+    arc: 34
     episode: 10
     manga_chapters: 841-842
     anime_episodes: 804-806
@@ -13352,7 +13688,7 @@ episodes:
       hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
       index: 9
   E3AB2BA0:
-    arc: 35
+    arc: 36
     episode: 33
     manga_chapters: 958-959
     anime_episodes: 959-960
@@ -13369,7 +13705,7 @@ episodes:
       hash: 8bb2c2f222f540c60d0a57fa54a6065e2c2da271
       index: 0
   E3C90B8B:
-    arc: 31
+    arc: 32
     episode: 14
     manga_chapters: 726-727
     anime_episodes: 648, 657-659
@@ -13437,7 +13773,7 @@ episodes:
       hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
       index: 0
   E4B077F8:
-    arc: 32
+    arc: 33
     episode: 3
     manga_chapters: 806-807
     anime_episodes: 755-757
@@ -13505,7 +13841,7 @@ episodes:
       hash: b5f43863a0a59e5cdbc3d6a36afad34f4ab4923f
       index: 0
   E58B9A11:
-    arc: 35
+    arc: 36
     episode: 56
     manga_chapters: 1001-1002
     anime_episodes: 1016-1017
@@ -13556,7 +13892,7 @@ episodes:
       hash: d12effbcce07e669155bec4c2aaccaffaff790eb
       index: 0
   E70913D9:
-    arc: 32
+    arc: 33
     episode: 1
     manga_chapters: 801-803
     anime_episodes: 746-747, 751-753
@@ -13658,7 +13994,7 @@ episodes:
       hash: 5d546b5605ed333d87ecc858e6a4a2ed2675d52e
       index: 0
   E9317CBD:
-    arc: 33
+    arc: 34
     episode: 38
     manga_chapters: 898-900
     anime_episodes: 873-875
@@ -13675,7 +14011,7 @@ episodes:
       hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
       index: 37
   E937ED2B:
-    arc: 35
+    arc: 36
     episode: 4
     manga_chapters: '913'
     anime_episodes: 898-899
@@ -13692,7 +14028,7 @@ episodes:
       hash: d9d64d29a0644c3524cca5ccab2bb4aeb77cc767
       index: 0
   E98F852E:
-    arc: 31
+    arc: 32
     episode: 32
     manga_chapters: 762-763
     anime_episodes: 701-702
@@ -13709,7 +14045,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 31
   E98FA912:
-    arc: 31
+    arc: 32
     episode: 4
     manga_chapters: 706-707
     anime_episodes: 634-637
@@ -13777,7 +14113,7 @@ episodes:
       hash: 5154d5a2f0abd8371ffb3ab7d0efe4f6f96d728a
       index: 0
   EACE397D:
-    arc: 31
+    arc: 32
     episode: 7
     manga_chapters: 712-713
     anime_episodes: 640-643
@@ -13794,7 +14130,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 6
   EB0BC95C:
-    arc: 29
+    arc: 30
     episode: 17
     manga_chapters: 636-637
     anime_episodes: 556-558
@@ -13862,7 +14198,7 @@ episodes:
       hash: 2ed606e870d5927f3d83acd72bd4aec691196a5d
       index: 0
   ECD80B22:
-    arc: 31
+    arc: 32
     episode: 40
     manga_chapters: 779-781
     anime_episodes: 714-715, 720-723
@@ -13930,7 +14266,7 @@ episodes:
       hash: 2589926c8f90e8f031a6caeab93bcd5b79990c0e
       index: 0
   F0B1F815:
-    arc: 30
+    arc: 31
     episode: 7
     manga_chapters: 667-668
     anime_episodes: 593-594
@@ -13998,7 +14334,7 @@ episodes:
       hash: 048648996fbec99cb213893150d798a38efc3224
       index: 0
   F134C10A:
-    arc: 29
+    arc: 30
     episode: 12
     manga_chapters: 625-626
     anime_episodes: 545-546
@@ -14015,7 +14351,7 @@ episodes:
       hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
       index: 0
   F15AFDE0:
-    arc: 35
+    arc: 36
     episode: 1
     manga_chapters: 909-910
     anime_episodes: 890-891
@@ -14026,7 +14362,7 @@ episodes:
       crc32: F15AFDE0
       blake2s: ''
   F1FB27C6:
-    arc: 35
+    arc: 36
     episode: 44
     manga_chapters: 978-979
     anime_episodes: 983-985
@@ -14043,7 +14379,7 @@ episodes:
       hash: 15ad09f1b9bbf4b438194eac7be8f63a38e82ea7
       index: 0
   F20B5423:
-    arc: 31
+    arc: 32
     episode: 12
     manga_chapters: 722-723
     anime_episodes: 652-654
@@ -14060,7 +14396,7 @@ episodes:
       hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
       index: 11
   F218F0E4:
-    arc: 31
+    arc: 32
     episode: 36
     manga_chapters: 770-771
     anime_episodes: 708-711
@@ -14094,7 +14430,7 @@ episodes:
       hash: 2c83d7ba67a243de5995f687073787341c69958c
       index: 0
   F3E829E8:
-    arc: 35
+    arc: 36
     episode: 26
     manga_chapters: 948-949
     anime_episodes: 947-949
@@ -14128,7 +14464,7 @@ episodes:
       hash: 8ef4ef99b9aed84a0111114f9efd830ced8046ae
       index: 0
   F47C3EDD:
-    arc: 35
+    arc: 36
     episode: 48
     manga_chapters: 986-987
     anime_episodes: 994-997
@@ -14145,7 +14481,7 @@ episodes:
       hash: e370cb1c0ff7e903871c512ce31e0468a26aa333
       index: 0
   F4BB17EB:
-    arc: 29
+    arc: 30
     episode: 10
     manga_chapters: 621-622
     anime_episodes: 540-541
@@ -14179,7 +14515,7 @@ episodes:
       hash: f6c32b46bb55924888aed6815bfa0edb7287a45e
       index: 2
   F6C7EB83:
-    arc: 35
+    arc: 36
     episode: 31
     manga_chapters: '956'
     anime_episodes: '957'
@@ -14196,7 +14532,7 @@ episodes:
       hash: 8d0650670a3b6de5de5b9411057e984d86247d9a
       index: 0
   F71F9B71:
-    arc: 35
+    arc: 36
     episode: 7
     manga_chapters: 916-917
     anime_episodes: 904-905
@@ -14213,7 +14549,7 @@ episodes:
       hash: d67ed82392c28cb6c40509383ba70bfb4e6aefdf
       index: 6
   F7CB97CD:
-    arc: 31
+    arc: 32
     episode: 6
     manga_chapters: 710-711
     anime_episodes: 639-642
@@ -14332,7 +14668,7 @@ episodes:
       hash: 2e1a040b1de930368ae027be070e6e8bc134b709
       index: 0
   FBA08093:
-    arc: 29
+    arc: 30
     episode: 1
     manga_chapters: 603-604
     anime_episodes: 523-524
@@ -14366,7 +14702,7 @@ episodes:
       hash: 66e680e42cb00d97a60b6ca9d542182ac0b1a61d
       index: 0
   FC2376A1:
-    arc: 33
+    arc: 34
     episode: 7
     manga_chapters: 835-836
     anime_episodes: 796-798
@@ -14400,7 +14736,7 @@ episodes:
       hash: 2b8ae89cb5efdb0600c14d20a8b9ea38c9e2f21b
       index: 0
   FCF7F7E4:
-    arc: 29
+    arc: 30
     episode: 9
     manga_chapters: 619-620
     anime_episodes: 538-539, 541
@@ -14451,7 +14787,7 @@ episodes:
       hash: f9fd0d2e8447d92505d9a3d9c9e60d47105d9720
       index: 0
   FE661F6E:
-    arc: 30
+    arc: 31
     episode: 3
     manga_chapters: 659-660
     anime_episodes: 583-585
@@ -14468,7 +14804,7 @@ episodes:
       hash: bcdff039cd7c01f2ffb78799b4082d91de25b2fb
       index: 2
   FE878EE8:
-    arc: 35
+    arc: 36
     episode: 49
     manga_chapters: 988-989
     anime_episodes: 997-1000

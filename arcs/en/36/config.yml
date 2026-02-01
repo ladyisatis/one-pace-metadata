@@ -1,7 +1,7 @@
 part: 36
 saga: Final Saga
-title: Egghead
-originaltitle: ''
+title: Wano
+originaltitle: Egghead
 shortcode: EG
 mkvcode: egghead
 description: Futuristic tech, giant alien monsters, battle robots, superhuman clones...
@@ -14,7 +14,7 @@ episodes:
   extended: ''
 - episode: '02'
   standard: D511F339
-  extended: ''
+  extended: 6F26FDAB
 - episode: '03'
   standard: 5B546203
   extended: ''
@@ -68,6 +68,114 @@ episodes:
   extended: CF226ADC
 - episode: '20'
   standard: B974EFD7
+  extended: ''
+- episode: '21'
+  standard: 0B965026
+  extended: ''
+- episode: '22'
+  standard: 9F63AF78
+  extended: ''
+- episode: '23'
+  standard: 37670A03
+  extended: ''
+- episode: '24'
+  standard: 6173BCE1
+  extended: ''
+- episode: '25'
+  standard: C3825063
+  extended: ''
+- episode: '26'
+  standard: F3E829E8
+  extended: ''
+- episode: '27'
+  standard: 3CC8226D
+  extended: ''
+- episode: '28'
+  standard: 22F81B0E
+  extended: ''
+- episode: '29'
+  standard: 5C7E0604
+  extended: ''
+- episode: '30'
+  standard: 43A0D1DF
+  extended: ''
+- episode: '31'
+  standard: F6C7EB83
+  extended: ''
+- episode: '32'
+  standard: 29B91F56
+  extended: ''
+- episode: '33'
+  standard: E3AB2BA0
+  extended: ''
+- episode: '34'
+  standard: 224B7846
+  extended: ''
+- episode: '35'
+  standard: 98B5E26D
+  extended: ''
+- episode: '36'
+  standard: BAFFE801
+  extended: ''
+- episode: '37'
+  standard: AD8C9C16
+  extended: ''
+- episode: '38'
+  standard: 298A4284
+  extended: ''
+- episode: '39'
+  standard: 56CFB8B0
+  extended: ''
+- episode: '40'
+  standard: 713F7916
+  extended: ''
+- episode: '41'
+  standard: C89B4C1E
+  extended: ''
+- episode: '42'
+  standard: 3FC81ABD
+  extended: ''
+- episode: '43'
+  standard: 26D98629
+  extended: ''
+- episode: '44'
+  standard: F1FB27C6
+  extended: ''
+- episode: '45'
+  standard: DFB30A71
+  extended: ''
+- episode: '46'
+  standard: 7392F65E
+  extended: ''
+- episode: '47'
+  standard: D78E29CD
+  extended: ''
+- episode: '48'
+  standard: F47C3EDD
+  extended: ''
+- episode: '49'
+  standard: FE878EE8
+  extended: 58469AB0
+- episode: '50'
+  standard: 0144BBBA
+  extended: ''
+- episode: '51'
+  standard: E004EDB5
+  extended: ''
+- episode: '52'
+  standard: D985734A
+  extended: ''
+- episode: '53'
+  standard: C99E7631
+  extended: ''
+- episode: '54'
+  standard: 79C6DC33
+  extended: ''
+- episode: '55'
+  standard: 2501AC5A
+  extended: 425F93B9
+- episode: '56'
+  standard: E58B9A11
   extended: ''
 
 info:
