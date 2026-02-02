@@ -1464,8 +1464,8 @@ en:
     arc_watch_guide: Pace
 - part: 29
   saga: Fishman Island
-  title: Sheet12
-  originaltitle: Fishman Island
+  title: Fishman Island
+  originaltitle: Sheet12
   shortcode: FI
   mkvcode: fi
   description: The path the to the New World takes the Straw Hats thousands of leagues
@@ -1562,8 +1562,8 @@ en:
     arc_watch_guide: Pace
 - part: 30
   saga: Dressrosa
-  title: Fishman Island
-  originaltitle: Punk Hazard
+  title: Punk Hazard
+  originaltitle: Fishman Island
   shortcode: PU
   mkvcode: punkhazard
   description: The first island of the New World is a strange place covered in flames
@@ -1660,8 +1660,8 @@ en:
     arc_watch_guide: Pace
 - part: 31
   saga: Dressrosa
-  title: Punk Hazard
-  originaltitle: Dressrosa
+  title: Dressrosa
+  originaltitle: Punk Hazard
   shortcode: DE
   mkvcode: dressrosa
   description: Luffy's alliance with Law brings him next to Dressrosa to take down
@@ -1829,8 +1829,8 @@ en:
     arc_watch_guide: Pace
 - part: 32
   saga: Four Emperors
-  title: Dressrosa
-  originaltitle: Zou
+  title: Zou
+  originaltitle: Dressrosa
   shortcode: ZO
   mkvcode: zou
   description: Zou cannot be reached by conventional means, nor is it easy to enter
@@ -1999,8 +1999,8 @@ en:
     arc_watch_guide: Pace
 - part: 33
   saga: Four Emperors
-  title: Zou
-  originaltitle: Whole Cake Island
+  title: Whole Cake Island
+  originaltitle: Zou
   shortcode: WO
   mkvcode: wci
   description: Luffy will not sail the seas without his cook, so he stubbornly goes
@@ -2141,8 +2141,8 @@ en:
     arc_watch_guide: Pace
 - part: 34
   saga: Four Emperors
-  title: Whole Cake Island
-  originaltitle: Reverie
+  title: Reverie
+  originaltitle: Whole Cake Island
   shortcode: RV
   mkvcode: reverie
   description: Every four years, the leaders of the world gather at the Holy Land
@@ -2283,8 +2283,8 @@ en:
     arc_watch_guide: Pace
 - part: 35
   saga: Four Emperors
-  title: Reverie
-  originaltitle: Wano
+  title: Wano
+  originaltitle: Reverie
   shortcode: WN
   mkvcode: wano
   description: 'The Straw Hats finally regroup in Wano to carry out theirs and their
@@ -2476,8 +2476,8 @@ en:
     arc_watch_guide: Pace Episodes 1-56 then Original Episodes 1018 - 1085
 - part: 36
   saga: Final Saga
-  title: Wano
-  originaltitle: Egghead
+  title: Egghead
+  originaltitle: Wano
   shortcode: EG
   mkvcode: egghead
   description: Futuristic tech, giant alien monsters, battle robots, superhuman clones...
