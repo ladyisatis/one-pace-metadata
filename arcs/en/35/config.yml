@@ -177,6 +177,9 @@ episodes:
 - episode: '56'
   standard: E58B9A11
   extended: ''
+- episode: '57'
+  standard: F1EE1824
+  extended: ''
 
 info:
   status: Work In Progress

@@ -1,0 +1,19 @@
+arc: 35
+episode: 57
+
+manga_chapters: 1003-1004
+anime_episodes: 1018-1020
+released: 2026-02-02 06:28:13
+duration: 0
+extended: false
+
+hashes:
+  crc32: F1EE1824
+  blake2s: ''
+
+file:
+  id: 2071828
+  name: '[One Pace][1003-1004] Wano 57 [1080p][F1EE1824].mkv'
+  size: 1.2 GiB
+  hash: 209e947276c73a3df876d6479ae78b822e76b2e7
+  index: 0

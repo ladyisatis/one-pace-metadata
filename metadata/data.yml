@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-02-02T02:02:41+00:00'
-  last_update_ts: 1769997761
+  last_update: '2026-02-02T16:12:56+00:00'
+  last_update_ts: 1770048776
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 173
+  version: 174
 tvshow:
   en:
     title: One Piece
@@ -2271,6 +2271,9 @@ arcs:
       extended: 425F93B9
     - episode: '56'
       standard: E58B9A11
+      extended: ''
+    - episode: '57'
+      standard: F1EE1824
       extended: ''
     info:
       status: Work In Progress
@@ -14025,6 +14028,23 @@ episodes:
     hashes:
       crc32: F15AFDE0
       blake2s: ''
+  F1EE1824:
+    arc: 35
+    episode: 57
+    manga_chapters: 1003-1004
+    anime_episodes: 1018-1020
+    released: 2026-02-02 06:28:13
+    duration: 0
+    extended: false
+    hashes:
+      crc32: F1EE1824
+      blake2s: ''
+    file:
+      id: 2071828
+      name: '[One Pace][1003-1004] Wano 57 [1080p][F1EE1824].mkv'
+      size: 1.2 GiB
+      hash: 209e947276c73a3df876d6479ae78b822e76b2e7
+      index: 0
   F1FB27C6:
     arc: 35
     episode: 44

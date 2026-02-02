@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-02-02T02:02:41+00:00",
-  "last_update_ts": 1769997761,
+  "last_update": "2026-02-02T16:12:56+00:00",
+  "last_update_ts": 1770048776,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -6958,6 +6958,20 @@
       "released": "2025-04-04",
       "hashes": {
         "crc32": "F15AFDE0",
+        "blake2": ""
+      }
+    },
+    "F1EE1824": {
+      "arc": 35,
+      "episode": 57,
+      "title": "Millet Dumplings",
+      "originaltitle": "",
+      "description": "Luffy momentarily topples Kaido with Gear Fourth, but the effort depletes his haki. Inside Onigashima, Tama's plan to rid the country of Kaido and Orochi unfolds as she feeds the gifters her special millet dumplings and turns the tide of battle!",
+      "chapters": "1003-1004",
+      "episodes": "1018-1020",
+      "released": "2026-02-02",
+      "hashes": {
+        "crc32": "F1EE1824",
         "blake2": ""
       }
     },
