@@ -10,16 +10,16 @@ description: Futuristic tech, giant alien monsters, battle robots, superhuman cl
 
 episodes:
 - episode: '01'
-  standard: CA3F14A8
+  standard: F15AFDE0
   extended: ''
 - episode: '02'
-  standard: D511F339
+  standard: 8538EDC4
   extended: 6F26FDAB
 - episode: '03'
-  standard: 5B546203
+  standard: 410FD111
   extended: ''
 - episode: '04'
-  standard: ACBE88D6
+  standard: E937ED2B
   extended: ''
 - episode: '05'
   standard: C6E79353
