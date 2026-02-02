@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-02-01T19:49:38+00:00",
-  "last_update_ts": 1769975378,
+  "last_update": "2026-02-02T00:37:16+00:00",
+  "last_update_ts": 1769992636,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -262,64 +262,64 @@
     {
       "part": 29,
       "saga": "Fishman Island",
-      "title": "Sheet12",
-      "originaltitle": "Fishman Island",
+      "title": "Fishman Island",
+      "originaltitle": "Sheet12",
       "description": "The path the to the New World takes the Straw Hats thousands of leagues under the sea to the underwater Fishman Island. However, the island's dark past is reaching a breaking point, and Luffy and his crew are caught in the middle of the conflict.",
       "poster": "arcs/en/29/poster.png"
     },
     {
       "part": 30,
       "saga": "Dressrosa",
-      "title": "Fishman Island",
-      "originaltitle": "Punk Hazard",
+      "title": "Punk Hazard",
+      "originaltitle": "Fishman Island",
       "description": "The first island of the New World is a strange place covered in flames on one half, and freezing temperatures on the other. What seems at first to be an unlivable place later reveals a laboratory, a maniac scientist, and a certain Warlord of the Sea.",
       "poster": "arcs/en/30/poster.png"
     },
     {
       "part": 31,
       "saga": "Dressrosa",
-      "title": "Punk Hazard",
-      "originaltitle": "Dressrosa",
+      "title": "Dressrosa",
+      "originaltitle": "Punk Hazard",
       "description": "Luffy's alliance with Law brings him next to Dressrosa to take down Doflamingo's booming business. But the crazed warlord and self-proclaimed ruler of Dressrosa has control over everyone and everything.",
       "poster": "arcs/en/31/poster.png"
     },
     {
       "part": 32,
       "saga": "Four Emperors",
-      "title": "Dressrosa",
-      "originaltitle": "Zou",
+      "title": "Zou",
+      "originaltitle": "Dressrosa",
       "description": "Zou cannot be reached by conventional means, nor is it easy to enter once one finds it. Within its secretive walls lie the Mink Tribe, and the Straw Hats soon discover that the people of Zou hold a piece of the puzzle that unlocks the mysteries of the world.",
       "poster": "arcs/en/32/poster.png"
     },
     {
       "part": 33,
       "saga": "Four Emperors",
-      "title": "Zou",
-      "originaltitle": "Whole Cake Island",
+      "title": "Whole Cake Island",
+      "originaltitle": "Zou",
       "description": "Luffy will not sail the seas without his cook, so he stubbornly goes after Sanji to Whole Cake Island. However, knocking on an emperor's door is easier said than done.",
       "poster": "arcs/en/33/poster.png"
     },
     {
       "part": 34,
       "saga": "Four Emperors",
-      "title": "Whole Cake Island",
-      "originaltitle": "Reverie",
+      "title": "Reverie",
+      "originaltitle": "Whole Cake Island",
       "description": "Every four years, the leaders of the world gather at the Holy Land to discuss a mutually agreed upon path for the government. During this particular Reverie, many parties with their own agendas arrive... and some are uninvited.",
       "poster": "arcs/en/34/poster.png"
     },
     {
       "part": 35,
       "saga": "Four Emperors",
-      "title": "Reverie",
-      "originaltitle": "Wano",
+      "title": "Wano",
+      "originaltitle": "Reverie",
       "description": "The Straw Hats finally regroup in Wano to carry out theirs and their allies' ultimate goal: to see to the Emperor Kaido's downfall and restore the Kozuki family to its rightful place of power.",
       "poster": "arcs/en/35/poster.png"
     },
     {
       "part": 36,
       "saga": "Final Saga",
-      "title": "Wano",
-      "originaltitle": "Egghead",
+      "title": "Egghead",
+      "originaltitle": "Wano",
       "description": "Futuristic tech, giant alien monsters, battle robots, superhuman clones... Who are all these people calling themselves Dr. Vegapunk, and why is the government after one of their own?",
       "poster": "arcs/en/36/poster.png"
     }
@@ -353,6 +353,20 @@
         "blake2": ""
       }
     },
+    "0144BBBA": {
+      "arc": 35,
+      "episode": 50,
+      "title": "Army of One",
+      "originaltitle": "",
+      "description": "Luffy invokes memories of the Straw Hats pirates' battle against Oars as he topples one of the gargantuan Numbers... with the help of an unforeseen ally! Meanwhile, Queen readies a demonic secret weapon that will ice over the samurai invasion.",
+      "chapters": "990-991",
+      "episodes": "1001-1003",
+      "released": "2025-06-06",
+      "hashes": {
+        "crc32": "0144BBBA",
+        "blake2": ""
+      }
+    },
     "014834ED": {
       "arc": 3,
       "episode": 6,
@@ -381,17 +395,73 @@
         "blake2": ""
       }
     },
-    "021A8886": {
+    "01C40FA1": {
       "arc": 31,
+      "episode": 47,
+      "title": "Soldier's Conviction",
+      "originaltitle": "Soldier-san's Conviction",
+      "description": "Major players in the Marines arrive to search Dressrosa for the Straw Hats, and Rebecca's history is whitewashed with a cover story. Luffy and the others make a mad dash for the east port, but not before finishing up a piece of business.",
+      "chapters": "796-797",
+      "episodes": "740-742",
+      "released": "2017-09-02",
+      "hashes": {
+        "crc32": "01C40FA1",
+        "blake2": ""
+      }
+    },
+    "021A8886": {
+      "arc": 30,
       "episode": 22,
-      "title": "Dressrosa in Turmoil",
+      "title": "The Arrival of the Mysterious Man and the News Coo!",
       "originaltitle": "",
-      "description": "Usopp creates a miracle! Toys across Dressrosa regain their true forms, a flood of lost memories return, and a forgotten hero launches a long overdue attack on the villainous tyrant Doflamingo!",
+      "description": "Doflamingo\u2014a.k.a. Joker\u2014arrives on the scene and wreaks havoc! Only an icy intercession can save Smoker and send Joker off to rethink his strategy. Meanwhile, the Sunny sails through the rough seas of the New World where even a bit of hail portends doom!",
       "chapters": "698-699",
       "episodes": "624-626, 628",
       "released": "2014-01-20",
       "hashes": {
         "crc32": "021A8886",
+        "blake2": ""
+      }
+    },
+    "02C6FC2B": {
+      "arc": 33,
+      "episode": 4,
+      "title": "Pirate Emperor, Charlotte Linlin",
+      "originaltitle": "Emperor of the Sea, Charlotte Linlin",
+      "description": "Big Mom ravages Whole Cake Island in search of sweets, and while a familiar face across the waters has just what she needs, he also brings ill tidings. As the Straw Hats draw closer to the island, Pedro shares his sordid past in Big Mom's territory.",
+      "chapters": "829-830",
+      "episodes": "788-790",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "02C6FC2B",
+        "blake2": ""
+      }
+    },
+    "04186119": {
+      "arc": 31,
+      "episode": 28,
+      "title": "A Man's World",
+      "originaltitle": "",
+      "description": "Cavendish shares his fears that the \"Birdcage\" game Doflamingo is playing has been rigged all along! Meanwhile, the Tontattas are in full revolt, Zoro finally gains the upper hand against Pica, and Franky finds a way to deal with Senor Pink.",
+      "chapters": "754-755",
+      "episodes": "691-693",
+      "released": "2016-09-02",
+      "hashes": {
+        "crc32": "04186119",
+        "blake2": ""
+      }
+    },
+    "0429451F": {
+      "arc": 31,
+      "episode": 38,
+      "title": "To Russian, with Love",
+      "originaltitle": "",
+      "description": "Senor Pink and Franky continue their knock-down, drag-out, manly fight. As both are pushed to their limits, Senor Pink's tragic past is revealed! Meanwhile, Princess Mansherry's rescue hits a snag as she stubbornly refuses to leave!",
+      "chapters": "774-775",
+      "episodes": "714-716",
+      "released": "2017-03-12",
+      "hashes": {
+        "crc32": "0429451F",
         "blake2": ""
       }
     },
@@ -410,11 +480,11 @@
       }
     },
     "04C7B716": {
-      "arc": 30,
+      "arc": 29,
       "episode": 13,
-      "title": "G-5's Sacrifice and the Betrayal of the Vice Admiral!",
+      "title": "Shaking of the Kingdom! Luffy vs. Jinbe!",
       "originaltitle": "",
-      "description": "Caesar hatches a plan to forever silence his enemies, and Tashigi's men make the ultimate sacrifice! Luffy races toward Caesar to deliver on his promise to beat and capture him, and Chopper does all he can to keep the children from consuming more candy.",
+      "description": "After completing his tale, Jinbe begs Nami for forgiveness. Soon after, Hody broadcasts across all of Fishman Island, and all watch in horror as he conducts his hostile takeover. Luffy is ready to fight, but Jinbe has something else in mind.",
       "chapters": "627-629",
       "episodes": "547-550",
       "released": "2013-04-16",
@@ -466,11 +536,11 @@
       }
     },
     "0880B38F": {
-      "arc": 33,
+      "arc": 32,
       "episode": 9,
-      "title": "The Iron Mask",
+      "title": "Momonosuke, Heir of the Kozuki Family",
       "originaltitle": "",
-      "description": "Sanji challenges his entire family, but they have effectively ensured he follows their wedding scheme. The truth of Germa's power and Vinsmoke Judge's dark history is also revealed. Meanwhile, Nami has recruited the homies and challenges Cracker!",
+      "description": "More mysteries of the Kozuki Clan are revealed, and its retainers propose an alliance to help topple one of the Four Emperors: Kaido of the Beast Pirates! But first, Luffy has some important Straw Hat business to attend to.",
       "chapters": "818-819",
       "episodes": "769-772",
       "released": "2017-01-27",
@@ -508,11 +578,11 @@
       }
     },
     "0A2624D5": {
-      "arc": 31,
+      "arc": 30,
       "episode": 17,
-      "title": "The Underground World",
+      "title": "Zoro's Strongest One-Sword Style and Mocha's Plight!",
       "originaltitle": "",
-      "description": "Usopp and Robin travel via an underground tunnel dug by the tiny people of the Tontatta Tribe. On the surface, Franky makes his way to the Toys House to cause a distraction to help his crewmates, but standing in his way is quite the guy!",
+      "description": "Zoro vs. Monet: a duel to the bitter end. But when Tashigi comes to lend a hand, she will need her full might to compensate for Zoro's weakness. Meanwhile, Mocha is running out of options for keeping the candy away from the children.",
       "chapters": "687-688",
       "episodes": "613-614",
       "released": "2013-10-10",
@@ -536,11 +606,11 @@
       }
     },
     "0B51015F": {
-      "arc": 35,
+      "arc": 34,
       "episode": 3,
-      "title": "Amigasa Village",
+      "title": "The Empty Throne",
       "originaltitle": "",
-      "description": "Otama recounts her promise to Ace while Luffy rushes her to medical attention. But just as they reach the wasteland, a familiar face comes into view, and Kaido's underlings show up, too!",
+      "description": "As the Reverie commences, Emperors Big Mom and Kaido both set their sights on Luffy! Meanwhile, a mysterious outsider visits the highest authority in the world, and the Revolutionary Army confirms its desire to save Kuma.",
       "chapters": "907-908",
       "episodes": "886-889",
       "released": "2024-10-05",
@@ -550,11 +620,11 @@
       }
     },
     "0B965026": {
-      "arc": 36,
+      "arc": 35,
       "episode": 21,
-      "title": "Luffy vs. Kizaru",
+      "title": "Sparks of Rebellion",
       "originaltitle": "",
-      "description": "Luffy faces off in a spectacular aerial battle against Admiral Kizaru, but this time, Straw Hat is 100 times stronger than before. Unbeknownst to those on Egghead, something ominous is about to make an appearance on the island...",
+      "description": "The smiling man Tonoyasu leaves all who met him mystified, what with his familiar terms of address and his shocking knowledge of the rebellion. In Udon prison, Luffy continues his new haki training, and during a brief respite, Raizo appears before him.",
       "chapters": "940-941",
       "episodes": "936-938",
       "released": "2021-02-28",
@@ -577,17 +647,45 @@
         "blake2": ""
       }
     },
-    "0CBF5258": {
+    "0CA47011": {
       "arc": 31,
+      "episode": 34,
+      "title": "Cora",
+      "originaltitle": "Cora-san",
+      "description": "Coraz\u00f3n had finally obtained the Op Op Fruit! Doflamingo and his Family were zeroing in on Coraz\u00f3n and Law's whereabouts, so Coraz\u00f3n hid Law long enough to let him escape, even at the risk of his own life.",
+      "chapters": "766-767",
+      "episodes": "705-706",
+      "released": "2016-12-02",
+      "hashes": {
+        "crc32": "0CA47011",
+        "blake2": ""
+      }
+    },
+    "0CBF5258": {
+      "arc": 30,
       "episode": 21,
-      "title": "Usoland the Liar",
+      "title": "The Alliance's Target and the Departure!",
       "originaltitle": "",
-      "description": "With the Tontattas beaten, Robin turned into a toy, and Luffy, Franky, and the others busy elsewhere, Usopp is the last hope for Operation SOP! Among the cries of the Tontattas, Usopp has a difficult decision to make.",
+      "description": "Bitter enemies set aside their differences to enjoy a well-deserved feast. The weary Marines and the rescued children get teary-eyed as they say goodbye to the Straw Hats. Meanwhile, Law enters into treacherous negotiations with Joker.",
       "chapters": "696-697",
       "episodes": "622-623",
       "released": "2013-12-22",
       "hashes": {
         "crc32": "0CBF5258",
+        "blake2": ""
+      }
+    },
+    "0CF96D5A": {
+      "arc": 33,
+      "episode": 17,
+      "title": "Liar",
+      "originaltitle": "",
+      "description": "Nami and co. finally locate Brook using the Mirro-world, but he is in the most inopportune of places! Meanwhile, Luffy is waylaid on his way back to the rendezvous, and Jinbe shares the awful truth about the wedding with the other Straw Hat pirates.",
+      "chapters": "855-856",
+      "episodes": "823-825",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "0CF96D5A",
         "blake2": ""
       }
     },
@@ -647,6 +745,34 @@
         "blake2": ""
       }
     },
+    "0E2022E4": {
+      "arc": 33,
+      "episode": 15,
+      "title": "Germa's Failure",
+      "originaltitle": "",
+      "description": "Things are looking grim for Luffy and Nami until an unexpected ally appears. Elsewhere, Sanji confronts his sister about what Pudding plans to do and learns the powerful secret of their mother's undying love.",
+      "chapters": "851-852",
+      "episodes": "817-820",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "0E2022E4",
+        "blake2": ""
+      }
+    },
+    "0F125E00": {
+      "arc": 33,
+      "episode": 19,
+      "title": "Emperor Assassination Plan",
+      "originaltitle": "",
+      "description": "The plan for Big Mom's assassination is all set. Sanji heads back to his room to avoid suspicion, but Mont d'Or is hot on his trail. The day arrives, and guests from the criminal underground pour in in droves, some with their own agendas to settle.",
+      "chapters": "859-860",
+      "episodes": "828-830",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "0F125E00",
+        "blake2": ""
+      }
+    },
     "0F3017E1": {
       "arc": 14,
       "episode": 14,
@@ -672,6 +798,20 @@
       "released": "2016-04-10",
       "hashes": {
         "crc32": "0F8517DC",
+        "blake2": ""
+      }
+    },
+    "11DA7BCB": {
+      "arc": 31,
+      "episode": 24,
+      "title": "Executive Officer Pica",
+      "originaltitle": "",
+      "description": "Doflamingo announces the rules for his deadly game with the highest bounty reserved for... Usopp! As Luffy and co. head toward the palace, Fujitora stands in their way, and Pica emerges in town to change the stakes of the game.",
+      "chapters": "746-747",
+      "episodes": "681-683",
+      "released": "2015-04-19",
+      "hashes": {
+        "crc32": "11DA7BCB",
         "blake2": ""
       }
     },
@@ -732,16 +872,30 @@
       }
     },
     "13E4ABCF": {
-      "arc": 36,
+      "arc": 35,
       "episode": 6,
-      "title": "The Will of Ohara",
+      "title": "Wano's Grand Sumo Tournament",
       "originaltitle": "",
-      "description": "Vegapunk Shaka shares his theory about an ancient kingdom and the Void Century. He also reminisces about the foundation of Dragon's Revolutionary Army. Meanwhile, Luffy and Chopper try to activate the giant robot when something surprising happens.",
+      "description": "Luffy challenges Urashima, the strongest yokozuna in Wano, to a sumo match! However, Urashima is willing to resort to illegal moves. Meanwhile, Holdem tells Otama that he must punish her for a crime she committed.",
       "chapters": "915-916",
       "episodes": "902-903",
       "released": "2019-10-18",
       "hashes": {
         "crc32": "13E4ABCF",
+        "blake2": ""
+      }
+    },
+    "15344804": {
+      "arc": 31,
+      "episode": 45,
+      "title": "Prostration",
+      "originaltitle": "",
+      "description": "The people of Dressrosa shed tears of joy as they remember the hardships endured and the actions taken to free them. As they beg King Riku to resume the crown, Admiral Fujitora shocks onlookers with an unexpected display of humility.",
+      "chapters": "791-793",
+      "episodes": "734-736",
+      "released": "2017-06-10",
+      "hashes": {
+        "crc32": "15344804",
         "blake2": ""
       }
     },
@@ -784,6 +938,48 @@
       "released": "2020-10-07",
       "hashes": {
         "crc32": "1638FE88",
+        "blake2": ""
+      }
+    },
+    "172F5F20": {
+      "arc": 33,
+      "episode": 39,
+      "title": "END ROLL",
+      "originaltitle": "",
+      "description": "As the Big Mom Pirate fleet approaches, Jinbe makes a crucial decision. At a great cost of energy and life, the Straw Hats make it out of Totto Land. Left behind in their wake are allies, friends, and would-be lovers.",
+      "chapters": "901-902",
+      "episodes": "876-877",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "172F5F20",
+        "blake2": ""
+      }
+    },
+    "174F92DD": {
+      "arc": 31,
+      "episode": 17,
+      "title": "The Underground World",
+      "originaltitle": "",
+      "description": "Usopp and Robin travel via an underground tunnel dug by the tiny people of the Tontatta Tribe. On the surface, Franky makes his way to the Toys House to cause a distraction to help his crewmates, but standing in his way is quite the guy!",
+      "chapters": "732-733",
+      "episodes": "664-665",
+      "released": "2014-11-10",
+      "hashes": {
+        "crc32": "174F92DD",
+        "blake2": ""
+      }
+    },
+    "1753F7D1": {
+      "arc": 33,
+      "episode": 35,
+      "title": "They Believe in Me",
+      "originaltitle": "",
+      "description": "The cake is finally brought before Big Mom. With the end of her vicious rampage in sight, the Straw Hats may just get their chance to flee! Big Mom's crew is forced to decide who to attack, and Luffy grows ever closer to mastering his haki.",
+      "chapters": "891-893",
+      "episodes": "865-868",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "1753F7D1",
         "blake2": ""
       }
     },
@@ -857,6 +1053,20 @@
         "blake2": ""
       }
     },
+    "1B5DC33C": {
+      "arc": 31,
+      "episode": 35,
+      "title": "Bellamy the Pirate",
+      "originaltitle": "",
+      "description": "Luffy continues to fight the Doflamingo doppelganger but keeps accidentally attacking Bellamy instead. Meanwhile, the tide of battle turns against Law as painful scars from the past resurface, and Zoro gets unexpected help in his battle with Pica.",
+      "chapters": "768-769",
+      "episodes": "707-711",
+      "released": "2016-12-17",
+      "hashes": {
+        "crc32": "1B5DC33C",
+        "blake2": ""
+      }
+    },
     "1B7544F3": {
       "arc": 3,
       "episode": 7,
@@ -868,6 +1078,20 @@
       "released": "2025-12-06",
       "hashes": {
         "crc32": "1B7544F3",
+        "blake2": ""
+      }
+    },
+    "1CADC5DC": {
+      "arc": 31,
+      "episode": 25,
+      "title": "Onward!! Army of Rogues",
+      "originaltitle": "",
+      "description": "The game is afoot, and Luffy finds that the dastardly Warlord has more enemies than he might realize! Strangely, an argument breaks out to decide who gets the honor of taking down Doflamingo once and for all!",
+      "chapters": "748-749",
+      "episodes": "683-686",
+      "released": "2015-05-06",
+      "hashes": {
+        "crc32": "1CADC5DC",
         "blake2": ""
       }
     },
@@ -969,6 +1193,20 @@
         "blake2": ""
       }
     },
+    "224B7846": {
+      "arc": 35,
+      "episode": 34,
+      "title": "The Day of the Mountain God",
+      "originaltitle": "",
+      "description": "Forty-one years ago, Oden had not yet earned the respect of everyone, but when the angry mountain god almost killed Kin'emon, Oden stepped in. Still, disavowed by his father, Oden journeyed around the country, gathering followers as he went.",
+      "chapters": "960-961",
+      "episodes": "960-961",
+      "released": "2023-09-23",
+      "hashes": {
+        "crc32": "224B7846",
+        "blake2": ""
+      }
+    },
     "2295F0A1": {
       "arc": 21,
       "episode": 18,
@@ -983,6 +1221,20 @@
         "blake2": ""
       }
     },
+    "22B16322": {
+      "arc": 33,
+      "episode": 28,
+      "title": "Mink Pedro, Captain of the Guardians",
+      "originaltitle": "Mink Tribe, Guardians Captain Pedro",
+      "description": "Sandwiched between Big Mom and her advancing fleet, the only hope left to the Sunny is to blast right through it all. Meanwhile, Pedro comes face-to-face with his past and does what he must to ensure the success of his friends.",
+      "chapters": "877-878",
+      "episodes": "848-850",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "22B16322",
+        "blake2": ""
+      }
+    },
     "22E58F96": {
       "arc": 21,
       "episode": 21,
@@ -994,6 +1246,20 @@
       "released": "2014-10-11",
       "hashes": {
         "crc32": "22E58F96",
+        "blake2": ""
+      }
+    },
+    "22F81B0E": {
+      "arc": 35,
+      "episode": 28,
+      "title": "RAMPAGE",
+      "originaltitle": "",
+      "description": "Kanjuro takes Yasuie's body to bury him with Oden, and Robin, Usopp, and Brook cleverly pass a checkpoint. While Big Mom and Kaido clash at Onigashima, Old Man Hyo finds his former allies in Udon. And in Ringo, Zoro faces Gyukimaru once more.",
+      "chapters": "952-953",
+      "episodes": "952-953",
+      "released": "2022-04-21",
+      "hashes": {
+        "crc32": "22F81B0E",
         "blake2": ""
       }
     },
@@ -1067,6 +1333,20 @@
         "blake2": ""
       }
     },
+    "2501AC5A": {
+      "arc": 35,
+      "episode": 55,
+      "title": "Straw Hat Luffy",
+      "originaltitle": "",
+      "description": "Yamato recalls learning the sad truth about Ace, but remembers what he said about his brother, Straw Hat Luffy. As Kaido and Big Mom join forces on the roof of Onigashima, they are faced with the biggest names of the Worst Generation...",
+      "chapters": "1000",
+      "episodes": "1015",
+      "released": "2025-09-27",
+      "hashes": {
+        "crc32": "2501AC5A",
+        "blake2": ""
+      }
+    },
     "25913BDA": {
       "arc": 3,
       "episode": 2,
@@ -1109,6 +1389,34 @@
         "blake2": ""
       }
     },
+    "26D98629": {
+      "arc": 35,
+      "episode": 43,
+      "title": "The Party's Off!!!",
+      "originaltitle": "",
+      "description": "The triumphant return of Jinbe sees him officially join the Straw Hats as their helmsman. As the Ninja-Pirate-Mink-Samurai Alliance plans the first steps of the raid on Onigashima, the Straw Hats look for a way to celebrate their new crewmate.",
+      "chapters": "977-978",
+      "episodes": "981-982",
+      "released": "2024-09-28",
+      "hashes": {
+        "crc32": "26D98629",
+        "blake2": ""
+      }
+    },
+    "270A4ABD": {
+      "arc": 33,
+      "episode": 29,
+      "title": "Zero Escape",
+      "originaltitle": "",
+      "description": "In the Mirro-world, Luffy confronts the formidable Charlotte Katakuri, Big Mom's strongest child. Meanwhile, Pudding and Sanji arrive at Cacao Island to remake the cake, but they bicker like a married couple the whole time.",
+      "chapters": "879-880",
+      "episodes": "851-853",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "270A4ABD",
+        "blake2": ""
+      }
+    },
     "2971EF62": {
       "arc": 13,
       "episode": 3,
@@ -1123,12 +1431,26 @@
         "blake2": ""
       }
     },
-    "29A10280": {
-      "arc": 30,
-      "episode": 7,
-      "title": "Pirate Alliance",
+    "298A4284": {
+      "arc": 35,
+      "episode": 38,
+      "title": "Roger's Adventure",
       "originaltitle": "",
-      "description": "Luffy agrees to an unexpected alliance with Trafalgar Law, but the Straw Hats refuse to leave the island until the children are safe. Meanwhile, the gaseous master of the island unleashes something extremely deadly!",
+      "description": "Oden visits Wano and sees his retainers for the first time in years, but he immediately returns to the sea and leaves his family behind in their care. After stopping at Zou for the final red poneglyph, the Roger Pirates finally make it to the last island.",
+      "chapters": "967",
+      "episodes": "967-968",
+      "released": "2024-01-26",
+      "hashes": {
+        "crc32": "298A4284",
+        "blake2": ""
+      }
+    },
+    "29A10280": {
+      "arc": 29,
+      "episode": 7,
+      "title": "The Shirahoshi Kidnapping Incident and the Curse of the Mato Mato!",
+      "originaltitle": "",
+      "description": "Ryugu Palace falls into chaos. While Luffy escapes with Shirahoshi, the pirates who infiltrated its walls attack with a strange desperation. After a scuffle of their own, Sanji and Chopper come across an old friend with troubling injuries.",
       "chapters": "614-615",
       "episodes": "533-534",
       "released": "2013-04-07",
@@ -1151,6 +1473,20 @@
         "blake2": ""
       }
     },
+    "29B91F56": {
+      "arc": 35,
+      "episode": 32,
+      "title": "Ultimate",
+      "originaltitle": "",
+      "description": "Admiral Issho and Fleet Admiral Sakazuki argue over the abolition of the Seven Warlord system and the alliance between two Emperors. Meanwhile, ex-Fleet Admiral Sengoku teaches the young Marines about the legendary Rocks Pirates.",
+      "chapters": "957",
+      "episodes": "958",
+      "released": "2023-07-08",
+      "hashes": {
+        "crc32": "29B91F56",
+        "blake2": ""
+      }
+    },
     "29DBF233": {
       "arc": 26,
       "episode": 14,
@@ -1166,11 +1502,11 @@
       }
     },
     "2A35B710": {
-      "arc": 32,
+      "arc": 31,
       "episode": 1,
-      "title": "Zou",
+      "title": "Arriving at Dressrosa! The Country of Passion, Love, and Toys!",
       "originaltitle": "",
-      "description": "The mysterious island of Zou approaches in the distance, obscured by fog. When the haze clears, what greets the Straw Hats is beyond anyone's expectations! Luffy and co. find the Sunny nearby, but the rest of the crew has already disembarked.",
+      "description": "Dressrosa! The Straw Hats split up and set about their business on this passionate, enchanting island! But here, in the heart of enemy territory, danger lurks around every corner. Luffy's group encounters an intriguing blind man whose luck has run dry.",
       "chapters": "700-701",
       "episodes": "628-631",
       "released": "2014-02-09",
@@ -1263,6 +1599,20 @@
         "blake2": ""
       }
     },
+    "2CDA8E9D": {
+      "arc": 33,
+      "episode": 27,
+      "title": "A Woman's Honor",
+      "originaltitle": "",
+      "description": "Big Mom is relentless in her pursuit of the Straw Hats. Elsewhere, the plan to recreate the wedding cake progresses while Pudding's unpredictable heart confuses everyone, including herself.",
+      "chapters": "875-876",
+      "episodes": "846-848",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "2CDA8E9D",
+        "blake2": ""
+      }
+    },
     "2DC3ECF7": {
       "arc": 26,
       "episode": 17,
@@ -1333,12 +1683,26 @@
         "blake2": ""
       }
     },
-    "32150FF4": {
+    "31018FCB": {
       "arc": 33,
-      "episode": 2,
-      "title": "0 and 4",
+      "episode": 8,
+      "title": "Luffy vs. Commander Cracker",
       "originaltitle": "",
-      "description": "Without Sanji to properly identify safe and edible food, Luffy gets a stomach full of poisonous fish! With no antidotes on board, the Straw Hats must rely on a couple of mysterious\u2014yet somehow familiar\u2014passersby for help.",
+      "description": "Luffy squares off against a commander of Big Mom, Charlotte Cracker, whose powers may prove more troublesome than they appear. Meanwhile, Brook and Pedro infiltrate Whole Cake Island and work out a plan to avoid getting caught.",
+      "chapters": "837-838",
+      "episodes": "798-800",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "31018FCB",
+        "blake2": ""
+      }
+    },
+    "32150FF4": {
+      "arc": 32,
+      "episode": 2,
+      "title": "The Minks",
+      "originaltitle": "The Mink Tribe",
+      "description": "The mysterious \"island\" may hold more danger than was bargained for, as Luffy and co. learn they are not alone! Luffy pushes deeper into the mysterious forest, but he is treading territory where he is not welcome.",
       "chapters": "804-805",
       "episodes": "753-754",
       "released": "2016-09-09",
@@ -1361,6 +1725,20 @@
         "blake2": ""
       }
     },
+    "32CC4AB9": {
+      "arc": 33,
+      "episode": 25,
+      "title": "You Can Do It, Caesar!!",
+      "originaltitle": "",
+      "description": "Caesar flies the entire alliance, still inside Bege, out of the venue! However, the full might of the Big Mom Pirates proves too much. The alliance's annihilation is imminent, but something shakes the playing field.",
+      "chapters": "870-872",
+      "episodes": "841-843",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "32CC4AB9",
+        "blake2": ""
+      }
+    },
     "344EA844": {
       "arc": 20,
       "episode": 2,
@@ -1376,11 +1754,11 @@
       }
     },
     "35A189E2": {
-      "arc": 30,
+      "arc": 29,
       "episode": 14,
-      "title": "The Mastermind in the Shadows and the Battle Between Gas and Rubber!",
+      "title": "Gyoncorde Plaza Gathering! The Evil Drug's True Power",
       "originaltitle": "",
-      "description": "Law finds the room that could ruin the New World, and Luffy hopes to bring Caesar's reign of terror to a brutal end! With Law's true ambitions revealed, Doflamingo flies into action to protect his criminal operation!",
+      "description": "Hody experiences a strange side effect of the energy steroids, and his body undergoes a horrifying transformation! The three princes of the Ryugu Kingdom rush to the scene, but Hody's crewmates have a dirty trick up their sleeves.",
       "chapters": "630-631",
       "episodes": "550-551",
       "released": "2013-04-17",
@@ -1417,12 +1795,26 @@
         "blake2": ""
       }
     },
-    "37670A03": {
-      "arc": 36,
-      "episode": 23,
-      "title": "Ginny",
+    "36D0F622": {
+      "arc": 33,
+      "episode": 12,
+      "title": "Forces of Rage",
       "originaltitle": "",
-      "description": "Kuma lived with Ginny in his old village until the injustices of the world pushed them to join Iva and Dragon as revolutionaries. However, when tragedy befell Ginny, Kuma found a new purpose in life in the newborn she left behind.",
+      "description": "Luffy stands his ground and waits for Sanji to return, but as the vengeful army washes over him, only a true friend can step in to help. At Big Mom's castle, Sanji and Pudding discuss their marriage and come to a startling conclusion!",
+      "chapters": "845-846",
+      "episodes": "809-812",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "36D0F622",
+        "blake2": ""
+      }
+    },
+    "37670A03": {
+      "arc": 35,
+      "episode": 23,
+      "title": "SMILE",
+      "originaltitle": "",
+      "description": "The truth behind the smiles of the Ebisu villagers finally comes to light, the Shogun and Kaido's plan revealed! And in Udon Luffy and Hyo are shocked to see Captain Kid return in chains alongside a smiling newcomer.",
       "chapters": "943-944",
       "episodes": "941-943",
       "released": "2022-01-18",
@@ -1460,16 +1852,30 @@
       }
     },
     "398915C6": {
-      "arc": 31,
+      "arc": 30,
       "episode": 11,
-      "title": "A Sad Past! Rebecca and Soldier-san",
+      "title": "The Experiment Begins! Shinokuni Unleashed!",
       "originaltitle": "",
-      "description": "A voice from the past unsettles Luffy and sends him into a rage! Also, it's discovered that Rebecca's eternal bond with the one-legged toy soldier is linked to the violent overthrow of the old regime, perpetrated by none other than Doflamingo!",
+      "description": "A candy addiction leads the children to return, and Caesar plans to show the world his new and improved Smiley! Luffy and the Straw Hats next find themselves pursued by a deadly cloud of gas that turns living things into statues of ash!",
       "chapters": "675-676",
       "episodes": "601-602",
       "released": "2013-07-08",
       "hashes": {
         "crc32": "398915C6",
+        "blake2": ""
+      }
+    },
+    "39D94718": {
+      "arc": 33,
+      "episode": 22,
+      "title": "Hey, Mother",
+      "originaltitle": "",
+      "description": "Luffy dashes toward Big Mom to show her the broken portrait again, and Sanji attempts to free his family. Here, Big Mom's tragic and sad history is revealed: from the very beginning, Big Mom's voracious hunger has brought her into conflict with others.",
+      "chapters": "865-866",
+      "episodes": "835-836",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "39D94718",
         "blake2": ""
       }
     },
@@ -1484,6 +1890,20 @@
       "released": "2013-11-20",
       "hashes": {
         "crc32": "3AEE90B8",
+        "blake2": ""
+      }
+    },
+    "3AF37912": {
+      "arc": 33,
+      "episode": 36,
+      "title": "Pirate Luffy vs. Commander Katakuri",
+      "originaltitle": "",
+      "description": "Desiring revenge after complete embarrassment, Big Mom's children band together to smash the Straw Hats. Meanwhile, Luffy and Katakuri are locked in a duel to end all duels, where each blow could be the last.",
+      "chapters": "892-895",
+      "episodes": "865, 867-870",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "3AF37912",
         "blake2": ""
       }
     },
@@ -1515,6 +1935,20 @@
         "blake2": ""
       }
     },
+    "3C58DD41": {
+      "arc": 33,
+      "episode": 37,
+      "title": "One Last Thing",
+      "originaltitle": "",
+      "description": "Luffy's dramatic battle finally draws to a close, and a whole host of the Big Mom Pirates watch the last mirror to see who will come through.",
+      "chapters": "896-897",
+      "episodes": "871-872",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "3C58DD41",
+        "blake2": ""
+      }
+    },
     "3C665F73": {
       "arc": 16,
       "episode": 7,
@@ -1529,12 +1963,40 @@
         "blake2": ""
       }
     },
-    "3F24A1D8": {
-      "arc": 34,
-      "episode": 1,
-      "title": "The Fifth Emperor",
+    "3CC8226D": {
+      "arc": 35,
+      "episode": 27,
+      "title": "A Soldier's Dream",
+      "originaltitle": "Warriors' Dream",
+      "description": "In Udon, an unexpected person stands up to bring the prisoners renewed hope! Elsewhere, Zoro and Hiyori are pursued by ninja, Orochi is told of Trafalgar Law's capture, and the people of the Flower Capital prepare for the upcoming Fire Festival.",
+      "chapters": "950-951",
+      "episodes": "950-951",
+      "released": "2022-02-13",
+      "hashes": {
+        "crc32": "3CC8226D",
+        "blake2": ""
+      }
+    },
+    "3E9F11F9": {
+      "arc": 31,
+      "episode": 41,
+      "title": "In My Way",
       "originaltitle": "",
-      "description": "Luffy's reputation grows as all eyes look toward the Straw Hats' next move. Meanwhile, the royals of the world make their way to the Reverie, but their absence welcomes a raid by a vicious band of pirates on the Kingdom of Lulusia.",
+      "description": "Law summons enough energy to speak, denouncing the Doflamingo Family executives as pawns in Doflamingo's game. Meanwhile, neither Gear Second nor Gear Third attacks are working against Doflamingo, so Luffy decides to use something stronger!",
+      "chapters": "782-783",
+      "episodes": "723-725",
+      "released": "2017-04-27",
+      "hashes": {
+        "crc32": "3E9F11F9",
+        "blake2": ""
+      }
+    },
+    "3F24A1D8": {
+      "arc": 33,
+      "episode": 1,
+      "title": "A World Abuzz",
+      "originaltitle": "",
+      "description": "Luffy's team\u2014plus a stowaway\u2014sets out from Zou on their way to win back Sanji. Meanwhile, the leading families and leaders of the world make their way to the Holy Land, Mary Geoise, for a pivotal round table conference.",
       "chapters": "823-824",
       "episodes": "777-779, 783",
       "released": "2020-12-11",
@@ -1543,12 +2005,26 @@
         "blake2": ""
       }
     },
-    "3F6633B5": {
-      "arc": 34,
-      "episode": 3,
-      "title": "The Empty Throne",
+    "3F5E7FD3": {
+      "arc": 33,
+      "episode": 18,
+      "title": "Rook",
       "originaltitle": "",
-      "description": "As the Reverie commences, Emperors Big Mom and Kaido both set their sights on Luffy! Meanwhile, a mysterious outsider visits the highest authority in the world, and the Revolutionary Army confirms its desire to save Kuma.",
+      "description": "Jinbe tells the Straw Hats about Capone \"Gang\" Bege and proposes a shocking plan to take down Big Mom! But before they are granted an audience with Bege, they must make themselves presentable.",
+      "chapters": "857-858",
+      "episodes": "826-828",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "3F5E7FD3",
+        "blake2": ""
+      }
+    },
+    "3F6633B5": {
+      "arc": 33,
+      "episode": 3,
+      "title": "Totto Land",
+      "originaltitle": "",
+      "description": "Arriving on Cacao Island, Luffy and Chopper are in heaven as everything before their eyes is edible. There, the Straw Hats encounter Sanji's betrothed, Pudding, but when they challenge her for Sanji's heart, her answer is truly shocking.",
       "chapters": "827-828",
       "episodes": "785-788",
       "released": "2020-12-11",
@@ -1571,12 +2047,40 @@
         "blake2": ""
       }
     },
+    "3FC81ABD": {
+      "arc": 35,
+      "episode": 42,
+      "title": "Kin'emon's Clever Ruse",
+      "originaltitle": "",
+      "description": "As the Scabbards and their comrades struggle to rescue the kidnapped Momo, two unforseen allies join the fight: one thought long gone 20 years ago and another pledging his loyalty to Luffy.",
+      "chapters": "975-976",
+      "episodes": "978-980",
+      "released": "2024-08-30",
+      "hashes": {
+        "crc32": "3FC81ABD",
+        "blake2": ""
+      }
+    },
+    "410C8F0C": {
+      "arc": 33,
+      "episode": 6,
+      "title": "Vinsmoke Judge",
+      "originaltitle": "",
+      "description": "Sanji faces his father in a duel as the wounds of his childhood are laid bare! Meanwhile, Luffy falls for the illusions of the forest, and Big Mom has Caesar at her whims, ready to use him to continue her maniacal pursuits.",
+      "chapters": "833-834",
+      "episodes": "793-795",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "410C8F0C",
+        "blake2": ""
+      }
+    },
     "410FD111": {
-      "arc": 36,
+      "arc": 35,
       "episode": 3,
-      "title": "Future Island Egghead",
-      "originaltitle": "Future Island, Egghead",
-      "description": "Sabo contacts his comrades, which prompts a certain eavesdropper to take action against an entire island nation! Meanwhile, Luffy, Chopper, and Jinbe alongside a mysterious girl become separated from the rest of the Straw Hats when a giant shark attacks.",
+      "title": "Amigasa Village",
+      "originaltitle": "",
+      "description": "Otama recounts her promise to Ace while Luffy rushes her to medical attention. But just as they reach the wasteland, a familiar face comes into view, and Kaido's underlings show up, too!",
       "chapters": "911-912",
       "episodes": "894, 897",
       "released": "2025-06-01",
@@ -1613,6 +2117,20 @@
         "blake2": ""
       }
     },
+    "425F93B9": {
+      "arc": 35,
+      "episode": 55,
+      "title": "Straw Hat Luffy",
+      "originaltitle": "",
+      "description": "Yamato recalls learning the sad truth about Ace, but remembers what he said about his brother, Straw Hat Luffy. As Kaido and Big Mom join forces on the roof of Onigashima, they are faced with the biggest names of the Worst Generation...",
+      "chapters": "1000",
+      "episodes": "1015",
+      "released": "2025-09-27",
+      "hashes": {
+        "crc32": "425F93B9",
+        "blake2": ""
+      }
+    },
     "432F7EDF": {
       "arc": 6,
       "episode": 2,
@@ -1624,6 +2142,34 @@
       "released": "2024-11-23",
       "hashes": {
         "crc32": "432F7EDF",
+        "blake2": ""
+      }
+    },
+    "437F9E8D": {
+      "arc": 33,
+      "episode": 23,
+      "title": "HAPPY BIRTHDAY",
+      "originaltitle": "",
+      "description": "A young Linlin managed to enrage the giants of Elbaph, but Mother Carmel begged for clemency on her behalf. After Carmel's mysterious disappearance, Linlin fell in with a new cohort and found her reason to go on living.",
+      "chapters": "867-868",
+      "episodes": "837-839",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "437F9E8D",
+        "blake2": ""
+      }
+    },
+    "43A0D1DF": {
+      "arc": 35,
+      "episode": 30,
+      "title": "Enma",
+      "originaltitle": "",
+      "description": "As the day of the raid approaches, Kin'emon discusses the plan, and at Onigashima, Kaido and Big Mom make a surprising declaration! In the meantime, Zoro is stunned by Enma's demonic power and its ties to him.",
+      "chapters": "954-955",
+      "episodes": "955-956",
+      "released": "2023-04-06",
+      "hashes": {
+        "crc32": "43A0D1DF",
         "blake2": ""
       }
     },
@@ -1726,11 +2272,11 @@
       }
     },
     "4A52B138": {
-      "arc": 33,
+      "arc": 32,
       "episode": 10,
-      "title": "To the East Blue",
+      "title": "Understood",
       "originaltitle": "",
-      "description": "Sanji's tragic history included a rare moment of compassion that was his only chance at escape, but even then, his father's cruelty haunted him. In the present, Reiju helps Sanji straighten himself out before he meets with his fianc\u00e9e.",
+      "description": "The Straw Hats divide and conquer: one group to go save Sanji, and the other to Wano! But just before their departure, the tremendous elephant quakes as Jack's fleet launches an aggressive attack on the monstrous Zunesha.",
       "chapters": "820-822",
       "episodes": "772-774, 776",
       "released": "2017-03-03",
@@ -1782,16 +2328,30 @@
       }
     },
     "4CD92CFC": {
-      "arc": 31,
+      "arc": 30,
       "episode": 16,
-      "title": "SOP Strategy",
+      "title": "The Dragon Named Momonosuke and the Menacing Snow Fruit User!",
       "originaltitle": "",
-      "description": "Zoro and Kin'emon make a mad dash to save Law, but Admiral Fujitora stands in their way, bringing his full power against them. The toy soldier lays out the plan to liberate the Tontattas and bring down the Doflamingo Family: Operation SOP.",
+      "description": "Luffy befriends a dragon that used to be a human boy, and Vice Admiral Smoker continues his brutal battle with the villainous Vergo. Mocha tries to keep the Master's candy away from her friends, and Zoro pits his steel against snow in a battle with Monet.",
       "chapters": "685-686",
       "episodes": "611-612",
       "released": "2013-09-27",
       "hashes": {
         "crc32": "4CD92CFC",
+        "blake2": ""
+      }
+    },
+    "4CF30353": {
+      "arc": 33,
+      "episode": 5,
+      "title": "Adventure in the Mysterious Forest",
+      "originaltitle": "",
+      "description": "Luffy's group makes its way toward Sanji, only to be distracted by the endless supply of sweets and a second Luffy. Before they realize it, they are lost in the Seducing Woods! Meanwhile, Sanji confronts his older brother.",
+      "chapters": "831-832",
+      "episodes": "791-793",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "4CF30353",
         "blake2": ""
       }
     },
@@ -1823,6 +2383,48 @@
         "blake2": ""
       }
     },
+    "4DDF4C07": {
+      "arc": 31,
+      "episode": 44,
+      "title": "Heaven and Earth",
+      "originaltitle": "",
+      "description": "With just over a minute to spare, everyone in Dressrosa turns their efforts toward slowing the birdcage. Meanwhile, Rebecca, under the control of Doflamingo, advances to attack Viola, and a hero's recovery cannot come soon enough!",
+      "chapters": "788-790",
+      "episodes": "730-733",
+      "released": "2017-05-28",
+      "hashes": {
+        "crc32": "4DDF4C07",
+        "blake2": ""
+      }
+    },
+    "4F16C5DC": {
+      "arc": 31,
+      "episode": 30,
+      "title": "Secret Plan",
+      "originaltitle": "",
+      "description": "Luffy and Law finally surmount incredible odds to land themselves in striking distance of Doflamingo. However, Sugar stands in their way, so Usopp uses Viola's clairvoyance to prepare his ammunition to take her out.",
+      "chapters": "758-759",
+      "episodes": "694, 696-698",
+      "released": "2016-10-06",
+      "hashes": {
+        "crc32": "4F16C5DC",
+        "blake2": ""
+      }
+    },
+    "4F38961B": {
+      "arc": 33,
+      "episode": 20,
+      "title": "Veteran Actor",
+      "originaltitle": "",
+      "description": "Final preparations abound, plans come together, and Sanji meets his bride on the altar. As the veil is lifted off Pudding's face, emotions run high, and the chaos begins! As the proverbial icing on the cake, all hell breaks loose as Luffy charges in!",
+      "chapters": "861-862",
+      "episodes": "831-832",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "4F38961B",
+        "blake2": ""
+      }
+    },
     "4F5151F2": {
       "arc": 26,
       "episode": 2,
@@ -1838,11 +2440,11 @@
       }
     },
     "5012E091": {
-      "arc": 31,
+      "arc": 30,
       "episode": 20,
-      "title": "Captain",
+      "title": "Die for Me! The Dangerous Man Makes His Move!",
       "originaltitle": "",
-      "description": "With Operation SOP in its final stage, the Tontattas are devastated by Trebol's furious attack, but as Usopp tries to convince Leo to abort the operation, Leo tells him about their commander's stunning true identity.",
+      "description": "As the Straw Hats and co. flee the crumbling laboratory, Caesar's desperate act of vengeance thwarts Joker's plan to forever silence his enemies. Franky continues his battle with Buffalo and Baby 5, and Usopp takes a shot at capturing Caesar.",
       "chapters": "693-695",
       "episodes": "619-621",
       "released": "2013-12-02",
@@ -1852,11 +2454,11 @@
       }
     },
     "50143351": {
-      "arc": 32,
+      "arc": 31,
       "episode": 10,
-      "title": "Understood",
+      "title": "The Tontatta Rebellion and the C Block Finale!",
       "originaltitle": "",
-      "description": "The Straw Hats divide and conquer: one group to go save Sanji, and the other to Wano! But just before their departure, the tremendous elephant quakes as Jack's fleet launches an aggressive attack on the monstrous Zunesha.",
+      "description": "The Tontattas gear up for their all-out assault on the Doflamingo Family, and Usopp and Robin are caught up in the war effort! Meanwhile, Luffy concludes his earth-shattering fight to the death with Don Chinjao.",
       "chapters": "718-719",
       "episodes": "648-649",
       "released": "2014-07-04",
@@ -1907,6 +2509,34 @@
         "blake2": ""
       }
     },
+    "529AE554": {
+      "arc": 33,
+      "episode": 31,
+      "title": "Merienda",
+      "originaltitle": "",
+      "description": "Katakuri retires to his sanctuary to enjoy a merienda\u2014a sweet chance to replenish his haki! But he is not the only one munching away. A mochi mountain has crushed Luffy, and he has found a delectable way to escape.",
+      "chapters": "883-884",
+      "episodes": "856-858",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "529AE554",
+        "blake2": ""
+      }
+    },
+    "53AEB13C": {
+      "arc": 31,
+      "episode": 33,
+      "title": "The Island of Fate: Minion",
+      "originaltitle": "",
+      "description": "Things grew stranger for Law when he learned the secret behind why Coraz\u00f3n feigned being mute. But the mysterious Coraz\u00f3n's actions were only beginning to baffle Law when he took him on a journey to cure the youth's disease.",
+      "chapters": "764-765",
+      "episodes": "703-704",
+      "released": "2016-11-05",
+      "hashes": {
+        "crc32": "53AEB13C",
+        "blake2": ""
+      }
+    },
     "540A9642": {
       "arc": 24,
       "episode": 10,
@@ -1922,11 +2552,11 @@
       }
     },
     "54AC1705": {
-      "arc": 31,
+      "arc": 30,
       "episode": 19,
-      "title": "Diamante and Pica",
+      "title": "The Strongest Grizzly Magnum and the Assassins from Dressrosa!",
       "originaltitle": "",
-      "description": "The final round at Corrida Colosseum kicks off, and Diamante joins the combatants in an all-out struggle to win the prize! Meanwhile, Luffy and co., en route to Doflamingo, are faced with an immovable member of the Donquixote Family.",
+      "description": "Law concludes his epic battle with Vergo, and Luffy looks to land a devastating blow on the murderous gasbag mastermind. Meanwhile, word of Luffy and Law's alliance spreads throughout the world, and Joker sends a team to rescue Caesar.",
       "chapters": "691-692",
       "episodes": "617-618",
       "released": "2013-11-05",
@@ -1935,12 +2565,26 @@
         "blake2": ""
       }
     },
-    "55837445": {
-      "arc": 33,
-      "episode": 7,
-      "title": "Lola's Vivre Card",
+    "55292D1C": {
+      "arc": 31,
+      "episode": 42,
+      "title": "Gear Fourth",
       "originaltitle": "",
-      "description": "The mysterious half-buried man comes clean about his identity, but this must all be put aside when one of Big Mom's most powerful commanders comes calling. Nami's past exploits, however, hold the key to keeping the baddies at bay.",
+      "description": "The birdcage tightens its grip on Dressrosa, so Zoro sets off with a plan to stop it from slicing apart the country. Meanwhile, Luffy digs deep into his training to provide an answer born of rubber and haki to combat Doflamingo's might.",
+      "chapters": "784-785",
+      "episodes": "726-728",
+      "released": "2017-05-13",
+      "hashes": {
+        "crc32": "55292D1C",
+        "blake2": ""
+      }
+    },
+    "55837445": {
+      "arc": 32,
+      "episode": 7,
+      "title": "Let's Go See Master Nekomamushi",
+      "originaltitle": "",
+      "description": "Being separated from one of his crew is more than Luffy is willing to tolerate! The pirates make their way toward the nighttime ruler to find out more about their friend's disappearance.",
       "chapters": "814-815",
       "episodes": "764-766",
       "released": "2016-12-12",
@@ -1950,16 +2594,30 @@
       }
     },
     "5636E014": {
-      "arc": 30,
+      "arc": 29,
       "episode": 3,
-      "title": "About My Torso",
+      "title": "Landing on Fishman Island! The Mermaid Cove and Gyoverly Hills!",
       "originaltitle": "",
-      "description": "Luffy's group finds themselves up against a gang of centaurs, Brook battles an aggressive mysterious torso, and Vice Admiral Smoker encounters someone highly unexpected! Meanwhile, Nami and Chopper seek a safe exit for a group of children.",
+      "description": "After a near miss with a creepy undersea ship and Fishman Island in sight, Luffy's crew is halted by a group of fishmen riding atop sea kings. But time is of the essence, so the Straw Hats attempt a desperate maneuver.",
       "chapters": "607-608",
       "episodes": "526-527",
       "released": "2013-03-31",
       "hashes": {
         "crc32": "5636E014",
+        "blake2": ""
+      }
+    },
+    "56CFB8B0": {
+      "arc": 35,
+      "episode": 39,
+      "title": "Fool of a Lord",
+      "originaltitle": "",
+      "description": "The Roger Pirates have completed their grand adventure, and the King of the Pirates is born! Gol D. Roger disbands his merry crew and Oden returns triumphant to his homeland of Wano. However, a sinister surprise awaits him upon his rightful throne.",
+      "chapters": "968-969",
+      "episodes": "969-971",
+      "released": "2024-04-05",
+      "hashes": {
+        "crc32": "56CFB8B0",
         "blake2": ""
       }
     },
@@ -2002,6 +2660,20 @@
       "released": "2023-09-16",
       "hashes": {
         "crc32": "580A0C3B",
+        "blake2": ""
+      }
+    },
+    "58469AB0": {
+      "arc": 35,
+      "episode": 49,
+      "title": "I Can't Imagine Losing",
+      "originaltitle": "",
+      "description": "Momonosuke is finally freed, and King and Queen must contend with the incursion of samurai and pirates on the Performance Floor. Big Mom is swiftly removed from the situation, and the Straw Hat pirates gather once more as the assualt kicks off!",
+      "chapters": "988-989",
+      "episodes": "997-1000",
+      "released": "2025-05-17",
+      "hashes": {
+        "crc32": "58469AB0",
         "blake2": ""
       }
     },
@@ -2061,12 +2733,26 @@
         "blake2": ""
       }
     },
-    "5A3CE523": {
+    "5A38EC3B": {
       "arc": 31,
-      "episode": 2,
-      "title": "Corrida Colosseum! The Great Tournament",
+      "episode": 23,
+      "title": "Bird Cage",
       "originaltitle": "",
-      "description": "Zoro and co. strike off in search of the thieving fairy who has taken Zoro's sword, but Sanji gets distracted by the alluring dancing of a gorgeous Dressrosan. Meanwhile, the prize of the late Ace's devil fruit draws Luffy and Franky to the colosseum.",
+      "description": "Sabo makes a risky move to end the championship battle, and Luffy hurries to free Law. Doflamingo's apparent defeat has thrown Dressrosa into chaos, but he may have a trick or two left up his sleeve.",
+      "chapters": "744-745",
+      "episodes": "678-680",
+      "released": "2015-03-22",
+      "hashes": {
+        "crc32": "5A38EC3B",
+        "blake2": ""
+      }
+    },
+    "5A3CE523": {
+      "arc": 30,
+      "episode": 2,
+      "title": "Adventure on the Burning Island",
+      "originaltitle": "",
+      "description": "Luffy, Robin, Usopp, and Zoro face a powerful dragon, and Luffy gets up close and personal with a torso-less figure. Elsewhere, Nami, Sanji, Chopper, and Franky find themselves imprisoned with the pieces of a human face!",
       "chapters": "656-658",
       "episodes": "580-583",
       "released": "2013-05-20",
@@ -2076,11 +2762,11 @@
       }
     },
     "5A5E65B1": {
-      "arc": 36,
+      "arc": 35,
       "episode": 9,
-      "title": "The Weight of Memory",
+      "title": "I Love Oden",
       "originaltitle": "",
-      "description": "To avenge her father, Bonney chases Dr. Vegapunk through the lab, but a familiar symbol catches her eye. As she investigates, the satellites call in an unexpected favor to finally deal with CP0's rampage outside the lab.",
+      "description": "Kin'emon tells Luffy and the others about how Kozuki Oden brought peace to Kuri and became its daimyo. However, he was set up by Kaido and Orochi. When Kin'emon ran to save Oden's wife, she revealed a shocking truth.",
       "chapters": "919-920",
       "episodes": "909-911",
       "released": "2020-03-16",
@@ -2104,11 +2790,11 @@
       }
     },
     "5ACE812A": {
-      "arc": 36,
+      "arc": 35,
       "episode": 12,
-      "title": "Escape Limit",
+      "title": "Hah",
       "originaltitle": "",
-      "description": "Luffy, Zoro, Lucci, and Kaku combine their might, and a chivalrous cook rescues Nami from near defeat. Meanwhile, Lilith, Usopp, and Franky are stopped in their tracks by someone very deadly, yet very cute.",
+      "description": "Luffy is sent to a great mine where prisoners must endure harsh, forced labor. There, he has an unexpected reunion. Meanwhile, Okiku rushes to the ruins of Oden Castle to confirm the safety of the Straw Hats and the others.",
       "chapters": "924",
       "episodes": "916",
       "released": "2020-04-01",
@@ -2146,11 +2832,11 @@
       }
     },
     "5B2AAFBF": {
-      "arc": 33,
+      "arc": 32,
       "episode": 8,
-      "title": "Luffy vs. Commander Cracker",
+      "title": "Raizo of the Mist",
       "originaltitle": "",
-      "description": "Luffy squares off against a commander of Big Mom, Charlotte Cracker, whose powers may prove more troublesome than they appear. Meanwhile, Brook and Pedro infiltrate Whole Cake Island and work out a plan to avoid getting caught.",
+      "description": "Revelations abound as the true nature of the men from Wano and their relationship with the minks is revealed, and Momonosuke's role is greater than any had imagined. But even more shocking is the visage of a real ninja!",
       "chapters": "816-817",
       "episodes": "767-769",
       "released": "2016-12-25",
@@ -2184,6 +2870,20 @@
       "released": "2025-01-11",
       "hashes": {
         "crc32": "5B546203",
+        "blake2": ""
+      }
+    },
+    "5C7E0604": {
+      "arc": 35,
+      "episode": 29,
+      "title": "Once a Fox",
+      "originaltitle": "The Onefold Fox",
+      "description": "Zoro runs after the warrior-monk who took Shusui, and Kawamatsu shares his memory of a fox that was guarding the graves in Ringo. Soon, they find a room filled with swords, and Hiyori tells Zoro to give Shusui back to the land of Wano.",
+      "chapters": "953-954",
+      "episodes": "954-955",
+      "released": "2022-12-18",
+      "hashes": {
+        "crc32": "5C7E0604",
         "blake2": ""
       }
     },
@@ -2243,6 +2943,20 @@
         "blake2": ""
       }
     },
+    "5F035A13": {
+      "arc": 31,
+      "episode": 48,
+      "title": "Father and Sons",
+      "originaltitle": "",
+      "description": "Law and Sengoku share memories of Coraz\u00f3n and the secret of Trafalgar Law's name. Luffy and the others finally make their break from the island; however, an unbelievable new chapter opens in the story of the Straw Hat Pirates!",
+      "chapters": "798-800",
+      "episodes": "742-745",
+      "released": "2017-09-10",
+      "hashes": {
+        "crc32": "5F035A13",
+        "blake2": ""
+      }
+    },
     "5FA1920A": {
       "arc": 27,
       "episode": 4,
@@ -2268,6 +2982,34 @@
       "released": "2022-05-04",
       "hashes": {
         "crc32": "5FBDCD0F",
+        "blake2": ""
+      }
+    },
+    "5FC46535": {
+      "arc": 31,
+      "episode": 22,
+      "title": "Dressrosa in Turmoil",
+      "originaltitle": "",
+      "description": "Usopp creates a miracle! Toys across Dressrosa regain their true forms, a flood of lost memories return, and a forgotten hero launches a long overdue attack on the villainous tyrant Doflamingo!",
+      "chapters": "742-743",
+      "episodes": "675-678",
+      "released": "2015-03-07",
+      "hashes": {
+        "crc32": "5FC46535",
+        "blake2": ""
+      }
+    },
+    "5FDB702D": {
+      "arc": 33,
+      "episode": 21,
+      "title": "The Honorable",
+      "originaltitle": "",
+      "description": "The wedding and the precious cake crumble to pieces around Big Mom as a slew of Luffys wreak havoc. The chaos pushes Big Mom past the edge of sanity, so her children make a move against Germa while Pudding takes aim at Sanji.",
+      "chapters": "863-864",
+      "episodes": "831, 833-834",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "5FDB702D",
         "blake2": ""
       }
     },
@@ -2310,6 +3052,20 @@
       "released": "2024-12-13",
       "hashes": {
         "crc32": "60E51C8A",
+        "blake2": ""
+      }
+    },
+    "6173BCE1": {
+      "arc": 35,
+      "episode": 24,
+      "title": "Olin",
+      "originaltitle": "Partners",
+      "description": "A very big and hungry visitor arrives at Udon looking for Superstar Queen's sweet red bean oshiruko, and Rasetsu town is in a full-blown riot with the Straw Hats at the center!",
+      "chapters": "945",
+      "episodes": "942-944",
+      "released": "2022-01-18",
+      "hashes": {
+        "crc32": "6173BCE1",
         "blake2": ""
       }
     },
@@ -2370,11 +3126,11 @@
       }
     },
     "64FB3990": {
-      "arc": 30,
+      "arc": 29,
       "episode": 6,
-      "title": "Yeti Cool Brothers",
+      "title": "The Mermaid Princess in Hard-Shell Tower! Shirahoshi of the Neptune Family!",
       "originaltitle": "",
-      "description": "The giant children fly into a mysterious rage, and Chopper discovers the true reason for their unusual condition! Meanwhile, Zoro, Brook, and Sanji cross paths with a dangerous duo, and the story of how Trafalgar Law arrived at Punk Hazard is revealed.",
+      "description": "Plagued by the unwanted advances of a lunatic fishman with a dangerous power, Mermaid Princess Shirahoshi has been hidden away in a lonely tower for years. Meanwhile in the palace, things take a sour turn for the Straw Hats.",
       "chapters": "613-614",
       "episodes": "532-533",
       "released": "2013-04-06",
@@ -2384,11 +3140,11 @@
       }
     },
     "658D36CE": {
-      "arc": 31,
+      "arc": 30,
       "episode": 8,
-      "title": "Closely Contested Block C! Lucy and Ucy!",
+      "title": "Blizzard with a Chance of Slime",
       "originaltitle": "",
-      "description": "The Sunny is mysteriously deformed by Giolla's strange powers! Meanwhile, the battle for Block C is under way, but Luffy suffers a staggering setback. He eventually knocks down the giant Hajrudin, but Chinjao has his sights set on Garp's grandson!",
+      "description": "Zoro, Sanji, and Brook continue their search for the samurai, and Law tries to sneak Chopper into the laboratory! And then, Luffy's battle with his old nemesis Smoker is interrupted by the arrival of a terrifying toxic blob.",
       "chapters": "669-670",
       "episodes": "595-596",
       "released": "2013-06-02",
@@ -2411,6 +3167,20 @@
         "blake2": ""
       }
     },
+    "65BD682D": {
+      "arc": 29,
+      "episode": 23,
+      "title": "The Voice from the New World",
+      "originaltitle": "",
+      "description": "When pirates working for Big Mom appear, Fishman Island falls under threat from an adversary even stronger than Hody. Luffy steps up to save the fishmen once again but may doom himself by antagonizing one of the strongest pirates in the New World.",
+      "chapters": "650-651",
+      "episodes": "570-571",
+      "released": "2013-05-15",
+      "hashes": {
+        "crc32": "65BD682D",
+        "blake2": ""
+      }
+    },
     "66006702": {
       "arc": 26,
       "episode": 5,
@@ -2426,11 +3196,11 @@
       }
     },
     "666061E3": {
-      "arc": 31,
+      "arc": 30,
       "episode": 4,
-      "title": "Bellamy's Changed Motivations and B Block's Start!",
+      "title": "The Lake of Bandits",
       "originaltitle": "",
-      "description": "When Block A concludes, the crowds are shocked to discover the secret identity of the winner. Block B commences, and the widely despised Bartolomeo takes the ring, but he will have to contend with Dressrosa's own local favorite, Bellamy!",
+      "description": "Luffy's group takes a deadly plunge into icy waters, and Trafalgar Law uses his unique abilities to rearrange Nami's group and place the Straw Hats into a state of chaos! Then, things heat up when G-5 squares off with Law.",
       "chapters": "661-662",
       "episodes": "585-587",
       "released": "2013-05-24",
@@ -2495,12 +3265,26 @@
         "blake2": ""
       }
     },
-    "6A9CF454": {
-      "arc": 36,
-      "episode": 11,
-      "title": "Labophase Death Game",
+    "6A3CE0EA": {
+      "arc": 31,
+      "episode": 15,
+      "title": "Doflamingo's Relentless Pursuit",
       "originaltitle": "",
-      "description": "The search for Dr. Vegapunk's main body is threatened by the deadly seraphim, only this time the satellites' orders are unable to pacify them. Faced with a tough decision, Luffy and Zoro must team up with the most unlikely of allies.",
+      "description": "Revealed is the sad fate of King Riku, his army, and his daughter, Princess Viola, as well as how the people of Dressrosa fell into the hands of Doflamingo. Not to mention, all the toys in the country share a mysterious secret.",
+      "chapters": "728-729",
+      "episodes": "660-661",
+      "released": "2014-10-29",
+      "hashes": {
+        "crc32": "6A3CE0EA",
+        "blake2": ""
+      }
+    },
+    "6A9CF454": {
+      "arc": 35,
+      "episode": 11,
+      "title": "Emperor Kaido vs. Luffy",
+      "originaltitle": "",
+      "description": "Infuriated by Kaido's violence toward his allies, Luffy lands blow after blow on the drunken Emperor. When he activates Gear Fourth and launches even more powerful attacks, Kaido fights back. Law tries to rescue Luffy but is interrupted by Hawkins.",
       "chapters": "922-923",
       "episodes": "914-915",
       "released": "2020-03-31",
@@ -2580,11 +3364,11 @@
       }
     },
     "6C9E8055": {
-      "arc": 36,
+      "arc": 35,
       "episode": 19,
-      "title": "Hostage Situation",
-      "originaltitle": "",
-      "description": "In the Labophase on Egghead, which is completely surrounded by the Marines, Luffy and the others devise a plan to escape the island. However, the Frontier Dome, the laser defense system, cannot be deactivated without York's secret passcode.",
+      "title": "Gyukimaru of Bandit's Bridge",
+      "originaltitle": "Gyukimaru of Oihagi Bridge",
+      "description": "Luffy fights in an endless sumo match to protect old man Hyo, and Nami, Robin, and Shinobu are cornered as Hawkins raids the bathhouse. Elsewhere, Zoro faces a samurai who accuses him of stealing Shusui, but their duel is interrupted by a woman's scream.",
       "chapters": "936-938",
       "episodes": "931-934",
       "released": "2020-12-09",
@@ -2594,11 +3378,11 @@
       }
     },
     "6DA86F5F": {
-      "arc": 36,
+      "arc": 35,
       "episode": 8,
-      "title": "The Strongest Form of Humanity",
+      "title": "The Ruins of Oden Castle",
       "originaltitle": "",
-      "description": "As the rematch between Luffy and Lucci kicks off, Dr. Vegapunk notices something very fascinating about the Straw Hat captain's new abilities. Meanwhile, Sentomaru arrives with the latest pacifista models as a very unlikely ally to the pirates!",
+      "description": "Zoro and the others dash out of Bakura Town on the treasure ship filled with food! Luffy catches up to them, and together, they distribute food and water to the people of Okobore Town. Later, Law takes them to the ruins of a hilltop castle.",
       "chapters": "918-919",
       "episodes": "906, 908-909",
       "released": "2020-03-14",
@@ -2622,11 +3406,11 @@
       }
     },
     "6E0CD1C5": {
-      "arc": 35,
+      "arc": 34,
       "episode": 2,
-      "title": "Seppuku",
+      "title": "A Beautiful World",
       "originaltitle": "",
-      "description": "A mysterious country, a rampaging slasher, an ancient samurai ritual of seppuku\u2014and Zoro in the crosshairs! Stranded alone on the beach, Luffy tries to gather his bearings only to be confronted by some dangerous local fauna.",
+      "description": "At New Marineford, Fleet Admiral Sakazuki hears the news about Luffy while nobles from around the world gather for the Reverie! At the Red Line, Garp is escorting King Neptune's family when Shirahoshi sees the surface world for the first time.",
       "chapters": "905-906",
       "episodes": "881-885",
       "released": "2024-10-05",
@@ -2649,6 +3433,20 @@
         "blake2": ""
       }
     },
+    "6E422CFB": {
+      "arc": 33,
+      "episode": 24,
+      "title": "Under Siege",
+      "originaltitle": "",
+      "description": "The Straw Hats and Germa 66 become cornered in Bege's stronghold, and the full might of the Big Mom Pirates is pinning them down! It is only a matter of time before their defenses crack, so they take the only way out and make a break for it.",
+      "chapters": "869-870",
+      "episodes": "839-841",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "6E422CFB",
+        "blake2": ""
+      }
+    },
     "6E46167D": {
       "arc": 1,
       "episode": 4,
@@ -2664,16 +3462,30 @@
       }
     },
     "6F26FDAB": {
-      "arc": 36,
+      "arc": 35,
       "episode": 2,
-      "title": "The Matter Involving Captain Koby",
+      "title": "Seppuku",
       "originaltitle": "",
-      "description": "The three-way struggle between the Marines, the Blackbeard Pirates, and the Kuja Pirates comes to an end when an unexpected figure shows up. On the Sunny, the Straw Hats talk about the recent incidents around the world and Luffy's words surprise everyone.",
+      "description": "A mysterious country, a rampaging slasher, an ancient samurai ritual of seppuku\u2014and Zoro in the crosshairs! Stranded alone on the beach, Luffy tries to gather his bearings only to be confronted by some dangerous local fauna.",
       "chapters": "909-911",
       "episodes": "892-894",
       "released": "2025-05-17",
       "hashes": {
         "crc32": "6F26FDAB",
+        "blake2": ""
+      }
+    },
+    "6FBBD350": {
+      "arc": 33,
+      "episode": 33,
+      "title": "Lion",
+      "originaltitle": "",
+      "description": "Sanji and Bege contend with Charlotte Oven, who boils the sea itself! Meanwhile, a vicious pincer attack bears down on the Straw Hats, but Carrot draws on a deep power within and springs to action under the light of the full moon.",
+      "chapters": "887-888",
+      "episodes": "860-862",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "6FBBD350",
         "blake2": ""
       }
     },
@@ -2692,11 +3504,11 @@
       }
     },
     "6FFCB482": {
-      "arc": 34,
+      "arc": 33,
       "episode": 2,
-      "title": "A Beautiful World",
+      "title": "0 and 4",
       "originaltitle": "",
-      "description": "At New Marineford, Fleet Admiral Sakazuki hears the news about Luffy while nobles from around the world gather for the Reverie! At the Red Line, Garp is escorting King Neptune's family when Shirahoshi sees the surface world for the first time.",
+      "description": "Without Sanji to properly identify safe and edible food, Luffy gets a stomach full of poisonous fish! With no antidotes on board, the Straw Hats must rely on a couple of mysterious\u2014yet somehow familiar\u2014passersby for help.",
       "chapters": "825-826",
       "episodes": "783-785",
       "released": "2020-12-11",
@@ -2733,17 +3545,73 @@
         "blake2": ""
       }
     },
-    "7149D13F": {
-      "arc": 33,
-      "episode": 5,
-      "title": "Adventure in the Mysterious Forest",
+    "7073A62F": {
+      "arc": 31,
+      "episode": 16,
+      "title": "SOP Strategy",
       "originaltitle": "",
-      "description": "Luffy's group makes its way toward Sanji, only to be distracted by the endless supply of sweets and a second Luffy. Before they realize it, they are lost in the Seducing Woods! Meanwhile, Sanji confronts his older brother.",
+      "description": "Zoro and Kin'emon make a mad dash to save Law, but Admiral Fujitora stands in their way, bringing his full power against them. The toy soldier lays out the plan to liberate the Tontattas and bring down the Doflamingo Family: Operation SOP.",
+      "chapters": "730-731",
+      "episodes": "657, 662-663",
+      "released": "2014-11-08",
+      "hashes": {
+        "crc32": "7073A62F",
+        "blake2": ""
+      }
+    },
+    "713F7916": {
+      "arc": 35,
+      "episode": 40,
+      "title": "Oden Was Meant to Boil",
+      "originaltitle": "",
+      "description": "Oden and his retainers are sentenced to death by boiling in a pot. Oden asks for a chance to survive, and an amused Kaido accepts. Meanwhile, Shinobu reveals to surprised citizens what Oden had been doing to save the country.",
+      "chapters": "970-972",
+      "episodes": "971-975",
+      "released": "2024-05-10",
+      "hashes": {
+        "crc32": "713F7916",
+        "blake2": ""
+      }
+    },
+    "7149D13F": {
+      "arc": 32,
+      "episode": 5,
+      "title": "The Curly Hat Pirates Arrive",
+      "originaltitle": "",
+      "description": "While they put up a good fight, the minks were not able to subdue Jack. In the aftermath of Jack's deadly attack, Chopper and Sanji rushed in to save the fallen minks and enlisted the help of Caesar to overcome the lingering gas problem.",
       "chapters": "810-811",
       "episodes": "759-762",
       "released": "2016-11-16",
       "hashes": {
         "crc32": "7149D13F",
+        "blake2": ""
+      }
+    },
+    "71827EF0": {
+      "arc": 33,
+      "episode": 26,
+      "title": "Become My Servant",
+      "originaltitle": "",
+      "description": "The Straw Hats continue their mad dash to the Sunny, and Pudding puts her plan to rebuild the cake into action. As Zeus pursues the Straw Hats, Nami keeps him occupied with a shocking surprise that might stop Big Mom in her tracks!",
+      "chapters": "873-874",
+      "episodes": "843-846",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "71827EF0",
+        "blake2": ""
+      }
+    },
+    "71CA89FC": {
+      "arc": 31,
+      "episode": 26,
+      "title": "The State of the War",
+      "originaltitle": "",
+      "description": "Law's reason for despising Doflamingo is revealed! Luffy heads toward Doflamingo's refuge, making his way through the guards, while down below Admiral Fujitora faces off against Sabo, who is now armed with a familiar fiery power!",
+      "chapters": "750-751",
+      "episodes": "685-688",
+      "released": "2016-08-16",
+      "hashes": {
+        "crc32": "71CA89FC",
         "blake2": ""
       }
     },
@@ -2776,11 +3644,11 @@
       }
     },
     "72E3E794": {
-      "arc": 31,
+      "arc": 30,
       "episode": 10,
-      "title": "The Tontatta Rebellion and the C Block Finale!",
+      "title": "Vergo and Joker! The Beginning of Caesar's Masterplan!",
       "originaltitle": "",
-      "description": "The Tontattas gear up for their all-out assault on the Doflamingo Family, and Usopp and Robin are caught up in the war effort! Meanwhile, Luffy concludes his earth-shattering fight to the death with Don Chinjao.",
+      "description": "Caesar gathers his young test subjects, shocking secret identities are revealed, and the poisonous purple blob continues its march across the island! Meanwhile, Nami and Usopp get an unexpected helping hand in their fight to save the children.",
       "chapters": "673-674",
       "episodes": "599-600",
       "released": "2013-06-24",
@@ -2845,6 +3713,34 @@
         "blake2": ""
       }
     },
+    "7391ECD4": {
+      "arc": 31,
+      "episode": 39,
+      "title": "Zoro vs. Pica",
+      "originaltitle": "",
+      "description": "Pica loses his temper and becomes a terrible and true force of nature. With the lives of King Riku, Usopp, and the others in the balance, Zoro must dig deep and discover a powerful technique to counter Pica's near-unstoppable onslaught.",
+      "chapters": "776-778",
+      "episodes": "716-719",
+      "released": "2017-03-20",
+      "hashes": {
+        "crc32": "7391ECD4",
+        "blake2": ""
+      }
+    },
+    "7392F65E": {
+      "arc": 35,
+      "episode": 46,
+      "title": "Thunder",
+      "originaltitle": "",
+      "description": "Kanjuro arrives before Orochi and Kaido with Momonosuke in tow and Big Mom chases Chopper and Usopp. Meanwhile, Luffy butts heads with Page One's doting sister Ulti, but unbeknownst to Straw Hat, he's also about to meet Kaido's runaway son...",
+      "chapters": "982-983",
+      "episodes": "988-991",
+      "released": "2024-11-16",
+      "hashes": {
+        "crc32": "7392F65E",
+        "blake2": ""
+      }
+    },
     "73E70A0E": {
       "arc": 36,
       "episode": 19,
@@ -2888,11 +3784,11 @@
       }
     },
     "75CC1F6E": {
-      "arc": 31,
+      "arc": 30,
       "episode": 14,
-      "title": "The Plight of the Riku Clan! The Lurking Hero Awaits in the Shadows!",
+      "title": "The Mastermind in the Shadows and the Battle Between Gas and Rubber!",
       "originaltitle": "",
-      "description": "The losers of the colosseum who are being held below the infirmary have an unexpected addition to their numbers. Meanwhile, the history of Tontatta is made clear, as is the shocking identity of the toy soldier!",
+      "description": "Law finds the room that could ruin the New World, and Luffy hopes to bring Caesar's reign of terror to a brutal end! With Law's true ambitions revealed, Doflamingo flies into action to protect his criminal operation!",
       "chapters": "681-682",
       "episodes": "607-608",
       "released": "2013-08-31",
@@ -2943,12 +3839,40 @@
         "blake2": ""
       }
     },
-    "777DE97C": {
-      "arc": 32,
-      "episode": 8,
-      "title": "Raizo of the Mist",
+    "77081AEE": {
+      "arc": 31,
+      "episode": 19,
+      "title": "Diamante and Pica",
       "originaltitle": "",
-      "description": "Revelations abound as the true nature of the men from Wano and their relationship with the minks is revealed, and Momonosuke's role is greater than any had imagined. But even more shocking is the visage of a real ninja!",
+      "description": "The final round at Corrida Colosseum kicks off, and Diamante joins the combatants in an all-out struggle to win the prize! Meanwhile, Luffy and co., en route to Doflamingo, are faced with an immovable member of the Donquixote Family.",
+      "chapters": "736-737",
+      "episodes": "668-670",
+      "released": "2014-12-18",
+      "hashes": {
+        "crc32": "77081AEE",
+        "blake2": ""
+      }
+    },
+    "777A9A6A": {
+      "arc": 31,
+      "episode": 37,
+      "title": "Cabbage and Lomeo",
+      "originaltitle": "",
+      "description": "A mysterious force that resembles Cavendish menaces the battlefield! While it appears to help Bartolomeo and co. at first, it soon sets its sights on Robin! As he continues to battle Gladius, Bartolomeo is faced with an impossible dilemma.",
+      "chapters": "772-773",
+      "episodes": "711-713",
+      "released": "2017-02-24",
+      "hashes": {
+        "crc32": "777A9A6A",
+        "blake2": ""
+      }
+    },
+    "777DE97C": {
+      "arc": 31,
+      "episode": 8,
+      "title": "Closely Contested Block C! Lucy and Ucy!",
+      "originaltitle": "",
+      "description": "The Sunny is mysteriously deformed by Giolla's strange powers! Meanwhile, the battle for Block C is under way, but Luffy suffers a staggering setback. He eventually knocks down the giant Hajrudin, but Chinjao has his sights set on Garp's grandson!",
       "chapters": "714-715",
       "episodes": "643-645",
       "released": "2014-06-01",
@@ -2972,11 +3896,11 @@
       }
     },
     "7926F9B5": {
-      "arc": 30,
+      "arc": 29,
       "episode": 11,
-      "title": "The Experiment Begins! Shinokuni Unleashed!",
+      "title": "The Shocking Truth of Tiger! The End of the Sun Pirates",
       "originaltitle": "",
-      "description": "A candy addiction leads the children to return, and Caesar plans to show the world his new and improved Smiley! Luffy and the Straw Hats next find themselves pursued by a deadly cloud of gas that turns living things into statues of ash!",
+      "description": "Fisher Tiger's past quickly caught up to him, and he left his crew with a sobering, final command. While Jinbe vowed to uphold Tiger's and Otohime's ideals, Arlong's resentment only grew, and soon, the Sun Pirates faced a crisis of identity.",
       "chapters": "623-624",
       "episodes": "543-545",
       "released": "2013-04-14",
@@ -2996,6 +3920,20 @@
       "released": "2025-08-18",
       "hashes": {
         "crc32": "792BE789",
+        "blake2": ""
+      }
+    },
+    "79C6DC33": {
+      "arc": 35,
+      "episode": 54,
+      "title": "The Sake I Brewed to Drink With You",
+      "originaltitle": "",
+      "description": "Sanji gets himself caught in Black Maria's web, Jinbe faces Who's-Who, and Yamato tells of the time Ace visited Onigashima. Elsewhere, Marco joins the fray on the Performance Floor to help soothe the infected and to offer Zoro a ride.",
+      "chapters": "998-999",
+      "episodes": "1012-1014",
+      "released": "2025-09-15",
+      "hashes": {
+        "crc32": "79C6DC33",
         "blake2": ""
       }
     },
@@ -3042,11 +3980,11 @@
       }
     },
     "7DBBFA18": {
-      "arc": 30,
+      "arc": 29,
       "episode": 22,
-      "title": "The Arrival of the Mysterious Man and the News Coo!",
-      "originaltitle": "",
-      "description": "Doflamingo\u2014a.k.a. Joker\u2014arrives on the scene and wreaks havoc! Only an icy intercession can save Smoker and send Joker off to rethink his strategy. Meanwhile, the Sunny sails through the rough seas of the New World where even a bit of hail portends doom!",
+      "title": "The Path Toward the Sun",
+      "originaltitle": "The Path Towards the Sun",
+      "description": "Hody is vanquished, the Noah is stopped, and Fishman Island is saved! Unfortunately, Luffy was gravely injured in the process. With no time to spare, a true friend steps forward to tear down the walls of the island's history.",
       "chapters": "647-649",
       "episodes": "567-569",
       "released": "2013-05-11",
@@ -3056,11 +3994,11 @@
       }
     },
     "7F73DB45": {
-      "arc": 33,
+      "arc": 32,
       "episode": 6,
-      "title": "Vinsmoke Judge",
+      "title": "Tea Party Invitation",
       "originaltitle": "",
-      "description": "Sanji faces his father in a duel as the wounds of his childhood are laid bare! Meanwhile, Luffy falls for the illusions of the forest, and Big Mom has Caesar at her whims, ready to use him to continue her maniacal pursuits.",
+      "description": "The mystery of Sanji's disappearance only deepens as Luffy learns that Big Mom's lackeys caught up with him and offered him an invitation from one of the Four Emperors that simply could not be refused.",
       "chapters": "812-813",
       "episodes": "762-764",
       "released": "2016-12-24",
@@ -3084,16 +4022,44 @@
       }
     },
     "8014A332": {
-      "arc": 30,
+      "arc": 29,
       "episode": 15,
-      "title": "Vice Admiral vs. Vice Admiral and the Truth Behind Punk Hazard's Destruction!",
+      "title": "Hody's Dark Secret! The Straw Hats' Arrival",
       "originaltitle": "",
-      "description": "Smoker attacks the estranged Vice Admiral Vergo for assaulting his men, and in the trash heap, Luffy meets something strange. Meanwhile, Caesar's bloated words to his men about the island's history do not match what occurred.",
+      "description": "Shirahoshi and Jinbe hurry to free King Neptune but run headlong into a trap. There, Hody reveals a shocking truth about the history of his revolution, but even in the face of Hody's cruelty, Shirahoshi holds true to her mother's dying wish.",
       "chapters": "632-633",
       "episodes": "552-553",
       "released": "2013-04-19",
       "hashes": {
         "crc32": "8014A332",
+        "blake2": ""
+      }
+    },
+    "81C4666C": {
+      "arc": 31,
+      "episode": 46,
+      "title": "Sabo's Adventure",
+      "originaltitle": "",
+      "description": "The combatants in the battle for Dressrosa can finally begin to recoup, but those who stay awake are treated to the story of how Sabo joined the Revolutionary Army and how he reunited with his brother Luffy at the colosseum.",
+      "chapters": "794-795",
+      "episodes": "737-739",
+      "released": "2017-06-28",
+      "hashes": {
+        "crc32": "81C4666C",
+        "blake2": ""
+      }
+    },
+    "8313ECE3": {
+      "arc": 33,
+      "episode": 32,
+      "title": "Way of Life",
+      "originaltitle": "",
+      "description": "When Chiffon comes under attack, Sanji must choose between defending her or revealing his whereabouts to his enemies. Elsewhere, Luffy uses Charlotte Br\u00fbl\u00e9e as a human shield to avoid the wrath of Big Mom.",
+      "chapters": "885-886",
+      "episodes": "858-860",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "8313ECE3",
         "blake2": ""
       }
     },
@@ -3126,11 +4092,11 @@
       }
     },
     "8538EDC4": {
-      "arc": 36,
+      "arc": 35,
       "episode": 2,
-      "title": "The Matter Involving Captain Koby",
+      "title": "Seppuku",
       "originaltitle": "",
-      "description": "The three-way struggle between the Marines, the Blackbeard Pirates, and the Kuja Pirates comes to an end when an unexpected figure shows up. On the Sunny, the Straw Hats talk about the recent incidents around the world and Luffy's words surprise everyone.",
+      "description": "A mysterious country, a rampaging slasher, an ancient samurai ritual of seppuku\u2014and Zoro in the crosshairs! Stranded alone on the beach, Luffy tries to gather his bearings only to be confronted by some dangerous local fauna.",
       "chapters": "909-911",
       "episodes": "892-894",
       "released": "2025-05-17",
@@ -3140,11 +4106,11 @@
       }
     },
     "85AD9C81": {
-      "arc": 30,
+      "arc": 29,
       "episode": 21,
-      "title": "The Alliance's Target and the Departure!",
+      "title": "Death Is Also Revenge",
       "originaltitle": "",
-      "description": "Bitter enemies set aside their differences to enjoy a well-deserved feast. The weary Marines and the rescued children get teary-eyed as they say goodbye to the Straw Hats. Meanwhile, Law enters into treacherous negotiations with Joker.",
+      "description": "Luffy has a fist of fire with Hody's name on it, and the rest of the Straw Hats push forward with all their might. Hody takes even more energy steroids, and a gravely injured Luffy struggles to overcome the fishman's unbelievable stamina.",
       "chapters": "643-646",
       "episodes": "562-567",
       "released": "2013-05-07",
@@ -3265,6 +4231,20 @@
         "blake2": ""
       }
     },
+    "8B5E1006": {
+      "arc": 33,
+      "episode": 11,
+      "title": "Luffy vs. Sanji",
+      "originaltitle": "",
+      "description": "Luffy finishes off Cracker and finally catches up with Sanji, but the Straw Hats' cook seems far from thrilled about the reunion. A heartbreaking duel commences, but a steadfast Luffy makes a solemn vow to his friend and crewmate.",
+      "chapters": "843-844",
+      "episodes": "806-808",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "8B5E1006",
+        "blake2": ""
+      }
+    },
     "8B836836": {
       "arc": 21,
       "episode": 12,
@@ -3322,11 +4302,11 @@
       }
     },
     "90015E67": {
-      "arc": 31,
+      "arc": 30,
       "episode": 1,
-      "title": "Arriving at Dressrosa! The Country of Passion, Love, and Toys!",
+      "title": "Punk Hazard",
       "originaltitle": "",
-      "description": "Dressrosa! The Straw Hats split up and set about their business on this passionate, enchanting island! But here, in the heart of enemy territory, danger lurks around every corner. Luffy's group encounters an intriguing blind man whose luck has run dry.",
+      "description": "Fresh off the adventure at Fishman Island, the Sunny is caught in a massive whirlpool and dragged off course. A desperate cry for help leads the Straw Hats to Punk Hazard, an island engulfed in flames and inhabited by a mythic beast.",
       "chapters": "654-655",
       "episodes": "574, 579",
       "released": "2013-05-17",
@@ -3336,11 +4316,11 @@
       }
     },
     "90034ECC": {
-      "arc": 32,
+      "arc": 31,
       "episode": 3,
-      "title": "At Rightflank Fortress",
-      "originaltitle": "",
-      "description": "Luffy and co. ride out the rain-ruption and learn of its vital role in maintaining life on Zou. As they continue toward the fortress, they learn more about the mysterious minks, and are finally reunited with the others.",
+      "title": "The Colosseum of Many New Faces and Maynard the Pursuer!",
+      "originaltitle": "The Colosseum of Many New Faces and Maynard's Pursuit!",
+      "description": "Luffy enters the tournament at Corrida Colosseum to compete for Ace's fruit, but with the mightiest warriors of the New World assembled and standing in his way, the competition will not be easy. The first stage of the competition is a battle royal!",
       "chapters": "704-705",
       "episodes": "633-635",
       "released": "2014-04-01",
@@ -3406,11 +4386,11 @@
       }
     },
     "91BE23B7": {
-      "arc": 36,
+      "arc": 35,
       "episode": 10,
-      "title": "Miss Buckingham Stussy",
+      "title": "Shutenmaru",
       "originaltitle": "",
-      "description": "Upon mysterious orders, Stussy betrays Lucci and Kaku. Lilith and Edison also hurry outside the lab to stop the rampaging seraphim. Meanwhile, the main Dr. Vegapunk goes missing, and Admiral Kizaru escorts a powerful and commanding entity toward Egghead.",
+      "description": "Ashura Doji, a.k.a Shutenmaru, is one of the allies Kin'emon wants to search for, and he leads a raid on Okobore Town to steal the food that Luffy brought. This unrest prompts the drunken Kaido to fly above Okobore Town in his dragon form.",
       "chapters": "921-922",
       "episodes": "911-913",
       "released": "2020-03-31",
@@ -3448,11 +4428,11 @@
       }
     },
     "93376225": {
-      "arc": 36,
+      "arc": 35,
       "episode": 20,
-      "title": "Sentomaru",
+      "title": "A Woman's Secret",
       "originaltitle": "",
-      "description": "Admiral Kizaru finally makes landfall, but Sentomaru stands in his way while the Straw Hats attempt to move the Sunny to the back side of the island. And back at Mary Geoise, Fleet Admiral Akainu stands in the way of the ever-advancing Kuma.",
+      "description": "The wounded Zoro wakes up to find out the shocking identity of the woman he saved and is told the unbelievable tale of twenty years earlier. Meanwhile, Luffy's \"training\" is not getting anywhere, but a surprising person gives him his first lesson.",
       "chapters": "938-939",
       "episodes": "934-937",
       "released": "2021-01-09",
@@ -3476,11 +4456,11 @@
       }
     },
     "94E2099D": {
-      "arc": 30,
+      "arc": 29,
       "episode": 20,
-      "title": "Die for Me! The Dangerous Man Makes His Move!",
+      "title": "Phantom",
       "originaltitle": "",
-      "description": "As the Straw Hats and co. flee the crumbling laboratory, Caesar's desperate act of vengeance thwarts Joker's plan to forever silence his enemies. Franky continues his battle with Buffalo and Baby 5, and Usopp takes a shot at capturing Caesar.",
+      "description": "Neptune's army aids the Straw Hats against the New Fishman Pirates, finally accepting the crew as allies. As the fight continues, Fukaboshi's transponder snail reveals the bone chilling truth behind Hody's motivations.",
       "chapters": "642-645",
       "episodes": "563-567",
       "released": "2013-05-03",
@@ -3489,12 +4469,26 @@
         "blake2": ""
       }
     },
-    "94F78CF3": {
-      "arc": 36,
-      "episode": 18,
-      "title": "The Final Lesson",
+    "94E3481F": {
+      "arc": 33,
+      "episode": 9,
+      "title": "The Iron Mask",
       "originaltitle": "",
-      "description": "At Pirate Island, Vice Admiral Garp continues the Koby extraction mission, but Avalo Pizarro's devil fruit powers threaten to sink the rescue ship. Garp, weakened from an attack by Shiryu, entrusts the operation's success to the next generation.",
+      "description": "Sanji challenges his entire family, but they have effectively ensured he follows their wedding scheme. The truth of Germa's power and Vinsmoke Judge's dark history is also revealed. Meanwhile, Nami has recruited the homies and challenges Cracker!",
+      "chapters": "839-840",
+      "episodes": "800-803, 807",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "94E3481F",
+        "blake2": ""
+      }
+    },
+    "94F78CF3": {
+      "arc": 35,
+      "episode": 18,
+      "title": "Hyogoro the Flower",
+      "originaltitle": "",
+      "description": "Chopper's group is off to rescue Luffy from the Prisoner Mining Camp, but the Straw Hat captain is in a bit of a bind. While Luffy tries to save old man Hyo from execution, Queen the Plague comes to visit the prison.",
       "chapters": "934-935",
       "episodes": "929-931",
       "released": "2020-12-09",
@@ -3518,11 +4512,11 @@
       }
     },
     "964FB36B": {
-      "arc": 31,
+      "arc": 30,
       "episode": 13,
-      "title": "Law's New Strategy and the Colosseum's Underground Nightmare!",
+      "title": "G-5's Sacrifice and the Betrayal of the Vice Admiral!",
       "originaltitle": "",
-      "description": "Law must put himself in harm's way to defend the Sunny and the Straw Hats from Doflamingo's all-out assault. Meanwhile, Bartolomeo searches the colosseum for Luffy and discovers something strange about the medical center for the defeated.",
+      "description": "Caesar hatches a plan to forever silence his enemies, and Tashigi's men make the ultimate sacrifice! Luffy races toward Caesar to deliver on his promise to beat and capture him, and Chopper does all he can to keep the children from consuming more candy.",
       "chapters": "679-680",
       "episodes": "604-606",
       "released": "2013-08-11",
@@ -3573,6 +4567,20 @@
         "blake2": ""
       }
     },
+    "98B5E26D": {
+      "arc": 35,
+      "episode": 35,
+      "title": "Daimyo and Retainers",
+      "originaltitle": "",
+      "description": "Oden transformed Kuri and was made Daimyo over it. He also met a kappa fishman and two minks, who soon became his followers. Kin'emon and the other vassals took Yasuie's strong words to heart and began transforming themselves for their lord.",
+      "chapters": "962-963",
+      "episodes": "961-963",
+      "released": "2023-10-11",
+      "hashes": {
+        "crc32": "98B5E26D",
+        "blake2": ""
+      }
+    },
     "99260C5A": {
       "arc": 16,
       "episode": 12,
@@ -3598,6 +4606,20 @@
       "released": "2024-11-29",
       "hashes": {
         "crc32": "9974A092",
+        "blake2": ""
+      }
+    },
+    "99A61805": {
+      "arc": 29,
+      "episode": 24,
+      "title": "The Hero's Hat",
+      "originaltitle": "",
+      "description": "Filled with both excitement and trepidation, the crew finally sets sail for the New World. After bidding their fond farewells, the Straw Hats leave with a new log pose in hand. Overcoming trials and tragedies, Luffy's dream is on course once again!",
+      "chapters": "652-653",
+      "episodes": "572-573",
+      "released": "2013-05-16",
+      "hashes": {
+        "crc32": "99A61805",
         "blake2": ""
       }
     },
@@ -3657,12 +4679,26 @@
         "blake2": ""
       }
     },
-    "9CE5B9DD": {
+    "9C3360D6": {
       "arc": 31,
-      "episode": 15,
-      "title": "Doflamingo's Relentless Pursuit",
+      "episode": 31,
+      "title": "The Operation Fruit",
       "originaltitle": "",
-      "description": "Revealed is the sad fate of King Riku, his army, and his daughter, Princess Viola, as well as how the people of Dressrosa fell into the hands of Doflamingo. Not to mention, all the toys in the country share a mysterious secret.",
+      "description": "All hopes rest on Luffy and Law being able to take down Doflamingo; however, the Warlord has other plans in mind as he gives the two the fight of their lives, and he reveals his true, shocking history! Meanwhile, Sabo finds out Fujitora's true intention.",
+      "chapters": "760-761",
+      "episodes": "699-700",
+      "released": "2016-10-13",
+      "hashes": {
+        "crc32": "9C3360D6",
+        "blake2": ""
+      }
+    },
+    "9CE5B9DD": {
+      "arc": 30,
+      "episode": 15,
+      "title": "Vice Admiral vs. Vice Admiral and the Truth Behind Punk Hazard's Destruction!",
+      "originaltitle": "",
+      "description": "Smoker attacks the estranged Vice Admiral Vergo for assaulting his men, and in the trash heap, Luffy meets something strange. Meanwhile, Caesar's bloated words to his men about the island's history do not match what occurred.",
       "chapters": "683-684",
       "episodes": "609-610",
       "released": "2013-09-17",
@@ -3686,11 +4722,11 @@
       }
     },
     "9E0A91E9": {
-      "arc": 30,
+      "arc": 29,
       "episode": 4,
-      "title": "The Lake of Bandits",
+      "title": "Arrival at Coral Hill! The Nosebleed and the Devastating Prediction!",
       "originaltitle": "",
-      "description": "Luffy's group takes a deadly plunge into icy waters, and Trafalgar Law uses his unique abilities to rearrange Nami's group and place the Straw Hats into a state of chaos! Then, things heat up when G-5 squares off with Law.",
+      "description": "The mermaids of Fishman Island give the Straw Hats a warm welcome, but Sanji is struck with a sudden medical emergency! Luffy and co. take their anemic friend to the Mermaid Cafe to rest, where they are introduced to its soothsaying owner.",
       "chapters": "609-610",
       "episodes": "528-529",
       "released": "2013-04-02",
@@ -3700,11 +4736,11 @@
       }
     },
     "9F63AF78": {
-      "arc": 36,
+      "arc": 35,
       "episode": 22,
-      "title": "Kumachi",
+      "title": "Shimotsuki Yasuie, the Daimyo of Hakumai",
       "originaltitle": "",
-      "description": "Born with the rare blood of the Buccaneer people, young Kuma was fated to lead a life of persecution at the hands of the Celestial Dragons, but his father instilled hope within him through the legend of Nika and the Drums of Liberation.",
+      "description": "Tonoyasu has been strung up and awaits his inevitable execution while all of Wano is shocked to find out who he really is. The citizens cry out in outrage, and the doomed man raises his voice in a final act of rebellion against Shogun Orochi.",
       "chapters": "941-943",
       "episodes": "939-940",
       "released": "2021-04-28",
@@ -3714,16 +4750,30 @@
       }
     },
     "9FA61F60": {
-      "arc": 36,
+      "arc": 35,
       "episode": 16,
-      "title": "The Attempted Murder of a Celestial Dragon",
+      "title": "Soba Mask",
       "originaltitle": "",
-      "description": "During the Reverie, Sabo and Bonney met and worked together toward the same goal. King Cobra also met with the Five Elders to ask some hard questions, in the process learning the dark truth of the world.",
+      "description": "In the Flower Capital, a member of the Beast Pirates, Page One, attacks every soba restaurant in search of Sanji. The Straw Hat's cook faces Kaido's headliner while using Germa's device for the first time to hide his identity.",
       "chapters": "930-931",
       "episodes": "923-926",
       "released": "2020-07-24",
       "hashes": {
         "crc32": "9FA61F60",
+        "blake2": ""
+      }
+    },
+    "A3939979": {
+      "arc": 33,
+      "episode": 34,
+      "title": "Unknown Mama",
+      "originaltitle": "",
+      "description": "Wielding Napoleon and backed by Zeus and Prometheus, Big Mom wreaks havoc on the Sunny. As the Straw Hats try to kick out the Emperor, their ship catches fire! But then, Jinbe steps up to the plate to take a swing.",
+      "chapters": "889-891",
+      "episodes": "862-865",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "A3939979",
         "blake2": ""
       }
     },
@@ -3756,11 +4806,11 @@
       }
     },
     "A4F76B13": {
-      "arc": 33,
+      "arc": 32,
       "episode": 4,
-      "title": "Pirate Emperor, Charlotte Linlin",
-      "originaltitle": "Emperor of the Sea, Charlotte Linlin",
-      "description": "Big Mom ravages Whole Cake Island in search of sweets, and while a familiar face across the waters has just what she needs, he also brings ill tidings. As the Straw Hats draw closer to the island, Pedro shares his sordid past in Big Mom's territory.",
+      "title": "Duke Inuarashi and Master Nekomamushi",
+      "originaltitle": "",
+      "description": "The Straw Hats finally meet the daytime ruler of this strange land. They learn more about the battle that took place here and discover the mysterious system by which the island is ruled.",
       "chapters": "808-809",
       "episodes": "757-760",
       "released": "2016-10-23",
@@ -3909,6 +4959,20 @@
         "blake2": ""
       }
     },
+    "A8E42FE1": {
+      "arc": 33,
+      "episode": 16,
+      "title": "Not Here",
+      "originaltitle": "",
+      "description": "Luffy fights through more obstacles in search of Sanji, and Brook hears Big Mom's plan firsthand as she shares her intentions with Pudding. While Big Mom's agents believe most of the Straw Hats to be under their control, Mont d'Or has his doubts.",
+      "chapters": "853-854",
+      "episodes": "820-822",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "A8E42FE1",
+        "blake2": ""
+      }
+    },
     "A905C964": {
       "arc": 14,
       "episode": 9,
@@ -3924,11 +4988,11 @@
       }
     },
     "A95DE47B": {
-      "arc": 32,
+      "arc": 31,
       "episode": 5,
-      "title": "The Curly Hat Pirates Arrive",
+      "title": "B Block on Fire! Outlandish Competitors and King Punch!",
       "originaltitle": "",
-      "description": "While they put up a good fight, the minks were not able to subdue Jack. In the aftermath of Jack's deadly attack, Chopper and Sanji rushed in to save the fallen minks and enlisted the help of Caesar to overcome the lingering gas problem.",
+      "description": "The battle in Block B hits a crescendo as the Fighting King Elizabello II prepares his devastating King Punch! But as the powerful attack becomes imminent, the Kingdom of Prodence faction unravels!",
       "chapters": "708-709",
       "episodes": "637-638",
       "released": "2014-04-25",
@@ -3979,6 +5043,20 @@
         "blake2": ""
       }
     },
+    "ABB0AC56": {
+      "arc": 33,
+      "episode": 30,
+      "title": "Wave Room",
+      "originaltitle": "",
+      "description": "Nami and Luffy discuss a rendezvous point while the others break the mirrors on the Sunny. Little do they know their plan is overheard, and Luffy's grueling battle against Katakuri\u2014haki vs. haki, rubber vs. mochi\u2014intensifies.",
+      "chapters": "881-883",
+      "episodes": "853-855, 858",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "ABB0AC56",
+        "blake2": ""
+      }
+    },
     "ACBE88D6": {
       "arc": 36,
       "episode": 4,
@@ -3990,6 +5068,20 @@
       "released": "2025-01-11",
       "hashes": {
         "crc32": "ACBE88D6",
+        "blake2": ""
+      }
+    },
+    "ACC7852E": {
+      "arc": 31,
+      "episode": 29,
+      "title": "Trump Card",
+      "originaltitle": "",
+      "description": "Gladius' exploding spheres send Robin and Bartolomeo hurtling directly into Luffy and co.'s battle with some creepy dolls. Rebecca makes it to the Flower Field alone, and Sabo tastes Fujitora's full might!",
+      "chapters": "756-757",
+      "episodes": "693-696",
+      "released": "2016-09-30",
+      "hashes": {
+        "crc32": "ACC7852E",
         "blake2": ""
       }
     },
@@ -4022,11 +5114,11 @@
       }
     },
     "ACF1C889": {
-      "arc": 31,
+      "arc": 30,
       "episode": 5,
-      "title": "B Block on Fire! Outlandish Competitors and King Punch!",
+      "title": "CC",
       "originaltitle": "",
-      "description": "The battle in Block B hits a crescendo as the Fighting King Elizabello II prepares his devastating King Punch! But as the powerful attack becomes imminent, the Kingdom of Prodence faction unravels!",
+      "description": "Luffy is excited to once again cross paths with Trafalgar Law. While Vice Admiral Smoker determines his next move, an exceptionally large pirate with alligator legs tells Luffy and the Straw Hats the true story of Punk Hazard's mysterious transformation!",
       "chapters": "663-664",
       "episodes": "588-589",
       "released": "2013-05-27",
@@ -4064,11 +5156,11 @@
       }
     },
     "AD550761": {
-      "arc": 31,
+      "arc": 30,
       "episode": 9,
-      "title": "C Block's Blazing Battle and the Forgotten of Dressrosa!",
+      "title": "My Name Is Kin'emon!!",
       "originaltitle": "",
-      "description": "In the colosseum, Chinjao finally faces Luffy and reveals the old grudge he bears against Garp! Meanwhile, Usopp and Robin get swept up in the Tontattas' raid against the royal family, and Franky learns the eerie secret of Dressrosa's living toys.",
+      "description": "Law's plan to infiltrate Caesar's facility hits a snag when an unexpected guest complicates things. Meanwhile, Chopper investigates the Master's lab, and the mysterious samurai shows what he can do with a full body!",
       "chapters": "671-672",
       "episodes": "597-598",
       "released": "2013-06-07",
@@ -4077,12 +5169,26 @@
         "blake2": ""
       }
     },
+    "AD8C9C16": {
+      "arc": 35,
+      "episode": 37,
+      "title": "Roger and Whitebeard",
+      "originaltitle": "",
+      "description": "Back in Wano, the Shogun Sukiyaki seemed to fall critically ill and named Orochi proxy Shogun. Meanwhile, Whitebeard's crew made landfall where the Roger Pirates were fighting against the Marines on the other side of the island.",
+      "chapters": "965-966",
+      "episodes": "964-967",
+      "released": "2023-12-15",
+      "hashes": {
+        "crc32": "AD8C9C16",
+        "blake2": ""
+      }
+    },
     "AE6ABE84": {
-      "arc": 36,
+      "arc": 35,
       "episode": 15,
-      "title": "Let's Go and Take It!!",
-      "originaltitle": "Let's Go and Take It!",
-      "description": "While Cross Guild grows into a serious concern for the Marines, Buggy makes an impassioned speech to spur his crew into a zealous fervor. Additionally, Sabo returns to his comrades and begins his report on the events that happened at the Reverie.",
+      "title": "Oiran Komurasaki Arrives",
+      "originaltitle": "",
+      "description": "Wano's top courtesan\u2014the oiran Komurasaki\u2014is in procession and slowly makes her way to Orochi Palace. While everyone is fascinated by the oiran, some seeking vengeance get in her way.",
       "chapters": "928-930",
       "episodes": "921-923",
       "released": "2020-07-12",
@@ -4176,11 +5282,11 @@
       }
     },
     "B51C53E9": {
-      "arc": 36,
+      "arc": 35,
       "episode": 5,
-      "title": "The Six Vegapunks",
+      "title": "Okobore Town",
       "originaltitle": "",
-      "description": "Lilith takes the Sunny and its remaining crew to the laboratory in the clouds, where a new threat lurking within its corridors attacks unexpectedly. As the battle ensues, Vegapunk's satellites look on with excitement.",
+      "description": "Otama is kidnapped by Kaido's gifters and taken to a flourishing settlement called Bakura Town where a creepy-looking headliner was expecting her. Luffy, Zoro, and the samurai Okiku rush to her rescue.",
       "chapters": "914-915",
       "episodes": "900-902",
       "released": "2019-10-18",
@@ -4218,11 +5324,11 @@
       }
     },
     "B6BD1A60": {
-      "arc": 30,
+      "arc": 29,
       "episode": 18,
-      "title": "Luffy and Law's All-out Attack! The Takeover of the New Era!",
+      "title": "I'll Protect Everything",
       "originaltitle": "",
-      "description": "Brownbeard heroically attempts to expose Caesar as a villain, and the horrific truth about Punk Hazard is finally revealed! Luffy makes Caesar pay for his crimes against the children, and Smoker risks his life for a chance to see Vergo fall in battle!",
+      "description": "Shirahoshi flees into the open sea, hoping to draw the Noah away from Fishman Island. Luffy follows her, but he must contend with Hody Jones along the way. Luckily, the appearance of a new ally gives Luffy a chance to protect Shirahoshi.",
       "chapters": "638-639",
       "episodes": "559-560",
       "released": "2013-04-28",
@@ -4259,6 +5365,20 @@
         "blake2": ""
       }
     },
+    "BAFFE801": {
+      "arc": 35,
+      "episode": 36,
+      "title": "Oden's Adventure",
+      "originaltitle": "",
+      "description": "As Oden began his voyage, he was in awe of all the things that he had never seen before, and for the first time in his life, he became a wanted person and made the headlines, catching the eye of a high-profile figure.",
+      "chapters": "964-965",
+      "episodes": "963-964",
+      "released": "2023-12-08",
+      "hashes": {
+        "crc32": "BAFFE801",
+        "blake2": ""
+      }
+    },
     "BB1D093C": {
       "arc": 14,
       "episode": 1,
@@ -4288,11 +5408,11 @@
       }
     },
     "BD7169C3": {
-      "arc": 30,
+      "arc": 29,
       "episode": 2,
-      "title": "Adventure on the Burning Island",
+      "title": "Adventure in the Ocean Depths! 10 Kilometers Below the Surface!",
       "originaltitle": "",
-      "description": "Luffy, Robin, Usopp, and Zoro face a powerful dragon, and Luffy gets up close and personal with a torso-less figure. Elsewhere, Nami, Sanji, Chopper, and Franky find themselves imprisoned with the pieces of a human face!",
+      "description": "Luffy, Zoro, and Sanji leave the relative safety of the Sunny to face the Kraken in its own territory. Putting their powerful new skills to work, they survive the encounter but are swept away by a downward current and become lost in the murky depths.",
       "chapters": "605-606",
       "episodes": "524-526",
       "released": "2013-03-29",
@@ -4315,6 +5435,20 @@
         "blake2": ""
       }
     },
+    "BE72EB0E": {
+      "arc": 31,
+      "episode": 20,
+      "title": "Captain",
+      "originaltitle": "",
+      "description": "With Operation SOP in its final stage, the Tontattas are devastated by Trebol's furious attack, but as Usopp tries to convince Leo to abort the operation, Leo tells him about their commander's stunning true identity.",
+      "chapters": "738-739",
+      "episodes": "670-672",
+      "released": "2015-01-23",
+      "hashes": {
+        "crc32": "BE72EB0E",
+        "blake2": ""
+      }
+    },
     "BF59EB14": {
       "arc": 16,
       "episode": 6,
@@ -4330,11 +5464,11 @@
       }
     },
     "BF92DCAF": {
-      "arc": 36,
+      "arc": 35,
       "episode": 14,
-      "title": "The Legendary Hero",
+      "title": "Otoko the Kamuro",
       "originaltitle": "",
-      "description": "While Koby desperately attempts to flee Beehive, Cross Guild's bounty entices the hundreds of pirates there to hunt him down. But before they can seal his fate and claim the prize, a familiar Marine warship descends from the sky!",
+      "description": "In the Prisoner Mining Camp, Luffy's and Kid's competition garners the wrong kind of attention. Meanwhile, Sanji's soba becomes immensely popular, but gang members disturb his business and knock over a customer's bowl.",
       "chapters": "926-927",
       "episodes": "919-922",
       "released": "2020-06-25",
@@ -4386,16 +5520,30 @@
       }
     },
     "C19D5680": {
-      "arc": 30,
+      "arc": 29,
       "episode": 19,
-      "title": "The Strongest Grizzly Magnum and the Assassins from Dressrosa!",
+      "title": "What Are You?",
       "originaltitle": "",
-      "description": "Law concludes his epic battle with Vergo, and Luffy looks to land a devastating blow on the murderous gasbag mastermind. Meanwhile, word of Luffy and Law's alliance spreads throughout the world, and Joker sends a team to rescue Caesar.",
+      "description": "The Straw Hats hold their own against the powerful officers from Hody's crew. But their struggle will be in vain if Luffy cannot stop the Noah. Meanwhile, Hody becomes stronger than ever.",
       "chapters": "640-641",
       "episodes": "561-562",
       "released": "2013-04-30",
       "hashes": {
         "crc32": "C19D5680",
+        "blake2": ""
+      }
+    },
+    "C21EC74A": {
+      "arc": 31,
+      "episode": 21,
+      "title": "Usoland the Liar",
+      "originaltitle": "",
+      "description": "With the Tontattas beaten, Robin turned into a toy, and Luffy, Franky, and the others busy elsewhere, Usopp is the last hope for Operation SOP! Among the cries of the Tontattas, Usopp has a difficult decision to make.",
+      "chapters": "740-741",
+      "episodes": "672-675",
+      "released": "2015-03-02",
+      "hashes": {
+        "crc32": "C21EC74A",
         "blake2": ""
       }
     },
@@ -4441,6 +5589,20 @@
         "blake2": ""
       }
     },
+    "C29E5C35": {
+      "arc": 31,
+      "episode": 13,
+      "title": "Law's New Strategy and the Colosseum's Underground Nightmare!",
+      "originaltitle": "",
+      "description": "Law must put himself in harm's way to defend the Sunny and the Straw Hats from Doflamingo's all-out assault. Meanwhile, Bartolomeo searches the colosseum for Luffy and discovers something strange about the medical center for the defeated.",
+      "chapters": "724-725",
+      "episodes": "655-657",
+      "released": "2014-09-11",
+      "hashes": {
+        "crc32": "C29E5C35",
+        "blake2": ""
+      }
+    },
     "C2AAAAF7": {
       "arc": 21,
       "episode": 3,
@@ -4456,16 +5618,30 @@
       }
     },
     "C2C37921": {
-      "arc": 32,
+      "arc": 31,
       "episode": 9,
-      "title": "Momonosuke, Heir of the Kozuki Family",
+      "title": "C Block's Blazing Battle and the Forgotten of Dressrosa!",
       "originaltitle": "",
-      "description": "More mysteries of the Kozuki Clan are revealed, and its retainers propose an alliance to help topple one of the Four Emperors: Kaido of the Beast Pirates! But first, Luffy has some important Straw Hat business to attend to.",
+      "description": "In the colosseum, Chinjao finally faces Luffy and reveals the old grudge he bears against Garp! Meanwhile, Usopp and Robin get swept up in the Tontattas' raid against the royal family, and Franky learns the eerie secret of Dressrosa's living toys.",
       "chapters": "716-717",
       "episodes": "646-647",
       "released": "2014-06-24",
       "hashes": {
         "crc32": "C2C37921",
+        "blake2": ""
+      }
+    },
+    "C3825063": {
+      "arc": 35,
+      "episode": 25,
+      "title": "Queen vs. Olin",
+      "originaltitle": "",
+      "description": "To Chopper's surprise, the kind and sweet Olin\u2014a.k.a. Emperor Big Mom\u2014has proven her power to be just as devastating as ever. Olin's hunger pangs just about reach their limit, and Luffy must act quickly before his mechanical collar executes him.",
+      "chapters": "946-947",
+      "episodes": "945-947",
+      "released": "2021-09-10",
+      "hashes": {
+        "crc32": "C3825063",
         "blake2": ""
       }
     },
@@ -4498,11 +5674,11 @@
       }
     },
     "C5FB1123": {
-      "arc": 35,
+      "arc": 34,
       "episode": 1,
-      "title": "Onward to Wano",
+      "title": "The Fifth Emperor",
       "originaltitle": "",
-      "description": "Luffy and the others see familiar faces in a newspaper article about the Reverie right as they approach Wano. However, this dangerous and foreboding land is as inaccessible as it is mysterious, with the sea itself acting as a barrier!",
+      "description": "Luffy's reputation grows as all eyes look toward the Straw Hats' next move. Meanwhile, the royals of the world make their way to the Reverie, but their absence welcomes a raid by a vicious band of pirates on the Kingdom of Lulusia.",
       "chapters": "903-904",
       "episodes": "878-880",
       "released": "2024-10-05",
@@ -4553,6 +5729,34 @@
         "blake2": ""
       }
     },
+    "C89B4C1E": {
+      "arc": 35,
+      "episode": 41,
+      "title": "The Kozuki Clan",
+      "originaltitle": "",
+      "description": "After Kaido attacks Oden's family in their castle, Toki uses her power one last time and makes a prophecy to the people of Wano. Twenty years later, the raid on Onigashima is imminent, but the sting of betrayal hits hardest on the eve of triumph!",
+      "chapters": "972-974",
+      "episodes": "975-977",
+      "released": "2024-06-28",
+      "hashes": {
+        "crc32": "C89B4C1E",
+        "blake2": ""
+      }
+    },
+    "C9362978": {
+      "arc": 31,
+      "episode": 18,
+      "title": "Fujitora's Outlook",
+      "originaltitle": "",
+      "description": "Viola, once a princess of the Dressrosan royal family, shows Luffy and the others a secret entrance into the palace. In the meantime, Admiral Fujitora reveals his audacious plans for the Seven Warlords of the Sea!",
+      "chapters": "734-735",
+      "episodes": "666-667",
+      "released": "2014-11-25",
+      "hashes": {
+        "crc32": "C9362978",
+        "blake2": ""
+      }
+    },
     "C951349C": {
       "arc": 16,
       "episode": 25,
@@ -4564,6 +5768,20 @@
       "released": "2025-05-03",
       "hashes": {
         "crc32": "C951349C",
+        "blake2": ""
+      }
+    },
+    "C99E7631": {
+      "arc": 35,
+      "episode": 53,
+      "title": "Flame Clouds",
+      "originaltitle": "",
+      "description": "In the midst of the chaos on the Performance Floor, Chopper learns the secret behind Queen's latest plague. Meanwhile, Big Mom reaches the roof, Sanji hurries in the name of love, and Zoro watches as something falls from the hole in the ceiling.",
+      "chapters": "996-997",
+      "episodes": "1009-1011",
+      "released": "2025-07-07",
+      "hashes": {
+        "crc32": "C99E7631",
         "blake2": ""
       }
     },
@@ -4609,6 +5827,20 @@
         "blake2": ""
       }
     },
+    "CAA32C42": {
+      "arc": 31,
+      "episode": 43,
+      "title": "Gatz",
+      "originaltitle": "",
+      "description": "Using Boundman drains Luffy of his haki, leaving him in need of a rest. Luckily, the colosseum combatants run interference while he recharges, and Sabo steps in at a crucial moment to defend his brother.",
+      "chapters": "786-787",
+      "episodes": "728-730",
+      "released": "2017-05-20",
+      "hashes": {
+        "crc32": "CAA32C42",
+        "blake2": ""
+      }
+    },
     "CBFE01C7": {
       "arc": 2,
       "episode": 1,
@@ -4638,11 +5870,11 @@
       }
     },
     "CC88315A": {
-      "arc": 31,
+      "arc": 30,
       "episode": 6,
-      "title": "To Green Bit! The Adventure in the Land of Dwarves!",
+      "title": "Yeti Cool Brothers",
       "originaltitle": "",
-      "description": "The Caesar Transfer Team is on approach to Green Bit, but the colossal coastal fish of Dressrosa are biting, and the connecting bridge has collapsed! The team gathers their wits to make it across, but they soon discover they are not alone on the island.",
+      "description": "The giant children fly into a mysterious rage, and Chopper discovers the true reason for their unusual condition! Meanwhile, Zoro, Brook, and Sanji cross paths with a dangerous duo, and the story of how Trafalgar Law arrived at Punk Hazard is revealed.",
       "chapters": "665-666",
       "episodes": "591-592",
       "released": "2013-05-31",
@@ -4651,12 +5883,26 @@
         "blake2": ""
       }
     },
-    "CD83F1E9": {
-      "arc": 31,
-      "episode": 12,
-      "title": "D Block's Fiery Start and the Heavenly Demon's Revelation!",
+    "CCCBEFC0": {
+      "arc": 33,
+      "episode": 14,
+      "title": "A Ray of Light",
       "originaltitle": "",
-      "description": "As Rebecca enters the ring for the battle for Block D, the crowd shows its contempt for her heritage and vicious contenders set their sights on her. Meanwhile, Law is pinned by Fujitora, and Doflamingo has the upper hand.",
+      "description": "When Pudding arrives to meet the captured Luffy and Nami, their hopefulness suddenly turns to shock! To make matters worse, Brook comes face to face with Big Mom herself! At the risk of his own well-being, Luffy desperately tries to free himself.",
+      "chapters": "849-850",
+      "episodes": "814-817",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "CCCBEFC0",
+        "blake2": ""
+      }
+    },
+    "CD83F1E9": {
+      "arc": 30,
+      "episode": 12,
+      "title": "The Counterattack Begins!",
+      "originaltitle": "",
+      "description": "Law has a trick up his sleeve that turns the tide in the alliance's favor, to include an on-the-spot partnership with former foes. Zoro and company reunite with Nami and Sanji, and it is all Luffy's group can do to ensure everyone's safety in the lab.",
       "chapters": "677-678",
       "episodes": "603-604",
       "released": "2013-07-21",
@@ -4820,11 +6066,11 @@
       }
     },
     "D2E02F36": {
-      "arc": 36,
+      "arc": 35,
       "episode": 17,
-      "title": "The Five Elders",
+      "title": "The Shogun and the Oiran",
       "originaltitle": "",
-      "description": "At the time of the Reverie, Wapol overheard something he shouldn't have and fled the Holy Land with an unlikely partner. On the heels of these events, Imu ordered the Five Elders to test a devastating weapon engineered by Dr. Vegapunk!",
+      "description": "At the shogun's banquet, the oiran's child attendant Otoko bursts with laughter and cannot stop. The enraged Shogun Orochi attacks her, but an unexpected person stands in his way. To end the to-do, Kyoshiro takes matters into his own hands.",
       "chapters": "932-933",
       "episodes": "926-928",
       "released": "2020-07-31",
@@ -4862,11 +6108,11 @@
       }
     },
     "D56597BC": {
-      "arc": 31,
+      "arc": 30,
       "episode": 18,
-      "title": "Fujitora's Outlook",
+      "title": "Luffy and Law's All-out Attack! The Takeover of the New Era!",
       "originaltitle": "",
-      "description": "Viola, once a princess of the Dressrosan royal family, shows Luffy and the others a secret entrance into the palace. In the meantime, Admiral Fujitora reveals his audacious plans for the Seven Warlords of the Sea!",
+      "description": "Brownbeard heroically attempts to expose Caesar as a villain, and the horrific truth about Punk Hazard is finally revealed! Luffy makes Caesar pay for his crimes against the children, and Smoker risks his life for a chance to see Vergo fall in battle!",
       "chapters": "689-690",
       "episodes": "615-616",
       "released": "2013-10-23",
@@ -4903,6 +6149,20 @@
         "blake2": ""
       }
     },
+    "D78E29CD": {
+      "arc": 35,
+      "episode": 47,
+      "title": "My Bible",
+      "originaltitle": "",
+      "description": "Yamato notices something in Luffy that reminds him of someone from long ago. When Orochi declares he will execute Momonosuke, Kaido adds to the excitement with a big announcement, and at the rear of the mansion, the Red Scabbards reunite!",
+      "chapters": "984-985",
+      "episodes": "991-994",
+      "released": "2025-05-09",
+      "hashes": {
+        "crc32": "D78E29CD",
+        "blake2": ""
+      }
+    },
     "D85BC22C": {
       "arc": 27,
       "episode": 7,
@@ -4917,6 +6177,34 @@
         "blake2": ""
       }
     },
+    "D8E8370A": {
+      "arc": 31,
+      "episode": 11,
+      "title": "A Sad Past! Rebecca and Soldier-san",
+      "originaltitle": "",
+      "description": "A voice from the past unsettles Luffy and sends him into a rage! Also, it's discovered that Rebecca's eternal bond with the one-legged toy soldier is linked to the violent overthrow of the old regime, perpetrated by none other than Doflamingo!",
+      "chapters": "720-721",
+      "episodes": "650-651",
+      "released": "2014-07-24",
+      "hashes": {
+        "crc32": "D8E8370A",
+        "blake2": ""
+      }
+    },
+    "D985734A": {
+      "arc": 35,
+      "episode": 52,
+      "title": "A Kunoichi's Oath",
+      "originaltitle": "",
+      "description": "Friend and foe alike fall victim to Queen's chilling virus, and Apoo is playing keep-away with the vial of antibodies. Perospero and Marco's brief alliance is shattered, and so are Nami and Usopp's skulls as they face down Ulti and Page One.",
+      "chapters": "994-995",
+      "episodes": "1006-1009",
+      "released": "2025-06-20",
+      "hashes": {
+        "crc32": "D985734A",
+        "blake2": ""
+      }
+    },
     "D9CD96CA": {
       "arc": 16,
       "episode": 23,
@@ -4928,6 +6216,20 @@
       "released": "2025-03-01",
       "hashes": {
         "crc32": "D9CD96CA",
+        "blake2": ""
+      }
+    },
+    "D9EEB564": {
+      "arc": 33,
+      "episode": 13,
+      "title": "Luffy and Big Mom",
+      "originaltitle": "",
+      "description": "Pedro creates a diversion for Brook to put his soulful plan into action. Meanwhile, the captured Luffy continues to goad Big Mom, and Pudding has the beginnings of rebellion stirring up inside her.",
+      "chapters": "847-848",
+      "episodes": "812-815",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "D9EEB564",
         "blake2": ""
       }
     },
@@ -4946,11 +6248,11 @@
       }
     },
     "DA5B5D04": {
-      "arc": 30,
+      "arc": 29,
       "episode": 5,
-      "title": "CC",
+      "title": "The King of Fishman Island Invited to Ryugu Palace!",
       "originaltitle": "",
-      "description": "Luffy is excited to once again cross paths with Trafalgar Law. While Vice Admiral Smoker determines his next move, an exceptionally large pirate with alligator legs tells Luffy and the Straw Hats the true story of Punk Hazard's mysterious transformation!",
+      "description": "The pirates receive an unexpected invitation to Ryugu Palace from Neptune himself, king of Fishman Island. Tempted by the smell of food, Luffy wanders the palace and soon finds an enormous tower with a sturdy yet battle-worn door.",
       "chapters": "611-612",
       "episodes": "530-531",
       "released": "2013-04-04",
@@ -4974,11 +6276,11 @@
       }
     },
     "DBA50B89": {
-      "arc": 30,
+      "arc": 29,
       "episode": 8,
-      "title": "Blizzard with a Chance of Slime",
+      "title": "The Beginning of the Vengeful Plan! Zoro vs. Hody!",
       "originaltitle": "",
-      "description": "Zoro, Sanji, and Brook continue their search for the samurai, and Law tries to sneak Chopper into the laboratory! And then, Luffy's battle with his old nemesis Smoker is interrupted by the arrival of a terrifying toxic blob.",
+      "description": "Hody's plan for revenge is set in motion, and the Straw Hats who have unwittingly taken control of the palace must now defend it against the New Fishman Pirates. Outside, Luffy's excursion with Shirahoshi is rudely interrupted.",
       "chapters": "616-618",
       "episodes": "535-537",
       "released": "2013-04-09",
@@ -4987,12 +6289,26 @@
         "blake2": ""
       }
     },
+    "DC6C3C54": {
+      "arc": 31,
+      "episode": 27,
+      "title": "Battle",
+      "originaltitle": "",
+      "description": "Heavy hitters from the colosseum turn from wringing each other's necks toward a unified plan, which might be just enough to give Luffy the chance he needs to make it to a final showdown with Doflamingo.",
+      "chapters": "752-753",
+      "episodes": "688-691",
+      "released": "2016-08-23",
+      "hashes": {
+        "crc32": "DC6C3C54",
+        "blake2": ""
+      }
+    },
     "DCF7AD65": {
-      "arc": 36,
+      "arc": 35,
       "episode": 13,
-      "title": "The Emperor's Crew, The Red Hair Pirates",
-      "originaltitle": "Emperor Red Hair's Pirate Crew",
-      "description": "Eustass \"Captain\" Kid sails in, guns blazing against Elbaph while Shanks of the Red Hair Pirates defends his crew and friends... without an ounce of mercy.",
+      "title": "Void",
+      "originaltitle": "",
+      "description": "Perona prepares to leave Gloom Island after she finds out that her captain, Gecko Moria, is still alive. Meanwhile, Moria raids the infamous Pirate Island with his zombie army to retrieve his old friend from Blackbeard.",
       "chapters": "925-926",
       "episodes": "917-919, 924",
       "released": "2020-05-06",
@@ -5016,11 +6332,11 @@
       }
     },
     "DF3A7006": {
-      "arc": 30,
+      "arc": 29,
       "episode": 16,
-      "title": "The Dragon Named Momonosuke and the Menacing Snow Fruit User!",
+      "title": "100,000 vs. 10! The Straw Hats' Explosive Moves",
       "originaltitle": "",
-      "description": "Luffy befriends a dragon that used to be a human boy, and Vice Admiral Smoker continues his brutal battle with the villainous Vergo. Mocha tries to keep the Master's candy away from her friends, and Zoro pits his steel against snow in a battle with Monet.",
+      "description": "The Straw Hats have reassembled at last, an army of New Fishman Pirates standing before them. With the last two years still fresh in their minds, the Straw Hats' training is put to the test, and they unleash a flurry of new techniques.",
       "chapters": "634-635",
       "episodes": "554-556",
       "released": "2013-04-25",
@@ -5029,17 +6345,87 @@
         "blake2": ""
       }
     },
+    "DFB30A71": {
+      "arc": 35,
+      "episode": 45,
+      "title": "Fighting Music",
+      "originaltitle": "Battle Music",
+      "description": "Luffy and Zoro are outed by Scratchman Apoo, and Queen announces that anyone who catches them will get a coveted promotion. Elsewhere, Kin'emon's infiltration strategy evolves while Big Mom's children are greeted by a surprise party crasher.",
+      "chapters": "980-981",
+      "episodes": "985-988",
+      "released": "2024-11-09",
+      "hashes": {
+        "crc32": "DFB30A71",
+        "blake2": ""
+      }
+    },
+    "E004EDB5": {
+      "arc": 35,
+      "episode": 51,
+      "title": "Remnants",
+      "originaltitle": "",
+      "description": "Yamato continues to pursue Momonosuke as Shinobu scurries with him through the halls of Onigashima. Meanwhile, the battle on the roof intensifies as the Scabbards fight with honor to prove they are not just cheap imitations of the great Kozuki Oden.",
+      "chapters": "992-993",
+      "episodes": "1003-1006",
+      "released": "2025-06-13",
+      "hashes": {
+        "crc32": "E004EDB5",
+        "blake2": ""
+      }
+    },
     "E058DEF9": {
-      "arc": 32,
+      "arc": 31,
       "episode": 2,
-      "title": "The Minks",
-      "originaltitle": "The Mink Tribe",
-      "description": "The mysterious \"island\" may hold more danger than was bargained for, as Luffy and co. learn they are not alone! Luffy pushes deeper into the mysterious forest, but he is treading territory where he is not welcome.",
+      "title": "Corrida Colosseum! The Great Tournament",
+      "originaltitle": "",
+      "description": "Zoro and co. strike off in search of the thieving fairy who has taken Zoro's sword, but Sanji gets distracted by the alluring dancing of a gorgeous Dressrosan. Meanwhile, the prize of the late Ace's devil fruit draws Luffy and Franky to the colosseum.",
       "chapters": "702-703",
       "episodes": "631-633",
       "released": "2014-03-25",
       "hashes": {
         "crc32": "E058DEF9",
+        "blake2": ""
+      }
+    },
+    "E123D314": {
+      "arc": 33,
+      "episode": 10,
+      "title": "To the East Blue",
+      "originaltitle": "",
+      "description": "Sanji's tragic history included a rare moment of compassion that was his only chance at escape, but even then, his father's cruelty haunted him. In the present, Reiju helps Sanji straighten himself out before he meets with his fianc\u00e9e.",
+      "chapters": "841-842",
+      "episodes": "804-806",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "E123D314",
+        "blake2": ""
+      }
+    },
+    "E3AB2BA0": {
+      "arc": 35,
+      "episode": 33,
+      "title": "The Designated Port",
+      "originaltitle": "",
+      "description": "On the day of the Fire Festival, Orochi heads for Onigashima where a big banquet is being held, and the Red Scabbards meet at the Tokage Port rendezvous point. However, Kin'emon and his compatriots are stunned that none of their allies are there.",
+      "chapters": "958-959",
+      "episodes": "959-960",
+      "released": "2023-09-02",
+      "hashes": {
+        "crc32": "E3AB2BA0",
+        "blake2": ""
+      }
+    },
+    "E3C90B8B": {
+      "arc": 31,
+      "episode": 14,
+      "title": "The Plight of the Riku Clan! The Lurking Hero Awaits in the Shadows!",
+      "originaltitle": "",
+      "description": "The losers of the colosseum who are being held below the infirmary have an unexpected addition to their numbers. Meanwhile, the history of Tontatta is made clear, as is the shocking identity of the toy soldier!",
+      "chapters": "726-727",
+      "episodes": "648, 657-659",
+      "released": "2014-10-21",
+      "hashes": {
+        "crc32": "E3C90B8B",
         "blake2": ""
       }
     },
@@ -5086,11 +6472,11 @@
       }
     },
     "E4B077F8": {
-      "arc": 33,
+      "arc": 32,
       "episode": 3,
-      "title": "Totto Land",
+      "title": "At Rightflank Fortress",
       "originaltitle": "",
-      "description": "Arriving on Cacao Island, Luffy and Chopper are in heaven as everything before their eyes is edible. There, the Straw Hats encounter Sanji's betrothed, Pudding, but when they challenge her for Sanji's heart, her answer is truly shocking.",
+      "description": "Luffy and co. ride out the rain-ruption and learn of its vital role in maintaining life on Zou. As they continue toward the fortress, they learn more about the mysterious minks, and are finally reunited with the others.",
       "chapters": "806-807",
       "episodes": "755-757",
       "released": "2016-09-30",
@@ -5141,6 +6527,20 @@
         "blake2": ""
       }
     },
+    "E58B9A11": {
+      "arc": 35,
+      "episode": 56,
+      "title": "The Battle of Monsters on Onigashima",
+      "originaltitle": "",
+      "description": "It's a fight to remember! Five members from the Worst Generation\u2014Monkey D. Luffy, Eustass \"Captain\" Kid, Trafalgar Law, Roronoa Zoro, and Killer\u2014facing off against two Emperors\u2014Kaido, \"King of the Beasts,\" and Charlotte Linlin, a.k.a. Big Mom!",
+      "chapters": "1001-1002",
+      "episodes": "1016-1017",
+      "released": "2025-12-14",
+      "hashes": {
+        "crc32": "E58B9A11",
+        "blake2": ""
+      }
+    },
     "E5F09F49": {
       "arc": 1,
       "episode": 1,
@@ -5170,11 +6570,11 @@
       }
     },
     "E70913D9": {
-      "arc": 33,
+      "arc": 32,
       "episode": 1,
-      "title": "A World Abuzz",
+      "title": "Zou",
       "originaltitle": "",
-      "description": "Luffy's team\u2014plus a stowaway\u2014sets out from Zou on their way to win back Sanji. Meanwhile, the leading families and leaders of the world make their way to the Holy Land, Mary Geoise, for a pivotal round table conference.",
+      "description": "The mysterious island of Zou approaches in the distance, obscured by fog. When the haze clears, what greets the Straw Hats is beyond anyone's expectations! Luffy and co. find the Sunny nearby, but the rest of the crew has already disembarked.",
       "chapters": "801-803",
       "episodes": "746-747, 751-753",
       "released": "2016-08-26",
@@ -5253,12 +6653,26 @@
         "blake2": ""
       }
     },
-    "E937ED2B": {
-      "arc": 36,
-      "episode": 4,
-      "title": "Adventure in the Land of Science",
+    "E9317CBD": {
+      "arc": 33,
+      "episode": 38,
+      "title": "BAD END MUSICAL",
       "originaltitle": "",
-      "description": "Franky and Luffy's groups are split up, but each encounter a person claiming to be Dr. Vegapunk. On the island, Luffy and co. find convenient food and futuristic clothing, but when a pacifista shows up, Bonney reveals her shocking relationship with Kuma.",
+      "description": "Sanji tries his best to save himself and his captain. Now, the fate of Totto Land rests on the taste of the wedding cake! With the help of Germa and the Sun Pirates, the Straw Hats see their chance to escape!",
+      "chapters": "898-900",
+      "episodes": "873-875",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "E9317CBD",
+        "blake2": ""
+      }
+    },
+    "E937ED2B": {
+      "arc": 35,
+      "episode": 4,
+      "title": "Tsuru Returns the Favor",
+      "originaltitle": "",
+      "description": "Luffy and Zoro are stalled by Hawkins, but their fortune looks bright when a woman guides them to a teahouse. There, they find an herbal remedy for the river poison that Otama drank, while old acquaintances look on from a distance.",
       "chapters": "913",
       "episodes": "898-899",
       "released": "2026-01-26",
@@ -5267,12 +6681,26 @@
         "blake2": ""
       }
     },
-    "E98FA912": {
-      "arc": 32,
-      "episode": 4,
-      "title": "Duke Inuarashi and Master Nekomamushi",
+    "E98F852E": {
+      "arc": 31,
+      "episode": 32,
+      "title": "White Town",
       "originaltitle": "",
-      "description": "The Straw Hats finally meet the daytime ruler of this strange land. They learn more about the battle that took place here and discover the mysterious system by which the island is ruled.",
+      "description": "A rage born from the lies of the World Government created a child who had the will to try and kill Coraz\u00f3n! Law was accepted into the Doflamingo Family, but Coraz\u00f3n's mysterious silence hid a fact that just may have saved Law's life.",
+      "chapters": "762-763",
+      "episodes": "701-702",
+      "released": "2016-10-16",
+      "hashes": {
+        "crc32": "E98F852E",
+        "blake2": ""
+      }
+    },
+    "E98FA912": {
+      "arc": 31,
+      "episode": 4,
+      "title": "Bellamy's Changed Motivations and B Block's Start!",
+      "originaltitle": "",
+      "description": "When Block A concludes, the crowds are shocked to discover the secret identity of the winner. Block B commences, and the widely despised Bartolomeo takes the ring, but he will have to contend with Dressrosa's own local favorite, Bellamy!",
       "chapters": "706-707",
       "episodes": "634-637",
       "released": "2014-04-19",
@@ -5324,11 +6752,11 @@
       }
     },
     "EACE397D": {
-      "arc": 32,
+      "arc": 31,
       "episode": 7,
-      "title": "Let's Go See Master Nekomamushi",
+      "title": "Doflamingo Arrives! The Ultimate Schemer!",
       "originaltitle": "",
-      "description": "Being separated from one of his crew is more than Luffy is willing to tolerate! The pirates make their way toward the nighttime ruler to find out more about their friend's disappearance.",
+      "description": "All but done for, Sanji is trapped by Violet and her crew when she suddenly changes her mind and mysteriously turns on her own men! Sanji gets in touch with Law to share a shocking secret that could unsettle all their plans in Dressrosa.",
       "chapters": "712-713",
       "episodes": "640-643",
       "released": "2014-05-14",
@@ -5338,11 +6766,11 @@
       }
     },
     "EB0BC95C": {
-      "arc": 30,
+      "arc": 29,
       "episode": 17,
-      "title": "Zoro's Strongest One-Sword Style and Mocha's Plight!",
+      "title": "The General from the Future Land and the Crisis of Fishman Island's Destruction",
       "originaltitle": "",
-      "description": "Zoro vs. Monet: a duel to the bitter end. But when Tashigi comes to lend a hand, she will need her full might to compensate for Zoro's weakness. Meanwhile, Mocha is running out of options for keeping the candy away from the children.",
+      "description": "Franky's mechanical masterpieces have transformations in store that can only be described as \"super!\" However, onlookers curb their enthusiasm when a foreboding shadow is cast upon the plaza by a giant ship hurtling toward the island!",
       "chapters": "636-637",
       "episodes": "556-558",
       "released": "2013-04-26",
@@ -5393,6 +6821,20 @@
         "blake2": ""
       }
     },
+    "ECD80B22": {
+      "arc": 31,
+      "episode": 40,
+      "title": "The Curse of Heart",
+      "originaltitle": "",
+      "description": "The Tontattas finish demolishing the SMILE Factory and taking down Bellamy only enrages Luffy in his fight against Doflamingo, his anger multiplying when he finds Law's lifeless body! Meanwhile, the birdcage draws ever tighter around Dressrosa.",
+      "chapters": "779-781",
+      "episodes": "714-715, 720-723",
+      "released": "2017-03-26",
+      "hashes": {
+        "crc32": "ECD80B22",
+        "blake2": ""
+      }
+    },
     "EF1D7B5F": {
       "arc": 21,
       "episode": 16,
@@ -5436,11 +6878,11 @@
       }
     },
     "F0B1F815": {
-      "arc": 31,
+      "arc": 30,
       "episode": 7,
-      "title": "Doflamingo Arrives! The Ultimate Schemer!",
+      "title": "Pirate Alliance",
       "originaltitle": "",
-      "description": "All but done for, Sanji is trapped by Violet and her crew when she suddenly changes her mind and mysteriously turns on her own men! Sanji gets in touch with Law to share a shocking secret that could unsettle all their plans in Dressrosa.",
+      "description": "Luffy agrees to an unexpected alliance with Trafalgar Law, but the Straw Hats refuse to leave the island until the children are safe. Meanwhile, the gaseous master of the island unleashes something extremely deadly!",
       "chapters": "667-668",
       "episodes": "593-594",
       "released": "2013-06-01",
@@ -5492,11 +6934,11 @@
       }
     },
     "F134C10A": {
-      "arc": 30,
+      "arc": 29,
       "episode": 12,
-      "title": "The Counterattack Begins!",
+      "title": "The Shipwrecked Celestial Dragon! A Bullet That Seals the Future",
       "originaltitle": "",
-      "description": "Law has a trick up his sleeve that turns the tide in the alliance's favor, to include an on-the-spot partnership with former foes. Zoro and company reunite with Nami and Sanji, and it is all Luffy's group can do to ensure everyone's safety in the lab.",
+      "description": "The sudden appearance of a Celestial Dragon almost imperiled Fishman Island, but Queen Otohime's ability to end hostilities provided a ray of hope for everyone. Just when the path to the future seemed bright, a shot echoed through the plaza.",
       "chapters": "625-626",
       "episodes": "545-546",
       "released": "2013-04-14",
@@ -5506,16 +6948,58 @@
       }
     },
     "F15AFDE0": {
-      "arc": 36,
+      "arc": 35,
       "episode": 1,
-      "title": "New Emperors",
+      "title": "Onward to Wano",
       "originaltitle": "",
-      "description": "The Straw Hats rave over new bounties, and Crocodile and Mihawk pay Buggy a visit. Elsewhere, Dragon and his revolutionaries are shocked when they read about Sabo in the news, and an old comrade returns, a shell of his former self.",
+      "description": "Luffy and the others see familiar faces in a newspaper article about the Reverie right as they approach Wano. However, this dangerous and foreboding land is as inaccessible as it is mysterious, with the sea itself acting as a barrier!",
       "chapters": "909-910",
       "episodes": "890-891",
       "released": "2025-04-04",
       "hashes": {
         "crc32": "F15AFDE0",
+        "blake2": ""
+      }
+    },
+    "F1FB27C6": {
+      "arc": 35,
+      "episode": 44,
+      "title": "A Family Matter",
+      "originaltitle": "",
+      "description": "The raid on Onigashima kicks off with Law's group sneaking around the back and Luffy's group moving straight through the front door, cleverly disguised as the enemy itself! Meanwhile, Kaido holds an audience with the Soaring Six.",
+      "chapters": "978-979",
+      "episodes": "983-985",
+      "released": "2024-10-26",
+      "hashes": {
+        "crc32": "F1FB27C6",
+        "blake2": ""
+      }
+    },
+    "F20B5423": {
+      "arc": 31,
+      "episode": 12,
+      "title": "D Block's Fiery Start and the Heavenly Demon's Revelation!",
+      "originaltitle": "",
+      "description": "As Rebecca enters the ring for the battle for Block D, the crowd shows its contempt for her heritage and vicious contenders set their sights on her. Meanwhile, Law is pinned by Fujitora, and Doflamingo has the upper hand.",
+      "chapters": "722-723",
+      "episodes": "652-654",
+      "released": "2014-08-07",
+      "hashes": {
+        "crc32": "F20B5423",
+        "blake2": ""
+      }
+    },
+    "F218F0E4": {
+      "arc": 31,
+      "episode": 36,
+      "title": "The Spear of Elbaph and Don Sai",
+      "originaltitle": "The Spear of Elbaf and Don Sai",
+      "description": "Hajrudin has been beaten down, but a fire still burns within him to pay back the favor he owes! Lao G and Don Chinjao bring their most devastating attacks to bear, but a misunderstanding caused by Baby 5 has Sai and Don Chinjao distracted.",
+      "chapters": "770-771",
+      "episodes": "708-711",
+      "released": "2017-01-14",
+      "hashes": {
+        "crc32": "F218F0E4",
         "blake2": ""
       }
     },
@@ -5533,6 +7017,20 @@
         "blake2": ""
       }
     },
+    "F3E829E8": {
+      "arc": 35,
+      "episode": 26,
+      "title": "Mummy",
+      "originaltitle": "",
+      "description": "Babanuki unleashes an unthinkable weapon, and a mysterious figure emerges from a forbidden cell to save Luffy. Then, Old Man Hyo emboldens Raizo and Kiku to reveal their true identities and give the desperate prisoners some much-needed hope.",
+      "chapters": "948-949",
+      "episodes": "947-949",
+      "released": "2022-01-18",
+      "hashes": {
+        "crc32": "F3E829E8",
+        "blake2": ""
+      }
+    },
     "F4754074": {
       "arc": 4,
       "episode": 1,
@@ -5547,12 +7045,26 @@
         "blake2": ""
       }
     },
-    "F4BB17EB": {
-      "arc": 30,
-      "episode": 10,
-      "title": "Vergo and Joker! The Beginning of Caesar's Masterplan!",
+    "F47C3EDD": {
+      "arc": 35,
+      "episode": 48,
+      "title": "Retainers of Glory",
       "originaltitle": "",
-      "description": "Caesar gathers his young test subjects, shocking secret identities are revealed, and the poisonous purple blob continues its march across the island! Meanwhile, Nami and Usopp get an unexpected helping hand in their fight to save the children.",
+      "description": "The stage is set, the curtain is drawn, and the Red Scabbards approach their target of 20 years. Luffy and Yamato burst onto the Performance Floor with a bang, and Wano's samurai make the opening attack for the long-anticipated battle.",
+      "chapters": "986-987",
+      "episodes": "994-997",
+      "released": "2025-05-17",
+      "hashes": {
+        "crc32": "F47C3EDD",
+        "blake2": ""
+      }
+    },
+    "F4BB17EB": {
+      "arc": 29,
+      "episode": 10,
+      "title": "Otohime, Fisher Tiger, and the Sun Pirates! The Fateful Encounter!",
+      "originaltitle": "",
+      "description": "Queen Otohime tried to lead the Ryugu Kingdom into an era of coexistence between humans and fishmen. At the same time, the heroic Fisher Tiger battled humans to free their slaves from captivity.",
       "chapters": "621-622",
       "episodes": "540-541",
       "released": "2013-04-14",
@@ -5575,12 +7087,26 @@
         "blake2": ""
       }
     },
-    "F71F9B71": {
-      "arc": 36,
-      "episode": 7,
-      "title": "Punk Records",
+    "F6C7EB83": {
+      "arc": 35,
+      "episode": 31,
+      "title": "Big News",
       "originaltitle": "",
-      "description": "After Vegapunk shares his dream with Luffy's group, he asks the Straw Hat captain for a big favor. Meanwhile, CP0 ignores their lack of invitation to Egghead and get around the island defenses to make landfall.",
+      "description": "The resolution that passed during the Reverie and the incidents surrounding the conference stun people all over the world and corner the Seven Warlords of the Sea. Meanwhile, Captain Koby secretly contacts someone currently in Wano.",
+      "chapters": "956",
+      "episodes": "957",
+      "released": "2023-06-27",
+      "hashes": {
+        "crc32": "F6C7EB83",
+        "blake2": ""
+      }
+    },
+    "F71F9B71": {
+      "arc": 35,
+      "episode": 7,
+      "title": "The Provisions Ship",
+      "originaltitle": "",
+      "description": "Luffy and co. finally find Otama hanging from the mouth of a lion in Holdem's stomach. Luffy prepares to save Otama from Kaido's lackey, and elsewhere, a mysterious figure confronts Basil Hawkins.",
       "chapters": "916-917",
       "episodes": "904-905",
       "released": "2019-11-22",
@@ -5590,11 +7116,11 @@
       }
     },
     "F7CB97CD": {
-      "arc": 32,
+      "arc": 31,
       "episode": 6,
-      "title": "Tea Party Invitation",
+      "title": "To Green Bit! The Adventure in the Land of Dwarves!",
       "originaltitle": "",
-      "description": "The mystery of Sanji's disappearance only deepens as Luffy learns that Big Mom's lackeys caught up with him and offered him an invitation from one of the Four Emperors that simply could not be refused.",
+      "description": "The Caesar Transfer Team is on approach to Green Bit, but the colossal coastal fish of Dressrosa are biting, and the connecting bridge has collapsed! The team gathers their wits to make it across, but they soon discover they are not alone on the island.",
       "chapters": "710-711",
       "episodes": "639-642",
       "released": "2014-05-09",
@@ -5688,11 +7214,11 @@
       }
     },
     "FBA08093": {
-      "arc": 30,
+      "arc": 29,
       "episode": 1,
-      "title": "Punk Hazard",
+      "title": "Into the Depths! The Kraken and the Caribou Pirates",
       "originaltitle": "",
-      "description": "Fresh off the adventure at Fishman Island, the Sunny is caught in a massive whirlpool and dragged off course. A desperate cry for help leads the Straw Hats to Punk Hazard, an island engulfed in flames and inhabited by a mythic beast.",
+      "description": "Encased in a protective bubble, the Sunny departs for Fishman Island far under the sea. As the Straw Hats marvel at the sights, Franky tells the crew about their greatest ally in their time apart. But suddenly, a mysterious shadow closes in on the ship.",
       "chapters": "603-604",
       "episodes": "523-524",
       "released": "2013-03-27",
@@ -5715,6 +7241,20 @@
         "blake2": ""
       }
     },
+    "FC2376A1": {
+      "arc": 33,
+      "episode": 7,
+      "title": "Lola's Vivre Card",
+      "originaltitle": "",
+      "description": "The mysterious half-buried man comes clean about his identity, but this must all be put aside when one of Big Mom's most powerful commanders comes calling. Nami's past exploits, however, hold the key to keeping the baddies at bay.",
+      "chapters": "835-836",
+      "episodes": "796-798",
+      "released": "2020-12-11",
+      "hashes": {
+        "crc32": "FC2376A1",
+        "blake2": ""
+      }
+    },
     "FCF6BA63": {
       "arc": 6,
       "episode": 6,
@@ -5730,11 +7270,11 @@
       }
     },
     "FCF7F7E4": {
-      "arc": 30,
+      "arc": 29,
       "episode": 9,
-      "title": "My Name Is Kin'emon!!",
+      "title": "At the Sea Forest! Arlong and Hody",
       "originaltitle": "",
-      "description": "Law's plan to infiltrate Caesar's facility hits a snag when an unexpected guest complicates things. Meanwhile, Chopper investigates the Master's lab, and the mysterious samurai shows what he can do with a full body!",
+      "description": "Jinbe reunites with Luffy in the undersea forest and reveals a shocking connection to an old foe. The former Warlord begins a tale of when two famous figures fought to undo the animosity that existed between humans and fishmen.",
       "chapters": "619-620",
       "episodes": "538-539, 541",
       "released": "2013-04-09",
@@ -5772,16 +7312,30 @@
       }
     },
     "FE661F6E": {
-      "arc": 31,
+      "arc": 30,
       "episode": 3,
-      "title": "The Colosseum of Many New Faces and Maynard the Pursuer!",
-      "originaltitle": "The Colosseum of Many New Faces and Maynard's Pursuit!",
-      "description": "Luffy enters the tournament at Corrida Colosseum to compete for Ace's fruit, but with the mightiest warriors of the New World assembled and standing in his way, the competition will not be easy. The first stage of the competition is a battle royal!",
+      "title": "About My Torso",
+      "originaltitle": "",
+      "description": "Luffy's group finds themselves up against a gang of centaurs, Brook battles an aggressive mysterious torso, and Vice Admiral Smoker encounters someone highly unexpected! Meanwhile, Nami and Chopper seek a safe exit for a group of children.",
       "chapters": "659-660",
       "episodes": "583-585",
       "released": "2013-05-21",
       "hashes": {
         "crc32": "FE661F6E",
+        "blake2": ""
+      }
+    },
+    "FE878EE8": {
+      "arc": 35,
+      "episode": 49,
+      "title": "I Can't Imagine Losing",
+      "originaltitle": "",
+      "description": "Momonosuke is finally freed, and King and Queen must contend with the incursion of samurai and pirates on the Performance Floor. Big Mom is swiftly removed from the situation, and the Straw Hat pirates gather once more as the assualt kicks off!",
+      "chapters": "988-989",
+      "episodes": "997-1000",
+      "released": "2025-05-17",
+      "hashes": {
+        "crc32": "FE878EE8",
         "blake2": ""
       }
     },
