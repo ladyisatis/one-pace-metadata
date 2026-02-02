@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-02-02T00:37:16+00:00",
-  "last_update_ts": 1769992636,
+  "last_update": "2026-02-02T01:49:24+00:00",
+  "last_update_ts": 1769996964,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -263,7 +263,7 @@
       "part": 29,
       "saga": "Fishman Island",
       "title": "Fishman Island",
-      "originaltitle": "Sheet12",
+      "originaltitle": "",
       "description": "The path the to the New World takes the Straw Hats thousands of leagues under the sea to the underwater Fishman Island. However, the island's dark past is reaching a breaking point, and Luffy and his crew are caught in the middle of the conflict.",
       "poster": "arcs/en/29/poster.png"
     },
@@ -271,7 +271,7 @@
       "part": 30,
       "saga": "Dressrosa",
       "title": "Punk Hazard",
-      "originaltitle": "Fishman Island",
+      "originaltitle": "",
       "description": "The first island of the New World is a strange place covered in flames on one half, and freezing temperatures on the other. What seems at first to be an unlivable place later reveals a laboratory, a maniac scientist, and a certain Warlord of the Sea.",
       "poster": "arcs/en/30/poster.png"
     },
@@ -279,7 +279,7 @@
       "part": 31,
       "saga": "Dressrosa",
       "title": "Dressrosa",
-      "originaltitle": "Punk Hazard",
+      "originaltitle": "",
       "description": "Luffy's alliance with Law brings him next to Dressrosa to take down Doflamingo's booming business. But the crazed warlord and self-proclaimed ruler of Dressrosa has control over everyone and everything.",
       "poster": "arcs/en/31/poster.png"
     },
@@ -287,7 +287,7 @@
       "part": 32,
       "saga": "Four Emperors",
       "title": "Zou",
-      "originaltitle": "Dressrosa",
+      "originaltitle": "",
       "description": "Zou cannot be reached by conventional means, nor is it easy to enter once one finds it. Within its secretive walls lie the Mink Tribe, and the Straw Hats soon discover that the people of Zou hold a piece of the puzzle that unlocks the mysteries of the world.",
       "poster": "arcs/en/32/poster.png"
     },
@@ -295,7 +295,7 @@
       "part": 33,
       "saga": "Four Emperors",
       "title": "Whole Cake Island",
-      "originaltitle": "Zou",
+      "originaltitle": "",
       "description": "Luffy will not sail the seas without his cook, so he stubbornly goes after Sanji to Whole Cake Island. However, knocking on an emperor's door is easier said than done.",
       "poster": "arcs/en/33/poster.png"
     },
@@ -303,7 +303,7 @@
       "part": 34,
       "saga": "Four Emperors",
       "title": "Reverie",
-      "originaltitle": "Whole Cake Island",
+      "originaltitle": "",
       "description": "Every four years, the leaders of the world gather at the Holy Land to discuss a mutually agreed upon path for the government. During this particular Reverie, many parties with their own agendas arrive... and some are uninvited.",
       "poster": "arcs/en/34/poster.png"
     },
@@ -311,7 +311,7 @@
       "part": 35,
       "saga": "Four Emperors",
       "title": "Wano",
-      "originaltitle": "Reverie",
+      "originaltitle": "",
       "description": "The Straw Hats finally regroup in Wano to carry out theirs and their allies' ultimate goal: to see to the Emperor Kaido's downfall and restore the Kozuki family to its rightful place of power.",
       "poster": "arcs/en/35/poster.png"
     },
@@ -319,7 +319,7 @@
       "part": 36,
       "saga": "Final Saga",
       "title": "Egghead",
-      "originaltitle": "Wano",
+      "originaltitle": "",
       "description": "Futuristic tech, giant alien monsters, battle robots, superhuman clones... Who are all these people calling themselves Dr. Vegapunk, and why is the government after one of their own?",
       "poster": "arcs/en/36/poster.png"
     }
