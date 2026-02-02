@@ -591,12 +591,17 @@ class OnePaceMetadata:
             ep_guide_resp = self.client.get(f"https://sheets.googleapis.com/v4/spreadsheets/{guide_id}?key={self.GCLOUD_API_KEY}", follow_redirects=True)
             ep_guide_resp.raise_for_status()
 
+            sheet_index = 0
+
             for sheet in ep_guide_resp.json()["sheets"]:
                 properties = sheet["properties"]
 
                 sheet_id = properties["sheetId"]
                 sheet_title = properties["title"]
-                sheet_index = properties["index"]
+                #sheet_index = properties["index"]
+
+                if sheet_title.startswith("Sheet"):
+                    continue
 
                 if sheet_index == 0: #Arc Overview
                     self.parse_arc_overview(guide_id, sheet_id)
@@ -620,6 +625,8 @@ class OnePaceMetadata:
                             )
 
                         self.parse_spreadsheet_page(guide_id, sheet_id, sheet_title, sheet_index)
+
+                sheet_index += 1
 
         except:
             logger.exception("Unable to update from Episode Guide")
@@ -695,7 +702,7 @@ class OnePaceMetadata:
                     logger.info(f"[{arc_name}] Wrote to: {config_yml}")
 
     def parse_spreadsheet_page(self, guide_id, sheet_id, sheet_title, sheet_index):
-        logger.info(f"[{sheet_title}] Retrieving HTML sheet")
+        logger.info(f"[{sheet_title}] Retrieving HTML sheet {sheet_title} {sheet_index}")
 
         resp = self.client.get(f"https://docs.google.com/spreadsheets/u/0/d/{guide_id}/htmlview/sheet?headers=false&gid={sheet_id}", follow_redirects=True)
         if resp.status_code < 200 or resp.status_code >= 400:
@@ -1819,7 +1826,7 @@ class OnePaceMetadata:
         except:
             logger.exception("Unable to create compat data.json")
 
-    def cmd_update(self):
+    def cmd_update(self, forced=False):
         self.client = httpx.Client(
             transport=httpx_retries.RetryTransport(
                 retry=httpx_retries.Retry(total=999, backoff_factor=5.0)
@@ -1829,7 +1836,7 @@ class OnePaceMetadata:
         now = datetime.now(tz=timezone.utc)
 
         try:
-            is_workflow_dispatch = os.environ.get("GITHUB_EVENT_NAME", "") == "workflow_dispatch"
+            is_workflow_dispatch = forced or os.environ.get("GITHUB_EVENT_NAME", "") == "workflow_dispatch"
 
             logger.success("Loading existing arcs")
             self.load_arcs()
@@ -1860,5 +1867,7 @@ class OnePaceMetadata:
 if __name__ == "__main__":
     if sys.argv[1] == "update":
         OnePaceMetadata().cmd_update()
+    elif sys.argv[1] == "force_update":
+        OnePaceMetadata().cmd_update(True)
     elif sys.argv[1] == "json":
         OnePaceMetadata().cmd_json()
