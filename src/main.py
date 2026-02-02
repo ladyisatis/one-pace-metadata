@@ -591,17 +591,12 @@ class OnePaceMetadata:
             ep_guide_resp = self.client.get(f"https://sheets.googleapis.com/v4/spreadsheets/{guide_id}?key={self.GCLOUD_API_KEY}", follow_redirects=True)
             ep_guide_resp.raise_for_status()
 
-            sheet_index = 0
-
             for sheet in ep_guide_resp.json()["sheets"]:
                 properties = sheet["properties"]
 
                 sheet_id = properties["sheetId"]
                 sheet_title = properties["title"]
-                #sheet_index = properties["index"]
-
-                if sheet_title.startswith("Sheet"):
-                    continue
+                sheet_index = properties["index"]
 
                 if sheet_index == 0: #Arc Overview
                     self.parse_arc_overview(guide_id, sheet_id)
@@ -625,8 +620,6 @@ class OnePaceMetadata:
                             )
 
                         self.parse_spreadsheet_page(guide_id, sheet_id, sheet_title, sheet_index)
-
-                sheet_index += 1
 
         except:
             logger.exception("Unable to update from Episode Guide")
