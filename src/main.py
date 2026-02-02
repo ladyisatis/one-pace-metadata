@@ -600,13 +600,11 @@ class OnePaceMetadata:
                 sheet_title = properties["title"]
                 #sheet_index = properties["index"]
 
-                if sheet_title.startswith("Sheet"):
-                    continue
-
                 if sheet_index == 0: #Arc Overview
                     self.parse_arc_overview(guide_id, sheet_id)
+                    sheet_index += 1
 
-                else:
+                elif "bandedRanges" in sheet:
                     if not self.episodes_dir.is_dir():
                         self.episodes_dir.mkdir(exist_ok=True, parents=True)
                         logger.info(f"Created directory: {self.episodes_dir}")
@@ -626,7 +624,7 @@ class OnePaceMetadata:
 
                         self.parse_spreadsheet_page(guide_id, sheet_id, sheet_title, sheet_index)
 
-                sheet_index += 1
+                    sheet_index += 1
 
         except:
             logger.exception("Unable to update from Episode Guide")

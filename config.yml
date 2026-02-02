@@ -4,7 +4,7 @@ description_sources:
   - https://docs.google.com/spreadsheets/d/1M0Aa2p5x7NioaH9-u8FyHq6rH3t5s6Sccs8GoC6pHAM/
 
 check_ep_descriptions_every_hours: 6
-check_ep_guide_every_hours: 6
+check_ep_guide_every_hours: 12
 check_rss_every_hours: 1
 oldest_rss_release_hours: 12
 
