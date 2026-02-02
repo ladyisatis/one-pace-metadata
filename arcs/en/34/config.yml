@@ -1,7 +1,7 @@
 part: 34
 saga: Four Emperors
-title: Whole Cake Island
-originaltitle: Reverie
+title: Reverie
+originaltitle: ''
 shortcode: RV
 mkvcode: reverie
 description: Every four years, the leaders of the world gather at the Holy Land to
@@ -17,114 +17,6 @@ episodes:
   extended: ''
 - episode: '03'
   standard: 0B51015F
-  extended: ''
-- episode: '04'
-  standard: 02C6FC2B
-  extended: ''
-- episode: '05'
-  standard: 4CF30353
-  extended: ''
-- episode: '06'
-  standard: 410C8F0C
-  extended: ''
-- episode: '07'
-  standard: FC2376A1
-  extended: ''
-- episode: 08
-  standard: 31018FCB
-  extended: ''
-- episode: 09
-  standard: 94E3481F
-  extended: ''
-- episode: '10'
-  standard: E123D314
-  extended: ''
-- episode: '11'
-  standard: 8B5E1006
-  extended: ''
-- episode: '12'
-  standard: 36D0F622
-  extended: ''
-- episode: '13'
-  standard: D9EEB564
-  extended: ''
-- episode: '14'
-  standard: CCCBEFC0
-  extended: ''
-- episode: '15'
-  standard: 0E2022E4
-  extended: ''
-- episode: '16'
-  standard: A8E42FE1
-  extended: ''
-- episode: '17'
-  standard: 0CF96D5A
-  extended: ''
-- episode: '18'
-  standard: 3F5E7FD3
-  extended: ''
-- episode: '19'
-  standard: 0F125E00
-  extended: ''
-- episode: '20'
-  standard: 4F38961B
-  extended: ''
-- episode: '21'
-  standard: 5FDB702D
-  extended: ''
-- episode: '22'
-  standard: 39D94718
-  extended: ''
-- episode: '23'
-  standard: 437F9E8D
-  extended: ''
-- episode: '24'
-  standard: 6E422CFB
-  extended: ''
-- episode: '25'
-  standard: 32CC4AB9
-  extended: ''
-- episode: '26'
-  standard: 71827EF0
-  extended: ''
-- episode: '27'
-  standard: 2CDA8E9D
-  extended: ''
-- episode: '28'
-  standard: 22B16322
-  extended: ''
-- episode: '29'
-  standard: 270A4ABD
-  extended: ''
-- episode: '30'
-  standard: ABB0AC56
-  extended: ''
-- episode: '31'
-  standard: 529AE554
-  extended: ''
-- episode: '32'
-  standard: 8313ECE3
-  extended: ''
-- episode: '33'
-  standard: 6FBBD350
-  extended: ''
-- episode: '34'
-  standard: A3939979
-  extended: ''
-- episode: '35'
-  standard: 1753F7D1
-  extended: ''
-- episode: '36'
-  standard: 3AF37912
-  extended: ''
-- episode: '37'
-  standard: 3C58DD41
-  extended: ''
-- episode: '38'
-  standard: E9317CBD
-  extended: ''
-- episode: '39'
-  standard: 172F5F20
   extended: ''
 
 info:

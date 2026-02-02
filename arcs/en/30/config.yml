@@ -1,7 +1,7 @@
 part: 30
 saga: Dressrosa
-title: Fishman Island
-originaltitle: Punk Hazard
+title: Punk Hazard
+originaltitle: ''
 shortcode: PU
 mkvcode: punkhazard
 description: The first island of the New World is a strange place covered in flames
@@ -75,12 +75,6 @@ episodes:
   extended: ''
 - episode: '22'
   standard: 021A8886
-  extended: ''
-- episode: '23'
-  standard: 65BD682D
-  extended: ''
-- episode: '24'
-  standard: 99A61805
   extended: ''
 
 info:

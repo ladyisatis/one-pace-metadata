@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-02-01T00:41:29+00:00",
-    "last_update_ts": 1769906489,
+    "last_update": "2026-01-26T22:07:57+00:00",
+    "last_update_ts": 1769465277,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 153
+    "version": 152
   },
   "tvshow": {
     "en": {
@@ -2047,8 +2047,8 @@
       {
         "part": 29,
         "saga": "Fishman Island",
-        "title": "Sheet12",
-        "originaltitle": "Fishman Island",
+        "title": "Fishman Island",
+        "originaltitle": "",
         "shortcode": "FI",
         "mkvcode": "fi",
         "description": "The path the to the New World takes the Straw Hats thousands of leagues under the sea to the underwater Fishman Island. However, the island's dark past is reaching a breaking point, and Luffy and his crew are caught in the middle of the conflict.",
@@ -2194,8 +2194,8 @@
       {
         "part": 30,
         "saga": "Dressrosa",
-        "title": "Fishman Island",
-        "originaltitle": "Punk Hazard",
+        "title": "Punk Hazard",
+        "originaltitle": "",
         "shortcode": "PU",
         "mkvcode": "punkhazard",
         "description": "The first island of the New World is a strange place covered in flames on one half, and freezing temperatures on the other. What seems at first to be an unlivable place later reveals a laboratory, a maniac scientist, and a certain Warlord of the Sea.",
@@ -2309,16 +2309,6 @@
             "episode": "22",
             "standard": "021A8886",
             "extended": ""
-          },
-          {
-            "episode": "23",
-            "standard": "65BD682D",
-            "extended": ""
-          },
-          {
-            "episode": "24",
-            "standard": "99A61805",
-            "extended": ""
           }
         ],
         "info": {
@@ -2341,8 +2331,8 @@
       {
         "part": 31,
         "saga": "Dressrosa",
-        "title": "Punk Hazard",
-        "originaltitle": "Dressrosa",
+        "title": "Dressrosa",
+        "originaltitle": "",
         "shortcode": "DE",
         "mkvcode": "dressrosa",
         "description": "Luffy's alliance with Law brings him next to Dressrosa to take down Doflamingo's booming business. But the crazed warlord and self-proclaimed ruler of Dressrosa has control over everyone and everything.",
@@ -2608,8 +2598,8 @@
       {
         "part": 32,
         "saga": "Four Emperors",
-        "title": "Dressrosa",
-        "originaltitle": "Zou",
+        "title": "Zou",
+        "originaltitle": "",
         "shortcode": "ZO",
         "mkvcode": "zou",
         "description": "Zou cannot be reached by conventional means, nor is it easy to enter once one finds it. Within its secretive walls lie the Mink Tribe, and the Straw Hats soon discover that the people of Zou hold a piece of the puzzle that unlocks the mysteries of the world.",
@@ -2663,196 +2653,6 @@
             "episode": "10",
             "standard": "4A52B138",
             "extended": ""
-          },
-          {
-            "episode": "11",
-            "standard": "D8E8370A",
-            "extended": ""
-          },
-          {
-            "episode": "12",
-            "standard": "F20B5423",
-            "extended": ""
-          },
-          {
-            "episode": "13",
-            "standard": "C29E5C35",
-            "extended": ""
-          },
-          {
-            "episode": "14",
-            "standard": "E3C90B8B",
-            "extended": ""
-          },
-          {
-            "episode": "15",
-            "standard": "6A3CE0EA",
-            "extended": ""
-          },
-          {
-            "episode": "16",
-            "standard": "7073A62F",
-            "extended": ""
-          },
-          {
-            "episode": "17",
-            "standard": "174F92DD",
-            "extended": ""
-          },
-          {
-            "episode": "18",
-            "standard": "C9362978",
-            "extended": ""
-          },
-          {
-            "episode": "19",
-            "standard": "77081AEE",
-            "extended": ""
-          },
-          {
-            "episode": "20",
-            "standard": "BE72EB0E",
-            "extended": ""
-          },
-          {
-            "episode": "21",
-            "standard": "C21EC74A",
-            "extended": ""
-          },
-          {
-            "episode": "22",
-            "standard": "5FC46535",
-            "extended": ""
-          },
-          {
-            "episode": "23",
-            "standard": "5A38EC3B",
-            "extended": ""
-          },
-          {
-            "episode": "24",
-            "standard": "11DA7BCB",
-            "extended": ""
-          },
-          {
-            "episode": "25",
-            "standard": "1CADC5DC",
-            "extended": ""
-          },
-          {
-            "episode": "26",
-            "standard": "71CA89FC",
-            "extended": ""
-          },
-          {
-            "episode": "27",
-            "standard": "DC6C3C54",
-            "extended": ""
-          },
-          {
-            "episode": "28",
-            "standard": "04186119",
-            "extended": ""
-          },
-          {
-            "episode": "29",
-            "standard": "ACC7852E",
-            "extended": ""
-          },
-          {
-            "episode": "30",
-            "standard": "4F16C5DC",
-            "extended": ""
-          },
-          {
-            "episode": "31",
-            "standard": "9C3360D6",
-            "extended": ""
-          },
-          {
-            "episode": "32",
-            "standard": "E98F852E",
-            "extended": ""
-          },
-          {
-            "episode": "33",
-            "standard": "53AEB13C",
-            "extended": ""
-          },
-          {
-            "episode": "34",
-            "standard": "0CA47011",
-            "extended": ""
-          },
-          {
-            "episode": "35",
-            "standard": "1B5DC33C",
-            "extended": ""
-          },
-          {
-            "episode": "36",
-            "standard": "F218F0E4",
-            "extended": ""
-          },
-          {
-            "episode": "37",
-            "standard": "777A9A6A",
-            "extended": ""
-          },
-          {
-            "episode": "38",
-            "standard": "0429451F",
-            "extended": ""
-          },
-          {
-            "episode": "39",
-            "standard": "7391ECD4",
-            "extended": ""
-          },
-          {
-            "episode": "40",
-            "standard": "ECD80B22",
-            "extended": ""
-          },
-          {
-            "episode": "41",
-            "standard": "3E9F11F9",
-            "extended": ""
-          },
-          {
-            "episode": "42",
-            "standard": "55292D1C",
-            "extended": ""
-          },
-          {
-            "episode": "43",
-            "standard": "CAA32C42",
-            "extended": ""
-          },
-          {
-            "episode": "44",
-            "standard": "4DDF4C07",
-            "extended": ""
-          },
-          {
-            "episode": "45",
-            "standard": "15344804",
-            "extended": ""
-          },
-          {
-            "episode": "46",
-            "standard": "81C4666C",
-            "extended": ""
-          },
-          {
-            "episode": "47",
-            "standard": "01C40FA1",
-            "extended": ""
-          },
-          {
-            "episode": "48",
-            "standard": "5F035A13",
-            "extended": ""
           }
         ],
         "info": {
@@ -2875,8 +2675,8 @@
       {
         "part": 33,
         "saga": "Four Emperors",
-        "title": "Zou",
-        "originaltitle": "Whole Cake Island",
+        "title": "Whole Cake Island",
+        "originaltitle": "",
         "shortcode": "WO",
         "mkvcode": "wci",
         "description": "Luffy will not sail the seas without his cook, so he stubbornly goes after Sanji to Whole Cake Island. However, knocking on an emperor's door is easier said than done.",
@@ -3097,8 +2897,8 @@
       {
         "part": 34,
         "saga": "Four Emperors",
-        "title": "Whole Cake Island",
-        "originaltitle": "Reverie",
+        "title": "Reverie",
+        "originaltitle": "",
         "shortcode": "RV",
         "mkvcode": "reverie",
         "description": "Every four years, the leaders of the world gather at the Holy Land to discuss a mutually agreed upon path for the government. During this particular Reverie, many parties with their own agendas arrive... and some are uninvited.",
@@ -3116,186 +2916,6 @@
           {
             "episode": "03",
             "standard": "0B51015F",
-            "extended": ""
-          },
-          {
-            "episode": "04",
-            "standard": "02C6FC2B",
-            "extended": ""
-          },
-          {
-            "episode": "05",
-            "standard": "4CF30353",
-            "extended": ""
-          },
-          {
-            "episode": "06",
-            "standard": "410C8F0C",
-            "extended": ""
-          },
-          {
-            "episode": "07",
-            "standard": "FC2376A1",
-            "extended": ""
-          },
-          {
-            "episode": "08",
-            "standard": "31018FCB",
-            "extended": ""
-          },
-          {
-            "episode": "09",
-            "standard": "94E3481F",
-            "extended": ""
-          },
-          {
-            "episode": "10",
-            "standard": "E123D314",
-            "extended": ""
-          },
-          {
-            "episode": "11",
-            "standard": "8B5E1006",
-            "extended": ""
-          },
-          {
-            "episode": "12",
-            "standard": "36D0F622",
-            "extended": ""
-          },
-          {
-            "episode": "13",
-            "standard": "D9EEB564",
-            "extended": ""
-          },
-          {
-            "episode": "14",
-            "standard": "CCCBEFC0",
-            "extended": ""
-          },
-          {
-            "episode": "15",
-            "standard": "0E2022E4",
-            "extended": ""
-          },
-          {
-            "episode": "16",
-            "standard": "A8E42FE1",
-            "extended": ""
-          },
-          {
-            "episode": "17",
-            "standard": "0CF96D5A",
-            "extended": ""
-          },
-          {
-            "episode": "18",
-            "standard": "3F5E7FD3",
-            "extended": ""
-          },
-          {
-            "episode": "19",
-            "standard": "0F125E00",
-            "extended": ""
-          },
-          {
-            "episode": "20",
-            "standard": "4F38961B",
-            "extended": ""
-          },
-          {
-            "episode": "21",
-            "standard": "5FDB702D",
-            "extended": ""
-          },
-          {
-            "episode": "22",
-            "standard": "39D94718",
-            "extended": ""
-          },
-          {
-            "episode": "23",
-            "standard": "437F9E8D",
-            "extended": ""
-          },
-          {
-            "episode": "24",
-            "standard": "6E422CFB",
-            "extended": ""
-          },
-          {
-            "episode": "25",
-            "standard": "32CC4AB9",
-            "extended": ""
-          },
-          {
-            "episode": "26",
-            "standard": "71827EF0",
-            "extended": ""
-          },
-          {
-            "episode": "27",
-            "standard": "2CDA8E9D",
-            "extended": ""
-          },
-          {
-            "episode": "28",
-            "standard": "22B16322",
-            "extended": ""
-          },
-          {
-            "episode": "29",
-            "standard": "270A4ABD",
-            "extended": ""
-          },
-          {
-            "episode": "30",
-            "standard": "ABB0AC56",
-            "extended": ""
-          },
-          {
-            "episode": "31",
-            "standard": "529AE554",
-            "extended": ""
-          },
-          {
-            "episode": "32",
-            "standard": "8313ECE3",
-            "extended": ""
-          },
-          {
-            "episode": "33",
-            "standard": "6FBBD350",
-            "extended": ""
-          },
-          {
-            "episode": "34",
-            "standard": "A3939979",
-            "extended": ""
-          },
-          {
-            "episode": "35",
-            "standard": "1753F7D1",
-            "extended": ""
-          },
-          {
-            "episode": "36",
-            "standard": "3AF37912",
-            "extended": ""
-          },
-          {
-            "episode": "37",
-            "standard": "3C58DD41",
-            "extended": ""
-          },
-          {
-            "episode": "38",
-            "standard": "E9317CBD",
-            "extended": ""
-          },
-          {
-            "episode": "39",
-            "standard": "172F5F20",
             "extended": ""
           }
         ],
@@ -3319,8 +2939,8 @@
       {
         "part": 35,
         "saga": "Four Emperors",
-        "title": "Reverie",
-        "originaltitle": "Wano",
+        "title": "Wano",
+        "originaltitle": "",
         "shortcode": "WN",
         "mkvcode": "wano",
         "description": "The Straw Hats finally regroup in Wano to carry out theirs and their allies' ultimate goal: to see to the Emperor Kaido's downfall and restore the Kozuki family to its rightful place of power.",
@@ -3626,8 +3246,8 @@
       {
         "part": 36,
         "saga": "Final Saga",
-        "title": "Wano",
-        "originaltitle": "Egghead",
+        "title": "Egghead",
+        "originaltitle": "",
         "shortcode": "EG",
         "mkvcode": "egghead",
         "description": "Futuristic tech, giant alien monsters, battle robots, superhuman clones... Who are all these people calling themselves Dr. Vegapunk, and why is the government after one of their own?",
@@ -3640,7 +3260,7 @@
           {
             "episode": "02",
             "standard": "D511F339",
-            "extended": "6F26FDAB"
+            "extended": ""
           },
           {
             "episode": "03",
@@ -3730,186 +3350,6 @@
           {
             "episode": "20",
             "standard": "B974EFD7",
-            "extended": ""
-          },
-          {
-            "episode": "21",
-            "standard": "0B965026",
-            "extended": ""
-          },
-          {
-            "episode": "22",
-            "standard": "9F63AF78",
-            "extended": ""
-          },
-          {
-            "episode": "23",
-            "standard": "37670A03",
-            "extended": ""
-          },
-          {
-            "episode": "24",
-            "standard": "6173BCE1",
-            "extended": ""
-          },
-          {
-            "episode": "25",
-            "standard": "C3825063",
-            "extended": ""
-          },
-          {
-            "episode": "26",
-            "standard": "F3E829E8",
-            "extended": ""
-          },
-          {
-            "episode": "27",
-            "standard": "3CC8226D",
-            "extended": ""
-          },
-          {
-            "episode": "28",
-            "standard": "22F81B0E",
-            "extended": ""
-          },
-          {
-            "episode": "29",
-            "standard": "5C7E0604",
-            "extended": ""
-          },
-          {
-            "episode": "30",
-            "standard": "43A0D1DF",
-            "extended": ""
-          },
-          {
-            "episode": "31",
-            "standard": "F6C7EB83",
-            "extended": ""
-          },
-          {
-            "episode": "32",
-            "standard": "29B91F56",
-            "extended": ""
-          },
-          {
-            "episode": "33",
-            "standard": "E3AB2BA0",
-            "extended": ""
-          },
-          {
-            "episode": "34",
-            "standard": "224B7846",
-            "extended": ""
-          },
-          {
-            "episode": "35",
-            "standard": "98B5E26D",
-            "extended": ""
-          },
-          {
-            "episode": "36",
-            "standard": "BAFFE801",
-            "extended": ""
-          },
-          {
-            "episode": "37",
-            "standard": "AD8C9C16",
-            "extended": ""
-          },
-          {
-            "episode": "38",
-            "standard": "298A4284",
-            "extended": ""
-          },
-          {
-            "episode": "39",
-            "standard": "56CFB8B0",
-            "extended": ""
-          },
-          {
-            "episode": "40",
-            "standard": "713F7916",
-            "extended": ""
-          },
-          {
-            "episode": "41",
-            "standard": "C89B4C1E",
-            "extended": ""
-          },
-          {
-            "episode": "42",
-            "standard": "3FC81ABD",
-            "extended": ""
-          },
-          {
-            "episode": "43",
-            "standard": "26D98629",
-            "extended": ""
-          },
-          {
-            "episode": "44",
-            "standard": "F1FB27C6",
-            "extended": ""
-          },
-          {
-            "episode": "45",
-            "standard": "DFB30A71",
-            "extended": ""
-          },
-          {
-            "episode": "46",
-            "standard": "7392F65E",
-            "extended": ""
-          },
-          {
-            "episode": "47",
-            "standard": "D78E29CD",
-            "extended": ""
-          },
-          {
-            "episode": "48",
-            "standard": "F47C3EDD",
-            "extended": ""
-          },
-          {
-            "episode": "49",
-            "standard": "FE878EE8",
-            "extended": "58469AB0"
-          },
-          {
-            "episode": "50",
-            "standard": "0144BBBA",
-            "extended": ""
-          },
-          {
-            "episode": "51",
-            "standard": "E004EDB5",
-            "extended": ""
-          },
-          {
-            "episode": "52",
-            "standard": "D985734A",
-            "extended": ""
-          },
-          {
-            "episode": "53",
-            "standard": "C99E7631",
-            "extended": ""
-          },
-          {
-            "episode": "54",
-            "standard": "79C6DC33",
-            "extended": ""
-          },
-          {
-            "episode": "55",
-            "standard": "2501AC5A",
-            "extended": "425F93B9"
-          },
-          {
-            "episode": "56",
-            "standard": "E58B9A11",
             "extended": ""
           }
         ],
@@ -7345,7 +6785,7 @@
       }
     },
     "0144BBBA": {
-      "arc": 36,
+      "arc": 35,
       "episode": 50,
       "manga_chapters": "990-991",
       "anime_episodes": "1001-1003",
@@ -7405,7 +6845,7 @@
       }
     },
     "01C40FA1": {
-      "arc": 32,
+      "arc": 31,
       "episode": 47,
       "manga_chapters": "796-797",
       "anime_episodes": "740-742",
@@ -7425,7 +6865,7 @@
       }
     },
     "021A8886": {
-      "arc": 31,
+      "arc": 30,
       "episode": 22,
       "manga_chapters": "698-699",
       "anime_episodes": "624-626, 628",
@@ -7445,7 +6885,7 @@
       }
     },
     "02C6FC2B": {
-      "arc": 34,
+      "arc": 33,
       "episode": 4,
       "manga_chapters": "829-830",
       "anime_episodes": "788-790",
@@ -7465,7 +6905,7 @@
       }
     },
     "04186119": {
-      "arc": 32,
+      "arc": 31,
       "episode": 28,
       "manga_chapters": "754-755",
       "anime_episodes": "691-693",
@@ -7485,7 +6925,7 @@
       }
     },
     "0429451F": {
-      "arc": 32,
+      "arc": 31,
       "episode": 38,
       "manga_chapters": "774-775",
       "anime_episodes": "714-716",
@@ -7525,7 +6965,7 @@
       }
     },
     "04C7B716": {
-      "arc": 30,
+      "arc": 29,
       "episode": 13,
       "manga_chapters": "627-629",
       "anime_episodes": "547-550",
@@ -7605,7 +7045,7 @@
       }
     },
     "0880B38F": {
-      "arc": 33,
+      "arc": 32,
       "episode": 9,
       "manga_chapters": "818-819",
       "anime_episodes": "769-772",
@@ -7665,7 +7105,7 @@
       }
     },
     "0A2624D5": {
-      "arc": 31,
+      "arc": 30,
       "episode": 17,
       "manga_chapters": "687-688",
       "anime_episodes": "613-614",
@@ -7705,7 +7145,7 @@
       }
     },
     "0B51015F": {
-      "arc": 35,
+      "arc": 34,
       "episode": 3,
       "manga_chapters": "907-908",
       "anime_episodes": "886-889",
@@ -7725,7 +7165,7 @@
       }
     },
     "0B965026": {
-      "arc": 36,
+      "arc": 35,
       "episode": 21,
       "manga_chapters": "940-941",
       "anime_episodes": "936-938",
@@ -7765,7 +7205,7 @@
       }
     },
     "0CA47011": {
-      "arc": 32,
+      "arc": 31,
       "episode": 34,
       "manga_chapters": "766-767",
       "anime_episodes": "705-706",
@@ -7785,7 +7225,7 @@
       }
     },
     "0CBF5258": {
-      "arc": 31,
+      "arc": 30,
       "episode": 21,
       "manga_chapters": "696-697",
       "anime_episodes": "622-623",
@@ -7805,7 +7245,7 @@
       }
     },
     "0CF96D5A": {
-      "arc": 34,
+      "arc": 33,
       "episode": 17,
       "manga_chapters": "855-856",
       "anime_episodes": "823-825",
@@ -7905,7 +7345,7 @@
       }
     },
     "0E2022E4": {
-      "arc": 34,
+      "arc": 33,
       "episode": 15,
       "manga_chapters": "851-852",
       "anime_episodes": "817-820",
@@ -7925,7 +7365,7 @@
       }
     },
     "0F125E00": {
-      "arc": 34,
+      "arc": 33,
       "episode": 19,
       "manga_chapters": "859-860",
       "anime_episodes": "828-830",
@@ -7985,7 +7425,7 @@
       }
     },
     "11DA7BCB": {
-      "arc": 32,
+      "arc": 31,
       "episode": 24,
       "manga_chapters": "746-747",
       "anime_episodes": "681-683",
@@ -8085,7 +7525,7 @@
       }
     },
     "13E4ABCF": {
-      "arc": 36,
+      "arc": 35,
       "episode": 6,
       "manga_chapters": "915-916",
       "anime_episodes": "902-903",
@@ -8105,7 +7545,7 @@
       }
     },
     "15344804": {
-      "arc": 32,
+      "arc": 31,
       "episode": 45,
       "manga_chapters": "791-793",
       "anime_episodes": "734-736",
@@ -8185,7 +7625,7 @@
       }
     },
     "172F5F20": {
-      "arc": 34,
+      "arc": 33,
       "episode": 39,
       "manga_chapters": "901-902",
       "anime_episodes": "876-877",
@@ -8205,7 +7645,7 @@
       }
     },
     "174F92DD": {
-      "arc": 32,
+      "arc": 31,
       "episode": 17,
       "manga_chapters": "732-733",
       "anime_episodes": "664-665",
@@ -8225,7 +7665,7 @@
       }
     },
     "1753F7D1": {
-      "arc": 34,
+      "arc": 33,
       "episode": 35,
       "manga_chapters": "891-893",
       "anime_episodes": "865-868",
@@ -8345,7 +7785,7 @@
       }
     },
     "1B5DC33C": {
-      "arc": 32,
+      "arc": 31,
       "episode": 35,
       "manga_chapters": "768-769",
       "anime_episodes": "707-711",
@@ -8385,7 +7825,7 @@
       }
     },
     "1CADC5DC": {
-      "arc": 32,
+      "arc": 31,
       "episode": 25,
       "manga_chapters": "748-749",
       "anime_episodes": "683-686",
@@ -8545,7 +7985,7 @@
       }
     },
     "224B7846": {
-      "arc": 36,
+      "arc": 35,
       "episode": 34,
       "manga_chapters": "960-961",
       "anime_episodes": "960-961",
@@ -8585,7 +8025,7 @@
       }
     },
     "22B16322": {
-      "arc": 34,
+      "arc": 33,
       "episode": 28,
       "manga_chapters": "877-878",
       "anime_episodes": "848-850",
@@ -8625,7 +8065,7 @@
       }
     },
     "22F81B0E": {
-      "arc": 36,
+      "arc": 35,
       "episode": 28,
       "manga_chapters": "952-953",
       "anime_episodes": "952-953",
@@ -8745,7 +8185,7 @@
       }
     },
     "2501AC5A": {
-      "arc": 36,
+      "arc": 35,
       "episode": 55,
       "manga_chapters": "1000",
       "anime_episodes": "1015",
@@ -8825,7 +8265,7 @@
       }
     },
     "26D98629": {
-      "arc": 36,
+      "arc": 35,
       "episode": 43,
       "manga_chapters": "977-978",
       "anime_episodes": "981-982",
@@ -8845,7 +8285,7 @@
       }
     },
     "270A4ABD": {
-      "arc": 34,
+      "arc": 33,
       "episode": 29,
       "manga_chapters": "879-880",
       "anime_episodes": "851-853",
@@ -8885,7 +8325,7 @@
       }
     },
     "298A4284": {
-      "arc": 36,
+      "arc": 35,
       "episode": 38,
       "manga_chapters": "967",
       "anime_episodes": "967-968",
@@ -8905,7 +8345,7 @@
       }
     },
     "29A10280": {
-      "arc": 30,
+      "arc": 29,
       "episode": 7,
       "manga_chapters": "614-615",
       "anime_episodes": "533-534",
@@ -8945,7 +8385,7 @@
       }
     },
     "29B91F56": {
-      "arc": 36,
+      "arc": 35,
       "episode": 32,
       "manga_chapters": "957",
       "anime_episodes": "958",
@@ -8985,7 +8425,7 @@
       }
     },
     "2A35B710": {
-      "arc": 32,
+      "arc": 31,
       "episode": 1,
       "manga_chapters": "700-701",
       "anime_episodes": "628-631",
@@ -9125,7 +8565,7 @@
       }
     },
     "2CDA8E9D": {
-      "arc": 34,
+      "arc": 33,
       "episode": 27,
       "manga_chapters": "875-876",
       "anime_episodes": "846-848",
@@ -9245,7 +8685,7 @@
       }
     },
     "31018FCB": {
-      "arc": 34,
+      "arc": 33,
       "episode": 8,
       "manga_chapters": "837-838",
       "anime_episodes": "798-800",
@@ -9265,7 +8705,7 @@
       }
     },
     "32150FF4": {
-      "arc": 33,
+      "arc": 32,
       "episode": 2,
       "manga_chapters": "804-805",
       "anime_episodes": "753-754",
@@ -9305,7 +8745,7 @@
       }
     },
     "32CC4AB9": {
-      "arc": 34,
+      "arc": 33,
       "episode": 25,
       "manga_chapters": "870-872",
       "anime_episodes": "841-843",
@@ -9345,7 +8785,7 @@
       }
     },
     "35A189E2": {
-      "arc": 30,
+      "arc": 29,
       "episode": 14,
       "manga_chapters": "630-631",
       "anime_episodes": "550-551",
@@ -9405,7 +8845,7 @@
       }
     },
     "36D0F622": {
-      "arc": 34,
+      "arc": 33,
       "episode": 12,
       "manga_chapters": "845-846",
       "anime_episodes": "809-812",
@@ -9425,7 +8865,7 @@
       }
     },
     "37670A03": {
-      "arc": 36,
+      "arc": 35,
       "episode": 23,
       "manga_chapters": "943-944",
       "anime_episodes": "941-943",
@@ -9485,7 +8925,7 @@
       }
     },
     "398915C6": {
-      "arc": 31,
+      "arc": 30,
       "episode": 11,
       "manga_chapters": "675-676",
       "anime_episodes": "601-602",
@@ -9505,7 +8945,7 @@
       }
     },
     "39D94718": {
-      "arc": 34,
+      "arc": 33,
       "episode": 22,
       "manga_chapters": "865-866",
       "anime_episodes": "835-836",
@@ -9545,7 +8985,7 @@
       }
     },
     "3AF37912": {
-      "arc": 34,
+      "arc": 33,
       "episode": 36,
       "manga_chapters": "892-895",
       "anime_episodes": "865, 867-870",
@@ -9605,7 +9045,7 @@
       }
     },
     "3C58DD41": {
-      "arc": 34,
+      "arc": 33,
       "episode": 37,
       "manga_chapters": "896-897",
       "anime_episodes": "871-872",
@@ -9645,7 +9085,7 @@
       }
     },
     "3CC8226D": {
-      "arc": 36,
+      "arc": 35,
       "episode": 27,
       "manga_chapters": "950-951",
       "anime_episodes": "950-951",
@@ -9665,7 +9105,7 @@
       }
     },
     "3E9F11F9": {
-      "arc": 32,
+      "arc": 31,
       "episode": 41,
       "manga_chapters": "782-783",
       "anime_episodes": "723-725",
@@ -9685,7 +9125,7 @@
       }
     },
     "3F24A1D8": {
-      "arc": 34,
+      "arc": 33,
       "episode": 1,
       "manga_chapters": "823-824",
       "anime_episodes": "777-779, 783",
@@ -9705,7 +9145,7 @@
       }
     },
     "3F5E7FD3": {
-      "arc": 34,
+      "arc": 33,
       "episode": 18,
       "manga_chapters": "857-858",
       "anime_episodes": "826-828",
@@ -9725,7 +9165,7 @@
       }
     },
     "3F6633B5": {
-      "arc": 34,
+      "arc": 33,
       "episode": 3,
       "manga_chapters": "827-828",
       "anime_episodes": "785-788",
@@ -9765,7 +9205,7 @@
       }
     },
     "3FC81ABD": {
-      "arc": 36,
+      "arc": 35,
       "episode": 42,
       "manga_chapters": "975-976",
       "anime_episodes": "978-980",
@@ -9785,7 +9225,7 @@
       }
     },
     "410C8F0C": {
-      "arc": 34,
+      "arc": 33,
       "episode": 6,
       "manga_chapters": "833-834",
       "anime_episodes": "793-795",
@@ -9805,7 +9245,7 @@
       }
     },
     "410FD111": {
-      "arc": 36,
+      "arc": 35,
       "episode": 3,
       "manga_chapters": "911-912",
       "anime_episodes": "894, 897",
@@ -9865,7 +9305,7 @@
       }
     },
     "425F93B9": {
-      "arc": 36,
+      "arc": 35,
       "episode": 55,
       "manga_chapters": "1000",
       "anime_episodes": "1015",
@@ -9905,7 +9345,7 @@
       }
     },
     "437F9E8D": {
-      "arc": 34,
+      "arc": 33,
       "episode": 23,
       "manga_chapters": "867-868",
       "anime_episodes": "837-839",
@@ -9925,7 +9365,7 @@
       }
     },
     "43A0D1DF": {
-      "arc": 36,
+      "arc": 35,
       "episode": 30,
       "manga_chapters": "954-955",
       "anime_episodes": "955-956",
@@ -10085,7 +9525,7 @@
       }
     },
     "4A52B138": {
-      "arc": 33,
+      "arc": 32,
       "episode": 10,
       "manga_chapters": "820-822",
       "anime_episodes": "772-774, 776",
@@ -10165,7 +9605,7 @@
       }
     },
     "4CD92CFC": {
-      "arc": 31,
+      "arc": 30,
       "episode": 16,
       "manga_chapters": "685-686",
       "anime_episodes": "611-612",
@@ -10185,7 +9625,7 @@
       }
     },
     "4CF30353": {
-      "arc": 34,
+      "arc": 33,
       "episode": 5,
       "manga_chapters": "831-832",
       "anime_episodes": "791-793",
@@ -10245,7 +9685,7 @@
       }
     },
     "4DDF4C07": {
-      "arc": 32,
+      "arc": 31,
       "episode": 44,
       "manga_chapters": "788-790",
       "anime_episodes": "730-733",
@@ -10265,7 +9705,7 @@
       }
     },
     "4F16C5DC": {
-      "arc": 32,
+      "arc": 31,
       "episode": 30,
       "manga_chapters": "758-759",
       "anime_episodes": "694, 696-698",
@@ -10285,7 +9725,7 @@
       }
     },
     "4F38961B": {
-      "arc": 34,
+      "arc": 33,
       "episode": 20,
       "manga_chapters": "861-862",
       "anime_episodes": "831-832",
@@ -10325,7 +9765,7 @@
       }
     },
     "5012E091": {
-      "arc": 31,
+      "arc": 30,
       "episode": 20,
       "manga_chapters": "693-695",
       "anime_episodes": "619-621",
@@ -10345,7 +9785,7 @@
       }
     },
     "50143351": {
-      "arc": 32,
+      "arc": 31,
       "episode": 10,
       "manga_chapters": "718-719",
       "anime_episodes": "648-649",
@@ -10425,7 +9865,7 @@
       }
     },
     "529AE554": {
-      "arc": 34,
+      "arc": 33,
       "episode": 31,
       "manga_chapters": "883-884",
       "anime_episodes": "856-858",
@@ -10445,7 +9885,7 @@
       }
     },
     "53AEB13C": {
-      "arc": 32,
+      "arc": 31,
       "episode": 33,
       "manga_chapters": "764-765",
       "anime_episodes": "703-704",
@@ -10485,7 +9925,7 @@
       }
     },
     "54AC1705": {
-      "arc": 31,
+      "arc": 30,
       "episode": 19,
       "manga_chapters": "691-692",
       "anime_episodes": "617-618",
@@ -10505,7 +9945,7 @@
       }
     },
     "55292D1C": {
-      "arc": 32,
+      "arc": 31,
       "episode": 42,
       "manga_chapters": "784-785",
       "anime_episodes": "726-728",
@@ -10525,7 +9965,7 @@
       }
     },
     "55837445": {
-      "arc": 33,
+      "arc": 32,
       "episode": 7,
       "manga_chapters": "814-815",
       "anime_episodes": "764-766",
@@ -10545,7 +9985,7 @@
       }
     },
     "5636E014": {
-      "arc": 30,
+      "arc": 29,
       "episode": 3,
       "manga_chapters": "607-608",
       "anime_episodes": "526-527",
@@ -10565,7 +10005,7 @@
       }
     },
     "56CFB8B0": {
-      "arc": 36,
+      "arc": 35,
       "episode": 39,
       "manga_chapters": "968-969",
       "anime_episodes": "969-971",
@@ -10645,7 +10085,7 @@
       }
     },
     "58469AB0": {
-      "arc": 36,
+      "arc": 35,
       "episode": 49,
       "manga_chapters": "988-989",
       "anime_episodes": "997-1000",
@@ -10745,7 +10185,7 @@
       }
     },
     "5A38EC3B": {
-      "arc": 32,
+      "arc": 31,
       "episode": 23,
       "manga_chapters": "744-745",
       "anime_episodes": "678-680",
@@ -10765,7 +10205,7 @@
       }
     },
     "5A3CE523": {
-      "arc": 31,
+      "arc": 30,
       "episode": 2,
       "manga_chapters": "656-658",
       "anime_episodes": "580-583",
@@ -10785,7 +10225,7 @@
       }
     },
     "5A5E65B1": {
-      "arc": 36,
+      "arc": 35,
       "episode": 9,
       "manga_chapters": "919-920",
       "anime_episodes": "909-911",
@@ -10825,7 +10265,7 @@
       }
     },
     "5ACE812A": {
-      "arc": 36,
+      "arc": 35,
       "episode": 12,
       "manga_chapters": "924",
       "anime_episodes": "916",
@@ -10885,7 +10325,7 @@
       }
     },
     "5B2AAFBF": {
-      "arc": 33,
+      "arc": 32,
       "episode": 8,
       "manga_chapters": "816-817",
       "anime_episodes": "767-769",
@@ -10945,7 +10385,7 @@
       }
     },
     "5C7E0604": {
-      "arc": 36,
+      "arc": 35,
       "episode": 29,
       "manga_chapters": "953-954",
       "anime_episodes": "954-955",
@@ -11045,7 +10485,7 @@
       }
     },
     "5F035A13": {
-      "arc": 32,
+      "arc": 31,
       "episode": 48,
       "manga_chapters": "798-800",
       "anime_episodes": "742-745",
@@ -11105,7 +10545,7 @@
       }
     },
     "5FC46535": {
-      "arc": 32,
+      "arc": 31,
       "episode": 22,
       "manga_chapters": "742-743",
       "anime_episodes": "675-678",
@@ -11125,7 +10565,7 @@
       }
     },
     "5FDB702D": {
-      "arc": 34,
+      "arc": 33,
       "episode": 21,
       "manga_chapters": "863-864",
       "anime_episodes": "831, 833-834",
@@ -11205,7 +10645,7 @@
       }
     },
     "6173BCE1": {
-      "arc": 36,
+      "arc": 35,
       "episode": 24,
       "manga_chapters": "945",
       "anime_episodes": "942-944",
@@ -11305,7 +10745,7 @@
       }
     },
     "64FB3990": {
-      "arc": 30,
+      "arc": 29,
       "episode": 6,
       "manga_chapters": "613-614",
       "anime_episodes": "532-533",
@@ -11325,7 +10765,7 @@
       }
     },
     "658D36CE": {
-      "arc": 31,
+      "arc": 30,
       "episode": 8,
       "manga_chapters": "669-670",
       "anime_episodes": "595-596",
@@ -11365,7 +10805,7 @@
       }
     },
     "65BD682D": {
-      "arc": 30,
+      "arc": 29,
       "episode": 23,
       "manga_chapters": "650-651",
       "anime_episodes": "570-571",
@@ -11405,7 +10845,7 @@
       }
     },
     "666061E3": {
-      "arc": 31,
+      "arc": 30,
       "episode": 4,
       "manga_chapters": "661-662",
       "anime_episodes": "585-587",
@@ -11505,7 +10945,7 @@
       }
     },
     "6A3CE0EA": {
-      "arc": 32,
+      "arc": 31,
       "episode": 15,
       "manga_chapters": "728-729",
       "anime_episodes": "660-661",
@@ -11525,7 +10965,7 @@
       }
     },
     "6A9CF454": {
-      "arc": 36,
+      "arc": 35,
       "episode": 11,
       "manga_chapters": "922-923",
       "anime_episodes": "914-915",
@@ -11645,7 +11085,7 @@
       }
     },
     "6C9E8055": {
-      "arc": 36,
+      "arc": 35,
       "episode": 19,
       "manga_chapters": "936-938",
       "anime_episodes": "931-934",
@@ -11665,7 +11105,7 @@
       }
     },
     "6DA86F5F": {
-      "arc": 36,
+      "arc": 35,
       "episode": 8,
       "manga_chapters": "918-919",
       "anime_episodes": "906, 908-909",
@@ -11705,7 +11145,7 @@
       }
     },
     "6E0CD1C5": {
-      "arc": 35,
+      "arc": 34,
       "episode": 2,
       "manga_chapters": "905-906",
       "anime_episodes": "881-885",
@@ -11745,7 +11185,7 @@
       }
     },
     "6E422CFB": {
-      "arc": 34,
+      "arc": 33,
       "episode": 24,
       "manga_chapters": "869-870",
       "anime_episodes": "839-841",
@@ -11785,7 +11225,7 @@
       }
     },
     "6F26FDAB": {
-      "arc": 36,
+      "arc": 35,
       "episode": 2,
       "manga_chapters": "909-911",
       "anime_episodes": "892-894",
@@ -11805,7 +11245,7 @@
       }
     },
     "6FBBD350": {
-      "arc": 34,
+      "arc": 33,
       "episode": 33,
       "manga_chapters": "887-888",
       "anime_episodes": "860-862",
@@ -11845,7 +11285,7 @@
       }
     },
     "6FFCB482": {
-      "arc": 34,
+      "arc": 33,
       "episode": 2,
       "manga_chapters": "825-826",
       "anime_episodes": "783-785",
@@ -11905,7 +11345,7 @@
       }
     },
     "7073A62F": {
-      "arc": 32,
+      "arc": 31,
       "episode": 16,
       "manga_chapters": "730-731",
       "anime_episodes": "657, 662-663",
@@ -11925,7 +11365,7 @@
       }
     },
     "713F7916": {
-      "arc": 36,
+      "arc": 35,
       "episode": 40,
       "manga_chapters": "970-972",
       "anime_episodes": "971-975",
@@ -11945,7 +11385,7 @@
       }
     },
     "7149D13F": {
-      "arc": 33,
+      "arc": 32,
       "episode": 5,
       "manga_chapters": "810-811",
       "anime_episodes": "759-762",
@@ -11965,7 +11405,7 @@
       }
     },
     "71827EF0": {
-      "arc": 34,
+      "arc": 33,
       "episode": 26,
       "manga_chapters": "873-874",
       "anime_episodes": "843-846",
@@ -11985,7 +11425,7 @@
       }
     },
     "71CA89FC": {
-      "arc": 32,
+      "arc": 31,
       "episode": 26,
       "manga_chapters": "750-751",
       "anime_episodes": "685-688",
@@ -12045,7 +11485,7 @@
       }
     },
     "72E3E794": {
-      "arc": 31,
+      "arc": 30,
       "episode": 10,
       "manga_chapters": "673-674",
       "anime_episodes": "599-600",
@@ -12145,7 +11585,7 @@
       }
     },
     "7391ECD4": {
-      "arc": 32,
+      "arc": 31,
       "episode": 39,
       "manga_chapters": "776-778",
       "anime_episodes": "716-719",
@@ -12165,7 +11605,7 @@
       }
     },
     "7392F65E": {
-      "arc": 36,
+      "arc": 35,
       "episode": 46,
       "manga_chapters": "982-983",
       "anime_episodes": "988-991",
@@ -12245,7 +11685,7 @@
       }
     },
     "75CC1F6E": {
-      "arc": 31,
+      "arc": 30,
       "episode": 14,
       "manga_chapters": "681-682",
       "anime_episodes": "607-608",
@@ -12325,7 +11765,7 @@
       }
     },
     "77081AEE": {
-      "arc": 32,
+      "arc": 31,
       "episode": 19,
       "manga_chapters": "736-737",
       "anime_episodes": "668-670",
@@ -12345,7 +11785,7 @@
       }
     },
     "777A9A6A": {
-      "arc": 32,
+      "arc": 31,
       "episode": 37,
       "manga_chapters": "772-773",
       "anime_episodes": "711-713",
@@ -12365,7 +11805,7 @@
       }
     },
     "777DE97C": {
-      "arc": 32,
+      "arc": 31,
       "episode": 8,
       "manga_chapters": "714-715",
       "anime_episodes": "643-645",
@@ -12405,7 +11845,7 @@
       }
     },
     "7926F9B5": {
-      "arc": 30,
+      "arc": 29,
       "episode": 11,
       "manga_chapters": "623-624",
       "anime_episodes": "543-545",
@@ -12445,7 +11885,7 @@
       }
     },
     "79C6DC33": {
-      "arc": 36,
+      "arc": 35,
       "episode": 54,
       "manga_chapters": "998-999",
       "anime_episodes": "1012-1014",
@@ -12525,7 +11965,7 @@
       }
     },
     "7DBBFA18": {
-      "arc": 30,
+      "arc": 29,
       "episode": 22,
       "manga_chapters": "647-649",
       "anime_episodes": "567-569",
@@ -12545,7 +11985,7 @@
       }
     },
     "7F73DB45": {
-      "arc": 33,
+      "arc": 32,
       "episode": 6,
       "manga_chapters": "812-813",
       "anime_episodes": "762-764",
@@ -12585,7 +12025,7 @@
       }
     },
     "8014A332": {
-      "arc": 30,
+      "arc": 29,
       "episode": 15,
       "manga_chapters": "632-633",
       "anime_episodes": "552-553",
@@ -12605,7 +12045,7 @@
       }
     },
     "81C4666C": {
-      "arc": 32,
+      "arc": 31,
       "episode": 46,
       "manga_chapters": "794-795",
       "anime_episodes": "737-739",
@@ -12625,7 +12065,7 @@
       }
     },
     "8313ECE3": {
-      "arc": 34,
+      "arc": 33,
       "episode": 32,
       "manga_chapters": "885-886",
       "anime_episodes": "858-860",
@@ -12685,7 +12125,7 @@
       }
     },
     "8538EDC4": {
-      "arc": 36,
+      "arc": 35,
       "episode": 2,
       "manga_chapters": "909-911",
       "anime_episodes": "892-894",
@@ -12705,7 +12145,7 @@
       }
     },
     "85AD9C81": {
-      "arc": 30,
+      "arc": 29,
       "episode": 21,
       "manga_chapters": "643-646",
       "anime_episodes": "562-567",
@@ -12885,7 +12325,7 @@
       }
     },
     "8B5E1006": {
-      "arc": 34,
+      "arc": 33,
       "episode": 11,
       "manga_chapters": "843-844",
       "anime_episodes": "806-808",
@@ -12985,7 +12425,7 @@
       }
     },
     "90015E67": {
-      "arc": 31,
+      "arc": 30,
       "episode": 1,
       "manga_chapters": "654-655",
       "anime_episodes": "574, 579",
@@ -13005,7 +12445,7 @@
       }
     },
     "90034ECC": {
-      "arc": 32,
+      "arc": 31,
       "episode": 3,
       "manga_chapters": "704-705",
       "anime_episodes": "633-635",
@@ -13105,7 +12545,7 @@
       }
     },
     "91BE23B7": {
-      "arc": 36,
+      "arc": 35,
       "episode": 10,
       "manga_chapters": "921-922",
       "anime_episodes": "911-913",
@@ -13165,7 +12605,7 @@
       }
     },
     "93376225": {
-      "arc": 36,
+      "arc": 35,
       "episode": 20,
       "manga_chapters": "938-939",
       "anime_episodes": "934-937",
@@ -13205,7 +12645,7 @@
       }
     },
     "94E2099D": {
-      "arc": 30,
+      "arc": 29,
       "episode": 20,
       "manga_chapters": "642-645",
       "anime_episodes": "563-567",
@@ -13225,7 +12665,7 @@
       }
     },
     "94E3481F": {
-      "arc": 34,
+      "arc": 33,
       "episode": 9,
       "manga_chapters": "839-840",
       "anime_episodes": "800-803, 807",
@@ -13245,7 +12685,7 @@
       }
     },
     "94F78CF3": {
-      "arc": 36,
+      "arc": 35,
       "episode": 18,
       "manga_chapters": "934-935",
       "anime_episodes": "929-931",
@@ -13285,7 +12725,7 @@
       }
     },
     "964FB36B": {
-      "arc": 31,
+      "arc": 30,
       "episode": 13,
       "manga_chapters": "679-680",
       "anime_episodes": "604-606",
@@ -13358,7 +12798,7 @@
       }
     },
     "98B5E26D": {
-      "arc": 36,
+      "arc": 35,
       "episode": 35,
       "manga_chapters": "962-963",
       "anime_episodes": "961-963",
@@ -13418,7 +12858,7 @@
       }
     },
     "99A61805": {
-      "arc": 30,
+      "arc": 29,
       "episode": 24,
       "manga_chapters": "652-653",
       "anime_episodes": "572-573",
@@ -13518,7 +12958,7 @@
       }
     },
     "9C3360D6": {
-      "arc": 32,
+      "arc": 31,
       "episode": 31,
       "manga_chapters": "760-761",
       "anime_episodes": "699-700",
@@ -13538,7 +12978,7 @@
       }
     },
     "9CE5B9DD": {
-      "arc": 31,
+      "arc": 30,
       "episode": 15,
       "manga_chapters": "683-684",
       "anime_episodes": "609-610",
@@ -13578,7 +13018,7 @@
       }
     },
     "9E0A91E9": {
-      "arc": 30,
+      "arc": 29,
       "episode": 4,
       "manga_chapters": "609-610",
       "anime_episodes": "528-529",
@@ -13598,7 +13038,7 @@
       }
     },
     "9F63AF78": {
-      "arc": 36,
+      "arc": 35,
       "episode": 22,
       "manga_chapters": "941-943",
       "anime_episodes": "939-940",
@@ -13618,7 +13058,7 @@
       }
     },
     "9FA61F60": {
-      "arc": 36,
+      "arc": 35,
       "episode": 16,
       "manga_chapters": "930-931",
       "anime_episodes": "923-926",
@@ -13638,7 +13078,7 @@
       }
     },
     "A3939979": {
-      "arc": 34,
+      "arc": 33,
       "episode": 34,
       "manga_chapters": "889-891",
       "anime_episodes": "862-865",
@@ -13698,7 +13138,7 @@
       }
     },
     "A4F76B13": {
-      "arc": 33,
+      "arc": 32,
       "episode": 4,
       "manga_chapters": "808-809",
       "anime_episodes": "757-760",
@@ -13918,7 +13358,7 @@
       }
     },
     "A8E42FE1": {
-      "arc": 34,
+      "arc": 33,
       "episode": 16,
       "manga_chapters": "853-854",
       "anime_episodes": "820-822",
@@ -13958,7 +13398,7 @@
       }
     },
     "A95DE47B": {
-      "arc": 32,
+      "arc": 31,
       "episode": 5,
       "manga_chapters": "708-709",
       "anime_episodes": "637-638",
@@ -14038,7 +13478,7 @@
       }
     },
     "ABB0AC56": {
-      "arc": 34,
+      "arc": 33,
       "episode": 30,
       "manga_chapters": "881-883",
       "anime_episodes": "853-855, 858",
@@ -14078,7 +13518,7 @@
       }
     },
     "ACC7852E": {
-      "arc": 32,
+      "arc": 31,
       "episode": 29,
       "manga_chapters": "756-757",
       "anime_episodes": "693-696",
@@ -14138,7 +13578,7 @@
       }
     },
     "ACF1C889": {
-      "arc": 31,
+      "arc": 30,
       "episode": 5,
       "manga_chapters": "663-664",
       "anime_episodes": "588-589",
@@ -14198,7 +13638,7 @@
       }
     },
     "AD550761": {
-      "arc": 31,
+      "arc": 30,
       "episode": 9,
       "manga_chapters": "671-672",
       "anime_episodes": "597-598",
@@ -14218,7 +13658,7 @@
       }
     },
     "AD8C9C16": {
-      "arc": 36,
+      "arc": 35,
       "episode": 37,
       "manga_chapters": "965-966",
       "anime_episodes": "964-967",
@@ -14238,7 +13678,7 @@
       }
     },
     "AE6ABE84": {
-      "arc": 36,
+      "arc": 35,
       "episode": 15,
       "manga_chapters": "928-930",
       "anime_episodes": "921-923",
@@ -14378,7 +13818,7 @@
       }
     },
     "B51C53E9": {
-      "arc": 36,
+      "arc": 35,
       "episode": 5,
       "manga_chapters": "914-915",
       "anime_episodes": "900-902",
@@ -14438,7 +13878,7 @@
       }
     },
     "B6BD1A60": {
-      "arc": 30,
+      "arc": 29,
       "episode": 18,
       "manga_chapters": "638-639",
       "anime_episodes": "559-560",
@@ -14498,7 +13938,7 @@
       }
     },
     "BAFFE801": {
-      "arc": 36,
+      "arc": 35,
       "episode": 36,
       "manga_chapters": "964-965",
       "anime_episodes": "963-964",
@@ -14558,7 +13998,7 @@
       }
     },
     "BD7169C3": {
-      "arc": 30,
+      "arc": 29,
       "episode": 2,
       "manga_chapters": "605-606",
       "anime_episodes": "524-526",
@@ -14598,7 +14038,7 @@
       }
     },
     "BE72EB0E": {
-      "arc": 32,
+      "arc": 31,
       "episode": 20,
       "manga_chapters": "738-739",
       "anime_episodes": "670-672",
@@ -14638,7 +14078,7 @@
       }
     },
     "BF92DCAF": {
-      "arc": 36,
+      "arc": 35,
       "episode": 14,
       "manga_chapters": "926-927",
       "anime_episodes": "919-922",
@@ -14718,7 +14158,7 @@
       }
     },
     "C19D5680": {
-      "arc": 30,
+      "arc": 29,
       "episode": 19,
       "manga_chapters": "640-641",
       "anime_episodes": "561-562",
@@ -14738,7 +14178,7 @@
       }
     },
     "C21EC74A": {
-      "arc": 32,
+      "arc": 31,
       "episode": 21,
       "manga_chapters": "740-741",
       "anime_episodes": "672-675",
@@ -14818,7 +14258,7 @@
       }
     },
     "C29E5C35": {
-      "arc": 32,
+      "arc": 31,
       "episode": 13,
       "manga_chapters": "724-725",
       "anime_episodes": "655-657",
@@ -14858,7 +14298,7 @@
       }
     },
     "C2C37921": {
-      "arc": 32,
+      "arc": 31,
       "episode": 9,
       "manga_chapters": "716-717",
       "anime_episodes": "646-647",
@@ -14878,7 +14318,7 @@
       }
     },
     "C3825063": {
-      "arc": 36,
+      "arc": 35,
       "episode": 25,
       "manga_chapters": "946-947",
       "anime_episodes": "945-947",
@@ -14938,7 +14378,7 @@
       }
     },
     "C5FB1123": {
-      "arc": 35,
+      "arc": 34,
       "episode": 1,
       "manga_chapters": "903-904",
       "anime_episodes": "878-880",
@@ -15018,7 +14458,7 @@
       }
     },
     "C89B4C1E": {
-      "arc": 36,
+      "arc": 35,
       "episode": 41,
       "manga_chapters": "972-974",
       "anime_episodes": "975-977",
@@ -15038,7 +14478,7 @@
       }
     },
     "C9362978": {
-      "arc": 32,
+      "arc": 31,
       "episode": 18,
       "manga_chapters": "734-735",
       "anime_episodes": "666-667",
@@ -15078,7 +14518,7 @@
       }
     },
     "C99E7631": {
-      "arc": 36,
+      "arc": 35,
       "episode": 53,
       "manga_chapters": "996-997",
       "anime_episodes": "1009-1011",
@@ -15158,7 +14598,7 @@
       }
     },
     "CAA32C42": {
-      "arc": 32,
+      "arc": 31,
       "episode": 43,
       "manga_chapters": "786-787",
       "anime_episodes": "728-730",
@@ -15218,7 +14658,7 @@
       }
     },
     "CC88315A": {
-      "arc": 31,
+      "arc": 30,
       "episode": 6,
       "manga_chapters": "665-666",
       "anime_episodes": "591-592",
@@ -15238,7 +14678,7 @@
       }
     },
     "CCCBEFC0": {
-      "arc": 34,
+      "arc": 33,
       "episode": 14,
       "manga_chapters": "849-850",
       "anime_episodes": "814-817",
@@ -15258,7 +14698,7 @@
       }
     },
     "CD83F1E9": {
-      "arc": 31,
+      "arc": 30,
       "episode": 12,
       "manga_chapters": "677-678",
       "anime_episodes": "603-604",
@@ -15498,7 +14938,7 @@
       }
     },
     "D2E02F36": {
-      "arc": 36,
+      "arc": 35,
       "episode": 17,
       "manga_chapters": "932-933",
       "anime_episodes": "926-928",
@@ -15558,7 +14998,7 @@
       }
     },
     "D56597BC": {
-      "arc": 31,
+      "arc": 30,
       "episode": 18,
       "manga_chapters": "689-690",
       "anime_episodes": "615-616",
@@ -15618,7 +15058,7 @@
       }
     },
     "D78E29CD": {
-      "arc": 36,
+      "arc": 35,
       "episode": 47,
       "manga_chapters": "984-985",
       "anime_episodes": "991-994",
@@ -15658,7 +15098,7 @@
       }
     },
     "D8E8370A": {
-      "arc": 32,
+      "arc": 31,
       "episode": 11,
       "manga_chapters": "720-721",
       "anime_episodes": "650-651",
@@ -15678,7 +15118,7 @@
       }
     },
     "D985734A": {
-      "arc": 36,
+      "arc": 35,
       "episode": 52,
       "manga_chapters": "994-995",
       "anime_episodes": "1006-1009",
@@ -15718,7 +15158,7 @@
       }
     },
     "D9EEB564": {
-      "arc": 34,
+      "arc": 33,
       "episode": 13,
       "manga_chapters": "847-848",
       "anime_episodes": "812-815",
@@ -15758,7 +15198,7 @@
       }
     },
     "DA5B5D04": {
-      "arc": 30,
+      "arc": 29,
       "episode": 5,
       "manga_chapters": "611-612",
       "anime_episodes": "530-531",
@@ -15798,7 +15238,7 @@
       }
     },
     "DBA50B89": {
-      "arc": 30,
+      "arc": 29,
       "episode": 8,
       "manga_chapters": "616-618",
       "anime_episodes": "535-537",
@@ -15818,7 +15258,7 @@
       }
     },
     "DC6C3C54": {
-      "arc": 32,
+      "arc": 31,
       "episode": 27,
       "manga_chapters": "752-753",
       "anime_episodes": "688-691",
@@ -15838,7 +15278,7 @@
       }
     },
     "DCF7AD65": {
-      "arc": 36,
+      "arc": 35,
       "episode": 13,
       "manga_chapters": "925-926",
       "anime_episodes": "917-919, 924",
@@ -15878,7 +15318,7 @@
       }
     },
     "DF3A7006": {
-      "arc": 30,
+      "arc": 29,
       "episode": 16,
       "manga_chapters": "634-635",
       "anime_episodes": "554-556",
@@ -15898,7 +15338,7 @@
       }
     },
     "DFB30A71": {
-      "arc": 36,
+      "arc": 35,
       "episode": 45,
       "manga_chapters": "980-981",
       "anime_episodes": "985-988",
@@ -15918,7 +15358,7 @@
       }
     },
     "E004EDB5": {
-      "arc": 36,
+      "arc": 35,
       "episode": 51,
       "manga_chapters": "992-993",
       "anime_episodes": "1003-1006",
@@ -15938,7 +15378,7 @@
       }
     },
     "E058DEF9": {
-      "arc": 32,
+      "arc": 31,
       "episode": 2,
       "manga_chapters": "702-703",
       "anime_episodes": "631-633",
@@ -15958,7 +15398,7 @@
       }
     },
     "E123D314": {
-      "arc": 34,
+      "arc": 33,
       "episode": 10,
       "manga_chapters": "841-842",
       "anime_episodes": "804-806",
@@ -15978,7 +15418,7 @@
       }
     },
     "E3AB2BA0": {
-      "arc": 36,
+      "arc": 35,
       "episode": 33,
       "manga_chapters": "958-959",
       "anime_episodes": "959-960",
@@ -15998,7 +15438,7 @@
       }
     },
     "E3C90B8B": {
-      "arc": 32,
+      "arc": 31,
       "episode": 14,
       "manga_chapters": "726-727",
       "anime_episodes": "648, 657-659",
@@ -16078,7 +15518,7 @@
       }
     },
     "E4B077F8": {
-      "arc": 33,
+      "arc": 32,
       "episode": 3,
       "manga_chapters": "806-807",
       "anime_episodes": "755-757",
@@ -16158,7 +15598,7 @@
       }
     },
     "E58B9A11": {
-      "arc": 36,
+      "arc": 35,
       "episode": 56,
       "manga_chapters": "1001-1002",
       "anime_episodes": "1016-1017",
@@ -16218,7 +15658,7 @@
       }
     },
     "E70913D9": {
-      "arc": 33,
+      "arc": 32,
       "episode": 1,
       "manga_chapters": "801-803",
       "anime_episodes": "746-747, 751-753",
@@ -16338,7 +15778,7 @@
       }
     },
     "E9317CBD": {
-      "arc": 34,
+      "arc": 33,
       "episode": 38,
       "manga_chapters": "898-900",
       "anime_episodes": "873-875",
@@ -16358,7 +15798,7 @@
       }
     },
     "E937ED2B": {
-      "arc": 36,
+      "arc": 35,
       "episode": 4,
       "manga_chapters": "913",
       "anime_episodes": "898-899",
@@ -16378,7 +15818,7 @@
       }
     },
     "E98F852E": {
-      "arc": 32,
+      "arc": 31,
       "episode": 32,
       "manga_chapters": "762-763",
       "anime_episodes": "701-702",
@@ -16398,7 +15838,7 @@
       }
     },
     "E98FA912": {
-      "arc": 32,
+      "arc": 31,
       "episode": 4,
       "manga_chapters": "706-707",
       "anime_episodes": "634-637",
@@ -16478,7 +15918,7 @@
       }
     },
     "EACE397D": {
-      "arc": 32,
+      "arc": 31,
       "episode": 7,
       "manga_chapters": "712-713",
       "anime_episodes": "640-643",
@@ -16498,7 +15938,7 @@
       }
     },
     "EB0BC95C": {
-      "arc": 30,
+      "arc": 29,
       "episode": 17,
       "manga_chapters": "636-637",
       "anime_episodes": "556-558",
@@ -16578,7 +16018,7 @@
       }
     },
     "ECD80B22": {
-      "arc": 32,
+      "arc": 31,
       "episode": 40,
       "manga_chapters": "779-781",
       "anime_episodes": "714-715, 720-723",
@@ -16658,7 +16098,7 @@
       }
     },
     "F0B1F815": {
-      "arc": 31,
+      "arc": 30,
       "episode": 7,
       "manga_chapters": "667-668",
       "anime_episodes": "593-594",
@@ -16738,7 +16178,7 @@
       }
     },
     "F134C10A": {
-      "arc": 30,
+      "arc": 29,
       "episode": 12,
       "manga_chapters": "625-626",
       "anime_episodes": "545-546",
@@ -16758,7 +16198,7 @@
       }
     },
     "F15AFDE0": {
-      "arc": 36,
+      "arc": 35,
       "episode": 1,
       "manga_chapters": "909-910",
       "anime_episodes": "890-891",
@@ -16771,7 +16211,7 @@
       }
     },
     "F1FB27C6": {
-      "arc": 36,
+      "arc": 35,
       "episode": 44,
       "manga_chapters": "978-979",
       "anime_episodes": "983-985",
@@ -16791,7 +16231,7 @@
       }
     },
     "F20B5423": {
-      "arc": 32,
+      "arc": 31,
       "episode": 12,
       "manga_chapters": "722-723",
       "anime_episodes": "652-654",
@@ -16811,7 +16251,7 @@
       }
     },
     "F218F0E4": {
-      "arc": 32,
+      "arc": 31,
       "episode": 36,
       "manga_chapters": "770-771",
       "anime_episodes": "708-711",
@@ -16851,7 +16291,7 @@
       }
     },
     "F3E829E8": {
-      "arc": 36,
+      "arc": 35,
       "episode": 26,
       "manga_chapters": "948-949",
       "anime_episodes": "947-949",
@@ -16891,7 +16331,7 @@
       }
     },
     "F47C3EDD": {
-      "arc": 36,
+      "arc": 35,
       "episode": 48,
       "manga_chapters": "986-987",
       "anime_episodes": "994-997",
@@ -16911,7 +16351,7 @@
       }
     },
     "F4BB17EB": {
-      "arc": 30,
+      "arc": 29,
       "episode": 10,
       "manga_chapters": "621-622",
       "anime_episodes": "540-541",
@@ -16951,7 +16391,7 @@
       }
     },
     "F6C7EB83": {
-      "arc": 36,
+      "arc": 35,
       "episode": 31,
       "manga_chapters": "956",
       "anime_episodes": "957",
@@ -16971,7 +16411,7 @@
       }
     },
     "F71F9B71": {
-      "arc": 36,
+      "arc": 35,
       "episode": 7,
       "manga_chapters": "916-917",
       "anime_episodes": "904-905",
@@ -16991,7 +16431,7 @@
       }
     },
     "F7CB97CD": {
-      "arc": 32,
+      "arc": 31,
       "episode": 6,
       "manga_chapters": "710-711",
       "anime_episodes": "639-642",
@@ -17131,7 +16571,7 @@
       }
     },
     "FBA08093": {
-      "arc": 30,
+      "arc": 29,
       "episode": 1,
       "manga_chapters": "603-604",
       "anime_episodes": "523-524",
@@ -17171,7 +16611,7 @@
       }
     },
     "FC2376A1": {
-      "arc": 34,
+      "arc": 33,
       "episode": 7,
       "manga_chapters": "835-836",
       "anime_episodes": "796-798",
@@ -17211,7 +16651,7 @@
       }
     },
     "FCF7F7E4": {
-      "arc": 30,
+      "arc": 29,
       "episode": 9,
       "manga_chapters": "619-620",
       "anime_episodes": "538-539, 541",
@@ -17271,7 +16711,7 @@
       }
     },
     "FE661F6E": {
-      "arc": 31,
+      "arc": 30,
       "episode": 3,
       "manga_chapters": "659-660",
       "anime_episodes": "583-585",
@@ -17291,7 +16731,7 @@
       }
     },
     "FE878EE8": {
-      "arc": 36,
+      "arc": 35,
       "episode": 49,
       "manga_chapters": "988-989",
       "anime_episodes": "997-1000",
