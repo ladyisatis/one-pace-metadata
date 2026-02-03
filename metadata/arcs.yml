@@ -2239,16 +2239,16 @@ en:
     manga_chapters: 909 - 1057
     num_of_chapters: 149
     anime_episodes: 890 - 1085
-    episodes_adapted: 126
+    episodes_adapted: 130
     filler_episodes: 1029 - 1030, 1084
-    num_of_pace_eps: 56
-    piece_minutes: 2709
-    pace_minutes: 1615
+    num_of_pace_eps: 57
+    piece_minutes: 2795
+    pace_minutes: 1703
     audio_languages: Jpn,Eng (1-4, 31-)
     sub_languages: Eng,Es ,Fr,Ar, De (44-)
     pixeldrain_only: Es,Fr, Ar
     resolution: 1080p
-    arc_watch_guide: Pace Episodes 1-56 then Original Episodes 1018 - 1085
+    arc_watch_guide: Pace Episodes 1-57 then Original Episodes 1021 - 1085
 - part: 36
   saga: Final Saga
   title: Egghead
@@ -2324,10 +2324,10 @@ en:
     manga_chapters: 1058 - 1125
     num_of_chapters: 68
     anime_episodes: 1086 - 1155
-    episodes_adapted: 38
+    episodes_adapted: 40
     filler_episodes: ''
     num_of_pace_eps: 20
-    piece_minutes: 798
+    piece_minutes: 840
     pace_minutes: 534
     audio_languages: Jpn, Eng
     sub_languages: Eng,Fr,De (3-)
