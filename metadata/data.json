@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-02-03T00:37:22+00:00",
-    "last_update_ts": 1770079042,
+    "last_update": "2026-02-05T12:18:47+00:00",
+    "last_update_ts": 1770293927,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 175
+    "version": 176
   },
   "tvshow": {
     "en": {
@@ -6815,7 +6815,7 @@
       "manga_chapters": "38-39",
       "anime_episodes": "16-17",
       "released": "2025-12-06 14:03:39",
-      "duration": 0,
+      "duration": 1062,
       "extended": false,
       "hashes": {
         "crc32": "014834ED",
@@ -7815,7 +7815,7 @@
       "manga_chapters": "40-41",
       "anime_episodes": "17",
       "released": "2025-12-06 14:03:39",
-      "duration": 0,
+      "duration": 1157,
       "extended": false,
       "hashes": {
         "crc32": "1B7544F3",
@@ -8215,7 +8215,7 @@
       "manga_chapters": "26-27",
       "anime_episodes": "10-11",
       "released": "2025-12-06 14:03:39",
-      "duration": 0,
+      "duration": 1407,
       "extended": false,
       "hashes": {
         "crc32": "25913BDA",
@@ -11335,7 +11335,7 @@
       "manga_chapters": "35-37",
       "anime_episodes": "15-16",
       "released": "2025-12-06 14:03:39",
-      "duration": 0,
+      "duration": 1422,
       "extended": false,
       "hashes": {
         "crc32": "707146C8",
@@ -12908,7 +12908,7 @@
       "manga_chapters": "23-25",
       "anime_episodes": "9-10",
       "released": "2025-12-06 14:03:39",
-      "duration": 0,
+      "duration": 1802,
       "extended": false,
       "hashes": {
         "crc32": "9BC8F913",
@@ -13228,7 +13228,7 @@
       "manga_chapters": "31-34",
       "anime_episodes": "13-14",
       "released": "2025-12-06 14:03:39",
-      "duration": 0,
+      "duration": 1900,
       "extended": false,
       "hashes": {
         "crc32": "A5E4EBC0",
@@ -16401,7 +16401,7 @@
       "manga_chapters": "28-30",
       "anime_episodes": "12-13",
       "released": "2025-12-06 14:03:39",
-      "duration": 0,
+      "duration": 1535,
       "extended": false,
       "hashes": {
         "crc32": "F66FB414",
