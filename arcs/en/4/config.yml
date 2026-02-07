@@ -24,7 +24,7 @@ info:
   num_of_pace_eps: 1
   piece_minutes: 21
   pace_minutes: 19
-  audio_languages: JP, EN, DE
+  audio_languages: JA, EN, DE
   sub_languages: EN, AR, DE, FI, FR, HE, IT, PL, PT-BR, RU
   pixeldrain_only: ES
   resolution: 1080p

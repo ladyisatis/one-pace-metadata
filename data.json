@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-02-05T12:18:47+00:00",
-  "last_update_ts": 1770293927,
+  "last_update": "2026-02-07T00:34:46+00:00",
+  "last_update_ts": 1770424486,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -142,8 +142,8 @@
     {
       "part": 14,
       "saga": "Arabasta",
-      "title": "Arabasta",
-      "originaltitle": "",
+      "title": "Alabasta",
+      "originaltitle": "Arabasta",
       "description": "Arabasta teeters on the edge of civil war, and it's up to Princess Vivi and the Straw Hats to stem the rebellion, uncover the plot of Baroque Works, and beat the Warlord Crocodile.",
       "poster": "arcs/en/14/poster.png"
     },

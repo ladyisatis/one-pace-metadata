@@ -35,8 +35,8 @@ info:
   num_of_pace_eps: 5
   piece_minutes: 301
   pace_minutes: 132
-  audio_languages: Jpn
-  sub_languages: 'Eng, Es , Fr '
-  pixeldrain_only: Es, Fr
+  audio_languages: JA
+  sub_languages: 'EN,ES,FR '
+  pixeldrain_only: ES, FR
   resolution: 720p
   arc_watch_guide: Pace

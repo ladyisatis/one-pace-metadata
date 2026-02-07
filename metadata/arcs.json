@@ -80,7 +80,7 @@
         "num_of_pace_eps": 4,
         "piece_minutes": 105,
         "pace_minutes": 76,
-        "audio_languages": "JP, EN, ES",
+        "audio_languages": "JA, EN, ES",
         "sub_languages": "EN,EN(CC), AR, DE, ES, FR, IT, PL, PT-BR, RU, TR",
         "pixeldrain_only": "DE",
         "resolution": "1080p",
@@ -122,7 +122,7 @@
         "num_of_pace_eps": 3,
         "piece_minutes": 105,
         "pace_minutes": 79,
-        "audio_languages": "JP, EN, DE, ES",
+        "audio_languages": "JA, EN, DE, ES",
         "sub_languages": "EN, AR, CS, DE, ES, FR, IT, PL, PT-BR, RU, TR",
         "pixeldrain_only": "",
         "resolution": "1080p",
@@ -184,7 +184,7 @@
         "num_of_pace_eps": 7,
         "piece_minutes": 189,
         "pace_minutes": 151,
-        "audio_languages": "JP, EN, DE",
+        "audio_languages": "JA, EN, DE",
         "sub_languages": "EN, AR, DE, ES, FR, IT, PL, PT-BR, RU, TR",
         "pixeldrain_only": "ES, FR",
         "resolution": "1080p",
@@ -216,7 +216,7 @@
         "num_of_pace_eps": 1,
         "piece_minutes": 21,
         "pace_minutes": 19,
-        "audio_languages": "JP, EN, DE",
+        "audio_languages": "JA, EN, DE",
         "sub_languages": "EN, AR, DE, FI, FR, HE, IT, PL, PT-BR, RU",
         "pixeldrain_only": "ES",
         "resolution": "1080p",
@@ -283,9 +283,9 @@
         "num_of_pace_eps": 8,
         "piece_minutes": 252,
         "pace_minutes": 181,
-        "audio_languages": "JP, EN",
+        "audio_languages": "JA,EN",
         "sub_languages": "EN, DE, ES, FR, IT, PL, RU",
-        "pixeldrain_only": "Fr  (1-2)",
+        "pixeldrain_only": "FR  (1-2)",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
       }
@@ -360,9 +360,9 @@
         "num_of_pace_eps": 10,
         "piece_minutes": 294,
         "pace_minutes": 237,
-        "audio_languages": "Jpn,Eng",
-        "sub_languages": "EN, AR, DE (1-7), ES, FR, IT, RU, TR",
-        "pixeldrain_only": "Fr ",
+        "audio_languages": "JA,EN",
+        "sub_languages": "EN, AR(1-7), DE (1-7), ES, FR, IT, RU, TR(1-7), HE(6-7)",
+        "pixeldrain_only": "FR",
         "resolution": "480p,1080p",
         "arc_watch_guide": "Pace"
       }
@@ -392,9 +392,9 @@
         "num_of_pace_eps": 1,
         "piece_minutes": 42,
         "pace_minutes": 20,
-        "audio_languages": "Jpn,Eng",
+        "audio_languages": "JA,EN",
         "sub_languages": "EN, ES, FR",
-        "pixeldrain_only": "De",
+        "pixeldrain_only": "AR,DE",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
       }
@@ -434,9 +434,9 @@
         "num_of_pace_eps": 3,
         "piece_minutes": 126,
         "pace_minutes": 89,
-        "audio_languages": "Jpn,Eng",
+        "audio_languages": "JA,EN",
         "sub_languages": "EN, ES, FR",
-        "pixeldrain_only": "Fr",
+        "pixeldrain_only": "FR",
         "resolution": "480p",
         "arc_watch_guide": "Pace"
       }
@@ -471,9 +471,9 @@
         "num_of_pace_eps": 2,
         "piece_minutes": 84,
         "pace_minutes": 49,
-        "audio_languages": "Jpn,Eng",
+        "audio_languages": "JA,EN",
         "sub_languages": "EN, ES , FR",
-        "pixeldrain_only": "De",
+        "pixeldrain_only": "AR,DE",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
       }
@@ -508,9 +508,9 @@
         "num_of_pace_eps": 2,
         "piece_minutes": 84,
         "pace_minutes": 67,
-        "audio_languages": "Jpn",
+        "audio_languages": "JA",
         "sub_languages": "EN, ES , FR",
-        "pixeldrain_only": "Es, Fr",
+        "pixeldrain_only": "ES,FR",
         "resolution": "480p",
         "arc_watch_guide": "Pace"
       }
@@ -540,9 +540,9 @@
         "num_of_pace_eps": 1,
         "piece_minutes": 42,
         "pace_minutes": 13,
-        "audio_languages": "Jpn,Eng",
+        "audio_languages": "JA,EN",
         "sub_languages": "EN, ES, FR",
-        "pixeldrain_only": "Es",
+        "pixeldrain_only": "AR,ES",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
       }
@@ -592,7 +592,7 @@
         "num_of_pace_eps": 5,
         "piece_minutes": 189,
         "pace_minutes": 135,
-        "audio_languages": "Jpn,Eng",
+        "audio_languages": "JA,EN",
         "sub_languages": "EN, AR, DE, ES, FR, IT",
         "pixeldrain_only": "",
         "resolution": "1080p",
@@ -659,8 +659,8 @@
         "num_of_pace_eps": 8,
         "piece_minutes": 294,
         "pace_minutes": 231,
-        "audio_languages": "Jpn,Eng",
-        "sub_languages": "Eng,Es,Fr",
+        "audio_languages": "JA,EN",
+        "sub_languages": "EN,ES,FR",
         "pixeldrain_only": "",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
@@ -669,8 +669,8 @@
     {
       "part": 14,
       "saga": "Arabasta",
-      "title": "Arabasta",
-      "originaltitle": "",
+      "title": "Alabasta",
+      "originaltitle": "Arabasta",
       "shortcode": "AA",
       "mkvcode": "alabasta",
       "description": "Arabasta teeters on the edge of civil war, and it's up to Princess Vivi and the Straw Hats to stem the rebellion, uncover the plot of Baroque Works, and beat the Warlord Crocodile.",
@@ -791,9 +791,9 @@
         "num_of_pace_eps": 21,
         "piece_minutes": 840,
         "pace_minutes": 555,
-        "audio_languages": "Jpn,Eng",
-        "sub_languages": "Eng,Es, Fr ",
-        "pixeldrain_only": "Fr",
+        "audio_languages": "JA,EN",
+        "sub_languages": "EN,ES,FR ",
+        "pixeldrain_only": "FR,RU",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
       }
@@ -858,9 +858,9 @@
         "num_of_pace_eps": 8,
         "piece_minutes": 189,
         "pace_minutes": 161,
-        "audio_languages": "Jpn,Eng",
-        "sub_languages": "Eng, Es, Fr",
-        "pixeldrain_only": "",
+        "audio_languages": "JA,EN",
+        "sub_languages": "EN,ES,FR",
+        "pixeldrain_only": "AR",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
       }
@@ -1010,9 +1010,9 @@
         "num_of_pace_eps": 25,
         "piece_minutes": 924,
         "pace_minutes": 644,
-        "audio_languages": "Jpn,Eng",
-        "sub_languages": "Eng,Es (1-4), Fr, Es (5), De (17-)",
-        "pixeldrain_only": "Es (5),De",
+        "audio_languages": "JA,EN",
+        "sub_languages": "EN,ES(1-4),FR,ES(5),DE(17-)",
+        "pixeldrain_only": "ES (5),DE",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
       }
@@ -1072,9 +1072,9 @@
         "num_of_pace_eps": 6,
         "piece_minutes": 294,
         "pace_minutes": 154,
-        "audio_languages": "Jpn,Eng",
-        "sub_languages": "Eng",
-        "pixeldrain_only": "Eng",
+        "audio_languages": "JA,EN",
+        "sub_languages": "EN",
+        "pixeldrain_only": "EN",
         "resolution": "720p",
         "arc_watch_guide": "Pace"
       }
@@ -1199,9 +1199,9 @@
         "num_of_pace_eps": 20,
         "piece_minutes": 777,
         "pace_minutes": 549,
-        "audio_languages": "Jpn,Eng",
-        "sub_languages": "Eng,Fr ",
-        "pixeldrain_only": "Fr",
+        "audio_languages": "JA,EN",
+        "sub_languages": "EN,FR ",
+        "pixeldrain_only": "AR(5-18),FR",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
       }
@@ -1351,9 +1351,9 @@
         "num_of_pace_eps": 25,
         "piece_minutes": 945,
         "pace_minutes": 591,
-        "audio_languages": "Jpn,Eng (1-4, 23-25)",
-        "sub_languages": "Eng, Es , Fr ",
-        "pixeldrain_only": "Fr",
+        "audio_languages": "JA,EN (1-4, 23-25)",
+        "sub_languages": "EN,AR(1-4),DE(1-4),ES,FR ,HE(4)",
+        "pixeldrain_only": "FR",
         "resolution": "720p,1080p",
         "arc_watch_guide": "Pace"
       }
@@ -1403,9 +1403,9 @@
         "num_of_pace_eps": 5,
         "piece_minutes": 0,
         "pace_minutes": 133,
-        "audio_languages": "Jpn",
-        "sub_languages": "Eng",
-        "pixeldrain_only": "Eng",
+        "audio_languages": "JA",
+        "sub_languages": "EN",
+        "pixeldrain_only": "EN",
         "resolution": "720p",
         "arc_watch_guide": "Pace"
       }
@@ -1540,9 +1540,9 @@
         "num_of_pace_eps": 22,
         "piece_minutes": 0,
         "pace_minutes": 484,
-        "audio_languages": "Jpn",
-        "sub_languages": "Eng, Es",
-        "pixeldrain_only": "Eng, Es",
+        "audio_languages": "JA",
+        "sub_languages": "EN,ES",
+        "pixeldrain_only": "EN, ES",
         "resolution": "720p",
         "arc_watch_guide": "Pace"
       }
@@ -1622,9 +1622,9 @@
         "num_of_pace_eps": 11,
         "piece_minutes": 0,
         "pace_minutes": 285,
-        "audio_languages": "Jpn",
-        "sub_languages": "Eng, Es ",
-        "pixeldrain_only": "Es",
+        "audio_languages": "JA",
+        "sub_languages": "EN,ES",
+        "pixeldrain_only": "ES",
         "resolution": "720p",
         "arc_watch_guide": "Pace"
       }
@@ -1674,9 +1674,9 @@
         "num_of_pace_eps": 5,
         "piece_minutes": 301,
         "pace_minutes": 132,
-        "audio_languages": "Jpn",
-        "sub_languages": "Eng, Es , Fr ",
-        "pixeldrain_only": "Es, Fr",
+        "audio_languages": "JA",
+        "sub_languages": "EN,ES,FR ",
+        "pixeldrain_only": "ES, FR",
         "resolution": "720p",
         "arc_watch_guide": "Pace"
       }
@@ -1751,9 +1751,9 @@
         "num_of_pace_eps": 10,
         "piece_minutes": 0,
         "pace_minutes": 317,
-        "audio_languages": "Jpn",
-        "sub_languages": "Eng,Es ",
-        "pixeldrain_only": "Es",
+        "audio_languages": "JA",
+        "sub_languages": "EN,ES ",
+        "pixeldrain_only": "ES",
         "resolution": "720p",
         "arc_watch_guide": "Pace"
       }
@@ -1783,9 +1783,9 @@
         "num_of_pace_eps": 1,
         "piece_minutes": 86,
         "pace_minutes": 21,
-        "audio_languages": "Eng, Es, Jpn",
-        "sub_languages": "Eng, Es, Jpn",
-        "pixeldrain_only": "",
+        "audio_languages": "JA,EN,ES",
+        "sub_languages": "EN,ES,JA",
+        "pixeldrain_only": "AR",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
       }
@@ -1895,9 +1895,9 @@
         "num_of_pace_eps": 17,
         "piece_minutes": 0,
         "pace_minutes": 395,
-        "audio_languages": "Jpn",
-        "sub_languages": "Eng,Es,Fr ",
-        "pixeldrain_only": "Fr",
+        "audio_languages": "JA",
+        "sub_languages": "EN,ES,FR ",
+        "pixeldrain_only": "FR",
         "resolution": "720p",
         "arc_watch_guide": "Pace"
       }
@@ -1962,9 +1962,9 @@
         "num_of_pace_eps": 8,
         "piece_minutes": 559,
         "pace_minutes": 306,
-        "audio_languages": "Jpn,Eng (1-6)",
-        "sub_languages": "Eng,Es ,Fr ",
-        "pixeldrain_only": "Es,Fr",
+        "audio_languages": "JA,EN (1-6)",
+        "sub_languages": "EN,ES,FR ",
+        "pixeldrain_only": "AR,ES,FR",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
       }
@@ -2004,8 +2004,8 @@
         "num_of_pace_eps": 3,
         "piece_minutes": 129,
         "pace_minutes": 91,
-        "audio_languages": "Jpn,Eng",
-        "sub_languages": "Eng,Es,Fr,Ar",
+        "audio_languages": "JA,EN",
+        "sub_languages": "EN,AR,ES,FR",
         "pixeldrain_only": "",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
@@ -2151,9 +2151,9 @@
         "num_of_pace_eps": 24,
         "piece_minutes": 0,
         "pace_minutes": 710,
-        "audio_languages": "Jpn",
-        "sub_languages": "Eng,Es ",
-        "pixeldrain_only": "Es",
+        "audio_languages": "JA",
+        "sub_languages": "EN,ES ",
+        "pixeldrain_only": "ES",
         "resolution": "720p",
         "arc_watch_guide": "Pace"
       }
@@ -2288,8 +2288,8 @@
         "num_of_pace_eps": 22,
         "piece_minutes": 989,
         "pace_minutes": 519,
-        "audio_languages": "Jpn",
-        "sub_languages": "Eng,Es",
+        "audio_languages": "JA",
+        "sub_languages": "EN,ES",
         "pixeldrain_only": "",
         "resolution": "720p",
         "arc_watch_guide": "Pace"
@@ -2555,9 +2555,9 @@
         "num_of_pace_eps": 48,
         "piece_minutes": 2537,
         "pace_minutes": 1206,
-        "audio_languages": "Jpn",
-        "sub_languages": "Eng,Es ",
-        "pixeldrain_only": "Es",
+        "audio_languages": "JA",
+        "sub_languages": "EN,ES ",
+        "pixeldrain_only": "AR,ES",
         "resolution": "720p",
         "arc_watch_guide": "Pace"
       }
@@ -2632,9 +2632,9 @@
         "num_of_pace_eps": 10,
         "piece_minutes": 602,
         "pace_minutes": 275,
-        "audio_languages": "Jpn",
-        "sub_languages": "Eng,Es, Fr ",
-        "pixeldrain_only": "Fr",
+        "audio_languages": "JA",
+        "sub_languages": "EN,ES,FR ",
+        "pixeldrain_only": "AR,FR",
         "resolution": "720p",
         "arc_watch_guide": "Pace"
       }
@@ -2854,9 +2854,9 @@
         "num_of_pace_eps": 39,
         "piece_minutes": 0,
         "pace_minutes": 1213,
-        "audio_languages": "Jpn",
-        "sub_languages": "Eng,Es, Fr ",
-        "pixeldrain_only": "Fr",
+        "audio_languages": "JA",
+        "sub_languages": "EN,ES,FR ",
+        "pixeldrain_only": "AR,FR",
         "resolution": "720p",
         "arc_watch_guide": "Pace"
       }
@@ -2896,8 +2896,8 @@
         "num_of_pace_eps": 3,
         "piece_minutes": 258,
         "pace_minutes": 94,
-        "audio_languages": "Jpn,Eng",
-        "sub_languages": "Eng,Es,Fr",
+        "audio_languages": "JA,EN",
+        "sub_languages": "EN,ES,FR",
         "pixeldrain_only": "",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
@@ -3208,9 +3208,9 @@
         "num_of_pace_eps": 57,
         "piece_minutes": 2795,
         "pace_minutes": 1703,
-        "audio_languages": "Jpn,Eng (1-4, 31-)",
-        "sub_languages": "Eng,Es ,Fr,Ar, De (44-)",
-        "pixeldrain_only": "Es,Fr, Ar",
+        "audio_languages": "JA,EN (1-4, 31-)",
+        "sub_languages": "EN,AR,DE(44-),ES,FR",
+        "pixeldrain_only": "AR(5-48),ES,FR",
         "resolution": "1080p",
         "arc_watch_guide": "Pace Episodes 1-57 then Original Episodes 1021 - 1085"
       }
@@ -3335,9 +3335,9 @@
         "num_of_pace_eps": 20,
         "piece_minutes": 840,
         "pace_minutes": 534,
-        "audio_languages": "Jpn, Eng",
-        "sub_languages": "Eng,Fr,De (3-)",
-        "pixeldrain_only": "De (1,2)",
+        "audio_languages": "JA, EN",
+        "sub_languages": "EN,AR(7-),DE(3-),FR",
+        "pixeldrain_only": "DE(1,2)",
         "resolution": "1080p",
         "arc_watch_guide": "Pace Episodes 1-20 then Original Episodes 1127-"
       }

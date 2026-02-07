@@ -95,8 +95,8 @@ info:
   num_of_pace_eps: 25
   piece_minutes: 945
   pace_minutes: 591
-  audio_languages: Jpn,Eng (1-4, 23-25)
-  sub_languages: 'Eng, Es , Fr '
-  pixeldrain_only: Fr
+  audio_languages: JA,EN (1-4, 23-25)
+  sub_languages: EN,AR(1-4),DE(1-4),ES,FR ,HE(4)
+  pixeldrain_only: FR
   resolution: 720p,1080p
   arc_watch_guide: Pace

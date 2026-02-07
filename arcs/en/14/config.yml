@@ -1,7 +1,7 @@
 part: 14
 saga: Arabasta
-title: Arabasta
-originaltitle: ''
+title: Alabasta
+originaltitle: Arabasta
 shortcode: AA
 mkvcode: alabasta
 description: Arabasta teeters on the edge of civil war, and it's up to Princess Vivi
@@ -83,8 +83,8 @@ info:
   num_of_pace_eps: 21
   piece_minutes: 840
   pace_minutes: 555
-  audio_languages: Jpn,Eng
-  sub_languages: 'Eng,Es, Fr '
-  pixeldrain_only: Fr
+  audio_languages: JA,EN
+  sub_languages: 'EN,ES,FR '
+  pixeldrain_only: FR,RU
   resolution: 1080p
   arc_watch_guide: Pace

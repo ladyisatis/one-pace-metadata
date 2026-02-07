@@ -191,8 +191,8 @@ info:
   num_of_pace_eps: 57
   piece_minutes: 2795
   pace_minutes: 1703
-  audio_languages: Jpn,Eng (1-4, 31-)
-  sub_languages: Eng,Es ,Fr,Ar, De (44-)
-  pixeldrain_only: Es,Fr, Ar
+  audio_languages: JA,EN (1-4, 31-)
+  sub_languages: EN,AR,DE(44-),ES,FR
+  pixeldrain_only: AR(5-48),ES,FR
   resolution: 1080p
   arc_watch_guide: Pace Episodes 1-57 then Original Episodes 1021 - 1085
