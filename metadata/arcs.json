@@ -359,9 +359,9 @@
         "filler_episodes": "",
         "num_of_pace_eps": 10,
         "piece_minutes": 294,
-        "pace_minutes": 237,
+        "pace_minutes": 238,
         "audio_languages": "JA,EN",
-        "sub_languages": "EN, AR(1-7), DE (1-7), ES, FR, IT, RU, TR(1-7), HE(6-7)",
+        "sub_languages": "EN, AR(1-7), DE (1-9), ES, FR, IT, RU, TR(1-9), HE(6-9)",
         "pixeldrain_only": "FR",
         "resolution": "480p,1080p",
         "arc_watch_guide": "Pace"

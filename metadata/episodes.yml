@@ -208,7 +208,7 @@
   manga_chapters: 91-94
   anime_episodes: 42-43
   released: 2026-02-07 15:03:03
-  duration: 0
+  duration: 1240
   extended: false
   hashes:
     crc32: 0510B910
@@ -8136,7 +8136,7 @@ F43604B6:
   manga_chapters: 88-91
   anime_episodes: 39-42
   released: 2026-02-07 15:01:50
-  duration: 0
+  duration: 1800
   extended: false
   hashes:
     crc32: F43604B6
