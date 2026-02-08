@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-02-08T10:27:29+00:00'
-  last_update_ts: 1770546449
+  last_update: '2026-02-08T11:08:34+00:00'
+  last_update_ts: 1770548914
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 180
+  version: 181
 tvshow:
   en:
     title: One Piece
@@ -293,10 +293,10 @@ arcs:
       standard: 4DDEFE2B
       extended: ''
     - episode: 08
-      standard: 83E6D2A7
+      standard: F43604B6
       extended: ''
     - episode: 09
-      standard: A57211D1
+      standard: 0510B910
       extended: ''
     - episode: '10'
       standard: 5AF7A9B1
@@ -6185,6 +6185,23 @@ episodes:
       size: 687.8 MiB
       hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
       index: 0
+  0510B910:
+    arc: 6
+    episode: 9
+    manga_chapters: 91-94
+    anime_episodes: 42-43
+    released: 2026-02-07 15:03:03
+    duration: 0
+    extended: false
+    hashes:
+      crc32: 0510B910
+      blake2s: ''
+    file:
+      id: 2073720
+      name: '[One Pace][91-94] Arlong Park 09 [1080p][0510B910].mkv'
+      size: 522.4 MiB
+      hash: 690d5226cc25b26dea711ada6f3243ae02582be7
+      index: 0
   05BE81E6:
     arc: 0
     episode: 4
@@ -10521,23 +10538,6 @@ episodes:
       size: 258.4 MiB
       hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
       index: 31
-  83E6D2A7:
-    arc: 6
-    episode: 8
-    manga_chapters: 88-90
-    anime_episodes: 40-42
-    released: 2020-09-12
-    duration: 1528
-    extended: false
-    hashes:
-      crc32: 83E6D2A7
-      blake2s: ''
-    file:
-      id: 1279925
-      name: '[One Pace][88-90] Arlong Park 08 [480p][83E6D2A7].mkv'
-      size: 162.8 MiB
-      hash: 4c688038db6ae51893f505fbb0c12eafacde8f4b
-      index: 0
   845C0D1D:
     arc: 14
     episode: 19
@@ -11466,23 +11466,6 @@ episodes:
       name: '[One Pace][145-148] Drum Island 06 [1080p][A5145C90].mkv'
       size: 565.1 MiB
       hash: b6d264228c2fb62b413d9f73a9d546495fc35069
-      index: 0
-  A57211D1:
-    arc: 6
-    episode: 9
-    manga_chapters: 91-94
-    anime_episodes: 42-43
-    released: 2020-09-12
-    duration: 1475
-    extended: false
-    hashes:
-      crc32: A57211D1
-      blake2s: ''
-    file:
-      id: 1279925
-      name: '[One Pace][91-94] Arlong Park 09 [480p][A57211D1].mkv'
-      size: 175.7 MiB
-      hash: 4c688038db6ae51893f505fbb0c12eafacde8f4b
       index: 0
   A5E4EBC0:
     arc: 3
@@ -14129,6 +14112,23 @@ episodes:
       name: '[One Pace][948-949] Wano 26 [1080p][F3E829E8].mkv'
       size: 1.7 GiB
       hash: 0a9639f371dbd1270c79b058309aeba62d91ebc6
+      index: 0
+  F43604B6:
+    arc: 6
+    episode: 8
+    manga_chapters: 88-91
+    anime_episodes: 39-42
+    released: 2026-02-07 15:01:50
+    duration: 0
+    extended: false
+    hashes:
+      crc32: F43604B6
+      blake2s: ''
+    file:
+      id: 2073712
+      name: '[One Pace][88-91] Arlong Park 08 [1080p][F43604B6].mkv'
+      size: 655.3 MiB
+      hash: 8ab5827addeacbbcb69e7f39df3a7dfc11c6ccdb
       index: 0
   F4754074:
     arc: 4

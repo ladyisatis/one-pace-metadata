@@ -1,0 +1,19 @@
+arc: 6
+episode: 8
+
+manga_chapters: 88-91
+anime_episodes: 39-42
+released: 2026-02-07 15:01:50
+duration: 0
+extended: false
+
+hashes:
+  crc32: F43604B6
+  blake2s: ''
+
+file:
+  id: 2073712
+  name: '[One Pace][88-91] Arlong Park 08 [1080p][F43604B6].mkv'
+  size: 655.3 MiB
+  hash: 8ab5827addeacbbcb69e7f39df3a7dfc11c6ccdb
+  index: 0
