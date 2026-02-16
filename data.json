@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-02-08T12:13:45+00:00",
-  "last_update_ts": 1770552825,
+  "last_update": "2026-02-16T14:22:15+00:00",
+  "last_update_ts": 1771251735,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -2817,20 +2817,6 @@
         "blake2": ""
       }
     },
-    "5AF7A9B1": {
-      "arc": 6,
-      "episode": 10,
-      "title": "Spin, Pinwheel, Spin",
-      "originaltitle": "",
-      "description": "Arlong's reign of terror is over, so the island throws a party to celebrate their freedom and to honor their pirate saviors. During the festivities, Nami makes her decision to officially join the Straw Hat Pirates.",
-      "chapters": "94-95",
-      "episodes": "43-44",
-      "released": "2020-09-12",
-      "hashes": {
-        "crc32": "5AF7A9B1",
-        "blake2": ""
-      }
-    },
     "5B161435": {
       "arc": 5,
       "episode": 7,
@@ -3668,6 +3654,20 @@
       "released": "2013-06-24",
       "hashes": {
         "crc32": "72E3E794",
+        "blake2": ""
+      }
+    },
+    "72F22A68": {
+      "arc": 6,
+      "episode": 10,
+      "title": "Spin, Pinwheel, Spin",
+      "originaltitle": "",
+      "description": "Arlong's reign of terror is over, so the island throws a party to celebrate their freedom and to honor their pirate saviors. During the festivities, Nami makes her decision to officially join the Straw Hat Pirates.",
+      "chapters": "94-95",
+      "episodes": "43-44",
+      "released": "2026-02-16",
+      "hashes": {
+        "crc32": "72F22A68",
         "blake2": ""
       }
     },
