@@ -1,0 +1,19 @@
+arc: 6
+episode: 10
+
+manga_chapters: 94-95
+anime_episodes: 43-44
+released: 2026-02-16 12:52:30
+duration: 0
+extended: false
+
+hashes:
+  crc32: 72F22A68
+  blake2s: ''
+
+file:
+  id: 2076966
+  name: '[One Pace][94-95] Arlong Park 10 [1080p][72F22A68].mkv'
+  size: 481.3 MiB
+  hash: 422b7070355ea221f7e73aa6d9dae1c51db818ec
+  index: 0
