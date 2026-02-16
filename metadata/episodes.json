@@ -3559,26 +3559,6 @@
       "index": 11
     }
   },
-  "5AF7A9B1": {
-    "arc": 6,
-    "episode": 10,
-    "manga_chapters": "94-95",
-    "anime_episodes": "43-44",
-    "released": "2020-09-12",
-    "duration": 1257,
-    "extended": false,
-    "hashes": {
-      "crc32": "5AF7A9B1",
-      "blake2s": ""
-    },
-    "file": {
-      "id": 1279925,
-      "name": "[One Pace][94-95] Arlong Park 10 [480p][5AF7A9B1].mkv",
-      "size": "129.7 MiB",
-      "hash": "4c688038db6ae51893f505fbb0c12eafacde8f4b",
-      "index": 0
-    }
-  },
   "5B161435": {
     "arc": 5,
     "episode": 7,
@@ -4777,6 +4757,26 @@
       "size": "676.0 MiB",
       "hash": "bcdff039cd7c01f2ffb78799b4082d91de25b2fb",
       "index": 9
+    }
+  },
+  "72F22A68": {
+    "arc": 6,
+    "episode": 10,
+    "manga_chapters": "94-95",
+    "anime_episodes": "43-44",
+    "released": "2026-02-16 12:52:30",
+    "duration": 0,
+    "extended": false,
+    "hashes": {
+      "crc32": "72F22A68",
+      "blake2s": ""
+    },
+    "file": {
+      "id": 2076966,
+      "name": "[One Pace][94-95] Arlong Park 10 [1080p][72F22A68].mkv",
+      "size": "481.3 MiB",
+      "hash": "422b7070355ea221f7e73aa6d9dae1c51db818ec",
+      "index": 0
     }
   },
   "73003149": {
