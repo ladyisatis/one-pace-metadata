@@ -45,7 +45,7 @@ jobs:
           ONE_PACE_RSS_FEED: ${{ secrets.ONE_PACE_RSS_FEED }}
         run: |
           pushd ./src
-          output_update="$(uv run main.py update 2> >(cat >&2))"
+          #output_update="$(uv run main.py update 2> >(cat >&2))"
           popd
 
           git config --global user.name "github-actions[bot]"
