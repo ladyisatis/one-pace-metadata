@@ -7,6 +7,7 @@ import os
 import javaproperties
 import json
 import re
+import shutil
 import sqlite3
 import string
 import sys
@@ -880,7 +881,10 @@ class OnePaceMetadata:
         if len(existing) == 0:
             target = Path(archive_dir, src.name)
             logger.info(f"---- Moving {src} to: {target}")
-            src.move(target)
+            try:
+                src.move(target)
+            except:
+                shutil.move(str(src), str(target))
             return
     
         max_n = max(existing)
@@ -1124,9 +1128,6 @@ class OnePaceMetadata:
                 added_metadata.append(f"{arc_name} {ep_num}{extra_str} ({crc32})")
 
                 arc_num = self.arc_to_num.get(arc_name, 0)
-                standard_crc = str(crc32).upper() if not is_extended else ""
-                extended_crc = str(crc32).upper() if is_extended else ""
-
                 if ep_num is None:
                     arc_num = 0
 
@@ -1153,33 +1154,29 @@ class OnePaceMetadata:
                             logger.info(f"Add new episode to arc {arc_num}: {arc_name} {ep_num} ['{standard_crc}'/'{extended_crc}']")
                             config_yml["episodes"].append({
                                 "episode": ep_num,
-                                "standard": standard_crc,
-                                "extended": extended_crc
+                                "standard": str(crc32).upper() if not is_extended else "",
+                                "extended": str(crc32).upper() if is_extended else ""
                             })
-                        else:
-                            old_crc_standard = str(config_yml["episodes"][i].get("standard", "")).upper()
-                            if old_crc_standard != standard_crc:
-                                logger.info(f"Update episode #{i} standard: {old_crc_standard} -> {standard_crc}")
-                                config_yml["episodes"][i]["standard"] = standard_crc
 
-                                if old_crc_standard != "":
-                                    self.archive_file(Path(self.episodes_dir, f"{old_crc_standard}.yml"))
+                        elif extra is None or is_extended:
+                            key = "extended" if is_extended else "standard"
+                            old_crc = str(config_yml["episodes"][i].get(key, "")).upper()
+                            new_crc = str(crc32).upper()
 
-                            old_crc_extended = str(config_yml["episodes"][i].get("extended", "")).upper()
-                            if old_crc_extended != extended_crc:
-                                logger.info(f"Update episode #{i} extended: {old_crc_extended} -> {extended_crc}")
-                                config_yml["episodes"][i]["extended"] = extended_crc
+                            if old_crc != new_crc:
+                                logger.info(f"Update episode #{i} {key}: {old_crc} -> {new_crc}")
+                                config_yml["episodes"][i][key] = new_crc
 
-                                if old_crc_extended != "":
-                                    self.archive_file(Path(self.episodes_dir, f"{old_crc_extended}.yml"))
+                                if old_crc != "":
+                                    self.archive_file(Path(self.episodes_dir, f"{old_crc}.yml"))
 
                     elif ep_num is not None:
                         config_yml = self.generate_arc_tmpl(
                             title=arc_name,
                             episodes=[{
                                 "episode": ep_num,
-                                "standard": standard_crc,
-                                "extended": extended_crc
+                                "standard": str(crc32).upper() if not is_extended else "",
+                                "extended": str(crc32).upper() if is_extended else ""
                             }]
                         )
 
