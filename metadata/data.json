@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-02-17T00:17:18+00:00",
-    "last_update_ts": 1771287438,
+    "last_update": "2026-02-17T00:19:14+00:00",
+    "last_update_ts": 1771287554,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 190
+    "version": 191
   },
   "tvshow": {
     "en": {
@@ -380,7 +380,7 @@
           {
             "episode": "10",
             "standard": "72F22A68",
-            "extended": ""
+            "extended": "4B882BCA"
           }
         ],
         "info": {
@@ -392,9 +392,9 @@
           "filler_episodes": "",
           "num_of_pace_eps": 10,
           "piece_minutes": 294,
-          "pace_minutes": 238,
+          "pace_minutes": 239,
           "audio_languages": "JA,EN",
-          "sub_languages": "EN, AR(1-7), DE (1-9), ES, FR, IT, RU, TR(1-9), HE(6-9)",
+          "sub_languages": "EN, AR(1-7), DE, ES, FR, IT, RU, TR, HE(6-9)",
           "pixeldrain_only": "FR",
           "resolution": "480p,1080p",
           "arc_watch_guide": "Pace"
@@ -9589,6 +9589,26 @@
         "index": 0
       }
     },
+    "4B882BCA": {
+      "arc": 6,
+      "episode": 10,
+      "manga_chapters": "94-95",
+      "anime_episodes": "43-44",
+      "released": "2026-02-16",
+      "duration": 1335,
+      "extended": true,
+      "hashes": {
+        "crc32": "4B882BCA",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2076967,
+        "name": "[One Pace][94-95] Arlong Park 10 Extended [1080p][4B882BCA].mkv",
+        "size": "531.9 MiB",
+        "hash": "497e30c031c0e59fc1db5e8d6e33b1e4ba877f7d",
+        "index": 0
+      }
+    },
     "4B8CC4E7": {
       "arc": 14,
       "episode": 10,
@@ -11515,7 +11535,7 @@
       "manga_chapters": "94-95",
       "anime_episodes": "43-44",
       "released": "2026-02-16 12:52:30",
-      "duration": 0,
+      "duration": 1335,
       "extended": false,
       "hashes": {
         "crc32": "72F22A68",
