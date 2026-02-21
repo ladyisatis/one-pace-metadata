@@ -1129,7 +1129,7 @@ class OnePaceMetadata:
 
                 arc_num = self.arc_to_num.get(arc_name, 0)
                 if ep_num is None:
-                    arc_num = 0
+                    continue
 
                 for arc_folder in self.arc_dir.iterdir():
                     arc_file = Path(arc_folder, str(arc_num), "config.yml")
