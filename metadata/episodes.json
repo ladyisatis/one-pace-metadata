@@ -699,6 +699,26 @@
       "index": 0
     }
   },
+  "1177A2B6": {
+    "arc": 7,
+    "episode": 1,
+    "manga_chapters": "35-75",
+    "anime_episodes": "46-47",
+    "released": "2026-02-21",
+    "duration": 1415,
+    "extended": false,
+    "hashes": {
+      "crc32": "1177A2B6",
+      "blake2s": ""
+    },
+    "file": {
+      "id": 2078481,
+      "name": "[One Pace][35-75] The Adventures of Buggy's Crew [1080p][1177A2B6].mkv",
+      "size": "592.4 MiB",
+      "hash": "345dc8abfeb55efe8dda92523d1c85bba154e81f",
+      "index": 0
+    }
+  },
   "11DA7BCB": {
     "arc": 31,
     "episode": 24,

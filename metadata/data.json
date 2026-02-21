@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-02-21T07:12:08+00:00",
-    "last_update_ts": 1771657928,
+    "last_update": "2026-02-21T12:12:47+00:00",
+    "last_update_ts": 1771675967,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 196
+    "version": 197
   },
   "tvshow": {
     "en": {
@@ -426,7 +426,7 @@
           "piece_minutes": 42,
           "pace_minutes": 20,
           "audio_languages": "JA,EN",
-          "sub_languages": "EN, ES, FR",
+          "sub_languages": "EN,AR,DE,ES,FR,HE,IT,RU,TR",
           "pixeldrain_only": "AR,DE",
           "resolution": "1080p",
           "arc_watch_guide": "Pace"
@@ -7472,6 +7472,26 @@
         "name": "[One Pace][523-524] Amazon Lily 05 [720p][0F8517DC].mkv",
         "size": "240.7 MiB",
         "hash": "1f62e2583956c412f8550672bc8066c5e96ab0a8",
+        "index": 0
+      }
+    },
+    "1177A2B6": {
+      "arc": 7,
+      "episode": 1,
+      "manga_chapters": "35-75",
+      "anime_episodes": "46-47",
+      "released": "2026-02-21",
+      "duration": 1415,
+      "extended": false,
+      "hashes": {
+        "crc32": "1177A2B6",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2078481,
+        "name": "[One Pace][35-75] The Adventures of Buggy's Crew [1080p][1177A2B6].mkv",
+        "size": "592.4 MiB",
+        "hash": "345dc8abfeb55efe8dda92523d1c85bba154e81f",
         "index": 0
       }
     },
