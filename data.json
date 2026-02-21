@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-02-20T18:17:54+00:00",
-  "last_update_ts": 1771611474,
+  "last_update": "2026-02-21T07:12:08+00:00",
+  "last_update_ts": 1771657928,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -4774,6 +4774,20 @@
       "released": "2020-07-24",
       "hashes": {
         "crc32": "9FA61F60",
+        "blake2": ""
+      }
+    },
+    "A0FCAB46": {
+      "arc": 35,
+      "episode": 58,
+      "title": "The Honorable Hyogoro \"the Flower\"",
+      "originaltitle": "",
+      "description": "Sanji shocks all when he is heard begging for his life and calling for a certain crewmate to rescue him. Meanwhile, Momo is forced out of his hiding spot while his allies and Marco struggle to keep the enemy from interrupting Chopper's work.",
+      "chapters": "1005-1006",
+      "episodes": "1020-1022",
+      "released": "2026-02-21",
+      "hashes": {
+        "crc32": "A0FCAB46",
         "blake2": ""
       }
     },
