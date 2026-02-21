@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-02-21T07:12:08+00:00",
-  "last_update_ts": 1771657928,
+  "last_update": "2026-02-21T12:12:47+00:00",
+  "last_update_ts": 1771675967,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -812,6 +812,20 @@
       "released": "2016-04-10",
       "hashes": {
         "crc32": "0F8517DC",
+        "blake2": ""
+      }
+    },
+    "1177A2B6": {
+      "arc": 7,
+      "episode": 1,
+      "title": "The Adventures of Buggy's Crew",
+      "originaltitle": "",
+      "description": "Buggy, after being defeated by Luffy, Zoro, and Nami, begins his quest to regain his body parts and his crew, and then he will get his flashy revenge on Luffy.",
+      "chapters": "35-75",
+      "episodes": "46-47",
+      "released": "2026-02-21",
+      "hashes": {
+        "crc32": "1177A2B6",
         "blake2": ""
       }
     },
