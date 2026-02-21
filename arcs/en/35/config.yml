@@ -180,6 +180,9 @@ episodes:
 - episode: '57'
   standard: F1EE1824
   extended: ''
+- episode: '58'
+  standard: A0FCAB46
+  extended: ''
 
 info:
   status: Work In Progress
@@ -190,7 +193,7 @@ info:
   filler_episodes: 1029 - 1030, 1084
   num_of_pace_eps: 57
   piece_minutes: 2795
-  pace_minutes: 1703
+  pace_minutes: 1852
   audio_languages: JA,EN (1-4, 31-)
   sub_languages: EN,AR,DE(44-),ES,FR
   pixeldrain_only: AR(5-48),ES,FR

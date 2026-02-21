@@ -5399,6 +5399,23 @@
     size: 1.1 GiB
     hash: 679f3a126c68708414677326663f1be953a4588c
     index: 0
+A0FCAB46:
+  arc: 35
+  episode: 58
+  manga_chapters: 1005-1006
+  anime_episodes: 1020-1022
+  released: 2026-02-21
+  duration: 1835
+  extended: false
+  hashes:
+    crc32: A0FCAB46
+    blake2s: ''
+  file:
+    id: 2078480
+    name: '[One Pace][1005-1006] Wano 58 [1080p][A0FCAB46].mkv'
+    size: 1.4 GiB
+    hash: cf8c8201209a4c17b43911b02163834f1fe4db86
+    index: 0
 A3939979:
   arc: 33
   episode: 34
