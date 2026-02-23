@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-02-22T00:37:06+00:00",
-    "last_update_ts": 1771720626,
+    "last_update": "2026-02-23T00:37:55+00:00",
+    "last_update_ts": 1771807075,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 198
+    "version": 199
   },
   "tvshow": {
     "en": {
@@ -392,11 +392,11 @@
           "filler_episodes": "",
           "num_of_pace_eps": 10,
           "piece_minutes": 294,
-          "pace_minutes": 239,
-          "audio_languages": "JA,EN",
+          "pace_minutes": 231,
+          "audio_languages": "JA, EN, DE, ES (1-5) ",
           "sub_languages": "EN, AR(1-7), DE, ES, FR, IT, RU, TR, HE(6-9)",
           "pixeldrain_only": "FR",
-          "resolution": "480p,1080p",
+          "resolution": "1080p",
           "arc_watch_guide": "Pace"
         }
       },
