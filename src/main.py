@@ -955,7 +955,7 @@ class OnePaceMetadata:
             f"manga_chapters: {chapters}\n"
             f"anime_episodes: {episodes}\n"
             f"released: {self.datetime_serialize(release_date)}\n"
-            f"duration: {length}\n"
+            f"duration: {int(length)}\n"
             f"extended: {'true' if extended else 'false'}\n"
             "\n"
             "hashes:\n"
@@ -987,7 +987,7 @@ class OnePaceMetadata:
             yml_load["anime_episodes"] = episodes
             changed = True
 
-        if str(yml_load.get("duration", 0)) != str(length):
+        if str(yml_load.get("duration", 0)) != str(int(length)):
             yml_load["duration"] = int(length)
             changed = True
 
@@ -1093,6 +1093,7 @@ class OnePaceMetadata:
         title_pattern = re.compile(r'\[(?:One Pace)?\]\[\d+(?:[-,]\d+)*\]\s+(.+?)(?:\s+(\d{2,})(?:\s+(.+?))?)?\s+\[\d+p\](?:\[[^\]]+\])*\[([A-Fa-f0-9]{8})\]\.(?:mkv|mp4)', re.IGNORECASE)
         now = datetime.now(tz=timezone.utc)
         added_metadata = []
+        _arc_cache = None
 
         for i, item in enumerate(RSSParser.parse(resp.text).channel.items):
             if i == 25:
@@ -1125,11 +1126,32 @@ class OnePaceMetadata:
                     continue
 
                 extra_str = f" {extra}" if extra is not None else ""
-                added_metadata.append(f"{arc_name} {ep_num}{extra_str} ({crc32})")
-
                 arc_num = self.arc_to_num.get(arc_name, 0)
-                if ep_num is None:
-                    continue
+
+                if ep_num is None or arc_num == 0:
+                    if _arc_cache is None:
+                        _arc_cache = self.generate_arcs()
+                        if "en" not in _arc_cache:
+                            continue
+                        else:
+                            _arc_cache = _arc_cache["en"]
+
+                    added_metadata.append(f"{arc_name}{extra_str} ({crc32})")
+
+                    _arc_name_lower = arc_name.lower()
+                    for _arc in _arc_cache:
+                        _title = _arc.get("title", "-").lower()
+                        _origtitle = _arc.get("originaltitle", "-").lower()
+                        if _title == _arc_name_lower or _origtitle == _arc_name_lower:
+                            arc_num = _arc.get("part", 0)
+                            ep_num = "01"
+                            break
+
+                    if ep_num is None:
+                        arc_num = 0
+
+                else:
+                    added_metadata.append(f"{arc_name} {ep_num}{extra_str} ({crc32})")
 
                 for arc_folder in self.arc_dir.iterdir():
                     arc_file = Path(arc_folder, str(arc_num), "config.yml")
