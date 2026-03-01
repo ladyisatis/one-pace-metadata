@@ -544,6 +544,12 @@ class OnePaceMetadata:
                                     ep_data["originaltitle"] = originaltitle
                                     changed = True
 
+                            _title = ep_data.get("title", "").lower()
+                            _origtitle = ep_data.get("originaltitle", "").lower()
+                            if _title != "" and _origtitle != "" and _title == _origtitle:
+                                ep_data["originaltitle"] = ""
+                                changed = True
+
                             if ep_data.get("description", "") != description:
                                 logger.info(f"-- Description: {ep_data.get('description', '')} -> {description}")
                                 ep_data["description"] = description
