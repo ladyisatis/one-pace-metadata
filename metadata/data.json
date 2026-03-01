@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-02-26T00:34:17+00:00",
-    "last_update_ts": 1772066057,
+    "last_update": "2026-03-01T18:10:46+00:00",
+    "last_update_ts": 1772388646,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 202
+    "version": 203
   },
   "tvshow": {
     "en": {
@@ -4451,7 +4451,7 @@
       {
         "arc": 19,
         "episode": 5,
-        "title": "Raise the Counterattack Signal",
+        "title": "Signal the Counterstrike",
         "originaltitle": "Signal the Counterstrike",
         "description": "Luffy makes it just outside the courthouse when Blueno of CP9 appears before him, and on the main road, the Straw Hats near the courthouse plaza aboard Sodom and Gomorrah. Meanwhile, Sogeking comes across a dejected Oimo."
       },
