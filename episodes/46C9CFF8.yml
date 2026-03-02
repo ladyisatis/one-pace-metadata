@@ -1,0 +1,19 @@
+arc: 19
+episode: 6
+
+manga_chapters: 385-387
+anime_episodes: 272-273
+released: 2026-03-02 01:35:25
+duration: 0
+extended: false
+
+hashes:
+  crc32: 46C9CFF8
+  blake2s: ''
+
+file:
+  id: 2081633
+  name: '[One Pace][385-387] Enies Lobby 06 [1080p][46C9CFF8].mkv'
+  size: 686.1 MiB
+  hash: 37ec3fb6a391cb8b21538525db11d2908418b7cd
+  index: 0

@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-03-02T00:35:53+00:00",
-    "last_update_ts": 1772411753,
+    "last_update": "2026-03-02T03:04:19+00:00",
+    "last_update_ts": 1772420659,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 205
+    "version": 206
   },
   "tvshow": {
     "en": {
@@ -1270,12 +1270,12 @@
           },
           {
             "episode": "05",
-            "standard": "56E89B6A",
+            "standard": "07F7124B",
             "extended": ""
           },
           {
             "episode": "06",
-            "standard": "0E201E28",
+            "standard": "46C9CFF8",
             "extended": ""
           },
           {
@@ -7095,6 +7095,26 @@
         "index": 0
       }
     },
+    "07F7124B": {
+      "arc": 19,
+      "episode": 5,
+      "manga_chapters": "383-385",
+      "anime_episodes": "269-271",
+      "released": "2026-03-02 01:35:05",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "07F7124B",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2081632,
+        "name": "[One Pace][383-385] Enies Lobby 05 [1080p][07F7124B].mkv",
+        "size": "926.5 MiB",
+        "hash": "2bd136e5f4b127f1675afb1b0dbd43c95454c9ca",
+        "index": 0
+      }
+    },
     "0880B38F": {
       "arc": 32,
       "episode": 9,
@@ -7372,26 +7392,6 @@
         "name": "[One Pace][507-508] Sabaody Archipelago 09 [720p][0E0C5A82].mkv",
         "size": "231.1 MiB",
         "hash": "2589926c8f90e8f031a6caeab93bcd5b79990c0e",
-        "index": 0
-      }
-    },
-    "0E201E28": {
-      "arc": 19,
-      "episode": 6,
-      "manga_chapters": "385-387",
-      "anime_episodes": "271-273",
-      "released": "2019-05-02",
-      "duration": 1792,
-      "extended": false,
-      "hashes": {
-        "crc32": "0E201E28",
-        "blake2s": ""
-      },
-      "file": {
-        "id": 1168788,
-        "name": "[One Pace][385-387] Enies Lobby 06 [720p][0E201E28].mkv",
-        "size": "270.0 MiB",
-        "hash": "eef5f64e3d053a6abe98dcabe934c67d5d2e3a73",
         "index": 0
       }
     },
@@ -9495,6 +9495,26 @@
         "index": 0
       }
     },
+    "46C9CFF8": {
+      "arc": 19,
+      "episode": 6,
+      "manga_chapters": "385-387",
+      "anime_episodes": "272-273",
+      "released": "2026-03-02 01:35:25",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "46C9CFF8",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2081633,
+        "name": "[One Pace][385-387] Enies Lobby 06 [1080p][46C9CFF8].mkv",
+        "size": "686.1 MiB",
+        "hash": "37ec3fb6a391cb8b21538525db11d2908418b7cd",
+        "index": 0
+      }
+    },
     "479D510C": {
       "arc": 24,
       "episode": 1,
@@ -10112,26 +10132,6 @@
         "name": "[One Pace][968-969] Wano 39 [1080p][56CFB8B0].mkv",
         "size": "1.7 GiB",
         "hash": "93e937753ccf59b30e05c8a35cecbe56e1ceada3",
-        "index": 0
-      }
-    },
-    "56E89B6A": {
-      "arc": 19,
-      "episode": 5,
-      "manga_chapters": "383-384",
-      "anime_episodes": "269-271",
-      "released": "2019-03-14",
-      "duration": 1536,
-      "extended": false,
-      "hashes": {
-        "crc32": "56E89B6A",
-        "blake2s": ""
-      },
-      "file": {
-        "id": 1130673,
-        "name": "[One Pace][383-384] Enies Lobby 05 [720p][56E89B6A].mkv",
-        "size": "279.6 MiB",
-        "hash": "abb1df690997f215a5866d7987223a26059ad4f9",
         "index": 0
       }
     },
