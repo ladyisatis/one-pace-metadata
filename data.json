@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-03-02T00:35:53+00:00",
-  "last_update_ts": 1772411753,
+  "last_update": "2026-03-02T03:04:19+00:00",
+  "last_update_ts": 1772420659,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -549,6 +549,20 @@
         "blake2": ""
       }
     },
+    "07F7124B": {
+      "arc": 19,
+      "episode": 5,
+      "title": "Signal the Counterstrike",
+      "originaltitle": "",
+      "description": "Luffy makes it just outside the courthouse when Blueno of CP9 appears before him, and on the main road, the Straw Hats near the courthouse plaza aboard Sodom and Gomorrah. Meanwhile, Sogeking comes across a dejected Oimo.",
+      "chapters": "383-385",
+      "episodes": "269-271",
+      "released": "2026-03-02",
+      "hashes": {
+        "crc32": "07F7124B",
+        "blake2": ""
+      }
+    },
     "0880B38F": {
       "arc": 32,
       "episode": 9,
@@ -742,20 +756,6 @@
       "released": "2017-12-01",
       "hashes": {
         "crc32": "0E0C5A82",
-        "blake2": ""
-      }
-    },
-    "0E201E28": {
-      "arc": 19,
-      "episode": 6,
-      "title": "Unprecedented",
-      "originaltitle": "",
-      "description": "Kaku and Kalifa of CP9 are offered a rare chance for new powers and are each served a devil fruit. The Straw Hats finally arrive at the courthouse plaza when Spandam receives an urgent call, and he realizes things are much worse than previously reported.",
-      "chapters": "385-387",
-      "episodes": "271-273",
-      "released": "2019-05-02",
-      "hashes": {
-        "crc32": "0E201E28",
         "blake2": ""
       }
     },
@@ -2229,6 +2229,20 @@
         "blake2": ""
       }
     },
+    "46C9CFF8": {
+      "arc": 19,
+      "episode": 6,
+      "title": "Unprecedented",
+      "originaltitle": "",
+      "description": "Kaku and Kalifa of CP9 are offered a rare chance for new powers and are each served a devil fruit. The Straw Hats finally arrive at the courthouse plaza when Spandam receives an urgent call, and he realizes things are much worse than previously reported.",
+      "chapters": "385-387",
+      "episodes": "272-273",
+      "released": "2026-03-02",
+      "hashes": {
+        "crc32": "46C9CFF8",
+        "blake2": ""
+      }
+    },
     "479D510C": {
       "arc": 24,
       "episode": 1,
@@ -2660,20 +2674,6 @@
       "released": "2024-04-05",
       "hashes": {
         "crc32": "56CFB8B0",
-        "blake2": ""
-      }
-    },
-    "56E89B6A": {
-      "arc": 19,
-      "episode": 5,
-      "title": "Signal the Counterstrike",
-      "originaltitle": "",
-      "description": "Luffy makes it just outside the courthouse when Blueno of CP9 appears before him, and on the main road, the Straw Hats near the courthouse plaza aboard Sodom and Gomorrah. Meanwhile, Sogeking comes across a dejected Oimo.",
-      "chapters": "383-384",
-      "episodes": "269-271",
-      "released": "2019-03-14",
-      "hashes": {
-        "crc32": "56E89B6A",
         "blake2": ""
       }
     },
