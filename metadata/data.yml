@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-03-01T18:10:46+00:00'
-  last_update_ts: 1772388646
+  last_update: '2026-03-02T00:35:53+00:00'
+  last_update_ts: 1772411753
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 203
+  version: 205
 tvshow:
   en:
     title: One Piece
@@ -1690,7 +1690,7 @@ arcs:
       pace_minutes: 519
       audio_languages: JA
       sub_languages: EN,ES
-      pixeldrain_only: ''
+      pixeldrain_only: ES
       resolution: 720p
       arc_watch_guide: Pace
   - part: 31
@@ -2731,7 +2731,7 @@ descriptions:
   - arc: 10
     episode: 1
     title: The Town of Welcome
-    originaltitle: The Town of Celebration
+    originaltitle: ''
     description: As the Straw Hat Pirates travel from Reverse Mountain to Whisky Peak,
       Nami adjusts to having to watch the log pose constantly. When they arrive at
       their destination, the townspeople greet them warmly, despite the sight of their
@@ -3500,7 +3500,7 @@ descriptions:
   - arc: 19
     episode: 5
     title: Signal the Counterstrike
-    originaltitle: Signal the Counterstrike
+    originaltitle: ''
     description: Luffy makes it just outside the courthouse when Blueno of CP9 appears
       before him, and on the main road, the Straw Hats near the courthouse plaza aboard
       Sodom and Gomorrah. Meanwhile, Sogeking comes across a dejected Oimo.
