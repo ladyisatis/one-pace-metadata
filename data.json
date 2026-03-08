@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-03-02T12:17:59+00:00",
-  "last_update_ts": 1772453879,
+  "last_update": "2026-03-08T23:08:04+00:00",
+  "last_update_ts": 1773011284,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -1935,20 +1935,6 @@
         "blake2": ""
       }
     },
-    "3BBE532B": {
-      "arc": 19,
-      "episode": 7,
-      "title": "Gear Second",
-      "originaltitle": "",
-      "description": "The Straw Hats storm the courthouse where the three-headed judge Baskerville awaits to enact violent judgment upon them. On the roof, Luffy thanks CP9's Blueno for the strength of his opponents, and he activates a new ability.",
-      "chapters": "388-390",
-      "episodes": "273-274",
-      "released": "2019-05-13",
-      "hashes": {
-        "crc32": "3BBE532B",
-        "blake2": ""
-      }
-    },
     "3C0010BE": {
       "arc": 36,
       "episode": 14,
@@ -1988,6 +1974,20 @@
       "released": "2023-10-21",
       "hashes": {
         "crc32": "3C665F73",
+        "blake2": ""
+      }
+    },
+    "3CA69C29": {
+      "arc": 19,
+      "episode": 7,
+      "title": "Gear Second",
+      "originaltitle": "",
+      "description": "The Straw Hats storm the courthouse where the three-headed judge Baskerville awaits to enact violent judgment upon them. On the roof, Luffy thanks CP9's Blueno for the strength of his opponents, and he activates a new ability.",
+      "chapters": "388-390",
+      "episodes": "273-274",
+      "released": "2026-03-08",
+      "hashes": {
+        "crc32": "3CA69C29",
         "blake2": ""
       }
     },
