@@ -1,0 +1,19 @@
+arc: 19
+episode: 7
+
+manga_chapters: 388-390
+anime_episodes: 273-274
+released: 2019-05-13
+duration: 1730
+extended: false
+
+hashes:
+  crc32: 3BBE532B
+  blake2s: ''
+
+file:
+  id: 1143087
+  name: '[One Pace][388-390] Enies Lobby 07 [720p][3BBE532B].mkv'
+  size: 236.3 MiB
+  hash: c5f7298ed41089e6be7f670637aaee98bb869faa
+  index: 0
