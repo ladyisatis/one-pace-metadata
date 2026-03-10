@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-03-09T12:18:29+00:00'
-  last_update_ts: 1773058709
+  last_update: '2026-03-10T00:32:54+00:00'
+  last_update_ts: 1773102774
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 210
+  version: 211
 tvshow:
   en:
     title: One Piece
@@ -5816,7 +5816,7 @@ descriptions:
       Chopper's work.
   - arc: 35
     episode: 59
-    title: Ashura Doji
+    title: Leader of the Mt. Atama Thieves, Ashura Doji
     originaltitle: ''
     description: The brilliant Dr. Chopper creates a virus of his own to counteract
       Queen's Ice Oni bioweapon, and as the Red Scabbards regroup after their utter
