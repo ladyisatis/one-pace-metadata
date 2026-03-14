@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-03-10T00:32:54+00:00",
-  "last_update_ts": 1773102774,
+  "last_update": "2026-03-14T16:11:00+00:00",
+  "last_update_ts": 1773504660,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -3979,6 +3979,20 @@
         "blake2": ""
       }
     },
+    "79695827": {
+      "arc": 19,
+      "episode": 8,
+      "title": "The Girl They Called a Devil",
+      "originaltitle": "",
+      "description": "Twenty years ago, Nico Robin grew up on Ohara in the West Blue, striving to become an archaeologist like her mother. When Robin met Saul, a giant who washed onto the shores of Ohara, her life would forever be changed.",
+      "chapters": "381-393",
+      "episodes": "275-276",
+      "released": "2026-03-14",
+      "hashes": {
+        "crc32": "79695827",
+        "blake2": ""
+      }
+    },
     "79C6DC33": {
       "arc": 35,
       "episode": 54,
@@ -5953,20 +5967,6 @@
         "blake2": ""
       }
     },
-    "CE01A533": {
-      "arc": 9,
-      "episode": 1,
-      "title": "Reverse Mountain",
-      "originaltitle": "",
-      "description": "Following a near disaster in the Calm Belt, the Straw Hats take a wild ride up and down a mountain... and are promptly swallowed by a giant whale!",
-      "chapters": "101-102",
-      "episodes": "54-55, 61-62",
-      "released": "2024-01-05",
-      "hashes": {
-        "crc32": "CE01A533",
-        "blake2": ""
-      }
-    },
     "CEDBEA59": {
       "arc": 6,
       "episode": 5,
@@ -6356,20 +6356,6 @@
       "released": "2020-05-06",
       "hashes": {
         "crc32": "DCF7AD65",
-        "blake2": ""
-      }
-    },
-    "DECF4267": {
-      "arc": 19,
-      "episode": 8,
-      "title": "The Girl They Called a Devil",
-      "originaltitle": "",
-      "description": "Twenty years ago, Nico Robin grew up on Ohara in the West Blue, striving to become an archaeologist like her mother. When Robin met Saul, a giant who washed onto the shores of Ohara, her life would forever be changed.",
-      "chapters": "391-393",
-      "episodes": "275-276",
-      "released": "2019-05-29",
-      "hashes": {
-        "crc32": "DECF4267",
         "blake2": ""
       }
     },
@@ -6846,6 +6832,20 @@
       "released": "2020-06-22",
       "hashes": {
         "crc32": "EBBD7693",
+        "blake2": ""
+      }
+    },
+    "EBF6DE81": {
+      "arc": 9,
+      "episode": 1,
+      "title": "Reverse Mountain",
+      "originaltitle": "",
+      "description": "Following a near disaster in the Calm Belt, the Straw Hats take a wild ride up and down a mountain... and are promptly swallowed by a giant whale!",
+      "chapters": "101-102",
+      "episodes": "54-55, 61-62",
+      "released": "2026-03-14",
+      "hashes": {
+        "crc32": "EBF6DE81",
         "blake2": ""
       }
     },

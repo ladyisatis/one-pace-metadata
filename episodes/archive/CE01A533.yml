@@ -1,0 +1,19 @@
+arc: 9
+episode: 1
+
+manga_chapters: 101-102
+anime_episodes: 54-55, 61-62
+released: 2024-01-05
+duration: 1226
+extended: false
+
+hashes:
+  crc32: CE01A533
+  blake2s: ''
+
+file:
+  id: 1762745
+  name: '[One Pace][101-103] Reverse Mountain 01 [1080p][CE01A533].mkv'
+  size: 573.8 MiB
+  hash: 08545ca4151f7d4d7b86ecb9f485c3557551321f
+  index: 0

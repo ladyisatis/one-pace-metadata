@@ -348,7 +348,7 @@ en:
     by codenames.
   episodes:
   - episode: '01'
-    standard: CE01A533
+    standard: EBF6DE81
     extended: ''
   - episode: '02'
     standard: 5195CDBC
@@ -918,7 +918,7 @@ en:
     standard: 3CA69C29
     extended: ''
   - episode: 08
-    standard: DECF4267
+    standard: '79695827'
     extended: ''
   - episode: 09
     standard: 952F5BEB
