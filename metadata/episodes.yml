@@ -4439,10 +4439,10 @@
 '79695827':
   arc: 19
   episode: 8
-  manga_chapters: 381-393
+  manga_chapters: 391-393
   anime_episodes: 275-276
   released: 2026-03-14 04:33:39
-  duration: 0
+  duration: 1934
   extended: false
   hashes:
     crc32: '79695827'
@@ -7904,7 +7904,7 @@ EBF6DE81:
   manga_chapters: 101-102
   anime_episodes: 54-55, 61-62
   released: 2026-03-14 04:31:54
-  duration: 0
+  duration: 1282
   extended: false
   hashes:
     crc32: EBF6DE81

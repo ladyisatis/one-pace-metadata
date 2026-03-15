@@ -24,9 +24,9 @@ info:
   filler_episodes: 56 - 60
   num_of_pace_eps: 2
   piece_minutes: 84
-  pace_minutes: 49
+  pace_minutes: 50
   audio_languages: JA,EN
-  sub_languages: EN, ES , FR
+  sub_languages: EN, AR(1),DE(1),ES , FR, HE(1), IT(1), TR(1)
   pixeldrain_only: AR,DE
   resolution: 1080p
   arc_watch_guide: Pace
