@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-03-14T16:11:00+00:00",
-  "last_update_ts": 1773504660,
+  "last_update": "2026-03-15T00:41:42+00:00",
+  "last_update_ts": 1773535302,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -3985,7 +3985,7 @@
       "title": "The Girl They Called a Devil",
       "originaltitle": "",
       "description": "Twenty years ago, Nico Robin grew up on Ohara in the West Blue, striving to become an archaeologist like her mother. When Robin met Saul, a giant who washed onto the shores of Ohara, her life would forever be changed.",
-      "chapters": "381-393",
+      "chapters": "391-393",
       "episodes": "275-276",
       "released": "2026-03-14",
       "hashes": {
