@@ -2237,6 +2237,9 @@ en:
   - episode: '58'
     standard: A0FCAB46
     extended: ''
+  - episode: '59'
+    standard: 2ED1FD82
+    extended: ''
   info:
     status: Work In Progress
     manga_chapters: 909 - 1057
@@ -2244,9 +2247,9 @@ en:
     anime_episodes: 890 - 1085
     episodes_adapted: 132
     filler_episodes: 1029 - 1030, 1084
-    num_of_pace_eps: 58
+    num_of_pace_eps: 59
     piece_minutes: 2838
-    pace_minutes: 1852
+    pace_minutes: 2061
     audio_languages: JA,EN (1-4, 31-)
     sub_languages: EN,AR,DE(44-),ES(1-4,31-40),FR
     pixeldrain_only: AR(5-48),ES(1-44),FR
