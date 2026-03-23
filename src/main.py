@@ -1100,6 +1100,7 @@ class OnePaceMetadata:
         now = datetime.now(tz=timezone.utc)
         added_metadata = []
         _arc_cache = None
+        _desc_cache = None
 
         for i, item in enumerate(RSSParser.parse(resp.text).channel.items):
             if i == 25:
@@ -1118,23 +1119,77 @@ class OnePaceMetadata:
             only_file = len(files) == 1
 
             for mkv_file in files:
+                logger.info(f"- {mkv_file['name']}")
+
                 match = title_pattern.match(mkv_file["name"])
                 if not match:
-                    logger.warning(f"Skipping: regex does not match [{mkv_file['name']}]")
+                    logger.warning(f"-- Skipping: regex does not match [{mkv_file['name']}]")
                     continue
 
                 arc_name, ep_num, extra, crc32 = match.groups()
-                is_extended = extra is not None and "extended" in extra.lower()
+
+                if arc_name is None:
+                    arc_name = ""
+
+                if ep_num is None:
+                    ep_num = ""
+
+                if crc32 is None:
+                    crc32 = ""
 
                 crc_file = Path(self.episodes_dir, f"{crc32}.yml")
                 if crc_file.is_file():
-                    logger.info(f"Skipping {arc_name} {ep_num}: episodes/{crc32}.yml exists")
+                    if ep_num == "":
+                        logger.warning(f"-- Skipping {arc_name}: episodes/{crc32}.yml exists")
+                    else:
+                        logger.warning(f"-- Skipping {arc_name} {ep_num}: episodes/{crc32}.yml exists")
+
+                    continue
+
+                if arc_name == "" or crc32 == "":
+                    logger.warning(f"-- Skipping: arc_name is blank ('{arc_name}') or crc32 is blank ('{crc32}') from '{mkv_file['name']}'")
                     continue
 
                 extra_str = f" {extra}" if extra is not None else ""
+                extra_str_lower = extra_str.lower()
+                is_extended = extra is not None and "extended" in extra_str_lower
                 arc_num = self.arc_to_num.get(arc_name, 0)
+                _arc_name_old = arc_name
+                _old_ep_num = ep_num
 
-                if ep_num is None or arc_num == 0:
+                if "april fools" in extra_str_lower or "g-8" in extra_str_lower:
+                    logger.info(f"-- April Fools/Other Special Detected ('{extra}')")
+
+                    _special_title = arc_name.split(" (")[0].lower()
+                    if _desc_cache is None:
+                        _desc_cache = self.generate_desc()
+                        if "en" not in _desc_cache:
+                            continue
+                        else:
+                            _desc_cache = _desc_cache["en"]
+
+                    found = False
+                    for _desc in _desc_cache:
+                        if _desc["arc"] == 0 and _special_title in _desc["title"].lower():
+                            arc_num = _desc["arc"]
+                            old_ep_num = f" {ep_num}" if ep_num != "" else ""
+                            ep_num = f"{_desc['episode']:02d}"
+                            found = True
+                            added_metadata.append(f"Specials {ep_num}: {arc_name}{old_ep_num}{extra_str} ({crc32})")
+                            break
+
+                    if not found:
+                        if ep_num == "":
+                            added_metadata.append(f"Specials: {arc_name}{extra_str} ({crc32})")
+                        else:
+                            added_metadata.append(f"Specials: {arc_name} {ep_num}{extra_str} ({crc32})")
+
+                        arc_num = 0
+                        ep_num = ""
+
+                elif arc_num == 0:
+                    logger.info("-- Arc not detected")
+
                     if _arc_cache is None:
                         _arc_cache = self.generate_arcs()
                         if "en" not in _arc_cache:
@@ -1142,22 +1197,28 @@ class OnePaceMetadata:
                         else:
                             _arc_cache = _arc_cache["en"]
 
-                    added_metadata.append(f"{arc_name}{extra_str} ({crc32})")
-
                     _arc_name_lower = arc_name.lower()
                     for _arc in _arc_cache:
                         _title = _arc.get("title", "-").lower()
                         _origtitle = _arc.get("originaltitle", "-").lower()
+
                         if _title == _arc_name_lower or _origtitle == _arc_name_lower:
                             arc_num = _arc.get("part", 0)
-                            ep_num = "01"
+                            if arc_num != 0:
+                                if ep_num == "":
+                                    ep_num = "01"
+                                logger.info(f"---- New Arc: {arc_name} {ep_num}")
+                            else:
+                                ep_num = ""
+                                logger.info(f"---- New Special: {_arc_name_old} {_old_ep_num}")
+
                             break
 
-                    if ep_num is None:
-                        arc_num = 0
-
-                else:
-                    added_metadata.append(f"{arc_name} {ep_num}{extra_str} ({crc32})")
+                    if arc_num == 0 and ep_num == "":
+                        _old_ep_num = f" {_old_ep_num}" if _old_ep_num != "" else ""
+                        added_metadata.append(f"Specials: {arc_name}{_old_ep_num}{extra_str} ({crc32})")
+                    else:
+                        added_metadata.append(f"{arc_name} {ep_num}{extra_str} ({crc32})")
 
                 for arc_folder in self.arc_dir.iterdir():
                     arc_file = Path(arc_folder, str(arc_num), "config.yml")
@@ -1175,7 +1236,7 @@ class OnePaceMetadata:
                                 break
 
                         if i is None:
-                            if ep_num is None:
+                            if ep_num == "":
                                 new_ep = (int(config_yml["episodes"][-1]["episode"]) + 1) if len(config_yml["episodes"]) > 0 else 1
                                 ep_num = f"{new_ep:02d}"
 
@@ -1198,7 +1259,7 @@ class OnePaceMetadata:
                                 if old_crc != "":
                                     self.archive_file(Path(self.episodes_dir, f"{old_crc}.yml"))
 
-                    elif ep_num is not None:
+                    elif ep_num != "":
                         config_yml = self.generate_arc_tmpl(
                             title=arc_name,
                             episodes=[{
@@ -1225,7 +1286,7 @@ class OnePaceMetadata:
                         elif d.startswith("Episodes: "):
                             episodes = d.replace("Episodes: ", "")
 
-                ep_num_i = int(ep_num)
+                ep_num_i = int(ep_num) if ep_num != "" else 1
 
                 if chapters == "" and episodes == "":
                     for yml_file in self.episodes_dir.rglob("*.yml"):
@@ -1867,17 +1928,17 @@ class OnePaceMetadata:
             logger.success("Loading title.properties / chapter.properties")
             self.get_titles_chapters()
 
-            if now.hour % int(self.config["check_ep_descriptions_every_hours"]) == 0 or is_workflow_dispatch:
-                logger.success("Updating episode descriptions")
-                self.update_desc_sources()
-            
-            if now.hour % int(self.config["check_ep_guide_every_hours"]) == 0 or is_workflow_dispatch:
-                logger.success("Updating metadata from episode guide")
-                self.update_from_episode_guide()
-
             if (now.hour % int(self.config["check_rss_every_hours"]) == 0 and self.ONE_PACE_RSS_FEED != "") or is_workflow_dispatch:
                 logger.success("Checking RSS feed for new releases")
                 self.update_from_rss_feed(self.ONE_PACE_RSS_FEED)
+
+            if now.hour % int(self.config["check_ep_descriptions_every_hours"]) == 0 or is_workflow_dispatch:
+                logger.success("Updating episode descriptions")
+                self.update_desc_sources()
+
+            if now.hour % int(self.config["check_ep_guide_every_hours"]) == 0 or is_workflow_dispatch:
+                logger.success("Updating metadata from episode guide")
+                self.update_from_episode_guide()
 
         finally:
             self.client.close()
