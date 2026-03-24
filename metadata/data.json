@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-03-23T00:40:01+00:00",
-    "last_update_ts": 1774226401,
+    "last_update": "2026-03-24T00:33:30+00:00",
+    "last_update_ts": 1774312410,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 214
+    "version": 216
   },
   "tvshow": {
     "en": {
@@ -3246,16 +3246,16 @@
           "manga_chapters": "909 - 1057",
           "num_of_chapters": 149,
           "anime_episodes": "890 - 1085",
-          "episodes_adapted": 132,
-          "filler_episodes": "1029 - 1030, 1084",
+          "episodes_adapted": 136,
+          "filler_episodes": "895-896, 1029 - 1030, 1084",
           "num_of_pace_eps": 59,
-          "piece_minutes": 2838,
-          "pace_minutes": 2061,
+          "piece_minutes": 2992,
+          "pace_minutes": 1698,
           "audio_languages": "JA,EN (1-4, 31-)",
           "sub_languages": "EN,AR,DE(44-),ES(1-4,31-40),FR",
           "pixeldrain_only": "AR(5-48),ES(1-44),FR",
           "resolution": "1080p",
-          "arc_watch_guide": "Pace Episodes 1-58 then Original Episodes 1022 - 1085"
+          "arc_watch_guide": "Pace Episodes 1-59 then Original Episodes 1025 - 1085"
         }
       },
       {
