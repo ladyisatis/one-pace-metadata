@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-03-28T00:37:48+00:00",
-  "last_update_ts": 1774658268,
+  "last_update": "2026-03-28T19:14:20+00:00",
+  "last_update_ts": 1774725260,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -812,6 +812,20 @@
       "released": "2016-04-10",
       "hashes": {
         "crc32": "0F8517DC",
+        "blake2": ""
+      }
+    },
+    "103B04A7": {
+      "arc": 9,
+      "episode": 2,
+      "title": "Cape Promise",
+      "originaltitle": "",
+      "description": "After learning of Laboon the whale's plight, Luffy comes up with a solution befitting his style. As thanks, Crocus reveals that navigating the Grand Line will not be as simple as following a compass or relying on currents and wind.",
+      "chapters": "103-105",
+      "episodes": "62-63",
+      "released": "2026-03-28",
+      "hashes": {
+        "crc32": "103B04A7",
         "blake2": ""
       }
     },
@@ -1949,6 +1963,20 @@
         "blake2": ""
       }
     },
+    "3B7CBD0F": {
+      "arc": 9,
+      "episode": 2,
+      "title": "Cape Promise",
+      "originaltitle": "",
+      "description": "After learning of Laboon the whale's plight, Luffy comes up with a solution befitting his style. As thanks, Crocus reveals that navigating the Grand Line will not be as simple as following a compass or relying on currents and wind.",
+      "chapters": "103-105",
+      "episodes": "62-63",
+      "released": "2026-03-28",
+      "hashes": {
+        "crc32": "3B7CBD0F",
+        "blake2": ""
+      }
+    },
     "3BBE532B": {
       "arc": 19,
       "episode": 7,
@@ -2576,20 +2604,6 @@
       "released": "2020-10-07",
       "hashes": {
         "crc32": "511BA151",
-        "blake2": ""
-      }
-    },
-    "5195CDBC": {
-      "arc": 9,
-      "episode": 2,
-      "title": "Cape Promise",
-      "originaltitle": "",
-      "description": "After learning of Laboon the whale's plight, Luffy comes up with a solution befitting his style. As thanks, Crocus reveals that navigating the Grand Line will not be as simple as following a compass or relying on currents and wind.",
-      "chapters": "103-105",
-      "episodes": "62-63",
-      "released": "2024-01-05",
-      "hashes": {
-        "crc32": "5195CDBC",
         "blake2": ""
       }
     },
@@ -4273,6 +4287,20 @@
         "blake2": ""
       }
     },
+    "88CB08F6": {
+      "arc": 19,
+      "episode": 9,
+      "title": "Ohara vs. The World Government",
+      "originaltitle": "",
+      "description": "Robin's mother Olvia was on the run from the World Government, and tragedy was unavoidable from the moment Professor Clover and his colleagues decided to continue their research. No one on Ohara was safe.",
+      "chapters": "394-396",
+      "episodes": "276-277",
+      "released": "2026-03-28",
+      "hashes": {
+        "crc32": "88CB08F6",
+        "blake2": ""
+      }
+    },
     "89B18321": {
       "arc": 3,
       "episode": 4,
@@ -4564,20 +4592,6 @@
       "released": "2020-12-09",
       "hashes": {
         "crc32": "94F78CF3",
-        "blake2": ""
-      }
-    },
-    "952F5BEB": {
-      "arc": 19,
-      "episode": 9,
-      "title": "Ohara vs. The World Government",
-      "originaltitle": "",
-      "description": "Robin's mother Olvia was on the run from the World Government, and tragedy was unavoidable from the moment Professor Clover and his colleagues decided to continue their research. No one on Ohara was safe.",
-      "chapters": "394-396",
-      "episodes": "276-277",
-      "released": "2019-06-27",
-      "hashes": {
-        "crc32": "952F5BEB",
         "blake2": ""
       }
     },
