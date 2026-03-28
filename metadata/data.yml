@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-03-28T00:37:48+00:00'
-  last_update_ts: 1774658268
+  last_update: '2026-03-28T19:14:20+00:00'
+  last_update_ts: 1774725260
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 217
+  version: 218
 tvshow:
   en:
     title: One Piece
@@ -392,8 +392,8 @@ arcs:
       standard: EBF6DE81
       extended: ''
     - episode: '02'
-      standard: 5195CDBC
-      extended: ''
+      standard: 103B04A7
+      extended: 3B7CBD0F
     info:
       status: ''
       manga_chapters: 101 - 105
@@ -962,7 +962,7 @@ arcs:
       standard: '79695827'
       extended: ''
     - episode: 09
-      standard: 952F5BEB
+      standard: 88CB08F6
       extended: ''
     - episode: '10'
       standard: 6C908F32
@@ -6606,6 +6606,23 @@ episodes:
       size: 240.7 MiB
       hash: 1f62e2583956c412f8550672bc8066c5e96ab0a8
       index: 0
+  103B04A7:
+    arc: 9
+    episode: 2
+    manga_chapters: 103-105
+    anime_episodes: 62-63
+    released: 2026-03-28 16:49:01
+    duration: 0
+    extended: false
+    hashes:
+      crc32: 103B04A7
+      blake2s: ''
+    file:
+      id: 2091121
+      name: '[One Pace][103-105] Reverse Mountain 02 [1080p][103B04A7].mkv'
+      size: 720.2 MiB
+      hash: 5bc92a22773d16e63dc6096af0027caef406ceb1
+      index: 0
   1177A2B6:
     arc: 7
     episode: 1
@@ -7984,6 +8001,23 @@ episodes:
       size: 308.3 MiB
       hash: 8eae38e998ff4e537f0974ab4249f89479fb644d
       index: 35
+  3B7CBD0F:
+    arc: 9
+    episode: 2
+    manga_chapters: 103-105
+    anime_episodes: 62-63
+    released: 2026-03-28 16:49:44
+    duration: 0
+    extended: true
+    hashes:
+      crc32: 3B7CBD0F
+      blake2s: ''
+    file:
+      id: 2091122
+      name: '[One Pace][103-105] Reverse Mountain 02 Extended [1080p][3B7CBD0F].mkv'
+      size: 729.6 MiB
+      hash: ae7ab786afd4eacef9d423e10d8bcbb5a790f62d
+      index: 0
   3BBE532B:
     arc: 19
     episode: 7
@@ -8748,23 +8782,6 @@ episodes:
       name: '[One Pace][561-562] Marineford 07 [720p][511BA151].mkv'
       size: 255.5 MiB
       hash: 3e96ef072e3798dc20d9c9fe21700eee27ff8312
-      index: 0
-  5195CDBC:
-    arc: 9
-    episode: 2
-    manga_chapters: 103-105
-    anime_episodes: 62-63
-    released: 2024-01-05
-    duration: 1988
-    extended: false
-    hashes:
-      crc32: 5195CDBC
-      blake2s: ''
-    file:
-      id: 1762745
-      name: '[One Pace][103-105] Reverse Mountain 02 [1080p][5195CDBC].mkv'
-      size: 693.6 MiB
-      hash: 08545ca4151f7d4d7b86ecb9f485c3557551321f
       index: 0
   529AE554:
     arc: 33
@@ -10806,6 +10823,23 @@ episodes:
       size: 573.5 MiB
       hash: 234b363bffbf29f401234371a40bdab69b94c6fb
       index: 0
+  88CB08F6:
+    arc: 19
+    episode: 9
+    manga_chapters: 394-396
+    anime_episodes: 276-277
+    released: 2026-03-28 16:35:05
+    duration: 0
+    extended: false
+    hashes:
+      crc32: 88CB08F6
+      blake2s: ''
+    file:
+      id: 2091111
+      name: '[One Pace][394-396] Enies Lobby 09 [1080p][88CB08F6].mkv'
+      size: 986.9 MiB
+      hash: 105f001c28ba7b73c0c1216ae92409dbdc183322
+      index: 0
   89B18321:
     arc: 3
     episode: 4
@@ -11162,23 +11196,6 @@ episodes:
       name: '[One Pace][934-935] Wano 18 [1080p][94F78CF3].mkv'
       size: 1.2 GiB
       hash: ee98dc9217e39a1142d34593fd1f69f370844d9f
-      index: 0
-  952F5BEB:
-    arc: 19
-    episode: 9
-    manga_chapters: 394-396
-    anime_episodes: 276-277
-    released: 2019-06-27
-    duration: 1868
-    extended: false
-    hashes:
-      crc32: 952F5BEB
-      blake2s: ''
-    file:
-      id: 1155606
-      name: '[One Pace][394-396] Enies Lobby 09 [720p][952F5BEB].mkv'
-      size: 334.3 MiB
-      hash: bc2fa17f4130b673cfee7cde79e9bd6b2af59004
       index: 0
   964FB36B:
     arc: 30

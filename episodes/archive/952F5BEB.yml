@@ -1,0 +1,19 @@
+arc: 19
+episode: 9
+
+manga_chapters: 394-396
+anime_episodes: 276-277
+released: 2019-06-27
+duration: 1868
+extended: false
+
+hashes:
+  crc32: 952F5BEB
+  blake2s: ''
+
+file:
+  id: 1155606
+  name: '[One Pace][394-396] Enies Lobby 09 [720p][952F5BEB].mkv'
+  size: 334.3 MiB
+  hash: bc2fa17f4130b673cfee7cde79e9bd6b2af59004
+  index: 0

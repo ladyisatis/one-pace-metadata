@@ -12,8 +12,8 @@ episodes:
   standard: EBF6DE81
   extended: ''
 - episode: '02'
-  standard: 5195CDBC
-  extended: ''
+  standard: 103B04A7
+  extended: 3B7CBD0F
 
 info:
   status: ''
