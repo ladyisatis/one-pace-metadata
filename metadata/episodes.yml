@@ -5354,7 +5354,7 @@
   manga_chapters: 19-21
   anime_episodes: '8'
   released: 2025-09-07 14:47:50
-  duration: 0
+  duration: 1362
   extended: false
   hashes:
     crc32: 9C115EE6
@@ -6782,7 +6782,7 @@ CBFE01C7:
   manga_chapters: 8-11
   anime_episodes: 4-6
   released: 2025-09-07 14:47:50
-  duration: 0
+  duration: 1716
   extended: false
   hashes:
     crc32: CBFE01C7
@@ -8408,7 +8408,7 @@ FAFCDE38:
   manga_chapters: 12-19
   anime_episodes: 6-7
   released: 2025-09-07 14:47:50
-  duration: 0
+  duration: 2215
   extended: false
   hashes:
     crc32: FAFCDE38

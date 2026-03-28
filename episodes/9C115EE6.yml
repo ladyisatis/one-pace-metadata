@@ -2,9 +2,9 @@ arc: 2
 episode: 3
 
 manga_chapters: 19-21
-anime_episodes: 8
+anime_episodes: '8'
 released: 2025-09-07 14:47:50
-duration: 0
+duration: 1362
 extended: false
 
 hashes:
