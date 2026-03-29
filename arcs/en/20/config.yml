@@ -37,6 +37,6 @@ info:
   pace_minutes: 133
   audio_languages: JA
   sub_languages: EN
-  pixeldrain_only: EN
+  pixeldrain_only: ''
   resolution: 720p
   arc_watch_guide: Pace

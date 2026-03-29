@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-03-29T00:42:51+00:00'
-  last_update_ts: 1774744971
+  last_update: '2026-03-29T12:16:52+00:00'
+  last_update_ts: 1774786612
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 219
+  version: 220
 tvshow:
   en:
     title: One Piece
@@ -403,7 +403,7 @@ arcs:
       filler_episodes: 56 - 60
       num_of_pace_eps: 2
       piece_minutes: 84
-      pace_minutes: 51
+      pace_minutes: 49
       audio_languages: JA,EN
       sub_languages: EN,AR,DE,ES,FR,HE(1),IT,TR
       pixeldrain_only: AR,DE
@@ -502,7 +502,7 @@ arcs:
       filler_episodes: ''
       num_of_pace_eps: 5
       piece_minutes: 189
-      pace_minutes: 135
+      pace_minutes: 133
       audio_languages: JA,EN
       sub_languages: EN, AR, DE, ES, FR, IT
       pixeldrain_only: ''
@@ -838,7 +838,7 @@ arcs:
       pace_minutes: 154
       audio_languages: JA,EN
       sub_languages: EN
-      pixeldrain_only: EN
+      pixeldrain_only: ''
       resolution: 720p
       arc_watch_guide: Pace
   - part: 18
@@ -1021,7 +1021,7 @@ arcs:
       filler_episodes: 291 - 292, 303
       num_of_pace_eps: 25
       piece_minutes: 945
-      pace_minutes: 593
+      pace_minutes: 587
       audio_languages: JA,EN (1-9, 23-25)
       sub_languages: EN,AR(1-4,7-8),DE(1-9),ES,FR,HE(4)
       pixeldrain_only: FR
@@ -1064,7 +1064,7 @@ arcs:
       pace_minutes: 133
       audio_languages: JA
       sub_languages: EN
-      pixeldrain_only: EN
+      pixeldrain_only: ''
       resolution: 720p
       arc_watch_guide: Pace
   - part: 21
@@ -1156,7 +1156,7 @@ arcs:
       pace_minutes: 484
       audio_languages: JA
       sub_languages: EN,ES
-      pixeldrain_only: EN, ES
+      pixeldrain_only: ES
       resolution: 720p
       arc_watch_guide: Pace
   - part: 22
@@ -2375,7 +2375,7 @@ arcs:
       filler_episodes: ''
       num_of_pace_eps: 20
       piece_minutes: 840
-      pace_minutes: 534
+      pace_minutes: 537
       audio_languages: JA, EN
       sub_languages: EN,AR(7-),DE(3-),FR
       pixeldrain_only: DE(1,2)
