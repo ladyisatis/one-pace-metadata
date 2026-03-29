@@ -520,27 +520,26 @@ class OnePaceMetadata:
                 if arc in self.arc_to_num:
                     arc_num = self.arc_to_num[arc]
                     ep_path = Path(self.arc_dir, lang, str(arc_num), f"episode_{int(episode):02d}.yml")
-
-                    logger.info(f"{arc} {episode}: {ep_path}")
+                    changes = [f"{arc} {episode}: {ep_path}"]
 
                     try:
                         if not ep_path.parent.is_dir():
                             ep_path.parent.mkdir(exist_ok=True, parents=True)
-                            logger.info(f"-- Directory created: {ep_path.parent}")
+                            changes.append(f"-- Directory created: {ep_path.parent}")
 
                         if ep_path.is_file():
                             ep_data = self.read_yaml(ep_path)
                             changed = False
 
                             if ep_data.get("title", "") != title:
-                                logger.info(f"-- Title: {ep_data.get('title', '')} -> {title}")
+                                changes.append(f"-- Title: {ep_data.get('title', '')} -> {title}")
                                 ep_data["title"] = title
                                 changed = True
 
                             if arc_num in self.mkv_titles and episode in self.mkv_titles[arc_num]:
                                 originaltitle = self.mkv_titles[arc_num][episode]
                                 if title.lower() != originaltitle.lower() and ep_data.get("originaltitle", "") != originaltitle:
-                                    logger.info(f"-- Original Title: {ep_data.get('originaltitle', None)} -> {originaltitle}")
+                                    changes.append(f"-- Original Title: {ep_data.get('originaltitle', None)} -> {originaltitle}")
                                     ep_data["originaltitle"] = originaltitle
                                     changed = True
 
@@ -551,11 +550,13 @@ class OnePaceMetadata:
                                 changed = True
 
                             if ep_data.get("description", "") != description:
-                                logger.info(f"-- Description: {ep_data.get('description', '')} -> {description}")
+                                changes.append(f"-- Description: {ep_data.get('description', '')} -> {description}")
                                 ep_data["description"] = description
                                 changed = True
 
                             if changed:
+                                for line in changes:
+                                    logger.info(line)
                                 self.write_yaml(ep_path, ep_data)
                                 logger.info("-- Changes written to file")
 
@@ -682,7 +683,10 @@ class OnePaceMetadata:
                         status = "Work In Progress"
 
                     data = self.read_yaml(config_yml)
-                    data["info"] = {
+                    if "info" not in data:
+                        data["info"] = {}
+
+                    new_info = {
                         "status": status,
                         "manga_chapters": manga_chapters,
                         "num_of_chapters": num_of_chapters,
@@ -699,12 +703,20 @@ class OnePaceMetadata:
                         "arc_watch_guide": arc_watch_guide
                     }
 
-                    config_yml.write_text(
-                        YamlDump(data, allow_unicode=True, sort_keys=False).replace("\ninfo:\n", "\n\ninfo:\n").replace("\nepisodes:\n", "\n\nepisodes:\n"),
-                        encoding="utf-8"
-                    )
+                    changed = len(data["info"]) != len(new_info)
+                    for k in new_info.keys():
+                        if new_info[k] != data["info"].get(k, None):
+                            logger.info(f"[{arc_name}] {k}: {data['info'].get(k, None)} -> {new_info[k]}")
+                            changed = True
 
-                    logger.info(f"[{arc_name}] Wrote to: {config_yml}")
+                    if changed:
+                        data["info"] = new_info
+                        config_yml.write_text(
+                            YamlDump(data, allow_unicode=True, sort_keys=False).replace("\ninfo:\n", "\n\ninfo:\n").replace("\nepisodes:\n", "\n\nepisodes:\n"),
+                            encoding="utf-8"
+                        )
+    
+                        logger.info(f"[{arc_name}] Wrote to: {config_yml}")
 
     def parse_spreadsheet_page(self, guide_id, sheet_id, sheet_title, sheet_index):
         logger.info(f"[{sheet_title}] Retrieving HTML sheet {sheet_title} {sheet_index}")
@@ -1217,6 +1229,15 @@ class OnePaceMetadata:
                     if arc_num == 0 and ep_num == "":
                         _old_ep_num = f" {_old_ep_num}" if _old_ep_num != "" else ""
                         added_metadata.append(f"Specials: {arc_name}{_old_ep_num}{extra_str} ({crc32})")
+                    elif arc_num == 0 and ep_num != "":
+                        logger.info("---- Wait on metadata to become available in ep guide/desc")
+                        continue
+                    else:
+                        added_metadata.append(f"{arc_name} {ep_num}{extra_str} ({crc32})")
+
+                else:
+                    if ep_num == "":
+                        added_metadata.append(f"{arc_name}{extra_str} ({crc32})")
                     else:
                         added_metadata.append(f"{arc_name} {ep_num}{extra_str} ({crc32})")
 
@@ -1469,112 +1490,112 @@ class OnePaceMetadata:
 
         return {key: other_edits[key] for key in sorted(other_edits.keys())}
 
-    def generate_stremio(self, stremio_dir, arcs, episodes, descriptions):
-        meta = {
-            "meta": {
-                "videos": []
-            }
-        }
+    #def generate_stremio(self, stremio_dir, arcs, episodes, descriptions):
+    #    meta = {
+    #        "meta": {
+    #            "videos": []
+    #        }
+    #    }
+    #
+    #    meta_series_file = Path(stremio_dir, "meta", "series", "pp_onepace.json")
+    #
+    #    if meta_series_file.is_file():
+    #        with meta_series_file.open(mode="r", encoding="utf-8") as f:
+    #            meta = json.load(f)
 
-        meta_series_file = Path(stremio_dir, "meta", "series", "pp_onepace.json")
+    #    desc = {}
+    #    for item in descriptions.get("en", []):
+    #        _arc = str(item["arc"])
+    #        _ep = str(item["episode"])
 
-        if meta_series_file.is_file():
-            with meta_series_file.open(mode="r", encoding="utf-8") as f:
-                meta = json.load(f)
+    #        if _arc not in desc:
+    #            desc[_arc] = {}
 
-        desc = {}
-        for item in descriptions.get("en", []):
-            _arc = str(item["arc"])
-            _ep = str(item["episode"])
+    #        desc[_arc][_ep] = (item["title"], item["description"])
 
-            if _arc not in desc:
-                desc[_arc] = {}
+    #    for arc in arcs.get("en", []):
+    #        if arc["part"] == 0:
+    #            continue
 
-            desc[_arc][_ep] = (item["title"], item["description"])
+    #        shortcode = arc["shortcode"]
+    #        part = arc["part"]
 
-        for arc in arcs.get("en", []):
-            if arc["part"] == 0:
-                continue
+    #        for episode in arc["episodes"]:
+    #            if "episode" not in episode:
+    #                continue
 
-            shortcode = arc["shortcode"]
-            part = arc["part"]
+    #            episode_num = int(episode["episode"])
+    #            crc32 = episode.get("standard", "")
 
-            for episode in arc["episodes"]:
-                if "episode" not in episode:
-                    continue
+    #            if crc32 == "":
+    #                continue
 
-                episode_num = int(episode["episode"])
-                crc32 = episode.get("standard", "")
+    #            episode_data = episodes.get(crc32, None)
+    #            if episode_data is None:
+    #                continue
 
-                if crc32 == "":
-                    continue
+    #            ep_title, ep_desc = desc.get(str(part), {}).get(str(episode_num), ("", ""))
+    #            if ep_title == "":
+    #                continue
 
-                episode_data = episodes.get(crc32, None)
-                if episode_data is None:
-                    continue
+    #            manga_chapters = episode_data.get("manga_chapters", "")
+    #            anime_episodes = episode_data.get("anime_episodes", "")
 
-                ep_title, ep_desc = desc.get(str(part), {}).get(str(episode_num), ("", ""))
-                if ep_title == "":
-                    continue
+    #            if manga_chapters != "" or anime_episodes != "":
+    #                if manga_chapters != "" and anime_episodes == "":
+    #                    ep_desc += f"\n\nManga Chapter(s): {manga_chapters}"
+    #                elif manga_chapters == "" and anime_episodes != "":
+    #                    ep_desc += f"\n\nAnime Episode(s): {anime_episodes}"
+    #                elif manga_chapters != "" and anime_episodes != "":
+    #                    ep_desc += f"\n\nManga Chapter(s): {manga_chapters}\nAnime Episode(s): {anime_episodes}"
 
-                manga_chapters = episode_data.get("manga_chapters", "")
-                anime_episodes = episode_data.get("anime_episodes", "")
+    #            video = {
+    #                "id": f"{shortcode}_{episode_num}",
+    #                "season": part,
+    #                "episode": episode_num,
+    #                "title": ep_title,
+    #                "overview": ep_desc
+    #            }
 
-                if manga_chapters != "" or anime_episodes != "":
-                    if manga_chapters != "" and anime_episodes == "":
-                        ep_desc += f"\n\nManga Chapter(s): {manga_chapters}"
-                    elif manga_chapters == "" and anime_episodes != "":
-                        ep_desc += f"\n\nAnime Episode(s): {anime_episodes}"
-                    elif manga_chapters != "" and anime_episodes != "":
-                        ep_desc += f"\n\nManga Chapter(s): {manga_chapters}\nAnime Episode(s): {anime_episodes}"
+    #            if isinstance(episode_data["released"], datetime):
+    #                video["released"] = episode_data["released"].isoformat().replace(" ", "T").replace("+00:00", "Z")
+    #            elif isinstance(episode_data["released"], date):
+    #                video["released"] = episode_data["released"].isoformat()
+    #            elif isinstance(episode_data["released"], str):
+    #                video["released"] = self.datetime_unserialize(episode_data["released"])
 
-                video = {
-                    "id": f"{shortcode}_{episode_num}",
-                    "season": part,
-                    "episode": episode_num,
-                    "title": ep_title,
-                    "overview": ep_desc
-                }
+    #                if hasattr(video["released"], "tzinfo"):
+    #                    video["released"] = video["released"].replace(tzinfo=timezone.utc)
 
-                if isinstance(episode_data["released"], datetime):
-                    video["released"] = episode_data["released"].isoformat().replace(" ", "T").replace("+00:00", "Z")
-                elif isinstance(episode_data["released"], date):
-                    video["released"] = episode_data["released"].isoformat()
-                elif isinstance(episode_data["released"], str):
-                    video["released"] = self.datetime_unserialize(episode_data["released"])
+    #                video["released"] = video["released"].isoformat().replace("+00:00", "Z")
 
-                    if hasattr(video["released"], "tzinfo"):
-                        video["released"] = video["released"].replace(tzinfo=timezone.utc)
+    #            stream_file = Path(stremio_dir, "stream", "series", f"{video['id']}.json")
+    #            ep_file = episode_data.get("file", {})
+    #            ep_infohash = ep_file.get("hash", "")
+    #            ep_name = ep_file.get("name", "")
+    #            ep_index = ep_file.get("index", -1)
 
-                    video["released"] = video["released"].isoformat().replace("+00:00", "Z")
+    #            if ep_infohash == "" or ep_name == "" or ep_index == -1:
+    #                continue
 
-                stream_file = Path(stremio_dir, "stream", "series", f"{video['id']}.json")
-                ep_file = episode_data.get("file", {})
-                ep_infohash = ep_file.get("hash", "")
-                ep_name = ep_file.get("name", "")
-                ep_index = ep_file.get("index", -1)
+    #            stream_file.write_text(json.dumps({
+    #                "infoHash": ep_infohash,
+    #                "fileIdx": ep_index,
+    #                "name": ep_name,
+    #                "description": f"{arc['title']} {episode['episode']}",
+    #                "sources": [
+    #                    "tracker:http://nyaa.tracker.wf:7777",
+    #                    "tracker:udp://open.stealth.si:80",
+    #                    "tracker:udp://tracker.opentrackr.org:1337",
+    #                    "tracker:udp://exodus.desync.com:6969",
+    #                    "tracker:udp://tracker.torrent.eu.org:451"
+    #                ]
+    #            }, indent=2, default=self.serialize_json))
 
-                if ep_infohash == "" or ep_name == "" or ep_index == -1:
-                    continue
+    #            meta["meta"]["videos"].append(video)
 
-                stream_file.write_text(json.dumps({
-                    "infoHash": ep_infohash,
-                    "fileIdx": ep_index,
-                    "name": ep_name,
-                    "description": f"{arc['title']} {episode['episode']}",
-                    "sources": [
-                        "tracker:http://nyaa.tracker.wf:7777",
-                        "tracker:udp://open.stealth.si:80",
-                        "tracker:udp://tracker.opentrackr.org:1337",
-                        "tracker:udp://exodus.desync.com:6969",
-                        "tracker:udp://tracker.torrent.eu.org:451"
-                    ]
-                }, indent=2, default=self.serialize_json))
-
-                meta["meta"]["videos"].append(video)
-
-        if meta_series_file.parent.is_dir():
-            meta_series_file.write_text(json.dumps(meta, indent=2, default=self.serialize_json))
+    #    if meta_series_file.parent.is_dir():
+    #        meta_series_file.write_text(json.dumps(meta, indent=2, default=self.serialize_json))
 
     def generate_sqlite(self, data_file, arcs, episodes, descriptions, status, tvshow, other_edits, with_posters=False):
         with sqlite3.connect(data_file, timeout=15.0) as conn:
@@ -1779,8 +1800,8 @@ class OnePaceMetadata:
         Path(self.metadata_dir, "episodes.min.json").write_text(json.dumps(episodes, separators=(',', ':'), default=self.serialize_json))
         self.write_yaml(Path(self.metadata_dir, "episodes.yml"), episodes_yml)
 
-        logger.info("Generate stremio")
-        self.generate_stremio(Path("..", "stremio"), arcs, episodes, descriptions)
+        #logger.info("Generate stremio")
+        #self.generate_stremio(Path("..", "stremio"), arcs, episodes, descriptions)
 
         logger.info("Generate other edits")
         other_edits = self.generate_other_edits(for_json=True)
@@ -1928,13 +1949,13 @@ class OnePaceMetadata:
             logger.success("Loading title.properties / chapter.properties")
             self.get_titles_chapters()
 
-            if (now.hour % int(self.config["check_rss_every_hours"]) == 0 and self.ONE_PACE_RSS_FEED != "") or is_workflow_dispatch:
-                logger.success("Checking RSS feed for new releases")
-                self.update_from_rss_feed(self.ONE_PACE_RSS_FEED)
-
             if now.hour % int(self.config["check_ep_descriptions_every_hours"]) == 0 or is_workflow_dispatch:
                 logger.success("Updating episode descriptions")
                 self.update_desc_sources()
+
+            if (now.hour % int(self.config["check_rss_every_hours"]) == 0 and self.ONE_PACE_RSS_FEED != "") or is_workflow_dispatch:
+                logger.success("Checking RSS feed for new releases")
+                self.update_from_rss_feed(self.ONE_PACE_RSS_FEED)
 
             if now.hour % int(self.config["check_ep_guide_every_hours"]) == 0 or is_workflow_dispatch:
                 logger.success("Updating metadata from episode guide")
