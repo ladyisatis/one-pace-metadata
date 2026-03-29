@@ -599,7 +599,7 @@
   manga_chapters: 103-105
   anime_episodes: 62-63
   released: 2026-03-28 16:49:01
-  duration: 0
+  duration: 2026
   extended: false
   hashes:
     crc32: 103B04A7
@@ -1994,7 +1994,7 @@
   manga_chapters: 103-105
   anime_episodes: 62-63
   released: 2026-03-28 16:49:44
-  duration: 0
+  duration: 2026
   extended: true
   hashes:
     crc32: 3B7CBD0F
@@ -4816,7 +4816,7 @@
   manga_chapters: 394-396
   anime_episodes: 276-277
   released: 2026-03-28 16:35:05
-  duration: 0
+  duration: 1939
   extended: false
   hashes:
     crc32: 88CB08F6

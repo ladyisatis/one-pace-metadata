@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-03-28T19:14:20+00:00",
-    "last_update_ts": 1774725260,
+    "last_update": "2026-03-29T00:42:51+00:00",
+    "last_update_ts": 1774744971,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 218
+    "version": 219
   },
   "tvshow": {
     "en": {
@@ -216,7 +216,7 @@
           "filler_episodes": "",
           "num_of_pace_eps": 7,
           "piece_minutes": 189,
-          "pace_minutes": 151,
+          "pace_minutes": 150,
           "audio_languages": "JA, EN, DE",
           "sub_languages": "EN, AR, DE, ES, FR, IT, PL, PT-BR, RU, TR",
           "pixeldrain_only": "ES, FR",
@@ -248,7 +248,7 @@
           "filler_episodes": "",
           "num_of_pace_eps": 1,
           "piece_minutes": 21,
-          "pace_minutes": 19,
+          "pace_minutes": 18,
           "audio_languages": "JA, EN, DE",
           "sub_languages": "EN, AR, DE, FI, FR, HE, IT, PL, PT-BR, RU",
           "pixeldrain_only": "ES",
@@ -315,7 +315,7 @@
           "filler_episodes": "",
           "num_of_pace_eps": 8,
           "piece_minutes": 252,
-          "pace_minutes": 181,
+          "pace_minutes": 176,
           "audio_languages": "JA,EN",
           "sub_languages": "EN, DE, ES, FR, IT, PL, RU",
           "pixeldrain_only": "FR  (1-2)",
@@ -503,9 +503,9 @@
           "filler_episodes": "56 - 60",
           "num_of_pace_eps": 2,
           "piece_minutes": 84,
-          "pace_minutes": 50,
+          "pace_minutes": 51,
           "audio_languages": "JA,EN",
-          "sub_languages": "EN, AR(1),DE(1),ES , FR, HE(1), IT(1), TR(1)",
+          "sub_languages": "EN,AR,DE,ES,FR,HE(1),IT,TR",
           "pixeldrain_only": "AR,DE",
           "resolution": "1080p",
           "arc_watch_guide": "Pace"
@@ -1383,9 +1383,9 @@
           "filler_episodes": "291 - 292, 303",
           "num_of_pace_eps": 25,
           "piece_minutes": 945,
-          "pace_minutes": 592,
-          "audio_languages": "JA,EN (1-8, 23-25)",
-          "sub_languages": "EN,AR(1-4,7-8),DE(1-8),ES,FR,HE(4)",
+          "pace_minutes": 593,
+          "audio_languages": "JA,EN (1-9, 23-25)",
+          "sub_languages": "EN,AR(1-4,7-8),DE(1-9),ES,FR,HE(4)",
           "pixeldrain_only": "FR",
           "resolution": "720p,1080p",
           "arc_watch_guide": "Pace"
@@ -7486,7 +7486,7 @@
       "manga_chapters": "103-105",
       "anime_episodes": "62-63",
       "released": "2026-03-28 16:49:01",
-      "duration": 0,
+      "duration": 2026,
       "extended": false,
       "hashes": {
         "crc32": "103B04A7",
@@ -9126,7 +9126,7 @@
       "manga_chapters": "103-105",
       "anime_episodes": "62-63",
       "released": "2026-03-28 16:49:44",
-      "duration": 0,
+      "duration": 2026,
       "extended": true,
       "hashes": {
         "crc32": "3B7CBD0F",
@@ -12446,7 +12446,7 @@
       "manga_chapters": "394-396",
       "anime_episodes": "276-277",
       "released": "2026-03-28 16:35:05",
-      "duration": 0,
+      "duration": 1939,
       "extended": false,
       "hashes": {
         "crc32": "88CB08F6",
