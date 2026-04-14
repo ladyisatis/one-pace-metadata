@@ -1019,7 +1019,7 @@ en:
     episodes_adapted: 11
     filler_episodes: 317 - 318
     num_of_pace_eps: 5
-    piece_minutes: 0
+    piece_minutes: 236
     pace_minutes: 133
     audio_languages: JA
     sub_languages: EN
@@ -1111,7 +1111,7 @@ en:
     episodes_adapted: 45
     filler_episodes: ''
     num_of_pace_eps: 22
-    piece_minutes: 0
+    piece_minutes: 967
     pace_minutes: 484
     audio_languages: JA
     sub_languages: EN,ES
@@ -1170,7 +1170,7 @@ en:
     episodes_adapted: 21
     filler_episodes: ''
     num_of_pace_eps: 11
-    piece_minutes: 0
+    piece_minutes: 451
     pace_minutes: 285
     audio_languages: JA
     sub_languages: EN,ES
@@ -1265,7 +1265,7 @@ en:
     episodes_adapted: 27
     filler_episodes: 426 - 429
     num_of_pace_eps: 10
-    piece_minutes: 0
+    piece_minutes: 580
     pace_minutes: 317
     audio_languages: JA
     sub_languages: 'EN,ES '
@@ -1371,7 +1371,7 @@ en:
     episodes_adapted: 33
     filler_episodes: ''
     num_of_pace_eps: 17
-    piece_minutes: 0
+    piece_minutes: 709
     pace_minutes: 395
     audio_languages: JA
     sub_languages: 'EN,ES,FR '
@@ -1553,7 +1553,7 @@ en:
     episodes_adapted: 51
     filler_episodes: '542'
     num_of_pace_eps: 24
-    piece_minutes: 0
+    piece_minutes: 1096
     pace_minutes: 710
     audio_languages: JA
     sub_languages: 'EN,ES '
@@ -2012,7 +2012,7 @@ en:
     episodes_adapted: 95
     filler_episodes: 780 - 782
     num_of_pace_eps: 39
-    piece_minutes: 0
+    piece_minutes: 2042
     pace_minutes: 1213
     audio_languages: JA
     sub_languages: 'EN,ES,FR '
