@@ -739,9 +739,15 @@ class OnePaceMetadata:
             episodes = row.get("Episodes", "")
             release_date = row.get("Release Date", "")
             length = row.get("Length", "")
-            mkv_crc32 = row.get("MKV CRC32", [])
-            mkv_crc32_extended = row.get("MKV CRC32 (Extended)", [])
             length_extended = row.get("Length (Extended)", "")
+
+            mkv_crc32 = row.get("MKV CRC32", [])
+            if isinstance(mkv_crc32, str):
+                mkv_crc32 = [mkv_crc32, ""]
+
+            mkv_crc32_extended = row.get("MKV CRC32 (Extended)", [])
+            if isinstance(mkv_crc32_extended, str):
+                mkv_crc32_extended = [mkv_crc32_extended, ""]
 
             if op_id == "" or chapters == "" or episodes == "" or len(mkv_crc32) == 0:
                 continue
@@ -963,8 +969,11 @@ class OnePaceMetadata:
         return False
 
     def create_crc_file(self, sheet_index, ep, crc_file, mkv_crc32, chapters, episodes, release_date, length, extended):
-        file_info = self.fetch_file_info(mkv_crc32[1], search=f"[{mkv_crc32[0]}]")
-        file_dump = YamlDump({"file": file_info[0]}, allow_unicode=True, sort_keys=False) if len(file_info) > 0 else "\n"
+        if mkv_crc32[1] != "":
+            file_info = self.fetch_file_info(mkv_crc32[1], search=f"[{mkv_crc32[0]}]")
+            file_dump = YamlDump({"file": file_info[0]}, allow_unicode=True, sort_keys=False) if len(file_info) > 0 else ""
+        else:
+            file_dump = ""
 
         out = (
             f"arc: {sheet_index}\n"
