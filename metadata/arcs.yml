@@ -924,7 +924,7 @@ en:
     standard: 88CB08F6
     extended: ''
   - episode: '10'
-    standard: 6C908F32
+    standard: 074A4A31
     extended: ''
   - episode: '11'
     standard: CF6F1505
@@ -980,9 +980,9 @@ en:
     filler_episodes: 291 - 292, 303
     num_of_pace_eps: 25
     piece_minutes: 945
-    pace_minutes: 587
-    audio_languages: JA,EN (1-9, 23-25)
-    sub_languages: EN,AR(1-4,7-8),DE(1-9),ES,FR,HE(4)
+    pace_minutes: 588
+    audio_languages: JA,EN (1-10, 23-25)
+    sub_languages: EN,AR(1-4,7-8,10),DE(1-10),ES,FR,HE(4)
     pixeldrain_only: FR
     resolution: 720p,1080p
     arc_watch_guide: Pace

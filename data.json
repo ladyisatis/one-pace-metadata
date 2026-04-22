@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-04-22T17:12:42+00:00",
-  "last_update_ts": 1776877962,
+  "last_update": "2026-04-22T17:13:35+00:00",
+  "last_update_ts": 1776878015,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -546,6 +546,20 @@
       "released": "2016-01-26",
       "hashes": {
         "crc32": "06BF070D",
+        "blake2": ""
+      }
+    },
+    "074A4A31": {
+      "arc": 19,
+      "episode": 10,
+      "title": "Declaration of War",
+      "originaltitle": "",
+      "description": "To prove his undying loyalty to Robin, Luffy makes a defiant statement to the World Government.",
+      "chapters": "397-398",
+      "episodes": "278",
+      "released": "2026-04-19",
+      "hashes": {
+        "crc32": "074A4A31",
         "blake2": ""
       }
     },
@@ -3416,20 +3430,6 @@
       "released": "2025-06-30",
       "hashes": {
         "crc32": "6C170189",
-        "blake2": ""
-      }
-    },
-    "6C908F32": {
-      "arc": 19,
-      "episode": 10,
-      "title": "Declaration of War",
-      "originaltitle": "",
-      "description": "To prove his undying loyalty to Robin, Luffy makes a defiant statement to the World Government.",
-      "chapters": "397-398",
-      "episodes": "278",
-      "released": "2019-07-25",
-      "hashes": {
-        "crc32": "6C908F32",
         "blake2": ""
       }
     },
