@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-04-22T17:13:35+00:00'
-  last_update_ts: 1776878015
+  last_update: '2026-04-22T17:57:45+00:00'
+  last_update_ts: 1776880665
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 226
+  version: 228
 tvshow:
   en:
     title: One Piece
@@ -6011,6 +6011,17 @@ descriptions:
       tragedy befell Ginny, Kuma found a new purpose in life in the newborn she left
       behind.
 episodes:
+  .yml:
+    arc: 36
+    episode: 20
+    manga_chapters: 1091-1092
+    anime_episodes: 1125-1126
+    released: 2025-10-12
+    duration: 1825
+    extended: true
+    hashes:
+      crc32: null
+      blake2s: ''
   0017358A:
     arc: 18
     episode: 12
@@ -6289,7 +6300,7 @@ episodes:
     manga_chapters: 397-398
     anime_episodes: '278'
     released: 2026-04-19 23:35:43
-    duration: 0
+    duration: 1340
     extended: false
     hashes:
       crc32: 074A4A31
