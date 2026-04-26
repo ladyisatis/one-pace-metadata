@@ -1,0 +1,19 @@
+arc: 12
+episode: 1
+
+manga_chapters: 115-117
+anime_episodes: 70-71
+released: 2026-04-26 19:29:11
+duration: 0
+extended: false
+
+hashes:
+  crc32: BCE915AA
+  blake2s: ''
+
+file:
+  id: 2103268
+  name: '[One Pace][115-117] Little Garden 01 [1080p][BCE915AA].mkv'
+  size: 673.0 MiB
+  hash: a075d87248f3bb9c222c097dc31ad7926d5bade9
+  index: 0

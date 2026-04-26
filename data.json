@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-04-24T00:48:18+00:00",
-  "last_update_ts": 1776991698,
+  "last_update": "2026-04-26T23:17:35+00:00",
+  "last_update_ts": 1777245455,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -5477,6 +5477,20 @@
         "blake2": ""
       }
     },
+    "BCE915AA": {
+      "arc": 12,
+      "episode": 1,
+      "title": "Adventure on Little Garden",
+      "originaltitle": "",
+      "description": "The Straw Hats arrive at their destination and discover that the island is home to enormous creatures... and people. Meanwhile, the Baroque Works agents Mr. 3 and his partner Miss Golden Week receive new orders.",
+      "chapters": "115-117",
+      "episodes": "70-71",
+      "released": "2026-04-26",
+      "hashes": {
+        "crc32": "BCE915AA",
+        "blake2": ""
+      }
+    },
     "BCF2E97B": {
       "arc": 17,
       "episode": 5,
@@ -7252,20 +7266,6 @@
       "released": "2020-07-26",
       "hashes": {
         "crc32": "FA5B3DCD",
-        "blake2": ""
-      }
-    },
-    "FA63AC14": {
-      "arc": 12,
-      "episode": 1,
-      "title": "Adventure on Little Garden",
-      "originaltitle": "",
-      "description": "The Straw Hats arrive at their destination and discover that the island is home to enormous creatures... and people. Meanwhile, the Baroque Works agents Mr. 3 and his partner Miss Golden Week receive new orders.",
-      "chapters": "115-117",
-      "episodes": "70-71",
-      "released": "2025-03-22",
-      "hashes": {
-        "crc32": "FA63AC14",
         "blake2": ""
       }
     },
