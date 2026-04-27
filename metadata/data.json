@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-04-26T23:17:35+00:00",
-    "last_update_ts": 1777245455,
+    "last_update": "2026-04-27T00:49:00+00:00",
+    "last_update_ts": 1777250940,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 233
+    "version": 234
   },
   "tvshow": {
     "en": {
@@ -626,7 +626,7 @@
           "piece_minutes": 189,
           "pace_minutes": 133,
           "audio_languages": "JA,EN",
-          "sub_languages": "EN, AR, DE, ES, FR, IT",
+          "sub_languages": "EN, AR, DE, ES, FR, IT, RU(1),TR(1)",
           "pixeldrain_only": "",
           "resolution": "1080p",
           "arc_watch_guide": "Pace"
@@ -826,7 +826,7 @@
           "pace_minutes": 555,
           "audio_languages": "JA,EN",
           "sub_languages": "EN,ES,FR ",
-          "pixeldrain_only": "FR,RU",
+          "pixeldrain_only": "FR,RU,TR",
           "resolution": "1080p",
           "arc_watch_guide": "Pace"
         }
@@ -1234,7 +1234,7 @@
           "pace_minutes": 549,
           "audio_languages": "JA,EN",
           "sub_languages": "EN,FR ",
-          "pixeldrain_only": "AR,FR",
+          "pixeldrain_only": "AR,FR,IT(1-5)",
           "resolution": "1080p",
           "arc_watch_guide": "Pace"
         }
@@ -14139,7 +14139,7 @@
       "manga_chapters": "115-117",
       "anime_episodes": "70-71",
       "released": "2026-04-26 19:29:11",
-      "duration": 0,
+      "duration": 1807,
       "extended": false,
       "hashes": {
         "crc32": "BCE915AA",

@@ -593,7 +593,7 @@
         "piece_minutes": 189,
         "pace_minutes": 133,
         "audio_languages": "JA,EN",
-        "sub_languages": "EN, AR, DE, ES, FR, IT",
+        "sub_languages": "EN, AR, DE, ES, FR, IT, RU(1),TR(1)",
         "pixeldrain_only": "",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
@@ -793,7 +793,7 @@
         "pace_minutes": 555,
         "audio_languages": "JA,EN",
         "sub_languages": "EN,ES,FR ",
-        "pixeldrain_only": "FR,RU",
+        "pixeldrain_only": "FR,RU,TR",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
       }
@@ -1201,7 +1201,7 @@
         "pace_minutes": 549,
         "audio_languages": "JA,EN",
         "sub_languages": "EN,FR ",
-        "pixeldrain_only": "AR,FR",
+        "pixeldrain_only": "AR,FR,IT(1-5)",
         "resolution": "1080p",
         "arc_watch_guide": "Pace"
       }
