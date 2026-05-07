@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-04-27T00:49:00+00:00",
-  "last_update_ts": 1777250940,
+  "last_update": "2026-05-07T11:38:08+00:00",
+  "last_update_ts": 1778153888,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -1162,6 +1162,20 @@
       "released": "2025-02-01",
       "hashes": {
         "crc32": "1CC0DA84",
+        "blake2": ""
+      }
+    },
+    "1E643507": {
+      "arc": 12,
+      "episode": 2,
+      "title": "Dorry and Brogy",
+      "originaltitle": "",
+      "description": "Usopp, immensely impressed with the giants of Elbaph, names Brogy his master. To commemorate their duel, the giants imbibe two barrels of booze from Nami, but, unbeknownst to anyone, a saboteur has tampered with one of them!",
+      "chapters": "117-119",
+      "episodes": "71-73",
+      "released": "2026-05-07",
+      "hashes": {
+        "crc32": "1E643507",
         "blake2": ""
       }
     },
@@ -3192,20 +3206,6 @@
       "released": "2020-05-15",
       "hashes": {
         "crc32": "64207B1A",
-        "blake2": ""
-      }
-    },
-    "64714640": {
-      "arc": 12,
-      "episode": 2,
-      "title": "Dorry and Brogy",
-      "originaltitle": "",
-      "description": "Usopp, immensely impressed with the giants of Elbaph, names Brogy his master. To commemorate their duel, the giants imbibe two barrels of booze from Nami, but, unbeknownst to anyone, a saboteur has tampered with one of them!",
-      "chapters": "117-118",
-      "episodes": "71-72",
-      "released": "2025-04-18",
-      "hashes": {
-        "crc32": "64714640",
         "blake2": ""
       }
     },
