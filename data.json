@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-05-07T11:38:08+00:00",
-  "last_update_ts": 1778153888,
+  "last_update": "2026-05-09T00:52:08+00:00",
+  "last_update_ts": 1778287928,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -1171,8 +1171,8 @@
       "title": "Dorry and Brogy",
       "originaltitle": "",
       "description": "Usopp, immensely impressed with the giants of Elbaph, names Brogy his master. To commemorate their duel, the giants imbibe two barrels of booze from Nami, but, unbeknownst to anyone, a saboteur has tampered with one of them!",
-      "chapters": "117-119",
-      "episodes": "71-73",
+      "chapters": "117-118",
+      "episodes": "71-72",
       "released": "2026-05-07",
       "hashes": {
         "crc32": "1E643507",
