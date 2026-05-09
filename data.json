@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-05-09T00:52:08+00:00",
-  "last_update_ts": 1778287928,
+  "last_update": "2026-05-09T12:26:29+00:00",
+  "last_update_ts": 1778329589,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -630,20 +630,6 @@
       "released": "2013-10-10",
       "hashes": {
         "crc32": "0A2624D5",
-        "blake2": ""
-      }
-    },
-    "0AB937B1": {
-      "arc": 12,
-      "episode": 3,
-      "title": "Foul Play",
-      "originaltitle": "",
-      "description": "Despite his internal injuries and Luffy's warnings, the prideful giant Dorry insists on continuing his duel with Brogy. Meanwhile, the Baroque Works officer agents begin to make their move on the island with the Straw Hats as their next targets.",
-      "chapters": "119-122",
-      "episodes": "73-74",
-      "released": "2025-04-18",
-      "hashes": {
-        "crc32": "0AB937B1",
         "blake2": ""
       }
     },
@@ -5110,6 +5096,20 @@
       "released": "2020-04-15",
       "hashes": {
         "crc32": "A9C9701B",
+        "blake2": ""
+      }
+    },
+    "AAB3E410": {
+      "arc": 12,
+      "episode": 3,
+      "title": "Foul Play",
+      "originaltitle": "",
+      "description": "Despite his internal injuries and Luffy's warnings, the prideful giant Dorry insists on continuing his duel with Brogy. Meanwhile, the Baroque Works officer agents begin to make their move on the island with the Straw Hats as their next targets.",
+      "chapters": "119-122",
+      "episodes": "73-74",
+      "released": "2026-05-09",
+      "hashes": {
+        "crc32": "AAB3E410",
         "blake2": ""
       }
     },
