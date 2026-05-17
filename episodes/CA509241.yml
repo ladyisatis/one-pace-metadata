@@ -1,0 +1,19 @@
+arc: 12
+episode: 4
+
+manga_chapters: 123-126
+anime_episodes: 75-76
+released: 2026-05-17 10:17:03
+duration: 0
+extended: false
+
+hashes:
+  crc32: CA509241
+  blake2s: ''
+
+file:
+  id: 2110988
+  name: '[One Pace][123-126] Little Garden 04 [1080p][CA509241].mkv'
+  size: 1005.0 MiB
+  hash: 73e0d240e57bf1143a5684a654eee46275a13ef5
+  index: 0

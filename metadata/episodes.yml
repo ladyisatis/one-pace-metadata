@@ -4878,23 +4878,6 @@
     size: 296.9 MiB
     hash: 2c83d7ba67a243de5995f687073787341c69958c
     index: 0
-8BE7A415:
-  arc: 12
-  episode: 4
-  manga_chapters: 123-126
-  anime_episodes: 75-76
-  released: 2025-07-12
-  duration: 2060
-  extended: false
-  hashes:
-    crc32: 8BE7A415
-    blake2s: ''
-  file:
-    id: 1992017
-    name: '[One Pace][123-126] Little Garden 04 [1080p][8BE7A415].mkv'
-    size: 946.6 MiB
-    hash: e46bfdfc8074fab365bbb634c2cbe0b585621400
-    index: 0
 8E970FD4:
   arc: 8
   episode: 2
@@ -6775,6 +6758,23 @@ CA3F14A8:
     name: '[One Pace][1058-1059] Egghead 01 [1080p][CA3F14A8].mkv'
     size: 775.4 MiB
     hash: aa40134492bb9d86eb4b70632047db0e799d66d6
+    index: 0
+CA509241:
+  arc: 12
+  episode: 4
+  manga_chapters: 123-126
+  anime_episodes: 75-76
+  released: 2026-05-17 10:17:03
+  duration: 0
+  extended: false
+  hashes:
+    crc32: CA509241
+    blake2s: ''
+  file:
+    id: 2110988
+    name: '[One Pace][123-126] Little Garden 04 [1080p][CA509241].mkv'
+    size: 1005.0 MiB
+    hash: 73e0d240e57bf1143a5684a654eee46275a13ef5
     index: 0
 CA5552FC:
   arc: 16
