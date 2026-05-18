@@ -969,7 +969,7 @@ class OnePaceMetadata:
         return False
 
     def create_crc_file(self, sheet_index, ep, crc_file, mkv_crc32, chapters, episodes, release_date, length, extended):
-        if len(mkv_crc32) == 0 or mkv_crc32[0] == "" or crc_file.endswith("/.yml"):
+        if len(mkv_crc32) == 0 or mkv_crc32[0] == "" or str(crc_file).endswith("/.yml"):
             logger.warning(f"Did not save {crc_file} (mkv_crc32: {mkv_crc32}")
             return
 
