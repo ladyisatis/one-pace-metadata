@@ -5779,7 +5779,7 @@ AAB3E410:
   manga_chapters: 119-122
   anime_episodes: 73-74
   released: 2026-05-09 11:57:12
-  duration: 0
+  duration: 1752
   extended: false
   hashes:
     crc32: AAB3E410
@@ -6765,7 +6765,7 @@ CA509241:
   manga_chapters: 123-126
   anime_episodes: 75-76
   released: 2026-05-17 10:17:03
-  duration: 0
+  duration: 2060
   extended: false
   hashes:
     crc32: CA509241
