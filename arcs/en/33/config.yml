@@ -138,7 +138,7 @@ info:
   piece_minutes: 2042
   pace_minutes: 1213
   audio_languages: JA
-  sub_languages: 'EN,ES,FR '
+  sub_languages: EN, ES, FR
   pixeldrain_only: AR,FR
   resolution: 720p
   arc_watch_guide: Pace

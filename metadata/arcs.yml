@@ -58,8 +58,8 @@ en:
     piece_minutes: 105
     pace_minutes: 76
     audio_languages: JA, EN, ES
-    sub_languages: EN,EN(CC), AR, DE, ES, FR, IT, PL, PT-BR, RU, TR
-    pixeldrain_only: DE
+    sub_languages: EN, EN(CC), AR, DE, ES, FR, IT, PL, PT-BR, TR
+    pixeldrain_only: RU
     resolution: 1080p
     arc_watch_guide: Pace
 - part: 2
@@ -137,8 +137,8 @@ en:
     piece_minutes: 189
     pace_minutes: 150
     audio_languages: JA, EN, DE
-    sub_languages: EN, AR, DE, ES, FR, IT, PL, PT-BR, RU, TR
-    pixeldrain_only: ES, FR
+    sub_languages: EN, AR, DE, ES, FR, IT, PL, RU, TR
+    pixeldrain_only: ''
     resolution: 1080p
     arc_watch_guide: Pace
 - part: 4
@@ -166,7 +166,7 @@ en:
     piece_minutes: 21
     pace_minutes: 18
     audio_languages: JA, EN, DE
-    sub_languages: EN, AR, DE, FI, FR, HE, IT, PL, PT-BR, RU
+    sub_languages: EN, AR, DE, FI, FR, HE, IT, PL, PT-BR, RU, TR
     pixeldrain_only: ES
     resolution: 1080p
     arc_watch_guide: Pace
@@ -216,8 +216,8 @@ en:
     piece_minutes: 252
     pace_minutes: 176
     audio_languages: JA,EN
-    sub_languages: EN,AR,DE,ES,FR,IT,PL,RU
-    pixeldrain_only: AR(5),FR  (1-2)
+    sub_languages: EN, AR, DE, ES(2-8), FR(1-2), IT, PL, RU, TR
+    pixeldrain_only: AR(5)
     resolution: 1080p
     arc_watch_guide: Pace
 - part: 6
@@ -271,8 +271,9 @@ en:
     piece_minutes: 294
     pace_minutes: 231
     audio_languages: 'JA, EN, DE, ES (1-5) '
-    sub_languages: EN, AR(1-7), DE, ES, FR, IT, RU, TR, HE(6-9)
-    pixeldrain_only: AR(3),FR
+    sub_languages: EN, AR(1-7), DE, ES(1-5,8-9), FR, HE(6-9), IT, PL(8), RU(1-9),
+      TR
+    pixeldrain_only: ES(6-7, 10)
     resolution: 1080p
     arc_watch_guide: Pace
 - part: 7
@@ -299,8 +300,8 @@ en:
     piece_minutes: 42
     pace_minutes: 20
     audio_languages: JA,EN
-    sub_languages: EN,AR,DE,ES,FR,HE,IT,RU,TR
-    pixeldrain_only: AR,DE
+    sub_languages: EN, AR, DE, ES, FR, HE, IT, RU, TR
+    pixeldrain_only: ''
     resolution: 1080p
     arc_watch_guide: Pace
 - part: 8
@@ -333,7 +334,7 @@ en:
     piece_minutes: 126
     pace_minutes: 89
     audio_languages: JA,EN
-    sub_languages: EN, ES, FR
+    sub_languages: EN, ES
     pixeldrain_only: FR
     resolution: 480p
     arc_watch_guide: Pace
@@ -364,8 +365,8 @@ en:
     piece_minutes: 84
     pace_minutes: 49
     audio_languages: JA,EN
-    sub_languages: EN,AR,DE,ES,FR,HE(1),IT,TR
-    pixeldrain_only: AR,DE
+    sub_languages: EN, AR, DE, FR, HE(1), IT, TR
+    pixeldrain_only: ES, RU
     resolution: 1080p
     arc_watch_guide: Pace
 - part: 10
@@ -394,7 +395,7 @@ en:
     piece_minutes: 84
     pace_minutes: 67
     audio_languages: JA
-    sub_languages: EN, ES , FR
+    sub_languages: EN
     pixeldrain_only: ES,FR
     resolution: 480p
     arc_watch_guide: Pace
@@ -423,7 +424,7 @@ en:
     piece_minutes: 42
     pace_minutes: 13
     audio_languages: JA,EN
-    sub_languages: EN, ES, FR
+    sub_languages: EN, FR
     pixeldrain_only: AR,ES,IT
     resolution: 1080p
     arc_watch_guide: Pace
@@ -463,8 +464,8 @@ en:
     piece_minutes: 189
     pace_minutes: 133
     audio_languages: JA,EN
-    sub_languages: EN, AR, DE, ES, FR, IT, RU(1-4),TR(1-4)
-    pixeldrain_only: ''
+    sub_languages: EN, AR, DE, ES, FR, IT, RU(1-4), TR(1-4)
+    pixeldrain_only: RU(05)
     resolution: 1080p
     arc_watch_guide: Pace
 - part: 13
@@ -512,8 +513,8 @@ en:
     piece_minutes: 294
     pace_minutes: 231
     audio_languages: JA,EN
-    sub_languages: EN,ES,FR
-    pixeldrain_only: IT
+    sub_languages: EN, ES(1-6,8), FR
+    pixeldrain_only: ES(07), IT
     resolution: 1080p
     arc_watch_guide: Pace
 - part: 14
@@ -600,8 +601,8 @@ en:
     piece_minutes: 840
     pace_minutes: 555
     audio_languages: JA,EN
-    sub_languages: 'EN,ES,FR '
-    pixeldrain_only: FR,RU,TR
+    sub_languages: EN, ES, FR(1-4,7-21)
+    pixeldrain_only: FR(05-06), RU, TR
     resolution: 1080p
     arc_watch_guide: Pace
 - part: 15
@@ -649,8 +650,8 @@ en:
     piece_minutes: 189
     pace_minutes: 161
     audio_languages: JA,EN
-    sub_languages: EN,ES,FR
-    pixeldrain_only: AR
+    sub_languages: EN, ES, FR
+    pixeldrain_only: AR, FR(2)
     resolution: 1080p
     arc_watch_guide: Pace
 - part: 16
@@ -749,8 +750,8 @@ en:
     piece_minutes: 924
     pace_minutes: 726
     audio_languages: JA,EN
-    sub_languages: EN,ES(1-4),FR,ES(5),DE(17-)
-    pixeldrain_only: ES (5),DE
+    sub_languages: EN, AR(24-25), ES(1-4,6-7,10-21), FR, ES(5), DE(17-)
+    pixeldrain_only: ES(5,8-9), DE
     resolution: 1080p
     arc_watch_guide: Pace
 - part: 17
@@ -882,7 +883,7 @@ en:
     piece_minutes: 777
     pace_minutes: 549
     audio_languages: JA,EN
-    sub_languages: 'EN,FR '
+    sub_languages: EN, FR
     pixeldrain_only: AR,FR,IT(1-5)
     resolution: 1080p
     arc_watch_guide: Pace
@@ -982,7 +983,7 @@ en:
     piece_minutes: 945
     pace_minutes: 588
     audio_languages: JA,EN (1-10, 23-25)
-    sub_languages: EN,AR(1-4,7-8,10),DE(1-10),ES,FR,HE(4)
+    sub_languages: EN, AR(1-4, 7-8, 10), DE(1-10), ES, FR, HE(4)
     pixeldrain_only: AR(5-6,9,11-18),FR
     resolution: 720p,1080p
     arc_watch_guide: Pace
@@ -1114,7 +1115,7 @@ en:
     piece_minutes: 967
     pace_minutes: 484
     audio_languages: JA
-    sub_languages: EN,ES
+    sub_languages: EN, ES
     pixeldrain_only: ES
     resolution: 720p
     arc_watch_guide: Pace
@@ -1173,7 +1174,7 @@ en:
     piece_minutes: 451
     pace_minutes: 285
     audio_languages: JA
-    sub_languages: EN,ES
+    sub_languages: EN, ES
     pixeldrain_only: ES
     resolution: 720p
     arc_watch_guide: Pace
@@ -1213,7 +1214,7 @@ en:
     piece_minutes: 301
     pace_minutes: 132
     audio_languages: JA
-    sub_languages: 'EN,ES,FR '
+    sub_languages: EN, ES, FR
     pixeldrain_only: ES, FR
     resolution: 720p
     arc_watch_guide: Pace
@@ -1268,7 +1269,7 @@ en:
     piece_minutes: 580
     pace_minutes: 317
     audio_languages: JA
-    sub_languages: 'EN,ES '
+    sub_languages: EN, ES
     pixeldrain_only: ES
     resolution: 720p
     arc_watch_guide: Pace
@@ -1297,7 +1298,7 @@ en:
     piece_minutes: 86
     pace_minutes: 21
     audio_languages: JA,EN,ES
-    sub_languages: EN,ES,JA
+    sub_languages: EN, ES, JA
     pixeldrain_only: AR
     resolution: 1080p
     arc_watch_guide: Pace
@@ -1374,7 +1375,7 @@ en:
     piece_minutes: 709
     pace_minutes: 395
     audio_languages: JA
-    sub_languages: 'EN,ES,FR '
+    sub_languages: EN, ES, FR
     pixeldrain_only: FR
     resolution: 720p
     arc_watch_guide: Pace
@@ -1424,7 +1425,7 @@ en:
     piece_minutes: 559
     pace_minutes: 306
     audio_languages: JA,EN (1-6)
-    sub_languages: 'EN,ES,FR '
+    sub_languages: EN, ES, FR
     pixeldrain_only: AR,ES,FR
     resolution: 1080p
     arc_watch_guide: Pace
@@ -1458,7 +1459,7 @@ en:
     piece_minutes: 129
     pace_minutes: 91
     audio_languages: JA,EN
-    sub_languages: EN,AR,ES,FR
+    sub_languages: EN, AR, ES, FR
     pixeldrain_only: ''
     resolution: 1080p
     arc_watch_guide: Pace
@@ -1556,7 +1557,7 @@ en:
     piece_minutes: 1096
     pace_minutes: 710
     audio_languages: JA
-    sub_languages: 'EN,ES '
+    sub_languages: EN, ES
     pixeldrain_only: ES
     resolution: 720p
     arc_watch_guide: Pace
@@ -1648,7 +1649,7 @@ en:
     piece_minutes: 989
     pace_minutes: 519
     audio_languages: JA
-    sub_languages: EN,ES
+    sub_languages: EN, ES
     pixeldrain_only: ES
     resolution: 720p
     arc_watch_guide: Pace
@@ -1817,7 +1818,7 @@ en:
     piece_minutes: 2537
     pace_minutes: 1206
     audio_languages: JA
-    sub_languages: 'EN,ES '
+    sub_languages: EN, ES
     pixeldrain_only: AR,ES
     resolution: 720p
     arc_watch_guide: Pace
@@ -1873,7 +1874,7 @@ en:
     piece_minutes: 602
     pace_minutes: 275
     audio_languages: JA
-    sub_languages: 'EN,ES,FR '
+    sub_languages: EN, ES, FR
     pixeldrain_only: AR,FR
     resolution: 720p
     arc_watch_guide: Pace
@@ -2015,7 +2016,7 @@ en:
     piece_minutes: 2042
     pace_minutes: 1213
     audio_languages: JA
-    sub_languages: 'EN,ES,FR '
+    sub_languages: EN, ES, FR
     pixeldrain_only: AR,FR
     resolution: 720p
     arc_watch_guide: Pace
@@ -2049,7 +2050,7 @@ en:
     piece_minutes: 258
     pace_minutes: 94
     audio_languages: JA,EN
-    sub_languages: EN,ES,FR
+    sub_languages: EN, ES, FR
     pixeldrain_only: ''
     resolution: 1080p
     arc_watch_guide: Pace
@@ -2251,7 +2252,7 @@ en:
     piece_minutes: 2992
     pace_minutes: 1698
     audio_languages: JA,EN (1-4, 31-)
-    sub_languages: EN,AR,DE(44-),ES(1-4,31-40),FR
+    sub_languages: EN, AR, DE(44-), ES(1-4, 31-40), FR
     pixeldrain_only: AR(5-48),ES(1-44),FR
     resolution: 1080p
     arc_watch_guide: Pace Episodes 1-59 then Original Episodes 1025 - 1085
@@ -2336,7 +2337,7 @@ en:
     piece_minutes: 840
     pace_minutes: 537
     audio_languages: JA, EN
-    sub_languages: EN,AR(7-),DE(3-),FR
+    sub_languages: EN, AR(7-), DE(3-), FR
     pixeldrain_only: DE(1,2)
     resolution: 1080p
     arc_watch_guide: Pace Episodes 1-20 then Original Episodes 1127-
