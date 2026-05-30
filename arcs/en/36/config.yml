@@ -81,7 +81,7 @@ info:
   piece_minutes: 840
   pace_minutes: 537
   audio_languages: JA, EN
-  sub_languages: EN, AR(7-), DE(3-), FR
-  pixeldrain_only: DE(1,2)
+  sub_languages: ''
+  pixeldrain_only: ''
   resolution: 1080p
   arc_watch_guide: Pace Episodes 1-20 then Original Episodes 1127-

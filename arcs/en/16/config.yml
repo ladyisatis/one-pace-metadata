@@ -96,7 +96,7 @@ info:
   piece_minutes: 924
   pace_minutes: 726
   audio_languages: JA,EN
-  sub_languages: EN, AR(24-25), ES(1-4,6-7,10-21), FR, ES(5), DE(17-)
-  pixeldrain_only: ES(5,8-9), DE
+  sub_languages: ''
+  pixeldrain_only: ''
   resolution: 1080p
   arc_watch_guide: Pace

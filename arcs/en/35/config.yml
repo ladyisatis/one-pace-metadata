@@ -198,7 +198,7 @@ info:
   piece_minutes: 2992
   pace_minutes: 1698
   audio_languages: JA,EN (1-4, 31-)
-  sub_languages: EN, AR, DE(44-), ES(1-4, 31-40), FR
-  pixeldrain_only: AR(5-48),ES(1-44),FR
+  sub_languages: ''
+  pixeldrain_only: ''
   resolution: 1080p
   arc_watch_guide: Pace Episodes 1-59 then Original Episodes 1025 - 1085
