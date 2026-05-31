@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-05-30T12:33:03+00:00",
-  "last_update_ts": 1780144383,
+  "last_update": "2026-05-31T14:37:13+00:00",
+  "last_update_ts": 1780238233,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -2593,20 +2593,6 @@
         "blake2": ""
       }
     },
-    "51105EBB": {
-      "arc": 12,
-      "episode": 5,
-      "title": "Straight Ahead!!",
-      "originaltitle": "",
-      "description": "Sanji, pretending to be Mr. 3, convinces Crocodile he has eliminated Vivi and co., prompting the Unluckies to arrive and deliver a way off Little Garden. With a clear path straight ahead\u2014or so it seems\u2014the Straw Hats set sail.",
-      "chapters": "127-129",
-      "episodes": "77-79",
-      "released": "2025-07-19",
-      "hashes": {
-        "crc32": "51105EBB",
-        "blake2": ""
-      }
-    },
     "511BA151": {
       "arc": 26,
       "episode": 7,
@@ -4144,6 +4130,20 @@
       "released": "2020-12-11",
       "hashes": {
         "crc32": "8313ECE3",
+        "blake2": ""
+      }
+    },
+    "839FC67B": {
+      "arc": 12,
+      "episode": 5,
+      "title": "Straight Ahead!!",
+      "originaltitle": "",
+      "description": "Sanji, pretending to be Mr. 3, convinces Crocodile he has eliminated Vivi and co., prompting the Unluckies to arrive and deliver a way off Little Garden. With a clear path straight ahead\u2014or so it seems\u2014the Straw Hats set sail.",
+      "chapters": "127-129",
+      "episodes": "77-79",
+      "released": "2026-05-30",
+      "hashes": {
+        "crc32": "839FC67B",
         "blake2": ""
       }
     },
