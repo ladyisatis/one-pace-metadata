@@ -1,0 +1,19 @@
+arc: 12
+episode: 5
+
+manga_chapters: 127-129
+anime_episodes: 77-79
+released: 2026-05-30 18:18:49
+duration: 0
+extended: false
+
+hashes:
+  crc32: 839FC67B
+  blake2s: ''
+
+file:
+  id: 2116100
+  name: '[One Pace][127-129] Little Garden 05 [1080p][839FC67B].mkv'
+  size: 867.9 MiB
+  hash: 63f72591a3c84d7722e790e0347ab0be207c4d7d
+  index: 0
