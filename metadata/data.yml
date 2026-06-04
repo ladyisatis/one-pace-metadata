@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-06-01T12:55:32+00:00'
-  last_update_ts: 1780318532
+  last_update: '2026-06-04T18:54:07+00:00'
+  last_update_ts: 1780599247
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 245
+  version: 246
 tvshow:
   en:
     title: One Piece
@@ -5996,7 +5996,7 @@ descriptions:
       on Egghead, something ominous is about to make an appearance on the island...
   - arc: 36
     episode: 22
-    title: Kumachi
+    title: Kuma Bear
     originaltitle: ''
     description: Born with the rare blood of the Buccaneer people, young Kuma was
       fated to lead a life of persecution at the hands of the Celestial Dragons, but
