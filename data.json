@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-06-04T18:54:07+00:00",
-  "last_update_ts": 1780599247,
+  "last_update": "2026-06-08T18:15:38+00:00",
+  "last_update_ts": 1780942538,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -2590,20 +2590,6 @@
       "released": "2014-07-04",
       "hashes": {
         "crc32": "50143351",
-        "blake2": ""
-      }
-    },
-    "51105EBB": {
-      "arc": 12,
-      "episode": 5,
-      "title": "Straight Ahead!!",
-      "originaltitle": "",
-      "description": "Sanji, pretending to be Mr. 3, convinces Crocodile he has eliminated Vivi and co., prompting the Unluckies to arrive and deliver a way off Little Garden. With a clear path straight ahead\u2014or so it seems\u2014the Straw Hats set sail.",
-      "chapters": "127-129",
-      "episodes": "77-79",
-      "released": "2025-07-19",
-      "hashes": {
-        "crc32": "51105EBB",
         "blake2": ""
       }
     },
