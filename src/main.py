@@ -857,14 +857,26 @@ class OnePaceMetadata:
 
             crc_file = Path(self.episodes_dir, f"{mkv_crc32[0]}.yml")
             if not crc_file.is_file():
-                self.create_crc_file(sheet_index, ep, crc_file, mkv_crc32, chapters, episodes, release_date, length, False)
+                crc_archive_file = Path(self.episodes_dir, "archive", f"{mkv_crc32[0]}.yml")
+
+                if not crc_archive_file.is_file():
+                    self.create_crc_file(sheet_index, ep, crc_file, mkv_crc32, chapters, episodes, release_date, length, False)
+                else:
+                    logger.warning(f"Skipping {mkv_crc32[0]}.yml as archive file exists")
+
             else:
                 self.check_crc_file(sheet_index, ep, crc_file, mkv_crc32, chapters, episodes, release_date, length, False)
 
             if len(mkv_crc32_extended) > 0:
                 crc_file = Path(self.episodes_dir, f"{mkv_crc32_extended[0]}.yml")
                 if not crc_file.is_file():
-                    self.create_crc_file(sheet_index, ep, crc_file, mkv_crc32_extended, chapters, episodes, release_date, length, True)
+                    crc_archive_file = Path(self.episodes_dir, "archive", f"{mkv_crc32_extended[0]}.yml")
+
+                    if not crc_archive_file.is_file():
+                        self.create_crc_file(sheet_index, ep, crc_file, mkv_crc32_extended, chapters, episodes, release_date, length, True)
+                    else:
+                        logger.warning(f"Skipping {mkv_crc32_extended[0]}.yml as archive file exists")
+
                 else:
                     self.check_crc_file(sheet_index, ep, crc_file, mkv_crc32, chapters, episodes, release_date, length, True)
 
