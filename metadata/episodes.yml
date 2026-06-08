@@ -2753,17 +2753,6 @@
     size: 279.5 MiB
     hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
     index: 9
-51105EBB:
-  arc: 12
-  episode: 5
-  manga_chapters: 127-129
-  anime_episodes: 77-79
-  released: 2025-07-19
-  duration: 1618
-  extended: false
-  hashes:
-    crc32: 51105EBB
-    blake2s: ''
 511BA151:
   arc: 26
   episode: 7
