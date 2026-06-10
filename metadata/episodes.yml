@@ -1041,7 +1041,7 @@
   manga_chapters: 1069-1070
   anime_episodes: 1099-1102
   released: 2025-03-08
-  duration: 2103
+  duration: 2327
   extended: true
   hashes:
     crc32: 1FDB8A9C
@@ -1603,7 +1603,7 @@
   manga_chapters: 1093-1094
   anime_episodes: 1127-1128
   released: 2026-06-09 09:38:17
-  duration: 1725
+  duration: 2086
   extended: true
   hashes:
     crc32: 2C16CBB5
@@ -2028,7 +2028,7 @@
   manga_chapters: 103-105
   anime_episodes: 62-63
   released: 2026-03-28 16:49:44
-  duration: 2026
+  duration: 2058
   extended: true
   hashes:
     crc32: 3B7CBD0F
@@ -2317,7 +2317,7 @@
   manga_chapters: '1000'
   anime_episodes: '1015'
   released: 2025-09-27
-  duration: 759
+  duration: 1355
   extended: true
   hashes:
     crc32: 425F93B9
@@ -2487,7 +2487,7 @@
   manga_chapters: '1079'
   anime_episodes: '1112'
   released: 2025-06-30
-  duration: 953
+  duration: 1059
   extended: true
   hashes:
     crc32: 482F69B7
@@ -2555,7 +2555,7 @@
   manga_chapters: 94-95
   anime_episodes: 43-44
   released: 2026-02-16
-  duration: 1335
+  duration: 1548
   extended: true
   hashes:
     crc32: 4B882BCA
@@ -2963,7 +2963,7 @@
   manga_chapters: 988-989
   anime_episodes: 997-1000
   released: 2025-05-17
-  duration: 1881
+  duration: 1994
   extended: true
   hashes:
     crc32: 58469AB0
@@ -2997,7 +2997,7 @@
   manga_chapters: 79-81
   anime_episodes: 36-37
   released: 2025-11-16 23:28:26
-  duration: 1832
+  duration: 1884
   extended: true
   hashes:
     crc32: 587689A9
@@ -3881,7 +3881,7 @@
   manga_chapters: 909-911
   anime_episodes: 892-894
   released: 2025-05-17
-  duration: 1746
+  duration: 1921
   extended: true
   hashes:
     crc32: 6F26FDAB
@@ -6748,7 +6748,7 @@ CA3683BA:
   manga_chapters: 1080-1081
   anime_episodes: 1113-1115
   released: 2025-08-10
-  duration: 2356
+  duration: 2543
   extended: true
   hashes:
     crc32: CA3683BA
@@ -6969,7 +6969,7 @@ CF226ADC:
   manga_chapters: 1089-1090
   anime_episodes: 1123-1124
   released: 2025-10-13 02:35:31
-  duration: 1859
+  duration: 1966
   extended: true
   hashes:
     crc32: CF226ADC
