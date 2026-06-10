@@ -1286,11 +1286,14 @@ class OnePaceMetadata:
                                 new_ep = (int(config_yml["episodes"][-1]["episode"]) + 1) if len(config_yml["episodes"]) > 0 else 1
                                 ep_num = f"{new_ep:02d}"
 
+                            standard_crc = str(crc32).upper() if not is_extended else ""
+                            extended_crc = str(crc32).upper() if is_extended else ""
+
                             logger.info(f"Add new episode to arc {arc_num}: {arc_name} {ep_num} ['{standard_crc}'/'{extended_crc}']")
                             config_yml["episodes"].append({
                                 "episode": ep_num,
-                                "standard": str(crc32).upper() if not is_extended else "",
-                                "extended": str(crc32).upper() if is_extended else ""
+                                "standard": standard_crc,
+                                "extended": extended_crc
                             })
 
                         elif extra is None or is_extended:
