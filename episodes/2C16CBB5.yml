@@ -1,0 +1,19 @@
+arc: 36
+episode: 21
+
+manga_chapters: 1093-1094
+anime_episodes: 1127-1128
+released: 2026-06-09 09:38:17
+duration: 1725
+extended: true
+
+hashes:
+  crc32: 2C16CBB5
+  blake2s: ''
+
+file:
+  id: 2119770
+  name: '[One Pace][1093-1094] Egghead 21 Extended [1080p][2C16CBB5].mkv'
+  size: 1.6 GiB
+  hash: fbff9896ddec6fba04416ae0b377199b4593bcd2
+  index: 0

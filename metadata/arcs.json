@@ -3333,6 +3333,11 @@
           "episode": "20",
           "standard": "B974EFD7",
           "extended": ""
+        },
+        {
+          "episode": "21",
+          "standard": "DBDB2978",
+          "extended": "2C16CBB5"
         }
       ],
       "info": {
@@ -3344,7 +3349,7 @@
         "filler_episodes": "",
         "num_of_pace_eps": 20,
         "piece_minutes": 840,
-        "pace_minutes": 537,
+        "pace_minutes": 623,
         "audio_languages": "JA, EN",
         "sub_languages": "",
         "pixeldrain_only": "",

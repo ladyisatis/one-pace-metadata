@@ -1879,6 +1879,26 @@
       "index": 0
     }
   },
+  "2C16CBB5": {
+    "arc": 36,
+    "episode": 21,
+    "manga_chapters": "1093-1094",
+    "anime_episodes": "1127-1128",
+    "released": "2026-06-09 09:38:17",
+    "duration": 1725,
+    "extended": true,
+    "hashes": {
+      "crc32": "2C16CBB5",
+      "blake2s": ""
+    },
+    "file": {
+      "id": 2119770,
+      "name": "[One Pace][1093-1094] Egghead 21 Extended [1080p][2C16CBB5].mkv",
+      "size": "1.6 GiB",
+      "hash": "fbff9896ddec6fba04416ae0b377199b4593bcd2",
+      "index": 0
+    }
+  },
   "2C843A0F": {
     "arc": 20,
     "episode": 3,
@@ -8629,6 +8649,26 @@
       "name": "[One Pace][616-618] Fishman Island 08 [720p][DBA50B89].mkv",
       "size": "879.5 MiB",
       "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
+      "index": 0
+    }
+  },
+  "DBDB2978": {
+    "arc": 36,
+    "episode": 21,
+    "manga_chapters": "1093-1094",
+    "anime_episodes": "1127-1128",
+    "released": "2026-06-09 09:38:05",
+    "duration": 1725,
+    "extended": false,
+    "hashes": {
+      "crc32": "DBDB2978",
+      "blake2s": ""
+    },
+    "file": {
+      "id": 2119769,
+      "name": "[One Pace][1093-1094] Egghead 21 [1080p][DBDB2978].mkv",
+      "size": "1.4 GiB",
+      "hash": "fb0e602faab6b4d689a29f33a54caa6530c83a54",
       "index": 0
     }
   },

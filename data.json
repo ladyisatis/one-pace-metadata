@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-06-08T18:15:38+00:00",
-  "last_update_ts": 1780942538,
+  "last_update": "2026-06-10T01:07:41+00:00",
+  "last_update_ts": 1781053661,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -1638,6 +1638,20 @@
       "released": "2024-03-29",
       "hashes": {
         "crc32": "2BC41092",
+        "blake2": ""
+      }
+    },
+    "2C16CBB5": {
+      "arc": 36,
+      "episode": 21,
+      "title": "Luffy vs. Kizaru",
+      "originaltitle": "",
+      "description": "Luffy faces off in a spectacular aerial battle against Admiral Kizaru, but this time, Straw Hat is 100 times stronger than before. Unbeknownst to those on Egghead, something ominous is about to make an appearance on the island...",
+      "chapters": "1093-1094",
+      "episodes": "1127-1128",
+      "released": "2026-06-09",
+      "hashes": {
+        "crc32": "2C16CBB5",
         "blake2": ""
       }
     },
@@ -6370,6 +6384,20 @@
       "released": "2013-04-09",
       "hashes": {
         "crc32": "DBA50B89",
+        "blake2": ""
+      }
+    },
+    "DBDB2978": {
+      "arc": 36,
+      "episode": 21,
+      "title": "Luffy vs. Kizaru",
+      "originaltitle": "",
+      "description": "Luffy faces off in a spectacular aerial battle against Admiral Kizaru, but this time, Straw Hat is 100 times stronger than before. Unbeknownst to those on Egghead, something ominous is about to make an appearance on the island...",
+      "chapters": "1093-1094",
+      "episodes": "1127-1128",
+      "released": "2026-06-09",
+      "hashes": {
+        "crc32": "DBDB2978",
         "blake2": ""
       }
     },

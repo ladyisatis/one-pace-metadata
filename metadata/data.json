@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-06-08T18:15:38+00:00",
-    "last_update_ts": 1780942538,
+    "last_update": "2026-06-10T01:07:41+00:00",
+    "last_update_ts": 1781053661,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 253
+    "version": 255
   },
   "tvshow": {
     "en": {
@@ -3366,6 +3366,11 @@
             "episode": "20",
             "standard": "B974EFD7",
             "extended": ""
+          },
+          {
+            "episode": "21",
+            "standard": "DBDB2978",
+            "extended": "2C16CBB5"
           }
         ],
         "info": {
@@ -3377,7 +3382,7 @@
           "filler_episodes": "",
           "num_of_pace_eps": 20,
           "piece_minutes": 840,
-          "pace_minutes": 537,
+          "pace_minutes": 623,
           "audio_languages": "JA, EN",
           "sub_languages": "",
           "pixeldrain_only": "",
@@ -8657,6 +8662,26 @@
         "name": "[One Pace][543-560] If You Could Go Anywhere... The Adventures of the Straw Hats [1080p][2BC41092].mkv",
         "size": "639.3 MiB",
         "hash": "48112bfe29daffd541040e566d37607ea1835ceb",
+        "index": 0
+      }
+    },
+    "2C16CBB5": {
+      "arc": 36,
+      "episode": 21,
+      "manga_chapters": "1093-1094",
+      "anime_episodes": "1127-1128",
+      "released": "2026-06-09 09:38:17",
+      "duration": 1725,
+      "extended": true,
+      "hashes": {
+        "crc32": "2C16CBB5",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2119770,
+        "name": "[One Pace][1093-1094] Egghead 21 Extended [1080p][2C16CBB5].mkv",
+        "size": "1.6 GiB",
+        "hash": "fbff9896ddec6fba04416ae0b377199b4593bcd2",
         "index": 0
       }
     },
@@ -15410,6 +15435,26 @@
         "name": "[One Pace][616-618] Fishman Island 08 [720p][DBA50B89].mkv",
         "size": "879.5 MiB",
         "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
+        "index": 0
+      }
+    },
+    "DBDB2978": {
+      "arc": 36,
+      "episode": 21,
+      "manga_chapters": "1093-1094",
+      "anime_episodes": "1127-1128",
+      "released": "2026-06-09 09:38:05",
+      "duration": 1725,
+      "extended": false,
+      "hashes": {
+        "crc32": "DBDB2978",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2119769,
+        "name": "[One Pace][1093-1094] Egghead 21 [1080p][DBDB2978].mkv",
+        "size": "1.4 GiB",
+        "hash": "fb0e602faab6b4d689a29f33a54caa6530c83a54",
         "index": 0
       }
     },
