@@ -873,12 +873,12 @@ class OnePaceMetadata:
                     crc_archive_file = Path(self.episodes_dir, "archive", f"{mkv_crc32_extended[0]}.yml")
 
                     if not crc_archive_file.is_file():
-                        self.create_crc_file(sheet_index, ep, crc_file, mkv_crc32_extended, chapters, episodes, release_date, length, True)
+                        self.create_crc_file(sheet_index, ep, crc_file, mkv_crc32_extended, chapters, episodes, release_date, length_extended, True)
                     else:
                         logger.warning(f"Skipping {mkv_crc32_extended[0]}.yml as archive file exists")
 
                 else:
-                    self.check_crc_file(sheet_index, ep, crc_file, mkv_crc32, chapters, episodes, release_date, length, True)
+                    self.check_crc_file(sheet_index, ep, crc_file, mkv_crc32, chapters, episodes, release_date, length_extended, True)
 
         if poster != "":
             poster_file = Path(f"{self.arc_dir}/en/{sheet_index}/poster.png")
