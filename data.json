@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-06-10T01:14:48+00:00",
-  "last_update_ts": 1781054088,
+  "last_update": "2026-06-21T15:38:36+00:00",
+  "last_update_ts": 1782056316,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -1470,6 +1470,20 @@
       "released": "2020-12-11",
       "hashes": {
         "crc32": "270A4ABD",
+        "blake2": ""
+      }
+    },
+    "27E7EE1C": {
+      "arc": 35,
+      "episode": 60,
+      "title": "Conqueror's Haki",
+      "originaltitle": "",
+      "description": "As Orochi's fire within Onigashima begins to spread, the battle between the Emperors and the Worst Generation heats up as well. Zoro pushes his skills to the limit, Big Mom topples over the edge, and Luffy advances his haki to the next level.",
+      "chapters": "1009-1010",
+      "episodes": "1025-1028",
+      "released": "2026-06-21",
+      "hashes": {
+        "crc32": "27E7EE1C",
         "blake2": ""
       }
     },

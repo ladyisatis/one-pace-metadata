@@ -1639,6 +1639,26 @@
       "index": 28
     }
   },
+  "27E7EE1C": {
+    "arc": 35,
+    "episode": 60,
+    "manga_chapters": "1009-1010",
+    "anime_episodes": "1025-1028",
+    "released": "2026-06-21 13:52:08",
+    "duration": 0,
+    "extended": false,
+    "hashes": {
+      "crc32": "27E7EE1C",
+      "blake2s": ""
+    },
+    "file": {
+      "id": 2124146,
+      "name": "[One Pace][1009-1010] Wano 60 [1080p][27E7EE1C].mkv",
+      "size": "1.5 GiB",
+      "hash": "27afaf13601c48f68e9832517848ee416973f9ed",
+      "index": 0
+    }
+  },
   "2971EF62": {
     "arc": 13,
     "episode": 3,
