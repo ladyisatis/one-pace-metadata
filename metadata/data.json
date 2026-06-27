@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-06-24T00:55:26+00:00",
-    "last_update_ts": 1782262526,
+    "last_update": "2026-06-27T00:58:28+00:00",
+    "last_update_ts": 1782521908,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 260
+    "version": 261
   },
   "tvshow": {
     "en": {
@@ -3260,7 +3260,7 @@
           "sub_languages": "",
           "pixeldrain_only": "",
           "resolution": "1080p",
-          "arc_watch_guide": "Pace Episodes 1-60 then Original Episodes 1025 - 1085"
+          "arc_watch_guide": "Pace Episodes 1-60 then Original Episodes 1028 - 1085"
         }
       },
       {
