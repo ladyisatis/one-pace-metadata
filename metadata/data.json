@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-06-27T00:58:28+00:00",
-    "last_update_ts": 1782521908,
+    "last_update": "2026-06-30T12:49:30+00:00",
+    "last_update_ts": 1782823770,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 261
+    "version": 262
   },
   "tvshow": {
     "en": {
@@ -565,7 +565,7 @@
         ],
         "info": {
           "status": "",
-          "manga_chapters": "83-119",
+          "manga_chapters": "83 - 119",
           "num_of_chapters": 0,
           "anime_episodes": "68 - 69",
           "episodes_adapted": 2,
