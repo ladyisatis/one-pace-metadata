@@ -1035,6 +1035,23 @@
     size: 325.1 MiB
     hash: 2c83d7ba67a243de5995f687073787341c69958c
     index: 0
+1EF3F26C:
+  arc: 35
+  episode: 61
+  manga_chapters: 1011-1012
+  anime_episodes: 1028, 1031-1032
+  released: 2026-07-13 00:44:42
+  duration: 0
+  extended: false
+  hashes:
+    crc32: 1EF3F26C
+    blake2s: ''
+  file:
+    id: 2131887
+    name: '[One Pace][1011-1012] Wano 61 [1080p][1EF3F26C].mkv'
+    size: 1.3 GiB
+    hash: 5a7292f7b9455dbb511a944862f7394f7982b5e9
+    index: 0
 1FDB8A9C:
   arc: 36
   episode: 8

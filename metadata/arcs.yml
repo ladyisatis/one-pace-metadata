@@ -2243,6 +2243,9 @@ en:
   - episode: '60'
     standard: 27E7EE1C
     extended: ''
+  - episode: '61'
+    standard: 1EF3F26C
+    extended: ''
   info:
     status: Work In Progress
     manga_chapters: 909 - 1057
