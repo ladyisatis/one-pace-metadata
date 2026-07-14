@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-07-14T12:15:47+00:00",
-  "last_update_ts": 1784031347,
+  "last_update": "2026-07-14T20:06:10+00:00",
+  "last_update_ts": 1784059570,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -1176,6 +1176,20 @@
       "released": "2013-09-07",
       "hashes": {
         "crc32": "1E847368",
+        "blake2": ""
+      }
+    },
+    "1EF3F26C": {
+      "arc": 35,
+      "episode": 61,
+      "title": "The Sweet Bean Code",
+      "originaltitle": "",
+      "description": "The sound of lightning rumbles as Big Mom prepares to test out her newest Homie. Meanwhile, down on the second floor, Usopp, Nami, Tama and Komachiyo continue trying (and failing) to get a very angry Page One off their tail.",
+      "chapters": "1011-1012",
+      "episodes": "1028, 1031-1032",
+      "released": "2026-07-13",
+      "hashes": {
+        "crc32": "1EF3F26C",
         "blake2": ""
       }
     },
