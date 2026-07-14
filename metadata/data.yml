@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-07-13T03:35:45+00:00'
-  last_update_ts: 1783913745
+  last_update: '2026-07-14T12:15:47+00:00'
+  last_update_ts: 1784031347
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 264
+  version: 265
 tvshow:
   en:
     title: One Piece
@@ -2294,14 +2294,14 @@ arcs:
       anime_episodes: 890 - 1085
       episodes_adapted: 136
       filler_episodes: 895-896, 1029 - 1030, 1084
-      num_of_pace_eps: 60
+      num_of_pace_eps: 61
       piece_minutes: 2992
-      pace_minutes: 1783
+      pace_minutes: 1926
       audio_languages: JA,EN (1-4, 31-)
       sub_languages: ''
       pixeldrain_only: ''
       resolution: 1080p
-      arc_watch_guide: Pace Episodes 1-60 then Original Episodes 1028 - 1085
+      arc_watch_guide: Pace Episodes 1-61 then Original Episodes 1033 - 1085
   - part: 36
     saga: Final Saga
     title: Egghead
@@ -7063,7 +7063,7 @@ episodes:
     manga_chapters: 1011-1012
     anime_episodes: 1028, 1031-1032
     released: 2026-07-13 00:44:42
-    duration: 0
+    duration: 1512
     extended: false
     hashes:
       crc32: 1EF3F26C
@@ -8524,7 +8524,7 @@ episodes:
     arc: 16
     episode: 20
     manga_chapters: 290-291
-    anime_episodes: '188'
+    anime_episodes: 188-189
     released: 2025-01-18
     duration: 1426
     extended: false
