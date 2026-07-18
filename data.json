@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-07-14T20:06:10+00:00",
-  "last_update_ts": 1784059570,
+  "last_update": "2026-07-18T00:00:43+00:00",
+  "last_update_ts": 1784332843,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -4476,7 +4476,7 @@
       "originaltitle": "",
       "description": "With a little help from their new friends\u2014and a giant octopus\u2014the Straw Hats bid farewell to Skypiea and begin their descent back to the Blue Sea. Then as night falls, a certain Warlord makes an appearance at Jaya...",
       "chapters": "302-303",
-      "episodes": "195, 203, 207",
+      "episodes": "195, 207",
       "released": "2025-05-03",
       "hashes": {
         "crc32": "90C45C25",
