@@ -219,6 +219,23 @@
     size: 522.4 MiB
     hash: 690d5226cc25b26dea711ada6f3243ae02582be7
     index: 0
+056965E8:
+  arc: 13
+  episode: 1
+  manga_chapters: 129-132
+  anime_episodes: 78-80
+  released: 2026-07-20 10:04:55
+  duration: 0
+  extended: false
+  hashes:
+    crc32: 056965E8
+    blake2s: ''
+  file:
+    id: 2135190
+    name: '[One Pace][129-132] Drum Island 01 [1080p][056965E8].mkv'
+    size: 844.5 MiB
+    hash: fd45bfdd4f9b0559c4fd2f209a0da0198c71ec0b
+    index: 0
 05BE81E6:
   arc: 0
   episode: 4
@@ -8605,23 +8622,6 @@ FCF7F7E4:
     name: '[One Pace][619-620] Fishman Island 09 [720p][FCF7F7E4].mkv'
     size: 673.7 MiB
     hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
-    index: 0
-FD2B4F32:
-  arc: 13
-  episode: 1
-  manga_chapters: 129-132
-  anime_episodes: 78-79
-  released: 2022-09-26
-  duration: 1777
-  extended: false
-  hashes:
-    crc32: FD2B4F32
-    blake2s: ''
-  file:
-    id: 1583366
-    name: '[One Pace][129-132] Drum Island 01 [1080p][FD2B4F32].mkv'
-    size: 587.8 MiB
-    hash: 00d22c441e261ae3005e32736f2154b1156f5c48
     index: 0
 FE0F64E2:
   arc: 19

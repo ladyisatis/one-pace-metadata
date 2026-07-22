@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-07-18T00:00:43+00:00",
-  "last_update_ts": 1784332843,
+  "last_update": "2026-07-22T00:00:56+00:00",
+  "last_update_ts": 1784678456,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -504,6 +504,20 @@
       "released": "2026-02-07",
       "hashes": {
         "crc32": "0510B910",
+        "blake2": ""
+      }
+    },
+    "056965E8": {
+      "arc": 13,
+      "episode": 1,
+      "title": "Tin Plate Wapol",
+      "originaltitle": "",
+      "description": "En route to Arabasta, Nami falls ill. Without a doctor aboard the Going Merry, the Straw Hats must decide whether to stay the course or find more immediate help. As their ship crosses into a frigid area, a figure is seen standing on the water's surface.",
+      "chapters": "129-132",
+      "episodes": "78-80",
+      "released": "2026-07-20",
+      "hashes": {
+        "crc32": "056965E8",
         "blake2": ""
       }
     },
@@ -7420,20 +7434,6 @@
       "released": "2013-04-09",
       "hashes": {
         "crc32": "FCF7F7E4",
-        "blake2": ""
-      }
-    },
-    "FD2B4F32": {
-      "arc": 13,
-      "episode": 1,
-      "title": "Tin Plate Wapol",
-      "originaltitle": "",
-      "description": "En route to Arabasta, Nami falls ill. Without a doctor aboard the Going Merry, the Straw Hats must decide whether to stay the course or find more immediate help. As their ship crosses into a frigid area, a figure is seen standing on the water's surface.",
-      "chapters": "129-132",
-      "episodes": "78-79",
-      "released": "2022-09-26",
-      "hashes": {
-        "crc32": "FD2B4F32",
         "blake2": ""
       }
     },
