@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-07-29T19:19:17+00:00'
-  last_update_ts: 1785352757
+  last_update: '2026-07-30T12:45:48+00:00'
+  last_update_ts: 1785415548
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 271
+  version: 272
 tvshow:
   en:
     title: One Piece
@@ -551,7 +551,7 @@ arcs:
       filler_episodes: ''
       num_of_pace_eps: 8
       piece_minutes: 294
-      pace_minutes: 231
+      pace_minutes: 230
       audio_languages: JA,EN
       sub_languages: ''
       pixeldrain_only: ''
@@ -6118,7 +6118,7 @@ episodes:
     manga_chapters: 136-139
     anime_episodes: 82-83
     released: 2026-07-29 14:07:50
-    duration: 0
+    duration: 2073
     extended: false
     hashes:
       crc32: 01B33C9E
@@ -8414,7 +8414,7 @@ episodes:
     manga_chapters: 132-135
     anime_episodes: 80-81
     released: 2026-07-29 14:07:33
-    duration: 0
+    duration: 1920
     extended: false
     hashes:
       crc32: 42F9FF82
