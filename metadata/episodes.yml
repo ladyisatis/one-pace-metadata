@@ -2192,6 +2192,23 @@
     size: 1.9 GiB
     hash: b164abb99ea78b42c76b575a1591991302185d0d
     index: 0
+3CEF5DD3:
+  arc: 13
+  episode: 5
+  manga_chapters: 140-145
+  anime_episodes: 85-86
+  released: 2026-08-10 18:25:00
+  duration: 0
+  extended: false
+  hashes:
+    crc32: 3CEF5DD3
+    blake2s: ''
+  file:
+    id: 2144644
+    name: '[One Pace][140-145] Drum Island 05 [1080p][3CEF5DD3].mkv'
+    size: 1.2 GiB
+    hash: a5a142e99ebb149002f1ed29e6433e5e7a4b5333
+    index: 0
 3E9F11F9:
   arc: 31
   episode: 41
@@ -5014,23 +5031,6 @@
     size: 351.3 MiB
     hash: a031cac6baf81b804c4d034dfaef0e5e4a671145
     index: 2
-902076E8:
-  arc: 13
-  episode: 4
-  manga_chapters: 139-140
-  anime_episodes: 83-84
-  released: 2022-09-26
-  duration: 1215
-  extended: false
-  hashes:
-    crc32: 902076E8
-    blake2s: ''
-  file:
-    id: 1583374
-    name: '[One Pace][139-140] Drum Island 04 [1080p][902076E8].mkv'
-    size: 472.0 MiB
-    hash: d7b48a58f44b5a5f6c0f9709976629fa5efe17a8
-    index: 0
 90B6D40E:
   arc: 19
   episode: 4
@@ -7728,23 +7728,6 @@ E5F09F49:
     size: 379.3 MiB
     hash: cdab4a928dbbff643bbe5531f216eb36a60c85af
     index: 0
-E7044DBE:
-  arc: 13
-  episode: 5
-  manga_chapters: 140-145
-  anime_episodes: 85-86
-  released: 2023-03-21
-  duration: 2366
-  extended: false
-  hashes:
-    crc32: E7044DBE
-    blake2s: ''
-  file:
-    id: 1651826
-    name: '[One Pace][141-145] Drum Island 05 [1080p][E7044DBE].mkv'
-    size: 888.6 MiB
-    hash: d12effbcce07e669155bec4c2aaccaffaff790eb
-    index: 0
 E70913D9:
   arc: 32
   episode: 1
@@ -8622,6 +8605,23 @@ FCF7F7E4:
     name: '[One Pace][619-620] Fishman Island 09 [720p][FCF7F7E4].mkv'
     size: 673.7 MiB
     hash: fd204b5dc346f5458f7f04cf1ad98679aaf9586e
+    index: 0
+FD16BA9C:
+  arc: 13
+  episode: 4
+  manga_chapters: 139-141
+  anime_episodes: 83-84
+  released: 2026-08-10 18:22:22
+  duration: 0
+  extended: false
+  hashes:
+    crc32: FD16BA9C
+    blake2s: ''
+  file:
+    id: 2144643
+    name: '[One Pace][139-141] Drum Island 04 [1080p][FD16BA9C].mkv'
+    size: 689.8 MiB
+    hash: 428553b84f71b550be98827a965f54ff7a04158d
     index: 0
 FE0F64E2:
   arc: 19

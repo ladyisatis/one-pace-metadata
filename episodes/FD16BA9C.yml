@@ -1,0 +1,19 @@
+arc: 13
+episode: 4
+
+manga_chapters: 139-141
+anime_episodes: 83-84
+released: 2026-08-10 18:22:22
+duration: 0
+extended: false
+
+hashes:
+  crc32: FD16BA9C
+  blake2s: ''
+
+file:
+  id: 2144643
+  name: '[One Pace][139-141] Drum Island 04 [1080p][FD16BA9C].mkv'
+  size: 689.8 MiB
+  hash: 428553b84f71b550be98827a965f54ff7a04158d
+  index: 0

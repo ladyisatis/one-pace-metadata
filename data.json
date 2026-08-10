@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-07-30T12:45:48+00:00",
-  "last_update_ts": 1785415548,
+  "last_update": "2026-08-10T21:42:44+00:00",
+  "last_update_ts": 1786398164,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -2128,6 +2128,20 @@
       "released": "2022-02-13",
       "hashes": {
         "crc32": "3CC8226D",
+        "blake2": ""
+      }
+    },
+    "3CEF5DD3": {
+      "arc": 13,
+      "episode": 5,
+      "title": "Quack Doctor",
+      "originaltitle": "",
+      "description": "Chopper began life as an ordinary reindeer but was shunned by his own kind because of his unusual blue nose. Even after eating the Human-Human Devil Fruit, the islanders wanted nothing to do with him. That is, until Chopper met a certain quack doctor.",
+      "chapters": "140-145",
+      "episodes": "85-86",
+      "released": "2026-08-10",
+      "hashes": {
+        "crc32": "3CEF5DD3",
         "blake2": ""
       }
     },
@@ -4455,20 +4469,6 @@
         "blake2": ""
       }
     },
-    "902076E8": {
-      "arc": 13,
-      "episode": 4,
-      "title": "Enter: Tony Tony Chopper",
-      "originaltitle": "",
-      "description": "Enter Chopper: a talking, transforming blue-nosed reindeer who was trained by Dr. Kureha in medicine. The Straw Hats immediately see the positives and want him on their crew, but Chopper must first deal with the monstrous pain in his heart.",
-      "chapters": "139-140",
-      "episodes": "83-84",
-      "released": "2022-09-26",
-      "hashes": {
-        "crc32": "902076E8",
-        "blake2": ""
-      }
-    },
     "90B6D40E": {
       "arc": 19,
       "episode": 4,
@@ -6695,20 +6695,6 @@
         "blake2": ""
       }
     },
-    "E7044DBE": {
-      "arc": 13,
-      "episode": 5,
-      "title": "Quack Doctor",
-      "originaltitle": "",
-      "description": "Chopper began life as an ordinary reindeer but was shunned by his own kind because of his unusual blue nose. Even after eating the Human-Human Devil Fruit, the islanders wanted nothing to do with him. That is, until Chopper met a certain quack doctor.",
-      "chapters": "140-145",
-      "episodes": "85-86",
-      "released": "2023-03-21",
-      "hashes": {
-        "crc32": "E7044DBE",
-        "blake2": ""
-      }
-    },
     "E70913D9": {
       "arc": 32,
       "episode": 1,
@@ -7434,6 +7420,20 @@
       "released": "2013-04-09",
       "hashes": {
         "crc32": "FCF7F7E4",
+        "blake2": ""
+      }
+    },
+    "FD16BA9C": {
+      "arc": 13,
+      "episode": 4,
+      "title": "Enter: Tony Tony Chopper",
+      "originaltitle": "",
+      "description": "Enter Chopper: a talking, transforming blue-nosed reindeer who was trained by Dr. Kureha in medicine. The Straw Hats immediately see the positives and want him on their crew, but Chopper must first deal with the monstrous pain in his heart.",
+      "chapters": "139-141",
+      "episodes": "83-84",
+      "released": "2026-08-10",
+      "hashes": {
+        "crc32": "FD16BA9C",
         "blake2": ""
       }
     },
