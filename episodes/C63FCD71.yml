@@ -1,0 +1,19 @@
+arc: 13
+episode: 6
+
+manga_chapters: 145-148
+anime_episodes: 83, 86-88
+released: 2026-08-21 21:12:42
+duration: 0
+extended: false
+
+hashes:
+  crc32: C63FCD71
+  blake2s: ''
+
+file:
+  id: 2149485
+  name: '[One Pace][145-148] Drum Island 06 [1080p][C63FCD71].mkv'
+  size: 805.6 MiB
+  hash: dd3f76effa3ffa50dab6f54141f8584b4b4ef80c
+  index: 0

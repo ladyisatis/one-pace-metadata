@@ -6612,26 +6612,6 @@
       "index": 0
     }
   },
-  "A5145C90": {
-    "arc": 13,
-    "episode": 6,
-    "manga_chapters": "145-148",
-    "anime_episodes": "83, 86-88",
-    "released": "2023-05-08",
-    "duration": 1533,
-    "extended": false,
-    "hashes": {
-      "crc32": "A5145C90",
-      "blake2s": ""
-    },
-    "file": {
-      "id": 1672420,
-      "name": "[One Pace][145-148] Drum Island 06 [1080p][A5145C90].mkv",
-      "size": "565.1 MiB",
-      "hash": "b6d264228c2fb62b413d9f73a9d546495fc35069",
-      "index": 0
-    }
-  },
   "A5E4EBC0": {
     "arc": 3,
     "episode": 4,
@@ -7869,6 +7849,26 @@
       "name": "[One Pace][243-244] Skypiea 04 [1080p][C6120876].mkv",
       "size": "570.2 MiB",
       "hash": "aa34040a41bbdd8b165cfbc81dbe4e72f59e676e",
+      "index": 0
+    }
+  },
+  "C63FCD71": {
+    "arc": 13,
+    "episode": 6,
+    "manga_chapters": "145-148",
+    "anime_episodes": "83, 86-88",
+    "released": "2026-08-21 21:12:42",
+    "duration": 0,
+    "extended": false,
+    "hashes": {
+      "crc32": "C63FCD71",
+      "blake2s": ""
+    },
+    "file": {
+      "id": 2149485,
+      "name": "[One Pace][145-148] Drum Island 06 [1080p][C63FCD71].mkv",
+      "size": "805.6 MiB",
+      "hash": "dd3f76effa3ffa50dab6f54141f8584b4b4ef80c",
       "index": 0
     }
   },
