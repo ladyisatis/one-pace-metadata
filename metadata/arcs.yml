@@ -997,7 +997,7 @@ en:
     new ship.
   episodes:
   - episode: '01'
-    standard: 216595EE
+    standard: C408DA06
     extended: ''
   - episode: '02'
     standard: 344EA844
@@ -1474,7 +1474,7 @@ en:
     of the conflict.
   episodes:
   - episode: '01'
-    standard: FBA08093
+    standard: F69C4922
     extended: ''
   - episode: '02'
     standard: BD7169C3

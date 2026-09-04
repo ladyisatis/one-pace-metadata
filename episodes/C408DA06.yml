@@ -1,0 +1,19 @@
+arc: 20
+episode: 1
+
+manga_chapters: 431-432
+anime_episodes: 313-314
+released: 2026-09-03 23:28:57
+duration: 0
+extended: false
+
+hashes:
+  crc32: C408DA06
+  blake2s: ''
+
+file:
+  id: 2156009
+  name: '[One Pace][431-432] Post-Enies Lobby 01 [1080p][C408DA06].mkv'
+  size: 1.2 GiB
+  hash: 1b3292823bd17a3b571cbddac5d89e632dafab9f
+  index: 0
