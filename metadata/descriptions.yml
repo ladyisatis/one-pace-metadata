@@ -1255,9 +1255,9 @@ en:
     time.
 - arc: 20
   episode: 1
-  title: The Strongest Family Lineage?! The Vice-Admiral and The Revolutionary!
+  title: Fist of Love
   originaltitle: ''
-  description: Two days later in Water Seven, Franky hears that the item for he purchased
+  description: Two days later in Water Seven, Franky hears that the item he purchased
     with the Straw Hats' stolen money has arrived. While the pirates recover from
     the events at Enies Lobby, a Marine vice admiral arrives to pay Luffy an unexpected
     visit.
@@ -1867,7 +1867,7 @@ en:
     Island, they must contend with a massive Marine force determined to stop them.
 - arc: 29
   episode: 1
-  title: Into the Depths! The Kraken and the Caribou Pirates
+  title: To the Deep Sea
   originaltitle: ''
   description: Encased in a protective bubble, the Sunny departs for Fishman Island
     far under the sea. As the Straw Hats marvel at the sights, Franky tells the crew
@@ -3399,6 +3399,21 @@ en:
   description: The sound of lightning rumbles as Big Mom prepares to test out her
     newest Homie. Meanwhile, down on the second floor, Usopp, Nami, Tama and Komachiyo
     continue trying (and failing) to get a very angry Page One off their tail.
+- arc: 35
+  episode: 62
+  title: Anarchy in the BM
+  originaltitle: ''
+  description: ''
+- arc: 35
+  episode: 63
+  title: The Ham
+  originaltitle: ''
+  description: ''
+- arc: 35
+  episode: 64
+  title: The Order
+  originaltitle: ''
+  description: ''
 - arc: 36
   episode: 1
   title: New Emperors
