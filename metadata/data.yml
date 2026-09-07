@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-09-05T00:41:52+00:00'
-  last_update_ts: 1788568912
+  last_update: '2026-09-07T15:35:16+00:00'
+  last_update_ts: 1788795316
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 277
+  version: 278
 tvshow:
   en:
     title: One Piece
@@ -537,7 +537,7 @@ arcs:
       standard: C63FCD71
       extended: ''
     - episode: '07'
-      standard: B1D913B9
+      standard: D549B6DF
       extended: ''
     - episode: 08
       standard: 9794072D
@@ -12089,23 +12089,6 @@ episodes:
       size: 945.9 MiB
       hash: ad30863829eeb7787198cedaed9825160c587893
       index: 0
-  B1D913B9:
-    arc: 13
-    episode: 7
-    manga_chapters: 149-152
-    anime_episodes: 88-90
-    released: 2023-06-18
-    duration: 2011
-    extended: false
-    hashes:
-      crc32: B1D913B9
-      blake2s: ''
-    file:
-      id: 1683781
-      name: '[One Pace][149-152] Drum Island 07 [1080p][B1D913B9].mkv'
-      size: 793.9 MiB
-      hash: 22b7b193c5354584a48966995c3966fdb2c1d338
-      index: 0
   B4592974:
     arc: 18
     episode: 13
@@ -13227,6 +13210,23 @@ episodes:
       name: '[One Pace] Paced One Piece - Thriller Bark Episode 11 [720p][D538CFD7].mkv'
       size: 359.0 MiB
       hash: 2c83d7ba67a243de5995f687073787341c69958c
+      index: 0
+  D549B6DF:
+    arc: 13
+    episode: 7
+    manga_chapters: 149-152
+    anime_episodes: 88-90
+    released: 2026-09-07 12:47:55
+    duration: 0
+    extended: false
+    hashes:
+      crc32: D549B6DF
+      blake2s: ''
+    file:
+      id: 2157813
+      name: '[One Pace][149-152] Drum Island 07 [1080p][D549B6DF].mkv'
+      size: 1.1 GiB
+      hash: 646d5e5f2dc2adf95076b85816f6d6364b7217cf
       index: 0
   D56597BC:
     arc: 30

@@ -1,0 +1,19 @@
+arc: 13
+episode: 7
+
+manga_chapters: 149-152
+anime_episodes: 88-90
+released: 2026-09-07 12:47:55
+duration: 0
+extended: false
+
+hashes:
+  crc32: D549B6DF
+  blake2s: ''
+
+file:
+  id: 2157813
+  name: '[One Pace][149-152] Drum Island 07 [1080p][D549B6DF].mkv'
+  size: 1.1 GiB
+  hash: 646d5e5f2dc2adf95076b85816f6d6364b7217cf
+  index: 0
