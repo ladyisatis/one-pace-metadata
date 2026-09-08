@@ -34,9 +34,9 @@ info:
   filler_episodes: 317 - 318
   num_of_pace_eps: 5
   piece_minutes: 236
-  pace_minutes: 133
+  pace_minutes: 134
   audio_languages: JA
   sub_languages: ''
   pixeldrain_only: ''
-  resolution: 720p
+  resolution: 720p,1080p
   arc_watch_guide: Pace

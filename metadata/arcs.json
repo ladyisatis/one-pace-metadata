@@ -658,7 +658,7 @@
         "filler_episodes": "",
         "num_of_pace_eps": 8,
         "piece_minutes": 294,
-        "pace_minutes": 231,
+        "pace_minutes": 230,
         "audio_languages": "JA,EN",
         "sub_languages": "",
         "pixeldrain_only": "",
@@ -1402,11 +1402,11 @@
         "filler_episodes": "317 - 318",
         "num_of_pace_eps": 5,
         "piece_minutes": 236,
-        "pace_minutes": 133,
+        "pace_minutes": 134,
         "audio_languages": "JA",
         "sub_languages": "",
         "pixeldrain_only": "",
-        "resolution": "720p",
+        "resolution": "720p,1080p",
         "arc_watch_guide": "Pace"
       }
     },
@@ -2150,11 +2150,11 @@
         "filler_episodes": "542",
         "num_of_pace_eps": 24,
         "piece_minutes": 1096,
-        "pace_minutes": 710,
+        "pace_minutes": 715,
         "audio_languages": "JA",
         "sub_languages": "",
         "pixeldrain_only": "",
-        "resolution": "720p",
+        "resolution": "720p,1080p",
         "arc_watch_guide": "Pace"
       }
     },

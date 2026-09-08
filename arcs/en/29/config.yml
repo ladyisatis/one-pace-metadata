@@ -92,9 +92,9 @@ info:
   filler_episodes: '542'
   num_of_pace_eps: 24
   piece_minutes: 1096
-  pace_minutes: 710
+  pace_minutes: 715
   audio_languages: JA
   sub_languages: ''
   pixeldrain_only: ''
-  resolution: 720p
+  resolution: 720p,1080p
   arc_watch_guide: Pace
