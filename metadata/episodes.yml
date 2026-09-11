@@ -4204,7 +4204,7 @@
   manga_chapters: 159, 161-162
   anime_episodes: 96-98
   released: 2023-07-28
-  duration: 1558
+  duration: 1456
   extended: false
   hashes:
     crc32: 73003149
@@ -7649,7 +7649,7 @@ E4BA97D6:
   manga_chapters: 157-159
   anime_episodes: 93-95
   released: 2023-06-05
-  duration: 1705
+  duration: 1704
   extended: false
   hashes:
     crc32: E4BA97D6
@@ -8697,7 +8697,7 @@ FF1E1708:
   manga_chapters: 159-164
   anime_episodes: 98, 100-101, 103
   released: 2023-11-25
-  duration: 1515
+  duration: 1508
   extended: false
   hashes:
     crc32: FF1E1708

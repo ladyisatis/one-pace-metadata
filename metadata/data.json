@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-09-08T00:59:42+00:00",
-    "last_update_ts": 1788829182,
+    "last_update": "2026-09-11T00:56:39+00:00",
+    "last_update_ts": 1789088199,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 279
+    "version": 280
   },
   "tvshow": {
     "en": {
@@ -823,7 +823,7 @@
           "filler_episodes": "99, 102",
           "num_of_pace_eps": 21,
           "piece_minutes": 840,
-          "pace_minutes": 555,
+          "pace_minutes": 554,
           "audio_languages": "JA,EN",
           "sub_languages": "",
           "pixeldrain_only": "",
@@ -11769,7 +11769,7 @@
       "manga_chapters": "159, 161-162",
       "anime_episodes": "96-98",
       "released": "2023-07-28",
-      "duration": 1558,
+      "duration": 1456,
       "extended": false,
       "hashes": {
         "crc32": 73003149,
@@ -15822,7 +15822,7 @@
       "manga_chapters": "157-159",
       "anime_episodes": "93-95",
       "released": "2023-06-05",
-      "duration": 1705,
+      "duration": 1704,
       "extended": false,
       "hashes": {
         "crc32": "E4BA97D6",
@@ -17055,7 +17055,7 @@
       "manga_chapters": "159-164",
       "anime_episodes": "98, 100-101, 103",
       "released": "2023-11-25",
-      "duration": 1515,
+      "duration": 1508,
       "extended": false,
       "hashes": {
         "crc32": "FF1E1708",
