@@ -499,7 +499,7 @@ en:
     standard: D549B6DF
     extended: ''
   - episode: 08
-    standard: F8FCF23F
+    standard: FA5C67B1
     extended: ''
   info:
     status: ''
@@ -2246,6 +2246,9 @@ en:
   - episode: '61'
     standard: 1EF3F26C
     extended: ''
+  - episode: '62'
+    standard: 562018E8
+    extended: 3EC45BF1
   info:
     status: Work In Progress
     manga_chapters: 909 - 1057

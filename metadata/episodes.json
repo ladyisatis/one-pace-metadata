@@ -2599,6 +2599,26 @@
       "index": 40
     }
   },
+  "3EC45BF1": {
+    "arc": 35,
+    "episode": 62,
+    "manga_chapters": "1012-1013",
+    "anime_episodes": "1032-1034",
+    "released": "2026-09-20 01:46:57",
+    "duration": 0,
+    "extended": true,
+    "hashes": {
+      "crc32": "3EC45BF1",
+      "blake2s": ""
+    },
+    "file": {
+      "id": 2163846,
+      "name": "[One Pace][1012-1013] Wano 62 Extended [1080p][3EC45BF1].mkv",
+      "size": "1.7 GiB",
+      "hash": "6d6dc2ce4bf05c8e8291a4aa33dcb5387bb71019",
+      "index": 0
+    }
+  },
   "3F24A1D8": {
     "arc": 33,
     "episode": 1,
@@ -3477,6 +3497,26 @@
       "size": "207.9 MiB",
       "hash": "5c027631a28242814a6cf1fe24f455b70bca14bc",
       "index": 6
+    }
+  },
+  "562018E8": {
+    "arc": 35,
+    "episode": 62,
+    "manga_chapters": "1012-1013",
+    "anime_episodes": "1032-1034",
+    "released": "2026-09-20 01:46:57",
+    "duration": 0,
+    "extended": false,
+    "hashes": {
+      "crc32": "562018E8",
+      "blake2s": ""
+    },
+    "file": {
+      "id": 2163847,
+      "name": "[One Pace][1012-1013] Wano 62 [1080p][562018E8].mkv",
+      "size": "1.3 GiB",
+      "hash": "405a772fb6c8a3a1f6a0b98fe17167d71320e402",
+      "index": 0
     }
   },
   "5636E014": {
@@ -9925,26 +9965,6 @@
       "index": 5
     }
   },
-  "F8FCF23F": {
-    "arc": 13,
-    "episode": 8,
-    "manga_chapters": "153-155",
-    "anime_episodes": "90-91",
-    "released": "2026-09-12 13:35:34",
-    "duration": 0,
-    "extended": false,
-    "hashes": {
-      "crc32": "F8FCF23F",
-      "blake2s": ""
-    },
-    "file": {
-      "id": 2160005,
-      "name": "[One Pace][153-155] Drum Island 08 [1080p][F8FCF23F].mkv",
-      "size": "1015.4 MiB",
-      "hash": "1518c0345ff6e7e8ae4a2f4811e07179982f310d",
-      "index": 0
-    }
-  },
   "F96F0A4A": {
     "arc": 18,
     "episode": 9,
@@ -10002,6 +10022,26 @@
       "name": "[One Pace][589-590] Post-War 05 [1080p][FA5B3DCD].mkv",
       "size": "517.2 MiB",
       "hash": "eacbf73c4965a12fbf2eb97e4db53151ff39788f",
+      "index": 0
+    }
+  },
+  "FA5C67B1": {
+    "arc": 13,
+    "episode": 8,
+    "manga_chapters": "153-155",
+    "anime_episodes": "90-91",
+    "released": "2026-09-20 01:46:58",
+    "duration": 0,
+    "extended": false,
+    "hashes": {
+      "crc32": "FA5C67B1",
+      "blake2s": ""
+    },
+    "file": {
+      "id": 2163848,
+      "name": "[One Pace][153-155] Drum Island 08 [1080p][FA5C67B1].mkv",
+      "size": "1015.1 MiB",
+      "hash": "1854d3a4591289a1648c9775800f296812e4e480",
       "index": 0
     }
   },

@@ -1,0 +1,19 @@
+arc: 13
+episode: 8
+
+manga_chapters: 153-155
+anime_episodes: 90-91
+released: 2026-09-20 01:46:58
+duration: 0
+extended: false
+
+hashes:
+  crc32: FA5C67B1
+  blake2s: ''
+
+file:
+  id: 2163848
+  name: '[One Pace][153-155] Drum Island 08 [1080p][FA5C67B1].mkv'
+  size: 1015.1 MiB
+  hash: 1854d3a4591289a1648c9775800f296812e4e480
+  index: 0

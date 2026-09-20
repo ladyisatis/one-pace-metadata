@@ -1,0 +1,19 @@
+arc: 35
+episode: 62
+
+manga_chapters: 1012-1013
+anime_episodes: 1032-1034
+released: 2026-09-20 01:46:57
+duration: 0
+extended: false
+
+hashes:
+  crc32: 562018E8
+  blake2s: ''
+
+file:
+  id: 2163847
+  name: '[One Pace][1012-1013] Wano 62 [1080p][562018E8].mkv'
+  size: 1.3 GiB
+  hash: 405a772fb6c8a3a1f6a0b98fe17167d71320e402
+  index: 0

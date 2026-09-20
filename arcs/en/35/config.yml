@@ -192,6 +192,9 @@ episodes:
 - episode: '61'
   standard: 1EF3F26C
   extended: ''
+- episode: '62'
+  standard: 562018E8
+  extended: 3EC45BF1
 
 info:
   status: Work In Progress
