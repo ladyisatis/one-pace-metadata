@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-09-12T16:48:50+00:00",
-  "last_update_ts": 1789231730,
+  "last_update": "2026-09-20T21:14:25+00:00",
+  "last_update_ts": 1789938865,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -2145,6 +2145,20 @@
         "blake2": ""
       }
     },
+    "3EC45BF1": {
+      "arc": 35,
+      "episode": 62,
+      "title": "Anarchy in the BM",
+      "originaltitle": "",
+      "description": "",
+      "chapters": "1012-1013",
+      "episodes": "1032-1034",
+      "released": "2026-09-20",
+      "hashes": {
+        "crc32": "3EC45BF1",
+        "blake2": ""
+      }
+    },
     "3F24A1D8": {
       "arc": 33,
       "episode": 1,
@@ -2758,6 +2772,20 @@
       "released": "2016-12-12",
       "hashes": {
         "crc32": "55837445",
+        "blake2": ""
+      }
+    },
+    "562018E8": {
+      "arc": 35,
+      "episode": 62,
+      "title": "Anarchy in the BM",
+      "originaltitle": "",
+      "description": "",
+      "chapters": "1012-1013",
+      "episodes": "1032-1034",
+      "released": "2026-09-20",
+      "hashes": {
+        "crc32": "562018E8",
         "blake2": ""
       }
     },
@@ -7283,20 +7311,6 @@
         "blake2": ""
       }
     },
-    "F8FCF23F": {
-      "arc": 13,
-      "episode": 8,
-      "title": "Hiriluk's Cherry Blossoms",
-      "originaltitle": "Hiruluk's Cherry Blossoms",
-      "description": "Finally convinced to join the Straw Hat Pirates, Chopper announces his intentions to Dr. Kureha. While she doesn't receive the news well at first, she decides to give the Straw Hats a fond parting gift while they exit the island.",
-      "chapters": "153-155",
-      "episodes": "90-91",
-      "released": "2026-09-12",
-      "hashes": {
-        "crc32": "F8FCF23F",
-        "blake2": ""
-      }
-    },
     "F96F0A4A": {
       "arc": 18,
       "episode": 9,
@@ -7336,6 +7350,20 @@
       "released": "2020-07-26",
       "hashes": {
         "crc32": "FA5B3DCD",
+        "blake2": ""
+      }
+    },
+    "FA5C67B1": {
+      "arc": 13,
+      "episode": 8,
+      "title": "Hiriluk's Cherry Blossoms",
+      "originaltitle": "Hiruluk's Cherry Blossoms",
+      "description": "Finally convinced to join the Straw Hat Pirates, Chopper announces his intentions to Dr. Kureha. While she doesn't receive the news well at first, she decides to give the Straw Hats a fond parting gift while they exit the island.",
+      "chapters": "153-155",
+      "episodes": "90-91",
+      "released": "2026-09-20",
+      "hashes": {
+        "crc32": "FA5C67B1",
         "blake2": ""
       }
     },
