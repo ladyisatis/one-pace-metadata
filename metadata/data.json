@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-09-20T21:14:25+00:00",
-    "last_update_ts": 1789938865,
+    "last_update": "2026-09-22T18:34:59+00:00",
+    "last_update_ts": 1790102099,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 282
+    "version": 283
   },
   "tvshow": {
     "en": {
@@ -6648,7 +6648,7 @@
         "episode": 62,
         "title": "Anarchy in the BM",
         "originaltitle": "",
-        "description": ""
+        "description": "Things are heating up on the second floor as an enraged Ulti prepares to attack Big Mom. Elsewhere on that same floor, Sanji runs, jumps and kicks his way through seemingly endless waves of gifters and pleasures, a heavily bandaged (and very sleepy) Zoro in tow."
       },
       {
         "arc": 35,
