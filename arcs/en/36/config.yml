@@ -72,6 +72,9 @@ episodes:
 - episode: '21'
   standard: DBDB2978
   extended: 2C16CBB5
+- episode: '22'
+  standard: 958F4943
+  extended: ''
 
 info:
   status: Work In Progress

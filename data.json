@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-09-23T00:06:45+00:00",
-  "last_update_ts": 1790122005,
+  "last_update": "2026-09-28T15:03:29+00:00",
+  "last_update_ts": 1790607809,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -4634,6 +4634,20 @@
       "released": "2020-12-09",
       "hashes": {
         "crc32": "94F78CF3",
+        "blake2": ""
+      }
+    },
+    "958F4943": {
+      "arc": 36,
+      "episode": 22,
+      "title": "Kuma Bear",
+      "originaltitle": "",
+      "description": "Born with the rare blood of the Buccaneer people, young Kuma was fated to lead a life of persecution at the hands of the Celestial Dragons, but his father instilled hope within him through the legend of Nika and the Drums of Liberation.",
+      "chapters": "1095-1096",
+      "episodes": "1129-1130",
+      "released": "2026-09-28",
+      "hashes": {
+        "crc32": "958F4943",
         "blake2": ""
       }
     },

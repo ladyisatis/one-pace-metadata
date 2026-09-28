@@ -6159,6 +6159,26 @@
       "index": 0
     }
   },
+  "958F4943": {
+    "arc": 36,
+    "episode": 22,
+    "manga_chapters": "1095-1096",
+    "anime_episodes": "1129-1130",
+    "released": "2026-09-28 14:18:28",
+    "duration": 0,
+    "extended": false,
+    "hashes": {
+      "crc32": "958F4943",
+      "blake2s": ""
+    },
+    "file": {
+      "id": 2167181,
+      "name": "[One Pace][1095-1096] Egghead 22 [1080p][958F4943].mkv",
+      "size": "1.4 GiB",
+      "hash": "2be2c88d0fe32ecee3bec1197081ce4391592fcc",
+      "index": 0
+    }
+  },
   "964FB36B": {
     "arc": 30,
     "episode": 13,
