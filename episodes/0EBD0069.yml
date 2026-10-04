@@ -1,0 +1,19 @@
+arc: 20
+episode: 2
+
+manga_chapters: 433-434
+anime_episodes: 315-316, 325
+released: 2026-10-04 11:52:12
+duration: 0
+extended: false
+
+hashes:
+  crc32: 0EBD0069
+  blake2s: ''
+
+file:
+  id: 2169546
+  name: '[One Pace][433-434] Post-Enies Lobby 02 [1080p][0EBD0069].mkv'
+  size: 854.2 MiB
+  hash: 8291219fe8bda56a181f8f33052c7e1d258bd90e
+  index: 0

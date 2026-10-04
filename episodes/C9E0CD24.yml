@@ -1,0 +1,19 @@
+arc: 20
+episode: 3
+
+manga_chapters: '435'
+anime_episodes: 316-320
+released: 2026-10-04 11:52:12
+duration: 0
+extended: false
+
+hashes:
+  crc32: C9E0CD24
+  blake2s: ''
+
+file:
+  id: 2169547
+  name: '[One Pace][435] Post-Enies Lobby 03 [1080p][C9E0CD24].mkv'
+  size: 643.2 MiB
+  hash: 9505df86859612212ba95ee2d4a4f52422deef7b
+  index: 0
