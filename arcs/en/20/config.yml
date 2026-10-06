@@ -32,10 +32,10 @@ info:
   anime_episodes: 313 - 325
   episodes_adapted: 11
   filler_episodes: 317 - 318
-  num_of_pace_eps: 5
+  num_of_pace_eps: 6
   piece_minutes: 236
-  pace_minutes: 134
-  audio_languages: JA
+  pace_minutes: 127
+  audio_languages: JA, EN(1-3)
   sub_languages: ''
   pixeldrain_only: ''
   resolution: 720p,1080p
