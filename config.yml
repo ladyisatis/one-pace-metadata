@@ -3,8 +3,8 @@ episode_guide: https://docs.google.com/spreadsheets/d/1HQRMJgu_zArp-sLnvFMDzOyjd
 description_sources:
   - https://docs.google.com/spreadsheets/d/1M0Aa2p5x7NioaH9-u8FyHq6rH3t5s6Sccs8GoC6pHAM/
 
-check_ep_descriptions_every_hours: 6
-check_ep_guide_every_hours: 12
+check_ep_descriptions_every_hours: 3
+check_ep_guide_every_hours: 6
 check_rss_every_hours: 1
 oldest_rss_release_hours: 72
 
@@ -30,10 +30,10 @@ tvshow:
       - Shōnen Jump
     premiered: 2013-03-27
     releasedate: 2013-03-27
-    season: -1
-    episode: -1
+    season: '-1'
+    episode: '-1'
     status: Continuing
-    year: 1999
+    year: '1999'
     plot: 'As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his
       life changed when he accidentally gained the power to stretch like rubber... at
       the cost of never being able to swim again! Years later, Luffy sets off in search
