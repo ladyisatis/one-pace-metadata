@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-10-08T19:11:59+00:00'
-  last_update_ts: 1791486719
+  last_update: '2026-10-09T15:53:58+00:00'
+  last_update_ts: 1791561238
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 291
+  version: 292
 tvshow:
   en:
     title: One Piece
@@ -3683,13 +3683,19 @@ descriptions:
     episode: 2
     title: The Name of That Sea
     originaltitle: ''
-    description: In the New World, not even the Marines' best can keep Red-Haired
-      Shanks from meeting Whitebeard with an especially important request.
+    description: Garp tells Luffy that he's not going to arrest him or his crew, giving
+      Luffy a moment to sit down and catch up with Koby and Helmeppo. As the old friends
+      reminisce about how they met, however, something big is stirring in the New
+      World. Not even the Marines' best can keep "Red-Haired" Shanks from meeting
+      Whitebeard, arriving with his crew, some booze, and a very important request.
   - arc: 20
     episode: 3
     title: You Have My Sympathies
     originaltitle: ''
-    description: The Franky Family comes to the Straw Hats with some "bad" news.
+    description: The edition of the daily newspaper covering the Enies Lobby incident
+      finally releases, and with it some "bad" news for the Straw Hats. Meanwhile,
+      as Luffy and the gang get some much-needed rest, Franky gets some unexpected
+      help while working on their new ship.
   - arc: 20
     episode: 4
     title: Forgive Yourself! Frankly Departs!
