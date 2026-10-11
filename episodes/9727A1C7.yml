@@ -1,0 +1,19 @@
+arc: 29
+episode: 2
+
+manga_chapters: 605-606
+anime_episodes: 524-526
+released: 2026-10-11 22:23:02
+duration: 0
+extended: false
+
+hashes:
+  crc32: 9727A1C7
+  blake2s: ''
+
+file:
+  id: 2172969
+  name: '[One Pace][605-606] Fishman Island 02 [1080p][9727A1C7].mkv'
+  size: 816.2 MiB
+  hash: dff23044c323cf17d83345499dc33ae587362b3c
+  index: 0

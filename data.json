@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-10-09T15:53:58+00:00",
-  "last_update_ts": 1791561238,
+  "last_update": "2026-10-11T23:35:42+00:00",
+  "last_update_ts": 1791761742,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -4665,6 +4665,20 @@
         "blake2": ""
       }
     },
+    "9727A1C7": {
+      "arc": 29,
+      "episode": 2,
+      "title": "Adventure in the Ocean Depths! 10 Kilometers Below the Surface!",
+      "originaltitle": "",
+      "description": "Luffy, Zoro, and Sanji leave the relative safety of the Sunny to face the Kraken in its own territory. Putting their powerful new skills to work, they survive the encounter but are swept away by a downward current and become lost in the murky depths.",
+      "chapters": "605-606",
+      "episodes": "524-526",
+      "released": "2026-10-11",
+      "hashes": {
+        "crc32": "9727A1C7",
+        "blake2": ""
+      }
+    },
     "9863ADF4": {
       "arc": 16,
       "episode": 15,
@@ -5516,20 +5530,6 @@
       "released": "2017-05-29",
       "hashes": {
         "crc32": "BCF2E97B",
-        "blake2": ""
-      }
-    },
-    "BD7169C3": {
-      "arc": 29,
-      "episode": 2,
-      "title": "Adventure in the Ocean Depths! 10 Kilometers Below the Surface!",
-      "originaltitle": "",
-      "description": "Luffy, Zoro, and Sanji leave the relative safety of the Sunny to face the Kraken in its own territory. Putting their powerful new skills to work, they survive the encounter but are swept away by a downward current and become lost in the murky depths.",
-      "chapters": "605-606",
-      "episodes": "524-526",
-      "released": "2013-03-29",
-      "hashes": {
-        "crc32": "BD7169C3",
         "blake2": ""
       }
     },
