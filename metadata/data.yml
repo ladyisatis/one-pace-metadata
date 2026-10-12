@@ -1,8 +1,8 @@
 status:
-  last_update: '2026-10-11T23:35:42+00:00'
-  last_update_ts: 1791761742
+  last_update: '2026-10-12T21:39:13+00:00'
+  last_update_ts: 1791841153
   base_url: https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2
-  version: 293
+  version: 294
 tvshow:
   en:
     title: One Piece
@@ -4312,7 +4312,7 @@ descriptions:
       shadow closes in on the ship.
   - arc: 29
     episode: 2
-    title: Adventure in the Ocean Depths! 10 Kilometers Below the Surface!
+    title: Adventure in the Deep Sea
     originaltitle: ''
     description: Luffy, Zoro, and Sanji leave the relative safety of the Sunny to
       face the Kraken in its own territory. Putting their powerful new skills to work,
