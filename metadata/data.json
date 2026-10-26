@@ -1,9 +1,9 @@
 {
   "status": {
-    "last_update": "2026-10-15T18:55:56+00:00",
-    "last_update_ts": 1792090556,
+    "last_update": "2026-10-26T16:37:11+00:00",
+    "last_update_ts": 1793032631,
     "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
-    "version": 296
+    "version": 297
   },
   "tvshow": {
     "en": {
@@ -443,17 +443,17 @@
         "episodes": [
           {
             "episode": "01",
-            "standard": "4200CE0D",
-            "extended": ""
+            "standard": "ED297337",
+            "extended": "7191C79A"
           },
           {
             "episode": "02",
-            "standard": "8E970FD4",
+            "standard": "1EFBB55B",
             "extended": ""
           },
           {
             "episode": "03",
-            "standard": "23E3E489",
+            "standard": "BE8D8724",
             "extended": ""
           }
         ],
@@ -8140,6 +8140,26 @@
         "index": 0
       }
     },
+    "1EFBB55B": {
+      "arc": 8,
+      "episode": 2,
+      "manga_chapters": "97",
+      "anime_episodes": "48, 50",
+      "released": "2026-10-26 13:12:25",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "1EFBB55B",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2179022,
+        "name": "[One Pace][98-99] Loguetown 02 [1080p][1EFBB55B].mkv",
+        "size": "664.4 MiB",
+        "hash": "56394b38bb28af24b63b4b173a15f2a0ba38542f",
+        "index": 3
+      }
+    },
     "1FDB8A9C": {
       "arc": 36,
       "episode": 8,
@@ -8357,26 +8377,6 @@
         "name": "[One Pace][252-254] Skypiea 08 [1080p][236CCF51].mkv",
         "size": "733.2 MiB",
         "hash": "63a53a466547469c6c854c498301c9308ab76c6a",
-        "index": 0
-      }
-    },
-    "23E3E489": {
-      "arc": 8,
-      "episode": 3,
-      "manga_chapters": "98-100",
-      "anime_episodes": "52-53",
-      "released": "2020-09-22",
-      "duration": 2173,
-      "extended": false,
-      "hashes": {
-        "crc32": "23E3E489",
-        "blake2s": ""
-      },
-      "file": {
-        "id": 1282922,
-        "name": "[One Pace][98-100] Loguetown 03 [480p][23E3E489].mkv",
-        "size": "331.0 MiB",
-        "hash": "fc5f605b1fc12f8a14b6176690151ea53bcb7e19",
         "index": 0
       }
     },
@@ -9597,26 +9597,6 @@
         "name": "[One Pace] Straw Hat Theatre [720p][415455AE].mkv",
         "size": "244.1 MiB",
         "hash": "db52460eabf9592e3188f2f239b1c9c4603a7c59",
-        "index": 0
-      }
-    },
-    "4200CE0D": {
-      "arc": 8,
-      "episode": 1,
-      "manga_chapters": "96-97",
-      "anime_episodes": "45, 48-49",
-      "released": "2020-09-22",
-      "duration": 1652,
-      "extended": false,
-      "hashes": {
-        "crc32": "4200CE0D",
-        "blake2s": ""
-      },
-      "file": {
-        "id": 1282922,
-        "name": "[One Pace][96-97] Loguetown 01 [480p][4200CE0D].mkv",
-        "size": "168.8 MiB",
-        "hash": "fc5f605b1fc12f8a14b6176690151ea53bcb7e19",
         "index": 0
       }
     },
@@ -11700,6 +11680,26 @@
         "index": 25
       }
     },
+    "7191C79A": {
+      "arc": 8,
+      "episode": 1,
+      "manga_chapters": "96-97",
+      "anime_episodes": "45, 48-49",
+      "released": "2026-10-26 13:12:25",
+      "duration": 0,
+      "extended": true,
+      "hashes": {
+        "crc32": "7191C79A",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2179021,
+        "name": "[One Pace][96-97] Loguetown 01 - Extended Cut [1080p][7191C79A].mkv",
+        "size": "1.1 GiB",
+        "hash": "7fb8fb225e85d86124fa1069ffc043b17337051f",
+        "index": 1
+      }
+    },
     "71CA89FC": {
       "arc": 31,
       "episode": 26,
@@ -12697,26 +12697,6 @@
         "name": "[One Pace] Paced One Piece - Thriller Bark Episode 12 [720p][8B836836].mkv",
         "size": "296.9 MiB",
         "hash": "2c83d7ba67a243de5995f687073787341c69958c",
-        "index": 0
-      }
-    },
-    "8E970FD4": {
-      "arc": 8,
-      "episode": 2,
-      "manga_chapters": "97",
-      "anime_episodes": "48, 50",
-      "released": "2020-09-22",
-      "duration": 1884,
-      "extended": false,
-      "hashes": {
-        "crc32": "8E970FD4",
-        "blake2s": ""
-      },
-      "file": {
-        "id": 1282922,
-        "name": "[One Pace][97] Loguetown 02 [480p][8E970FD4].mkv",
-        "size": "181.8 MiB",
-        "hash": "fc5f605b1fc12f8a14b6176690151ea53bcb7e19",
         "index": 0
       }
     },
@@ -14311,6 +14291,26 @@
         "size": "192.5 MiB",
         "hash": "a031cac6baf81b804c4d034dfaef0e5e4a671145",
         "index": 19
+      }
+    },
+    "BE8D8724": {
+      "arc": 8,
+      "episode": 3,
+      "manga_chapters": "98-100",
+      "anime_episodes": "52-53",
+      "released": "2026-10-26 13:12:25",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "BE8D8724",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2179022,
+        "name": "[One Pace][100] Loguetown 03 [1080p][BE8D8724].mkv",
+        "size": "926.7 MiB",
+        "hash": "56394b38bb28af24b63b4b173a15f2a0ba38542f",
+        "index": 0
       }
     },
     "BF59EB14": {
@@ -16351,6 +16351,26 @@
         "size": "285.4 MiB",
         "hash": "a031cac6baf81b804c4d034dfaef0e5e4a671145",
         "index": 39
+      }
+    },
+    "ED297337": {
+      "arc": 8,
+      "episode": 1,
+      "manga_chapters": "96-97",
+      "anime_episodes": "45, 48-49",
+      "released": "2026-10-26 13:12:25",
+      "duration": 0,
+      "extended": false,
+      "hashes": {
+        "crc32": "ED297337",
+        "blake2s": ""
+      },
+      "file": {
+        "id": 2179022,
+        "name": "[One Pace][96-97] Loguetown 01 [1080p][ED297337].mkv",
+        "size": "853.1 MiB",
+        "hash": "56394b38bb28af24b63b4b173a15f2a0ba38542f",
+        "index": 1
       }
     },
     "EF1D7B5F": {

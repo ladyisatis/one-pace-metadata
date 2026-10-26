@@ -1,0 +1,19 @@
+arc: 8
+episode: 2
+
+manga_chapters: '97'
+anime_episodes: 48, 50
+released: 2026-10-26 13:12:25
+duration: 0
+extended: false
+
+hashes:
+  crc32: 1EFBB55B
+  blake2s: ''
+
+file:
+  id: 2179022
+  name: '[One Pace][98-99] Loguetown 02 [1080p][1EFBB55B].mkv'
+  size: 664.4 MiB
+  hash: 56394b38bb28af24b63b4b173a15f2a0ba38542f
+  index: 3

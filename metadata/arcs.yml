@@ -314,13 +314,13 @@ en:
     place where Gold Roger drew his last breath.'
   episodes:
   - episode: '01'
-    standard: 4200CE0D
-    extended: ''
+    standard: ED297337
+    extended: 7191C79A
   - episode: '02'
-    standard: 8E970FD4
+    standard: 1EFBB55B
     extended: ''
   - episode: '03'
-    standard: 23E3E489
+    standard: BE8D8724
     extended: ''
   info:
     status: ''

@@ -1,0 +1,19 @@
+arc: 8
+episode: 1
+
+manga_chapters: 96-97
+anime_episodes: 45, 48-49
+released: 2026-10-26 13:12:25
+duration: 0
+extended: true
+
+hashes:
+  crc32: 7191C79A
+  blake2s: ''
+
+file:
+  id: 2179021
+  name: '[One Pace][96-97] Loguetown 01 - Extended Cut [1080p][7191C79A].mkv'
+  size: 1.1 GiB
+  hash: 7fb8fb225e85d86124fa1069ffc043b17337051f
+  index: 1
