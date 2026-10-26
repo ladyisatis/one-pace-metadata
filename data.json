@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-10-15T18:55:56+00:00",
-  "last_update_ts": 1792090556,
+  "last_update": "2026-10-26T16:37:11+00:00",
+  "last_update_ts": 1793032631,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -1235,6 +1235,20 @@
         "blake2": ""
       }
     },
+    "1EFBB55B": {
+      "arc": 8,
+      "episode": 2,
+      "title": "Parallels",
+      "originaltitle": "",
+      "description": "Usopp manages to anger the brat daughter of bounty hunter Daddy the Father and finds his own life at stake. When Daddy discovers that Usopp is the son of Red Hair Pirate Yasopp, the only man to beat him, he offers him a risky way out.",
+      "chapters": "97",
+      "episodes": "48, 50",
+      "released": "2026-10-26",
+      "hashes": {
+        "crc32": "1EFBB55B",
+        "blake2": ""
+      }
+    },
     "1FDB8A9C": {
       "arc": 36,
       "episode": 8,
@@ -1386,20 +1400,6 @@
       "released": "2023-10-28",
       "hashes": {
         "crc32": "236CCF51",
-        "blake2": ""
-      }
-    },
-    "23E3E489": {
-      "arc": 8,
-      "episode": 3,
-      "title": "The Legend Has Begun",
-      "originaltitle": "",
-      "description": "Luffy arrives at the execution platform, only to be caught in Buggy and Alvida's trap. Sanji and Zoro rush to stop Buggy from poetically\u2014and flashily\u2014executing Luffy where Roger died.",
-      "chapters": "98-100",
-      "episodes": "52-53",
-      "released": "2020-09-22",
-      "hashes": {
-        "crc32": "23E3E489",
         "blake2": ""
       }
     },
@@ -2254,20 +2254,6 @@
       "released": "2014-09-14",
       "hashes": {
         "crc32": "415455AE",
-        "blake2": ""
-      }
-    },
-    "4200CE0D": {
-      "arc": 8,
-      "episode": 1,
-      "title": "The Town of Beginnings and Endings",
-      "originaltitle": "",
-      "description": "Touting a fresh bounty issued by Marine HQ, Luffy and co. make landfall at Loguetown, the place where Gold Roger was both born and executed. Being the last stop before the Grand Line, the crew stocks up on supplies and sightsees.",
-      "chapters": "96-97",
-      "episodes": "45, 48-49",
-      "released": "2020-09-22",
-      "hashes": {
-        "crc32": "4200CE0D",
         "blake2": ""
       }
     },
@@ -3727,6 +3713,20 @@
         "blake2": ""
       }
     },
+    "7191C79A": {
+      "arc": 8,
+      "episode": 1,
+      "title": "The Town of Beginnings and Endings",
+      "originaltitle": "",
+      "description": "Touting a fresh bounty issued by Marine HQ, Luffy and co. make landfall at Loguetown, the place where Gold Roger was both born and executed. Being the last stop before the Grand Line, the crew stocks up on supplies and sightsees.",
+      "chapters": "96-97",
+      "episodes": "45, 48-49",
+      "released": "2026-10-26",
+      "hashes": {
+        "crc32": "7191C79A",
+        "blake2": ""
+      }
+    },
     "71CA89FC": {
       "arc": 31,
       "episode": 26,
@@ -4424,20 +4424,6 @@
       "released": "2013-11-13",
       "hashes": {
         "crc32": "8B836836",
-        "blake2": ""
-      }
-    },
-    "8E970FD4": {
-      "arc": 8,
-      "episode": 2,
-      "title": "Parallels",
-      "originaltitle": "",
-      "description": "Usopp manages to anger the brat daughter of bounty hunter Daddy the Father and finds his own life at stake. When Daddy discovers that Usopp is the son of Red Hair Pirate Yasopp, the only man to beat him, he offers him a risky way out.",
-      "chapters": "97",
-      "episodes": "48, 50",
-      "released": "2020-09-22",
-      "hashes": {
-        "crc32": "8E970FD4",
         "blake2": ""
       }
     },
@@ -5558,6 +5544,20 @@
       "released": "2015-01-23",
       "hashes": {
         "crc32": "BE72EB0E",
+        "blake2": ""
+      }
+    },
+    "BE8D8724": {
+      "arc": 8,
+      "episode": 3,
+      "title": "The Legend Has Begun",
+      "originaltitle": "",
+      "description": "Luffy arrives at the execution platform, only to be caught in Buggy and Alvida's trap. Sanji and Zoro rush to stop Buggy from poetically\u2014and flashily\u2014executing Luffy where Roger died.",
+      "chapters": "98-100",
+      "episodes": "52-53",
+      "released": "2026-10-26",
+      "hashes": {
+        "crc32": "BE8D8724",
         "blake2": ""
       }
     },
@@ -6986,6 +6986,20 @@
       "released": "2017-03-26",
       "hashes": {
         "crc32": "ECD80B22",
+        "blake2": ""
+      }
+    },
+    "ED297337": {
+      "arc": 8,
+      "episode": 1,
+      "title": "The Town of Beginnings and Endings",
+      "originaltitle": "",
+      "description": "Touting a fresh bounty issued by Marine HQ, Luffy and co. make landfall at Loguetown, the place where Gold Roger was both born and executed. Being the last stop before the Grand Line, the crew stocks up on supplies and sightsees.",
+      "chapters": "96-97",
+      "episodes": "45, 48-49",
+      "released": "2026-10-26",
+      "hashes": {
+        "crc32": "ED297337",
         "blake2": ""
       }
     },
