@@ -1,0 +1,19 @@
+arc: 14
+episode: 1
+
+manga_chapters: 155-157
+anime_episodes: 92, 94
+released: 2026-11-03 13:28:19
+duration: 0
+extended: false
+
+hashes:
+  crc32: 7EDFBC7A
+  blake2s: ''
+
+file:
+  id: 2181909
+  name: '[One Pace][155-157] Alabasta 01 [1080p][7EDFBC7A].mkv'
+  size: 804.0 MiB
+  hash: c37f33461b04ad4b373bc4fcad8460fbea2c196b
+  index: 0

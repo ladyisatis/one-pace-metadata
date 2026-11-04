@@ -527,10 +527,10 @@ en:
     and beat the Warlord Crocodile.
   episodes:
   - episode: '01'
-    standard: BB1D093C
+    standard: 7EDFBC7A
     extended: ''
   - episode: '02'
-    standard: E4BA97D6
+    standard: A4AF9BF1
     extended: ''
   - episode: '03'
     standard: '73003149'

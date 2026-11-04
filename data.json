@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-10-26T16:37:11+00:00",
-  "last_update_ts": 1793032631,
+  "last_update": "2026-11-04T23:20:58+00:00",
+  "last_update_ts": 1793834458,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -4147,6 +4147,20 @@
         "blake2": ""
       }
     },
+    "7EDFBC7A": {
+      "arc": 14,
+      "episode": 1,
+      "title": "Sir Crocodile, the Pirate",
+      "originaltitle": "",
+      "description": "In Arabasta, the hero Crocodile appears and puts a decisive end to a pillaging band of pirates. Meanwhile, Mr. 2 Bon Kurei pays a visit to the newly arrived Straw Hats. When he puts his abilities on display, Vivi notices something shocking.",
+      "chapters": "155-157",
+      "episodes": "92, 94",
+      "released": "2026-11-03",
+      "hashes": {
+        "crc32": "7EDFBC7A",
+        "blake2": ""
+      }
+    },
     "7F73DB45": {
       "arc": 32,
       "episode": 6,
@@ -4931,6 +4945,20 @@
         "blake2": ""
       }
     },
+    "A4AF9BF1": {
+      "arc": 14,
+      "episode": 2,
+      "title": "Landfall in Alabasta",
+      "originaltitle": "Landfall in Arabasta",
+      "description": "The Merry makes landfall at Arabasta's port town, and while the rest of the Straw Hats wisely don disguises, Luffy runs afoul of an old foe. However, a chance reunion with a flame-wielding member of Luffy's family might just be the saving grace he needs!",
+      "chapters": "157-159",
+      "episodes": "93-95",
+      "released": "2026-11-03",
+      "hashes": {
+        "crc32": "A4AF9BF1",
+        "blake2": ""
+      }
+    },
     "A4F76B13": {
       "arc": 32,
       "episode": 4,
@@ -5474,20 +5502,6 @@
       "released": "2023-12-08",
       "hashes": {
         "crc32": "BAFFE801",
-        "blake2": ""
-      }
-    },
-    "BB1D093C": {
-      "arc": 14,
-      "episode": 1,
-      "title": "Sir Crocodile, the Pirate",
-      "originaltitle": "",
-      "description": "In Arabasta, the hero Crocodile appears and puts a decisive end to a pillaging band of pirates. Meanwhile, Mr. 2 Bon Kurei pays a visit to the newly arrived Straw Hats. When he puts his abilities on display, Vivi notices something shocking.",
-      "chapters": "155-157",
-      "episodes": "92",
-      "released": "2022-05-14",
-      "hashes": {
-        "crc32": "BB1D093C",
         "blake2": ""
       }
     },
@@ -6650,20 +6664,6 @@
       "released": "2016-09-30",
       "hashes": {
         "crc32": "E4B077F8",
-        "blake2": ""
-      }
-    },
-    "E4BA97D6": {
-      "arc": 14,
-      "episode": 2,
-      "title": "Landfall in Alabasta",
-      "originaltitle": "Landfall in Arabasta",
-      "description": "The Merry makes landfall at Arabasta's port town, and while the rest of the Straw Hats wisely don disguises, Luffy runs afoul of an old foe. However, a chance reunion with a flame-wielding member of Luffy's family might just be the saving grace he needs!",
-      "chapters": "157-159",
-      "episodes": "93-95",
-      "released": "2023-06-05",
-      "hashes": {
-        "crc32": "E4BA97D6",
         "blake2": ""
       }
     },
