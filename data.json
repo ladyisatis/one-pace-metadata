@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-11-04T23:20:58+00:00",
-  "last_update_ts": 1793834458,
+  "last_update": "2026-11-09T05:11:44+00:00",
+  "last_update_ts": 1794201104,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -3279,20 +3279,6 @@
         "blake2": ""
       }
     },
-    "659EF70C": {
-      "arc": 20,
-      "episode": 4,
-      "title": "Forgive Yourself! Frankly Departs!",
-      "originaltitle": "",
-      "description": "The Straw Hats have barely had time to marvel at their new bounties when a new surprise awaits them: the unveiling of their magnificent new ship. The next step is bringing a shipwright into their ranks, and there is only one man for the job.",
-      "chapters": "438-439",
-      "episodes": "323-324",
-      "released": "2013-06-26",
-      "hashes": {
-        "crc32": "659EF70C",
-        "blake2": ""
-      }
-    },
     "65BD682D": {
       "arc": 29,
       "episode": 23,
@@ -5810,6 +5796,20 @@
       "released": "2022-08-25",
       "hashes": {
         "crc32": "C51CB284",
+        "blake2": ""
+      }
+    },
+    "C57AE4F8": {
+      "arc": 20,
+      "episode": 4,
+      "title": "Forgive Yourself! Frankly Departs!",
+      "originaltitle": "",
+      "description": "The Straw Hats have barely had time to marvel at their new bounties when a new surprise awaits them: the unveiling of their magnificent new ship. The next step is bringing a shipwright into their ranks, and there is only one man for the job.",
+      "chapters": "436-437",
+      "episodes": "321-322",
+      "released": "2026-11-08",
+      "hashes": {
+        "crc32": "C57AE4F8",
         "blake2": ""
       }
     },
