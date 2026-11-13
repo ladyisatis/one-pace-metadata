@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-11-09T05:11:44+00:00",
-  "last_update_ts": 1794201104,
+  "last_update": "2026-11-13T21:14:40+00:00",
+  "last_update_ts": 1794604480,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -1238,9 +1238,9 @@
     "1EFBB55B": {
       "arc": 8,
       "episode": 2,
-      "title": "Parallels",
+      "title": "Luffy Is Dead",
       "originaltitle": "",
-      "description": "Usopp manages to anger the brat daughter of bounty hunter Daddy the Father and finds his own life at stake. When Daddy discovers that Usopp is the son of Red Hair Pirate Yasopp, the only man to beat him, he offers him a risky way out.",
+      "description": "Luffy arrives at the execution platform, only to be caught in Buggy and Alvida's trap. Sanji and Zoro rush to stop Buggy from poetically\u2014and flashily\u2014executing Luffy where Roger died.",
       "chapters": "97",
       "episodes": "48, 50",
       "released": "2026-10-26",
@@ -3702,7 +3702,7 @@
     "7191C79A": {
       "arc": 8,
       "episode": 1,
-      "title": "The Town of Beginnings and Endings",
+      "title": "Kitetsu III",
       "originaltitle": "",
       "description": "Touting a fresh bounty issued by Marine HQ, Luffy and co. make landfall at Loguetown, the place where Gold Roger was both born and executed. Being the last stop before the Grand Line, the crew stocks up on supplies and sightsees.",
       "chapters": "96-97",
@@ -5550,9 +5550,9 @@
     "BE8D8724": {
       "arc": 8,
       "episode": 3,
-      "title": "The Legend Has Begun",
+      "title": "The Legend Begins",
       "originaltitle": "",
-      "description": "Luffy arrives at the execution platform, only to be caught in Buggy and Alvida's trap. Sanji and Zoro rush to stop Buggy from poetically\u2014and flashily\u2014executing Luffy where Roger died.",
+      "description": "With Buggy's plan miraculously foiled and Captain \"White Chase\" Smoker now entering the fray, it's a mad dash for the Grand Line as the hands of fate push the Straw Hats toward their destiny.",
       "chapters": "98-100",
       "episodes": "52-53",
       "released": "2026-10-26",
@@ -5802,7 +5802,7 @@
     "C57AE4F8": {
       "arc": 20,
       "episode": 4,
-      "title": "Forgive Yourself! Frankly Departs!",
+      "title": "Briefs from Franky House",
       "originaltitle": "",
       "description": "The Straw Hats have barely had time to marvel at their new bounties when a new surprise awaits them: the unveiling of their magnificent new ship. The next step is bringing a shipwright into their ranks, and there is only one man for the job.",
       "chapters": "436-437",
@@ -6992,7 +6992,7 @@
     "ED297337": {
       "arc": 8,
       "episode": 1,
-      "title": "The Town of Beginnings and Endings",
+      "title": "Kitetsu III",
       "originaltitle": "",
       "description": "Touting a fresh bounty issued by Marine HQ, Luffy and co. make landfall at Loguetown, the place where Gold Roger was both born and executed. Being the last stop before the Grand Line, the crew stocks up on supplies and sightsees.",
       "chapters": "96-97",
