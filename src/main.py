@@ -264,7 +264,7 @@ class OnePaceMetadata:
 
         for k, v in title_props.items():
             match = pattern.match(k)
-            if not match:
+            if not match or "." in match.group("num"):
                 continue
 
             arc_name = match.group("arc")
@@ -514,7 +514,7 @@ class OnePaceMetadata:
                 title = self.unicode_fix(row[title_key].strip())
                 description = self.unicode_fix(row[desc_key].strip())
 
-                if arc == "" or episode == "" or title == "":
+                if arc == "" or episode == "" or title == "" or "." in episode:
                     continue
 
                 if arc in self.arc_to_num:
@@ -749,7 +749,7 @@ class OnePaceMetadata:
             if isinstance(mkv_crc32_extended, str):
                 mkv_crc32_extended = [mkv_crc32_extended, ""]
 
-            if op_id == "" or chapters == "" or episodes == "" or len(mkv_crc32) == 0:
+            if op_id == "" or chapters == "" or episodes == "" or len(mkv_crc32) == 0 or "." in op_id:
                 continue
 
             match = re.search(r'(\d+)', op_id)
