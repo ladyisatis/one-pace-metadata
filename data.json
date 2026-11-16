@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-11-15T00:51:14+00:00",
-  "last_update_ts": 1794703874,
+  "last_update": "2026-11-16T07:43:49+00:00",
+  "last_update_ts": 1794815029,
   "base_url": "https://raw.githubusercontent.com/ladyisatis/one-pace-metadata/refs/heads/v2",
   "tvshow": {
     "title": "One Piece",
@@ -2758,20 +2758,6 @@
       "released": "2026-09-20",
       "hashes": {
         "crc32": "562018E8",
-        "blake2": ""
-      }
-    },
-    "5636E014": {
-      "arc": 29,
-      "episode": 3,
-      "title": "Landing on Fishman Island! The Mermaid Cove and Gyoverly Hills!",
-      "originaltitle": "",
-      "description": "After a near miss with a creepy undersea ship and Fishman Island in sight, Luffy's crew is halted by a group of fishmen riding atop sea kings. But time is of the essence, so the Straw Hats attempt a desperate maneuver.",
-      "chapters": "607-608",
-      "episodes": "526-527",
-      "released": "2013-03-31",
-      "hashes": {
-        "crc32": "5636E014",
         "blake2": ""
       }
     },
@@ -5754,6 +5740,20 @@
       "released": "2021-09-10",
       "hashes": {
         "crc32": "C3825063",
+        "blake2": ""
+      }
+    },
+    "C3961CBC": {
+      "arc": 29,
+      "episode": 3,
+      "title": "Landing on Fishman Island! The Mermaid Cove and Gyoverly Hills!",
+      "originaltitle": "",
+      "description": "After a near miss with a creepy undersea ship and Fishman Island in sight, Luffy's crew is halted by a group of fishmen riding atop sea kings. But time is of the essence, so the Straw Hats attempt a desperate maneuver.",
+      "chapters": "607-608",
+      "episodes": "526-527",
+      "released": "2026-11-16",
+      "hashes": {
+        "crc32": "C3961CBC",
         "blake2": ""
       }
     },
