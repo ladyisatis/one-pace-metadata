@@ -2249,6 +2249,9 @@ en:
   - episode: '62'
     standard: 562018E8
     extended: 3EC45BF1
+  - episode: '63'
+    standard: 45539BC1
+    extended: ''
   info:
     status: Work In Progress
     manga_chapters: 909 - 1057
