@@ -95,7 +95,7 @@ info:
   num_of_pace_eps: 25
   piece_minutes: 945
   pace_minutes: 588
-  audio_languages: JA,EN (1-10, 23-25)
+  audio_languages: JA, EN (1-10, 23-25)
   sub_languages: ''
   pixeldrain_only: ''
   resolution: 720p,1080p
